@@ -1,4 +1,5 @@
 import courseData from "./data/course.json";
+import screeningData from "./data/screening.json";
 import type { BlockName, Card, Course, Mcq, Topic, TopicBank } from "./types";
 
 export const BLOCKS: BlockName[] = ["Def", "Cause", "Patho", "Signs", "Dx", "Rx"];
@@ -110,10 +111,30 @@ export function bankFor(topicId: string): TopicBank {
   return topic ? fallbackBank(topic) : { summary: "", questions: [], cards: [] };
 }
 
-export const allItems: (Mcq | Card)[] = course.topics.flatMap((topic) => {
-  const bank = bankFor(topic.id);
-  return [...bank.questions, ...bank.cards];
-});
+type RawScreening = { n: number; q: string; a: string; topicId: string; caveat?: string };
+
+/** The university's 100 official screening questions, as oral-drill cards. */
+export const screening: Card[] = (screeningData as RawScreening[]).map((s) => ({
+  type: "card",
+  id: `S-${s.n}`,
+  topicId: s.topicId,
+  front: s.q.replace(/:\s*$/, "?"),
+  back: s.a,
+  university: true,
+  caveat: s.caveat,
+}));
+
+export function screeningFor(topicId: string): Card[] {
+  return screening.filter((card) => card.topicId === topicId);
+}
+
+export const allItems: (Mcq | Card)[] = [
+  ...course.topics.flatMap((topic) => {
+    const bank = bankFor(topic.id);
+    return [...bank.questions, ...bank.cards];
+  }),
+  ...screening,
+];
 export const itemById = new Map(allItems.map((item) => [item.id, item]));
 
 export const questionCount = allItems.filter((item) => item.type === "mcq").length;

@@ -216,7 +216,7 @@
      "Within target range, continue current management"
     ],
     "answer": 3,
-    "explain": "Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min. 82% at 5 minutes is on target; adjusting oxygen or compressing would be inappropriate.",
+    "explain": "Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min. 82% at 5 minutes is on target; adjusting oxygen or compressing would be inappropriate. (These are the US/NRP targets in your notes; European ERC 2021 uses ~65% at 2 min, 85% at 5 min, 90% at 10 min. 82% at 5 min is acceptable under both.)",
     "note": "Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min."
    },
    {
@@ -274,7 +274,7 @@
    {
     "type": "card",
     "front": "What are the target pre-ductal SpO₂ values after birth?",
-    "back": "3 min 70-75% • 5 min 80-85% • 10 min 85-95%. Measure on the right hand (pre-ductal); stethoscope first, then ECG/SpO₂ for heart rate."
+    "back": "3 min 70-75% • 5 min 80-85% • 10 min 85-95%. Measure on the right hand (pre-ductal); stethoscope first, then ECG/SpO₂ for heart rate. • ERC 2021 (Europe): 2 min 65%, 5 min 85%, 10 min 90%."
    },
    {
     "type": "card",

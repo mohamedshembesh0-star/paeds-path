@@ -1,13 +1,13 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ChangeEvent, type ReactNode } from "react";
 import { Link, Route, Switch, useLocation, useParams, useSearch } from "wouter";
 import {
-  Activity, ArrowLeft, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, ClipboardCheck, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
-import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, course, questionCount, studyOrder, topicById, topicLabel } from "./course";
+import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, course, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
 import {
   accuracy, blockAccuracy, buildPlan, completeLesson, dayKey, dueItems, emptyProgress, fromTransferCode, gradeItem, loadProgress, mergeProgress, mixedDrill, nextDueAt,
-  parseImport, recordOral, saveProgress, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
+  parseImport, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { Session, type SessionItem, type SessionResult } from "./Session";
@@ -66,11 +66,12 @@ const navItems = [
   { href: "/", label: "Today", icon: Home },
   { href: "/topics", label: "Topics", icon: Layers3 },
   { href: "/review", label: "Review", icon: RotateCcw },
+  { href: "/screening", label: "Screening", icon: ClipboardCheck },
   { href: "/oral", label: "Mock oral", icon: Mic },
   { href: "/progress", label: "Progress", icon: Activity },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
-const mobileNav = navItems.filter((n) => n.href !== "/settings");
+const mobileNav = navItems.filter((n) => n.href !== "/settings" && n.href !== "/progress");
 
 function AppShell({ children }: { children: ReactNode }) {
   const [location] = useLocation();
@@ -214,11 +215,11 @@ function HomePage() {
           <span>Weak-spot drill</span>
           <small>Questions you have missed and not yet locked in.</small>
         </Link>
-        <Link href="/review/mixed" className="action-card">
-          <span className="action-icon navy"><Shuffle size={19} /></span>
-          <b>20 mixed</b>
-          <span>Shuffled drill</span>
-          <small>Interleaved questions across the topics you've learned, weighted toward weak ones.</small>
+        <Link href="/screening" className="action-card">
+          <span className="action-icon navy"><ClipboardCheck size={19} /></span>
+          <b>{screeningStats(progress).solid}/100</b>
+          <span>University screening</span>
+          <small>The 100 official screening questions with their exact answers. Get all of them solid.</small>
         </Link>
         <Link href="/oral" className="action-card">
           <span className="action-icon mint"><Mic size={19} /></span>
@@ -357,6 +358,12 @@ function TopicPage() {
         </div>
       </div>
       <NotesBlocks topic={topic} />
+      {screeningFor(topic.id).length > 0 && (
+        <section className="synthesis-section">
+          <div className="section-title-row"><div><p className="eyebrow">ON THE UNIVERSITY SCREENING LIST</p><h2>Official screening questions</h2><p className="section-sub">Learn these answers word for word.</p></div></div>
+          <div className="screen-list">{screeningFor(topic.id).map((c) => <ScreeningRow key={c.id} card={c} />)}</div>
+        </section>
+      )}
       {bank.cards.length > 0 && (
         <section className="synthesis-section">
           <div className="section-title-row"><div><p className="eyebrow">WHAT THE EXAMINER WILL ASK</p><h2>Oral prompts</h2><p className="section-sub">Answer out loud before you open each one.</p></div></div>
@@ -406,7 +413,7 @@ function LessonPage() {
     if (!topic) return [];
     const bank = bankFor(topic.id);
     const qs = [...bank.questions].sort((a, b) => a.level - b.level);
-    return [...qs, ...bank.cards];
+    return [...qs, ...bank.cards, ...screeningFor(topic.id)];
   }, [topic, runKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "lesson")), [update]);
@@ -464,7 +471,7 @@ function LessonPage() {
       </div>
       <div className="sticky-start">
         <button className="button button-primary full-button big" onClick={() => setPhase("quiz")} autoFocus>
-          <span><Play size={17} /> Start: {bank.questions.length} questions + {bank.cards.length} oral drills</span><ArrowRight size={18} />
+          <span><Play size={17} /> Start: {bank.questions.length} questions + {bank.cards.length + screeningFor(topic.id).length} drills</span><ArrowRight size={18} />
         </button>
       </div>
     </div>
@@ -576,11 +583,12 @@ function ReviewSession() {
   const items = useMemo<SessionItem[]>(() => {
     if (mode === "due") return dueItems(progress).slice(0, 25);
     if (mode === "weak") return weakItems(progress).slice(0, 20);
+    if (mode === "screening") return screeningDrill(progress, 25);
     return mixedDrill(progress, 20);
   }, [mode, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "review")), [update]);
   const onFinish = useCallback((r: SessionResult) => { setResult(r); window.scrollTo(0, 0); }, []);
-  const title = mode === "due" ? "Due reviews" : mode === "weak" ? "Weak-spot drill" : "Mixed drill";
+  const title = mode === "due" ? "Due reviews" : mode === "weak" ? "Weak-spot drill" : mode === "screening" ? "University screening" : "Mixed drill";
 
   if (result) {
     const moreDue = dueItems(progress).length;
@@ -590,8 +598,8 @@ function ReviewSession() {
       <ResultView
         title={title}
         result={result}
-        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : "Another 20", href: `/review/${mode}?r=${round + 1}` } : { label: "Back to today", href: "/" }}
-        secondary={[{ label: "Review hub", href: "/review" }]}
+        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : "Another 20", href: `/review/${mode}?r=${round + 1}` } : { label: "Back to today", href: "/" }}
+        secondary={[{ label: mode === "screening" ? "All screening questions" : "Review hub", href: mode === "screening" ? "/screening" : "/review" }]}
       />
     );
   }
@@ -608,7 +616,7 @@ function ReviewSession() {
       </div>
     );
   }
-  return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/review")} header={title.toUpperCase()} />;
+  return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(mode === "screening" ? "/screening" : "/review")} header={title.toUpperCase()} />;
 }
 
 /** Wouter keeps the component mounted when only the query changes; key on search to restart rounds. */
@@ -616,6 +624,59 @@ function ReviewSessionRoute() {
   const [location] = useLocation();
   const search = useSearch();
   return <ReviewSession key={`${location}?${search}`} />;
+}
+
+/* ------------------------------------------------------------------ screening */
+
+function ScreeningRow({ card, showTopic }: { card: (typeof screening)[number]; showTopic?: boolean }) {
+  const { progress } = useStore();
+  const st = progress.items[card.id];
+  const topic = topicById.get(card.topicId)!;
+  const status = !st ? "new" : st.box >= 3 ? "solid" : "shaky";
+  return (
+    <details className={`screen-row ${status}`}>
+      <summary>
+        <span className="screen-n">{card.id.slice(2)}</span>
+        <span className="screen-q">{card.front}{showTopic && <small>{topicLabel(topic)} · {topic.title}</small>}</span>
+        <span className={`screen-status ${status}`}>{status === "new" ? "NEW" : status === "solid" ? "SOLID" : "SHAKY"}</span>
+      </summary>
+      <div className="screen-a"><b>{card.back}</b>{card.caveat && <p className="caveat">Note: {card.caveat}</p>}{showTopic && <Link className="text-link" href={`/topic/${topic.id}`}>Open topic <ArrowRight size={13} /></Link>}</div>
+    </details>
+  );
+}
+
+function ScreeningPage() {
+  const { progress } = useStore();
+  const [query, setQuery] = useState("");
+  const [filter, setFilter] = useState<"all" | "new" | "shaky" | "solid">("all");
+  const stats = screeningStats(progress);
+  const q = query.trim().toLowerCase();
+  const list = screening.filter((c) => {
+    if (q && !`${c.front} ${c.back}`.toLowerCase().includes(q)) return false;
+    const st = progress.items[c.id];
+    if (filter === "new") return !st;
+    if (filter === "shaky") return !!st && st.box < 3;
+    if (filter === "solid") return !!st && st.box >= 3;
+    return true;
+  });
+  return (
+    <div className="page-wrap">
+      <header className="page-heading simple-heading">
+        <div><p className="eyebrow">THE UNIVERSITY'S OWN LIST</p><h1>100 screening<br /><em>questions.</em></h1><p className="lede">These come with the university's official answers. Drill them until every one is solid: say the answer, reveal it, and be strict with yourself. Each one also appears inside its topic's lesson, and they are spaced like everything else.</p></div>
+        <div className="review-stat"><ClipboardCheck size={20} /><b>{stats.solid}</b><span>solid / 100</span></div>
+      </header>
+      <div className="screen-meter"><div className="progress-track"><span style={{ width: `${stats.solid}%` }} /></div><small>{stats.seen} seen · {stats.solid} solid · {stats.shaky} shaky · {stats.total - stats.seen} new</small></div>
+      <div className="oral-setup">
+        <Link href="/review/screening" className="button button-primary big"><Play size={17} /> Drill 25 {stats.seen < stats.total ? "(new first)" : "(weakest first)"}</Link>
+      </div>
+      <div className="filter-row">
+        <label className="search-box"><Search size={17} /><input aria-label="Search screening questions" placeholder="Search questions and answers" value={query} onChange={(e) => setQuery(e.target.value)} />{query && <button aria-label="Clear search" onClick={() => setQuery("")}><X size={15} /></button>}</label>
+        <div className="segmented">{(["all", "new", "shaky", "solid"] as const).map((f) => <button key={f} className={filter === f ? "on" : ""} onClick={() => setFilter(f)}>{f[0].toUpperCase() + f.slice(1)}</button>)}</div>
+      </div>
+      <div className="screen-list">{list.map((c) => <ScreeningRow key={c.id} card={c} showTopic />)}</div>
+      {list.length === 0 && <p className="subtle-note">Nothing matches.</p>}
+    </div>
+  );
 }
 
 /* ------------------------------------------------------------------ mock oral */
@@ -975,6 +1036,7 @@ export default function App() {
           <Route path="/learn/:topicId" component={LessonPage} />
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode" component={ReviewSessionRoute} />
+          <Route path="/screening" component={ScreeningPage} />
           <Route path="/oral" component={OralPage} />
           <Route path="/progress" component={ProgressPage} />
           <Route path="/settings" component={SettingsPage} />

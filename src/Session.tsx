@@ -244,13 +244,13 @@ function CardView({ card, revealed, verdict, onReveal, onJudge, showTopic, topic
   return (
     <div className="question-card card-mode">
       <div className="question-meta">
-        <span className="question-type">{retry ? "RETRY · " : ""}SAY IT OUT LOUD · ORAL DRILL</span>
+        <span className={`question-type ${card.university ? "uni" : ""}`}>{retry ? "RETRY · " : ""}{card.university ? "UNIVERSITY SCREENING QUESTION" : "SAY IT OUT LOUD · ORAL DRILL"}</span>
         {showTopic && <span className="question-source">{topicTitle}</span>}
       </div>
       <h2 className="question-stem">{card.front}</h2>
       {!revealed ? (
         <div className="recall-before">
-          <p>Answer aloud or in your head as if the examiner just asked. Then check yourself honestly.</p>
+          <p>{card.university ? "This is on the university's screening list. Say your answer, then check it against their official wording." : "Answer aloud or in your head as if the examiner just asked. Then check yourself honestly."}</p>
           <button className="button button-primary full-button" onClick={onReveal}>
             <span><Eye size={16} /> Reveal model answer</span> <ArrowRight size={17} />
           </button>
@@ -258,8 +258,9 @@ function CardView({ card, revealed, verdict, onReveal, onJudge, showTopic, topic
       ) : (
         <>
           <div className="recall-answer">
-            <p className="eyebrow">MODEL ANSWER</p>
+            <p className="eyebrow">{card.university ? "OFFICIAL ANSWER: WRITE IT LIKE THIS" : "MODEL ANSWER"}</p>
             {lines.length > 1 ? <ul>{lines.map((line, i) => <li key={i}>{line}</li>)}</ul> : <p className="recall-single">{card.back}</p>}
+            {card.caveat && <p className="caveat">Note: {card.caveat}</p>}
           </div>
           <div className="recall-ratings two">
             <button className={verdict === false ? "chosen bad" : ""} onClick={() => onJudge(false)} disabled={verdict !== null}><X size={15} /> Missed parts — show again</button>

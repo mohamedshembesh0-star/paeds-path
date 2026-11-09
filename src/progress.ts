@@ -1,4 +1,4 @@
-import { allItems, bankFor, course, itemById, studyOrder, topicById } from "./course";
+import { allItems, bankFor, course, itemById, screening, studyOrder, topicById } from "./course";
 import type { BlockName, Card, ItemState, Mcq, Progress, Topic, TopicState } from "./types";
 
 const KEY = "paeds-path-v2";
@@ -198,7 +198,7 @@ export function gradeItem(progress: Progress, itemId: string, correct: boolean, 
   const prev = progress.items[itemId];
   let box: number;
   if (!correct || !firstTry) box = 1; // a miss (or a retry after a miss this session) restarts the ladder
-  else if (!prev || prev.seen === 0) box = mode === "lesson" ? 3 : 2;
+  else if (!prev || prev.seen === 0) box = mode === "lesson" || itemId.startsWith("S-") ? 3 : 2;
   else box = Math.min(MAX_BOX, Math.max(prev.box, 0) + 1);
   const state: ItemState = {
     box,
@@ -308,7 +308,33 @@ export function dueItems(progress: Progress, now = Date.now()): (Mcq | Card)[] {
     .filter(([id, state]) => state.due <= now && itemById.has(id))
     .sort(([, a], [, b]) => a.box - b.box || a.due - b.due)
     .map(([id]) => itemById.get(id)!)
-    .filter((item) => !!progress.topics[item.topicId] || progress.items[item.id].box <= 1);
+    .filter((item) => (item.type === "card" && item.university) || !!progress.topics[item.topicId] || progress.items[item.id].box <= 1);
+}
+
+/** Screening drill: never-seen first (in list order), then the shakiest / most overdue. */
+export function screeningDrill(progress: Progress, size = 25): Card[] {
+  const now = Date.now();
+  const unseen = screening.filter((c) => !progress.items[c.id]);
+  const seen = screening
+    .filter((c) => progress.items[c.id])
+    .sort((a, b) => {
+      const sa = progress.items[a.id], sb = progress.items[b.id];
+      const da = sa.due <= now ? 0 : 1, db = sb.due <= now ? 0 : 1;
+      return da - db || sa.box - sb.box || sa.due - sb.due;
+    });
+  return [...unseen, ...seen].slice(0, size);
+}
+
+export function screeningStats(progress: Progress) {
+  let seen = 0, solid = 0, shaky = 0;
+  for (const c of screening) {
+    const s = progress.items[c.id];
+    if (!s) continue;
+    seen += 1;
+    if (s.box >= 3) solid += 1;
+    else shaky += 1;
+  }
+  return { total: screening.length, seen, solid, shaky };
 }
 
 export function weakItems(progress: Progress): (Mcq | Card)[] {

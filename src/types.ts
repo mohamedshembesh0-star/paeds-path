@@ -30,6 +30,8 @@ export type Card = {
   topicId: string;
   front: string;
   back: string;
+  university?: boolean; // from the university's official screening list
+  caveat?: string;
 };
 
 export type TopicBank = { summary: string; questions: Mcq[]; cards: Card[] };
