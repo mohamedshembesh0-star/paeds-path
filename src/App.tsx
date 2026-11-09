@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ChangeEvent, type ReactNode } from "react";
-import { Link, Route, Switch, useLocation, useParams, useSearch } from "wouter";
+import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import {
   Activity, ArrowLeft, ClipboardCheck, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
@@ -573,11 +574,10 @@ function ReviewHub() {
 }
 
 function ReviewSession() {
-  const { mode } = useParams<{ mode: string }>();
+  const { mode, round: roundParam } = useParams<{ mode: string; round?: string }>();
   const { progress, update } = useStore();
   const [, navigate] = useLocation();
-  const search = useSearch();
-  const round = Number(new URLSearchParams(search).get("r") ?? 0) || 0;
+  const round = Number(roundParam ?? 0) || 0;
   const [result, setResult] = useState<SessionResult | null>(null);
   // Freeze the item list at the start of each round.
   const items = useMemo<SessionItem[]>(() => {
@@ -598,7 +598,7 @@ function ReviewSession() {
       <ResultView
         title={title}
         result={result}
-        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : "Another 20", href: `/review/${mode}?r=${round + 1}` } : { label: "Back to today", href: "/" }}
+        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : "Another 20", href: `/review/${mode}/${round + 1}` } : { label: "Back to today", href: "/" }}
         secondary={[{ label: mode === "screening" ? "All screening questions" : "Review hub", href: mode === "screening" ? "/screening" : "/review" }]}
       />
     );
@@ -619,11 +619,10 @@ function ReviewSession() {
   return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(mode === "screening" ? "/screening" : "/review")} header={title.toUpperCase()} />;
 }
 
-/** Wouter keeps the component mounted when only the query changes; key on search to restart rounds. */
+/** Remount on every round so each one starts fresh. */
 function ReviewSessionRoute() {
   const [location] = useLocation();
-  const search = useSearch();
-  return <ReviewSession key={`${location}?${search}`} />;
+  return <ReviewSession key={location} />;
 }
 
 /* ------------------------------------------------------------------ screening */
@@ -1024,8 +1023,12 @@ function ScrollTop() {
   return null;
 }
 
+/** Opened straight from disk (the offline Mac copy): use #/ links so every page works without a server. */
+const offline = typeof window !== "undefined" && window.location.protocol === "file:";
+
 export default function App() {
   return (
+    <Router hook={offline ? useHashLocation : undefined}>
     <StoreProvider>
       <ScrollTop />
       <AppShell>
@@ -1035,7 +1038,7 @@ export default function App() {
           <Route path="/topic/:topicId" component={TopicPage} />
           <Route path="/learn/:topicId" component={LessonPage} />
           <Route path="/review" component={ReviewHub} />
-          <Route path="/review/:mode" component={ReviewSessionRoute} />
+          <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
           <Route path="/screening" component={ScreeningPage} />
           <Route path="/oral" component={OralPage} />
           <Route path="/progress" component={ProgressPage} />
@@ -1044,6 +1047,7 @@ export default function App() {
         </Switch>
       </AppShell>
     </StoreProvider>
+    </Router>
   );
 }
 
