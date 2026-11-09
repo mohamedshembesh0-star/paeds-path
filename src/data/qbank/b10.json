@@ -1,0 +1,2132 @@
+{
+ "III-41": {
+  "summary": "Think of chronic liver failure as three lost jobs: can't clear (jaundice, itch), can't build (INR, albumin) and can't flow (portal hypertension). Biliary atresia is the commonest cause, and Wilson disease is the treatable one you must not miss in any child over 4-5 years.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A 6-year-old with chronic liver disease is being assessed. Which pair of findings most directly reflects loss of hepatic synthetic function?",
+    "options": [
+     "Conjugated hyperbilirubinaemia and pruritus",
+     "Low albumin and prolonged INR",
+     "Splenomegaly and oesophageal varices",
+     "Pale stools and dark urine"
+    ],
+    "answer": 1,
+    "explain": "Synthesis = 'can't build': albumin and clotting factors fall. Jaundice and itch reflect failed clearance, and splenomegaly and varices reflect failed flow (portal hypertension).",
+    "note": "Chronic loss of hepatic clearance, synthesis and flow in children."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of chronic liver failure in children?",
+    "options": [
+     "Biliary atresia",
+     "Alpha-1 antitrypsin deficiency",
+     "Wilson disease",
+     "Autoimmune hepatitis"
+    ],
+    "answer": 0,
+    "explain": "Biliary atresia is the commonest cause of chronic liver failure and of paediatric liver transplantation. A1AT deficiency is the commonest genetic cause, but it is less common overall.",
+    "note": "Commonest cause of chronic liver failure in children: biliary atresia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 13-year-old boy has a new tremor, slurred speech and falling school grades. Bloods show raised transaminases and a Coombs-negative haemolytic anaemia. What is the underlying mechanism?",
+    "options": [
+     "Defective ATP7A-mediated intestinal copper absorption",
+     "Increased intestinal iron absorption from HFE mutation",
+     "Misfolded protein retained in hepatocyte endoplasmic reticulum",
+     "Failure of ATP7B to excrete copper into bile"
+    ],
+    "answer": 3,
+    "explain": "This is Wilson disease (AR, ATP7B): copper can't reach the bile, so it builds up in the liver, basal ganglia and cornea and causes haemolysis. ATP7A is Menkes disease (copper deficiency), and ER retention describes A1AT deficiency.",
+    "note": "Wilson: copper can't reach bile → liver, basal ganglia, cornea, haemolysis."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-year-old with Alagille syndrome and long-standing cholestasis has night blindness, bowed legs and easy bruising. What best explains this combination?",
+    "options": [
+     "Hypersplenism from portal hypertension",
+     "Protein-losing enteropathy from portal congestion",
+     "Hyperammonaemia from portosystemic shunting",
+     "Fat-soluble vitamin malabsorption from absent bile flow"
+    ],
+    "answer": 3,
+    "explain": "Without bile, fats and vitamins A, D, E and K are not absorbed: A deficiency causes night blindness, D causes rickets and K causes bruising (ADEK deficiency). Hypersplenism could explain bruising alone, but not night blindness or rickets.",
+    "note": "Jaundice, pale stools, pruritus, bruising, ascites, splenomegaly, varices, ADEK deficiency."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 14-year-old girl presents with acute liver failure. She has a Coombs-negative haemolytic anaemia, a disproportionately low alkaline phosphatase and no drug or toxin exposure. What is the most likely diagnosis?",
+    "options": [
+     "Autoimmune hepatitis type 1",
+     "Paracetamol overdose",
+     "Acute hepatitis A",
+     "Wilson disease"
+    ],
+    "answer": 3,
+    "explain": "Acute liver failure with Coombs-negative haemolysis suggests Wilson disease, because necrotic hepatocytes release free copper that lyses red cells. Autoimmune hepatitis can cause Coombs-positive haemolysis, and paracetamol and hepatitis A do not typically cause haemolysis.",
+    "note": "Acute liver failure with Coombs-negative haemolysis suggests Wilson disease."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A cholestatic 8-week-old has an INR of 2.4. Twelve hours after IV vitamin K the INR is still 2.3. How should this be interpreted?",
+    "options": [
+     "Vitamin K malabsorption from cholestasis",
+     "Synthetic liver failure",
+     "Disseminated intravascular coagulation from sepsis",
+     "Inadequate vitamin K dose; repeat orally"
+    ],
+    "answer": 1,
+    "explain": "If the INR corrects after IV vitamin K, the problem was vitamin K malabsorption. If it does not correct, the liver cannot make clotting factors, which means synthetic failure. Oral repeat dosing makes no sense because IV vitamin K bypasses absorption.",
+    "note": "INR not correcting with IV vitamin K = synthetic liver failure."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old with chronic cholestasis is waking at night scratching despite ursodeoxycholic acid. Which additional drug most directly targets the itch?",
+    "options": [
+     "Rifaximin",
+     "Cholestyramine",
+     "Spironolactone",
+     "Lactulose"
+    ],
+    "answer": 1,
+    "explain": "Cholestyramine binds bile acids in the gut and relieves cholestatic pruritus, alongside ursodeoxycholic acid. Rifaximin lowers ammoniagenic bacteria (encephalopathy), spironolactone treats ascites and lactulose treats encephalopathy.",
+    "note": "Cholestatic children: MCT formula + ADEK; ursodeoxycholic acid, cholestyramine for itch."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 12-year-old with confirmed symptomatic hepatic Wilson disease (low caeruloplasmin, high urinary copper, KF rings) has preserved synthetic function. What is the most appropriate long-term plan?",
+    "options": [
+     "Zinc alone first, adding chelation only if neurological signs appear",
+     "Urgent liver transplantation listing",
+     "Desferrioxamine chelation with regular venesection",
+     "Penicillamine or trientine, followed by zinc maintenance"
+    ],
+    "answer": 3,
+    "explain": "Symptomatic Wilson disease is treated with chelation (penicillamine or trientine), then zinc for maintenance. Transplantation is kept for end-stage or fulminant disease. Desferrioxamine and venesection treat iron overload.",
+    "note": "Wilson: penicillamine/trientine, then zinc; end-stage: liver transplantation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Chronic liver failure: what are the three failed functions, and which signs go with each?",
+    "back": "Clearance → jaundice, pruritus, pale stools • Synthesis → INR not correcting with IV vit K, low albumin, bruising • Flow → portal hypertension: ascites, splenomegaly, varices • plus ADEK deficiency"
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose and treat Wilson disease?",
+    "back": "AR, ATP7B; symptoms after 4-5 y. Dx: low caeruloplasmin, high 24-h urinary copper, KF rings, ATP7B genetics; ALF with Coombs-negative haemolysis is a clue. Rx: penicillamine/trientine → zinc; end-stage → transplant."
+   },
+   {
+    "type": "card",
+    "front": "Outline supportive management of chronic cholestatic liver disease in a child.",
+    "back": "MCT formula + ADEK • ursodeoxycholic acid; cholestyramine for itch • ascites: spironolactone • encephalopathy: lactulose, rifaximin • varices: band ligation • end-stage: transplant"
+   }
+  ]
+ },
+ "III-42": {
+  "summary": "Any term baby who is still jaundiced after 2 weeks needs a split (conjugated) bilirubin. A thriving baby with pale stools has biliary atresia until proven otherwise, and the Kasai works best before about 6 weeks.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which description best defines the core lesion of biliary atresia?",
+    "options": [
+     "Paucity of intrahepatic interlobular bile ducts",
+     "Progressive fibro-obliteration of the extrahepatic bile ducts",
+     "Cystic dilatation of the common bile duct",
+     "Defective bile acid transport across the canalicular membrane"
+    ],
+    "answer": 1,
+    "explain": "Biliary atresia is a progressive fibro-obliterative disease of the extrahepatic ducts in infancy. Duct paucity is Alagille syndrome, cystic dilatation is a choledochal cyst and transporter defects are PFIC.",
+    "note": "Progressive fibro-obliteration of extrahepatic bile ducts in infancy."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A jaundiced 5-week-old with acholic stools is found on ultrasound to have a midline liver, several small spleens and an interrupted IVC. What is the most likely cause of the jaundice?",
+    "options": [
+     "Syndromic (polysplenia-associated) biliary atresia",
+     "Choledochal cyst with situs inversus",
+     "Alagille syndrome",
+     "Neonatal hepatitis from congenital CMV"
+    ],
+    "answer": 0,
+    "explain": "Biliary atresia can be isolated, or occur with polysplenia/situs anomalies (the BASM syndrome) or as a cystic form. Alagille has butterfly vertebrae, cardiac defects and a characteristic face, not laterality defects.",
+    "note": "Probably perinatal viral/immune trigger; isolated, or with polysplenia/situs anomalies, cystic."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why are the stools pale in biliary atresia?",
+    "options": [
+     "Fat malabsorption makes stools greasy and light",
+     "Conjugated bilirubin is reabsorbed by the enterohepatic circulation",
+     "No bilirubin reaches the gut, so no stercobilin forms",
+     "Gut bacteria are absent in the neonatal colon"
+    ],
+    "answer": 2,
+    "explain": "Blocked ducts mean conjugated bilirubin refluxes into the blood (dark urine) instead of entering the gut, so no stercobilin forms and the stool is acholic. Steatorrhoea also occurs, but the colour comes from missing pigment.",
+    "note": "Blocked ducts → conjugated bilirubin refluxes → jaundice, dark urine; no stercobilin → acholic stool."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-week-old breastfed term baby is gaining weight well but remains yellow. The mother reports dark urine staining the nappy. Which additional feature should most raise concern for biliary atresia?",
+    "options": [
+     "Weight gain along the 50th centile",
+     "Jaundice that is worse after feeds",
+     "Clay-coloured stools",
+     "Onset of jaundice on day 3"
+    ],
+    "answer": 2,
+    "explain": "Clay-coloured (acholic) stools with dark urine are the typical feature. These infants thrive, which is why the jaundice is easily dismissed as breast-milk jaundice. Day 3 onset is typical of physiological jaundice.",
+    "note": "Typical stool feature: clay-coloured (acholic) stool, dark urine."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A term infant is still jaundiced at 2.5 weeks of age. What is the single most important first investigation?",
+    "options": [
+     "Repeat transcutaneous bilirubin in one week",
+     "Split (conjugated and unconjugated) bilirubin",
+     "Abdominal ultrasound",
+     "Thyroid function tests"
+    ],
+    "answer": 1,
+    "explain": "Jaundice beyond 2 weeks needs a conjugated (split) bilirubin to detect cholestasis. Ultrasound follows if conjugated bilirubin is raised. A transcutaneous reading cannot separate the fractions, and 'wait and see' risks a late Kasai.",
+    "note": "Jaundice beyond 2 weeks needs a conjugated (split) bilirubin; raised GGT, INR."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 5-week-old has conjugated hyperbilirubinaemia, raised GGT and acholic stools. Ultrasound shows a triangular cord sign and a small gallbladder. What confirms the diagnosis?",
+    "options": [
+     "HIDA scan showing absent excretion",
+     "MRCP",
+     "Percutaneous liver biopsy alone",
+     "Intraoperative cholangiogram"
+    ],
+    "answer": 3,
+    "explain": "The triangular cord sign and a small or absent gallbladder are suggestive, but the definitive test is an intraoperative cholangiogram, which proceeds directly to Kasai. HIDA and biopsy support the diagnosis but cannot confirm it.",
+    "note": "Ultrasound: triangular cord sign, small or absent gallbladder; definitive: intraoperative cholangiogram."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "Six weeks after a Kasai portoenterostomy, an infant develops a fever of 39 °C and the jaundice returns after the stools had become pigmented. What is the most appropriate management?",
+    "options": [
+     "Urgent listing for liver transplantation",
+     "Increase ursodeoxycholic acid dose",
+     "Oral amoxicillin and review in 48 hours",
+     "IV antibiotics for ascending cholangitis"
+    ],
+    "answer": 3,
+    "explain": "Fever with returning jaundice after Kasai is ascending cholangitis, which needs IV antibiotics. It can wreck bile flow, so oral treatment with a delay is wrong. Transplantation is for failed Kasai or end-stage disease, not for a single episode of cholangitis.",
+    "note": "Fever and returning jaundice = ascending cholangitis → IV antibiotics."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An infant with biliary atresia is diagnosed at 7 weeks. What is the most appropriate definitive next step?",
+    "options": [
+     "Primary liver transplantation, as the window has passed",
+     "Ursodeoxycholic acid and observe stool colour",
+     "Kasai portoenterostomy as soon as possible",
+     "Defer surgery until 3 months to allow growth"
+    ],
+    "answer": 2,
+    "explain": "Kasai is done as soon as possible. Earlier is better (ideally before 6 weeks), but a late diagnosis does not by itself cancel the Kasai. It is followed by ursodiol, prophylactic antibiotics, ADEK and MCT formula, and transplantation is kept for failure.",
+    "note": "Kasai portoenterostomy ASAP; ursodiol, prophylactic antibiotics, ADEK, MCT formula."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you work up prolonged neonatal jaundice for biliary atresia?",
+    "back": "Term >2 wk → split bilirubin • raised conjugated, GGT, INR • stool colour (acholic) • US: triangular cord, small/absent GB • definitive: intraoperative cholangiogram • diagnose by 6 weeks"
+   },
+   {
+    "type": "card",
+    "front": "What is the management after a biliary atresia diagnosis?",
+    "back": "Kasai portoenterostomy ASAP • ursodiol, prophylactic antibiotics, ADEK, MCT formula • fever + returning jaundice = cholangitis → IV antibiotics • failure → transplant (BA = commonest indication; tacrolimus)"
+   },
+   {
+    "type": "card",
+    "front": "Why is biliary atresia missed, and what is the pathophysiology?",
+    "back": "Baby thrives, so it is mistaken for breast-milk jaundice • ducts blocked → conjugated bilirubin refluxes → dark urine; no stercobilin → acholic stool • retained bile → fibrosis → cirrhosis, portal HTN • no bile → vit K bleeding"
+   }
+  ]
+ },
+ "III-43": {
+  "summary": "In children, Crohn disease often presents as growth failure and delayed puberty before any gut symptoms, while UC presents with bloody diarrhoea. Calprotectin decides who needs endoscopy, and in paediatric Crohn the first-line induction is exclusive enteral nutrition, not steroids.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which feature best distinguishes the distribution of Crohn disease from ulcerative colitis?",
+    "options": [
+     "Transmural inflammation with skip lesions",
+     "Continuous mucosal inflammation starting at the rectum",
+     "Inflammation confined to the terminal ileum mucosa",
+     "Diffuse inflammation sparing the colon"
+    ],
+    "answer": 0,
+    "explain": "Crohn disease is transmural with skip lesions anywhere from mouth to anus. UC is mucosal and continuous from the rectum.",
+    "note": "Crohn: transmural with skip lesions; UC: continuous from the rectum."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 13-year-old boy has dropped from the 50th to the 9th height centile over two years and is prepubertal. He has occasional abdominal pain but no diarrhoea. Which diagnosis must be actively excluded?",
+    "options": [
+     "Crohn disease",
+     "Ulcerative colitis",
+     "Coeliac disease",
+     "Constitutional delay of growth"
+    ],
+    "answer": 0,
+    "explain": "Paediatric Crohn disease often presents first with growth failure and delayed puberty, sometimes with few gut symptoms. Coeliac disease is also on the differential, but the pain and centile fall point to Crohn. Constitutional delay does not cause centile crossing with symptoms.",
+    "note": "Crohn: weight loss; often presents first with growth failure and delayed puberty."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 14-year-old girl has anal fissures at 3 and 9 o'clock that are deep and surprisingly painless. What does this most suggest?",
+    "options": [
+     "Simple anal fissure from constipation",
+     "Sexual abuse",
+     "Perianal Crohn disease",
+     "Ulcerative colitis"
+    ],
+    "answer": 2,
+    "explain": "Fissures that are off the midline, deep and not painful suggest Crohn disease. Simple fissures lie in the posterior midline and are very painful. UC does not cause perianal disease.",
+    "note": "Perianal fissures: not in the midline, deep, not painful."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A colonic biopsy from a 12-year-old with chronic diarrhoea shows transmural inflammation with non-caseating granulomas. Which complication is this disease most prone to?",
+    "options": [
+     "Toxic megacolon as the first presentation",
+     "Fistulae and strictures",
+     "Disease confined to the rectal mucosa",
+     "Caseating necrosis with miliary spread"
+    ],
+    "answer": 1,
+    "explain": "Transmural inflammation with non-caseating granulomas is Crohn disease, which causes strictures, fistulae and perianal disease. Caseating granulomas suggest TB. Toxic megacolon is classically a complication of UC.",
+    "note": "Crohn: transmural, non-caseating granulomas → strictures, fistulae, perianal disease."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 10-year-old has 4 weeks of loose stools without blood, normal growth, normal bloods and a negative stool culture. What is the best next step to decide whether endoscopy is needed?",
+    "options": [
+     "Immediate ileocolonoscopy",
+     "Faecal calprotectin",
+     "MR enterography",
+     "Serum ASCA/ANCA serology"
+    ],
+    "answer": 1,
+    "explain": "Faecal calprotectin acts as the gatekeeper for endoscopy: a normal level makes IBD unlikely and spares an unnecessary scope. Serology is not sensitive enough to decide, and MR enterography follows confirmed IBD.",
+    "note": "Bloods, stool culture; faecal calprotectin gatekeeps endoscopy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 12-year-old has a high faecal calprotectin, anaemia and weight loss. What is the standard diagnostic work-up?",
+    "options": [
+     "Colonoscopy alone with biopsies",
+     "Ileocolonoscopy and upper endoscopy with biopsies, plus MR enterography",
+     "CT abdomen with contrast and stool culture",
+     "Capsule endoscopy alone"
+    ],
+    "answer": 1,
+    "explain": "Paediatric IBD needs ileocolonoscopy plus upper endoscopy with biopsies, and MR enterography for the small bowel. MRI avoids the radiation of CT. Colonoscopy alone misses upper GI and small-bowel Crohn disease.",
+    "note": "Ileocolonoscopy + upper endoscopy with biopsies + MR enterography."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An 11-year-old is newly diagnosed with ileocolonic Crohn disease. What is the first-choice induction therapy?",
+    "options": [
+     "Exclusive enteral nutrition for 6-8 weeks",
+     "Oral prednisolone for 8 weeks",
+     "Mesalamine (5-ASA)",
+     "Immediate infliximab"
+    ],
+    "answer": 0,
+    "explain": "In paediatric Crohn disease, exclusive enteral nutrition for 6-8 weeks is first line. It works as well as steroids and helps growth, and is followed by a thiopurine or methotrexate, then anti-TNF. 5-ASA is the UC ladder.",
+    "note": "Crohn: first choice exclusive enteral nutrition 6-8 wk, then thiopurine/methotrexate, anti-TNF."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old with acute severe ulcerative colitis (PUCAI 70) is started on IV methylprednisolone. On day 5 her PUCAI is still 70. What is the most appropriate next step?",
+    "options": [
+     "Continue IV steroids for another week",
+     "Rescue therapy with infliximab or ciclosporin",
+     "Switch to oral mesalamine",
+     "Start azathioprine and await effect"
+    ],
+    "answer": 1,
+    "explain": "PUCAI ≥65 means IV steroids, and non-response by day 3-5 triggers rescue with infliximab or ciclosporin (or colectomy). Azathioprine takes months to work, and 5-ASA is far too weak for acute severe colitis.",
+    "note": "PUCAI ≥65: IV steroids; days 3/5 → infliximab or ciclosporin."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare Crohn disease and ulcerative colitis in children (extent, histology, presentation).",
+    "back": "Crohn: transmural, skip lesions, non-caseating granulomas, strictures/fistulae/perianal disease; growth failure, delayed puberty • UC: continuous from rectum, mucosal, crypt abscesses; bloody diarrhoea, urgency, tenesmus; PSC (high GGT)"
+   },
+   {
+    "type": "card",
+    "front": "What is the treatment ladder for paediatric Crohn disease and for UC?",
+    "back": "Crohn: exclusive enteral nutrition 6-8 wk → thiopurine/methotrexate → anti-TNF • UC: 5-ASA → steroids → thiopurine/anti-TNF; colectomy curative • PUCAI ≥65 → IV steroids; no response by day 3/5 → infliximab or ciclosporin"
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate suspected IBD in a child?",
+    "back": "Bloods (FBC, CRP, albumin), stool culture • faecal calprotectin gatekeeps endoscopy • ileocolonoscopy + upper endoscopy with biopsies • MR enterography"
+   }
+  ]
+ },
+ "III-44": {
+  "summary": "Paediatric pancreatitis is diagnosed by INSPPIRE: 2 of 3 from typical pain, enzymes ≥3× ULN and imaging. Look for the cause (bile, trauma including NAI, drugs, systemic disease). Treat with fluids, opioids and early enteral feeding, and give no routine antibiotics.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Under the INSPPIRE criteria, how is acute pancreatitis diagnosed in a child?",
+    "options": [
+     "All 3: typical pain, lipase ≥3× ULN and CT findings",
+     "Lipase ≥2× ULN alone",
+     "Typical pain plus amylase ≥5× ULN",
+     "2 of 3: typical pain, amylase/lipase ≥3× ULN, imaging findings"
+    ],
+    "answer": 3,
+    "explain": "INSPPIRE needs 2 of 3: typical pain, amylase or lipase at least 3× the upper limit of normal, and compatible imaging.",
+    "note": "INSPPIRE needs 2 of 3: typical pain, amylase/lipase ≥ 3× ULN, imaging."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 7-year-old boy has epigastric pain and vomiting a day after falling off his bicycle onto the handlebars. Lipase is 8× ULN. What is the most likely mechanism of his pancreatitis?",
+    "options": [
+     "Blunt compression of the pancreas over the spine",
+     "Gallstone obstruction of the ampulla",
+     "Drug-induced pancreatic injury",
+     "Mumps virus infection"
+    ],
+    "answer": 0,
+    "explain": "Handlebar injuries crush the pancreas against the vertebral column, so trauma is a key paediatric cause. Always also consider NAI if the story doesn't fit.",
+    "note": "Biliary, trauma (handlebar, NAI), drugs: valproate, azathioprine, L-asparaginase."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 9-year-old with ALL develops severe epigastric pain radiating to the back during induction chemotherapy. Which drug is the most likely culprit?",
+    "options": [
+     "L-asparaginase",
+     "Vincristine",
+     "Methotrexate",
+     "Daunorubicin"
+    ],
+    "answer": 0,
+    "explain": "L-asparaginase is a classic cause of drug-induced pancreatitis, along with valproate and azathioprine. Vincristine causes neuropathy and paralytic ileus, and daunorubicin causes cardiotoxicity.",
+    "note": "Biliary, trauma (handlebar, NAI), drugs: valproate, azathioprine, L-asparaginase."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A child with severe acute pancreatitis develops perioral tingling and a positive Chvostek sign on day 2. What is the mechanism?",
+    "options": [
+     "Saponification of fat binding calcium",
+     "Hypomagnesaemia from vomiting causing PTH resistance",
+     "Calcium loss through capillary leak into ascites",
+     "Hyperphosphataemia from tumour lysis"
+    ],
+    "answer": 0,
+    "explain": "Released lipase digests fat, and the free fatty acids bind calcium (saponification), causing hypocalcaemia. This is a marker of severity.",
+    "note": "Fat saponification binds calcium → hypocalcaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 11-year-old has severe epigastric pain radiating to the back, vomiting and fever. Which postural feature supports the likely diagnosis?",
+    "options": [
+     "Pain is eased by sitting up and leaning forward",
+     "Pain is relieved by lying completely still and flat",
+     "Pain is relieved by eating",
+     "Pain worsens on internal rotation of the right hip"
+    ],
+    "answer": 0,
+    "explain": "Pancreatic pain radiates to the back and is eased by leaning forward. Lying still is typical of peritonitis, and the obturator sign suggests a pelvic appendix.",
+    "note": "Epigastric pain radiating to back, eased by leaning forward; vomiting, fever."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 10-year-old has confirmed acute pancreatitis. What is the first-line imaging, and which bloods help identify the cause and severity?",
+    "options": [
+     "Ultrasound; calcium, glucose, triglycerides, LFTs",
+     "Contrast CT on admission; amylase trend only",
+     "MRCP; serum IgG4 only",
+     "Plain abdominal X-ray; urea and electrolytes only"
+    ],
+    "answer": 0,
+    "explain": "Ultrasound comes first, looking for gallstones, duct dilatation and fluid. Calcium, glucose, triglycerides and LFTs screen for causes and severity. Early CT is not routine and is kept for complications.",
+    "note": "Ultrasound first; check calcium, glucose, triglycerides, LFTs."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 12-year-old is admitted with acute pancreatitis and is haemodynamically stable. Which management plan is most appropriate?",
+    "options": [
+     "IV fluids ~1.5-2× maintenance, opioid analgesia, enteral feeding within 48-72 h",
+     "Nil by mouth for 7 days with total parenteral nutrition",
+     "Prophylactic meropenem and fluids at maintenance",
+     "Avoid opioids; paracetamol only to prevent sphincter spasm"
+    ],
+    "answer": 0,
+    "explain": "Give generous fluids (about 1.5-2× maintenance), adequate analgesia including opioids, and early enteral feeding within 48-72 h. Prolonged NBM and TPN are outdated, and antibiotics are not routine.",
+    "note": "Fluids ~1.5-2× maintenance, analgesia incl. opioids; enteral feeding within 48-72 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old with gallstone pancreatitis recovers well, and on day 6 has no fever and normal bilirubin. What is the most appropriate next step?",
+    "options": [
+     "Discharge with elective cholecystectomy in 3 months",
+     "Start IV antibiotics to prevent infected necrosis",
+     "Cholecystectomy during the same admission",
+     "Repeat CT at 4 weeks to look for pseudocyst before any surgery"
+    ],
+    "answer": 2,
+    "explain": "For mild biliary pancreatitis, cholecystectomy during the same admission prevents recurrence. Delaying surgery invites another attack. Antibiotics are only for infected necrosis or cholangitis.",
+    "note": "Treat cause: stop drug, cholecystectomy same admission; pseudocyst forms after more than 4 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of acute pancreatitis in children.",
+    "back": "Biliary • trauma (handlebar, NAI) • drugs: valproate, azathioprine, L-asparaginase • infection (mumps) • HUS, HSP • metabolic (hypertriglyceridaemia, hypercalcaemia) • recurrent → genetics: PRSS1, SPINK1, CFTR"
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose and initially investigate paediatric acute pancreatitis?",
+    "back": "INSPPIRE 2 of 3: typical pain, amylase/lipase ≥3× ULN, imaging • ultrasound first • check calcium, glucose, triglycerides, LFTs"
+   },
+   {
+    "type": "card",
+    "front": "Outline management of acute pancreatitis in a child.",
+    "back": "Fluids ~1.5-2× maintenance • analgesia incl. opioids • enteral feeding within 48-72 h • no routine antibiotics (only infected necrosis/cholangitis) • treat cause: stop drug, cholecystectomy same admission • pseudocyst after >4 weeks"
+   }
+  ]
+ },
+ "III-45": {
+  "summary": "In cleft care the timeline matters: lip at about 3 months, palate at 1 year (before first words), alveolar bone graft at 8-11 years. Every cleft palate needs a hearing check, because tensor veli palatini dysfunction causes glue ear.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What is the approximate birth prevalence of cleft lip and/or palate?",
+    "options": [
+     "About 1 in 70",
+     "About 1 in 700",
+     "About 1 in 7,000",
+     "About 1 in 70,000"
+    ],
+    "answer": 1,
+    "explain": "Cleft lip/palate occurs in roughly 1 in 700 births, which makes it one of the commonest congenital malformations.",
+    "note": "Congenital cleft from failed fusion of facial processes; ~1 in 700 births."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A newborn girl has an isolated cleft palate without cleft lip. What is most true of this pattern compared with cleft lip ± palate?",
+    "options": [
+     "Commoner in boys and rarely syndromic",
+     "Commoner in girls and more often syndromic, e.g. 22q11 deletion",
+     "Usually caused by maternal folate excess",
+     "Almost always detected on the 20-week scan"
+    ],
+    "answer": 1,
+    "explain": "Isolated cleft palate is commoner in girls and more often syndromic (22q11, Pierre Robin, Stickler). Cleft lip ± palate is commoner in boys. The palate is often missed on antenatal ultrasound.",
+    "note": "Isolated cleft palate is commoner in girls and more often syndromic, e.g. 22q11 deletion."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A child with a repaired cleft palate has recurrent glue ear. What is the mechanism?",
+    "options": [
+     "Tensor veli palatini dysfunction prevents Eustachian tube opening",
+     "Nasal milk reflux directly infects the middle ear",
+     "Associated sensorineural hearing loss from 22q11",
+     "Adenoid hypertrophy from chronic nasal infection"
+    ],
+    "answer": 0,
+    "explain": "The tensor veli palatini normally opens the Eustachian tube. When its insertion is disrupted in a cleft palate, the middle ear cannot ventilate, causing otitis media with effusion.",
+    "note": "Tensor veli palatini dysfunction → Eustachian tube can't open → otitis media with effusion."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Failure of fusion between which structures produces a cleft lip?",
+    "options": [
+     "Lateral nasal process and mandibular process",
+     "Medial nasal process and maxillary process",
+     "The two palatal shelves in the midline",
+     "Maxillary process and mandibular process"
+    ],
+    "answer": 1,
+    "explain": "A cleft lip results from failed fusion of the medial nasal process with the maxillary process. Failure of the palatal shelves gives a cleft palate, and maxillary-mandibular failure gives macrostomia.",
+    "note": "Cleft lip: failed fusion of the medial nasal process with the maxillary process."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has a receding chin, a tongue falling back into the airway and noisy breathing. On examination there is a wide U-shaped cleft of the palate. What is the diagnosis?",
+    "options": [
+     "Treacher Collins syndrome",
+     "22q11 deletion syndrome",
+     "Pierre Robin sequence",
+     "Isolated submucous cleft"
+    ],
+    "answer": 2,
+    "explain": "Micrognathia, glossoptosis and a U-shaped cleft palate define Pierre Robin sequence, which can cause airway obstruction (nurse prone). Treacher Collins also has micrognathia, but with malar hypoplasia and ear anomalies.",
+    "note": "Hypernasal speech (VPI); Pierre Robin: micrognathia, glossoptosis, U-shaped cleft palate."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby is born with a cleft palate and no dysmorphic features. Which investigation must be arranged for every such child?",
+    "options": [
+     "Chromosomal microarray",
+     "Echocardiogram",
+     "Hearing assessment",
+     "Renal ultrasound"
+    ],
+    "answer": 2,
+    "explain": "Any cleft palate needs a hearing test because of the high rate of glue ear. 22q11 testing (and echo) are triggered by syndromic features.",
+    "note": "Any cleft palate → hearing test; syndromic features → 22q11 testing."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "Parents ask when their son's cleft lip and cleft palate will be repaired. What is the standard timing?",
+    "options": [
+     "Both together in the first week of life",
+     "Lip at about 3 months; palate at about 1 year",
+     "Lip at 1 year; palate at 5 years",
+     "Lip at about 3 months; palate at 8-11 years"
+    ],
+    "answer": 1,
+    "explain": "The lip is repaired at about 3 months, and the soft palate is closed at about 1 year, before first words, to allow normal speech. 8-11 years is the timing of the alveolar bone graft.",
+    "note": "Lip repaired at about 3 months; soft palate closed at 1 year, before first words."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 2-week-old with a cleft palate is feeding slowly with milk coming out of the nose and has not regained birth weight. What is the most appropriate first step?",
+    "options": [
+     "Nasogastric tube feeding until palate repair",
+     "Squeezable bottle, upright feeding and cleft-team weight monitoring",
+     "Early palate repair in the neonatal period",
+     "Switch to a thickened anti-reflux formula"
+    ],
+    "answer": 1,
+    "explain": "A cleft palate prevents a suction seal, so assisted squeezable bottles, upright positioning and close weight monitoring by the cleft team are first line. NG feeding is not routine, and palate repair is not done in the neonatal period.",
+    "note": "Cleft team; squeezable bottles, upright feeding, weight monitoring."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the cleft care timeline from antenatal to school age.",
+    "back": "20-wk scan (lip > palate) • birth: cleft team, squeezable bottle, upright feeds, hearing test • lip ~3 months • palate ~1 year (before words) • grommets/speech therapy as needed • alveolar bone graft 8-11 y"
+   },
+   {
+    "type": "card",
+    "front": "What are the consequences of a cleft palate?",
+    "back": "No suction seal → feeding difficulty, nasal milk reflux • VPI → hypernasal speech • tensor veli palatini dysfunction → Eustachian tube → glue ear • Pierre Robin: micrognathia, glossoptosis, U-shaped cleft"
+   },
+   {
+    "type": "card",
+    "front": "What are the risk factors and associations of orofacial clefts?",
+    "back": "Maternal smoking, alcohol, phenytoin/valproate, folate deficiency • isolated cleft palate: girls, syndromic (22q11) • syndromic features → 22q11 testing"
+   }
+  ]
+ },
+ "III-46": {
+  "summary": "Separate mechanical from paralytic ileus, and watch for colicky pain that becomes constant, because that means strangulation. In a 3-month to 3-year-old with paroxysmal colic, pallor and drawn-up legs, ultrasound for the target sign and an air enema come before any redcurrant jelly appears.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A child has a distended abdomen with absent bowel sounds on day 2 after laparotomy, on morphine and with a potassium of 2.9 mmol/L. What type of ileus is this?",
+    "options": [
+     "Mechanical ileus from adhesions",
+     "Strangulated closed-loop obstruction",
+     "Paralytic ileus",
+     "Mechanical ileus from intussusception"
+    ],
+    "answer": 2,
+    "explain": "Paralytic ileus means peristalsis stops. Post-surgery state, opioids and hypokalaemia are classic causes, and the abdomen is silent and distended. Mechanical obstruction gives tinkling bowel sounds.",
+    "note": "Ileus: bowel obstruction, mechanical (lumen blocked) or paralytic (peristalsis stops)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 6-year-old has recurrent ileocolic intussusception. Why is this age group investigated for a different underlying cause than toddlers?",
+    "options": [
+     "Over 3 years Peyer's patch hypertrophy is maximal",
+     "Over 3 years a pathological lead point is likelier, e.g. Meckel's, polyp, lymphoma",
+     "Over 3 years intussusception is usually idiopathic small-bowel type",
+     "Over 3 years cystic fibrosis is the commonest lead point"
+    ],
+    "answer": 1,
+    "explain": "In infants and toddlers the usual lead point is hypertrophied Peyer's patches. Over 3 years, look for a pathological lead point such as Meckel's diverticulum, a polyp or lymphoma.",
+    "note": "Intussusception: usual lead point Peyer's patches; over 3 y: Meckel's, polyp, lymphoma."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 4-year-old with small-bowel obstruction develops pain that changes from colicky to constant, a fever and a rising lactate. What does this indicate?",
+    "options": [
+     "Progression to paralytic ileus",
+     "Resolution of the obstruction",
+     "Strangulation with bowel ischaemia",
+     "Simple dehydration from vomiting"
+    ],
+    "answer": 2,
+    "explain": "Colicky pain turning constant, with fever and rising lactate, suggests strangulation and ischaemia. This is a surgical emergency.",
+    "note": "Colicky pain turning constant suggests strangulation: ischaemia, fever, rising lactate."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 9-month-old has episodes every 15-20 minutes of screaming, going pale and drawing up his legs, and is lethargic in between. He has vomited twice. What is the most likely diagnosis?",
+    "options": [
+     "Intussusception",
+     "Infantile colic",
+     "Pyloric stenosis",
+     "Acute gastroenteritis"
+    ],
+    "answer": 0,
+    "explain": "Paroxysmal colic with pallor, legs drawn up and lethargy between episodes in a child aged 3 months to 3 years is classic intussusception. Infantile colic does not cause lethargy, and pyloric stenosis causes non-bilious projectile vomiting at 2-8 weeks.",
+    "note": "Intussusception 3 months - 3 years: paroxysmal colic, pallor, legs drawn up, lethargy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which ultrasound finding confirms intussusception?",
+    "options": [
+     "Triangular cord sign",
+     "Whirlpool sign of the mesentery",
+     "Double bubble sign",
+     "Target (doughnut) sign"
+    ],
+    "answer": 3,
+    "explain": "The target or doughnut sign is the concentric bowel layers of intussusception. The whirlpool sign suggests volvulus, the double bubble sign is duodenal atresia (on X-ray) and the triangular cord sign is biliary atresia.",
+    "note": "Ultrasound: target (doughnut) sign."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "What is the commonest cause of strangulating bowel obstruction in children?",
+    "options": [
+     "Postoperative adhesions",
+     "Midgut volvulus",
+     "Meckel's diverticulum",
+     "Incarcerated inguinal hernia"
+    ],
+    "answer": 3,
+    "explain": "In children, an incarcerated hernia is the commonest cause of strangulation ileus, so always examine the groins. In adults, adhesions dominate.",
+    "note": "Commonest cause of strangulation ileus in children: incarcerated hernia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 14-month-old with ultrasound-confirmed ileocolic intussusception is resuscitated with IV fluids and is now haemodynamically stable with a soft abdomen. What is the next step?",
+    "options": [
+     "Emergency laparotomy",
+     "Observation for spontaneous reduction",
+     "Nasogastric decompression only",
+     "Air (pneumatic) enema reduction"
+    ],
+    "answer": 3,
+    "explain": "After resuscitation, a stable child without peritonitis gets air enema reduction (about 10% recur). Surgery is for strangulation, peritonitis, perforation, shock or failed reduction.",
+    "note": "Intussusception: resuscitate → air (pneumatic) enema reduction; ~10% recur."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "During air enema reduction of an intussusception, a 2-year-old suddenly develops a tense distended abdomen and becomes tachycardic. Free air is seen. What is the next step?",
+    "options": [
+     "Needle decompression of pneumoperitoneum, then laparotomy",
+     "Repeat the enema at a lower pressure",
+     "Contrast enema to confirm reduction",
+     "Continue observation with IV antibiotics"
+    ],
+    "answer": 0,
+    "explain": "Perforation is a contraindication to further enema and an indication for surgery. Tension pneumoperitoneum is decompressed first, then a laparotomy is done.",
+    "note": "Surgery: strangulation, peritonitis, perforation, shock, failed reduction."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List mechanical and paralytic causes of ileus in children.",
+    "back": "Mechanical: adhesions, incarcerated hernia (commonest strangulation), intussusception, volvulus, atresia • Paralytic: post-surgery, sepsis, peritonitis, hypokalaemia, opioids, vincristine"
+   },
+   {
+    "type": "card",
+    "front": "Give the classic presentation and work-up of intussusception.",
+    "back": "3 mo-3 y • paroxysmal colic, pallor, legs drawn up, lethargy • RUQ sausage mass • vomiting, later bilious • redcurrant-jelly stool (late) • US: target/doughnut sign • >3 y: look for lead point (Meckel's, polyp, lymphoma)"
+   },
+   {
+    "type": "card",
+    "front": "Outline management of intussusception, including indications for surgery.",
+    "back": "Resuscitate → air (pneumatic) enema reduction; ~10% recur • surgery if strangulation, peritonitis, perforation, shock or failed reduction"
+   }
+  ]
+ },
+ "III-47": {
+  "summary": "About 95% of childhood constipation is functional (withholding, then a dilated rectum, then overflow soiling) and needs macrogol disimpaction then months of maintenance. Delayed meconium beyond 48 h with an empty rectum and an explosive gush on DRE is Hirschsprung until a suction biopsy says otherwise.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What proportion of childhood constipation is functional rather than organic?",
+    "options": [
+     "About 50%",
+     "About 75%",
+     "About 95%",
+     "About 25%"
+    ],
+    "answer": 2,
+    "explain": "About 95% of childhood constipation is functional. Organic causes such as Hirschsprung disease, hypothyroidism and spinal lesions are the minority, identified by red flags.",
+    "note": "About 95% of childhood constipation is functional; Hirschsprung = congenital aganglionosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-year-old with long-standing constipation has started soiling his pants with liquid stool. His parents think he has diarrhoea. What is the mechanism?",
+    "options": [
+     "Infective colitis complicating constipation",
+     "Overflow of liquid stool around impacted faeces",
+     "Laxative overuse causing osmotic diarrhoea",
+     "Loss of anal sphincter tone from spinal cord lesion"
+    ],
+    "answer": 1,
+    "explain": "Withholding leads to harder stool, pain and a dilated rectum, and then liquid stool leaks around the impacted faeces (overflow soiling). Stopping laxatives would worsen it.",
+    "note": "Withholding → harder stool → pain → dilated rectum → overflow soiling (liquid stool around impacted faeces)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old started holding stool after a painful bowel motion and now cries during defecation with streaks of fresh blood on the stool. What is the likely initiating cause?",
+    "options": [
+     "Anal fissure",
+     "Juvenile polyp",
+     "Hirschsprung disease",
+     "Cow's milk protein allergy"
+    ],
+    "answer": 0,
+    "explain": "An anal fissure (a mucosal tear from passing hard stool) causes pain, which leads to withholding and a vicious cycle. It is diagnosed on physical examination. A juvenile polyp gives painless bleeding.",
+    "note": "Functional: weaning, toilet training, school, anal fissure (tight sphincter → mucosal tear)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-month-old strains and goes red for about 10 minutes before passing soft stool and is otherwise thriving. What is the most likely explanation?",
+    "options": [
+     "Functional constipation",
+     "Infantile dyschezia",
+     "Hirschsprung disease",
+     "Anal stenosis"
+    ],
+    "answer": 1,
+    "explain": "Infantile dyschezia means straining for about 10 minutes before passing soft stool in an otherwise healthy infant, from poor coordination of abdominal pressure and pelvic floor relaxation. It needs reassurance, not laxatives. The stool is soft, so this is not constipation.",
+    "note": "Functional: withholding postures, packed rectum, soiling; infantile dyschezia: infant strains ~10 minutes."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A term baby with Down syndrome has not passed meconium by 60 hours and has a distended abdomen and bilious vomiting. On digital rectal exam the rectum is empty, and on withdrawal there is an explosive gush of stool and gas. What is the most likely diagnosis?",
+    "options": [
+     "Meconium ileus",
+     "Functional constipation",
+     "Anorectal malformation",
+     "Hirschsprung disease"
+    ],
+    "answer": 3,
+    "explain": "Delayed meconium beyond 48 h, distension, bilious vomiting and an empty rectum with an explosive release on finger withdrawal is classic Hirschsprung disease, which is associated with Down syndrome. Meconium ileus (CF) does not give the explosive DRE gush.",
+    "note": "Rectum empty with explosive release on withdrawal."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "Which investigation is diagnostic of Hirschsprung disease?",
+    "options": [
+     "Contrast enema",
+     "Anorectal manometry",
+     "Rectal suction biopsy",
+     "Abdominal X-ray"
+    ],
+    "answer": 2,
+    "explain": "Rectal suction biopsy showing absent ganglion cells and raised acetylcholinesterase is diagnostic. A contrast enema shows the transition zone and manometry shows an absent rectoanal inhibitory reflex, but both are supportive only.",
+    "note": "Rectal suction biopsy: absent ganglion cells, raised acetylcholinesterase."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old with functional constipation has a palpable faecal mass and a packed rectum. What is the most appropriate initial treatment?",
+    "options": [
+     "Macrogol disimpaction, then maintenance for months",
+     "Phosphate enema daily until clear",
+     "Lactulose for one week then stop",
+     "High-fibre diet and fluids alone"
+    ],
+    "answer": 0,
+    "explain": "Treatment is oral macrogol disimpaction, then maintenance for months, not days, with a toileting routine. Short courses fail. Enemas are a last resort, and diet alone won't shift an impaction.",
+    "note": "Functional: disimpaction with macrogol, then maintenance for months, not days; toileting."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-week-old awaiting pull-through for Hirschsprung disease develops fever, abdominal distension and explosive foul-smelling diarrhoea. What is the most likely complication?",
+    "options": [
+     "Hirschsprung-associated enterocolitis",
+     "Viral gastroenteritis",
+     "Necrotising enterocolitis of prematurity",
+     "Clostridioides difficile colitis from antibiotics"
+    ],
+    "answer": 0,
+    "explain": "The feared complication of Hirschsprung disease is enterocolitis: fever, distension and explosive foul diarrhoea. It can be fatal and needs rectal washouts, IV antibiotics and fluids. Diarrhoea in a Hirschsprung baby should never be dismissed as gastroenteritis.",
+    "note": "Feared complication: enterocolitis - fever, distension, explosive foul diarrhoea."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Functional constipation vs Hirschsprung disease: what clinical features help you tell them apart?",
+    "back": "Functional: after weaning/toilet training/school, withholding postures, packed rectum, overflow soiling • Hirschsprung: meconium >48 h, distension, bilious vomiting, empty rectum with explosive release on withdrawal, Down syndrome"
+   },
+   {
+    "type": "card",
+    "front": "How is Hirschsprung disease diagnosed and treated?",
+    "back": "Rectal suction biopsy: absent ganglion cells, raised AChE • contrast enema: transition zone • manometry: absent RAIR • Rx: rectal washouts → pull-through • watch for enterocolitis (fever, distension, explosive foul diarrhoea)"
+   },
+   {
+    "type": "card",
+    "front": "Outline management of functional constipation.",
+    "back": "Macrogol disimpaction → maintenance for months, not days • toileting routine • treat fissure • explain the withholding cycle (hard stool → pain → withholding → dilated rectum → overflow)"
+   }
+  ]
+ },
+ "III-48": {
+  "summary": "Appendicitis classically starts as periumbilical visceral (T10) pain, moves to the RIF, and vomiting follows the pain. Under-5s perforate early (short omentum, perforation after 36-48 h). Use a score to stratify, ultrasound first, and never withhold analgesia.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What typically causes luminal obstruction of the appendix in a young child after a viral illness?",
+    "options": [
+     "Lymphoid hyperplasia",
+     "Faecolith",
+     "Carcinoid tumour",
+     "Enterobius worms"
+    ],
+    "answer": 0,
+    "explain": "In younger children, lymphoid hyperplasia after a viral illness obstructs the lumen. Faecoliths are more typical in older children.",
+    "note": "Obstruction of the lumen by a faecolith (older) or lymphoid hyperplasia (younger, after viral illness)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is the early pain of appendicitis felt around the umbilicus?",
+    "options": [
+     "The appendix lies periumbilically in most children",
+     "Mesenteric lymphadenitis refers pain centrally",
+     "Parietal peritoneum is irritated from the outset",
+     "Visceral afferents enter the cord at T10"
+    ],
+    "answer": 3,
+    "explain": "Early visceral pain from the midgut is poorly localised to the T10 dermatome (periumbilical). Once the parietal peritoneum is inflamed, the pain localises to the RIF.",
+    "note": "Visceral T10 → periumbilical pain → parietal peritoneum → localised RIF pain."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 3-year-old has a 2-day history of abdominal pain and is found to have a perforated appendix with generalised peritonitis. Why does this age group perforate more often?",
+    "options": [
+     "The short omentum cannot wall off the inflamed appendix",
+     "The appendix wall is thicker and ruptures under pressure",
+     "Lymphoid hyperplasia is absent in this age group",
+     "Faecoliths are larger relative to the lumen"
+    ],
+    "answer": 0,
+    "explain": "Children under 5 perforate more often because the short omentum fails to contain the infection. Late, atypical presentation adds to this, and perforation occurs after 36-48 h.",
+    "note": "Children under 5 perforate more often: short omentum."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old had periumbilical pain since last night, which has moved to the right iliac fossa. He then vomited twice. On examination, pressing the left iliac fossa causes pain in the right. What is this sign called?",
+    "options": [
+     "Psoas sign",
+     "Murphy's sign",
+     "Rovsing's sign",
+     "Obturator sign"
+    ],
+    "answer": 2,
+    "explain": "Rovsing's sign is pain in the RIF on pressing the LIF. The psoas sign is pain on hip extension (retrocaecal appendix), and Murphy's sign is gallbladder tenderness.",
+    "note": "McBurney tenderness, pain on hopping/cough; Rovsing's sign: pressing LIF hurts RIF."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "Which sequence of symptoms best supports appendicitis over gastroenteritis?",
+    "options": [
+     "Vomiting first, pain afterwards",
+     "Pain first, vomiting afterwards",
+     "Diarrhoea first, then generalised pain",
+     "Fever first, then vomiting, then pain"
+    ],
+    "answer": 1,
+    "explain": "In appendicitis the pain comes first and the vomiting follows. Vomiting before pain points to gastroenteritis.",
+    "note": "Pain first epigastric/periumbilical, later right lower quadrant; vomiting comes after the pain."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An 8-year-old with RIF pain has a Paediatric Appendicitis Score in the intermediate range. What is the most appropriate next step?",
+    "options": [
+     "Discharge with safety-netting",
+     "Abdominal ultrasound",
+     "Proceed directly to appendicectomy",
+     "CT abdomen as first-line imaging"
+    ],
+    "answer": 1,
+    "explain": "With PAS or Alvarado scores, low means discharge, high means surgery and middle means imaging. Ultrasound is first line, and CT is used only if ultrasound is inconclusive.",
+    "note": "Paediatric Appendicitis or Alvarado score: low discharge, high surgery, middle imaging."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which ultrasound finding supports acute appendicitis?",
+    "options": [
+     "Non-compressible blind-ending tube >6 mm",
+     "Compressible tube <6 mm with peristalsis",
+     "Target sign in the right upper quadrant",
+     "Enlarged mesenteric nodes with a normal appendix"
+    ],
+    "answer": 0,
+    "explain": "A non-compressible tubular structure larger than 6 mm is appendicitis. A target sign is intussusception, and enlarged nodes with a normal appendix suggest mesenteric adenitis.",
+    "note": "First-line imaging is ultrasound: non-compressible tube >6 mm; CT only if inconclusive."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old presents on day 6 of abdominal pain, now improving, with a tender RIF mass. Ultrasound shows an inflammatory mass with a small abscess. What is the most appropriate management?",
+    "options": [
+     "IV antibiotics ± drainage, then interval appendicectomy",
+     "Immediate laparoscopic appendicectomy",
+     "Oral antibiotics alone with no follow-up",
+     "Laparotomy and right hemicolectomy"
+    ],
+    "answer": 0,
+    "explain": "An appendix mass is treated with antibiotics first, with drainage if there is an abscess, followed by interval appendicectomy. Early surgery into a phlegmon is hazardous.",
+    "note": "Appendix mass → antibiotics first ± drainage, interval appendicectomy."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the classic evolution of appendicitis symptoms and the signs to elicit.",
+    "back": "Periumbilical/epigastric pain (visceral T10) → RIF (parietal) • vomiting after pain • McBurney tenderness, pain on hopping/cough, Rovsing's sign • under-5s perforate more (short omentum), perforation after 36-48 h"
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose suspected appendicitis in a child?",
+    "back": "PAS or Alvarado score: low → discharge, high → surgery, middle → imaging • ultrasound first: non-compressible tube >6 mm • CT only if inconclusive"
+   },
+   {
+    "type": "card",
+    "front": "Outline management of appendicitis, including an appendix mass.",
+    "back": "Analgesia freely (doesn't mask diagnosis) • IV fluids, antibiotics • laparoscopic appendicectomy • appendix mass → antibiotics ± drainage → interval appendicectomy"
+   }
+  ]
+ },
+ "III-49": {
+  "summary": "Testicular torsion is a clinical diagnosis: take the boy to theatre, not to the scanner. You have about 6 hours for ~90% salvage, and both sides are fixed. Ovarian torsion is untwisted and preserved even when dusky. Undescended testes are referred by 3-6 months and fixed at 6-18 months.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which anatomical abnormality predisposes to testicular torsion, and what is its usual laterality?",
+    "options": [
+     "Bell-clapper deformity, usually unilateral",
+     "Patent processus vaginalis, usually right-sided",
+     "Varicocele, usually left-sided",
+     "Bell-clapper deformity, usually bilateral"
+    ],
+    "answer": 3,
+    "explain": "In the bell-clapper deformity the testis hangs freely within the tunica vaginalis. It is usually bilateral, which is why both sides are fixed.",
+    "note": "Testis: bell-clapper deformity, usually bilateral; ovary: cyst or teratoma as lead weight."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "In testicular torsion, what is the sequence of vascular events leading to infarction?",
+    "options": [
+     "Arterial occlusion first, then venous congestion",
+     "Lymphatic obstruction first, then venous thrombosis",
+     "Simultaneous arterial and venous occlusion from the outset",
+     "Venous occlusion first, then arterial failure"
+    ],
+    "answer": 3,
+    "explain": "Twisting first occludes the low-pressure veins, causing congestion and oedema. Arterial inflow then fails, leading to infarction.",
+    "note": "Torsion: veins occlude first → arterial failure → infarction."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 13-year-old boy wakes with sudden severe left scrotal pain and vomits. The left testis lies high with a horizontal lie, and the cremasteric reflex is absent. What is the most likely diagnosis?",
+    "options": [
+     "Torsion of the appendix testis",
+     "Epididymo-orchitis",
+     "Testicular torsion",
+     "Incarcerated inguinal hernia"
+    ],
+    "answer": 2,
+    "explain": "Sudden pain, vomiting, a high-riding horizontal testis and an absent cremasteric reflex indicate testicular torsion. Appendix testis torsion preserves the reflex and shows a blue dot, and epididymitis is more gradual.",
+    "note": "Testis: sudden pain, vomiting, high-riding horizontal lie, cremasteric reflex absent."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 9-year-old has 1 day of scrotal pain. The testis is normally positioned, the cremasteric reflex is present and there is a small tender bluish nodule at the upper pole. What is the most likely diagnosis?",
+    "options": [
+     "Torsion of the appendix testis",
+     "Testicular torsion",
+     "Testicular tumour",
+     "Henoch-Schönlein purpura orchitis"
+    ],
+    "answer": 0,
+    "explain": "A blue dot sign with a preserved reflex indicates torsion of the appendix testis, which is managed conservatively with analgesia.",
+    "note": "Appendix testis torsion: blue dot sign, reflex preserved."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 14-year-old has 3 hours of sudden testicular pain, a high horizontal testis and an absent cremasteric reflex. The radiology department offers a Doppler ultrasound in 2 hours. What should you do?",
+    "options": [
+     "Wait for the Doppler ultrasound",
+     "Give analgesia and reassess in 4 hours",
+     "Proceed to urgent scrotal exploration",
+     "Attempt manual detorsion and discharge"
+    ],
+    "answer": 2,
+    "explain": "Testicular torsion is a clinical diagnosis, so the boy goes to theatre, not to the scanner. Delay costs salvage, which is about 90% within 6 hours. Manual detorsion is only a temporising measure and still needs exploration and fixation.",
+    "note": "Testicular torsion is clinical → theatre, not scan."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 12-year-old girl has sudden right lower abdominal pain with vomiting. Ultrasound shows an enlarged oedematous right ovary with a 6 cm cyst, but Doppler flow is present. What is the most appropriate interpretation?",
+    "options": [
+     "Ovarian torsion is not excluded; proceed to laparoscopy",
+     "Normal flow excludes torsion; treat as appendicitis",
+     "Normal flow excludes torsion; repeat scan in 6 weeks",
+     "Haemorrhagic cyst; analgesia and discharge"
+    ],
+    "answer": 0,
+    "explain": "Ovarian torsion can mimic appendicitis. An enlarged oedematous ovary with a cyst as the lead weight is suggestive, and preserved Doppler flow does not exclude torsion.",
+    "note": "Ovary: US shows enlarged oedematous ovary; preserved Doppler does not exclude."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A term newborn has bilateral impalpable testes and a small phallus. What is the most important immediate investigation?",
+    "options": [
+     "Karyotype and exclusion of CAH",
+     "Scrotal ultrasound only",
+     "Referral for orchidopexy at 12 months",
+     "Serum AFP and beta-hCG"
+    ],
+    "answer": 0,
+    "explain": "Bilateral impalpable testes may be a virilised 46,XX girl with CAH, a salt-wasting emergency. So the baby needs a karyotype and 17-OH-progesterone and electrolytes.",
+    "note": "Bilateral impalpable testes → karyotype, exclude CAH."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-month-old boy has a unilateral undescended testis that has not descended since birth. What is the recommended management?",
+    "options": [
+     "Watch until puberty for spontaneous descent",
+     "Orchidopexy between 6 and 18 months",
+     "Orchidectomy at diagnosis",
+     "hCG injections then reassess at 5 years"
+    ],
+    "answer": 1,
+    "explain": "Refer by 3-6 months and perform orchidopexy at 6-18 months to reduce germ-cell degeneration (infertility) and to allow examination for tumour. Spontaneous descent after 6 months is rare.",
+    "note": "Cryptorchidism: refer by 3-6 months, orchidopexy at 6-18 months."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish testicular torsion from torsion of the appendix testis?",
+    "back": "Testis: sudden pain, vomiting, high horizontal lie, absent cremasteric reflex → theatre, not scan • appendix testis: blue dot sign, reflex preserved → conservative"
+   },
+   {
+    "type": "card",
+    "front": "Outline management of testicular and ovarian torsion.",
+    "back": "Testis: explore within 6 h (~90% salvage), detort, fix both sides (bell-clapper bilateral) • ovary: cyst/teratoma lead point; US enlarged oedematous ovary, Doppler doesn't exclude; laparoscopic detorsion, preserve even if dusky"
+   },
+   {
+    "type": "card",
+    "front": "What are the key facts about cryptorchidism?",
+    "back": "Preterm up to 30%, term 2-4% • risks: infertility, germ cell tumour • refer by 3-6 months • orchidopexy 6-18 months • bilateral impalpable → karyotype, exclude CAH"
+   }
+  ]
+ },
+ "III-50": {
+  "summary": "Prevent neural tube defects with folic acid (400 µg for everyone, 5 mg if high risk) before conception. At birth, protect the placode (moist sterile dressing, prone, no latex) and close it within 48 h. Then watch for hydrocephalus from the Chiari II malformation and manage the neurogenic bladder.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "When does the caudal neuropore normally close?",
+    "options": [
+     "Day 28",
+     "Day 25",
+     "Day 18",
+     "Day 35"
+    ],
+    "answer": 0,
+    "explain": "The neural tube closes in week 4: the cranial neuropore at about day 25 and the caudal neuropore at about day 28. Failure cranially gives anencephaly, and failure caudally gives spina bifida.",
+    "note": "Failed neural tube closure (week 4): cranial day 25, caudal day 28."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A woman with a previous pregnancy affected by spina bifida is planning another pregnancy. Which additional exposure in early pregnancy would most increase her risk of another NTD?",
+    "options": [
+     "Trimethoprim-sulfamethoxazole in the first trimester",
+     "Paracetamol for headaches",
+     "Amoxicillin for a UTI",
+     "Levothyroxine for hypothyroidism"
+    ],
+    "answer": 0,
+    "explain": "TMP-SMX is a folate antagonist, so first-trimester use raises NTD risk. So do valproate, carbamazepine, maternal diabetes and obesity. Amoxicillin is safe.",
+    "note": "Folate deficiency (TMP-SMX in 1st trimester), previous NTD, valproate/carbamazepine, maternal diabetes, obesity."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A newborn with a lumbosacral myelomeningocele develops a rising head circumference over the first weeks. What associated malformation explains this?",
+    "options": [
+     "Dandy-Walker malformation",
+     "Aqueductal stenosis from congenital toxoplasmosis",
+     "Choroid plexus papilloma",
+     "Chiari II malformation obstructing CSF flow"
+    ],
+    "answer": 3,
+    "explain": "Most myelomeningoceles are associated with Chiari II (hindbrain herniation), which obstructs CSF outflow and causes hydrocephalus.",
+    "note": "Most myelomeningoceles: tethered cord → Chiari II → hydrocephalus."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old with repaired lumbar myelomeningocele develops an anaphylactic reaction during a urinary catheterisation. What is the most likely trigger?",
+    "options": [
+     "Chlorhexidine",
+     "Latex",
+     "Lidocaine gel",
+     "Povidone-iodine"
+    ],
+    "answer": 1,
+    "explain": "Children with spina bifida have high rates of latex allergy from repeated early exposure. So care is latex-free from birth.",
+    "note": "Hydrocephalus; stridor/apnoea from brainstem compression; latex allergy."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 4-week-old with a repaired myelomeningocele and a VP shunt develops inspiratory stridor and apnoeic episodes. What is the most likely cause?",
+    "options": [
+     "Brainstem compression from Chiari II",
+     "Laryngomalacia",
+     "Vocal cord palsy from birth trauma",
+     "Gastro-oesophageal reflux"
+    ],
+    "answer": 0,
+    "explain": "Stridor (from vocal cord paresis) and apnoea are signs of brainstem compression by the Chiari II malformation. Check shunt function and consider decompression.",
+    "note": "Hydrocephalus; stridor/apnoea from brainstem compression; latex allergy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 16-week antenatal screen shows raised maternal serum AFP. Ultrasound shows a scalloped frontal bone and a curved cerebellum. What is the most likely fetal diagnosis?",
+    "options": [
+     "Open spina bifida",
+     "Anencephaly",
+     "Trisomy 21",
+     "Omphalocele with normal spine"
+    ],
+    "answer": 0,
+    "explain": "Raised MSAFP with the lemon sign (frontal bones) and banana sign (cerebellum) indicates open spina bifida with a Chiari II. Anencephaly also raises AFP but has an absent skull vault, and trisomy 21 lowers AFP.",
+    "note": "Raised maternal serum alpha-fetoprotein; ultrasound lemon (frontal bones) and banana (cerebellum) signs."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "What daily folic acid dose is recommended for a woman with a previous NTD-affected pregnancy?",
+    "options": [
+     "400 µg",
+     "5 mg",
+     "1 mg",
+     "15 mg"
+    ],
+    "answer": 1,
+    "explain": "The routine dose is 400 µg daily, and high-risk women (previous NTD, antiepileptics, diabetes, obesity) take 5 mg daily, started before conception.",
+    "note": "Prevent: folic acid 400 µg daily routinely, 5 mg if high risk."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A newborn is delivered with an open lumbar myelomeningocele. What is the most appropriate immediate management?",
+    "options": [
+     "Dry gauze dressing, supine positioning; close at 2 weeks",
+     "Moist sterile dressing, prone positioning, latex-free care; close within 48 h",
+     "Immediate VP shunt insertion before closure",
+     "Leave exposed to air and start oral antibiotics; close at 3 months"
+    ],
+    "answer": 1,
+    "explain": "Protect the placode with a moist sterile dressing, nurse prone, avoid latex and close within 48 h to reduce infection. Shunting is done if hydrocephalus develops.",
+    "note": "Birth: moist sterile dressing, prone, no latex; close within 48 hours."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the risk factors and prevention of neural tube defects?",
+    "back": "Folate deficiency (TMP-SMX 1st trimester), previous NTD, valproate/carbamazepine, maternal diabetes, obesity • prevent: folic acid 400 µg daily routinely, 5 mg if high risk, pre-conception"
+   },
+   {
+    "type": "card",
+    "front": "What are the clinical consequences of a myelomeningocele?",
+    "back": "Flaccid leg weakness, sensory loss below level • neurogenic bladder/bowel • club feet, scoliosis • Chiari II → hydrocephalus, stridor/apnoea • latex allergy"
+   },
+   {
+    "type": "card",
+    "front": "Walk through the management of myelomeningocele from birth.",
+    "back": "Moist sterile dressing, prone, no latex • assess level, HC, fontanelle, hips, feet, bladder • close within 48 h • VP shunt/ETV • clean intermittent catheterisation, oxybutynin, physio"
+   }
+  ]
+ },
+ "III-51": {
+  "summary": "HIE has a latent phase of 1-6 h before secondary energy failure, and that latent phase is the cooling window. Cool babies ≥36 weeks with moderate or severe encephalopathy to 33.5 °C for 72 h, starting within 6 h, and rewarm slowly.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Which set of findings most strongly supports an intrapartum hypoxic-ischaemic cause for neonatal encephalopathy?",
+    "options": [
+     "Apgar 6 at 1 min, cord pH 7.15, base deficit 6",
+     "Meconium-stained liquor alone",
+     "Sentinel event, Apgar ≤5 at 10 min, cord pH <7.0, base deficit ≥12",
+     "Maternal fever and prolonged rupture of membranes"
+    ],
+    "answer": 2,
+    "explain": "A sentinel event (abruption, cord prolapse, rupture), Apgar ≤5 at 10 min, pH <7.0 and base deficit ≥12-16 support perinatal asphyxia. The other options are weak or nonspecific findings.",
+    "note": "Supports: sentinel event, Apgar ≤ 5 at 10 min, pH <7.0, base deficit ≥ 12-16."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is therapeutic hypothermia started within 6 hours of birth in HIE?",
+    "options": [
+     "Primary energy failure only begins after 6 hours",
+     "Seizures always start at 6 hours and cooling prevents them",
+     "Cerebral oedema peaks at 6 hours and then resolves",
+     "It must start during the latent phase, before secondary energy failure"
+    ],
+    "answer": 3,
+    "explain": "After primary energy failure there is a latent phase of 1-6 h, which is the therapeutic window. Secondary energy failure follows at 6-72 h with neuronal death, and cooling aims to blunt it.",
+    "note": "Latent phase 1-6 h (window) → secondary energy failure 6-72 h → neuronal death."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An asphyxiated term neonate develops oliguria with rising creatinine, feed intolerance and raised transaminases. What explains this pattern of organ injury?",
+    "options": [
+     "Direct hypoxic injury is uniform across all organs",
+     "Sepsis-induced vasoplegia",
+     "Diving reflex redistributes flow to brain, heart and adrenals",
+     "Hypovolaemia from fetomaternal haemorrhage"
+    ],
+    "answer": 2,
+    "explain": "The diving reflex spares the brain, heart and adrenals at the expense of the kidneys (ATN), gut and liver, which therefore suffer.",
+    "note": "Diving reflex spares brain, heart, adrenals; kidneys, gut, liver suffer."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A term baby born after a cord prolapse is lethargic and hypotonic at 3 hours of age, with reduced spontaneous movement and a brief seizure. What Sarnat stage of HIE is this?",
+    "options": [
+     "Mild (stage 1)",
+     "Moderate (stage 2)",
+     "Severe (stage 3)",
+     "Not HIE; normal transition"
+    ],
+    "answer": 1,
+    "explain": "Lethargy, hypotonia and seizures make this moderate HIE. Mild HIE is hyperalert and jittery, and severe HIE means coma, flaccidity and apnoea.",
+    "note": "Mild: hyperalert, jittery; moderate: lethargy, hypotonia, seizures."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Which investigation finding at 10 days of life predicts the poorest neurodevelopmental outcome after HIE?",
+    "options": [
+     "aEEG normalised by 24 hours",
+     "Isolated mild watershed white-matter change",
+     "MRI injury to the basal ganglia and thalamus",
+     "Normal cranial ultrasound on day 1"
+    ],
+    "answer": 2,
+    "explain": "Basal ganglia and thalamic injury on MRI at days 4-10 means a poor prognosis. An aEEG that normalises by 24-48 h is a good sign, and an early normal ultrasound is not reassuring.",
+    "note": "MRI days 4-10: basal ganglia and thalamus injury = poor prognosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which five components make up the Apgar score?",
+    "options": [
+     "Appearance, Pulse, Glucose, Activity, Respiration",
+     "Alertness, Pulse, Grimace, Activity, Reflexes",
+     "Appearance, Pulse, Grimace, Activity, Respiration",
+     "Appearance, Pressure, Grimace, Activity, Respiration"
+    ],
+    "answer": 2,
+    "explain": "Apgar is Appearance (colour), Pulse, Grimace (reflex irritability), Activity (tone) and Respiration, each scored 0-2 for a 10-point scale.",
+    "note": "Apgar: Appearance, Pulse, Grimace, Activity, Respiration (10-point scale)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A baby born at 35+2 weeks has moderate encephalopathy at 2 hours after a placental abruption. According to the standard criteria in the notes, is cooling indicated?",
+    "options": [
+     "Yes; any gestation ≥32 weeks qualifies",
+     "No; cooling is only for severe HIE",
+     "Yes; but it may start up to 12 hours",
+     "No; standard criteria require ≥36 weeks gestation"
+    ],
+    "answer": 3,
+    "explain": "Standard cooling criteria are moderate or severe HIE in babies ≥36 weeks, started within 6 h. Some centres now cool from 35 weeks after discussion, but that falls outside the standard criteria.",
+    "note": "Cooling: moderate or severe HIE, babies ≥ 36 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby with moderate HIE is started on therapeutic hypothermia at 4 hours of age. What are the correct target and duration?",
+    "options": [
+     "35 °C for 24 hours, rewarming 1 °C per hour",
+     "33.5 °C for 72 hours, rewarming 0.5 °C per hour",
+     "32 °C for 48 hours, rapid rewarming",
+     "33.5 °C for 120 hours, rewarming 0.5 °C per hour"
+    ],
+    "answer": 1,
+    "explain": "The target is 33.5 °C for 72 h, started within 6 h, then slow rewarming at 0.5 °C per hour. Longer or deeper cooling has not helped.",
+    "note": "33.5 °C for 72 hours, started within 6 hours; rewarm 0.5 °C per hour."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the Sarnat stages of HIE?",
+    "back": "Mild: hyperalert, jittery • moderate: lethargy, hypotonia, seizures • severe: coma, flaccid, apnoea • multiorgan: ATN, PPHN, DIC, hypoglycaemia"
+   },
+   {
+    "type": "card",
+    "front": "Explain the phases of hypoxic-ischaemic brain injury and why they matter.",
+    "back": "Hypoxia → ATP fails → primary energy failure (oedema, excitotoxicity) → latent phase 1-6 h = treatment window → secondary energy failure 6-72 h → neuronal death"
+   },
+   {
+    "type": "card",
+    "front": "What are the criteria and protocol for therapeutic hypothermia?",
+    "back": "Moderate/severe HIE, ≥36 wk • start within 6 h • 33.5 °C for 72 h • rewarm 0.5 °C/h • normocapnia, avoid hyperthermia, restrict fluids • seizures → phenobarbital"
+   }
+  ]
+ },
+ "III-52": {
+  "summary": "Hydrocephalus in an infant shows as a head crossing centiles, a bulging fontanelle and sunsetting eyes. Treat with a VP shunt or ETV, and later headache, vomiting and drowsiness mean the shunt is blocked. CP is a non-progressive injury to the developing brain with a picture that evolves; loss of skills is never CP.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What is the essential criterion in the definition of cerebral palsy?",
+    "options": [
+     "A non-progressive injury of the developing brain",
+     "A progressive neurodegenerative disorder of infancy",
+     "Any motor disorder with onset after age 5",
+     "A genetic myopathy causing hypotonia"
+    ],
+    "answer": 0,
+    "explain": "CP is defined by a non-progressive, residual brain injury of the developing brain. The lesion is static even though the clinical picture evolves.",
+    "note": "CP: essential criterion non-progressive, residual brain injury of developing brain."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Which perinatal factor is most strongly associated with cerebral palsy?",
+    "options": [
+     "Breech delivery at term",
+     "Prematurity, through periventricular leukomalacia and IVH",
+     "Neonatal jaundice treated with phototherapy",
+     "Caesarean section"
+    ],
+    "answer": 1,
+    "explain": "Most CP has an antenatal origin, but prematurity (PVL, IVH) is the strongest single risk factor. HIE and kernicterus are other causes, while treated jaundice is not.",
+    "note": "CP: antenatal (most), prematurity (PVL, IVH) strongest, HIE, kernicterus."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A preterm infant born at 26 weeks develops an intraventricular haemorrhage on day 2. Where does this haemorrhage originate?",
+    "options": [
+     "Choroid plexus",
+     "Cortical bridging veins",
+     "Cerebellar vermis",
+     "Germinal matrix"
+    ],
+    "answer": 3,
+    "explain": "Preterm IVH arises in the fragile, highly vascular germinal matrix, which involutes by about 34 weeks. Bridging veins cause subdural haemorrhage.",
+    "note": "Preterm IVH arises in the germinal matrix."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old has a head circumference that has crossed from the 25th to above the 98th centile, a bulging fontanelle and eyes deviated downwards. What is the most likely diagnosis?",
+    "options": [
+     "Hydrocephalus",
+     "Benign familial macrocephaly",
+     "Craniosynostosis",
+     "Subdural effusion from benign enlargement"
+    ],
+    "answer": 0,
+    "explain": "Head circumference crossing centiles, a bulging fontanelle and sunsetting eyes indicate infantile hydrocephalus. In familial macrocephaly the head is large but follows its centile, and the child is well.",
+    "note": "Infant: head circumference crossing centiles, bulging fontanelle, sunsetting eyes."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 7-month-old consistently reaches with the right hand and keeps the left hand fisted. What is the most likely explanation?",
+    "options": [
+     "Normal early handedness",
+     "Right brachial plexus palsy",
+     "Developmental regression from a metabolic disorder",
+     "Left hemiplegic cerebral palsy"
+    ],
+    "answer": 3,
+    "explain": "Hand preference before 12 months is abnormal and suggests hemiplegia on the unused (left) side, from a right-hemisphere lesion. Loss of skills would suggest a progressive disorder, not CP.",
+    "note": "Hand preference before 12 months suggests hemiplegia; loss of skills is not CP."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old has writhing involuntary movements of the limbs that worsen with emotion. Where is the causative lesion most likely to be?",
+    "options": [
+     "Cerebellum",
+     "Basal ganglia",
+     "Periventricular white matter",
+     "Motor cortex"
+    ],
+    "answer": 1,
+    "explain": "Dyskinetic CP (athetosis, dystonia) comes from basal ganglia injury, as in kernicterus or severe HIE. Ataxic CP is cerebellar, and spastic CP (the commonest) involves the pyramidal tracts and periventricular white matter.",
+    "note": "CP: spastic commonest; dyskinetic (basal ganglia), ataxic (cerebellum)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 10-week-old has a bulging fontanelle and persistent vomiting. What is the most appropriate first imaging?",
+    "options": [
+     "CT head with contrast",
+     "Skull X-ray",
+     "Lumbar puncture before imaging",
+     "Cranial ultrasound"
+    ],
+    "answer": 3,
+    "explain": "In an infant with an open fontanelle, cranial ultrasound is a quick, radiation-free first test for hydrocephalus or IVH, with MRI for detail. LP before imaging is dangerous with raised ICP.",
+    "note": "Hydrocephalus/IVH: cranial ultrasound (infant), MRI; bulging fontanelle + vomiting → brain imaging."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-year-old with a VP shunt for hydrocephalus has 1 day of headache, vomiting and increasing drowsiness without fever. What is the most likely problem?",
+    "options": [
+     "Viral gastroenteritis",
+     "Shunt blockage (malfunction)",
+     "Migraine",
+     "Shunt over-drainage"
+    ],
+    "answer": 1,
+    "explain": "Headache, vomiting and drowsiness in a shunted child means shunt blockage until proven otherwise. It needs urgent imaging and neurosurgery. Over-drainage gives postural headache that is relieved by lying down.",
+    "note": "Ventriculoperitoneal shunt or endoscopic third ventriculostomy; headache/vomiting/drowsiness = blockage."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of hydrocephalus and how it presents in infants.",
+    "back": "Aqueduct stenosis, Chiari II, tumour, post-IVH/meningitis, congenital toxoplasmosis • HC crossing centiles, bulging fontanelle, sunsetting eyes • Dx: cranial US, MRI • Rx: VP shunt/ETV"
+   },
+   {
+    "type": "card",
+    "front": "Define cerebral palsy and give its subtypes with the lesion sites.",
+    "back": "Non-progressive injury of the developing brain; picture evolves (hypotonia → spasticity) • spastic (commonest) • dyskinetic (basal ganglia) • ataxic (cerebellum) • loss of skills ≠ CP"
+   },
+   {
+    "type": "card",
+    "front": "How is cerebral palsy diagnosed and managed?",
+    "back": "Standardised movement assessment + MRI • GMFCS for function • MDT: physio/OT/SLT • baclofen, botulinum toxin • hip surveillance"
+   }
+  ]
+ },
+ "III-53": {
+  "summary": "Give antibiotics without delay. The LP can wait if there are signs of raised ICP, shock or coagulopathy, but the antibiotics never wait. Under 3 months use cefotaxime + amoxicillin (Listeria), and over 3 months ceftriaxone plus dexamethasone. Brain abscess means ring enhancement and no LP.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What are the commonest bacterial causes of meningitis in neonates?",
+    "options": [
+     "Group B streptococcus and E. coli",
+     "Pneumococcus and meningococcus",
+     "Haemophilus influenzae b and Staphylococcus aureus",
+     "Pseudomonas and Klebsiella"
+    ],
+    "answer": 0,
+    "explain": "Neonatal meningitis is mainly GBS (Streptococcus agalactiae) and E. coli, with Listeria also important. Meningococcus and pneumococcus dominate after the neonatal period.",
+    "note": "Neonates: Streptococcus agalactiae (GBS) and E. coli; Listeria."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 7-year-old with uncorrected tetralogy of Fallot develops headache, a new left hemiparesis and a focal seizure, with a low-grade fever. What is the most likely mechanism of his illness?",
+    "options": [
+     "Paradoxical embolism of thrombus causing ischaemic stroke only",
+     "Right-to-left shunting bypasses the pulmonary capillary filter",
+     "Bacterial endocarditis on a prosthetic valve",
+     "Polycythaemia causing cerebral venous sinus thrombosis"
+    ],
+    "answer": 1,
+    "explain": "Cyanotic congenital heart disease predisposes to brain abscess because the right-to-left shunt lets bacteria bypass the lung filter. Venous sinus thrombosis is a differential, but fever with focal signs points to abscess.",
+    "note": "Later: meningococcus, pneumococcus; abscess: ear/sinus spread, cyanotic CHD (right-to-left shunt bypasses lung filter)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is CSF glucose low in bacterial meningitis?",
+    "options": [
+     "Hypoglycaemia from sepsis lowers blood glucose",
+     "CSF dilution by inflammatory exudate",
+     "Insulin release triggered by meningeal cytokines",
+     "Neutrophil and bacterial consumption with impaired glucose transport"
+    ],
+    "answer": 3,
+    "explain": "Cytokines open the BBB, so protein rises, neutrophils enter and glucose falls (consumed by bacteria and neutrophils and poorly transported). The CSF:blood ratio corrects for blood glucose.",
+    "note": "Cytokines open BBB → protein elevated, glucose decreased, neutrophils."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 8-month-old has fever, irritability and a bulging fontanelle but no neck stiffness. Why is neck stiffness absent?",
+    "options": [
+     "Neck stiffness excludes meningitis at this age",
+     "Meningism signs are unreliable in infants",
+     "The bulging fontanelle indicates hydrocephalus, not meningitis",
+     "Kernig's sign is the only reliable infant sign"
+    ],
+    "answer": 1,
+    "explain": "Infants often lack neck stiffness, Kernig and Brudzinski signs. They present instead with fever, irritability and a bulging fontanelle.",
+    "note": "Neck stiffness, Kernig, Brudzinski; infants: fever, irritability, bulging fontanelle."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "Which CSF profile is most consistent with bacterial meningitis?",
+    "options": [
+     "Lymphocytes 200/µL, protein 0.6 g/L, CSF:blood glucose 0.6",
+     "Neutrophils >1000/µL, protein >1 g/L, CSF:blood glucose <0.4",
+     "Neutrophils 5/µL, protein 0.3 g/L, CSF:blood glucose 0.7",
+     "Lymphocytes 300/µL, protein 2 g/L, CSF:blood glucose 0.3, after 3 weeks"
+    ],
+    "answer": 1,
+    "explain": "Bacterial meningitis gives neutrophils >1000/µL, protein >1 g/L and a CSF:blood glucose ratio <0.4. A lymphocytic CSF with normal glucose is viral, and a lymphocytic CSF with low glucose and very high protein over weeks suggests TB.",
+    "note": "LP: neutrophils >1000/µL, protein >1 g/L, CSF:blood glucose <0.4."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 3-year-old with suspected meningitis has a GCS of 9, a purpuric rash spreading rapidly, a capillary refill of 5 seconds and a prolonged INR. What is the next step?",
+    "options": [
+     "Perform LP first to obtain CSF before antibiotics",
+     "Give IV ceftriaxone immediately and delay the LP",
+     "CT head, then LP, then antibiotics",
+     "Correct INR with FFP, then LP, then antibiotics"
+    ],
+    "answer": 1,
+    "explain": "Raised ICP, shock and coagulopathy are reasons to delay the LP but never to delay antibiotics. Blood cultures and PCR can still confirm the organism.",
+    "note": "Raised ICP, shock, coagulopathy: delay LP, never delay antibiotics."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-week-old has CSF-confirmed bacterial meningitis. What is the most appropriate empirical antibiotic regimen?",
+    "options": [
+     "Ceftriaxone alone",
+     "Cefotaxime plus amoxicillin",
+     "Ceftriaxone plus dexamethasone",
+     "Vancomycin alone"
+    ],
+    "answer": 1,
+    "explain": "Under 3 months use cefotaxime + amoxicillin, because cephalosporins don't cover Listeria. Over 3 months use ceftriaxone, and dexamethasone is given only over 3 months.",
+    "note": "Antibiotics without delay: under 3 months cefotaxime + amoxicillin (covers Listeria); over 3 months ceftriaxone."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-year-old has a 2 cm ring-enhancing lesion in the temporal lobe after chronic otitis media. What is the most appropriate management?",
+    "options": [
+     "Neurosurgical drainage plus IV antibiotics for 4-8 weeks",
+     "Lumbar puncture to identify the organism, then antibiotics",
+     "High-dose dexamethasone alone",
+     "Oral antibiotics for 2 weeks"
+    ],
+    "answer": 0,
+    "explain": "A brain abscess (ring-enhancing, from ear or sinus spread) is drained and treated with 4-8 weeks of IV antibiotics. LP is contraindicated because of the risk of herniation.",
+    "note": "Abscess: drain + IV antibiotics 4-8 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the causative organisms and empirical antibiotics for meningitis by age.",
+    "back": "<3 mo: GBS, E. coli, Listeria → cefotaxime + amoxicillin • >3 mo: meningococcus, pneumococcus → ceftriaxone + dexamethasone • hearing test within 4 weeks • contact prophylaxis"
+   },
+   {
+    "type": "card",
+    "front": "What are the CSF findings in bacterial meningitis, and when do you delay the LP?",
+    "back": "Neutrophils >1000/µL, protein >1 g/L, CSF:blood glucose <0.4 • delay LP if raised ICP, shock, coagulopathy, but never delay antibiotics"
+   },
+   {
+    "type": "card",
+    "front": "What are the key facts about brain abscess in children?",
+    "back": "Ear/sinus spread, cyanotic CHD (R→L shunt) • headache, focal signs, seizures; fever in only half • ring-enhancing lesion • LP contraindicated • drain + IV antibiotics 4-8 weeks"
+   }
+  ]
+ },
+ "III-54": {
+  "summary": "Any febrile child with altered behaviour has HSV encephalitis until proven otherwise, so start IV aciclovir on suspicion. For facial palsy, the forehead separates central (spared) from peripheral, and every palsy needs an ear exam and a blood pressure before you call it Bell palsy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the key treatable cause of sporadic encephalitis in children beyond the neonatal period?",
+    "options": [
+     "Enterovirus",
+     "HSV-1",
+     "Varicella zoster virus",
+     "Measles virus"
+    ],
+    "answer": 1,
+    "explain": "HSV-1 is the key treatable cause, which is why aciclovir is started empirically. Neonates mainly get HSV-2.",
+    "note": "Encephalitis: HSV-1 (key treatable cause), enterovirus, VZV; neonates HSV-2; anti-NMDAR, ADEM."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-year-old with fever, confusion and olfactory hallucinations has an MRI showing unilateral signal change. Which brain region is most likely affected?",
+    "options": [
+     "Occipital lobe",
+     "Cerebellum",
+     "Basal ganglia",
+     "Temporal lobe"
+    ],
+    "answer": 3,
+    "explain": "HSV encephalitis typically involves the temporal lobe (often asymmetrical), giving behaviour change, olfactory or gustatory hallucinations and temporal seizures.",
+    "note": "HSV encephalitis typically affects the temporal lobe."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 9-year-old has a right facial weakness. She can wrinkle her forehead normally on both sides but cannot raise the right corner of her mouth. Where is the lesion?",
+    "options": [
+     "Right facial nerve (LMN) lesion",
+     "Left facial nerve (LMN) lesion",
+     "Left upper motor neuron (central) lesion",
+     "Right upper motor neuron (central) lesion"
+    ],
+    "answer": 2,
+    "explain": "Forehead sparing indicates a central (UMN) lesion, because the upper face has bilateral cortical supply. A right lower facial weakness means the lesion is in the left hemisphere.",
+    "note": "Upper face has bilateral cortical supply → forehead spared in central lesions."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 12-year-old has acute right-sided facial weakness involving the forehead, ear pain and vesicles in the external auditory canal. What is the most likely diagnosis?",
+    "options": [
+     "Bell palsy",
+     "Acute otitis media with facial palsy",
+     "Ramsay Hunt syndrome",
+     "Lyme neuroborreliosis"
+    ],
+    "answer": 2,
+    "explain": "Ramsay Hunt syndrome is VZV reactivation in the geniculate ganglion, giving ear vesicles and a peripheral palsy. Bell palsy is a diagnosis of exclusion and has no vesicles.",
+    "note": "Bilateral palsy: Lyme, Guillain-Barre, leukaemia; Ramsay Hunt: ear vesicles."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old develops bilateral peripheral facial palsy over a week after a summer camping trip, with a recent expanding red rash on the thigh. What is the most likely cause?",
+    "options": [
+     "Bell palsy",
+     "Ramsay Hunt syndrome",
+     "Hypertensive encephalopathy",
+     "Lyme disease"
+    ],
+    "answer": 3,
+    "explain": "Bilateral facial palsy suggests Lyme disease, Guillain-Barré or leukaemia. Tick exposure with erythema migrans points to Lyme. Bell palsy is almost always unilateral.",
+    "note": "Bilateral palsy: Lyme, Guillain-Barre, leukaemia; Ramsay Hunt: ear vesicles."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "Which CSF profile is typical of HSV encephalitis?",
+    "options": [
+     "Neutrophils >1000/µL, low glucose",
+     "Very high protein with low glucose and cobwebs",
+     "Normal cells, oligoclonal bands only",
+     "Lymphocytic pleocytosis, normal glucose; HSV PCR positive"
+    ],
+    "answer": 3,
+    "explain": "Encephalitis gives a lymphocytic CSF with normal glucose, and HSV PCR is diagnostic. A neutrophilic CSF with low glucose is bacterial, and a high protein with cobwebs suggests TB.",
+    "note": "LP: lymphocytic CSF, normal glucose; HSV PCR; MRI, EEG."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old presents with an isolated unilateral facial palsy involving the forehead. Which assessments are mandatory before diagnosing Bell palsy?",
+    "options": [
+     "MRI brain and nerve conduction studies",
+     "Examine the ear and measure blood pressure",
+     "Lumbar puncture and Lyme serology",
+     "Full blood count and blood film only"
+    ],
+    "answer": 1,
+    "explain": "In every facial palsy, examine the ear (otitis, vesicles) and measure blood pressure (hypertension, e.g. coarctation, is a recognised cause), and image the brain if the course is atypical. Bell palsy is a diagnosis of exclusion.",
+    "note": "Every facial palsy: examine the ear, measure blood pressure; atypical course → image brain."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old has fever, a focal seizure and new irritability with confusion. CT is normal and the LP is pending. What is the most appropriate immediate treatment?",
+    "options": [
+     "Wait for HSV PCR before treating",
+     "Oral valaciclovir",
+     "IV ceftriaxone alone",
+     "IV aciclovir"
+    ],
+    "answer": 3,
+    "explain": "Start IV aciclovir on suspicion and continue for 14-21 days (21 in neonates). Delay worsens outcome. Monitor renal function for crystal-induced AKI. Ceftriaxone alone does not cover HSV.",
+    "note": "IV aciclovir on suspicion, 14-21 days (21 neonates); crystal-induced AKI risk."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you approach encephalitis in a child (causes, investigations, treatment)?",
+    "back": "HSV-1 (treatable), enterovirus, VZV; neonates HSV-2; anti-NMDAR, ADEM • fever + altered behaviour, seizures, focal signs • LP: lymphocytes, normal glucose, HSV PCR; MRI (temporal lobe), EEG • IV aciclovir 14-21 d"
+   },
+   {
+    "type": "card",
+    "front": "Central vs peripheral facial palsy: how do you tell them apart, and what are the causes?",
+    "back": "Central (UMN): forehead spared (bilateral cortical supply) • peripheral: whole half-face, can't close eye, taste loss • causes: Bell (exclusion), otitis, Lyme, Ramsay Hunt, hypertension, leukaemia • bilateral: Lyme, GBS, leukaemia"
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of facial palsy and of immune-mediated encephalitis.",
+    "back": "Palsy: examine ear, measure BP, protect eye, treat cause, prednisolone within 72 h; image if atypical • ADEM: methylprednisolone • anti-NMDAR in girls → search for ovarian teratoma"
+   }
+  ]
+ },
+ "III-55": {
+  "summary": "The neurocutaneous syndromes share an ectodermal origin, so skin findings flag brain disease: café-au-lait macules and Lisch nodules mean NF1, ash-leaf macules with infantile spasms mean TSC, and a V1 port-wine stain with seizures means Sturge-Weber. Know the targeted drug for each: selumetinib, vigabatrin/everolimus, aspirin.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which gene and chromosome are associated with neurofibromatosis type 2?",
+    "options": [
+     "Neurofibromin, chromosome 17",
+     "Hamartin, chromosome 9",
+     "GNAQ, somatic mutation",
+     "Merlin, chromosome 22"
+    ],
+    "answer": 3,
+    "explain": "NF2 is caused by loss of merlin (chromosome 22, AD), and NF1 by loss of neurofibromin (chromosome 17). TSC1 (hamartin) lies on chromosome 9, and GNAQ causes Sturge-Weber.",
+    "note": "NF1: neurofibromin, chromosome 17; NF2: merlin, chromosome 22 (AD)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Parents of a child with Sturge-Weber syndrome ask about the risk in their next child. What is the best answer?",
+    "options": [
+     "50%, as it is autosomal dominant",
+     "25%, as it is autosomal recessive",
+     "Risk depends on the father's age, as it is X-linked",
+     "Very low, because it is caused by a somatic GNAQ mutation"
+    ],
+    "answer": 3,
+    "explain": "Sturge-Weber is caused by a somatic (post-zygotic) GNAQ mutation and is not inherited, so the recurrence risk is negligible. NF1, NF2 and TSC are AD.",
+    "note": "TSC1/TSC2 (AD); Sturge-Weber: somatic GNAQ mutation, not inherited."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is everolimus effective for subependymal giant cell astrocytoma in tuberous sclerosis?",
+    "options": [
+     "TSC1/2 loss causes mTOR overactivity, which everolimus inhibits",
+     "TSC loss activates Ras, which everolimus blocks",
+     "Everolimus blocks MEK downstream of neurofibromin",
+     "Everolimus inhibits GNAQ-driven angiogenesis"
+    ],
+    "answer": 0,
+    "explain": "Hamartin and tuberin normally restrain mTOR, so their loss drives hamartoma growth, and everolimus is an mTOR inhibitor. Ras/MEK is the NF1 pathway (selumetinib).",
+    "note": "TSC: mTOR overactivity → hamartomas; SWS: leptomeningeal angioma → cortical ischaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-year-old has eight café-au-lait macules >5 mm, axillary freckling and pigmented iris hamartomas on slit-lamp exam. What is the diagnosis?",
+    "options": [
+     "Neurofibromatosis type 2",
+     "Tuberous sclerosis complex",
+     "Neurofibromatosis type 1",
+     "McCune-Albright syndrome"
+    ],
+    "answer": 2,
+    "explain": "≥6 café-au-lait macules, freckling and Lisch nodules indicate NF1. McCune-Albright has fewer, large 'coast of Maine' patches, and NF2 presents with vestibular schwannomas.",
+    "note": "NF1: ≥ 6 café-au-lait macules, freckling, neurofibromas, optic glioma, Lisch nodules."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-month-old has clusters of flexor spasms on waking. Examination shows several hypopigmented leaf-shaped macules, and an antenatal scan had shown a cardiac rhabdomyoma. What is the underlying diagnosis?",
+    "options": [
+     "Neurofibromatosis type 1",
+     "Sturge-Weber syndrome",
+     "Incontinentia pigmenti",
+     "Tuberous sclerosis complex"
+    ],
+    "answer": 3,
+    "explain": "Infantile spasms, ash-leaf macules and a cardiac rhabdomyoma indicate tuberous sclerosis. Facial angiofibromas appear later in childhood.",
+    "note": "NF2: bilateral vestibular schwannomas; TSC: ash-leaf macules, angiofibromas, rhabdomyomas, infantile spasms."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-year-old with a right V1 port-wine stain develops focal seizures. Which imaging finding is characteristic?",
+    "options": [
+     "Periventricular calcified tubers",
+     "Bilateral vestibular schwannomas",
+     "Optic nerve glioma",
+     "Tram-track gyriform calcification"
+    ],
+    "answer": 3,
+    "explain": "Sturge-Weber shows tram-track calcification under the leptomeningeal angioma. Subependymal nodules and tubers are TSC, and optic glioma is NF1.",
+    "note": "SWS imaging: tram-track calcification."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-month-old with tuberous sclerosis has infantile spasms with hypsarrhythmia on EEG. What is the first-line treatment?",
+    "options": [
+     "Vigabatrin",
+     "Prednisolone",
+     "Sodium valproate",
+     "Everolimus"
+    ],
+    "answer": 0,
+    "explain": "Vigabatrin is first line for spasms in TSC. Steroids or ACTH are first line for most other causes of West syndrome. Everolimus treats SEGA and refractory TSC epilepsy, not first-line spasms.",
+    "note": "TSC spasms: first-line vigabatrin; SEGA: everolimus."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old with NF1 has a large, symptomatic, inoperable plexiform neurofibroma of the neck. Which targeted drug is indicated?",
+    "options": [
+     "Everolimus",
+     "Vigabatrin",
+     "Selumetinib",
+     "Propranolol"
+    ],
+    "answer": 2,
+    "explain": "Selumetinib (a MEK inhibitor) shrinks inoperable plexiform neurofibromas, because neurofibromin loss leaves Ras unchecked. Everolimus is for TSC, and propranolol is for infantile haemangioma.",
+    "note": "NF1 plexiform neurofibroma: selumetinib (MEK inhibitor)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the genetics and mechanisms of NF1, NF2, TSC and Sturge-Weber.",
+    "back": "NF1: neurofibromin, chr 17, AD → Ras unchecked • NF2: merlin, chr 22, AD • TSC1/TSC2, AD → mTOR overactivity → hamartomas • SWS: somatic GNAQ, not inherited → leptomeningeal angioma → cortical ischaemia"
+   },
+   {
+    "type": "card",
+    "front": "List the cardinal clinical features of each neurocutaneous syndrome.",
+    "back": "NF1: ≥6 CALMs, freckling, neurofibromas, optic glioma, Lisch nodules • NF2: bilateral vestibular schwannomas • TSC: ash-leaf, angiofibromas, rhabdomyomas, infantile spasms • SWS: V1 port-wine stain, seizures, hemiparesis, glaucoma"
+   },
+   {
+    "type": "card",
+    "front": "What are the targeted treatments and surveillance in neurocutaneous syndromes?",
+    "back": "NF1: annual eye checks; plexiform neurofibroma → selumetinib (MEK) • TSC: Wood lamp; spasms → vigabatrin; SEGA → everolimus • SWS: seizure control, low-dose aspirin, glaucoma follow-up, pulsed-dye laser"
+   }
+  ]
+ }
+}

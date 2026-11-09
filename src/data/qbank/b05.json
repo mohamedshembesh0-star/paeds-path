@@ -1,0 +1,2132 @@
+{
+ "II-21": {
+  "summary": "JIA is a diagnosis of exclusion (onset <16 y, ≥6 weeks): rule out leukaemia and septic arthritis first, then think by subtype — ANA+ oligo girls go blind silently from uveitis, and systemic JIA kills through MAS.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which combination of age at onset and minimum duration of arthritis is required to diagnose juvenile idiopathic arthritis?",
+    "options": [
+     "Onset before 16 years, lasting at least 6 weeks",
+     "Onset before 16 years, lasting at least 3 months",
+     "Onset before 12 years, lasting at least 2 weeks",
+     "Onset before 18 years, lasting at least 6 weeks"
+    ],
+    "answer": 0,
+    "explain": "JIA = arthritis of unknown cause starting before the 16th birthday and persisting ≥6 weeks. The 3-month figure belongs to adult RA-style chronicity definitions, and 18 years is the paediatric age cut-off for other purposes, not JIA.",
+    "note": "JIA: arthritis of unknown cause, onset before 16, lasting at least 6 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old girl has had a swollen, mildly stiff left knee and right ankle for 2 months. She is otherwise well, with no fever or rash. ANA is positive, RF is negative. Which JIA subtype is most likely?",
+    "options": [
+     "Oligoarticular JIA",
+     "Systemic JIA",
+     "Polyarticular RF-positive JIA",
+     "Enthesitis-related arthritis"
+    ],
+    "answer": 0,
+    "explain": "≤4 joints in a young ANA-positive girl is classic oligoarticular JIA (~50% of cases). Enthesitis-related arthritis affects older HLA-B27+ boys; systemic JIA has quotidian fever and rash and is ANA-negative; RF+ polyarticular disease affects ≥5 small joints in adolescent girls.",
+    "note": "Subtypes: oligoarticular (~50%, young ANA+ girls), polyarticular RF-/RF+, systemic, enthesitis-related (HLA-B27), psoriatic."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-year-old girl with ANA-positive oligoarticular JIA has no eye symptoms and normal visual acuity. Which eye follow-up is most appropriate?",
+    "options": [
+     "Slit-lamp examination every 3 months",
+     "Slit-lamp examination only if the eye becomes red",
+     "Visual acuity testing every 12 months",
+     "Annual fundoscopy by the general practitioner"
+    ],
+    "answer": 0,
+    "explain": "Anterior uveitis in ANA+ oligoarticular JIA is silent — a painless white eye — so it is detected only by scheduled slit-lamp screening (every 3 months in the high-risk group). Waiting for a red eye or relying on fundoscopy/acuity misses it until synechiae, cataract or glaucoma develop.",
+    "note": "ANA+ oligoarticular: slit lamp every 3 months. MAS: huge ferritin, falling ESR."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 5-year-old boy has had a daily evening fever spike to 39.5°C, returning to normal each morning, for 3 weeks, with an evanescent salmon-pink rash during fevers, hepatosplenomegaly and now arthritis of both wrists. ANA and RF are negative and infection and malignancy have been excluded. Which is the most appropriate first-line targeted therapy?",
+    "options": [
+     "Rituximab",
+     "Intra-articular triamcinolone",
+     "Weekly methotrexate",
+     "Anakinra"
+    ],
+    "answer": 3,
+    "explain": "Quotidian fever + salmon rash + organomegaly = systemic JIA, which is IL-1/IL-6 driven, so anakinra (IL-1) or tocilizumab (IL-6) is first-line. Methotrexate and joint injections address arthritis but not the systemic inflammation; rituximab is not a JIA standard.",
+    "note": "Biologics: anti-TNF, abatacept, tocilizumab; sJIA: anakinra/tocilizumab first-line."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 7-year-old with systemic JIA becomes acutely unwell with persistent high fever, bruising and confusion. Ferritin is 28 000 µg/L and platelets have fallen from 450 to 110 × 10⁹/L. ESR has fallen from 95 to 14 mm/h. What best explains the falling ESR?",
+    "options": [
+     "Bone marrow infiltration by acute lymphoblastic leukaemia",
+     "Good response of systemic JIA to current treatment",
+     "Superimposed septic arthritis suppressing the acute phase",
+     "Fibrinogen consumption in macrophage activation syndrome"
+    ],
+    "answer": 3,
+    "explain": "In MAS, failed cytotoxic killing drives a cytokine storm with consumptive coagulopathy; fibrinogen falls, so ESR paradoxically drops while ferritin soars. A falling ESR with rising ferritin and falling platelets is a red flag, not a treatment response; sepsis would raise ESR.",
+    "note": "MAS: failed cytotoxic killing → cytokine storm; ESR falls as fibrinogen is consumed."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 4-year-old boy has a limp and knee pain that wakes him at night for 5 weeks. He looks pale and has bruises on his shins. Hb is 85 g/L, platelets 90 × 10⁹/L and LDH is raised. The knee is mildly swollen. What is the most appropriate next investigation?",
+    "options": [
+     "ANA and rheumatoid factor",
+     "MRI of the knee",
+     "Bone marrow aspirate",
+     "HLA-B27 typing"
+    ],
+    "answer": 2,
+    "explain": "Night pain, cytopenias and high LDH point to leukaemia, which must be excluded before diagnosing JIA (and before giving steroids, which can mask ALL). ANA, RF and HLA-B27 do not diagnose JIA and would not exclude malignancy; knee MRI does not address the cytopenias.",
+    "note": "Exclude leukaemia (night pain, cytopenia, LDH) and septic arthritis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A 6-year-old with oligoarticular JIA still has a swollen, stiff right knee after 6 weeks of regular NSAIDs. What is the most appropriate next step?",
+    "options": [
+     "Arthroscopic synovectomy",
+     "Subcutaneous anti-TNF therapy",
+     "Long-term oral prednisolone",
+     "Intra-articular triamcinolone injection"
+    ],
+    "answer": 3,
+    "explain": "The JIA ladder: NSAIDs → intra-articular triamcinolone → weekly methotrexate (+ folic acid) → biologics. A single persistently active joint is best treated locally; systemic steroids cause growth failure, and biologics come after methotrexate failure.",
+    "note": "NSAIDs → intra-articular triamcinolone → methotrexate once weekly + folic acid."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 13-year-old girl has symmetrical swelling of the small joints of both hands for 3 months. RF and anti-CCP antibodies are both positive. What is the main prognostic significance of these antibodies?",
+    "options": [
+     "Association with enthesitis and sacroiliitis",
+     "Likely evolution into systemic JIA with MAS",
+     "High risk of an erosive, destructive course",
+     "High risk of silent anterior uveitis"
+    ],
+    "answer": 2,
+    "explain": "RF/anti-CCP predict erosive, adult-RA-like disease and justify early aggressive therapy. Uveitis risk is flagged by ANA, not RF; enthesitis/sacroiliitis relate to HLA-B27, and systemic JIA is RF-negative.",
+    "note": "Clinical; ANA → uveitis risk; RF/anti-CCP → erosive course."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the JIA subtypes with their key associations.",
+    "back": "Oligoarticular (~50%, ≤4 joints, young ANA+ girls → uveitis) • Polyarticular RF− / RF+ (RF/anti-CCP → erosive) • Systemic (quotidian fever, salmon rash, HSM, serositis; ANA/RF−) • Enthesitis-related (HLA-B27) • Psoriatic"
+   },
+   {
+    "type": "card",
+    "front": "What is macrophage activation syndrome and how do you recognise and treat it?",
+    "back": "Most serious sJIA complication: failed cytotoxic killing → cytokine storm. Huge ferritin, falling ESR (fibrinogen consumed), falling platelets, persistent fever. Rx: IV methylprednisolone, anakinra, ciclosporin."
+   },
+   {
+    "type": "card",
+    "front": "Walk through the JIA treatment ladder.",
+    "back": "NSAIDs → intra-articular triamcinolone → methotrexate once weekly + folic acid → biologics (anti-TNF, abatacept, tocilizumab). sJIA: anakinra/tocilizumab first-line. Always exclude leukaemia and septic arthritis first."
+   }
+  ]
+ },
+ "II-22": {
+  "summary": "In acute viral hepatitis the transaminases tell you the liver is inflamed, but the INR (uncorrected by vitamin K), glucose and mental state tell you whether the child is dying — PALF is INR ≥1.5 with encephalopathy or ≥2.0 without.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which pair of hepatitis viruses is spread faecal-orally and typically causes self-limiting infection without chronicity in immunocompetent children?",
+    "options": [
+     "Hepatitis A and E",
+     "Hepatitis B and D",
+     "Hepatitis A and C",
+     "Hepatitis C and E"
+    ],
+    "answer": 0,
+    "explain": "A and E are enteric, faecal-oral and self-limiting. B, C and D are blood-borne/vertical and can become chronic; HCV is not faecal-orally transmitted.",
+    "note": "A, E: faecal-oral, self-limiting; B, C, D: blood/vertical, can become chronic."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old attends a nursery where two staff members recently became jaundiced. He had 3 days of low-grade fever, anorexia and vomiting but never looked yellow. ALT is 850 U/L, bilirubin is normal and INR is 1.0. What is the most likely diagnosis?",
+    "options": [
+     "Paracetamol hepatotoxicity",
+     "EBV-associated hepatitis",
+     "Acute hepatitis C infection",
+     "Anicteric hepatitis A infection"
+    ],
+    "answer": 3,
+    "explain": "Hepatitis A in young children is mostly anicteric — a prodrome of fever, malaise and vomiting with raised transaminases — and spreads in nurseries to adults, who become jaundiced. Confirm with IgM anti-HAV. HCV is blood-borne and rarely acute-symptomatic; the outbreak context argues against EBV or paracetamol.",
+    "note": "Prodrome: fever, malaise, anorexia, nausea, vomiting → then jaundice; HAV in young children mostly anicteric."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 14-year-old with jaundice and ALT 2400 U/L has these results: HBsAg positive, IgM anti-HBc positive, anti-HBs negative. What is the correct interpretation?",
+    "options": [
+     "Resolved past hepatitis B infection",
+     "Acute hepatitis B infection",
+     "Chronic hepatitis B infection",
+     "Immunity after hepatitis B vaccination"
+    ],
+    "answer": 1,
+    "explain": "HBsAg + IgM anti-HBc = acute hepatitis B. Chronic infection shows HBsAg with IgG (not IgM) anti-HBc for >6 months; vaccine immunity is anti-HBs alone; resolved infection is anti-HBs + IgG anti-HBc with HBsAg negative.",
+    "note": "IgM anti-HAV; HBsAg + IgM anti-HBc = acute B; anti-HCV + HCV RNA."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "An infant infected with hepatitis B at birth receives no prophylaxis. Approximately what is the risk that the infection becomes chronic?",
+    "options": [
+     "About 50%",
+     "About 5%",
+     "About 90%",
+     "About 25%"
+    ],
+    "answer": 2,
+    "explain": "Perinatally acquired HBV becomes chronic in ~90% because the neonatal immune system tolerates the virus, versus ~5% of adult infections — which is why birth prophylaxis is so important.",
+    "note": "Perinatal HBV becomes chronic in about 90% (vs ~5% adults)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby is born to a mother who is HBsAg-positive and HBeAg-positive. What is the most appropriate management of the baby?",
+    "options": [
+     "HBV vaccine plus HBIG within 12 hours of birth",
+     "HBV vaccine alone at 2 months with routine vaccines",
+     "HBIG alone within 7 days, vaccine at 1 year",
+     "Oral entecavir for the infant for 6 months"
+    ],
+    "answer": 0,
+    "explain": "Babies of HBsAg+ mothers need active plus passive immunisation (vaccine + HBIG) within 12 hours of birth, then complete the vaccine series. HBeAg positivity signals high infectivity and makes prompt prophylaxis even more important; antivirals are for chronic disease only.",
+    "note": "Newborn of HBsAg+ mother: HBV vaccine + HBIG within 12 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 6-year-old with acute hepatitis A is alert and orientated with no asterixis. Despite IV vitamin K, his INR is 2.3. Glucose is 4.5 mmol/L. How should this be classified?",
+    "options": [
+     "Paediatric acute liver failure, because INR is ≥2.0",
+     "Not acute liver failure until INR exceeds 3.0",
+     "Not acute liver failure, as encephalopathy is absent",
+     "Acute liver failure only if bilirubin also rises"
+    ],
+    "answer": 0,
+    "explain": "PALF = INR ≥1.5 with encephalopathy, or INR ≥2.0 without it, not corrected by vitamin K. Encephalopathy is not required in children because it is hard to detect and often late; this child needs transfer to a liver unit.",
+    "note": "PALF: INR ≥ 1.5 with encephalopathy, or ≥ 2.0 without."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 9-year-old with acute hepatitis has ALT 3200 U/L on admission falling to 900 U/L over 48 hours. Over the same period INR rises from 1.3 to 2.1 despite vitamin K and blood glucose falls to 2.4 mmol/L. What is the best interpretation?",
+    "options": [
+     "Recovery, as transaminases are falling steadily",
+     "Vitamin K deficiency from poor oral intake",
+     "Cholestatic phase of an uncomplicated recovery",
+     "Worsening liver failure despite falling transaminases"
+    ],
+    "answer": 3,
+    "explain": "Severity is judged by INR not corrected by vitamin K, glucose and mental state — not by ALT. Falling transaminases with rising INR and hypoglycaemia mean loss of hepatocyte mass (synthetic failure), an ominous sign requiring admission/liver-unit referral.",
+    "note": "HBeAg predicts infectivity; severity by INR (not corrected by vitamin K), glucose, mental state."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10-year-old with confirmed acute hepatitis A is mildly jaundiced but eating and drinking, alert, with INR 1.1 and normal glucose. What is the most appropriate management?",
+    "options": [
+     "A short course of oral prednisolone",
+     "Supportive care at home, avoiding hepatotoxic drugs",
+     "Admission for N-acetylcysteine infusion",
+     "Oral entecavir until transaminases normalise"
+    ],
+    "answer": 1,
+    "explain": "Acute viral hepatitis is managed supportively (fluids, avoid hepatotoxins such as excess paracetamol); admit only if INR is raised, hypoglycaemic or encephalopathic. Antivirals (entecavir/tenofovir, DAAs) are only for chronic HBV/HCV, and steroids are not indicated.",
+    "note": "Supportive: fluids, avoid hepatotoxins; admit if INR raised, hypoglycaemic, encephalopathic."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Interpret hepatitis serology: acute A, acute B, HBV infectivity, hepatitis C.",
+    "back": "Acute A: IgM anti-HAV • Acute B: HBsAg + IgM anti-HBc • HBeAg = high infectivity • HCV: anti-HCV + HCV RNA (RNA confirms active infection)"
+   },
+   {
+    "type": "card",
+    "front": "Define paediatric acute liver failure and list admission criteria in acute hepatitis.",
+    "back": "PALF: INR ≥1.5 with encephalopathy, or ≥2.0 without (not corrected by vitamin K). Admit if INR raised, hypoglycaemia, or encephalopathy. Severity = INR, glucose, mental state — not ALT."
+   },
+   {
+    "type": "card",
+    "front": "How do you prevent vertical hepatitis B and why does it matter?",
+    "back": "Baby of HBsAg+ mother: HBV vaccine + HBIG within 12 hours, then complete series. Perinatal HBV becomes chronic in ~90% (vs ~5% adults). Chronic HBV Rx: entecavir/tenofovir."
+   }
+  ]
+ },
+ "II-23": {
+  "summary": "A child with TB is a sentinel for an infectious adult: think contact tracing. Under-2s disseminate (miliary, meningitis), so young contacts get preventive therapy even with negative tests, and TB meningitis needs 12 months plus steroids.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 9-year-old with HIV infection is a household contact of an adult with cavitary pulmonary TB. What tuberculin skin test induration is considered positive in this child?",
+    "options": [
+     "≥5 mm",
+     "≥10 mm",
+     "≥20 mm",
+     "≥15 mm"
+    ],
+    "answer": 0,
+    "explain": "Mantoux cut-offs: ≥5 mm in high-risk children (HIV, immunosuppressed, close contacts, abnormal CXR), ≥10 mm intermediate risk (e.g. under 4, from endemic areas), ≥15 mm low risk.",
+    "note": "PPD positive: ≥ 5 mm high risk, ≥ 10 intermediate, ≥ 15 low risk."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An 8-year-old boy who received BCG at birth in an endemic country is screened after arrival in Europe. He is asymptomatic with a normal CXR. His tuberculin skin test shows 12 mm induration. Which test best distinguishes true TB infection from a BCG effect?",
+    "options": [
+     "CT scan of the chest",
+     "Sputum smear for acid-fast bacilli",
+     "Repeat tuberculin test in 2 weeks",
+     "Interferon-gamma release assay"
+    ],
+    "answer": 3,
+    "explain": "IGRAs use antigens (ESAT-6, CFP-10) absent from BCG, so they give fewer BCG false positives than the TST. A repeat TST may boost; smear and CT look for disease, not infection, in an asymptomatic child with a normal CXR.",
+    "note": "Contact + TST/IGRA + CXR; IGRA has fewer BCG false positives."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An 18-month-old whose grandfather has cavitary pulmonary TB presents with 2 weeks of irritability, vomiting and fever, now drowsy with a left sixth-nerve palsy. CSF shows 250 cells/µL (90% lymphocytes), protein 2.8 g/L and glucose 0.8 mmol/L (blood 5.5). What is the most likely diagnosis?",
+    "options": [
+     "Herpes simplex encephalitis",
+     "Pneumococcal meningitis",
+     "Enteroviral meningitis",
+     "Tuberculous meningitis"
+    ],
+    "answer": 3,
+    "explain": "Children under 2 have frequent haematogenous spread → miliary TB and meningitis. Subacute course, basal cranial-nerve palsy and CSF lymphocytes with very high protein and very low glucose are classic. Pneumococcal CSF is neutrophilic and acute; viral CSF has near-normal glucose and protein.",
+    "note": "Under 2 years: blood spread → miliary TB and meningitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "The child above is confirmed to have tuberculous meningitis. Which treatment plan is most appropriate?",
+    "options": [
+     "2 months of RIPE then stop if CSF normalises",
+     "6 months of RIPE therapy without corticosteroids",
+     "9 months of isoniazid monotherapy plus steroids",
+     "12 months of anti-TB therapy plus corticosteroids"
+    ],
+    "answer": 3,
+    "explain": "TB meningitis needs prolonged therapy (12 months, starting with 4 drugs) and adjunctive corticosteroids, which reduce death and neurological sequelae. The 6-month regimen is for pulmonary TB; isoniazid alone is preventive therapy only.",
+    "note": "TB meningitis: 12 months + corticosteroids."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-year-old asymptomatic household contact of an adult with smear-positive TB has a CXR showing a small peripheral right mid-zone opacity with enlarged ipsilateral hilar lymph nodes. What does this represent?",
+    "options": [
+     "Ghon complex of primary TB",
+     "Stage I sarcoidosis",
+     "Miliary tuberculosis",
+     "Post-primary cavitary TB"
+    ],
+    "answer": 0,
+    "explain": "Primary TB = peripheral lung focus + draining hilar nodes (Ghon complex), usually asymptomatic. Miliary TB shows diffuse millet-seed nodules; cavitation is the adult reactivation pattern; sarcoidosis gives bilateral hilar nodes without a peripheral focus and isn't linked to contact.",
+    "note": "Hilar nodes → Ghon complex = peripheral lung focus + hilar nodes."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old with 3 weeks of cough, fever and weight loss and a positive IGRA has hilar lymphadenopathy on CXR. He cannot expectorate. What is the best way to obtain microbiological confirmation?",
+    "options": [
+     "Mycobacterial blood cultures on three occasions",
+     "Early-morning gastric aspirates for Xpert MTB/RIF and culture",
+     "Bronchoalveolar lavage as the first-line sample",
+     "Single random throat swab for acid-fast smear"
+    ],
+    "answer": 1,
+    "explain": "Young children swallow their sputum, so early-morning gastric aspirates (or induced sputum) are sent for Xpert MTB/RIF (also detects rifampicin resistance) and culture. Throat swabs and blood cultures have very low yield; BAL is invasive and not first-line.",
+    "note": "Early-morning gastric aspirates or induced sputum → Xpert MTB/RIF, culture. Meningitis: lymphocytes, high protein, very low glucose."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old is a household contact of his father, newly diagnosed with smear-positive pulmonary TB. The child is well; TST is 0 mm, IGRA negative and CXR normal. What is the most appropriate next step?",
+    "options": [
+     "Reassure and discharge, as all tests are negative",
+     "Start preventive therapy despite the negative tests",
+     "Repeat TST in 6 months without treatment",
+     "Give BCG vaccine now and observe"
+    ],
+    "answer": 1,
+    "explain": "Contacts under 5 receive preventive therapy even if tests are negative: TST/IGRA take up to 8–12 weeks to convert, and young children progress quickly to miliary TB/meningitis. Retesting later can then guide whether to continue. BCG does not protect someone already exposed.",
+    "note": "Contacts under 5 → preventive therapy even if tests negative."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A 10-year-old with drug-sensitive pulmonary TB is starting treatment. Which regimen is standard?",
+    "options": [
+     "2 months HRZE, then 4 months HR, with pyridoxine",
+     "2 months HR, then 4 months HRZE, with pyridoxine",
+     "9 months of isoniazid alone, with pyridoxine",
+     "6 months of HRZE throughout, without pyridoxine"
+    ],
+    "answer": 0,
+    "explain": "RIPE: intensive phase 2 months of rifampin, isoniazid, pyrazinamide (± ethambutol), then continuation 4 months of rifampin + isoniazid. Pyridoxine is given with isoniazid to prevent peripheral neuropathy. Isoniazid monotherapy is preventive, not curative.",
+    "note": "RIPE: 2 months HRZ(E) → 4 months HR (rifampin, isoniazid); pyridoxine with isoniazid."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "State the tuberculin skin test cut-offs and when an IGRA is preferred.",
+    "back": "≥5 mm high risk (HIV, immunosuppressed, close contact, abnormal CXR) • ≥10 mm intermediate • ≥15 mm low risk. IGRA: fewer BCG false positives (prefer in BCG-vaccinated)."
+   },
+   {
+    "type": "card",
+    "front": "Which children are at risk of disseminated TB and how are contacts managed?",
+    "back": "Risk: age <2, HIV, malnutrition, measles. Under 2: blood spread → miliary TB, meningitis. Contacts <5 years → preventive therapy even if tests negative."
+   },
+   {
+    "type": "card",
+    "front": "Outline TB treatment regimens in children.",
+    "back": "Pulmonary: 2 months HRZ(E) → 4 months HR + pyridoxine with isoniazid • TB meningitis: 12 months + corticosteroids • Sample: early-morning gastric aspirates/induced sputum → Xpert MTB/RIF, culture."
+   }
+  ]
+ },
+ "II-24": {
+  "summary": "Antibody deficiency = recurrent encapsulated bacterial sinopulmonary infections starting after maternal IgG wanes (~6 months); measure IgG/IgA/IgM plus vaccine responses, and treat with lifelong immunoglobulin replacement — never live vaccines in XLA.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-month-old boy has had two pneumonias and three episodes of purulent otitis media since age 7 months. On examination tonsils are not visible and no lymph nodes are palpable. His maternal uncle died of infection in childhood. What is the most likely diagnosis?",
+    "options": [
+     "Severe combined immunodeficiency",
+     "Common variable immunodeficiency",
+     "Transient hypogammaglobulinaemia of infancy",
+     "X-linked agammaglobulinaemia"
+    ],
+    "answer": 3,
+    "explain": "Boy, X-linked family history, encapsulated bacterial infections after 6 months and absent lymphoid tissue (no B-cell follicles) = XLA. SCID presents earlier with opportunists, thrush and failure to thrive; CVID typically presents later; transient hypogammaglobulinaemia has normal tonsils and nodes.",
+    "note": "XLA: absent tonsils and nodes; CVID: autoimmunity, lymphoma."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which investigation best confirms the suspected diagnosis in the boy above?",
+    "options": [
+     "CH50 total complement assay",
+     "Flow cytometry showing low CD4+ T cells",
+     "Flow cytometry showing absent CD19+ B cells",
+     "Nitroblue tetrazolium or DHR test"
+    ],
+    "answer": 2,
+    "explain": "XLA (BTK mutation) causes a block in B-cell maturation, so circulating CD19+ B cells are absent; BTK genetics confirms. Low CD4 suggests T-cell defects/HIV, DHR tests neutrophil oxidative burst (CGD), and CH50 screens the classical complement pathway.",
+    "note": "Flow cytometry: B cells (CD19) absent in XLA; genetics (BTK)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why do infants with primary antibody deficiency usually remain well for the first ~6 months of life?",
+    "options": [
+     "Infant T cells provide antibody-independent cover",
+     "Breast-milk IgA fully protects the airways",
+     "The neonatal spleen compensates for antibody",
+     "Transplacental maternal IgG persists until then"
+    ],
+    "answer": 3,
+    "explain": "Maternal IgG crosses the placenta in the third trimester and wanes by ~6 months, so antibody-deficient infants present after that. Breast-milk IgA protects mucosae only partially and does not prevent invasive infection.",
+    "note": "Maternal IgG wanes → onset after ~6 months; hyper-IgM: defective class switching."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old girl receiving her first red-cell transfusion after trauma develops anaphylaxis within minutes. She has a history of only occasional sinusitis. Which underlying condition is most likely?",
+    "options": [
+     "Hyper-IgM syndrome",
+     "C1-inhibitor deficiency",
+     "X-linked agammaglobulinaemia",
+     "Selective IgA deficiency"
+    ],
+    "answer": 3,
+    "explain": "IgA deficiency is the commonest primary immunodeficiency, usually asymptomatic, but anti-IgA antibodies can cause transfusion anaphylaxis. XLA occurs in boys with severe infections; HAE gives non-urticarial swelling, not transfusion reactions.",
+    "note": "IgA deficiency (most common): mostly asymptomatic; transfusion anaphylaxis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "The girl above is confirmed to have IgA 0.05 g/L with normal IgG and IgM. She may need further transfusions. What is the most appropriate precaution?",
+    "options": [
+     "Start regular IVIG infusions",
+     "Premedicate with chlorphenamine only",
+     "Use washed blood products",
+     "Use irradiated blood products"
+    ],
+    "answer": 2,
+    "explain": "Washing removes plasma IgA (IgA-deficient donor products are an alternative). Irradiation prevents graft-versus-host disease in T-cell defects, not anti-IgA reactions. IVIG is usually not needed in IgA deficiency and may itself trigger reactions; antihistamines don't prevent anaphylaxis.",
+    "note": "IgA deficiency: usually none; washed blood products."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 2-year-old boy has recurrent sinopulmonary infections and an episode of Pneumocystis pneumonia. IgM is markedly raised, while IgG and IgA are very low. B-cell numbers are normal. Which molecule is most likely defective?",
+    "options": [
+     "Common γ-chain of the IL-2 receptor",
+     "CD40 ligand on T-helper cells",
+     "Adenosine deaminase in lymphocytes",
+     "Bruton tyrosine kinase in B cells"
+    ],
+    "answer": 1,
+    "explain": "Hyper-IgM syndrome: mutated CD40L on Th cells prevents class switching, so B cells make only IgM; impaired macrophage activation explains Pneumocystis. BTK defects give absent B cells and low all classes; ADA and IL2RG defects cause SCID with lymphopenia.",
+    "note": "Hyper-IgM: mutated CD40L on Th cells. Secondary: nephrotic syndrome, rituximab, malignancy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 14-year-old has recurrent pneumonia, early bronchiectasis and autoimmune thrombocytopenia. IgG is borderline low with normal B-cell numbers. Which test best assesses functional antibody production?",
+    "options": [
+     "Sweat chloride test for cystic fibrosis",
+     "Repeat quantitative immunoglobulins one week later",
+     "T-cell subsets by flow cytometry alone",
+     "Specific antibody titres before and 4–6 weeks after vaccine boosters"
+    ],
+    "answer": 3,
+    "explain": "Vaccine responses (tetanus, Hib, pneumococcal) measured before and 4–6 weeks after a booster show whether plasma cells can make specific antibody — key in suspected CVID (failure of B-cell differentiation, with autoimmunity). Repeating levels or T-cell subsets does not test function; CF does not explain autoimmune cytopenia.",
+    "note": "Vaccine responses (tetanus, Hib, pneumococcal) before and 4-6 weeks after booster."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old boy with confirmed X-linked agammaglobulinaemia attends for review. Which management plan is most appropriate?",
+    "options": [
+     "Stem cell transplant; give oral polio vaccine",
+     "Co-trimoxazole prophylaxis alone; give MMR",
+     "IVIG only during infections; live vaccines safe",
+     "IVIG every 3–4 weeks; avoid live vaccines"
+    ],
+    "answer": 3,
+    "explain": "XLA is treated with lifelong immunoglobulin replacement (IV every 3–4 weeks or SC weekly) plus prompt antibiotics. Live vaccines (oral polio, MMR, varicella, BCG) are contraindicated — vaccine-associated polio and enteroviral meningoencephalitis are characteristic risks.",
+    "note": "Prompt antibiotics; no live vaccines in XLA."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare XLA, CVID, selective IgA deficiency and hyper-IgM.",
+    "back": "XLA: BTK, boys, absent B cells/tonsils/nodes • CVID: B cells fail to become plasma cells; autoimmunity, lymphoma • IgA def: commonest, normal IgG/IgM, transfusion anaphylaxis • Hyper-IgM: CD40L, no class switch, high IgM"
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate a child with suspected antibody deficiency?",
+    "back": "Quantitative IgG, IgA, IgM • Vaccine responses (tetanus, Hib, pneumococcal) before and 4–6 weeks after booster • Flow cytometry for CD19 B cells • Genetics (BTK)"
+   },
+   {
+    "type": "card",
+    "front": "How are antibody deficiencies managed?",
+    "back": "Immunoglobulin replacement (IVIG every 3–4 weeks or SC weekly) • Prompt antibiotics • No live vaccines in XLA • IgA deficiency: usually none; washed blood products"
+   }
+  ]
+ },
+ "II-25": {
+  "summary": "T-cell defects are combined defects: a lymphopenic infant with thrush, Pneumocystis, chronic viral diarrhoea and failure to thrive has SCID until proven otherwise — isolate, no live vaccines, irradiated CMV-negative blood, and transplant early (before 3.5 months).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old boy has persistent oral thrush, chronic diarrhoea with rotavirus shedding, failure to thrive and now Pneumocystis pneumonia. Total lymphocyte count is 0.4 × 10⁹/L and no thymic shadow is seen on CXR. What is the most likely diagnosis?",
+    "options": [
+     "Chronic granulomatous disease",
+     "Wiskott-Aldrich syndrome",
+     "X-linked agammaglobulinaemia",
+     "Severe combined immunodeficiency"
+    ],
+    "answer": 3,
+    "explain": "Opportunistic, fungal and viral infections in the first months with lymphopenia and absent thymus = SCID. XLA causes bacterial infections after 6 months with normal lymphocyte counts; CGD gives catalase-positive bacterial/fungal abscesses; WAS adds eczema and thrombocytopenia.",
+    "note": "First months: thrush, Pneumocystis, chronic viral diarrhoea, failure to thrive."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the most common genetic cause of severe combined immunodeficiency?",
+    "options": [
+     "RAG1/RAG2 mutations",
+     "JAK3 deficiency",
+     "Adenosine deaminase deficiency",
+     "X-linked IL2RG (common γ-chain) mutation"
+    ],
+    "answer": 3,
+    "explain": "X-linked common γ-chain deficiency (shared by the IL-2, -4, -7, -9, -15, -21 receptors) is the commonest SCID. ADA deficiency is the commonest autosomal recessive form; RAG and JAK3 defects are less frequent.",
+    "note": "SCID: X-linked common γ -chain (IL2RG) commonest, ADA deficiency, RAG mutations."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An infant with suspected SCID awaiting confirmatory tests has Hb 70 g/L and needs a red-cell transfusion. Which blood product should be requested?",
+    "options": [
+     "Washed, IgA-depleted blood",
+     "Irradiated, CMV-negative blood",
+     "Standard leucodepleted blood",
+     "Fresh whole blood from a parent"
+    ],
+    "answer": 1,
+    "explain": "Without T cells, viable donor lymphocytes cause transfusion-associated GvHD, and CMV is lethal — so only irradiated, CMV-negative products. Washing is for IgA deficiency; directed parental donation increases GvHD risk.",
+    "note": "Isolation; no live vaccines; only irradiated, CMV-negative blood."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A newborn is diagnosed with SCID through newborn screening and is currently infection-free. Which factor most improves the chance of cure?",
+    "options": [
+     "Completing the live vaccines before transplant",
+     "Delaying transplant until the child is over 1 year",
+     "Stem cell transplant before 3.5 months of age",
+     "Lifelong immunoglobulin as an alternative to transplant"
+    ],
+    "answer": 2,
+    "explain": "HSCT is curative, with >90% survival if done before 3.5 months and before infections set in. Delay allows lethal infections; live vaccines are contraindicated; immunoglobulin replacement is only a bridge.",
+    "note": "Cure: stem cell transplant (>90% if <3.5 months); ADA: pegademase, gene therapy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which newborn blood-spot assay is used to screen for severe combined immunodeficiency?",
+    "options": [
+     "Quantitative serum IgG level",
+     "Acylcarnitine profile by tandem MS",
+     "T-cell receptor excision circles (TRECs)",
+     "Immunoreactive trypsinogen (IRT)"
+    ],
+    "answer": 2,
+    "explain": "TRECs are DNA by-products of T-cell receptor rearrangement in the thymus; low/absent TRECs indicate absent new T-cell production. IRT screens for CF, acylcarnitines for fatty-acid oxidation defects, and neonatal IgG is maternal.",
+    "note": "Newborn screening: TRECs. DiGeorge: calcium, PTH, echo, FISH for 22q11.2."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A newborn with truncus arteriosus and a cleft palate has a generalised seizure on day 2. Serum calcium is 1.6 mmol/L with low PTH. Which investigation confirms the underlying diagnosis?",
+    "options": [
+     "FISH or microarray for 22q11.2 deletion",
+     "Methylation studies of 15q11–13",
+     "FISH for 7q11.23 deletion",
+     "Karyotype for trisomy 13"
+    ],
+    "answer": 0,
+    "explain": "Conotruncal defect + cleft palate + hypoparathyroid hypocalcaemia = DiGeorge (22q11.2 deletion), confirmed by FISH/microarray; work-up includes calcium, PTH, echo and T-cell count. 7q11.23 is Williams (supravalvular AS, hypercalcaemia); 15q11–13 is Prader-Willi/Angelman.",
+    "note": "Newborn screening: TRECs. DiGeorge: calcium, PTH, echo, FISH for 22q11.2."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "An infant with SCID has profound lymphopenia affecting T, B and NK cells, plus flaring of the costochondral junctions on CXR. What is the underlying mechanism?",
+    "options": [
+     "Defective V(D)J recombination of receptors",
+     "Failed 3rd/4th pharyngeal pouch development",
+     "Accumulation of dATP toxic to lymphocytes",
+     "Absent common γ-chain cytokine signalling"
+    ],
+    "answer": 2,
+    "explain": "ADA deficiency: accumulated deoxyadenosine → dATP, which is toxic to all lymphocytes (T−B−NK−), with skeletal changes. RAG defects (V(D)J) spare NK cells (T−B−NK+); γ-chain SCID spares B cells (T−B+NK−); pouch failure is DiGeorge.",
+    "note": "ADA deficiency: dATP toxic to lymphocytes; RAG → VDJ recombination defects."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 18-month-old boy has had severe eczema since infancy, recurrent otitis media and bloody diarrhoea. Platelets are 30 × 10⁹/L with a low mean platelet volume. What is the most likely diagnosis?",
+    "options": [
+     "Hyper-IgE syndrome",
+     "Immune thrombocytopenic purpura",
+     "Cow's milk protein allergy",
+     "Wiskott-Aldrich syndrome"
+    ],
+    "answer": 3,
+    "explain": "WAS triad: eczema, thrombocytopenia with small platelets, and infections (X-linked WAS protein). ITP has large platelets and no eczema/infections; hyper-IgE has eczema and abscesses but normal platelets; milk allergy does not cause thrombocytopenia.",
+    "note": "WAS triad: eczema, thrombocytopenia with small platelets, infections."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of SCID and their mechanisms.",
+    "back": "X-linked IL2RG (common γ-chain) — commonest, T−B+NK− • ADA deficiency: dATP toxic to lymphocytes • RAG1/2: V(D)J recombination defect • Secondary T-cell defects: HIV, steroids"
+   },
+   {
+    "type": "card",
+    "front": "Describe DiGeorge syndrome: genetics, embryology, features and work-up.",
+    "back": "22q11.2 deletion; abnormal 3rd/4th pharyngeal pouches → thymic + parathyroid hypoplasia. Hypocalcaemia, conotruncal heart defects, cleft palate. Dx: calcium, PTH, echo, FISH for 22q11.2."
+   },
+   {
+    "type": "card",
+    "front": "How is SCID diagnosed and managed?",
+    "back": "Lymphopenia, absent thymic shadow, absent T cells; newborn TRECs • Isolation, no live vaccines, irradiated CMV-negative blood • Co-trimoxazole PJP prophylaxis, antifungals, Ig replacement • Cure: HSCT (>90% if <3.5 months); ADA: enzyme, gene therapy"
+   }
+  ]
+ },
+ "II-26": {
+  "summary": "Map the complement defect to the disease: early classical → lupus, C3 → pyogenic encapsulated bacteria, C5–C9/properdin → recurrent Neisseria, factor H → aHUS, C1-inhibitor → bradykinin angioedema that ignores adrenaline and antihistamines.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Deficiency of which complement components most characteristically predisposes to recurrent Neisseria meningitidis infection?",
+    "options": [
+     "Early classical components C1q, C2 or C4",
+     "C1-inhibitor",
+     "Terminal components C5–C9 or properdin",
+     "Mannose-binding lectin"
+    ],
+    "answer": 2,
+    "explain": "Neisseria is killed mainly by the membrane attack complex; without C5–C9 (or properdin, which stabilises the alternative C3 convertase) recurrent meningococcal disease occurs. Early classical defects cause SLE-like disease; C1-inhibitor deficiency causes HAE.",
+    "note": "C5-C9/properdin deficiency → no MAC → recurrent Neisseria infection."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A previously well 16-year-old has his second episode of meningococcal septicaemia, this time with serogroup Y. What is the most appropriate investigation once he recovers?",
+    "options": [
+     "Nitroblue tetrazolium (DHR) test",
+     "Lymphocyte subsets by flow cytometry",
+     "Quantitative immunoglobulins only",
+     "CH50 and AH50 complement screen"
+    ],
+    "answer": 3,
+    "explain": "A second or unusual-serogroup meningococcal episode mandates a complement screen: CH50 tests the classical-to-terminal pathway and AH50 the alternative pathway (properdin), together covering C5–C9. Immunoglobulins, DHR and lymphocyte subsets test other arms of immunity.",
+    "note": "Second or unusual-serogroup meningococcal episode → complement screen."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 7-year-old girl has a photosensitive malar rash, arthralgia and recurrent pneumococcal otitis. Anti-dsDNA is weakly positive, and CH50 is undetectable. Which deficiency is most likely?",
+    "options": [
+     "C2 deficiency",
+     "Factor H deficiency",
+     "Properdin deficiency",
+     "C7 deficiency"
+    ],
+    "answer": 0,
+    "explain": "Early classical pathway deficiencies (C1q, C2, C4) impair immune-complex and apoptotic-cell clearance, causing SLE-like disease, plus some bacterial infections; C2 is the commonest. C7 and properdin defects present with Neisseria; factor H with aHUS/C3 glomerulopathy.",
+    "note": "Early classical deficiency → SLE-like; C3 → encapsulated bacteria."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 12-year-old has recurrent episodes of non-itchy swelling of the lips and hands lasting 2–3 days, and attacks of severe abdominal pain. There is never urticaria. His father has similar episodes. What is the best screening test?",
+    "options": [
+     "Serum C4 level",
+     "ANA and anti-dsDNA",
+     "Serum mast-cell tryptase",
+     "Total serum IgE"
+    ],
+    "answer": 0,
+    "explain": "This is hereditary angioedema (AD C1-inhibitor deficiency). C4 is consumed by uncontrolled C1 activity and is low even between attacks — the screening test — followed by C1-inhibitor level and function. Tryptase and IgE relate to mast-cell/allergic angioedema, which has urticaria.",
+    "note": "HAE screening test: low C4 → C1-inhibitor level and function."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "The boy above presents with hoarseness and progressive laryngeal swelling. IM adrenaline, IV hydrocortisone and chlorphenamine have produced no improvement. What is the most appropriate treatment?",
+    "options": [
+     "A second dose of IM adrenaline",
+     "C1-inhibitor concentrate or icatibant",
+     "Nebulised salbutamol and ipratropium",
+     "IV methylprednisolone at high dose"
+    ],
+    "answer": 1,
+    "explain": "HAE is bradykinin-mediated, not histamine-mediated, so adrenaline, antihistamines and steroids don't work. Give C1-inhibitor concentrate or icatibant (bradykinin B2-receptor antagonist) and secure the airway early if needed.",
+    "note": "HAE: C1-inhibitor concentrate or icatibant -adrenaline/antihistamines/steroids don't work."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old has a second episode of haemolytic uraemic syndrome without preceding diarrhoea. Stool is negative for STEC, C3 is low and a factor H mutation is found. Which treatment is most appropriate, with which essential precaution?",
+    "options": [
+     "Rituximab, after hepatitis B vaccination",
+     "Eculizumab, after BCG vaccination",
+     "Ceftriaxone, after blood cultures",
+     "Eculizumab, after meningococcal vaccination"
+    ],
+    "answer": 3,
+    "explain": "Factor H defects allow uncontrolled alternative-pathway activation on endothelium → atypical HUS. Eculizumab blocks C5, which creates an iatrogenic terminal-complement deficiency, so meningococcal vaccination (ACWY + B) ± antibiotic prophylaxis is mandatory.",
+    "note": "aHUS: eculizumab (anti-C5) - requires meningococcal vaccination."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "At which component do the classical, lectin and alternative complement pathways converge?",
+    "options": [
+     "C3",
+     "Factor B",
+     "C5",
+     "C1"
+    ],
+    "answer": 0,
+    "explain": "All pathways generate a C3 convertase; C3 cleavage yields C3b (opsonisation) and leads on to C5 and the MAC (lysis) plus C3a/C5a (recruitment). C1 starts the classical pathway; factor B is alternative-pathway specific.",
+    "note": "Complement: three pathways (classical begins C1, alternative C3) converging on C3 → opsonise, recruit, lyse."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 10-year-old with hereditary angioedema asks why his antihistamine tablets never help his attacks. Which mediator is responsible for the swelling?",
+    "options": [
+     "Tryptase",
+     "Histamine",
+     "Bradykinin",
+     "Leukotriene C4"
+    ],
+    "answer": 2,
+    "explain": "C1-inhibitor normally inhibits kallikrein and factor XII as well as C1; its absence leads to bradykinin excess and vascular leak. Histamine, leukotrienes and tryptase are mast-cell mediators of allergic angioedema, which is itchy and urticarial.",
+    "note": "No C1-inhibitor → bradykinin excess → vascular leak."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Map each complement deficiency to its clinical picture.",
+    "back": "C1q/C2/C4 → SLE-like • C3 → severe pyogenic (encapsulated) infections • C5–C9/properdin → recurrent Neisseria • Factor H/I → atypical HUS • C1-inhibitor (AD) → hereditary angioedema"
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose and treat hereditary angioedema?",
+    "back": "Non-itchy swelling of face, gut, larynx, no urticaria. Screen: low C4 → C1-inhibitor level and function. Rx: C1-inhibitor concentrate or icatibant; adrenaline/antihistamines/steroids don't work (bradykinin)."
+   },
+   {
+    "type": "card",
+    "front": "When do you screen for complement deficiency and how are patients protected?",
+    "back": "Second or unusual-serogroup meningococcal episode → CH50, AH50, C3, C4. Vaccinate meningococcus ACWY + B, pneumococcus, Hib; early antibiotics for fever. Eculizumab requires meningococcal vaccination."
+   }
+  ]
+ },
+ "II-27": {
+  "summary": "Paediatric HIV is mostly vertical and intrapartum, so it is largely preventable (maternal ART + neonatal zidovudine + no breastfeeding → <1%); under 18 months diagnose by PCR, not antibody, and treat everyone at diagnosis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "An 11-month-old born to an HIV-positive mother has a positive HIV antibody test. She is thriving and was formula-fed. What is the correct interpretation?",
+    "options": [
+     "It excludes infection, as she was formula-fed",
+     "It confirms HIV infection; start ART immediately",
+     "It may be maternal IgG; confirm with HIV DNA/RNA PCR",
+     "It suggests late postnatal transmission; repeat at 2 years"
+    ],
+    "answer": 2,
+    "explain": "Maternal IgG crosses the placenta and can persist up to 18 months, so antibody tests cannot diagnose infant infection; HIV DNA/RNA PCR is required under 18 months. Over 18 months, antibody/antigen tests are used as in adults.",
+    "note": "Under 18 months: HIV DNA/RNA PCR because maternal IgG persists."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "In the absence of any preventive intervention, during which period does most mother-to-child HIV transmission occur?",
+    "options": [
+     "Early pregnancy",
+     "Late pregnancy",
+     "Intrapartum",
+     "Breastfeeding"
+    ],
+    "answer": 2,
+    "explain": "Most vertical HIV transmission occurs intrapartum (exposure to maternal blood and secretions), with smaller contributions in utero and via breastfeeding — the rationale for maternal viral suppression and neonatal zidovudine.",
+    "note": "HIV infects CD4 T cells; in children mainly vertical, most intrapartum."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old born to a mother who declined antenatal testing has 4 days of fever, tachypnoea and dry cough. SpO2 is 82% in air, but chest auscultation is nearly normal. CXR shows diffuse bilateral haziness and LDH is raised. What is the most likely diagnosis?",
+    "options": [
+     "Lymphoid interstitial pneumonitis",
+     "Primary pulmonary tuberculosis",
+     "RSV bronchiolitis",
+     "Pneumocystis jirovecii pneumonia"
+    ],
+    "answer": 3,
+    "explain": "An infant of 3–6 months with severe hypoxia out of proportion to examination and high LDH = PJP, often the AIDS-defining illness in undiagnosed vertically infected infants. LIP is chronic and occurs in older children; bronchiolitis gives wheeze/crackles; TB is more indolent.",
+    "note": "Persistent candidiasis, LIP, encephalopathy; infant 3-6 months with severe hypoxia → PJP."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old is diagnosed with HIV infection. She is asymptomatic with CD4 32% and viral load 80 000 copies/mL. When should antiretroviral therapy start and with what?",
+    "options": [
+     "When CD4 falls below 25%: two NRTIs plus dolutegravir",
+     "Now: co-trimoxazole alone until CD4 falls",
+     "Only when symptomatic: zidovudine monotherapy",
+     "Now: two NRTIs plus dolutegravir"
+    ],
+    "answer": 3,
+    "explain": "All children start ART at diagnosis regardless of CD4 — children progress faster than adults. First-line is 2 NRTIs + dolutegravir. CD4 thresholds and monotherapy are obsolete; co-trimoxazole is prophylaxis, not ART.",
+    "note": "ART at diagnosis, regardless of CD4: 2 NRTIs + dolutegravir."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A pregnant woman is newly diagnosed with HIV. Which strategy reduces mother-to-child transmission to below 1%?",
+    "options": [
+     "Neonatal zidovudine alone, with exclusive breastfeeding",
+     "Maternal ART, neonatal zidovudine, formula feeding",
+     "Maternal ART in labour only, with mixed feeding",
+     "Elective caesarean section only, with breastfeeding"
+    ],
+    "answer": 1,
+    "explain": "Prevention = maternal ART (suppressed viral load), neonatal zidovudine prophylaxis and avoiding breastfeeding where safe alternatives exist → transmission <1%. Single elements alone, or mixed feeding, leave substantial risk.",
+    "note": "Prevent: maternal ART, neonatal zidovudine, avoid breastfeeding → transmission <1%."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 8-year-old with HIV, well controlled on a lopinavir/ritonavir-based regimen, is diagnosed with drug-sensitive pulmonary TB. How should the rifamycin component be chosen?",
+    "options": [
+     "Omit the rifamycin and extend isoniazid",
+     "Use rifampin and stop the protease inhibitor",
+     "Use rifabutin instead of rifampin",
+     "Use rifampin at the standard dose"
+    ],
+    "answer": 2,
+    "explain": "Rifampin strongly induces CYP3A4 and drastically lowers protease-inhibitor levels; rifabutin is a weaker inducer and replaces rifampin when PIs are used. Omitting the rifamycin weakens TB therapy; stopping ART risks HIV progression and resistance.",
+    "note": "Co-trimoxazole from 4-6 weeks against PJP; avoid BCG; rifabutin replaces rifampin with protease inhibitors."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Viruses isolated early in HIV infection are macrophage-tropic, whereas late isolates are T-cell-tropic. Which co-receptor do the early strains mainly use alongside CD4?",
+    "options": [
+     "CXCR4",
+     "CD21",
+     "CCR5",
+     "CD8"
+    ],
+    "answer": 2,
+    "explain": "gp120 binds CD4 plus CCR5 (macrophage-tropic, early) or CXCR4 (T-cell-tropic, late, associated with faster CD4 decline); gp41 then mediates fusion. CD21 is the EBV receptor; CD8 is not an HIV receptor.",
+    "note": "gp120 binds CD4 + CCR5 (macrophages, early) or CXCR4 (T cells, late); gp41 mediates fusion."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-week-old born to an HIV-positive mother completed neonatal zidovudine; his first PCR result is pending. Which intervention should be started now?",
+    "options": [
+     "Co-trimoxazole prophylaxis",
+     "BCG vaccination",
+     "Monthly IVIG infusions",
+     "Fluconazole prophylaxis"
+    ],
+    "answer": 0,
+    "explain": "Co-trimoxazole from 4–6 weeks protects HIV-exposed/infected infants against PJP, which peaks at 3–6 months. BCG is avoided in HIV infection (risk of disseminated BCG disease); routine antifungal and IVIG prophylaxis are not standard.",
+    "note": "Co-trimoxazole from 4-6 weeks against PJP; avoid BCG; rifabutin replaces rifampin with protease inhibitors."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you diagnose HIV in a child?",
+    "back": "Under 18 months: HIV DNA/RNA PCR (maternal IgG persists) • Over 18 months: antibody/antigen tests as in adults"
+   },
+   {
+    "type": "card",
+    "front": "How is mother-to-child transmission of HIV prevented?",
+    "back": "Maternal ART • Neonatal zidovudine • Avoid breastfeeding → transmission <1%. Most transmission is intrapartum."
+   },
+   {
+    "type": "card",
+    "front": "Outline treatment and prophylaxis in a child with HIV.",
+    "back": "ART at diagnosis regardless of CD4: 2 NRTIs + dolutegravir • Co-trimoxazole from 4–6 weeks (PJP) • Avoid BCG • Rifabutin replaces rifampin with protease inhibitors"
+   }
+  ]
+ },
+ "II-28": {
+  "summary": "The immune defect predicts the bug: no neutrophils → Pseudomonas, S. aureus, Candida, Aspergillus; no T cells → Pneumocystis, CMV, Cryptococcus, MAC; no antibody/spleen → encapsulated bacteria. Febrile neutropenia = antibiotics within 1 hour.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which definition of febrile neutropenia is used to trigger empirical antibiotics in a child receiving chemotherapy?",
+    "options": [
+     "Temperature ≥38.5°C with neutrophils <1.0 × 10⁹/L",
+     "Temperature ≥38°C with neutrophils <0.5 × 10⁹/L",
+     "Temperature ≥38°C with neutrophils <1.5 × 10⁹/L",
+     "Temperature ≥37.5°C with neutrophils <0.5 × 10⁹/L"
+    ],
+    "answer": 1,
+    "explain": "Febrile neutropenia = ≥38°C plus neutrophils <0.5 × 10⁹/L. In neutropenia fever may be the only sign of sepsis, so the threshold is deliberately low and treatment is empirical and urgent.",
+    "note": "Febrile neutropenia = ≥38°C + neutrophils <0.5 × 10⁹/L; cultures line + periphery."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old with ALL on induction chemotherapy has a temperature of 38.6°C. He has a central line, is haemodynamically stable and neutrophils are 0.2 × 10⁹/L. What is the most appropriate immediate management?",
+    "options": [
+     "Line and peripheral cultures, then await results before antibiotics",
+     "Oral co-amoxiclav and review in clinic within 24 hours",
+     "Empirical IV fluconazole, adding antibiotics if cultures grow",
+     "Line and peripheral cultures, then piperacillin-tazobactam within 1 hour"
+    ],
+    "answer": 3,
+    "explain": "Febrile neutropenia is an emergency: take cultures from the line and periphery and give broad-spectrum antipseudomonal antibiotics (piperacillin-tazobactam) within 1 hour. Waiting for cultures or oral outpatient treatment in high-risk induction patients is unsafe; antifungals are added only for persistent fever.",
+    "note": "Piperacillin-tazobactam within 1 hour; add vancomycin for line/instability."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "Two hours after starting piperacillin-tazobactam, the boy above becomes hypotensive and the skin around his central-line exit site is red and tender. Which change to antimicrobial therapy is most appropriate?",
+    "options": [
+     "Add vancomycin",
+     "Switch to oral ciprofloxacin",
+     "Add IV aciclovir",
+     "Stop antibiotics and remove the line"
+    ],
+    "answer": 0,
+    "explain": "Line infection or haemodynamic instability → add vancomycin for MRSA/coagulase-negative staphylococci (and escalate to sepsis care). Oral de-escalation is wrong in shock; aciclovir doesn't cover line pathogens; line removal never replaces antibiotics.",
+    "note": "Piperacillin-tazobactam within 1 hour; add vancomycin for line/instability."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An 8-year-old who has been profoundly neutropenic for 3 weeks after AML induction has persistent fever despite broad-spectrum antibiotics. CT chest shows nodules with a surrounding halo sign. What is the most likely organism?",
+    "options": [
+     "Cryptococcus neoformans",
+     "Pneumocystis jirovecii",
+     "Aspergillus fumigatus",
+     "Mycobacterium avium complex"
+    ],
+    "answer": 2,
+    "explain": "Prolonged neutropenia predisposes to Pseudomonas, S. aureus, Candida and Aspergillus; angioinvasive mould gives halo-sign nodules. Pneumocystis, Cryptococcus and MAC exploit T-cell defects (HIV, transplant immunosuppression), not neutropenia.",
+    "note": "No neutrophils → Pseudomonas, S. aureus, Candida, Aspergillus."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 12-year-old with untreated HIV has fever, dry cough and dyspnoea. Bronchoalveolar lavage confirms Pneumocystis. Arterial PaO2 in air is 60 mmHg. What is the most appropriate treatment?",
+    "options": [
+     "IV ganciclovir plus corticosteroids",
+     "High-dose co-trimoxazole plus corticosteroids",
+     "High-dose co-trimoxazole alone",
+     "Clarithromycin plus ethambutol"
+    ],
+    "answer": 1,
+    "explain": "PJP is treated with high-dose TMP-SMX; add steroids when PaO2 ≤70 mmHg because they blunt the inflammatory surge as organisms die, reducing respiratory failure and death. Clarithromycin + ethambutol treats MAC; ganciclovir treats CMV.",
+    "note": "PJP: TMP-SMX + steroids if PaO2 ≤ 70 mmHg; MAC: clarithromycin + ethambutol."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 15-year-old with perinatally acquired HIV who stopped ART has a CD4 count of 40 cells/µL. She reports floaters and blurred vision in one eye. Fundoscopy shows fluffy white retinal infiltrates with haemorrhages along vessels. Which pathogen is most likely?",
+    "options": [
+     "Candida albicans",
+     "Cryptococcus neoformans",
+     "Toxoplasma gondii",
+     "Cytomegalovirus"
+    ],
+    "answer": 3,
+    "explain": "CMV retinitis occurs when CD4 ≤50 and shows cotton-wool infiltrates with haemorrhage ('pizza pie'). Toxoplasma retinochoroiditis is a focal 'headlight in fog' lesion with vitritis; Cryptococcus causes meningitis; Candida endophthalmitis follows candidaemia, usually with lines.",
+    "note": "PJP: bronchoalveolar lavage; CMV retinitis: CD4 ≤ 50, cotton wool spots."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "A 4-year-old with sickle cell disease is functionally asplenic. Which group of organisms poses the greatest threat to him?",
+    "options": [
+     "Encapsulated bacteria such as pneumococcus",
+     "Aspergillus and Candida",
+     "Mycobacterium avium complex",
+     "Pneumocystis and cytomegalovirus"
+    ],
+    "answer": 0,
+    "explain": "The spleen and opsonising antibody clear encapsulated bacteria (pneumococcus, Hib, meningococcus); asplenia and antibody deficiency (XLA, CVID) carry the same risk. Pneumocystis/CMV/MAC indicate T-cell failure; Aspergillus/Candida indicate neutropenia.",
+    "note": "No antibody/spleen → encapsulated bacteria."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 15-year-old with AIDS (CD4 60 cells/µL) has headache and a focal seizure. MRI shows multiple ring-enhancing lesions in the basal ganglia, and Toxoplasma IgG is positive. What is the most appropriate treatment?",
+    "options": [
+     "IV ganciclovir",
+     "Liposomal amphotericin plus flucytosine",
+     "Clarithromycin plus ethambutol",
+     "Pyrimethamine plus sulfadiazine"
+    ],
+    "answer": 3,
+    "explain": "Cerebral toxoplasmosis is treated with pyrimethamine + sulfadiazine (with folinic acid). Amphotericin + flucytosine treats cryptococcal meningitis; ganciclovir treats CMV; clarithromycin + ethambutol treats MAC.",
+    "note": "Toxoplasmosis: pyrimethamine & sulfadiazine; varicella: IV aciclovir."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Which organisms are associated with each type of immune defect?",
+    "back": "Neutropenia/CGD → Pseudomonas, S. aureus, Candida, Aspergillus • T-cell (HIV, transplant, steroids) → Pneumocystis, CMV, Cryptococcus, MAC • Antibody/complement/asplenia → encapsulated bacteria"
+   },
+   {
+    "type": "card",
+    "front": "How do you manage febrile neutropenia?",
+    "back": "≥38°C + neutrophils <0.5 × 10⁹/L • Cultures from line + periphery • Piperacillin-tazobactam within 1 hour • Add vancomycin for line infection/instability • Fever may be the only sign of sepsis"
+   },
+   {
+    "type": "card",
+    "front": "Give the treatment for PJP, MAC, toxoplasmosis and varicella in the immunocompromised.",
+    "back": "PJP: TMP-SMX + steroids if PaO2 ≤70 mmHg • MAC: clarithromycin + ethambutol • Toxoplasmosis: pyrimethamine + sulfadiazine • Varicella: IV aciclovir"
+   }
+  ]
+ },
+ "II-29": {
+  "summary": "Two GAS sequelae, two mechanisms: ARF is molecular mimicry after pharyngitis (Jones criteria, mitral valve, lifelong benzathine prophylaxis); PSGN is immune-complex disease after throat or skin infection (low C3, normal C4, recovers in 8 weeks, not prevented by antibiotics).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-year-old has had painful swelling moving from one knee to the other ankle and then a wrist over 5 days. Temperature is 39°C, ESR 95 mm/h and ASO titre markedly raised; he had a sore throat 3 weeks ago. There is no murmur. Which diagnosis is best supported?",
+    "options": [
+     "Acute rheumatic fever",
+     "Septic arthritis",
+     "Systemic JIA",
+     "Henoch-Schönlein purpura"
+    ],
+    "answer": 0,
+    "explain": "Jones: migratory polyarthritis (1 major) + fever and raised ESR (2 minor) + evidence of GAS (ASO) = ARF, typically 2–4 weeks after pharyngitis. Septic arthritis is monoarticular and fixed; systemic JIA needs ≥6 weeks and has quotidian fever and rash; HSP has purpura.",
+    "note": "Jones: 2 major, or 1 major + 2 minor, + evidence of GAS (ASO/anti-DNase B)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "A child develops post-streptococcal glomerulonephritis after impetigo. What is the typical latent period between the skin infection and the nephritis?",
+    "options": [
+     "3–6 weeks",
+     "2–4 days",
+     "3–6 months",
+     "1–2 weeks"
+    ],
+    "answer": 0,
+    "explain": "PSGN follows pharyngitis by 1–2 weeks or skin infection by 3–6 weeks. A latency of a few days with haematuria suggests IgA nephropathy (synpharyngitic).",
+    "note": "PSGN: pharyngitis 1-2 weeks or skin 3-6 weeks before."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old has cola-coloured urine, periorbital oedema and BP 135/90 mmHg, 4 weeks after infected eczema. Urinalysis shows blood and red-cell casts. Which complement pattern is expected?",
+    "options": [
+     "Normal C3, normal C4",
+     "Low C3, normal C4",
+     "Low C3, low C4",
+     "Normal C3, low C4"
+    ],
+    "answer": 1,
+    "explain": "PSGN activates mainly the alternative pathway, so C3 is low with normal C4. Low C3 and C4 suggest lupus nephritis (classical pathway); normal complement suggests IgA nephropathy.",
+    "note": "PSGN: low C3, normal C4, normalising within 8 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "The child above improves clinically, but at 12 weeks C3 remains low and microscopic haematuria with proteinuria persists. What is the most appropriate next step?",
+    "options": [
+     "Repeat the ASO titre and recheck in 6 months",
+     "Start benzathine penicillin prophylaxis",
+     "Reassure; this is the normal course of PSGN",
+     "Refer for renal biopsy to look for another glomerulonephritis"
+    ],
+    "answer": 3,
+    "explain": "In PSGN, C3 normalises within 8 weeks. Persistent hypocomplementaemia suggests C3 glomerulopathy/MPGN or lupus nephritis and warrants biopsy. Penicillin prophylaxis is for ARF, not PSGN.",
+    "note": "PSGN: low C3, normal C4, normalising within 8 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the mechanism of tissue damage in acute rheumatic fever?",
+    "options": [
+     "Superantigen-driven polyclonal T-cell activation",
+     "Direct streptococcal invasion of the myocardium",
+     "Molecular mimicry between M protein and self-antigens",
+     "Immune-complex deposition with complement consumption"
+    ],
+    "answer": 2,
+    "explain": "ARF is a type II hypersensitivity: antibodies against streptococcal M protein cross-react with cardiac myosin, synovium, skin and basal ganglia. Immune-complex deposition (type III) is the PSGN mechanism; superantigens cause toxic shock syndrome.",
+    "note": "ARF: M protein cross-reacts with self-antigens (molecular mimicry); type II HSR."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old with acute rheumatic fever develops a new murmur. Which valve lesion is most likely?",
+    "options": [
+     "Aortic stenosis",
+     "Mitral regurgitation",
+     "Tricuspid regurgitation",
+     "Pulmonary stenosis"
+    ],
+    "answer": 1,
+    "explain": "The mitral valve is most commonly affected: acute carditis causes mitral regurgitation (apical pansystolic murmur), while chronic rheumatic heart disease leads to fish-mouth mitral stenosis. The aortic valve is second; right-sided valves are rarely involved.",
+    "note": "Mitral valve most common: acute regurgitation; chronic fish-mouth stenosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 12-year-old has recovered from acute rheumatic fever with mild carditis. Which strategy best prevents recurrence?",
+    "options": [
+     "Benzathine penicillin IM every 3–4 weeks",
+     "Daily low-dose aspirin for 5 years",
+     "A single IM benzathine penicillin dose",
+     "Oral amoxicillin only for future sore throats"
+    ],
+    "answer": 0,
+    "explain": "Recurrences of ARF worsen valve damage, so secondary prophylaxis with benzathine penicillin IM every 3–4 weeks is given for years (longer with carditis). Treating sore throats as they arise or a single dose is insufficient; aspirin treats arthritis symptoms only.",
+    "note": "Secondary prophylaxis: benzathine penicillin IM every 3-4 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "Parents of a child with post-streptococcal glomerulonephritis ask whether prompt antibiotics for his earlier sore throat would have prevented it. What is the correct answer?",
+    "options": [
+     "Antibiotics prevent both ARF and PSGN",
+     "Antibiotics prevent neither ARF nor PSGN",
+     "Antibiotics prevent ARF but do not prevent PSGN",
+     "Antibiotics prevent PSGN but not ARF"
+    ],
+    "answer": 2,
+    "explain": "Treating GAS pharyngitis within ~9 days prevents rheumatic fever, but nephritogenic strains trigger immune complexes early, so antibiotics do not prevent PSGN. PSGN management is supportive (salt/fluid restriction, diuretics, antihypertensives).",
+    "note": "PSGN: supportive; strep-throat antibiotics prevent ARF, not PSGN."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "State the Jones criteria for acute rheumatic fever.",
+    "back": "Major (J♥NES): Joints (migratory polyarthritis), carditis, nodules, erythema marginatum, Sydenham chorea • Minor: fever, arthralgia, raised ESR/CRP, prolonged PR • Need 2 major or 1 major + 2 minor + evidence of GAS (ASO/anti-DNase B)"
+   },
+   {
+    "type": "card",
+    "front": "Compare ARF and PSGN.",
+    "back": "ARF: pharyngitis 2–4 wk before; molecular mimicry (type II); prevented by antibiotics • PSGN: throat 1–2 wk or skin 3–6 wk; immune complexes, low C3/normal C4, normal by 8 wk; not prevented by antibiotics"
+   },
+   {
+    "type": "card",
+    "front": "How do you treat acute rheumatic fever?",
+    "back": "Penicillin V 10 days (macrolide if anaphylaxis) • Aspirin/naproxen for arthritis • Echo for carditis • Secondary prophylaxis: benzathine penicillin IM every 3–4 weeks"
+   }
+  ]
+ },
+ "II-30": {
+  "summary": "Pertussis kills young infants silently: under 6 months there may be no whoop, just apnoea and cyanosis, so admit, give a macrolide (azithromycin in neonates), treat all close contacts and prevent it with Tdap in pregnancy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-week-old unvaccinated girl has episodes of coughing followed by cyanosis and apnoea, with no whoop. Her 14-year-old brother has had a cough for 3 weeks. WBC is 38 × 10⁹/L with 80% lymphocytes. What is the most likely diagnosis?",
+    "options": [
+     "Chlamydia trachomatis pneumonia",
+     "RSV bronchiolitis",
+     "Pertussis",
+     "Gastro-oesophageal reflux"
+    ],
+    "answer": 2,
+    "explain": "Infants under 6 months with pertussis often present with apnoea and cyanosis without a whoop; adolescents/adults are the usual source; marked lymphocytosis is characteristic. Bronchiolitis gives wheeze/crackles without extreme lymphocytosis; Chlamydia causes staccato cough with eosinophilia.",
+    "note": "Infants <6 months: apnoea and cyanosis, often no whoop; pneumothorax risk."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the most appropriate management of the infant above?",
+    "options": [
+     "Admit and start IV ceftriaxone",
+     "Discharge with oral azithromycin",
+     "Admit and start azithromycin",
+     "Discharge without antibiotics, as the cough is toxin-driven"
+    ],
+    "answer": 2,
+    "explain": "Infants under 6 months with apnoea or cyanosis must be admitted for monitoring; a macrolide (azithromycin) is given early to eradicate the organism and reduce spread. Ceftriaxone does not cover Bordetella reliably.",
+    "note": "Admit infants <6 months with apnoea/cyanosis; prophylactic macrolides for all close contacts."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the mechanism of the lymphocytosis and hypoglycaemia seen in pertussis?",
+    "options": [
+     "Pertussis toxin inactivates Gi, raising cAMP",
+     "Tracheal cytotoxin destroys ciliated cells",
+     "Filamentous haemagglutinin activates B cells",
+     "Endotoxin stimulates marrow lymphopoiesis"
+    ],
+    "answer": 0,
+    "explain": "Pertussis toxin ADP-ribosylates Gi, removing inhibition of adenylate cyclase → ↑cAMP, impairing lymphocyte homing (lymphocytosis) and increasing insulin secretion (hypoglycaemia). Tracheal cytotoxin kills ciliated cells; FHA mediates attachment.",
+    "note": "Pertussis toxin disables Gi → ↑cAMP → lymphocytosis, hypoglycaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 6-week-old with confirmed pertussis has a WBC of 65 × 10⁹/L (lymphocytes 52 × 10⁹/L) and increasing oxygen requirement. Echocardiography shows severe pulmonary hypertension. What is the most likely mechanism?",
+    "options": [
+     "Secondary bacterial pneumonia",
+     "Tension pneumothorax from coughing",
+     "Toxin-mediated myocarditis",
+     "Leukostasis in the pulmonary vasculature"
+    ],
+    "answer": 3,
+    "explain": "Lymphocytes >30 × 10⁹/L cause leukostasis in pulmonary vessels → refractory pulmonary hypertension, the main cause of pertussis deaths in young infants (exchange transfusion/leukapheresis is considered). Pneumonia and pneumothorax are complications but don't explain severe PH with hyperleucocytosis.",
+    "note": "Lymphocytes >30 × 10⁹/L → leukostasis → pulmonary hypertension."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 10-year-old whose classmate has pertussis has had 5 days of coryza and a mild cough. What is the best diagnostic test?",
+    "options": [
+     "PCR of a nasopharyngeal swab",
+     "Throat swab culture on blood agar",
+     "Anti-pertussis toxin IgG serology",
+     "Chest X-ray"
+    ],
+    "answer": 0,
+    "explain": "Early (first 2–3 weeks), PCR of a nasopharyngeal swab is most sensitive; culture needs special media (Regan-Lowe or Bordet-Gengou). Serology is useful later in the illness; CXR is non-specific; standard blood agar doesn't grow Bordetella.",
+    "note": "PCR of nasopharyngeal swab early; culture on Regan-Lowe or Bordet-Gengou agar."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "In which stage of pertussis is the patient most infectious?",
+    "options": [
+     "Convalescent",
+     "Incubation",
+     "Catarrhal",
+     "Paroxysmal"
+    ],
+    "answer": 2,
+    "explain": "The catarrhal stage (coryza, mild cough, 1–2 weeks) is the most infectious and least recognisable; the paroxysmal stage brings whoop and post-tussive vomiting, followed by convalescence.",
+    "note": "Catarrhal (most infectious) → paroxysmal: whoop, post-tussive vomiting → convalescent."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 2-week-old baby is a close household contact of a confirmed pertussis case. Which prophylaxis is preferred?",
+    "options": [
+     "Azithromycin",
+     "Erythromycin",
+     "No prophylaxis under 1 month",
+     "Co-amoxiclav"
+    ],
+    "answer": 0,
+    "explain": "All close contacts receive macrolide prophylaxis, including neonates, who are at highest risk. Azithromycin is preferred because erythromycin in neonates is associated with infantile hypertrophic pyloric stenosis. Co-amoxiclav is ineffective.",
+    "note": "Early macrolides (azithromycin), also in neonates (erythromycin: pyloric stenosis)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A woman at 28 weeks' gestation asks how best to protect her baby from whooping cough in the first months of life. What is the most effective measure?",
+    "options": [
+     "Vaccinating only the household after birth",
+     "Macrolide prophylaxis for the newborn",
+     "DTaP for the baby at birth",
+     "Tdap vaccination during this pregnancy"
+    ],
+    "answer": 3,
+    "explain": "Tdap in pregnancy transfers protective maternal antibodies, covering the baby until DTaP at 2, 4 and 6 months. Pertussis vaccine is not given at birth; routine antibiotic prophylaxis isn't used; cocooning alone is less effective.",
+    "note": "Prevent: Tdap in pregnancy + DTaP at 2, 4, 6 months."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the stages of pertussis.",
+    "back": "Catarrhal (1–2 wk, coryza, most infectious) → Paroxysmal (whoop, post-tussive vomiting, cyanosis) → Convalescent (weeks–months). Infants <6 months: apnoea, cyanosis, often no whoop."
+   },
+   {
+    "type": "card",
+    "front": "Explain the pathogenesis of pertussis complications.",
+    "back": "FHA attaches; tracheal cytotoxin kills ciliated cells → violent cough • Pertussis toxin disables Gi → ↑cAMP → lymphocytosis, hypoglycaemia • Lymphocytes >30 × 10⁹/L → leukostasis → pulmonary hypertension"
+   },
+   {
+    "type": "card",
+    "front": "How is pertussis managed and prevented?",
+    "back": "Dx: nasopharyngeal PCR early; Regan-Lowe/Bordet-Gengou culture • Early macrolide (azithromycin; erythromycin → pyloric stenosis in neonates) • Admit <6 months with apnoea/cyanosis • Prophylaxis for close contacts • Tdap in pregnancy + DTaP 2, 4, 6 months"
+   }
+  ]
+ },
+ "II-31": {
+  "summary": "Separate the two salmonella diseases: non-typhoidal enterocolitis is usually left alone (antibiotics prolong carriage) unless the child is <3 months, immunocompromised or has sickle cell; typhoid is a systemic febrile illness diagnosed by blood culture and treated with ceftriaxone or azithromycin.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 4-year-old has 3 days of fever, abdominal cramps and diarrhoea with mucus and some blood. Stool microscopy shows many leucocytes. The family recently bought a pet turtle. Which organism is most likely?",
+    "options": [
+     "Enterotoxigenic E. coli",
+     "Non-typhoidal Salmonella",
+     "Shigella sonnei",
+     "Rotavirus"
+    ],
+    "answer": 1,
+    "explain": "Reptiles (turtles), raw chicken/eggs and unpasteurised milk are classic NTS sources, causing inflammatory diarrhoea with faecal leucocytes. Shigella is spread person-to-person at a tiny inoculum; ETEC and rotavirus cause watery, non-inflammatory diarrhoea.",
+    "note": "NTS: raw chicken/eggs, unpasteurised milk, reptiles (turtles); large infective dose."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A previously healthy 6-year-old has non-typhoidal Salmonella grown from stool. He is improving, drinking well and afebrile. What is the most appropriate management?",
+    "options": [
+     "Oral azithromycin for 3 days",
+     "Oral ciprofloxacin for 7 days",
+     "IV ceftriaxone for 5 days",
+     "Supportive care with oral rehydration, no antibiotics"
+    ],
+    "answer": 3,
+    "explain": "Uncomplicated NTS in low-risk children is self-limiting; antibiotics don't shorten illness and prolong faecal carriage. Antibiotics are reserved for <3 months, immunocompromised, sickle cell or invasive disease.",
+    "note": "NTS low-risk: supportive care; antibiotics prolong faecal carriage."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 2-month-old has 2 days of fever and bloody diarrhoea; stool culture grows non-typhoidal Salmonella. He is feeding and haemodynamically stable. What is the most appropriate management?",
+    "options": [
+     "Antibiotics only if diarrhoea persists beyond 7 days",
+     "Probiotics to shorten faecal carriage",
+     "Antibiotic treatment, because he is under 3 months",
+     "Supportive care only, as for older children"
+    ],
+    "answer": 2,
+    "explain": "Infants under 3 months have a high risk of NTS bacteraemia and focal infection (meningitis, osteomyelitis), so they are treated (e.g. ceftriaxone after blood cultures), as are immunocompromised and sickle cell patients. The 'no antibiotics' rule applies only to low-risk children.",
+    "note": "Antibiotics only if <3 months, immunocompromised, sickle cell, invasive (sickle cell sepsis: ceftriaxone)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-year-old with sickle cell anaemia has fever and a painful, swollen tibia for 6 days. MRI confirms osteomyelitis. Which organism is characteristically associated with osteomyelitis in sickle cell disease?",
+    "options": [
+     "Pseudomonas aeruginosa",
+     "Salmonella species",
+     "Pasteurella multocida",
+     "Kingella kingae"
+    ],
+    "answer": 1,
+    "explain": "Salmonella is the classic cause of osteomyelitis in sickle cell disease (gut infarcts allow invasion; hyposplenism impairs clearance), alongside S. aureus. Pseudomonas follows puncture wounds through shoes; Kingella affects under-4s; Pasteurella follows animal bites.",
+    "note": "NTS: inflammatory diarrhea with leukocytes; sickle cell → osteomyelitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old returned from visiting relatives in Pakistan 2 weeks ago. He has had a fever rising stepwise over 8 days to 40°C, abdominal pain and constipation. Pulse is 88/min and there are a few faint pink macules on the trunk. Malaria films are negative. What is the most likely diagnosis?",
+    "options": [
+     "Amoebic liver abscess",
+     "Visceral leishmaniasis",
+     "Typhoid (enteric) fever",
+     "Dengue fever"
+    ],
+    "answer": 2,
+    "explain": "Stepwise fever, abdominal pain, relative bradycardia and rose spots after travel to South Asia = enteric fever. Dengue has abrupt fever, myalgia and thrombocytopenia with incubation <2 weeks; amoebic abscess gives RUQ pain; leishmaniasis is chronic with massive splenomegaly.",
+    "note": "Typhoid: abdominal pain, stepwise fever, relative bradycardia, rose spots."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "In the first week of suspected typhoid fever, which investigation is the first-line diagnostic test?",
+    "options": [
+     "Stool culture",
+     "Urine culture",
+     "Blood culture",
+     "Widal agglutination test"
+    ],
+    "answer": 2,
+    "explain": "Week 1 of typhoid is bacteraemic, so blood culture is first-line (bone marrow culture is the most sensitive, even after antibiotics). Stool/urine cultures become positive later; the Widal test is unreliable. Leucopenia is typical.",
+    "note": "Typhoid: blood culture in week 1 (bone marrow most sensitive); leucopenia typical."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 9-year-old in the third week of untreated typhoid fever develops sudden severe abdominal pain, rigidity and absent bowel sounds. What is the most likely complication?",
+    "options": [
+     "Ileal perforation at the Peyer patches",
+     "Acute haemorrhagic pancreatitis",
+     "Toxic megacolon of the transverse colon",
+     "Ileocolic intussusception"
+    ],
+    "answer": 0,
+    "explain": "S. Typhi invades Peyer patches, is carried in macrophages to cause bacteraemia, and necrosis of the lymphoid tissue leads to haemorrhage or perforation in the terminal ileum in week 3. Toxic megacolon is a colitis complication (C. difficile, IBD).",
+    "note": "Typhoid: Peyer patches → macrophages → bacteraemia; necrosis → perforation in week 3."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Both Salmonella and Shigella are gram-negative, non-lactose-fermenting rods. Which laboratory feature distinguishes Salmonella?",
+    "options": [
+     "Oxidase-negative reaction",
+     "Non-lactose fermentation",
+     "Hydrogen sulphide production",
+     "Gram-negative staining"
+    ],
+    "answer": 2,
+    "explain": "Salmonella is H₂S-positive (black colonies on XLD/TSI), motile and uses a type III secretion system to invade; Shigella is H₂S-negative and non-motile. The other features are shared by both.",
+    "note": "Gram-negative, non-lactose fermenting, H₂ S-positive rod with type III secretion system."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "When do you give antibiotics for non-typhoidal salmonella gastroenteritis?",
+    "back": "Only if <3 months, immunocompromised, sickle cell, or invasive disease (sickle cell sepsis: ceftriaxone). Otherwise supportive — antibiotics prolong faecal carriage."
+   },
+   {
+    "type": "card",
+    "front": "Describe the clinical features and pathogenesis of typhoid.",
+    "back": "S. Typhi/Paratyphi, humans only reservoir, travel • Peyer patches → macrophages → bacteraemia • Stepwise fever, abdominal pain, relative bradycardia, rose spots, leucopenia • Week 3: necrosis → perforation"
+   },
+   {
+    "type": "card",
+    "front": "How is typhoid diagnosed and treated?",
+    "back": "Blood culture in week 1 (bone marrow most sensitive) • Ceftriaxone or azithromycin; carbapenem for XDR • Prevention: vaccine"
+   }
+  ]
+ },
+ "II-32": {
+  "summary": "Influenza in children is mostly supportive (never aspirin — Reye), but high-risk or severe cases get oseltamivir ideally within 48 hours; watch for 'better then worse' bacterial pneumonia, and remember first-time vaccinees under 9 need two doses.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What mechanism allows a novel influenza A strain to cause a pandemic?",
+    "options": [
+     "Antigenic shift by gene-segment reassortment",
+     "Loss of herd immunity from low vaccine uptake",
+     "Acquired neuraminidase-inhibitor resistance",
+     "Antigenic drift by point mutations"
+    ],
+    "answer": 0,
+    "explain": "Shift = reassortment of segmented genomes (often between animal and human strains) creating new HA/NA subtypes to which nobody is immune → pandemics. Drift = point mutations → seasonal epidemics.",
+    "note": "Influenza A/B: orthomyxovirus; drift → epidemics, shift (reassortment) → pandemics."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old with moderate persistent asthma has had high fever, cough and myalgia for 24 hours during influenza season. He is not hypoxic. What is the most appropriate management?",
+    "options": [
+     "Start amantadine now",
+     "Start oseltamivir only if pneumonia develops",
+     "Supportive care only, as he is not hypoxic",
+     "Start oseltamivir now"
+    ],
+    "answer": 3,
+    "explain": "Children under 5 and those with chronic lung disease are high-risk, so they receive oseltamivir (neuraminidase inhibitor), ideally within 48 hours of onset. Waiting for complications loses the benefit; amantadine is ineffective (resistance, no influenza B activity).",
+    "note": "Oseltamivir (neuraminidase inhibitor) for high-risk/severe, ideally within 48 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A parent wants to give aspirin to a 9-year-old with influenza for fever. Which complication is the reason to avoid this?",
+    "options": [
+     "Reye syndrome",
+     "Haemolytic uraemic syndrome",
+     "Kawasaki disease",
+     "Guillain-Barré syndrome"
+    ],
+    "answer": 0,
+    "explain": "Aspirin during influenza or varicella is associated with Reye syndrome (acute encephalopathy with fatty liver). Use paracetamol or ibuprofen. Children on long-term aspirin are therefore a high-risk group for influenza.",
+    "note": "Supportive: paracetamol/ibuprofen; no aspirin (Reye syndrome)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-year-old recovering from influenza B refuses to walk and walks on tiptoes. Both calves are tender; knee and ankle reflexes are normal and power is preserved when tested. CK is 4200 U/L. What is the most likely diagnosis?",
+    "options": [
+     "Guillain-Barré syndrome",
+     "Benign acute childhood myositis",
+     "Transverse myelitis",
+     "Septic arthritis of the ankle"
+    ],
+    "answer": 1,
+    "explain": "Influenza B classically causes calf myositis with high CK, normal reflexes and full recovery. Guillain-Barré (also associated with influenza) gives areflexia and ascending weakness; transverse myelitis gives a sensory level and sphincter involvement.",
+    "note": "Influenza B: calf myositis; associated with Guillain-Barré; better then worse → pneumonia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 6-year-old with influenza was improving by day 4 but then develops a new high fever, productive cough and lobar consolidation with a pleural effusion. Which organism is particularly associated with this post-influenza deterioration?",
+    "options": [
+     "Legionella pneumophila",
+     "Pneumocystis jirovecii",
+     "Staphylococcus aureus",
+     "Mycoplasma pneumoniae"
+    ],
+    "answer": 2,
+    "explain": "Influenza destroys ciliated epithelium, leaving a denuded airway for secondary bacterial pneumonia ('better then worse') — classically S. aureus (including MRSA/PVL), pneumococcus and GAS. Mycoplasma is a primary atypical pneumonia; Pneumocystis requires immunosuppression; Legionella is rare in children.",
+    "note": "Ciliated cells destroyed → cytokines; denuded airway → secondary bacterial pneumonia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A healthy 5-year-old is to receive influenza vaccine for the first time ever. What is the correct schedule?",
+    "options": [
+     "Two doses at least 4 weeks apart",
+     "Two doses 6 months apart",
+     "A single dose this season",
+     "Three doses at 0, 1 and 6 months"
+    ],
+    "answer": 0,
+    "explain": "Vaccine is offered annually from 6 months; children under 9 years receiving it for the first time need two doses 4 weeks apart to prime the immune response, then one dose in later seasons.",
+    "note": "Annual vaccine from 6 months; first time under 9 years: two doses 4 weeks apart."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "During influenza season, which of these children with influenza-like illness of 24 hours is the strongest candidate for antiviral treatment despite mild symptoms?",
+    "options": [
+     "A healthy 7-year-old with mild coryzal symptoms",
+     "A 10-year-old on long-term aspirin after Kawasaki disease",
+     "A healthy 12-year-old competitive swimmer",
+     "An 8-year-old who had bronchiolitis as an infant"
+    ],
+    "answer": 1,
+    "explain": "High-risk groups: under 5, chronic lung/heart/neurological disease, immunosuppression and long-term aspirin therapy (Reye risk). Healthy school-age children and those with resolved infant bronchiolitis are not high-risk.",
+    "note": "High risk: under 5, chronic lung/heart/neuro disease, immunosuppression, aspirin therapy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-month-old is admitted in midwinter with fever, poor feeding and lethargy and is started on a sepsis work-up. His siblings have flu-like illness. Which test best identifies influenza?",
+    "options": [
+     "PCR on a nasopharyngeal swab",
+     "Paired influenza serology",
+     "Viral culture of blood",
+     "Rapid streptococcal antigen test"
+    ],
+    "answer": 0,
+    "explain": "Infants with influenza can mimic sepsis; in hospitalised or high-risk children, confirm with nasopharyngeal PCR (fast, sensitive) — it guides oseltamivir and isolation. Serology is retrospective; influenza is not cultured from blood.",
+    "note": "Clinical in season; PCR on nasopharyngeal swab for hospitalised/high-risk."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Explain antigenic drift versus shift and the roles of HA and NA.",
+    "back": "Drift: point mutations in HA/NA → epidemics • Shift: reassortment → new subtype → pandemics (influenza A) • HA binds sialic acid (entry); NA cleaves it (release) — target of oseltamivir"
+   },
+   {
+    "type": "card",
+    "front": "Which children with influenza are high-risk and what are the complications?",
+    "back": "Under 5, chronic lung/heart/neuro disease, immunosuppression, aspirin therapy • Complications: febrile seizures, sepsis-like illness in infants, secondary bacterial pneumonia, influenza B calf myositis, Guillain-Barré, Reye (aspirin)"
+   },
+   {
+    "type": "card",
+    "front": "Outline treatment and prevention of influenza in children.",
+    "back": "Supportive: paracetamol/ibuprofen, no aspirin • Oseltamivir for high-risk/severe, ideally within 48 h • Annual vaccine from 6 months; first time under 9: two doses 4 weeks apart"
+   }
+  ]
+ },
+ "II-33": {
+  "summary": "Most newborns just need drying, delayed cord clamping, skin-to-skin, breastfeeding, vitamin K and screening; the art is spotting failed transition — TTN after caesarean, PPHN by pre-/post-ductal gap, hypoglycaemia in at-risk babies, and jaundice before 24 hours.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A term baby born by elective caesarean section without labour has tachypnoea of 80/min and mild grunting from 1 hour of age, needing 25% oxygen. CXR shows fluid in the horizontal fissure and prominent perihilar markings with normal lung volumes. What is the most likely diagnosis?",
+    "options": [
+     "Transient tachypnoea of the newborn",
+     "Respiratory distress syndrome",
+     "Persistent pulmonary hypertension",
+     "Meconium aspiration syndrome"
+    ],
+    "answer": 0,
+    "explain": "A term baby after caesarean with mild distress and fissure fluid has TTN — delayed lung-fluid clearance, resolving within 24–72 h with supportive care. RDS is a preterm disease with ground-glass, low-volume lungs; MAS needs meconium-stained liquor.",
+    "note": "TTN: term baby after C-section with grunting; hypoglycaemia mnemonic JOLTS."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the main mechanism of fetal lung fluid clearance at birth, which is impaired in TTN?",
+    "options": [
+     "Catecholamine-driven sodium uptake through ENaC",
+     "Surfactant secretion by type II pneumocytes",
+     "Squeezing of the chest during vaginal delivery",
+     "Prostaglandin-induced pulmonary vasodilatation"
+    ],
+    "answer": 0,
+    "explain": "Labour catecholamines switch the alveolar epithelium from chloride secretion to sodium absorption via ENaC; water follows, aerating the lung. Without labour (elective CS) this is delayed → TTN. Thoracic squeeze contributes only minimally.",
+    "note": "Labour catecholamines → ENaC clears lung fluid → aeration; TTN = delayed clearance."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A breastfed term baby is noted to be visibly jaundiced at 18 hours of age. She is feeding well. What is the most appropriate approach?",
+    "options": [
+     "Treat as pathological: urgent bilirubin, blood group and DAT",
+     "Breast-milk jaundice: continue feeds",
+     "Reassure, as she is feeding well",
+     "Treat as physiological: review at 72 hours"
+    ],
+    "answer": 0,
+    "explain": "Jaundice within 24 hours is always pathological — usually haemolysis (Rh/ABO, G6PD) or sepsis — needing urgent serum bilirubin, blood group/DAT and phototherapy if above threshold. Physiological jaundice appears after 24 h; breast-milk jaundice is later still.",
+    "note": "Jaundice within 24 h is always pathological; cephalohematoma does not cross sutures."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A term baby has cyanosis on day 1. Oxygen saturation is 97% in the right hand and 84% in the foot. What is the most likely diagnosis?",
+    "options": [
+     "Transposition of the great arteries",
+     "Hypoplastic left heart syndrome",
+     "Transient tachypnoea of the newborn",
+     "Persistent pulmonary hypertension of the newborn"
+    ],
+    "answer": 3,
+    "explain": "A pre-ductal (right hand) saturation higher than post-ductal (foot) indicates right-to-left shunting across the duct due to high pulmonary vascular resistance — PPHN. TGA with PPHN or coarctation gives the reverse pattern (foot higher than hand); TTN has no gap; HLHS causes uniform hypoxia and shock.",
+    "note": "Pre-/post-ductal saturation gap → PPHN."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "What is the standard vitamin K prophylaxis for a healthy term newborn?",
+    "options": [
+     "1 mg IM once at birth",
+     "1 mg IM weekly for 6 weeks",
+     "0.1 mg IV once at birth",
+     "10 mg IM once at birth"
+    ],
+    "answer": 0,
+    "explain": "Vitamin K 1 mg IM once prevents vitamin K deficiency bleeding (haemorrhagic disease of the newborn). Oral regimens require repeated doses; 10 mg is an adult dose.",
+    "note": "Vitamin K 1 mg IM; HBV vaccine + HBIG within 12 hours if mother HBsAg-positive."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby of a mother with insulin-treated diabetes has a blood glucose of 2.0 mmol/L at 3 hours of age. He is asymptomatic and rooting. What is the most appropriate next step?",
+    "options": [
+     "IV 10% dextrose bolus immediately",
+     "Feed and give buccal dextrose gel, then recheck",
+     "No action; recheck before the next feed",
+     "IM glucagon and transfer to NICU"
+    ],
+    "answer": 1,
+    "explain": "Infants of diabetic mothers are hyperinsulinaemic and prone to hypoglycaemia. The ladder: feed + dextrose gel → IV dextrose if persistent or symptomatic. An asymptomatic baby who can feed doesn't need IV access first; ignoring a low glucose risks brain injury.",
+    "note": "Hypoglycaemia: feed, dextrose gel, IV dextrose; jaundice: phototherapy; TTN: supportive."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "After a ventouse delivery, a baby develops a firm swelling over the right parietal bone on day 1 that does not extend beyond the suture lines and does not cross the midline. What is the most likely diagnosis?",
+    "options": [
+     "Chignon",
+     "Cephalohaematoma",
+     "Caput succedaneum",
+     "Subgaleal haemorrhage"
+    ],
+    "answer": 1,
+    "explain": "Cephalohaematoma is subperiosteal, so it is limited by sutures, appears hours after birth and can worsen jaundice. Caput is soft tissue oedema crossing sutures, present at birth; subgaleal haemorrhage crosses sutures and can cause shock; a chignon is the ventouse cup artefact.",
+    "note": "Jaundice within 24 h is always pathological; cephalohematoma does not cross sutures."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby is born vaginally, cries immediately and has good tone. What are the most appropriate immediate steps?",
+    "options": [
+     "Suction the oropharynx, then clamp the cord after 30 s",
+     "Clamp the cord immediately and transfer to a resuscitaire",
+     "Clamp the cord after ≥60 s, then bathe the baby straight away",
+     "Dry and stimulate, clamp the cord after ≥60 s, skin-to-skin"
+    ],
+    "answer": 3,
+    "explain": "Routine care: dry and stimulate, delay cord clamping ≥60 s (improves iron stores), skin-to-skin (prevents hypothermia) and early breastfeeding. Routine suction is unnecessary and can cause bradycardia; early bathing promotes hypothermia.",
+    "note": "Dry and stimulate; delay cord clamping ≥60 s; skin-to-skin; breastfeed."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the routine care steps for a healthy newborn.",
+    "back": "Dry and stimulate • Delay cord clamping ≥60 s • Skin-to-skin, breastfeed • Vitamin K 1 mg IM • HBV vaccine + HBIG within 12 h if mother HBsAg+ • Apgar 1, 5, 10 min • Exam within 72 h • Screening: pulse oximetry, hearing, heel-prick"
+   },
+   {
+    "type": "card",
+    "front": "Which babies are at risk of hypoglycaemia and how do you manage it?",
+    "back": "Risk: infants of diabetic mothers, small, preterm, cold, asphyxiated • Rx: feed → dextrose gel → IV dextrose"
+   },
+   {
+    "type": "card",
+    "front": "Name the disorders of newborn adaptation and a key clue for each.",
+    "back": "TTN: term after C-section, grunting • PPHN: pre-/post-ductal saturation gap • Hypothermia: no brown-fat reserve • Hypoglycaemia: at-risk baby, jittery • Jaundice <24 h: always pathological"
+   }
+  ]
+ },
+ "II-34": {
+  "summary": "RDS is surfactant deficiency in the preterm lung: prevent it with antenatal steroids, support from birth with CPAP, and give surfactant once FiO₂ exceeds 0.30 — while covering for GBS, which can look identical.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby born at 29 weeks develops grunting, nasal flaring and subcostal recession within 1 hour of birth. CXR shows diffuse ground-glass opacification with air bronchograms and low lung volumes. What is the most likely diagnosis?",
+    "options": [
+     "Transient tachypnoea of the newborn",
+     "Respiratory distress syndrome",
+     "Congenital diaphragmatic hernia",
+     "Meconium aspiration syndrome"
+    ],
+    "answer": 1,
+    "explain": "Preterm baby + distress within 4 h + ground-glass, air bronchograms and low volumes = RDS (surfactant deficiency). TTN shows fissure fluid with normal/large volumes in term babies; MAS gives patchy hyperinflated lungs; CDH shows bowel in the chest.",
+    "note": "CXR: ground-glass with air bronchograms, atelectasis, low lung volumes (BAD)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which cells produce pulmonary surfactant?",
+    "options": [
+     "Type II pneumocytes",
+     "Alveolar macrophages",
+     "Club (Clara) cells",
+     "Type I pneumocytes"
+    ],
+    "answer": 0,
+    "explain": "Type II pneumocytes synthesise and store surfactant in lamellar bodies, reaching mature levels around week 35. Type I cells form the gas-exchange surface; club cells secrete protective proteins in bronchioles.",
+    "note": "Type II pneumocytes make surfactant; none → alveoli collapse (Laplace, P = 2T/r) → hypoxaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "According to the law of Laplace (P = 2T/r), why do the smallest alveoli collapse first when surfactant is absent?",
+    "options": [
+     "Compliance rises as alveolar volume falls",
+     "Surface tension falls as radius decreases",
+     "Collapsing pressure rises as radius decreases",
+     "Collapsing pressure rises as radius increases"
+    ],
+    "answer": 2,
+    "explain": "With constant surface tension, pressure is inversely proportional to radius, so small alveoli empty into large ones and collapse (atelectasis → hypoxaemia). Surfactant lowers tension more in small alveoli, stabilising them.",
+    "note": "Type II pneumocytes make surfactant; none → alveoli collapse (Laplace, P = 2T/r) → hypoxaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 28-week baby was started on CPAP 6 cmH₂O from birth. At 2 hours she needs FiO₂ 0.40 to keep saturations in target and is grunting. What is the most appropriate next step?",
+    "options": [
+     "Give IV dexamethasone",
+     "Continue CPAP and wait until FiO₂ exceeds 0.60",
+     "Give surfactant",
+     "Start inhaled nitric oxide"
+    ],
+    "answer": 2,
+    "explain": "European guidance: CPAP from birth, then surfactant if FiO₂ >0.30 on CPAP (e.g. via LISA/INSURE). Waiting for higher oxygen worsens outcomes; iNO is for term PPHN, not preterm RDS; early postnatal dexamethasone causes neurodevelopmental harm.",
+    "note": "CPAP from birth → artificial surfactant if FiO₂ >0.30."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A woman is admitted in threatened preterm labour at 30 weeks. Which intervention most reduces her baby's risk of respiratory distress syndrome?",
+    "options": [
+     "Elective caesarean section",
+     "Antenatal thyroxine for the mother",
+     "Antenatal magnesium sulphate",
+     "Antenatal corticosteroids for the mother"
+    ],
+    "answer": 3,
+    "explain": "Maternal glucocorticoids (betamethasone/dexamethasone) induce fetal surfactant production and reduce RDS, IVH and death. Magnesium is given for fetal neuroprotection; caesarean delivery increases RDS risk.",
+    "note": "Prevent: maternal antenatal glucocorticoids."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "Four babies are all born at 36 weeks. Which is at the greatest risk of respiratory distress syndrome?",
+    "options": [
+     "Infant whose mother received antenatal steroids, vaginal birth",
+     "Infant of a poorly controlled diabetic mother, elective caesarean",
+     "Growth-restricted infant of a mother with pre-eclampsia, vaginal birth",
+     "Infant born vaginally after prolonged rupture of membranes"
+    ],
+    "answer": 1,
+    "explain": "Fetal hyperinsulinaemia in maternal diabetes inhibits surfactant synthesis, and caesarean without labour adds risk — so RDS can occur even near term. Chronic intrauterine stress (IUGR/pre-eclampsia) and prolonged rupture tend to accelerate lung maturation; antenatal steroids are protective.",
+    "note": "Prematurity (most important), maternal diabetes (fetal insulin), caesarean delivery."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An obstetrician considering delivery at 34 weeks obtains amniotic fluid; the lecithin:sphingomyelin ratio is 2.4. What does this indicate?",
+    "options": [
+     "The result cannot be interpreted before 37 weeks",
+     "The fetal lungs are probably immature",
+     "Surfactant will be needed immediately after birth",
+     "The fetal lungs are probably mature"
+    ],
+    "answer": 3,
+    "explain": "An L:S ratio ≥2 indicates mature lungs and low RDS risk (less reliable in maternal diabetes). A ratio <1.5 suggests immaturity.",
+    "note": "Mature lung: L:S ratio ≥ 2."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 27-week baby on CPAP for RDS has recurrent apnoeas with bradycardia and desaturation. Sepsis screen is pending and he is on antibiotics. Which drug is most appropriate for the apnoeas?",
+    "options": [
+     "Phenobarbital",
+     "Caffeine citrate",
+     "Naloxone",
+     "Inhaled nitric oxide"
+    ],
+    "answer": 1,
+    "explain": "Caffeine is the treatment of apnoea of prematurity and also reduces BPD. Antibiotics are continued until GBS/sepsis is excluded, because pneumonia can mimic RDS. Phenobarbital is for seizures; naloxone only for maternal opioid exposure.",
+    "note": "Caffeine for apnoea; antibiotics until GBS excluded; complications: NEC, ROP, BPD."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the pathophysiology of neonatal RDS.",
+    "back": "Prematurity → type II pneumocytes lack surfactant (mature ~35 wk) → high surface tension → small alveoli collapse (Laplace P = 2T/r) → atelectasis, hypoxaemia. Risk: prematurity, maternal diabetes, caesarean."
+   },
+   {
+    "type": "card",
+    "front": "What does the CXR show in RDS and how is lung maturity assessed?",
+    "back": "Ground-glass with air bronchograms, atelectasis, low lung volumes (BAD) • Mature lung: L:S ratio ≥2 • Onset within 4 h: tachypnoea, grunting, flaring, recession, cyanosis"
+   },
+   {
+    "type": "card",
+    "front": "Outline prevention, treatment and complications of RDS.",
+    "back": "Antenatal glucocorticoids • CPAP from birth → surfactant if FiO₂ >0.30 • Caffeine for apnoea • Antibiotics until GBS excluded • Complications: NEC, ROP, BPD"
+   }
+  ]
+ },
+ "II-35": {
+  "summary": "Meconium aspiration is a post-term, hypoxia-driven disease: ball-valve air trapping (pneumothorax), surfactant inactivation and PPHN — manage non-vigorous babies with prompt ventilation rather than routine tracheal suction, and escalate surfactant → iNO → ECMO.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A baby born at 42 weeks after an abnormal CTG has meconium-stained nails and cord and respiratory distress from birth. The chest looks barrel-shaped with widespread crackles. CXR shows coarse patchy infiltrates with hyperinflation and flattened diaphragms. What is the most likely diagnosis?",
+    "options": [
+     "Respiratory distress syndrome",
+     "Meconium aspiration syndrome",
+     "Transient tachypnoea of the newborn",
+     "Congenital diaphragmatic hernia"
+    ],
+    "answer": 1,
+    "explain": "Post-term, fetal distress, meconium staining, barrel chest and patchy infiltrates with hyperinflation = MAS. RDS gives low-volume ground-glass lungs in preterms; TTN gives fissure fluid; CDH gives a scaphoid abdomen and bowel loops in the chest.",
+    "note": "Meconium-stained skin/nails/cord; distress from birth; barrel chest, crackles."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A term baby is delivered through thick meconium-stained liquor. At birth he is floppy, apnoeic and has a heart rate of 80/min. What is the most appropriate immediate action?",
+    "options": [
+     "Suction the mouth and nose on the perineum first",
+     "Start positive-pressure ventilation within the first minute",
+     "Intubate and suction the trachea before any breaths",
+     "Give endotracheal surfactant before ventilation"
+    ],
+    "answer": 1,
+    "explain": "Current resuscitation guidance: for non-vigorous babies, no routine tracheal suctioning — start inflation breaths/ventilation within the first minute, because delaying ventilation worsens hypoxia. Intrapartum suctioning doesn't prevent MAS; tracheal suction is reserved for suspected airway obstruction.",
+    "note": "Non-vigorous baby: no routine tracheal suctioning; start ventilation within the first minute."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the main mechanism leading to in-utero passage of meconium?",
+    "options": [
+     "Fetal hypoglycaemia triggering vagal inhibition of the gut",
+     "Maternal opioids relaxing the fetal anal sphincter",
+     "Fetal hyperthyroidism accelerating bowel transit",
+     "Fetal hypoxia increasing peristalsis and relaxing the anal sphincter"
+    ],
+    "answer": 3,
+    "explain": "Fetal hypoxia (and gut maturity in post-term babies) increases peristalsis and relaxes the anal sphincter → meconium passage; hypoxic gasping then causes aspiration.",
+    "note": "Fetal hypoxia → increased peristalsis and anal sphincter relaxation → meconium passage → aspiration."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A term baby with MAS on CPAP suddenly deteriorates with worsening cyanosis. The left hemithorax appears hyperexpanded with reduced breath sounds, and the apex beat is displaced to the right. What is the most likely cause?",
+    "options": [
+     "Left tension pneumothorax",
+     "Acute pulmonary haemorrhage",
+     "Displaced nasal CPAP prongs",
+     "Worsening persistent pulmonary hypertension"
+    ],
+    "answer": 0,
+    "explain": "Meconium plugs act as ball valves, trapping air → air leak (pneumothorax in 10–20%). Unilateral hyperexpansion, reduced breath sounds and mediastinal shift point to tension pneumothorax needing needle decompression/drain. PPHN or prong displacement don't cause unilateral signs.",
+    "note": "Ball-valve air trapping → pneumothorax; meconium inactivates surfactant; PPHN."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A baby born at 30 weeks after maternal fever is covered in meconium-stained liquor. Which diagnosis should this specifically prompt?",
+    "options": [
+     "Listeria monocytogenes infection",
+     "Hirschsprung disease",
+     "Congenital CMV infection",
+     "Post-maturity syndrome"
+    ],
+    "answer": 0,
+    "explain": "Meconium passage is rare before 34 weeks; meconium in a preterm suggests Listeria chorioamnionitis (with maternal fever), so cover with amoxicillin/ampicillin. Post-maturity is the classic cause in term/post-term babies; Hirschsprung causes delayed meconium passage.",
+    "note": "Meconium in a preterm → think Listeria."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby with MAS on high-frequency ventilation has labile oxygenation, with pre-ductal saturation 95% and post-ductal 80%. Echo shows a structurally normal heart with right-to-left ductal shunting. What is the most appropriate specific therapy?",
+    "options": [
+     "IV indometacin",
+     "High-dose furosemide",
+     "Inhaled nitric oxide",
+     "Prostaglandin E1 infusion"
+    ],
+    "answer": 2,
+    "explain": "The saturation gap with right-to-left ductal shunting indicates PPHN, treated with inhaled NO (selective pulmonary vasodilator) alongside oxygen, ventilation and surfactant. PGE1 keeps the duct open for duct-dependent heart disease; indometacin closes a PDA.",
+    "note": "NICU: oxygen, CPAP/ventilation, surfactant, inhaled nitric oxide for PPHN."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is exogenous surfactant often given to term infants with meconium aspiration syndrome?",
+    "options": [
+     "Meconium inactivates endogenous surfactant",
+     "Surfactant reverses the pulmonary vasoconstriction",
+     "Term infants are naturally surfactant-deficient",
+     "Surfactant dissolves and clears meconium plugs"
+    ],
+    "answer": 0,
+    "explain": "Meconium causes chemical pneumonitis and inactivates surfactant, producing secondary surfactant deficiency despite normal production at term. It doesn't dissolve plugs, and pulmonary vasoconstriction is treated with iNO.",
+    "note": "Ball-valve air trapping → pneumothorax; meconium inactivates surfactant; PPHN."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A term baby with severe MAS and PPHN remains profoundly hypoxaemic despite high-frequency ventilation, surfactant and inhaled nitric oxide. What is the next treatment option?",
+    "options": [
+     "Emergency lung transplantation",
+     "Exchange transfusion",
+     "Extracorporeal membrane oxygenation",
+     "Repeated tracheal lavage"
+    ],
+    "answer": 2,
+    "explain": "ECMO is the rescue therapy for refractory hypoxaemic respiratory failure in MAS/PPHN, with good survival. Antibiotics are given until sepsis is excluded. Exchange transfusion and lavage don't address PPHN; lung transplant is not a neonatal rescue option.",
+    "note": "ECMO if refractory; antibiotics until sepsis excluded."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the risk factors for meconium aspiration syndrome and a key exception.",
+    "back": "Post-term (postmaturity), growth restriction, pre-eclampsia, oligohydramnios, abnormal CTG • Meconium in a preterm → think Listeria"
+   },
+   {
+    "type": "card",
+    "front": "Explain the pathophysiology of MAS.",
+    "back": "Fetal hypoxia → increased peristalsis + sphincter relaxation → meconium → aspiration • Ball-valve air trapping → pneumothorax (10–20%) • Meconium inactivates surfactant • PPHN (pre-/post-ductal gap)"
+   },
+   {
+    "type": "card",
+    "front": "How do you manage meconium aspiration syndrome?",
+    "back": "Non-vigorous: no routine tracheal suctioning; ventilate within first minute • NICU: oxygen, CPAP/ventilation, surfactant, iNO for PPHN • ECMO if refractory • Antibiotics until sepsis excluded"
+   }
+  ]
+ }
+}

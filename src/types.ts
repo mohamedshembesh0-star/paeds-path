@@ -11,47 +11,58 @@ export type Topic = {
 
 export type Course = { topics: Topic[] };
 
-export type ChoiceStep = {
-  kind: "choice";
+export type Mcq = {
+  type: "mcq";
   id: string;
-  prompt: string;
+  topicId: string;
+  block: BlockName;
+  level: 1 | 2 | 3;
   stem: string;
   options: string[];
-  answer: string;
+  answer: number;
   explain: string;
-  source: BlockName;
+  note: string;
 };
 
-export type BoolStep = {
-  kind: "bool";
+export type Card = {
+  type: "card";
   id: string;
-  prompt: string;
-  statement: string;
-  answer: boolean;
-  explain: string;
+  topicId: string;
+  front: string;
+  back: string;
 };
 
-export type ReadStep = {
-  kind: "read";
-  id: string;
-  prompt: string;
-  lines: { source: BlockName; text: string }[];
+export type TopicBank = { summary: string; questions: Mcq[]; cards: Card[] };
+
+/** Leitner-style memory for one question or card. */
+export type ItemState = {
+  box: number; // 0 = just failed, 1..6 = increasingly stable
+  due: number; // epoch ms
+  seen: number;
+  right: number;
+  wrong: number;
+  last: number;
 };
 
-export type Step = ChoiceStep | BoolStep | ReadStep;
-
-export type Completion = {
-  correct: number;
-  total: number;
-  at: string;
+export type TopicState = {
+  learnedAt: number; // first lesson completed
+  lastAt: number;
+  lessons: number;
+  bestScore: number; // % first-try correct in best lesson
+  lastScore: number;
+  oral?: number; // last mock-oral self score (0-6 blocks)
 };
+
+export type DayLog = { topics: number; answered: number; correct: number; xp: number };
 
 export type Progress = {
+  version: 2;
   xp: number;
   streak: number;
   lastDay: string | null;
-  lessonsToday: number;
-  today: string;
-  completed: Record<string, Completion>;
-  mistakes: { topicId: string; prompt: string; explain: string }[];
+  examDate: string; // YYYY-MM-DD
+  items: Record<string, ItemState>;
+  topics: Record<string, TopicState>;
+  days: Record<string, DayLog>;
+  updatedAt: number;
 };
