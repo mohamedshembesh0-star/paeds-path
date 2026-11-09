@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ArrowRight, Check, Eye, Flame, Lightbulb, Pause, RotateCcw, Sparkles, X, Zap } from "lucide-react";
 import { BLOCK_LABEL, topicById, topicLabel } from "./course";
+import { useInkScope } from "./Ink";
 import type { Card, Mcq, Teach } from "./types";
 
 export type SessionItem = Mcq | Card | Teach;
@@ -50,6 +51,8 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
   const barRef = useRef<HTMLDivElement>(null);
 
   const entry = queue[pos];
+  // Each question gets its own ink page, so circles and notes stay with that question.
+  useInkScope(`q:${entry?.item.id ?? "end"}:${entry?.retry ?? 0}`);
   const uniqueTotal = items.filter((item) => item.type !== "teach").length;
   const [hold, setHold] = useState(false);
   const [doneUnique, setDoneUnique] = useState(0);

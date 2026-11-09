@@ -734,3 +734,45 @@ h1 em { color: var(--forest); font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   .answer-option:active:not(:disabled) { scale: 1; }
 }
+
+/* ---------- ink layer (pen, highlighter, eraser) ---------- */
+.ink-canvas { position: fixed; inset: 0; width: 100vw; height: 100dvh; z-index: 30; pointer-events: none; }
+.ink-canvas.on { pointer-events: auto; cursor: crosshair; touch-action: pan-x pan-y pinch-zoom; }
+.ink-canvas.on.finger { touch-action: none; }
+.ink-canvas.on.erase { cursor: cell; }
+.ink-fab { position: fixed; right: 18px; bottom: 22px; z-index: 31; width: 52px; height: 52px; display: grid; place-items: center; border: 0; border-radius: 50%; background: #254d41; color: #fff; box-shadow: 0 8px 22px rgba(37,77,65,.35); cursor: pointer; touch-action: manipulation; }
+.ink-fab:active { scale: .95; }
+.ink-fab i { position: absolute; top: -3px; right: -3px; min-width: 20px; height: 20px; padding: 0 5px; display: grid; place-items: center; border-radius: 10px; background: #b9604b; color: #fff; font: 700 10px var(--app-font-sans); font-style: normal; font-variant-numeric: tabular-nums; }
+.ink-bar { position: fixed; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom)); translate: -50% 0; z-index: 32; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; max-width: calc(100vw - 20px); padding: 7px; border-radius: 18px; background: rgba(32,42,59,.96); box-shadow: 0 12px 34px rgba(20,28,40,.35); opacity: 1; transition: opacity .2s ease-out, translate .2s ease-out; }
+@starting-style { .ink-bar { opacity: 0; translate: -50% 10px; } }
+.ink-group { display: flex; align-items: center; gap: 3px; padding: 0 4px; border-right: 1px solid rgba(255,255,255,.14); }
+.ink-group:last-of-type { border-right: 0; }
+.ink-bar button { min-width: 44px; height: 44px; display: grid; place-items: center; padding: 0 8px; border: 0; border-radius: 12px; background: transparent; color: #dfe5e3; cursor: pointer; touch-action: manipulation; font: 600 13px var(--app-font-sans); }
+.ink-bar button:hover:not(:disabled) { background: rgba(255,255,255,.08); }
+.ink-bar button.on { background: #e7efe9; color: #1f3b32; }
+.ink-bar button:disabled { opacity: .35; cursor: default; }
+.ink-bar button.danger { background: #b9604b; color: #fff; }
+.ink-bar .swatch { min-width: 34px; width: 34px; height: 44px; padding: 0; }
+.ink-bar .swatch::before { content: ""; width: 22px; height: 22px; border-radius: 50%; background: var(--sw); box-shadow: inset 0 0 0 2px rgba(255,255,255,.25); }
+.ink-bar .swatch.on { background: transparent; }
+.ink-bar .swatch.on::before { box-shadow: 0 0 0 2px #202a3b, 0 0 0 4px #fff; }
+.ink-bar .sizes span { display: block; border-radius: 50%; background: currentColor; }
+.ink-done { display: inline-flex!important; gap: 6px; background: #3f7d5e!important; color: #fff!important; padding: 0 14px!important; }
+.sketch-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 14px; margin-bottom: 16px; }
+.sketch-head h1 { font-size: clamp(34px, 5vw, 48px); margin-bottom: 6px; }
+.sketch-paper { min-height: 2400px; border: 1px solid #e1ddd3; border-radius: 16px; background-color: #fffefb; background-image: radial-gradient(circle, #d9d4c7 1px, transparent 1.2px); background-size: 26px 26px; }
+@media (max-width: 700px) {
+  .ink-fab { bottom: calc(84px + env(safe-area-inset-bottom)); right: 14px; }
+  .focus-mode .ink-fab { bottom: calc(20px + env(safe-area-inset-bottom)); }
+  .ink-bar { bottom: calc(10px + env(safe-area-inset-bottom)); gap: 2px; padding: 5px; }
+  .ink-group { padding: 0 2px; }
+  .ink-bar button { min-width: 42px; height: 42px; padding: 0 6px; }
+}
+@media print { .ink-fab, .ink-bar { display: none!important; } }
+@media (prefers-reduced-motion: reduce) { .ink-fab:active { scale: 1; } }
+/* Pen launcher as a right-edge tab so it never covers Continue/Start buttons */
+.ink-fab, .focus-mode .ink-fab { right: 0; top: 50%; bottom: auto; translate: 0 -50%; width: 46px; height: 54px; border-radius: 14px 0 0 14px; box-shadow: -4px 6px 18px rgba(37,77,65,.28); }
+@media (max-width: 700px) { .ink-fab, .focus-mode .ink-fab { right: 0; bottom: auto; top: 50%; } }
+/* Center the ink toolbar without halving its available width */
+.ink-bar { left: 10px; right: 10px; width: fit-content; margin-inline: auto; translate: 0 0; }
+@starting-style { .ink-bar { opacity: 0; translate: 0 10px; } }

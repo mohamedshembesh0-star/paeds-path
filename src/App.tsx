@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import {
-  Activity, ArrowLeft, ClipboardCheck, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, ClipboardCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
 import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, capstoneFor, checkCount, chunksFor, course, hasChunks, lessonSteps, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
@@ -11,6 +11,7 @@ import {
   parseImport, rapidFire, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
 } from "./progress";
 import { getTopicReferences } from "./references";
+import { InkProvider, useInk, useInkScope } from "./Ink";
 import { Session, type SessionItem, type SessionResult } from "./Session";
 import type { BlockName, Progress, Topic } from "./types";
 
@@ -69,11 +70,12 @@ const navItems = [
   { href: "/review", label: "Review", icon: RotateCcw },
   { href: "/screening", label: "Screening", icon: ClipboardCheck },
   { href: "/cram", label: "Cram sheets", icon: ScrollText },
+  { href: "/sketch", label: "Sketch pad", icon: PenTool },
   { href: "/oral", label: "Mock oral", icon: Mic },
   { href: "/progress", label: "Progress", icon: Activity },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
-const mobileNav = navItems.filter((n) => n.href !== "/settings" && n.href !== "/progress" && n.href !== "/oral");
+const mobileNav = navItems.filter((n) => n.href !== "/settings" && n.href !== "/progress" && n.href !== "/oral" && n.href !== "/sketch");
 
 function AppShell({ children }: { children: ReactNode }) {
   const [location] = useLocation();
@@ -718,6 +720,36 @@ function ScreeningPage() {
   );
 }
 
+/* ------------------------------------------------------------------ sketch pad */
+
+const SHEETS = 8;
+
+function SketchPage() {
+  const ink = useInk();
+  const [sheet, setSheet] = useState(() => {
+    try { return Number(localStorage.getItem("paeds-sketch-sheet")) || 1; } catch { return 1; }
+  });
+  useInkScope(`sketch:${sheet}`);
+  useEffect(() => {
+    ink?.setActive(true);
+    return () => ink?.setActive(false);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    try { localStorage.setItem("paeds-sketch-sheet", String(sheet)); } catch { /* ignore */ }
+  }, [sheet]);
+  return (
+    <div className="page-wrap sketch-page">
+      <header className="sketch-head">
+        <div><h1>Sketch pad</h1><p className="lede">Blank sheets for drawing out pathways, algorithms and mnemonics. Pencil or mouse draws; your finger scrolls.</p></div>
+        <div className="segmented sheet-tabs" role="tablist" aria-label="Sheets">
+          {Array.from({ length: SHEETS }, (_, i) => i + 1).map((n) => <button key={n} role="tab" aria-selected={sheet === n} className={sheet === n ? "on" : ""} onClick={() => setSheet(n)}>Sheet {n}</button>)}
+        </div>
+      </header>
+      <div className="sketch-paper" aria-label={`Sheet ${sheet}`} />
+    </div>
+  );
+}
+
 /* ------------------------------------------------------------------ cram sheets */
 
 function CramPage() {
@@ -1129,6 +1161,7 @@ const offline = typeof window !== "undefined" && window.location.protocol === "f
 export default function App() {
   return (
     <Router hook={offline ? useHashLocation : undefined}>
+    <InkProvider>
     <StoreProvider>
       <ScrollTop />
       <AppShell>
@@ -1141,6 +1174,7 @@ export default function App() {
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
           <Route path="/screening" component={ScreeningPage} />
           <Route path="/cram" component={CramPage} />
+          <Route path="/sketch" component={SketchPage} />
           <Route path="/oral" component={OralPage} />
           <Route path="/progress" component={ProgressPage} />
           <Route path="/settings" component={SettingsPage} />
@@ -1148,6 +1182,7 @@ export default function App() {
         </Switch>
       </AppShell>
     </StoreProvider>
+    </InkProvider>
     </Router>
   );
 }
