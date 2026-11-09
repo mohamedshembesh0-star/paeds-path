@@ -1,0 +1,2662 @@
+{
+ "II-51": [
+  {
+   "block": "Def",
+   "explain": "LCH is a clonal myeloid neoplasm of Langerhans-type cells; HLH is not a tumour but uncontrolled immune activation by macrophages and T cells.",
+   "hook": "LCH = Langerhans cells grow; HLH = Hyper-Lymphohistiocytic Hyperinflammation.",
+   "checks": [
+    {
+     "q": "Which cells are overactivated alongside macrophages in HLH?",
+     "options": [
+      "Cytotoxic T cells",
+      "Langerhans cells",
+      "Plasma cells"
+     ],
+     "answer": 0,
+     "why": "HLH = macrophages plus cytotoxic T cells; Langerhans cell proliferation defines LCH."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "LCH is driven by MAPK pathway mutations (BRAF V600E); HLH is either inherited (cytotoxicity genes) or triggered by infection or rheumatic disease.",
+   "hook": "BRAF in LCH; EBV and sJIA (macrophage activation syndrome) trigger secondary HLH.",
+   "checks": [
+    {
+     "q": "Which mutation drives most LCH?",
+     "options": [
+      "JAK2 V617F",
+      "BRAF V600E",
+      "KIT D816V"
+     ],
+     "answer": 1,
+     "why": "BRAF V600E activates MAPK signalling in LCH; JAK2 is myeloproliferative, KIT is mastocytosis."
+    },
+    {
+     "q": "Which virus classically triggers secondary HLH?",
+     "options": [
+      "Parvovirus B19",
+      "RSV",
+      "EBV"
+     ],
+     "answer": 2,
+     "why": "EBV is the commonest infectious trigger of secondary HLH; systemic JIA is the rheumatic one."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "CD1a/langerin mark the Langerhans phenotype; in HLH, failed perforin killing means infected cells and immune cells are never cleared, so cytokines spiral.",
+   "hook": "LCH cells: CD1a + CD207 (Birbeck granules). HLH: no perforin = no off-switch.",
+   "checks": [
+    {
+     "q": "Which markers are positive on LCH cells?",
+     "options": [
+      "CD1a and CD207",
+      "CD20 and CD79a",
+      "CD34 and CD117"
+     ],
+     "answer": 0,
+     "why": "CD1a and langerin (CD207) define Langerhans cells; CD34/CD117 are blast markers."
+    },
+    {
+     "q": "Which defect underlies primary HLH?",
+     "options": [
+      "Complement C1q deficiency",
+      "Failed perforin cytotoxicity",
+      "NADPH oxidase defect"
+     ],
+     "answer": 1,
+     "why": "Perforin-mediated killing fails, so cytokine storm results; NADPH oxidase defect is CGD."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "LCH infiltrates bone (punched-out lesions), skin and pituitary; HLH looks like overwhelming sepsis with cytopenias and organomegaly.",
+   "hook": "LCH triad (Hand-Schüller-Christian): skull lesions, DI, exophthalmos.",
+   "checks": [
+    {
+     "q": "Typical skull X-ray lesion in LCH?",
+     "options": [
+      "Hair-on-end appearance",
+      "Sclerotic sunburst lesion",
+      "Punched-out lytic lesion"
+     ],
+     "answer": 2,
+     "why": "LCH gives lytic punched-out skull lesions; hair-on-end is thalassaemia/sickle cell."
+    },
+    {
+     "q": "Pituitary LCH typically causes which endocrine problem?",
+     "options": [
+      "Central diabetes insipidus",
+      "Central hypothyroidism",
+      "Precocious puberty"
+     ],
+     "answer": 0,
+     "why": "Posterior pituitary infiltration causes central DI, the commonest LCH endocrinopathy."
+    },
+    {
+     "q": "Classic HLH clinical triad?",
+     "options": [
+      "Fever, rash, lymphadenopathy",
+      "Fever, pancytopenia, hepatosplenomegaly",
+      "Fever, arthritis, serositis"
+     ],
+     "answer": 1,
+     "why": "HLH: fever, cytopenias and hepatosplenomegaly; the cytokine storm mimics sepsis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Liver, spleen and marrow involvement worsen LCH prognosis; HLH labs reflect macrophage activation (ferritin) and consumption (fibrinogen).",
+   "hook": "HLH labs: ferritin sky-high, TG high, fibrinogen low.",
+   "checks": [
+    {
+     "q": "Which are the LCH 'risk organs'?",
+     "options": [
+      "Skin, bone, pituitary",
+      "Lung, kidney, brain",
+      "Liver, spleen, bone marrow"
+     ],
+     "answer": 2,
+     "why": "Liver, spleen and marrow involvement define high-risk LCH; skin/bone are low-risk sites."
+    },
+    {
+     "q": "Which fibrinogen level fits HLH?",
+     "options": [
+      "Low",
+      "High",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "HLH: very high ferritin and triglycerides but low fibrinogen from consumption."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Treatment scales with extent: one bone lesion can be curetted or watched; multisystem LCH needs chemo. HLH needs immune suppression, and inherited forms a new immune system.",
+   "hook": "Single bone: scrape or wait. Familial HLH: transplant.",
+   "checks": [
+    {
+     "q": "Single bone LCH lesion usually needs?",
+     "options": [
+      "Systemic chemotherapy",
+      "Curettage or observation",
+      "Radiotherapy alone"
+     ],
+     "answer": 1,
+     "why": "Unifocal bone LCH often resolves with curettage or observation; multisystem needs chemo."
+    },
+    {
+     "q": "Definitive treatment of primary (familial) HLH?",
+     "options": [
+      "Long-term steroids",
+      "IVIG",
+      "HSCT"
+     ],
+     "answer": 2,
+     "why": "Familial HLH is a genetic cytotoxicity defect, so only HSCT cures it."
+    }
+   ]
+  }
+ ],
+ "II-52": [
+  {
+   "block": "Def",
+   "explain": "Leukaemia is the commonest childhood cancer, but brain tumours are the commonest solid ones; in children they mostly sit below the tentorium (cerebellum/brainstem).",
+   "hook": "Kids: tumours in the back (posterior fossa); adults: tumours on top.",
+   "checks": [
+    {
+     "q": "Commonest solid tumours of childhood?",
+     "options": [
+      "CNS tumours",
+      "Neuroblastoma",
+      "Wilms tumour"
+     ],
+     "answer": 0,
+     "why": "CNS tumours are the commonest solid tumours; leukaemia is the commonest cancer overall."
+    },
+    {
+     "q": "Where do most childhood primary CNS tumours arise?",
+     "options": [
+      "Supratentorially",
+      "Infratentorially",
+      "In the spinal cord"
+     ],
+     "answer": 1,
+     "why": "Children's tumours are usually infratentorial, about half in the posterior fossa."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Pilocytic astrocytoma is low-grade and curable by resection; medulloblastoma is malignant embryonal; ependymoma arises from ventricular lining.",
+   "hook": "Pilocytic = Pleasant prognosis; Medullo = Malignant midline cerebellum.",
+   "checks": [
+    {
+     "q": "Commonest primary CNS tumour in children?",
+     "options": [
+      "Medulloblastoma",
+      "Ependymoma",
+      "Pilocytic astrocytoma"
+     ],
+     "answer": 2,
+     "why": "Pilocytic astrocytoma is commonest with good prognosis; medulloblastoma is the commonest malignant."
+    },
+    {
+     "q": "Childhood ependymoma typically arises where?",
+     "options": [
+      "Fourth ventricle",
+      "Lateral ventricle",
+      "Pineal region"
+     ],
+     "answer": 0,
+     "why": "Paediatric ependymoma is classically in the 4th ventricle floor."
+    },
+    {
+     "q": "Turcot syndrome combines CNS tumours with?",
+     "options": [
+      "Neurofibromatosis type 1",
+      "Familial adenomatous polyposis",
+      "Tuberous sclerosis"
+     ],
+     "answer": 1,
+     "why": "Turcot = FAP (or Lynch) + malignant brain tumours."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "A posterior fossa mass blocks the 4th ventricle outflow, causing hydrocephalus; medulloblastoma seeds the CSF, so the whole neuraxis must be imaged.",
+   "hook": "Medullo 'drops' down the spine via CSF.",
+   "checks": [
+    {
+     "q": "Posterior fossa mass leads to raised ICP mainly via?",
+     "options": [
+      "Cerebral oedema alone",
+      "Venous sinus thrombosis",
+      "Obstructive hydrocephalus"
+     ],
+     "answer": 2,
+     "why": "It blocks CSF outflow through the 4th ventricle → obstructive hydrocephalus."
+    },
+    {
+     "q": "Cyst with a mural nodule suggests?",
+     "options": [
+      "Pilocytic astrocytoma",
+      "Medulloblastoma",
+      "Ependymoma"
+     ],
+     "answer": 0,
+     "why": "Pilocytic astrocytoma = cyst plus enhancing mural nodule; medulloblastoma is solid midline."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Lying flat overnight, CO₂ rises and dilates cerebral vessels, so ICP headache peaks on waking. Pineal masses press the tectum, impairing upgaze.",
+   "hook": "Morning headache + vomiting = ICP until proven otherwise.",
+   "checks": [
+    {
+     "q": "When is raised-ICP headache typically worst?",
+     "options": [
+      "Late evening",
+      "On waking",
+      "After meals"
+     ],
+     "answer": 1,
+     "why": "Nocturnal CO₂ retention causes vasodilatation, so headache peaks on waking."
+    },
+    {
+     "q": "Parinaud syndrome features which gaze problem?",
+     "options": [
+      "Lateral gaze palsy",
+      "Downward-out eye",
+      "Upward gaze palsy"
+     ],
+     "answer": 2,
+     "why": "Pineal compression of the dorsal midbrain → upward gaze palsy, convergence-retraction nystagmus."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "MRI of brain and whole spine stages drop metastases; LP with a mass and high ICP risks herniation. Histology and molecular markers refine type and risk.",
+   "hook": "Raised ICP: scan, never tap.",
+   "checks": [
+    {
+     "q": "Key contraindicated test with raised ICP?",
+     "options": [
+      "Lumbar puncture",
+      "Brain MRI",
+      "Fundoscopy"
+     ],
+     "answer": 0,
+     "why": "LP with raised ICP risks coning; urgent MRI brain and spine instead."
+    },
+    {
+     "q": "Perivascular pseudorosettes are typical of?",
+     "options": [
+      "Medulloblastoma",
+      "Ependymoma",
+      "Pilocytic astrocytoma"
+     ],
+     "answer": 1,
+     "why": "Ependymoma = perivascular pseudorosettes; medulloblastoma = Homer-Wright rosettes, MYC amplification."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Surgery debulks and relieves obstruction, steroids reduce oedema. Radiation harms the developing brain most in the very young, so it is delayed.",
+   "hook": "Under 3: spare the brain from radiation.",
+   "checks": [
+    {
+     "q": "First-line approach for most childhood CNS tumours?",
+     "options": [
+      "Radiotherapy alone",
+      "Watchful waiting",
+      "Maximal safe resection"
+     ],
+     "answer": 2,
+     "why": "Maximal safe resection plus dexamethasone and CSF diversion is the mainstay."
+    },
+    {
+     "q": "Below which age is cranial radiotherapy avoided?",
+     "options": [
+      "About 3 years",
+      "About 10 years",
+      "About 1 year"
+     ],
+     "answer": 0,
+     "why": "Radiotherapy is avoided under ~3 years due to severe neurocognitive damage."
+    }
+   ]
+  }
+ ],
+ "II-53": [
+  {
+   "block": "Def",
+   "explain": "Neuroblastoma comes from sympathetic neural crest (adrenal medulla, sympathetic chain); Wilms from embryonic kidney tissue that failed to mature.",
+   "hook": "Neuro = nerve crest (adrenal); Wilms = kidney blastema.",
+   "checks": [
+    {
+     "q": "Neuroblastoma most often arises from?",
+     "options": [
+      "Renal cortex",
+      "Adrenal medulla",
+      "Liver"
+     ],
+     "answer": 1,
+     "why": "Sympathetic neural crest cells, most often in the adrenal medulla."
+    },
+    {
+     "q": "Wilms tumour derives from which tissue?",
+     "options": [
+      "Adrenal medulla",
+      "Renal tubular epithelium",
+      "Metanephric blastema"
+     ],
+     "answer": 2,
+     "why": "Wilms arises from metanephric mesenchyme (blastema); RCC is tubular epithelial."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "MYCN amplification drives aggressive neuroblastoma; Wilms is linked to WT1 deletion syndromes like WAGR (11p13).",
+   "hook": "WAGR = Wilms, Aniridia, GU anomalies, Retardation.",
+   "checks": [
+    {
+     "q": "Strongest adverse prognostic marker in neuroblastoma?",
+     "options": [
+      "MYCN amplification",
+      "BRAF mutation",
+      "t(11;22)"
+     ],
+     "answer": 0,
+     "why": "N-myc amplification predicts poor outcome; t(11;22) is Ewing."
+    },
+    {
+     "q": "Which eye finding is part of WAGR?",
+     "options": [
+      "Coloboma",
+      "Aniridia",
+      "Leukocoria"
+     ],
+     "answer": 1,
+     "why": "WAGR: Wilms, aniridia, genitourinary anomalies, developmental delay."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Neuroblastoma is a small round blue cell tumour forming rosettes around neurofibrils; Wilms spreads haematogenously to the lungs.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Rosettes typical of neuroblastoma?",
+     "options": [
+      "Flexner-Wintersteiner rosettes",
+      "Perivascular pseudorosettes",
+      "Homer-Wright rosettes"
+     ],
+     "answer": 2,
+     "why": "Homer-Wright rosettes; Flexner-Wintersteiner are retinoblastoma."
+    },
+    {
+     "q": "Commonest metastatic site of Wilms tumour?",
+     "options": [
+      "Lungs",
+      "Bone",
+      "Liver"
+     ],
+     "answer": 0,
+     "why": "Wilms spreads most often to the lungs, so chest imaging is part of staging."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Neuroblastoma children are often unwell with metastases (raccoon eyes, paraneoplastic dancing eyes); Wilms children look well with a smooth flank mass.",
+   "hook": "Sick child + crossing mass = neuroblastoma; well child + flank mass = Wilms.",
+   "checks": [
+    {
+     "q": "Periorbital ecchymoses in neuroblastoma reflect?",
+     "options": [
+      "Coagulopathy",
+      "Orbital bone metastases",
+      "Raised ICP"
+     ],
+     "answer": 1,
+     "why": "'Raccoon eyes' come from orbital bone metastases."
+    },
+    {
+     "q": "Wilms mass relation to the midline?",
+     "options": [
+      "Usually crosses it",
+      "Always central",
+      "Does not cross it"
+     ],
+     "answer": 2,
+     "why": "Wilms is a smooth flank mass not crossing the midline; neuroblastoma often crosses."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Any abdominal mass in a child is cancer until imaged; neuroblastoma secretes catecholamines, so urinary metabolites help diagnosis, and MIBG maps spread.",
+   "hook": "VMA/HVA in urine = neuroblastoma.",
+   "checks": [
+    {
+     "q": "First imaging for a child's abdominal mass?",
+     "options": [
+      "Ultrasound",
+      "CT abdomen",
+      "Plain X-ray"
+     ],
+     "answer": 0,
+     "why": "Same-day review and abdominal ultrasound; CT/MRI follow for staging."
+    },
+    {
+     "q": "Raised urinary VMA and HVA suggest?",
+     "options": [
+      "Wilms tumour",
+      "Neuroblastoma",
+      "Hepatoblastoma"
+     ],
+     "answer": 1,
+     "why": "Catecholamine metabolites VMA/HVA are raised in neuroblastoma, not Wilms."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "High-risk neuroblastoma needs multimodal intensive therapy plus anti-GD2 immunotherapy; SIOP shrinks Wilms first to reduce rupture, COG gets histology first.",
+   "hook": "SIOP = Shrink first (chemo); COG = Cut first.",
+   "checks": [
+    {
+     "q": "Which immunotherapy target is used in high-risk neuroblastoma?",
+     "options": [
+      "CD20",
+      "CD19",
+      "GD2"
+     ],
+     "answer": 2,
+     "why": "Anti-GD2 antibodies target a neuroblastoma surface ganglioside."
+    },
+    {
+     "q": "European SIOP Wilms approach begins with?",
+     "options": [
+      "Preoperative chemotherapy",
+      "Nephrectomy",
+      "Radiotherapy"
+     ],
+     "answer": 0,
+     "why": "SIOP gives chemo before surgery; US COG usually operates first."
+    }
+   ]
+  }
+ ],
+ "II-54": [
+  {
+   "block": "Def",
+   "explain": "Osteosarcoma makes malignant bone during the adolescent growth spurt; Ewing is a neuroectodermal small round cell tumour; rhabdomyosarcoma comes from muscle precursors.",
+   "hook": "Osteo = teens' growth spurt.",
+   "checks": [
+    {
+     "q": "Peak age of osteosarcoma?",
+     "options": [
+      "2-5 years",
+      "10-20 years",
+      "30-40 years"
+     ],
+     "answer": 1,
+     "why": "Osteosarcoma peaks at 10-20 years with the growth spurt."
+    },
+    {
+     "q": "Commonest soft tissue sarcoma of childhood?",
+     "options": [
+      "Synovial sarcoma",
+      "Liposarcoma",
+      "Rhabdomyosarcoma"
+     ],
+     "answer": 2,
+     "why": "Rhabdomyosarcoma is the commonest paediatric soft tissue sarcoma."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Ewing is defined by an EWSR1-FLI1 fusion; osteosarcoma follows loss of RB1 or TP53 and radiation; botryoid rhabdomyosarcoma is in young girls' vagina.",
+   "hook": "Ewing = 11;22 (sum 33). Osteo = RB + Li-Fraumeni.",
+   "checks": [
+    {
+     "q": "Translocation of Ewing sarcoma?",
+     "options": [
+      "t(11;22)",
+      "t(9;22)",
+      "t(12;21)"
+     ],
+     "answer": 0,
+     "why": "Ewing carries t(11;22) EWSR1-FLI1; t(9;22) is Philadelphia."
+    },
+    {
+     "q": "Which syndrome predisposes to osteosarcoma?",
+     "options": [
+      "Down syndrome",
+      "Hereditary retinoblastoma",
+      "Beckwith-Wiedemann"
+     ],
+     "answer": 1,
+     "why": "Hereditary retinoblastoma (RB1), Li-Fraumeni and prior radiation predispose."
+    },
+    {
+     "q": "Sarcoma botryoides typically affects?",
+     "options": [
+      "Boys",
+      "Adult women",
+      "Girls"
+     ],
+     "answer": 2,
+     "why": "Embryonal rhabdomyosarcoma (botryoides) presents as a vaginal mass in young girls."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Osteosarcoma arises where bone grows fastest (metaphysis around the knee) and makes osteoid; Ewing favours the diaphysis. Both spread first to the lungs.",
+   "hook": "Osteo = metaphysis, Ewing = diaphysis (shaft).",
+   "checks": [
+    {
+     "q": "Osteosarcoma usually arises in which bone region?",
+     "options": [
+      "Metaphysis",
+      "Diaphysis",
+      "Epiphysis"
+     ],
+     "answer": 0,
+     "why": "Metaphysis of long bones, often around the knee."
+    },
+    {
+     "q": "Ewing sarcoma typically affects which region?",
+     "options": [
+      "Metaphysis",
+      "Diaphysis",
+      "Epiphysis"
+     ],
+     "answer": 1,
+     "why": "Ewing: small round blue cells in the diaphysis, e.g. femur."
+    },
+    {
+     "q": "Commonest metastatic site of bone sarcomas?",
+     "options": [
+      "Liver",
+      "Brain",
+      "Lungs"
+     ],
+     "answer": 2,
+     "why": "Lungs are the commonest metastatic site, so chest CT is needed."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Bone pain with swelling, especially at night, is a red flag; Ewing can cause fever and raised markers mimicking infection. Grapes from the vagina are botryoid sarcoma.",
+   "hook": "Night bone pain + swelling = image it.",
+   "checks": [
+    {
+     "q": "Osteosarcoma presentation?",
+     "options": [
+      "Painful enlarging bony mass",
+      "Painless café-au-lait patches",
+      "Painless joint effusion"
+     ],
+     "answer": 0,
+     "why": "Painful enlarging mass, bone pain with swelling, pathological fracture."
+    },
+    {
+     "q": "Ewing sarcoma may mimic which condition?",
+     "options": [
+      "Septic arthritis of the hip",
+      "Osteomyelitis",
+      "Growing pains"
+     ],
+     "answer": 1,
+     "why": "Fever, pain and swelling in Ewing can mimic osteomyelitis."
+    },
+    {
+     "q": "Soft tissue lump above what size needs urgent US?",
+     "options": [
+      "5 cm",
+      "1 cm",
+      "2 cm"
+     ],
+     "answer": 2,
+     "why": "Lump >2 cm, deep, enlarging or painful → urgent ultrasound."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Aggressive periosteal reactions on X-ray hint at the tumour; muscle markers confirm rhabdomyosarcoma, and core biopsy gives tissue without spreading tumour.",
+   "hook": "Sunburst = osteo; onion skin = Ewing.",
+   "checks": [
+    {
+     "q": "Onion-skin periosteal reaction suggests?",
+     "options": [
+      "Ewing sarcoma",
+      "Osteosarcoma",
+      "Osteoid osteoma"
+     ],
+     "answer": 0,
+     "why": "Onion-skin = Ewing; sunburst and Codman triangle = osteosarcoma."
+    },
+    {
+     "q": "Rhabdomyoblasts stain for?",
+     "options": [
+      "CD99",
+      "Desmin and myogenin",
+      "S-100"
+     ],
+     "answer": 1,
+     "why": "Desmin and myogenin are muscle markers; CD99 is Ewing."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Osteosarcoma resists radiation so surgery plus chemo is key; Ewing responds to radiation, which can replace surgery in difficult sites.",
+   "hook": "Ewing radiates well; Osteo resists.",
+   "checks": [
+    {
+     "q": "Radiotherapy response of osteosarcoma?",
+     "options": [
+      "Highly radiosensitive",
+      "Moderately radiosensitive",
+      "Radio-resistant"
+     ],
+     "answer": 2,
+     "why": "Osteosarcoma is radio-resistant: en bloc resection + chemotherapy."
+    },
+    {
+     "q": "Ewing sarcoma radiosensitivity?",
+     "options": [
+      "Radiosensitive",
+      "Radio-resistant",
+      "Unknown, never irradiated"
+     ],
+     "answer": 0,
+     "why": "Ewing is radiosensitive: chemo + surgery and/or radiotherapy."
+    },
+    {
+     "q": "Soft tissue sarcoma treatment combines?",
+     "options": [
+      "Observation only",
+      "Wide excision, chemo, radiation",
+      "Steroids and IVIG"
+     ],
+     "answer": 1,
+     "why": "Wide excision plus chemotherapy and radiation."
+    }
+   ]
+  }
+ ],
+ "II-55": [
+  {
+   "block": "Def",
+   "explain": "Chemo kills rapidly dividing cells, cancerous or not, so it causes immediate toxicities and delayed damage to growing organs.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Chemotherapy mainly targets which cells?",
+     "options": [
+      "Resting G0 cells",
+      "Mature neurons only",
+      "Rapidly dividing cells"
+     ],
+     "answer": 2,
+     "why": "Rapidly dividing cells, which explains early and late toxicities."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Marrow, gut mucosa and hair follicles turn over fastest; topoisomerase II inhibitors cause characteristic 11q23 secondary leukaemias.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which tissue suffers most from chemo turnover toxicity?",
+     "options": [
+      "Bone marrow",
+      "Cardiac muscle",
+      "Lens"
+     ],
+     "answer": 0,
+     "why": "High-turnover tissues: marrow, mucosa, hair."
+    },
+    {
+     "q": "Etoposide is linked to which second cancer?",
+     "options": [
+      "Osteosarcoma",
+      "Secondary AML",
+      "Thyroid cancer"
+     ],
+     "answer": 1,
+     "why": "Etoposide (topo II inhibitor) causes secondary AML."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Counts fall to their lowest 1-2 weeks after chemo; lysis of tumour cells floods the blood with intracellular K, phosphate and urate, and phosphate binds calcium.",
+   "hook": "TLS: everything up except calcium.",
+   "checks": [
+    {
+     "q": "When is the marrow nadir after chemotherapy?",
+     "options": [
+      "1-2 days",
+      "4-6 weeks",
+      "7-14 days"
+     ],
+     "answer": 2,
+     "why": "Nadir 7-14 days → neutropenia and infection risk."
+    },
+    {
+     "q": "Which electrolyte is low in tumour lysis syndrome?",
+     "options": [
+      "Calcium",
+      "Potassium",
+      "Phosphate"
+     ],
+     "answer": 0,
+     "why": "High K, phosphate, urate; calcium falls as it binds phosphate."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Each drug has a signature organ toxicity; matching drug to organ is a high-yield exam pairing.",
+   "hook": "Doxo = heart, Cis = ears/kidney, Cyclo = bladder, Vincristine = nerves, Bleo = lungs.",
+   "checks": [
+    {
+     "q": "Anthracyclines cause which cardiac problem?",
+     "options": [
+      "Hypertrophic cardiomyopathy",
+      "Dilated cardiomyopathy",
+      "Pericarditis"
+     ],
+     "answer": 1,
+     "why": "Anthracyclines → dose-dependent dilated cardiomyopathy."
+    },
+    {
+     "q": "Haemorrhagic cystitis follows which drug?",
+     "options": [
+      "Vincristine",
+      "Bleomycin",
+      "Cyclophosphamide"
+     ],
+     "answer": 2,
+     "why": "Cyclophosphamide/ifosfamide metabolite acrolein causes haemorrhagic cystitis."
+    },
+    {
+     "q": "Bleomycin causes which toxicity?",
+     "options": [
+      "Lung fibrosis",
+      "Hearing loss",
+      "Peripheral neuropathy"
+     ],
+     "answer": 0,
+     "why": "Bleomycin → pulmonary fibrosis and mucositis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Neutropenic children may show only fever, so fever is treated as sepsis. Survivors need surveillance for organ damage and second cancers.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "First step in febrile neutropenia?",
+     "options": [
+      "Wait for count recovery",
+      "Blood cultures",
+      "Chest CT"
+     ],
+     "answer": 1,
+     "why": "Emergency: take cultures and start antibiotics immediately."
+    },
+    {
+     "q": "Which is a recognised late effect of chemotherapy?",
+     "options": [
+      "Acute mucositis",
+      "Tumour lysis",
+      "Second cancers"
+     ],
+     "answer": 2,
+     "why": "Late effects: cardiac, gonadal, endocrine, neurocognitive, second cancers."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Antibiotics within the golden hour save lives; specific antidotes protect specific organs. Rasburicase causes haemolysis in G6PD deficiency.",
+   "hook": "Mesna = bladder; dexrazoxane = heart.",
+   "checks": [
+    {
+     "q": "Antibiotic timing in febrile neutropenia?",
+     "options": [
+      "Within 1 hour",
+      "Within 6 hours",
+      "After culture results"
+     ],
+     "answer": 0,
+     "why": "IV broad-spectrum antibiotics within 1 hour."
+    },
+    {
+     "q": "Mesna protects against toxicity of?",
+     "options": [
+      "Doxorubicin",
+      "Cyclophosphamide",
+      "Cisplatin"
+     ],
+     "answer": 1,
+     "why": "Mesna binds acrolein from cyclophosphamide; dexrazoxane protects from anthracyclines."
+    },
+    {
+     "q": "Which route makes vincristine fatal?",
+     "options": [
+      "Intravenous",
+      "Subcutaneous",
+      "Intrathecal"
+     ],
+     "answer": 2,
+     "why": "Intrathecal vincristine causes fatal ascending neurotoxicity."
+    }
+   ]
+  }
+ ],
+ "III-1": [
+  {
+   "block": "Def",
+   "explain": "T1DM is autoimmune loss of insulin; with no insulin, glucose spills into urine and the body burns fat, explaining the classic symptoms.",
+   "hook": "4 Ws: Wee, Wa(ter), Weight loss, Weary.",
+   "checks": [
+    {
+     "q": "Absolute insulin deficiency in T1DM results from?",
+     "options": [
+      "Autoimmune beta-cell destruction",
+      "Insulin resistance",
+      "Glucagon excess"
+     ],
+     "answer": 0,
+     "why": "Autoimmune beta-cell destruction; insulin resistance is T2DM."
+    },
+    {
+     "q": "Which weight change fits new T1DM?",
+     "options": [
+      "Weight gain",
+      "Weight loss despite good appetite",
+      "Stable weight, poor appetite"
+     ],
+     "answer": 1,
+     "why": "Classic four: polyuria, polydipsia, weight loss despite good appetite, fatigue."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Islet autoantibodies mark the autoimmune process; autoimmunity clusters, so coeliac and thyroid disease are screened for.",
+   "hook": "Type 1 brings friends: coeliac + Hashimoto.",
+   "checks": [
+    {
+     "q": "Which autoantibody is typical of T1DM?",
+     "options": [
+      "Anti-TPO",
+      "Anti-tTG",
+      "Anti-GAD"
+     ],
+     "answer": 2,
+     "why": "GAD, IA-2, ZnT8 and insulin antibodies; anti-TPO is Hashimoto, anti-tTG coeliac."
+    },
+    {
+     "q": "Commonest associated diseases in T1DM?",
+     "options": [
+      "Coeliac disease and Hashimoto",
+      "Vitiligo and psoriasis",
+      "Addison and SLE"
+     ],
+     "answer": 0,
+     "why": "Coeliac disease and Hashimoto thyroiditis (screening answer)."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Glucose drags water into urine (osmotic diuresis); fat breakdown makes ketoacids; serum K may look normal but total body K is depleted.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Hyperglycaemia causes dehydration via?",
+     "options": [
+      "SIADH",
+      "Osmotic diuresis",
+      "Diarrhoea"
+     ],
+     "answer": 1,
+     "why": "Glycosuria pulls water into urine → osmotic diuresis."
+    },
+    {
+     "q": "Total body potassium in DKA is?",
+     "options": [
+      "Increased",
+      "Normal",
+      "Depleted"
+     ],
+     "answer": 2,
+     "why": "Total body K⁺ is depleted even if serum K looks normal or high."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Bedwetting in a dry child reflects polyuria; in DKA, deep sighing breaths blow off CO₂ to compensate the acidosis.",
+   "hook": "Kussmaul = deep breaths to blow off acid.",
+   "checks": [
+    {
+     "q": "New bedwetting in a dry child suggests?",
+     "options": [
+      "Secondary enuresis from polyuria",
+      "Primary enuresis",
+      "Constipation"
+     ],
+     "answer": 0,
+     "why": "Secondary enuresis is a classic polyuria sign in new diabetes."
+    },
+    {
+     "q": "Breathing pattern in DKA?",
+     "options": [
+      "Cheyne-Stokes",
+      "Kussmaul breathing",
+      "Shallow rapid breaths"
+     ],
+     "answer": 1,
+     "why": "Deep Kussmaul breathing compensates metabolic acidosis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A child with symptoms and high glucose can deteriorate to DKA within hours, so same-day specialist referral is needed. DKA needs glucose, acidosis and ketones.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Symptoms + glucose 18.2 mmol/L: next step?",
+     "options": [
+      "Repeat fasting glucose next week",
+      "Oral glucose tolerance test",
+      "Paediatric diabetes centre immediately"
+     ],
+     "answer": 2,
+     "why": "Refer immediately to a paediatric diabetes centre (screening answer)."
+    },
+    {
+     "q": "DKA glucose threshold?",
+     "options": [
+      ">11 mmol/L",
+      ">7 mmol/L",
+      ">20 mmol/L"
+     ],
+     "answer": 0,
+     "why": "DKA: glucose >11 mmol/L, venous acidosis and ketones."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Fluids first, then low-dose insulin without a bolus to lower osmolality slowly and avoid cerebral oedema. Pumps with sensors are the most modern T1DM therapy.",
+   "hook": "No bolus, go slow: protect the brain.",
+   "checks": [
+    {
+     "q": "Starting insulin infusion dose in DKA?",
+     "options": [
+      "0.5-1 U/kg/h",
+      "0.05-0.1 U/kg/h",
+      "0.01 U/kg/h"
+     ],
+     "answer": 1,
+     "why": "0.05-0.1 U/kg/h, no bolus (screening answer)."
+    },
+    {
+     "q": "Leading cause of death in paediatric DKA?",
+     "options": [
+      "Hypokalaemia",
+      "Hypoglycaemia",
+      "Cerebral oedema"
+     ],
+     "answer": 2,
+     "why": "Cerebral oedema (headache, bradycardia) → mannitol or 3% saline."
+    },
+    {
+     "q": "Most modern T1DM therapy?",
+     "options": [
+      "Insulin pump with integrated sensor",
+      "Multiple daily injections",
+      "Twice-daily premixed insulin"
+     ],
+     "answer": 0,
+     "why": "Insulin pump with an integrated glucose sensor (screening answer)."
+    }
+   ]
+  }
+ ],
+ "III-2": [
+  {
+   "block": "Def",
+   "explain": "Metabolic syndrome clusters insulin-resistance consequences around central obesity; T2DM teens are obese, antibody-negative and still make plenty of insulin (high C-peptide).",
+   "hook": "T2 teen: fat, antibody-free, C-peptide high.",
+   "checks": [
+    {
+     "q": "Metabolic syndrome requires central obesity plus how many criteria?",
+     "options": [
+      "≥ 1",
+      "≥ 2",
+      "≥ 4"
+     ],
+     "answer": 1,
+     "why": "Central obesity + ≥ 2 of high TG, low HDL, HTN, high fasting glucose."
+    },
+    {
+     "q": "C-peptide in paediatric T2DM?",
+     "options": [
+      "Low",
+      "Undetectable",
+      "High"
+     ],
+     "answer": 2,
+     "why": "T2DM: insulin resistance with high C-peptide; autoantibodies negative."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Puberty physiologically raises insulin resistance, adding to obesity and genetics. MODY is a single-gene, dominant diabetes in non-obese families.",
+   "hook": "MODY: 3 generations, no obesity.",
+   "checks": [
+    {
+     "q": "Which is a major T2DM risk factor in teens?",
+     "options": [
+      "Central obesity",
+      "Low birth length",
+      "Autoimmune thyroiditis"
+     ],
+     "answer": 0,
+     "why": "Central obesity, puberty, family history and ethnicity drive T2DM."
+    },
+    {
+     "q": "MODY inheritance?",
+     "options": [
+      "Autosomal recessive",
+      "Autosomal dominant",
+      "Mitochondrial"
+     ],
+     "answer": 1,
+     "why": "MODY is autosomal dominant, often 3 generations, not obese."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Visceral fat releases free fatty acids that blunt insulin action; compensatory hyperinsulinaemia stimulates skin and ovary, causing acanthosis and PCOS.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Visceral fat mainly causes?",
+     "options": [
+      "Insulin deficiency",
+      "Glucagon deficiency",
+      "Insulin resistance"
+     ],
+     "answer": 2,
+     "why": "Visceral fat → insulin resistance → hyperinsulinaemia and FFAs."
+    },
+    {
+     "q": "Which skin sign reflects insulin resistance?",
+     "options": [
+      "Acanthosis nigricans",
+      "Necrobiosis lipoidica",
+      "Vitiligo"
+     ],
+     "answer": 0,
+     "why": "Insulin resistance → acanthosis nigricans, fatty liver, PCOS."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "High insulin acts on skin growth receptors causing dark velvety folds; many teens are found on screening, with obesity-related comorbidities.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Dark velvety skin of the neck is called?",
+     "options": [
+      "Erythema nigrum",
+      "Acanthosis nigricans",
+      "Lichen planus"
+     ],
+     "answer": 1,
+     "why": "Thick dark velvety skin in neck/axillae = acanthosis nigricans."
+    },
+    {
+     "q": "Typical T2DM presentation in teens?",
+     "options": [
+      "Always DKA",
+      "Acute weight loss and coma",
+      "Often asymptomatic on screening"
+     ],
+     "answer": 2,
+     "why": "Often found on screening; occasionally DKA; raised ALT, sleep apnoea, SCFE."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Obesity is common in T1DM too, so antibodies and C-peptide are checked in every case. Very early or mild stable diabetes points to monogenic forms.",
+   "hook": "Diabetes <6 months old = genes, not autoimmunity.",
+   "checks": [
+    {
+     "q": "Which tests separate type 1 from type 2?",
+     "options": [
+      "Islet autoantibodies and C-peptide",
+      "HbA1c and fasting glucose",
+      "OGTT and lipid profile"
+     ],
+     "answer": 0,
+     "why": "Autoantibodies and C-peptide in every new case."
+    },
+    {
+     "q": "Diabetes before which age needs genetic testing?",
+     "options": [
+      "2 years",
+      "6 months",
+      "5 years"
+     ],
+     "answer": 1,
+     "why": "Diabetes <6 months is neonatal/monogenic → genetic testing."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Metformin improves insulin sensitivity; insulin is needed for ketosis or very high HbA1c. HNF1A-MODY responds to sulfonylureas; GCK-MODY is benign.",
+   "hook": "GCK: leave it; HNF1A: sulfonylurea.",
+   "checks": [
+    {
+     "q": "First-line drug in T2DM without ketosis?",
+     "options": [
+      "Insulin",
+      "Sulfonylurea",
+      "Metformin"
+     ],
+     "answer": 2,
+     "why": "Metformin plus lifestyle; insulin if ketosis or HbA1c ≥ 8.5%."
+    },
+    {
+     "q": "Which MODY is very sensitive to sulfonylureas?",
+     "options": [
+      "HNF1A-MODY",
+      "GCK-MODY",
+      "HNF1B-MODY"
+     ],
+     "answer": 0,
+     "why": "HNF1A-MODY responds to sulfonylureas; GCK-MODY needs no treatment."
+    },
+    {
+     "q": "When should T2DM complication screening start?",
+     "options": [
+      "After 5 years",
+      "From diagnosis",
+      "After 10 years"
+     ],
+     "answer": 1,
+     "why": "T2DM complications appear early, so screen from diagnosis."
+    }
+   ]
+  }
+ ],
+ "III-3": [
+  {
+   "block": "Def",
+   "explain": "Central DI lacks ADH; nephrogenic DI has ADH but the kidney ignores it. Either way, the kidney cannot concentrate urine.",
+   "hook": "Central = no signal; nephrogenic = deaf kidney.",
+   "checks": [
+    {
+     "q": "Nephrogenic DI is defined as?",
+     "options": [
+      "Deficient ADH secretion",
+      "Excess ADH",
+      "Renal resistance to ADH"
+     ],
+     "answer": 2,
+     "why": "Central = deficient vasopressin; nephrogenic = renal resistance."
+    },
+    {
+     "q": "Urine in DI is typically?",
+     "options": [
+      "Dilute",
+      "Concentrated",
+      "Glucose-rich"
+     ],
+     "answer": 0,
+     "why": "DI causes dilute polyuria; glucose-rich polyuria is diabetes mellitus."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Anything damaging the hypothalamus/pituitary stalk causes central DI; nephrogenic DI is inherited (V2 receptor) or from drugs/electrolytes.",
+   "hook": "Nephrogenic: Lithium, high Ca, low K.",
+   "checks": [
+    {
+     "q": "Commonest tumour causing central DI in children?",
+     "options": [
+      "Medulloblastoma",
+      "Craniopharyngioma",
+      "Pituitary adenoma"
+     ],
+     "answer": 1,
+     "why": "Craniopharyngioma, germinoma and LCH are classic central causes."
+    },
+    {
+     "q": "Which drug causes nephrogenic DI?",
+     "options": [
+      "Desmopressin",
+      "Carbamazepine",
+      "Lithium"
+     ],
+     "answer": 2,
+     "why": "Lithium causes nephrogenic DI; carbamazepine can cause SIADH."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "ADH acting on V2 inserts aquaporin-2 channels to reabsorb water; without them, free water is lost and plasma becomes concentrated.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which channel is missing in the collecting duct in DI?",
+     "options": [
+      "Aquaporin-2",
+      "Aquaporin-1",
+      "ENaC"
+     ],
+     "answer": 0,
+     "why": "ADH via V2 inserts aquaporin-2; absent → dilute urine."
+    },
+    {
+     "q": "Infants with DI risk which electrolyte disorder?",
+     "options": [
+      "Hyponatraemia",
+      "Hypernatraemic dehydration",
+      "Hyperkalaemia"
+     ],
+     "answer": 1,
+     "why": "Free water loss without access to water → hypernatraemic dehydration."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Large-volume urine at night and new bedwetting; thirst drives craving for cold water. Infants cannot drink on demand, so they fail to thrive and get fevers.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Polyuria threshold in children?",
+     "options": [
+      ">0.5 L/m²/day",
+      ">5 L/m²/day",
+      ">2 L/m²/day"
+     ],
+     "answer": 2,
+     "why": "Polyuria >2 L/m²/day, nocturia, secondary enuresis."
+    },
+    {
+     "q": "Which drink do DI patients characteristically prefer?",
+     "options": [
+      "Cold water",
+      "Sweet juice",
+      "Warm milk"
+     ],
+     "answer": 0,
+     "why": "Intense thirst with preference for cold water."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "High plasma osmolality with dilute urine proves DI; desmopressin response distinguishes a missing hormone from a deaf kidney; central DI needs imaging.",
+   "hook": "Desmopressin works = central; no response = nephrogenic.",
+   "checks": [
+    {
+     "q": "Urine osmolality threshold confirming DI with high plasma osm?",
+     "options": [
+      "Below 600 mOsm/kg",
+      "Below 300 mOsm/kg",
+      "Below 100 mOsm/kg"
+     ],
+     "answer": 1,
+     "why": "High plasma osm with urine osm <300 mOsm/kg confirms DI."
+    },
+    {
+     "q": "Desmopressin concentrates urine >50% in?",
+     "options": [
+      "Nephrogenic DI",
+      "Primary polydipsia",
+      "Central DI"
+     ],
+     "answer": 2,
+     "why": "Central DI responds; nephrogenic does not."
+    },
+    {
+     "q": "Central DI next investigation?",
+     "options": [
+      "Pituitary MRI",
+      "Renal ultrasound",
+      "Abdominal CT"
+     ],
+     "answer": 0,
+     "why": "MRI looks for craniopharyngioma, germinoma, LCH."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Replace ADH in central DI but avoid water overload; thiazides paradoxically reduce urine in nephrogenic DI. Slow sodium correction prevents cerebral oedema.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Main risk of desmopressin therapy?",
+     "options": [
+      "Hyperkalaemia",
+      "Hyponatraemia",
+      "Hypertension"
+     ],
+     "answer": 1,
+     "why": "Desmopressin plus free drinking → hyponatraemia."
+    },
+    {
+     "q": "Which diuretic treats nephrogenic DI?",
+     "options": [
+      "Furosemide",
+      "Spironolactone",
+      "Thiazide"
+     ],
+     "answer": 2,
+     "why": "Thiazides (with low-solute diet) paradoxically reduce urine volume."
+    },
+    {
+     "q": "Maximum hypernatraemia correction rate?",
+     "options": [
+      "0.5 mmol/L per hour",
+      "2 mmol/L per hour",
+      "5 mmol/L per hour"
+     ],
+     "answer": 0,
+     "why": "≤ 0.5 mmol/L/h to avoid cerebral oedema."
+    }
+   ]
+  }
+ ],
+ "III-4": [
+  {
+   "block": "Def",
+   "explain": "The anterior pituitary makes six hormones; the posterior stores hypothalamic vasopressin. Disorders are deficiency or excess of either part.",
+   "hook": "Anterior 'FLAT PiG': FSH, LH, ACTH, TSH, Prolactin, GH.",
+   "checks": [
+    {
+     "q": "Which hormone is released by the posterior pituitary?",
+     "options": [
+      "Prolactin",
+      "Vasopressin",
+      "ACTH"
+     ],
+     "answer": 1,
+     "why": "Posterior pituitary releases vasopressin (and oxytocin)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Midline brain malformations disrupt pituitary development; acquired causes damage the hypothalamic-pituitary region.",
+   "hook": "Midline face/brain defect = check pituitary.",
+   "checks": [
+    {
+     "q": "Which congenital defect is linked to hypopituitarism?",
+     "options": [
+      "Spina bifida",
+      "Arnold-Chiari II",
+      "Septo-optic dysplasia"
+     ],
+     "answer": 2,
+     "why": "Midline defects: septo-optic dysplasia, cleft palate, single central incisor."
+    },
+    {
+     "q": "Commonest acquired tumour cause of hypopituitarism in children?",
+     "options": [
+      "Craniopharyngioma",
+      "Prolactinoma",
+      "Medulloblastoma"
+     ],
+     "answer": 0,
+     "why": "Craniopharyngioma; also irradiation, trauma, histiocytosis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "GH deficiency slows growth but bones mature late too, keeping proportions normal. Craniopharyngioma sits above the sella and presses the chiasm crossing fibres.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Bone age in GH deficiency?",
+     "options": [
+      "Advanced",
+      "Delayed",
+      "Normal"
+     ],
+     "answer": 1,
+     "why": "GHD: low growth velocity, delayed bone age, normal proportions."
+    },
+    {
+     "q": "Craniopharyngioma visual field defect?",
+     "options": [
+      "Homonymous hemianopia",
+      "Central scotoma",
+      "Bitemporal hemianopia"
+     ],
+     "answer": 2,
+     "why": "Chiasm compression → bitemporal hemianopia."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Newborn hypopituitarism: no GH/cortisol → hypoglycaemia; no gonadotrophins → micropenis. Cushing makes children fat but short, unlike simple obesity.",
+   "hook": "Fat + slowing height = Cushing; fat + tall = simple obesity.",
+   "checks": [
+    {
+     "q": "Newborn hypopituitarism sign in boys?",
+     "options": [
+      "Micropenis",
+      "Hypospadias",
+      "Undescended testis only"
+     ],
+     "answer": 0,
+     "why": "Hypoglycaemia, micropenis and prolonged jaundice."
+    },
+    {
+     "q": "Weight gain with falling height velocity suggests?",
+     "options": [
+      "Simple obesity",
+      "Cushing syndrome",
+      "Precocious puberty"
+     ],
+     "answer": 1,
+     "why": "Simple obesity speeds height; Cushing slows it."
+    },
+    {
+     "q": "Posterior pituitary disorders include DI and?",
+     "options": [
+      "Acromegaly",
+      "Addison disease",
+      "SIADH"
+     ],
+     "answer": 2,
+     "why": "Posterior: DI (deficiency) or SIADH (excess)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Low IGF-1 screens for GHD; GH is pulsatile, so two failed stimulation tests are needed before imaging. Craniopharyngioma has calcified cysts.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "How many failed GH stimulation tests confirm GHD?",
+     "options": [
+      "Two",
+      "One",
+      "Three"
+     ],
+     "answer": 0,
+     "why": "Low IGF-1 → two failed GH stimulation tests → pituitary MRI."
+    },
+    {
+     "q": "Craniopharyngioma imaging appearance?",
+     "options": [
+      "Intrasellar, solid, enhancing",
+      "Suprasellar, cystic, calcified",
+      "Posterior fossa cyst"
+     ],
+     "answer": 1,
+     "why": "Suprasellar cystic calcified mass."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Replace deficient hormones; thyroxine speeds cortisol breakdown, so giving it first can precipitate adrenal crisis. Dopamine agonists shrink prolactinomas.",
+   "hook": "Steroids before thyroid.",
+   "checks": [
+    {
+     "q": "GH deficiency treatment continues until?",
+     "options": [
+      "Puberty onset",
+      "Age 10",
+      "Final height"
+     ],
+     "answer": 2,
+     "why": "Recombinant GH until final height."
+    },
+    {
+     "q": "Which hormone is replaced before thyroxine?",
+     "options": [
+      "Cortisol",
+      "GH",
+      "Testosterone"
+     ],
+     "answer": 0,
+     "why": "Thyroxine first can precipitate adrenal crisis; replace cortisol first."
+    },
+    {
+     "q": "Prolactinoma first-line treatment?",
+     "options": [
+      "Surgery",
+      "Cabergoline",
+      "Radiotherapy"
+     ],
+     "answer": 1,
+     "why": "Dopamine agonist cabergoline shrinks prolactinomas."
+    }
+   ]
+  }
+ ],
+ "III-5": [
+  {
+   "block": "Def",
+   "explain": "A block in cortisol synthesis means precursors are shunted into androgens; 21-hydroxylase is the step affected in almost all cases.",
+   "hook": "21 = 95%.",
+   "checks": [
+    {
+     "q": "Commonest adrenocortical enzyme defect?",
+     "options": [
+      "11β-hydroxylase deficiency",
+      "17α-hydroxylase deficiency",
+      "21-hydroxylase deficiency"
+     ],
+     "answer": 2,
+     "why": "21-hydroxylase causes ~95% of CAH (screening answer)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "CYP21A2 encodes 21-hydroxylase. In 11β deficiency, deoxycorticosterone builds up, acting as a mineralocorticoid → hypertension.",
+   "hook": "11β: virilised + hypertensive.",
+   "checks": [
+    {
+     "q": "Inheritance of CAH?",
+     "options": [
+      "Autosomal recessive",
+      "Autosomal dominant",
+      "X-linked recessive"
+     ],
+     "answer": 0,
+     "why": "Autosomal recessive CYP21A2 mutation."
+    },
+    {
+     "q": "Which CAH form causes virilisation with hypertension?",
+     "options": [
+      "21-hydroxylase deficiency",
+      "11β-hydroxylase deficiency",
+      "3β-HSD deficiency"
+     ],
+     "answer": 1,
+     "why": "11β: DOC excess gives hypertension plus androgens."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Without cortisol feedback ACTH rises, enlarging the adrenals and pushing precursors into androgens; salt-wasters also lack aldosterone.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "ACTH level in CAH?",
+     "options": [
+      "Low",
+      "Normal",
+      "High"
+     ],
+     "answer": 2,
+     "why": "Low cortisol → no negative feedback → ACTH up → hyperplasia."
+    },
+    {
+     "q": "Hormonal pattern in salt-wasting CAH?",
+     "options": [
+      "Low cortisol and aldosterone, high androgens",
+      "High cortisol, low androgens",
+      "Low androgens, high aldosterone"
+     ],
+     "answer": 0,
+     "why": "Insufficient gluco- and mineralocorticoid, excess androgen (screening answer)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Girls are spotted at birth by ambiguous genitalia; boys look normal and present in crisis at 1-3 weeks. Milder forms cause early pubic hair and growth spurt.",
+   "hook": "Girls: genitals at birth. Boys: crisis week 1-3.",
+   "checks": [
+    {
+     "q": "How do girls with classic CAH present at birth?",
+     "options": [
+      "Salt-wasting shock",
+      "Virilised genitalia",
+      "Normal genitalia"
+     ],
+     "answer": 1,
+     "why": "Girls show virilised genitalia at birth."
+    },
+    {
+     "q": "Boys' salt-wasting crisis typically occurs at?",
+     "options": [
+      "1-2 days",
+      "3-6 months",
+      "1-3 weeks"
+     ],
+     "answer": 2,
+     "why": "Salt-wasting crisis at 1-3 weeks."
+    },
+    {
+     "q": "Simple virilising CAH presents as?",
+     "options": [
+      "Precocious pseudopuberty",
+      "Delayed puberty",
+      "Isolated short stature"
+     ],
+     "answer": 0,
+     "why": "Androgen excess → peripheral precocious pseudopuberty."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "17-OHP is the substrate before the block, so it accumulates; it is measured on newborn screening. Karyotype confirms sex in ambiguous genitalia.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Diagnostic marker of 21-hydroxylase deficiency?",
+     "options": [
+      "Raised 11-deoxycortisol",
+      "Raised 17-hydroxyprogesterone",
+      "Low ACTH"
+     ],
+     "answer": 1,
+     "why": "Raised 17-OHP; ACTH and renin also high."
+    },
+    {
+     "q": "Which test establishes genetic sex in ambiguous genitalia?",
+     "options": [
+      "Renin",
+      "Serum cortisol",
+      "Karyotype"
+     ],
+     "answer": 2,
+     "why": "Karyotype, pelvic ultrasound and CYP21A2 genetics."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Crisis: replace cortisol, sodium and glucose fast. Long term: replace both hormone types, add salt in infancy, and increase steroids during illness.",
+   "hook": "Sick day = double dose; carry the card.",
+   "checks": [
+    {
+     "q": "First drug in adrenal crisis?",
+     "options": [
+      "IV hydrocortisone",
+      "Oral fludrocortisone",
+      "IV dexamethasone"
+     ],
+     "answer": 0,
+     "why": "IV hydrocortisone, 0.9% saline 10-20 mL/kg and IV dextrose."
+    },
+    {
+     "q": "Which mineralocorticoid is given long-term?",
+     "options": [
+      "Prednisolone",
+      "Fludrocortisone",
+      "Spironolactone"
+     ],
+     "answer": 1,
+     "why": "Hydrocortisone + fludrocortisone + salt in infancy."
+    },
+    {
+     "q": "What is required during illness?",
+     "options": [
+      "Stopping steroids",
+      "Halving the dose",
+      "Stress dosing"
+     ],
+     "answer": 2,
+     "why": "Stress-dose steroids in illness; carry an emergency card."
+    }
+   ]
+  }
+ ],
+ "III-6": [
+  {
+   "block": "Def",
+   "explain": "Hypothyroidism can be inborn or acquired; hyperthyroidism in children is nearly always Graves, driven by TSH-receptor antibodies.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Commonest cause of childhood hyperthyroidism?",
+     "options": [
+      "Graves disease",
+      "Toxic nodule",
+      "Subacute thyroiditis"
+     ],
+     "answer": 0,
+     "why": "Graves (Basedow) disease, driven by TRAb."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Most congenital hypothyroidism is a gland that failed to form or migrate; maternal iodine lack transiently starves the newborn thyroid; Hashimoto dominates acquired cases.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Commonest cause of congenital hypothyroidism?",
+     "options": [
+      "Dyshormonogenesis",
+      "Thyroid dysgenesis",
+      "Maternal antibodies"
+     ],
+     "answer": 1,
+     "why": "Dysgenesis (~85%), most often an ectopic gland."
+    },
+    {
+     "q": "Maternal iodine deficiency causes what in the newborn?",
+     "options": [
+      "Permanent central hypothyroidism",
+      "Neonatal thyrotoxicosis",
+      "Temporary primary hypothyroidism"
+     ],
+     "answer": 2,
+     "why": "Temporary primary hypothyroidism (screening answer)."
+    },
+    {
+     "q": "Commonest acquired hypothyroidism in children?",
+     "options": [
+      "Hashimoto thyroiditis",
+      "Iodine deficiency",
+      "Post-radiation"
+     ],
+     "answer": 0,
+     "why": "Hashimoto thyroiditis is commonest."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Thyroid hormone drives metabolism, bone maturation and brain myelination; stimulating antibodies mimic TSH and drive overproduction.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Bone age in hypothyroidism?",
+     "options": [
+      "Advanced",
+      "Delayed",
+      "Normal"
+     ],
+     "answer": 1,
+     "why": "Slowed growth and development → delayed bone age."
+    },
+    {
+     "q": "What drives Graves thyrotoxicosis?",
+     "options": [
+      "Anti-TPO destruction",
+      "Excess TSH",
+      "TSH-receptor stimulating antibodies"
+     ],
+     "answer": 2,
+     "why": "TRAb stimulate the TSH receptor → overdrive."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Congenital hypothyroidism is subtle (jaundice, sluggishness); Hashimoto causes a painless goitre with slow growth. Graves: hypermetabolism and eye signs.",
+   "hook": "Basedow 3: weight loss, tachycardia, Graefe.",
+   "checks": [
+    {
+     "q": "Which neonatal sign suggests congenital hypothyroidism?",
+     "options": [
+      "Prolonged jaundice",
+      "Hypertonia",
+      "Tachycardia"
+     ],
+     "answer": 0,
+     "why": "Prolonged jaundice, constipation, hypotonia, macroglossia, umbilical hernia."
+    },
+    {
+     "q": "Hashimoto goitre is typically?",
+     "options": [
+      "Painful and tender",
+      "Painless",
+      "Nodular and hot"
+     ],
+     "answer": 1,
+     "why": "Hashimoto: painless goitre with growth failure."
+    },
+    {
+     "q": "Which eye sign belongs to Basedow's triad?",
+     "options": [
+      "Argyll Robertson pupil",
+      "Horner syndrome",
+      "Graefe sign"
+     ],
+     "answer": 2,
+     "why": "Weight loss, tachycardia, Graefe sign (screening answer)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Heel-prick TSH after the neonatal TSH surge catches primary congenital hypothyroidism; antibody profile separates Hashimoto from Graves.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "When is the newborn heel-prick TSH taken?",
+     "options": [
+      "Day 3-5",
+      "Day 1",
+      "Week 3"
+     ],
+     "answer": 0,
+     "why": "Heel-prick TSH on day 3-5, after the physiological surge."
+    },
+    {
+     "q": "Graves thyroid function pattern?",
+     "options": [
+      "High TSH, low free T4",
+      "Suppressed TSH, high T4/T3",
+      "Normal TSH, high T4"
+     ],
+     "answer": 1,
+     "why": "Graves: suppressed TSH, high T4/T3, TRAb; Hashimoto: high TSH, low T4."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Early levothyroxine protects the brain. Methimazole blocks synthesis, propranolol controls adrenergic symptoms; methimazole can cause agranulocytosis.",
+   "hook": "Sore throat on methimazole = check neutrophils.",
+   "checks": [
+    {
+     "q": "Levothyroxine dose in congenital hypothyroidism?",
+     "options": [
+      "1-2 µg/kg/day",
+      "50 µg/kg/day",
+      "10-15 µg/kg/day"
+     ],
+     "answer": 2,
+     "why": "10-15 µg/kg/day within the first 2 weeks."
+    },
+    {
+     "q": "Why is propylthiouracil avoided in children?",
+     "options": [
+      "Severe hepatotoxicity",
+      "Nephrotoxicity",
+      "Ototoxicity"
+     ],
+     "answer": 0,
+     "why": "PTU causes severe hepatotoxicity; methimazole is preferred."
+    },
+    {
+     "q": "Sore throat on antithyroid drugs requires?",
+     "options": [
+      "Throat swab only",
+      "Urgent blood count",
+      "Dose increase"
+     ],
+     "answer": 1,
+     "why": "Exclude agranulocytosis with an urgent blood count."
+    }
+   ]
+  }
+ ],
+ "III-7": [
+  {
+   "block": "Def",
+   "explain": "Bone matrix forms at the growth plate but cannot calcify, so bones soften and bend; breast milk is low in vitamin D.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Commonest cause of rickets?",
+     "options": [
+      "Phosphate wasting",
+      "Calcium-free diet",
+      "Vitamin D deficiency"
+     ],
+     "answer": 2,
+     "why": "Mostly vitamin D deficiency in unsupplemented breastfed infants."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Little sun, dark skin and unsupplemented breast milk cause nutritional rickets; phosphate-wasting forms raise FGF23 or damage tubules.",
+   "hook": "XLH: PHEX broken, FGF23 high, phosphate lost.",
+   "checks": [
+    {
+     "q": "Which risk factor favours nutritional rickets?",
+     "options": [
+      "Unsupplemented breastfeeding",
+      "Formula feeding",
+      "Fair skin"
+     ],
+     "answer": 0,
+     "why": "Unsupplemented breastfeeding, dark skin, little sunlight."
+    },
+    {
+     "q": "Which hormone is high in X-linked hypophosphataemic rickets?",
+     "options": [
+      "Calcitonin",
+      "FGF23",
+      "Vitamin D"
+     ],
+     "answer": 1,
+     "why": "PHEX mutation → high FGF23 → renal phosphate wasting."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Low vitamin D reduces gut calcium; PTH rises to defend calcium but wastes phosphate, so the Ca × P product falls and the growth plate cannot mineralise.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "PTH response in vitamin D deficiency?",
+     "options": [
+      "Falls",
+      "Unchanged",
+      "Rises"
+     ],
+     "answer": 2,
+     "why": "Low Ca absorption → PTH rises → phosphate wasting."
+    },
+    {
+     "q": "Why can't the growth plate mineralise?",
+     "options": [
+      "Low Ca × P product",
+      "High calcitonin",
+      "Excess osteoclasts"
+     ],
+     "answer": 0,
+     "why": "Low calcium-phosphate product prevents mineralisation."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Soft skull and swollen growth plates (costochondral junctions, wrists) and bending of long bones; young infants may present with hypocalcaemic seizures instead.",
+   "hook": "Rosary + Harrison + wide wrists + bowlegs.",
+   "checks": [
+    {
+     "q": "Soft, ping-pong-ball skull in rickets is called?",
+     "options": [
+      "Craniosynostosis",
+      "Craniotabes",
+      "Frontal bossing"
+     ],
+     "answer": 1,
+     "why": "Craniotabes; also rachitic rosary, Harrison sulcus, wide wrists."
+    },
+    {
+     "q": "Infants <6 months with rickets may present with?",
+     "options": [
+      "Bowed legs",
+      "Delayed walking",
+      "Hypocalcaemic seizures"
+     ],
+     "answer": 2,
+     "why": "Young infants: seizures, tetany, laryngospasm from hypocalcaemia."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Nutritional rickets: high PTH and very high ALP from active osteoblasts; XLH has a primary phosphate leak with normal PTH and calcium.",
+   "hook": "XLH: phosphate low, everything else normal.",
+   "checks": [
+    {
+     "q": "ALP level in nutritional rickets?",
+     "options": [
+      "Very high",
+      "Low",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "Phosphate low, ALP very high, PTH high."
+    },
+    {
+     "q": "PTH in XLH?",
+     "options": [
+      "Very high",
+      "Normal",
+      "Low"
+     ],
+     "answer": 1,
+     "why": "XLH: low phosphate with normal calcium and normal PTH."
+    },
+    {
+     "q": "Typical X-ray of rickets metaphyses?",
+     "options": [
+      "Sunburst and Codman triangle",
+      "Onion-skin layering",
+      "Cupping, fraying, splaying"
+     ],
+     "answer": 2,
+     "why": "Cupping, fraying and splaying of metaphyses."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Routine 400 IU daily prevents rickets; treatment uses high-dose vitamin D with calcium; XLH needs phosphate with active vitamin D or anti-FGF23. Magnesium is needed for PTH.",
+   "hook": "Calcium won't rise? Check magnesium.",
+   "checks": [
+    {
+     "q": "Daily vitamin D prophylaxis for all infants?",
+     "options": [
+      "400 IU",
+      "1000 IU",
+      "100 IU"
+     ],
+     "answer": 0,
+     "why": "All infants receive 400 IU vitamin D daily."
+    },
+    {
+     "q": "Minimum duration of high-dose vitamin D treatment?",
+     "options": [
+      "2 weeks",
+      "12 weeks",
+      "1 year"
+     ],
+     "answer": 1,
+     "why": "High-dose vitamin D ≥ 12 weeks plus calcium."
+    },
+    {
+     "q": "Hypocalcaemia refractory to IV calcium: check?",
+     "options": [
+      "Phosphate",
+      "Potassium",
+      "Magnesium"
+     ],
+     "answer": 2,
+     "why": "Hypomagnesaemia blocks PTH release and action."
+    }
+   ]
+  }
+ ],
+ "III-8": [
+  {
+   "block": "Def",
+   "explain": "Autoantibodies to nuclear antigens form immune complexes that inflame many organs; childhood-onset SLE is more aggressive than adult SLE.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Main mechanism of SLE?",
+     "options": [
+      "Immune complexes against nuclear antigens",
+      "Granuloma formation",
+      "IgE-mediated reactions"
+     ],
+     "answer": 0,
+     "why": "Immune complexes against nuclear antigens damage many organs."
+    },
+    {
+     "q": "Childhood SLE severity compared with adults?",
+     "options": [
+      "Milder",
+      "More severe",
+      "Same"
+     ],
+     "answer": 1,
+     "why": "cSLE in adolescent girls is more severe than adult disease."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Oestrogen effects explain post-pubertal female predominance. Some drugs induce a milder lupus with anti-histone antibodies that remits on stopping.",
+   "hook": "Drug lupus: 'HIP' - Hydralazine, Isoniazid, Procainamide.",
+   "checks": [
+    {
+     "q": "SLE is more common in which group?",
+     "options": [
+      "White populations",
+      "Prepubertal boys",
+      "Non-white populations"
+     ],
+     "answer": 2,
+     "why": "Female predominance after puberty; more common in non-white populations."
+    },
+    {
+     "q": "Anti-histone antibodies suggest?",
+     "options": [
+      "Drug-induced lupus",
+      "Neonatal lupus",
+      "Mixed connective tissue disease"
+     ],
+     "answer": 0,
+     "why": "Anti-histone: drug-induced lupus (hydralazine, procainamide, isoniazid)."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Immune complexes consume complement, so C3/C4 fall in flares. Maternal anti-Ro/La cross the placenta and damage the fetal conduction system.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Complement levels in active SLE?",
+     "options": [
+      "High C3 and C4",
+      "Low C3 and C4",
+      "Normal"
+     ],
+     "answer": 1,
+     "why": "Immune complexes consume complement → C3 and C4 fall."
+    },
+    {
+     "q": "Maternal anti-Ro/La cause which neonatal problem?",
+     "options": [
+      "Neonatal thrombocytosis",
+      "Patent ductus arteriosus",
+      "Congenital heart block"
+     ],
+     "answer": 2,
+     "why": "Anti-Ro/La damage the fetal conduction system → heart block."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "SLE hits skin, joints, serosa, kidneys, brain and blood. Nephritis is common in children and drives prognosis.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "SLE malar rash characteristically?",
+     "options": [
+      "Spares nasolabial folds",
+      "Involves nasolabial folds",
+      "Is always scarring"
+     ],
+     "answer": 0,
+     "why": "Malar rash spares nasolabial folds; oral ulcers are painless."
+    },
+    {
+     "q": "Frequency of nephritis in childhood SLE?",
+     "options": [
+      "5-10%",
+      "50-80%",
+      "Under 1%"
+     ],
+     "answer": 1,
+     "why": "Nephritis in 50-80% of cSLE, more than adults."
+    },
+    {
+     "q": "Haemolysis in SLE is typically?",
+     "options": [
+      "Coombs-negative",
+      "Microangiopathic only",
+      "Coombs-positive"
+     ],
+     "answer": 2,
+     "why": "Autoimmune Coombs-positive haemolysis, plus leucopenia, thrombocytopenia."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "ANA is sensitive (entry criterion); anti-dsDNA follows activity and kidney disease, anti-Sm is specific. CRP usually stays low in flares, so high CRP means infection.",
+   "hook": "ANA = screen; Sm = specific; dsDNA = disease activity.",
+   "checks": [
+    {
+     "q": "Minimum ANA titre as SLE entry criterion?",
+     "options": [
+      "1:80",
+      "1:40",
+      "1:320"
+     ],
+     "answer": 0,
+     "why": "EULAR/ACR entry criterion: ANA ≥ 1:80."
+    },
+    {
+     "q": "Most specific SLE antibody?",
+     "options": [
+      "Anti-dsDNA",
+      "Anti-Sm",
+      "ANA"
+     ],
+     "answer": 1,
+     "why": "Anti-Sm is most specific; anti-dsDNA tracks activity and nephritis."
+    },
+    {
+     "q": "High CRP in febrile SLE suggests?",
+     "options": [
+      "Disease flare",
+      "Drug-induced lupus",
+      "Infection"
+     ],
+     "answer": 2,
+     "why": "CRP is usually low in flares; high CRP suggests infection."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Hydroxychloroquine reduces flares in everyone; immunosuppression escalates with severity, up to cyclophosphamide/mycophenolate for nephritis and rituximab.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which drug does every SLE patient take?",
+     "options": [
+      "Hydroxychloroquine",
+      "Methotrexate",
+      "Prednisolone"
+     ],
+     "answer": 0,
+     "why": "Hydroxychloroquine + sun protection for all."
+    },
+    {
+     "q": "Moderate SLE steroid-sparing option?",
+     "options": [
+      "Rituximab",
+      "Azathioprine",
+      "Cyclophosphamide"
+     ],
+     "answer": 1,
+     "why": "Moderate: azathioprine, methotrexate or mycophenolate."
+    },
+    {
+     "q": "Severe SLE induction starts with?",
+     "options": [
+      "Oral hydroxychloroquine alone",
+      "NSAIDs",
+      "IV methylprednisolone"
+     ],
+     "answer": 2,
+     "why": "IV methylprednisolone → mycophenolate or cyclophosphamide; rituximab if refractory."
+    }
+   ]
+  }
+ ],
+ "III-9": [
+  {
+   "block": "Def",
+   "explain": "JDM is a vasculopathy hitting capillaries of muscle and skin. In children, scleroderma is usually localised to skin (linear), not systemic.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Commonest idiopathic inflammatory myopathy in children?",
+     "options": [
+      "Juvenile dermatomyositis",
+      "Polymyositis",
+      "Inclusion body myositis"
+     ],
+     "answer": 0,
+     "why": "JDM is the commonest childhood myopathy."
+    },
+    {
+     "q": "Commonest scleroderma type in children?",
+     "options": [
+      "Diffuse systemic sclerosis",
+      "Localised (linear)",
+      "Limited systemic sclerosis"
+     ],
+     "answer": 1,
+     "why": "Localised (linear) scleroderma; systemic sclerosis is rare."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "JDM is a disease of school-age children with female predominance.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Peak age of JDM?",
+     "options": [
+      "Under 1 year",
+      "15-20 years",
+      "5-10 years"
+     ],
+     "answer": 2,
+     "why": "JDM peaks at 5-10 years, more in girls."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Complement-mediated capillary dropout causes ischaemia of muscle and skin. Unlike adults, JDM is rarely paraneoplastic.",
+   "hook": "Adult DM: look for cancer; child DM: don't.",
+   "checks": [
+    {
+     "q": "What causes capillary loss in JDM?",
+     "options": [
+      "Complement deposition",
+      "IgE mast cell activation",
+      "Granulomatous inflammation"
+     ],
+     "answer": 0,
+     "why": "Complement deposition → capillary loss → weakness, rash, ulcers."
+    },
+    {
+     "q": "Routine cancer screening in JDM?",
+     "options": [
+      "Mandatory",
+      "Not needed",
+      "Only in boys"
+     ],
+     "answer": 1,
+     "why": "Rarely linked to malignancy in children, unlike adults."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Proximal weakness makes children climb up their legs to stand; skin signs are pathognomonic; calcinosis is a late complication especially in children.",
+   "hook": "Gottron on knuckles, heliotrope on lids.",
+   "checks": [
+    {
+     "q": "Which muscles are affected in juvenile myositis?",
+     "options": [
+      "Distal limb muscles",
+      "Facial muscles only",
+      "Proximal limb muscles"
+     ],
+     "answer": 2,
+     "why": "Proximal limb muscles and neck flexors (screening answer)."
+    },
+    {
+     "q": "Red scaly papules over knuckles are?",
+     "options": [
+      "Gottron papules",
+      "Heliotrope rash",
+      "Janeway lesions"
+     ],
+     "answer": 0,
+     "why": "Gottron papules; heliotrope = purple eyelids."
+    },
+    {
+     "q": "Which complication is commoner in JDM than adult DM?",
+     "options": [
+      "Malignancy",
+      "Calcinosis",
+      "Interstitial lung disease"
+     ],
+     "answer": 1,
+     "why": "Calcinosis is much commoner in children."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Muscle enzymes leak from damaged fibres; MRI shows oedema non-invasively; biopsy shows perifascicular atrophy. SSc antibodies help classify systemic disease.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which muscle enzyme is raised in JDM?",
+     "options": [
+      "Amylase",
+      "Lipase",
+      "CK"
+     ],
+     "answer": 2,
+     "why": "CK, LDH, AST/ALT and aldolase rise; MRI shows oedema."
+    },
+    {
+     "q": "Typical JDM muscle biopsy finding?",
+     "options": [
+      "Perifascicular atrophy",
+      "Ragged red fibres",
+      "Endomysial CD8 invasion"
+     ],
+     "answer": 0,
+     "why": "Perifascicular atrophy; ragged red fibres are mitochondrial."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Steroids control inflammation, methotrexate spares steroids; organ-specific therapy (CCB, ACEi) manages SSc complications.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "First-line JDM treatment?",
+     "options": [
+      "IVIG alone",
+      "Steroids plus methotrexate",
+      "Rituximab"
+     ],
+     "answer": 1,
+     "why": "Steroids plus methotrexate; IVIG if severe."
+    },
+    {
+     "q": "Localised scleroderma treatment?",
+     "options": [
+      "Cyclophosphamide",
+      "Plasmapheresis",
+      "Methotrexate ± steroids"
+     ],
+     "answer": 2,
+     "why": "Methotrexate ± initial steroids plus physiotherapy."
+    },
+    {
+     "q": "Drug for scleroderma renal crisis?",
+     "options": [
+      "ACE inhibitor",
+      "Calcium channel blocker",
+      "Beta blocker"
+     ],
+     "answer": 0,
+     "why": "ACE inhibitor for renal crisis; CCB for Raynaud."
+    }
+   ]
+  }
+ ],
+ "III-10": [
+  {
+   "block": "Def",
+   "explain": "HSP is IgA immune-complex vasculitis of small vessels, mostly in early school-age children.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Commonest vasculitis of childhood?",
+     "options": [
+      "Kawasaki disease",
+      "Henoch-Schönlein purpura",
+      "Takayasu arteritis"
+     ],
+     "answer": 1,
+     "why": "HSP (IgA vasculitis) is commonest, ages 3-10."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "An infection primes IgA production, so HSP clusters after URTIs in colder months. Vessel size classifies other vasculitides.",
+   "hook": "Takayasu big, Kawasaki medium, HSP small.",
+   "checks": [
+    {
+     "q": "HSP usually follows which preceding event?",
+     "options": [
+      "Vaccination",
+      "Gastroenteritis",
+      "Upper respiratory infection"
+     ],
+     "answer": 2,
+     "why": "Follows URTI (often streptococcal), autumn and winter."
+    },
+    {
+     "q": "Kawasaki disease is which vessel-size vasculitis?",
+     "options": [
+      "Medium-vessel",
+      "Large-vessel",
+      "Small-vessel"
+     ],
+     "answer": 0,
+     "why": "Takayasu large, Kawasaki medium, GPA small with c-ANCA."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Vessel wall inflammation leaks blood despite normal platelets, giving palpable purpura. Gut wall oedema causes intussusception; renal IgA deposits cause nephritis.",
+   "hook": "Purpura + normal platelets = vasculitis.",
+   "checks": [
+    {
+     "q": "Platelet count in HSP?",
+     "options": [
+      "Low",
+      "Normal",
+      "High"
+     ],
+     "answer": 1,
+     "why": "Palpable purpura with a normal platelet count, unlike ITP."
+    },
+    {
+     "q": "Typical intussusception in HSP?",
+     "options": [
+      "Ileocolic",
+      "Colocolic",
+      "Ileo-ileal"
+     ],
+     "answer": 2,
+     "why": "HSP causes ileo-ileal intussusception; idiopathic is ileocolic."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Gravity-dependent purpura is universal; joints and gut are commonly involved; kidneys usually show disease within the first weeks.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Where is HSP purpura typically found?",
+     "options": [
+      "Buttocks and legs",
+      "Face and trunk",
+      "Palms and soles"
+     ],
+     "answer": 0,
+     "why": "Palpable purpura on buttocks and lower legs."
+    },
+    {
+     "q": "Arthritis frequency in HSP?",
+     "options": [
+      "~10%",
+      "~75%",
+      "~25%"
+     ],
+     "answer": 1,
+     "why": "Arthritis of ankles/knees ~75%; abdominal pain ~50-75%."
+    },
+    {
+     "q": "When does HSP nephritis usually appear?",
+     "options": [
+      "After 1 year",
+      "Before the rash",
+      "Within 4-6 weeks"
+     ],
+     "answer": 2,
+     "why": "Nephritis (~20-50%) usually within 4-6 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Diagnosis is clinical: purpura is mandatory plus one other feature. Normal FBC/clotting excludes other bleeding causes; urine and BP screen kidneys.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which feature is mandatory for HSP diagnosis?",
+     "options": [
+      "Purpura",
+      "Arthritis",
+      "Abdominal pain"
+     ],
+     "answer": 0,
+     "why": "Purpura is mandatory plus pain, IgA histology, arthritis or renal involvement."
+    },
+    {
+     "q": "Coagulation tests in HSP?",
+     "options": [
+      "Prolonged PT",
+      "Normal",
+      "Prolonged APTT"
+     ],
+     "answer": 1,
+     "why": "FBC and clotting are normal; check urine PCR and BP."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "HSP usually self-resolves: support and pain relief. Steroids ease gut pain but don't stop kidney disease, so follow-up urine and BP are essential.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "NSAIDs in HSP are allowed when?",
+     "options": [
+      "Always",
+      "Never",
+      "Kidneys are normal"
+     ],
+     "answer": 2,
+     "why": "Supportive care; NSAIDs only if renal function is normal."
+    },
+    {
+     "q": "Effect of steroids on HSP nephritis?",
+     "options": [
+      "Do not prevent it",
+      "Prevent it",
+      "Cure it"
+     ],
+     "answer": 0,
+     "why": "Steroids treat severe abdominal pain but do not prevent nephritis."
+    },
+    {
+     "q": "Duration of urine and BP monitoring in HSP?",
+     "options": [
+      "2 weeks",
+      "6-12 months",
+      "5 years"
+     ],
+     "answer": 1,
+     "why": "Monitor urine and BP for 6-12 months."
+    }
+   ]
+  }
+ ]
+}

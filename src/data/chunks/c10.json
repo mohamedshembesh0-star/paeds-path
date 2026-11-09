@@ -1,0 +1,2642 @@
+{
+ "III-41": [
+  {
+   "block": "Def",
+   "explain": "The liver clears (bilirubin, ammonia), builds (clotting factors, albumin) and lets blood flow through; chronic failure slowly loses all three.",
+   "hook": "Liver jobs: CLEAR, BUILD, FLOW.",
+   "checks": [
+    {
+     "q": "Chronic liver failure means chronic loss of clearance, synthesis and what else?",
+     "options": [
+      "Hepatic flow",
+      "Hepatic storage",
+      "Hepatic regeneration"
+     ],
+     "answer": 0,
+     "why": "Notes: clearance, synthesis and flow; loss of flow = portal hypertension."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Biliary atresia scars infant bile ducts and is the top cause; metabolic (A1AT, Wilson), genetic (Alagille), autoimmune and viral causes follow.",
+   "hook": "Baby liver failure? Think the Bile ducts first: Biliary atresia.",
+   "checks": [
+    {
+     "q": "Commonest cause of chronic liver failure in children?",
+     "options": [
+      "Wilson disease",
+      "Biliary atresia",
+      "Autoimmune hepatitis"
+     ],
+     "answer": 1,
+     "why": "Biliary atresia leads; Wilson and AIH are rarer and present later."
+    },
+    {
+     "q": "Which gene is mutated in Wilson disease?",
+     "options": [
+      "ATP7A",
+      "CFTR",
+      "ATP7B"
+     ],
+     "answer": 2,
+     "why": "Wilson is AR, ATP7B (copper into bile); ATP7A is Menkes."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Failure to clear gives jaundice and itch, failure to build gives high INR and low albumin, and blocked flow gives portal hypertension. In Wilson, copper not excreted in bile spills into brain, cornea and red cells.",
+   "hook": "Wilson = copper Wanders: liver, basal ganglia, cornea, RBCs.",
+   "checks": [
+    {
+     "q": "Raised INR and low albumin reflect which failed liver function?",
+     "options": [
+      "Synthesis",
+      "Clearance",
+      "Flow"
+     ],
+     "answer": 0,
+     "why": "Clotting factors and albumin are built by the liver; jaundice reflects failed clearance."
+    },
+    {
+     "q": "In Wilson disease, copper fails to reach which destination?",
+     "options": [
+      "Urine",
+      "Bile",
+      "Plasma caeruloplasmin only"
+     ],
+     "answer": 1,
+     "why": "ATP7B moves copper into bile; blocked excretion leaves copper deposits in liver, brain, cornea."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Cholestasis causes pale stools, itch and fat-soluble vitamin loss; portal hypertension gives ascites, splenomegaly and varices. Wilson needs years of copper build-up, so it rarely shows before school age.",
+   "hook": "Wilson waits: no symptoms before 4-5 years.",
+   "checks": [
+    {
+     "q": "Which vitamins become deficient in cholestatic liver disease?",
+     "options": [
+      "B1, B6, B12",
+      "C and folate",
+      "A, D, E, K"
+     ],
+     "answer": 2,
+     "why": "No bile = poor fat absorption, so fat-soluble ADEK are lost."
+    },
+    {
+     "q": "Wilson disease symptoms typically start after what age?",
+     "options": [
+      "4-5 years",
+      "6 months",
+      "12 years"
+     ],
+     "answer": 0,
+     "why": "Copper accumulates slowly, so symptoms begin after 4-5 years (official answer)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "If INR stays high despite IV vitamin K, the problem is the liver not making factors, not vitamin K malabsorption. Wilson: low caeruloplasmin, high urinary copper, KF rings; ALF with Coombs-negative haemolysis is a classic clue.",
+   "hook": "Vitamin K fails to fix INR = factory broken.",
+   "checks": [
+    {
+     "q": "High INR not correcting with IV vitamin K indicates what?",
+     "options": [
+      "Vitamin K malabsorption",
+      "Synthetic liver failure",
+      "Warfarin ingestion"
+     ],
+     "answer": 1,
+     "why": "If vitamin K can't fix it, the liver can't make factors; malabsorption would correct."
+    },
+    {
+     "q": "Serum caeruloplasmin in Wilson disease is typically?",
+     "options": [
+      "High",
+      "Normal",
+      "Low"
+     ],
+     "answer": 2,
+     "why": "Caeruloplasmin is low while 24-h urinary copper is high in Wilson."
+    },
+    {
+     "q": "Acute liver failure with Coombs-negative haemolysis suggests?",
+     "options": [
+      "Wilson disease",
+      "Autoimmune hepatitis",
+      "Paracetamol overdose"
+     ],
+     "answer": 0,
+     "why": "Free copper released from necrotic liver lyses RBCs; Coombs-negative excludes immune haemolysis."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Cholestatic children absorb MCT without bile, need ADEK and ursodiol; portal hypertension is managed with diuretics, lactulose, banding. Wilson: chelate then zinc; end stage needs transplant.",
+   "hook": "Wilson: Pull copper out (penicillamine), then Zinc blocks intake.",
+   "checks": [
+    {
+     "q": "Which fat is used in formula for cholestatic children?",
+     "options": [
+      "Long-chain triglycerides",
+      "Medium-chain triglycerides",
+      "Omega-3 fish oil"
+     ],
+     "answer": 1,
+     "why": "MCT is absorbed directly into portal blood without bile salts."
+    },
+    {
+     "q": "Which antibiotic reduces ammonia-producing gut bacteria in liver failure?",
+     "options": [
+      "Metronidazole",
+      "Vancomycin",
+      "Rifaximin"
+     ],
+     "answer": 2,
+     "why": "Rifaximin (with lactulose) lowers ammoniagenic bacteria to prevent encephalopathy."
+    },
+    {
+     "q": "After penicillamine or trientine, what is used for Wilson maintenance?",
+     "options": [
+      "Zinc",
+      "Iron",
+      "Selenium"
+     ],
+     "answer": 0,
+     "why": "Zinc induces enterocyte metallothionein, blocking copper absorption."
+    }
+   ]
+  }
+ ],
+ "III-42": [
+  {
+   "block": "Def",
+   "explain": "Biliary atresia is a progressive inflammatory scarring that obliterates extrahepatic bile ducts in the first months of life.",
+   "hook": "Atresia = ducts Absent/obliterated, Early infancy.",
+   "checks": [
+    {
+     "q": "Biliary atresia is fibro-obliteration of which bile ducts?",
+     "options": [
+      "Intrahepatic only",
+      "Extrahepatic",
+      "Pancreatic"
+     ],
+     "answer": 1,
+     "why": "Extrahepatic ducts are obliterated; intrahepatic duct paucity is Alagille."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "A perinatal viral or immune hit is thought to trigger duct destruction; a syndromic form comes with laterality defects such as polysplenia.",
+   "hook": "Syndromic BA: Spleen too many (polysplenia), organs flipped.",
+   "checks": [
+    {
+     "q": "Which anomaly accompanies syndromic biliary atresia?",
+     "options": [
+      "Asplenia with VSD",
+      "Horseshoe kidney",
+      "Polysplenia"
+     ],
+     "answer": 2,
+     "why": "Syndromic (BASM) form: polysplenia, situs anomalies."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Conjugated bilirubin can't reach the gut, so it refluxes into blood and urine (dark) and the stool lacks stercobilin (pale). Retained bile scars the liver and no bile means no vitamin K absorption.",
+   "hook": "No bile in gut = white poo, dark wee, bleeding.",
+   "checks": [
+    {
+     "q": "Why is stool acholic in biliary atresia?",
+     "options": [
+      "No stercobilin reaches the gut",
+      "Excess fat in the stool",
+      "Rapid intestinal transit"
+     ],
+     "answer": 0,
+     "why": "No bilirubin into the gut means no stercobilin pigment, so pale stool."
+    },
+    {
+     "q": "Lack of bile in the gut causes bleeding via which vitamin?",
+     "options": [
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin B12"
+     ],
+     "answer": 1,
+     "why": "No bile = no fat-soluble vitamin K absorption, so factor deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "A thriving baby with persistent jaundice is the trap: it looks like breast-milk jaundice, but pale stools and dark urine reveal obstruction.",
+   "hook": "Yellow baby + white stool = surgical emergency.",
+   "checks": [
+    {
+     "q": "Typical stool feature in biliary atresia?",
+     "options": [
+      "Redcurrant-jelly stool",
+      "Green bilious stool",
+      "Clay-coloured (acholic) stool"
+     ],
+     "answer": 2,
+     "why": "Official answer: clay-coloured acholic stool with dark urine."
+    },
+    {
+     "q": "Biliary atresia should be suspected in a term infant jaundiced beyond?",
+     "options": [
+      "2 weeks",
+      "3 days",
+      "2 months"
+     ],
+     "answer": 0,
+     "why": "Jaundice past 2 weeks (term) is prolonged and needs work-up, not reassurance."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Prolonged jaundice needs a split bilirubin to spot conjugated hyperbilirubinaemia. Ultrasound shows a triangular cord and small gallbladder; intraoperative cholangiogram confirms. Kasai works best early.",
+   "hook": "Cord sign, Cholangiogram confirms, Catch it by 6 weeks.",
+   "checks": [
+    {
+     "q": "Jaundice beyond 2 weeks requires which first blood test?",
+     "options": [
+      "Total bilirubin only",
+      "Conjugated (split) bilirubin",
+      "Direct Coombs test"
+     ],
+     "answer": 1,
+     "why": "A split bilirubin separates conjugated (obstructive) from unconjugated jaundice."
+    },
+    {
+     "q": "Definitive diagnostic test for biliary atresia?",
+     "options": [
+      "Abdominal ultrasound",
+      "HIDA scan",
+      "Intraoperative cholangiogram"
+     ],
+     "answer": 2,
+     "why": "Ultrasound (triangular cord) suggests; intraoperative cholangiogram is definitive."
+    },
+    {
+     "q": "Biliary atresia should be diagnosed no later than what age?",
+     "options": [
+      "6 weeks",
+      "6 months",
+      "1 year"
+     ],
+     "answer": 0,
+     "why": "Official answer: earlier, but no later than 6 weeks, so Kasai can succeed."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Kasai joins a bowel loop to the liver hilum to restore bile flow, ideally ASAP. Cholangitis is the classic post-Kasai complication; failed Kasai makes BA the top reason for paediatric liver transplant.",
+   "hook": "Kasai = Kiss bowel to liver hilum.",
+   "checks": [
+    {
+     "q": "Surgical procedure of choice for biliary atresia?",
+     "options": [
+      "Roux-en-Y choledochojejunostomy",
+      "Kasai portoenterostomy",
+      "Cholecystectomy"
+     ],
+     "answer": 1,
+     "why": "Kasai portoenterostomy, as soon as possible after diagnosis."
+    },
+    {
+     "q": "Post-Kasai fever with returning jaundice suggests what?",
+     "options": [
+      "Kasai anastomotic leak",
+      "Hepatitis A infection",
+      "Ascending cholangitis"
+     ],
+     "answer": 2,
+     "why": "Gut bacteria ascend the new conduit; treat with IV antibiotics."
+    },
+    {
+     "q": "Biliary atresia is the most common cause of what in children?",
+     "options": [
+      "Liver transplantation",
+      "Acute pancreatitis",
+      "Portal vein thrombosis"
+     ],
+     "answer": 0,
+     "why": "BA is the leading indication for paediatric liver transplant; tacrolimus immunosuppression."
+    }
+   ]
+  }
+ ],
+ "III-43": [
+  {
+   "block": "Def",
+   "explain": "Crohn can affect any part of the gut through the whole wall with patches of normal bowel between; UC starts at the rectum and spreads continuously, mucosa only.",
+   "hook": "Crohn: Cobblestones, skip, full thickness. UC: Upward from rectum, Continuous.",
+   "checks": [
+    {
+     "q": "Which IBD is continuous from the rectum?",
+     "options": [
+      "Crohn disease",
+      "Ulcerative colitis",
+      "Microscopic colitis"
+     ],
+     "answer": 1,
+     "why": "UC extends continuously from the rectum; Crohn has skip lesions."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "IBD is a chronic immune-mediated inflammation of the gut, driven by genes, microbiome and environment.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "What is the nature of paediatric IBD?",
+     "options": [
+      "Acute bacterial infection",
+      "Congenital enzyme deficiency",
+      "Chronic immune-mediated inflammation"
+     ],
+     "answer": 2,
+     "why": "IBD is chronic immune-mediated gut inflammation, not infection."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Crohn inflames the full wall, so it forms granulomas, strictures and fistulae. UC stays in the mucosa, forming crypt abscesses and bloody diarrhoea, and links to PSC.",
+   "hook": "Crohn = granulomas; UC = crypt abscesses.",
+   "checks": [
+    {
+     "q": "Typical histology of Crohn disease?",
+     "options": [
+      "Non-caseating granulomas",
+      "Caseating granulomas",
+      "Crypt abscesses only"
+     ],
+     "answer": 0,
+     "why": "Crohn: transmural non-caseating granulomas; caseating suggests TB."
+    },
+    {
+     "q": "Most typical histologic finding in ulcerative colitis?",
+     "options": [
+      "Non-caseating granulomas",
+      "Crypt abscesses",
+      "Transmural fissures"
+     ],
+     "answer": 1,
+     "why": "Official answer: crypt abscesses (mucosal disease)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Crohn steals nutrients and inflames chronically, so children often present with poor growth and late puberty before gut symptoms. UC bleeds; a high GGT flags PSC.",
+   "hook": "Short child, late puberty? Check for Crohn.",
+   "checks": [
+    {
+     "q": "Crohn disease often first presents in children with what?",
+     "options": [
+      "Massive rectal bleeding",
+      "Toxic megacolon",
+      "Growth failure and delayed puberty"
+     ],
+     "answer": 2,
+     "why": "Growth failure/delayed puberty may precede gut symptoms in Crohn."
+    },
+    {
+     "q": "Crohn perianal fissures are characteristically?",
+     "options": [
+      "Lateral, deep, painless",
+      "Midline, shallow, painful",
+      "Posterior, superficial, bleeding"
+     ],
+     "answer": 0,
+     "why": "Official answer: not in the midline, deep, not painful (unlike simple fissures)."
+    },
+    {
+     "q": "High GGT in ulcerative colitis should raise suspicion of?",
+     "options": [
+      "Gallstones",
+      "Sclerosing cholangitis",
+      "Autoimmune hepatitis"
+     ],
+     "answer": 1,
+     "why": "Official answer: primary sclerosing cholangitis, strongly linked to UC."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Faecal calprotectin (neutrophil protein) separates inflammation from functional pain, deciding who needs scopes. Diagnosis needs upper and lower endoscopy with biopsies plus small-bowel MR.",
+   "hook": "Calprotectin opens the endoscopy gate.",
+   "checks": [
+    {
+     "q": "Which stool test gatekeeps endoscopy in suspected IBD?",
+     "options": [
+      "Faecal elastase",
+      "Stool reducing substances",
+      "Faecal calprotectin"
+     ],
+     "answer": 2,
+     "why": "Calprotectin reflects mucosal neutrophils; low values make IBD unlikely."
+    },
+    {
+     "q": "Which imaging evaluates the small bowel in paediatric IBD?",
+     "options": [
+      "MR enterography",
+      "CT abdomen with contrast",
+      "Barium swallow"
+     ],
+     "answer": 0,
+     "why": "MR enterography images the small bowel without radiation."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "In Crohn, exclusive liquid diet induces remission as well as steroids without growth harm. UC escalates 5-ASA → steroids → immunomodulators/biologics; colectomy cures UC.",
+   "hook": "Crohn kids: Drink, don't steroid (EEN first).",
+   "checks": [
+    {
+     "q": "First-choice induction therapy in paediatric Crohn disease?",
+     "options": [
+      "Oral prednisolone",
+      "Exclusive enteral nutrition",
+      "Infliximab"
+     ],
+     "answer": 1,
+     "why": "Official answer: exclusive enteral nutrition for 6-8 weeks."
+    },
+    {
+     "q": "Which treatment is curative in ulcerative colitis?",
+     "options": [
+      "Mesalamine",
+      "Infliximab",
+      "Colectomy"
+     ],
+     "answer": 2,
+     "why": "UC is limited to the colon, so removing it is curative."
+    },
+    {
+     "q": "Acute severe UC (PUCAI ≥65) is first treated with?",
+     "options": [
+      "IV steroids",
+      "Oral mesalamine",
+      "Colectomy"
+     ],
+     "answer": 0,
+     "why": "PUCAI ≥65 → IV steroids; reassess days 3/5 for infliximab or ciclosporin."
+    }
+   ]
+  }
+ ],
+ "III-44": [
+  {
+   "block": "Def",
+   "explain": "Trypsin activated inside the pancreas digests the gland itself; released cytokines may spread into systemic inflammation (SIRS).",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Acute pancreatitis may progress to which systemic state?",
+     "options": [
+      "Anaphylaxis",
+      "SIRS",
+      "Adrenal crisis"
+     ],
+     "answer": 1,
+     "why": "Cytokine release from autodigestion can cause SIRS and capillary leak."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Children get pancreatitis from bile stones, trauma (handlebar, abuse), drugs and systemic illness; recurrent attacks suggest a genetic trypsin-control defect.",
+   "hook": "Recurrent pancreatitis: PRSS1, SPINK1, CFTR.",
+   "checks": [
+    {
+     "q": "Which antiepileptic drug causes pancreatitis?",
+     "options": [
+      "Levetiracetam",
+      "Lamotrigine",
+      "Valproate"
+     ],
+     "answer": 2,
+     "why": "Valproate (also azathioprine, L-asparaginase) is a classic cause."
+    },
+    {
+     "q": "Recurrent pancreatitis warrants genetic testing for which gene?",
+     "options": [
+      "PRSS1",
+      "ATP7B",
+      "JAG1"
+     ],
+     "answer": 0,
+     "why": "PRSS1, SPINK1 and CFTR mutations impair trypsin control."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Trypsinogen activates too early inside acinar cells, digesting the gland and triggering cytokines. Released lipase splits fat; fatty acids bind calcium (soap), lowering serum calcium.",
+   "hook": "Fat + calcium = soap → low calcium.",
+   "checks": [
+    {
+     "q": "Pancreatitis starts with premature intra-acinar activation of what?",
+     "options": [
+      "Amylase",
+      "Trypsinogen",
+      "Pepsinogen"
+     ],
+     "answer": 1,
+     "why": "Trypsinogen activated inside acinar cells starts autodigestion."
+    },
+    {
+     "q": "Hypocalcaemia in pancreatitis results from?",
+     "options": [
+      "Renal calcium loss",
+      "Parathyroid suppression",
+      "Fat saponification"
+     ],
+     "answer": 2,
+     "why": "Free fatty acids bind calcium (saponification), lowering serum calcium."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Retroperitoneal pancreas causes epigastric pain boring into the back, eased leaning forward. Haemorrhage tracking to flanks or umbilicus gives Grey Turner or Cullen signs (rare).",
+   "hook": "Grey Turner = flank (Turn sideways); Cullen = umbilicus.",
+   "checks": [
+    {
+     "q": "Pancreatic pain is typically eased by which position?",
+     "options": [
+      "Leaning forward",
+      "Lying flat",
+      "Lying on the right side"
+     ],
+     "answer": 0,
+     "why": "Leaning forward moves viscera off the retroperitoneal pancreas."
+    },
+    {
+     "q": "Flank bruising in haemorrhagic pancreatitis is called?",
+     "options": [
+      "Cullen sign",
+      "Grey Turner sign",
+      "Murphy sign"
+     ],
+     "answer": 1,
+     "why": "Grey Turner = flank; Cullen = periumbilical."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "INSPPIRE criteria need two of three: typical pain, enzymes ≥3× ULN, or imaging. Ultrasound looks for gallstones; check calcium, glucose and triglycerides for cause and severity.",
+   "hook": "INSPPIRE: 2 of 3 (pain, enzymes, imaging).",
+   "checks": [
+    {
+     "q": "INSPPIRE requires amylase/lipase at least how many times ULN?",
+     "options": [
+      "2×",
+      "5×",
+      "3×"
+     ],
+     "answer": 2,
+     "why": "Amylase or lipase ≥3× ULN is one of the 3 criteria (need 2)."
+    },
+    {
+     "q": "First-line imaging in paediatric pancreatitis?",
+     "options": [
+      "Ultrasound",
+      "CT with contrast",
+      "MRCP"
+     ],
+     "answer": 0,
+     "why": "Ultrasound first (gallstones, ducts); CT reserved for complications."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Capillary leak needs generous fluids; early enteral feeding protects gut barrier. Antibiotics only for infected necrosis or cholangitis. Remove the cause; pseudocysts take weeks to wall off.",
+   "hook": "Pseudocyst needs >4 weeks to mature.",
+   "checks": [
+    {
+     "q": "Enteral feeding in pancreatitis should start within?",
+     "options": [
+      "7 days",
+      "48-72 hours",
+      "2 weeks"
+     ],
+     "answer": 1,
+     "why": "Early enteral feeding (48-72 h) reduces infection and complications."
+    },
+    {
+     "q": "When are antibiotics indicated in pancreatitis?",
+     "options": [
+      "All severe cases",
+      "Any fever on admission",
+      "Infected necrosis or cholangitis"
+     ],
+     "answer": 2,
+     "why": "No routine antibiotics; only infected necrosis or cholangitis."
+    },
+    {
+     "q": "A pancreatic pseudocyst forms after how long?",
+     "options": [
+      "More than 4 weeks",
+      "24-48 hours",
+      "1 week"
+     ],
+     "answer": 0,
+     "why": "A pseudocyst is a walled collection maturing after >4 weeks."
+    }
+   ]
+  }
+ ],
+ "III-45": [
+  {
+   "block": "Def",
+   "explain": "Facial processes must fuse in early embryonic life; failure leaves a cleft of lip and/or palate, roughly 1 in 700 births.",
+   "hook": "1 in 700: commonest craniofacial anomaly.",
+   "checks": [
+    {
+     "q": "Approximate birth incidence of cleft lip/palate?",
+     "options": [
+      "1 in 70",
+      "1 in 700",
+      "1 in 7000"
+     ],
+     "answer": 1,
+     "why": "About 1 in 700 births."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Teratogens (smoking, alcohol, anticonvulsants) and folate deficiency disturb facial fusion. Isolated cleft palate differs: commoner in girls and more often syndromic, eg 22q11.",
+   "hook": "Palate alone? Think Girls and 22q11.",
+   "checks": [
+    {
+     "q": "Which anticonvulsant is linked to orofacial clefts?",
+     "options": [
+      "Levetiracetam",
+      "Ethosuximide",
+      "Phenytoin"
+     ],
+     "answer": 2,
+     "why": "Phenytoin and valproate are cleft-associated teratogens."
+    },
+    {
+     "q": "Isolated cleft palate is commoner in which group?",
+     "options": [
+      "Girls",
+      "Boys",
+      "Preterm twins"
+     ],
+     "answer": 0,
+     "why": "Isolated cleft palate: more common in girls and more often syndromic."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The lip forms when the medial nasal and maxillary processes fuse; palate forms when shelves meet. A cleft palate breaks the suction seal and the tensor veli palatini can't open the Eustachian tube, so glue ear.",
+   "hook": "Cleft palate = leaky seal + blocked ear tube.",
+   "checks": [
+    {
+     "q": "Cleft lip results from failed fusion of maxillary process with?",
+     "options": [
+      "Lateral nasal process",
+      "Medial nasal process",
+      "Mandibular process"
+     ],
+     "answer": 1,
+     "why": "Cleft lip: medial nasal + maxillary process failure."
+    },
+    {
+     "q": "Failed fusion of palatal shelves prevents what in feeding?",
+     "options": [
+      "Tongue protrusion",
+      "Swallow reflex",
+      "A suction seal"
+     ],
+     "answer": 2,
+     "why": "No palate = no seal, so baby can't create suction."
+    },
+    {
+     "q": "Why do cleft palate children get otitis media with effusion?",
+     "options": [
+      "Tensor veli palatini can't open Eustachian tube",
+      "Milk enters middle ear via nose",
+      "Abnormal ossicle development"
+     ],
+     "answer": 0,
+     "why": "Tensor veli palatini dysfunction prevents Eustachian tube opening."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Without a sealed palate, milk escapes through the nose and air leaks during speech (hypernasal). Pierre Robin: small jaw pushes tongue back, blocking palate closure (U-shaped cleft).",
+   "hook": "Pierre Robin: small jaw, tongue back, U-shaped cleft.",
+   "checks": [
+    {
+     "q": "Common ear problem in children with cleft palate?",
+     "options": [
+      "Cholesteatoma at birth",
+      "Glue ear",
+      "Microtia"
+     ],
+     "answer": 1,
+     "why": "Glue ear (OME) due to Eustachian tube dysfunction."
+    },
+    {
+     "q": "Shape of the cleft palate in Pierre Robin sequence?",
+     "options": [
+      "V-shaped",
+      "Bilateral complete lip cleft",
+      "U-shaped"
+     ],
+     "answer": 2,
+     "why": "Micrognathia + glossoptosis → tongue blocks fusion → U-shaped cleft."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "The lip is visible on the 20-week scan more easily than the hidden palate. Every cleft palate needs a hearing test; syndromic features prompt 22q11 testing.",
+   "hook": "Palate? Test ears and 22q11.",
+   "checks": [
+    {
+     "q": "Clefts are often seen at which anomaly scan?",
+     "options": [
+      "20-week scan",
+      "12-week scan",
+      "36-week scan"
+     ],
+     "answer": 0,
+     "why": "20-week anomaly scan; lip detected more often than palate."
+    },
+    {
+     "q": "Any cleft palate should prompt which test?",
+     "options": [
+      "Echocardiogram",
+      "Hearing test",
+      "Renal ultrasound"
+     ],
+     "answer": 1,
+     "why": "Glue ear is common, so every cleft palate needs a hearing test."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Team care: special bottles help feeding. Lip closed ~3 months for appearance/feeding, palate ~1 year before speech develops; later grommets, speech therapy, bone graft.",
+   "hook": "Rule of 3s and 1: lip 3 months, palate 1 year.",
+   "checks": [
+    {
+     "q": "Cleft feeding is helped by which bottle type?",
+     "options": [
+      "Standard rigid bottle",
+      "Wide-neck glass bottle",
+      "Squeezable bottle"
+     ],
+     "answer": 2,
+     "why": "Squeezable bottles push milk since the baby can't suck."
+    },
+    {
+     "q": "At about what age is cleft lip repaired?",
+     "options": [
+      "3 months",
+      "3 weeks",
+      "3 years"
+     ],
+     "answer": 0,
+     "why": "Lip repair ~3 months; soft palate ~1 year."
+    },
+    {
+     "q": "At what age is alveolar bone grafting done?",
+     "options": [
+      "1-2 years",
+      "8-11 years",
+      "16-18 years"
+     ],
+     "answer": 1,
+     "why": "Alveolar bone graft 8-11 years, before canine eruption."
+    }
+   ]
+  }
+ ],
+ "III-46": [
+  {
+   "block": "Def",
+   "explain": "Obstruction is either mechanical (something blocks the lumen) or paralytic (gut stops moving, no physical block).",
+   "hook": "Mechanical = plugged pipe; paralytic = stopped pump.",
+   "checks": [
+    {
+     "q": "Ileus with stopped peristalsis but no lumen block is called?",
+     "options": [
+      "Mechanical",
+      "Strangulated",
+      "Paralytic"
+     ],
+     "answer": 2,
+     "why": "Paralytic ileus: peristalsis stops; mechanical: lumen blocked."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Mechanical: adhesions, hernia, intussusception, volvulus. Paralytic: surgery, sepsis, low potassium, opioids. Intussusception usually leads with swollen Peyer's patches; older kids need a pathological lead point.",
+   "hook": "Over 3 years intussusception? Hunt a lead point.",
+   "checks": [
+    {
+     "q": "Which is a mechanical cause of bowel obstruction?",
+     "options": [
+      "Adhesions",
+      "Hypokalaemia",
+      "Opioids"
+     ],
+     "answer": 0,
+     "why": "Adhesions physically block; hypokalaemia/opioids cause paralytic ileus."
+    },
+    {
+     "q": "Which electrolyte disturbance causes paralytic ileus?",
+     "options": [
+      "Hyperkalaemia",
+      "Hypokalaemia",
+      "Hypernatraemia"
+     ],
+     "answer": 1,
+     "why": "Low potassium impairs smooth muscle contraction."
+    },
+    {
+     "q": "Usual lead point of intussusception in young children?",
+     "options": [
+      "Meckel's diverticulum",
+      "Lymphoma",
+      "Peyer's patches"
+     ],
+     "answer": 2,
+     "why": "Hypertrophied Peyer's patches; Meckel's/polyp/lymphoma over 3 years."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Mechanical obstruction gives hyperactive tinkling sounds as gut fights the block; paralytic is silent. Constant pain, fever and rising lactate mean the bowel is dying (strangulation).",
+   "hook": "Colic turning constant = bowel dying.",
+   "checks": [
+    {
+     "q": "Bowel sounds in mechanical obstruction are typically?",
+     "options": [
+      "Tinkling",
+      "Absent",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "Mechanical: tinkling (high-pitched); paralytic: silent."
+    },
+    {
+     "q": "Colicky pain becoming constant suggests what?",
+     "options": [
+      "Resolution",
+      "Strangulation",
+      "Paralytic ileus"
+     ],
+     "answer": 1,
+     "why": "Constant pain, fever, rising lactate = ischaemia/strangulation."
+    },
+    {
+     "q": "Redcurrant-jelly stool in intussusception is a what sign?",
+     "options": [
+      "Early",
+      "Diagnostic only on day 1",
+      "Late"
+     ],
+     "answer": 2,
+     "why": "Mucosal ischaemia gives redcurrant-jelly stool, a late sign."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Episodes of screaming with legs drawn up then pale lethargy between in a 3-month to 3-year-old is classic; a sausage-shaped RUQ mass may be felt.",
+   "hook": "Intussusception: 3 months to 3 years.",
+   "checks": [
+    {
+     "q": "Typical age of intussusception?",
+     "options": [
+      "3 months - 3 years",
+      "Newborn - 3 months",
+      "5 - 10 years"
+     ],
+     "answer": 0,
+     "why": "Official answer: 3 months - 3 years."
+    },
+    {
+     "q": "Where is the sausage mass in intussusception felt?",
+     "options": [
+      "Left iliac fossa",
+      "Right upper quadrant",
+      "Suprapubic region"
+     ],
+     "answer": 1,
+     "why": "Ileocolic intussusception gives a RUQ sausage mass."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Ultrasound shows bowel within bowel (target sign). In children, strangulated obstruction is most often an incarcerated hernia. Stable SBO → CT; unstable → X-ray.",
+   "hook": "Target/doughnut on US = intussusception.",
+   "checks": [
+    {
+     "q": "Ultrasound sign of intussusception?",
+     "options": [
+      "Whirlpool sign",
+      "String sign",
+      "Target (doughnut) sign"
+     ],
+     "answer": 2,
+     "why": "Concentric bowel rings = target/doughnut; whirlpool = volvulus."
+    },
+    {
+     "q": "Commonest cause of strangulation ileus in children?",
+     "options": [
+      "Incarcerated hernia",
+      "Adhesions",
+      "Volvulus"
+     ],
+     "answer": 0,
+     "why": "Notes: incarcerated hernia."
+    },
+    {
+     "q": "Suspected small bowel obstruction in a stable child: which imaging?",
+     "options": [
+      "Plain X-ray only",
+      "CT with IV contrast",
+      "MRI abdomen"
+     ],
+     "answer": 1,
+     "why": "Stable → CT with IV contrast; unstable → X-ray."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Decompress with NG tube and IV fluids. Intussusception is reduced by air enema after resuscitation, though about 10% recur. Surgery if ischaemia, perforation, shock or failed reduction.",
+   "hook": "Air pushes it back; ~10% come back.",
+   "checks": [
+    {
+     "q": "Initial treatment of bowel obstruction is called?",
+     "options": [
+      "Nil by mouth with laxatives",
+      "Watch and wait",
+      "Drip and suck"
+     ],
+     "answer": 2,
+     "why": "IV fluids (drip) + NG decompression (suck), analgesia, surgical review."
+    },
+    {
+     "q": "First-line reduction of intussusception?",
+     "options": [
+      "Air (pneumatic) enema",
+      "Laparotomy",
+      "Barium meal"
+     ],
+     "answer": 0,
+     "why": "Air enema after resuscitation; ~10% recur."
+    },
+    {
+     "q": "Which is an indication for surgery in intussusception?",
+     "options": [
+      "Recurrence once",
+      "Peritonitis",
+      "Age under 1 year"
+     ],
+     "answer": 1,
+     "why": "Strangulation, peritonitis, perforation, shock or failed reduction."
+    }
+   ]
+  }
+ ],
+ "III-47": [
+  {
+   "block": "Def",
+   "explain": "Almost all childhood constipation is functional (behavioural); Hirschsprung is the rare organic cause where the distal bowel lacks ganglion cells.",
+   "hook": "95% functional; Hirschsprung is the exception.",
+   "checks": [
+    {
+     "q": "Approximately what proportion of childhood constipation is functional?",
+     "options": [
+      "50%",
+      "75%",
+      "95%"
+     ],
+     "answer": 2,
+     "why": "About 95% is functional; organic causes are rare."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Functional constipation starts at transitions (weaning, toilet training, school) or after a painful fissure. Hirschsprung: neural crest cells fail to migrate to the distal bowel; linked to Down syndrome.",
+   "hook": "Hirschsprung + Down = classic pair.",
+   "checks": [
+    {
+     "q": "Which is a typical trigger of functional constipation?",
+     "options": [
+      "Toilet training",
+      "Hypothyroidism",
+      "Spinal dysraphism"
+     ],
+     "answer": 0,
+     "why": "Weaning, toilet training, school and fissures trigger functional constipation."
+    },
+    {
+     "q": "Hirschsprung disease is associated with which syndrome?",
+     "options": [
+      "Turner syndrome",
+      "Down syndrome",
+      "Noonan syndrome"
+     ],
+     "answer": 1,
+     "why": "Down syndrome is the classic association."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Holding stool hardens it, defecation hurts, so the child holds more; the rectum dilates and liquid leaks round the plug. In Hirschsprung the aganglionic segment can't relax, so it acts as obstruction.",
+   "hook": "Withhold → hard → hurt → hold: vicious cycle.",
+   "checks": [
+    {
+     "q": "Overflow soiling in functional constipation results from?",
+     "options": [
+      "Anal sphincter paralysis",
+      "Infective diarrhoea",
+      "Liquid stool around impacted faeces"
+     ],
+     "answer": 2,
+     "why": "Liquid stool leaks around the impacted mass in a dilated rectum."
+    },
+    {
+     "q": "Why does the aganglionic rectum cause obstruction?",
+     "options": [
+      "It cannot relax",
+      "It is stenosed by scar",
+      "It contracts too weakly"
+     ],
+     "answer": 0,
+     "why": "Without ganglion cells the segment stays contracted: functional obstruction."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Functional: withholding postures and a packed rectum. Hirschsprung: newborn fails to pass meconium within 48 h; DRE finds a tight empty rectum then explosive stool on withdrawal.",
+   "hook": "Hirschsprung: empty rectum + explosive gush.",
+   "checks": [
+    {
+     "q": "Infantile dyschezia: how long does the infant typically strain?",
+     "options": [
+      "About 1 minute",
+      "About 10 minutes",
+      "Over an hour"
+     ],
+     "answer": 1,
+     "why": "Notes: infant strains ~10 minutes before passing soft stool."
+    },
+    {
+     "q": "Hirschsprung meconium passage is delayed beyond?",
+     "options": [
+      "12 hours",
+      "7 days",
+      "48 hours"
+     ],
+     "answer": 2,
+     "why": "Meconium delayed beyond 48 hours suggests Hirschsprung."
+    },
+    {
+     "q": "Typical DRE in Hirschsprung disease?",
+     "options": [
+      "Empty rectum, explosive release",
+      "Packed rectum with hard stool",
+      "Lax sphincter with soiling"
+     ],
+     "answer": 0,
+     "why": "Empty tight rectum then explosive stool on finger withdrawal."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Biopsy proves absent ganglion cells with increased acetylcholinesterase fibres. Contrast enema shows the transition zone; manometry shows no rectoanal inhibitory reflex. Fissures are diagnosed by examination.",
+   "hook": "No ganglia, no RAIR = Hirschsprung.",
+   "checks": [
+    {
+     "q": "Gold-standard test for Hirschsprung disease?",
+     "options": [
+      "Contrast enema",
+      "Rectal suction biopsy",
+      "Abdominal X-ray"
+     ],
+     "answer": 1,
+     "why": "Suction biopsy: absent ganglion cells, raised acetylcholinesterase."
+    },
+    {
+     "q": "Which reflex is absent on anorectal manometry in Hirschsprung?",
+     "options": [
+      "Anal wink reflex",
+      "Cremasteric reflex",
+      "Rectoanal inhibitory reflex"
+     ],
+     "answer": 2,
+     "why": "RAIR absent; contrast enema shows transition zone."
+    },
+    {
+     "q": "How is an anal fissure diagnosed?",
+     "options": [
+      "Physical examination",
+      "Colonoscopy",
+      "MRI pelvis"
+     ],
+     "answer": 0,
+     "why": "Clinical: inspection, DRE, anoscopy."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Functional: clear the impaction with macrogol, then keep stools soft for months so the rectum can shrink back. Hirschsprung: washouts then pull-through; watch for enterocolitis.",
+   "hook": "Macrogol for months, not days.",
+   "checks": [
+    {
+     "q": "First-line drug for disimpaction in functional constipation?",
+     "options": [
+      "Senna enema",
+      "Macrogol",
+      "Loperamide"
+     ],
+     "answer": 1,
+     "why": "Macrogol disimpaction, then maintenance for months."
+    },
+    {
+     "q": "Definitive treatment of Hirschsprung disease?",
+     "options": [
+      "Lifelong laxatives",
+      "Botulinum toxin injection",
+      "Pull-through operation"
+     ],
+     "answer": 2,
+     "why": "Rectal washouts bridge to a pull-through operation."
+    },
+    {
+     "q": "Feared complication of Hirschsprung disease?",
+     "options": [
+      "Enterocolitis",
+      "Volvulus",
+      "Anal fissure"
+     ],
+     "answer": 0,
+     "why": "Hirschsprung enterocolitis: fever, distension, explosive foul diarrhoea."
+    }
+   ]
+  }
+ ],
+ "III-48": [
+  {
+   "block": "Def",
+   "explain": "Appendicitis is acute inflammation triggered by blockage of the appendix lumen.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Acute appendicitis usually starts with what?",
+     "options": [
+      "Blood-borne infection",
+      "Luminal obstruction",
+      "Ischaemic infarction"
+     ],
+     "answer": 1,
+     "why": "Luminal obstruction triggers inflammation."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Older children block the lumen with a faecolith; younger children often with lymphoid hyperplasia after a viral illness.",
+   "hook": "Young = lymphoid; Old = stone (faecolith).",
+   "checks": [
+    {
+     "q": "In younger children, appendiceal obstruction is often due to?",
+     "options": [
+      "Faecolith",
+      "Carcinoid tumour",
+      "Lymphoid hyperplasia"
+     ],
+     "answer": 2,
+     "why": "Lymphoid hyperplasia (post-viral) in younger; faecolith in older."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Blocked lumen builds pressure, venous outflow fails, bacteria invade, gangrene and perforation follow in 1.5-2 days. Pain shifts from vague visceral (T10, umbilicus) to sharp parietal (RIF). Under-5s perforate more: short omentum can't wall off.",
+   "hook": "Umbilicus (T10) → RIF as peritoneum gets involved.",
+   "checks": [
+    {
+     "q": "Appendix perforation typically occurs after how long?",
+     "options": [
+      "36-48 hours",
+      "6-12 hours",
+      "5-7 days"
+     ],
+     "answer": 0,
+     "why": "Obstruction → gangrene → perforation after 36-48 hours."
+    },
+    {
+     "q": "Early periumbilical appendix pain is referred via which dermatome?",
+     "options": [
+      "L1",
+      "T10",
+      "T6"
+     ],
+     "answer": 1,
+     "why": "Visceral afferents enter at T10 = umbilical dermatome."
+    },
+    {
+     "q": "Why do children under 5 perforate more often?",
+     "options": [
+      "Thinner appendix wall",
+      "Longer appendix",
+      "Short omentum"
+     ],
+     "answer": 2,
+     "why": "Short omentum fails to wall off the inflamed appendix."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Classic sequence: central pain first, then RIF, with vomiting after the pain began. Peritoneal irritation gives McBurney tenderness, pain on hopping/cough, and Rovsing's sign.",
+   "hook": "Pain first, vomit second.",
+   "checks": [
+    {
+     "q": "What is the typical sequence of pain in appendicitis?",
+     "options": [
+      "Periumbilical first, then right lower quadrant",
+      "Right lower quadrant first, then generalised",
+      "Loin first, then groin"
+     ],
+     "answer": 0,
+     "why": "Official answer: epigastric/periumbilical first, later RLQ."
+    },
+    {
+     "q": "Pressing the LIF causing RIF pain is which sign?",
+     "options": [
+      "Psoas sign",
+      "Rovsing's sign",
+      "Murphy's sign"
+     ],
+     "answer": 1,
+     "why": "Rovsing: palpating left iliac fossa hurts right iliac fossa."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Scores triage risk: low scorers go home, high go to theatre, middling get imaging. Ultrasound first (radiation-free): non-compressible tube >6 mm; CT only if unclear.",
+   "hook": "Appendix >6 mm, non-compressible = inflamed.",
+   "checks": [
+    {
+     "q": "Middle-range Paediatric Appendicitis Score leads to what?",
+     "options": [
+      "Discharge",
+      "Immediate surgery",
+      "Imaging"
+     ],
+     "answer": 2,
+     "why": "Low: discharge; high: surgery; middle: imaging."
+    },
+    {
+     "q": "Ultrasound diameter threshold for appendicitis?",
+     "options": [
+      "More than 6 mm",
+      "More than 3 mm",
+      "More than 12 mm"
+     ],
+     "answer": 0,
+     "why": "Non-compressible appendix >6 mm on ultrasound."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Analgesia doesn't mask signs, so give it freely. Laparoscopic appendicectomy is standard; an appendix mass is cooled down with antibiotics, interval surgery later.",
+   "hook": "Mass? Cool it first, cut later.",
+   "checks": [
+    {
+     "q": "Does analgesia mask the diagnosis of appendicitis?",
+     "options": [
+      "Yes, withhold it",
+      "No, give it freely",
+      "Only opioids mask it"
+     ],
+     "answer": 1,
+     "why": "Analgesia does not mask diagnosis; give freely."
+    },
+    {
+     "q": "Standard operation for acute appendicitis in children?",
+     "options": [
+      "Open right hemicolectomy",
+      "Percutaneous drainage only",
+      "Laparoscopic appendicectomy"
+     ],
+     "answer": 2,
+     "why": "Laparoscopic appendicectomy."
+    },
+    {
+     "q": "Initial management of an appendix mass?",
+     "options": [
+      "Antibiotics first",
+      "Immediate appendicectomy",
+      "Discharge with follow-up"
+     ],
+     "answer": 0,
+     "why": "Antibiotics ± drainage, then interval appendicectomy."
+    }
+   ]
+  }
+ ],
+ "III-49": [
+  {
+   "block": "Def",
+   "explain": "Torsion twists the organ on its vascular pedicle, cutting blood supply. Cryptorchidism means a testis has not reached the scrotum.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Cryptorchidism is defined as?",
+     "options": [
+      "Twisted testis",
+      "Testis not in scrotum",
+      "Absent vas deferens"
+     ],
+     "answer": 1,
+     "why": "Cryptorchidism: testis not in the scrotum."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "A bell-clapper testis hangs freely and can spin; it's usually bilateral, so both sides are fixed. Ovarian cysts/teratomas add weight that tips the ovary over. Undescended testes are far commoner in preterms.",
+   "hook": "Bell-clapper: swings like a bell, both sides.",
+   "checks": [
+    {
+     "q": "Testicular torsion predisposing anomaly?",
+     "options": [
+      "Varicocele",
+      "Hydrocele",
+      "Bell-clapper deformity"
+     ],
+     "answer": 2,
+     "why": "Bell-clapper deformity, usually bilateral."
+    },
+    {
+     "q": "Cryptorchidism prevalence in term boys?",
+     "options": [
+      "2-4%",
+      "Up to 30%",
+      "0.1%"
+     ],
+     "answer": 0,
+     "why": "Term 2-4%; preterm up to 30%."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Twisting first squeezes thin-walled veins, causing congestion, then arteries fail and the organ infarcts. A warm undescended testis loses germ cells, raising infertility and cancer risk.",
+   "hook": "Veins choke first, arteries die last.",
+   "checks": [
+    {
+     "q": "In torsion, which vessels occlude first?",
+     "options": [
+      "Arteries",
+      "Veins",
+      "Lymphatics only"
+     ],
+     "answer": 1,
+     "why": "Veins occlude first → congestion → arterial failure → infarction."
+    },
+    {
+     "q": "Undescended testis increases risk of which tumour?",
+     "options": [
+      "Leydig cell tumour",
+      "Lymphoma",
+      "Germ cell tumour"
+     ],
+     "answer": 2,
+     "why": "Germ cell degeneration → infertility and germ cell tumour risk."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Testicular torsion: sudden pain, vomiting, high horizontal testis, no cremasteric reflex. Torsion of appendix testis: blue dot, reflex kept. Ovarian torsion mimics appendicitis.",
+   "hook": "Blue dot = benign appendix testis.",
+   "checks": [
+    {
+     "q": "Cremasteric reflex in testicular torsion is?",
+     "options": [
+      "Absent",
+      "Present",
+      "Exaggerated"
+     ],
+     "answer": 0,
+     "why": "Absent cremasteric reflex supports testicular torsion."
+    },
+    {
+     "q": "Blue dot sign indicates torsion of?",
+     "options": [
+      "Spermatic cord",
+      "Appendix testis",
+      "Epididymis"
+     ],
+     "answer": 1,
+     "why": "Appendix testis torsion: blue dot, reflex preserved."
+    },
+    {
+     "q": "Ovarian torsion may mimic which condition?",
+     "options": [
+      "Pyloric stenosis",
+      "Intussusception",
+      "Appendicitis"
+     ],
+     "answer": 2,
+     "why": "Sudden unilateral lower abdominal pain + vomiting mimics appendicitis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Testicular torsion is a clinical diagnosis: scanning wastes salvage time. In ovarian torsion Doppler flow can persist, so a normal Doppler does not exclude it. Bilateral impalpable testes may be a virilised girl (CAH).",
+   "hook": "Torsion: theatre, not scan.",
+   "checks": [
+    {
+     "q": "Suspected testicular torsion: next step?",
+     "options": [
+      "Surgical exploration",
+      "Doppler ultrasound first",
+      "Analgesia and review"
+     ],
+     "answer": 0,
+     "why": "Clinical diagnosis → theatre; don't delay for a scan."
+    },
+    {
+     "q": "Does preserved Doppler flow exclude ovarian torsion?",
+     "options": [
+      "Yes",
+      "No",
+      "Only in teenagers"
+     ],
+     "answer": 1,
+     "why": "Preserved Doppler does not exclude ovarian torsion."
+    },
+    {
+     "q": "Bilateral impalpable testes: which must be excluded?",
+     "options": [
+      "Hirschsprung disease",
+      "Klinefelter only",
+      "CAH"
+     ],
+     "answer": 2,
+     "why": "Karyotype and exclude CAH (virilised 46,XX)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Testes survive ~6 hours of torsion (~90% salvage), so explore fast and fix both sides. A dusky ovary often recovers, so untwist and keep it. Orchidopexy at 6-18 months protects fertility.",
+   "hook": "6 hours to save the testis.",
+   "checks": [
+    {
+     "q": "Testicular torsion: explore within how many hours for ~90% salvage?",
+     "options": [
+      "6 hours",
+      "24 hours",
+      "2 hours"
+     ],
+     "answer": 0,
+     "why": "Within 6 hours ~90% salvage; detort and fix both sides."
+    },
+    {
+     "q": "A dusky ovary after detorsion should be?",
+     "options": [
+      "Removed",
+      "Preserved",
+      "Biopsied then removed"
+     ],
+     "answer": 1,
+     "why": "Untwist and preserve even if dusky; ovaries usually recover."
+    },
+    {
+     "q": "Recommended age for orchidopexy?",
+     "options": [
+      "3-5 years",
+      "Puberty",
+      "6-18 months"
+     ],
+     "answer": 2,
+     "why": "Refer by 3-6 months; orchidopexy at 6-18 months."
+    }
+   ]
+  }
+ ],
+ "III-50": [
+  {
+   "block": "Def",
+   "explain": "The neural tube closes in week 4: head end ~day 25, tail end ~day 28. Cranial failure gives anencephaly; caudal failure gives spina bifida.",
+   "hook": "Top closes day 25, bottom day 28.",
+   "checks": [
+    {
+     "q": "Caudal neural tube closure occurs around which day?",
+     "options": [
+      "Day 28",
+      "Day 25",
+      "Day 40"
+     ],
+     "answer": 0,
+     "why": "Cranial day 25, caudal day 28 (week 4)."
+    },
+    {
+     "q": "Failed cranial neural tube closure causes?",
+     "options": [
+      "Myelomeningocele",
+      "Anencephaly",
+      "Spina bifida occulta"
+     ],
+     "answer": 1,
+     "why": "Cranial failure = anencephaly; caudal = spina bifida."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Folate is needed for DNA synthesis during closure; folate antagonists (TMP-SMX, valproate) or a previous NTD raise risk, as do diabetes and obesity.",
+   "hook": "Folate fights NTDs.",
+   "checks": [
+    {
+     "q": "Which antibiotic in 1st trimester raises NTD risk?",
+     "options": [
+      "Amoxicillin",
+      "Erythromycin",
+      "Trimethoprim-sulfamethoxazole"
+     ],
+     "answer": 2,
+     "why": "TMP-SMX is a folate antagonist."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The exposed neural placode is damaged, so function is lost below the level. Most myelomeningoceles come with Chiari II, which blocks CSF flow → hydrocephalus.",
+   "hook": "Myelomeningocele → Chiari II → hydrocephalus.",
+   "checks": [
+    {
+     "q": "Neurological deficits in myelomeningocele occur where?",
+     "options": [
+      "Below the lesion level",
+      "Above the lesion level",
+      "Only at the lesion"
+     ],
+     "answer": 0,
+     "why": "Damaged placode → deficits below the level."
+    },
+    {
+     "q": "Myelomeningocele is typically associated with which malformation?",
+     "options": [
+      "Chiari I",
+      "Chiari II",
+      "Dandy-Walker"
+     ],
+     "answer": 1,
+     "why": "Tethered cord, Chiari II, then hydrocephalus."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Lower motor neuron damage gives flaccid legs, sensory loss and neurogenic bladder/bowel. Chiari II compresses the brainstem (stridor, apnoea); repeated surgery causes latex allergy.",
+   "hook": "Spina bifida = no latex.",
+   "checks": [
+    {
+     "q": "Leg weakness in myelomeningocele is typically?",
+     "options": [
+      "Spastic",
+      "Fluctuating",
+      "Flaccid"
+     ],
+     "answer": 2,
+     "why": "Damaged lower motor neurons → flaccid weakness."
+    },
+    {
+     "q": "Which allergy is common in spina bifida?",
+     "options": [
+      "Latex",
+      "Penicillin",
+      "Egg"
+     ],
+     "answer": 0,
+     "why": "Latex allergy from repeated exposure in surgery/catheterisation."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Open NTDs leak AFP into maternal serum. Ultrasound shows a lemon-shaped skull and banana-shaped cerebellum (Chiari II). At birth assess level, head and organ involvement.",
+   "hook": "Lemon skull, banana cerebellum.",
+   "checks": [
+    {
+     "q": "Maternal serum marker raised in open NTDs?",
+     "options": [
+      "hCG",
+      "Alpha-fetoprotein",
+      "PAPP-A"
+     ],
+     "answer": 1,
+     "why": "Raised maternal serum AFP."
+    },
+    {
+     "q": "At birth, which measurement tracks hydrocephalus in spina bifida?",
+     "options": [
+      "Chest circumference",
+      "Birth length",
+      "Head circumference"
+     ],
+     "answer": 2,
+     "why": "Head circumference and fontanelle assess hydrocephalus."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Routine folic acid 400 µg, 5 mg if high risk. At birth protect the placode (moist sterile, prone, no latex), close within 48 h; then CSF diversion, bladder catheterisation and physio.",
+   "hook": "400 µg routine; 5 mg high risk.",
+   "checks": [
+    {
+     "q": "Folic acid dose for high-risk pregnancies?",
+     "options": [
+      "5 mg daily",
+      "400 µg daily",
+      "1 mg weekly"
+     ],
+     "answer": 0,
+     "why": "Routine 400 µg; high risk (previous NTD, AEDs, diabetes) 5 mg."
+    },
+    {
+     "q": "Myelomeningocele should be closed within?",
+     "options": [
+      "2 weeks",
+      "48 hours",
+      "6 months"
+     ],
+     "answer": 1,
+     "why": "Moist sterile dressing, prone, no latex; close within 48 hours."
+    },
+    {
+     "q": "Neurogenic bladder in spina bifida is managed with?",
+     "options": [
+      "Long-term suprapubic tube",
+      "Tamsulosin alone",
+      "Clean intermittent catheterisation"
+     ],
+     "answer": 2,
+     "why": "CIC plus oxybutynin."
+    }
+   ]
+  }
+ ],
+ "III-51": [
+  {
+   "block": "Def",
+   "explain": "Oxygen deprivation around birth injures the brain (HIE), graded mild/moderate/severe by Sarnat staging.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Which staging grades HIE severity?",
+     "options": [
+      "Sarnat",
+      "Bell",
+      "Apgar"
+     ],
+     "answer": 0,
+     "why": "Sarnat staging grades HIE; Bell stages NEC."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Sentinel events (abruption, cord prolapse, rupture, dystocia) cut fetal oxygen. Supporting evidence: low 10-min Apgar, cord pH <7.0, big base deficit.",
+   "hook": "pH below 7 = serious acidosis.",
+   "checks": [
+    {
+     "q": "Which is a sentinel event for perinatal asphyxia?",
+     "options": [
+      "Maternal GBS carriage",
+      "Cord prolapse",
+      "Post-term delivery"
+     ],
+     "answer": 1,
+     "why": "Abruption, cord prolapse, uterine rupture, dystocia."
+    },
+    {
+     "q": "Cord pH supporting perinatal asphyxia?",
+     "options": [
+      "Below 7.3",
+      "Below 7.35",
+      "Below 7.0"
+     ],
+     "answer": 2,
+     "why": "pH <7.0 and base deficit ≥12-16 support asphyxia."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Hypoxia stops ATP production (primary failure). A latent phase of 1-6 h follows: the treatment window. Then secondary energy failure kills neurons. The diving reflex shunts blood to brain, heart, adrenals.",
+   "hook": "6-hour window: cool before secondary failure.",
+   "checks": [
+    {
+     "q": "Primary energy failure in HIE results from failure of?",
+     "options": [
+      "ATP",
+      "Glucose transport only",
+      "Oxygen delivery to kidneys"
+     ],
+     "answer": 0,
+     "why": "Hypoxia → ATP fails → oedema, excitotoxicity."
+    },
+    {
+     "q": "Latent phase in HIE (the treatment window) lasts?",
+     "options": [
+      "6-72 hours",
+      "1-6 hours",
+      "1-2 days"
+     ],
+     "answer": 1,
+     "why": "Latent 1-6 h, then secondary energy failure 6-72 h."
+    },
+    {
+     "q": "Which organ is NOT spared by the diving reflex?",
+     "options": [
+      "Heart",
+      "Adrenals",
+      "Kidneys"
+     ],
+     "answer": 2,
+     "why": "Brain, heart, adrenals spared; kidneys, gut, liver suffer."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Mild HIE: hyperalert, jittery. Moderate: lethargy, hypotonia, seizures. Severe: coma, flaccid, apnoea with multiorgan damage.",
+   "hook": "Mild jittery, moderate floppy, severe coma.",
+   "checks": [
+    {
+     "q": "Seizures and hypotonia indicate which HIE stage?",
+     "options": [
+      "Moderate",
+      "Mild",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "Mild: hyperalert; moderate: lethargy, hypotonia, seizures."
+    },
+    {
+     "q": "Kidney injury in severe HIE is typically?",
+     "options": [
+      "Glomerulonephritis",
+      "Acute tubular necrosis",
+      "Renal vein thrombosis"
+     ],
+     "answer": 1,
+     "why": "Multiorgan: ATN, PPHN, DIC, hypoglycaemia."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Cord gas confirms acidosis; aEEG recovering by 24-48 h is reassuring. MRI at days 4-10 shows injury; basal ganglia/thalamus lesions predict poor outcome.",
+   "hook": "Deep grey (BGT) damage = bad news.",
+   "checks": [
+    {
+     "q": "aEEG normalising by when is a good prognostic sign?",
+     "options": [
+      "7 days",
+      "2 weeks",
+      "24-48 hours"
+     ],
+     "answer": 2,
+     "why": "aEEG normalising by 24-48 h predicts good outcome."
+    },
+    {
+     "q": "MRI injury pattern predicting poor HIE prognosis?",
+     "options": [
+      "Basal ganglia and thalamus",
+      "Frontal cortex only",
+      "Cerebellar vermis"
+     ],
+     "answer": 0,
+     "why": "Basal ganglia/thalamus injury on MRI days 4-10 = poor prognosis."
+    },
+    {
+     "q": "Apgar score total out of?",
+     "options": [
+      "5",
+      "10",
+      "15"
+     ],
+     "answer": 1,
+     "why": "Five items scored 0-2 = 10-point scale."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Cooling slows secondary energy failure in babies ≥36 weeks with moderate/severe HIE: 33.5 °C for 72 h started within 6 h, rewarmed slowly. Support: normocapnia, avoid heat, restrict fluids, phenobarbital for seizures.",
+   "hook": "33.5 for 72, start by 6.",
+   "checks": [
+    {
+     "q": "Minimum gestation for therapeutic cooling?",
+     "options": [
+      "32 weeks",
+      "28 weeks",
+      "36 weeks"
+     ],
+     "answer": 2,
+     "why": "Cooling for moderate or severe HIE, babies ≥36 weeks."
+    },
+    {
+     "q": "Target temperature for therapeutic hypothermia?",
+     "options": [
+      "33.5 °C",
+      "35.5 °C",
+      "31.5 °C"
+     ],
+     "answer": 0,
+     "why": "33.5 °C for 72 h, started within 6 h; rewarm 0.5 °C/h."
+    },
+    {
+     "q": "First-line drug for neonatal seizures in HIE?",
+     "options": [
+      "Levetiracetam",
+      "Phenobarbital",
+      "Midazolam infusion"
+     ],
+     "answer": 1,
+     "why": "Notes: seizures → phenobarbital."
+    }
+   ]
+  }
+ ],
+ "III-52": [
+  {
+   "block": "Def",
+   "explain": "Hydrocephalus is too much CSF dilating the ventricles. CP is a permanent, non-progressive injury to the developing brain.",
+   "hook": "CP doesn't progress; the picture changes.",
+   "checks": [
+    {
+     "q": "Hydrocephalus is CSF accumulation with what?",
+     "options": [
+      "Cerebral atrophy only",
+      "Subdural collection",
+      "Ventricular dilatation"
+     ],
+     "answer": 2,
+     "why": "CSF builds up and dilates the ventricles."
+    },
+    {
+     "q": "Essential criterion of cerebral palsy?",
+     "options": [
+      "Non-progressive, residual brain injury",
+      "Progressive motor deterioration",
+      "Genetic aetiology confirmed"
+     ],
+     "answer": 0,
+     "why": "Official answer: non-progressive, residual brain injury."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Hydrocephalus: blockage (aqueduct stenosis, Chiari II, tumour) or failed absorption (post-bleed/meningitis). CP: mostly antenatal; prematurity is the strongest risk factor.",
+   "hook": "CP biggest risk: being born early.",
+   "checks": [
+    {
+     "q": "Which causes obstructive hydrocephalus?",
+     "options": [
+      "Choroid plexus hypoplasia",
+      "Aqueduct stenosis",
+      "Microcephaly"
+     ],
+     "answer": 1,
+     "why": "Aqueduct stenosis blocks CSF between 3rd and 4th ventricles."
+    },
+    {
+     "q": "Strongest risk factor for cerebral palsy?",
+     "options": [
+      "HIE at term",
+      "Kernicterus",
+      "Prematurity"
+     ],
+     "answer": 2,
+     "why": "Prematurity (PVL, IVH) is strongest; most CP originates antenatally."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "CSF builds up behind obstruction or poor absorption; open sutures let the infant skull expand. Preterm IVH starts in the fragile germinal matrix. CP: the lesion is static but tone evolves from floppy to spastic.",
+   "hook": "Germinal matrix = preterm bleed site.",
+   "checks": [
+    {
+     "q": "Infant skull expands in hydrocephalus because?",
+     "options": [
+      "Sutures are open",
+      "Bone is resorbed",
+      "CSF dissolves bone"
+     ],
+     "answer": 0,
+     "why": "Open sutures allow the skull to expand."
+    },
+    {
+     "q": "Where does preterm IVH arise?",
+     "options": [
+      "Choroid plexus",
+      "Germinal matrix",
+      "Cerebellum"
+     ],
+     "answer": 1,
+     "why": "The fragile germinal matrix bleeds in preterms."
+    },
+    {
+     "q": "Typical tone evolution in cerebral palsy?",
+     "options": [
+      "Spasticity to hypotonia",
+      "Normal to hypotonia",
+      "Hypotonia to spasticity"
+     ],
+     "answer": 2,
+     "why": "Static lesion, evolving picture: hypotonia → spasticity."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Hydrocephalus in infants: head crossing centiles, bulging fontanelle, sunsetting eyes. CP types: spastic (commonest), dyskinetic (basal ganglia), ataxic (cerebellum). Early hand preference implies weakness of one side.",
+   "hook": "Hand preference <12 months = hemiplegia.",
+   "checks": [
+    {
+     "q": "Eye sign of infant hydrocephalus?",
+     "options": [
+      "Sunsetting eyes",
+      "Lisch nodules",
+      "Cherry-red spot"
+     ],
+     "answer": 0,
+     "why": "Sunsetting eyes, bulging fontanelle, head crossing centiles."
+    },
+    {
+     "q": "Most common type of cerebral palsy?",
+     "options": [
+      "Dyskinetic",
+      "Spastic",
+      "Ataxic"
+     ],
+     "answer": 1,
+     "why": "Spastic CP is commonest."
+    },
+    {
+     "q": "Hand preference before 12 months suggests?",
+     "options": [
+      "Normal precocity",
+      "Autism",
+      "Hemiplegia"
+     ],
+     "answer": 2,
+     "why": "Early hand preference suggests hemiplegic CP."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Open fontanelle lets cranial ultrasound image infant ventricles/IVH; MRI otherwise. CP needs standard movement assessment plus MRI; function is graded with GMFCS.",
+   "hook": "GMFCS grades CP mobility I-V.",
+   "checks": [
+    {
+     "q": "Imaging for hydrocephalus in an infant with open fontanelle?",
+     "options": [
+      "Cranial ultrasound",
+      "Skull X-ray",
+      "CT angiogram"
+     ],
+     "answer": 0,
+     "why": "Cranial ultrasound in infants; MRI otherwise."
+    },
+    {
+     "q": "Which scale classifies functional level in cerebral palsy?",
+     "options": [
+      "Glasgow Coma Scale",
+      "GMFCS",
+      "Sarnat staging"
+     ],
+     "answer": 1,
+     "why": "Gross Motor Function Classification System."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "CSF is diverted by VP shunt or ETV; headache, vomiting, drowsiness mean shunt blockage. CP needs a team, plus tone treatment (baclofen, botulinum toxin) and hip surveillance.",
+   "hook": "Shunt + vomiting + drowsy = blocked.",
+   "checks": [
+    {
+     "q": "Headache, vomiting, drowsiness in a shunted child suggest?",
+     "options": [
+      "Migraine",
+      "Gastroenteritis",
+      "Shunt blockage"
+     ],
+     "answer": 2,
+     "why": "Raised ICP symptoms = shunt blockage until proven otherwise."
+    },
+    {
+     "q": "Which drug is injected locally for CP spasticity?",
+     "options": [
+      "Botulinum toxin",
+      "Baclofen",
+      "Diazepam"
+     ],
+     "answer": 0,
+     "why": "Botulinum toxin is injected into muscles; baclofen is oral/intrathecal."
+    }
+   ]
+  }
+ ],
+ "III-53": [
+  {
+   "block": "Def",
+   "explain": "Meningitis infects the meninges; a brain abscess is a localised, walled-off pus collection inside brain tissue.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "A brain abscess is defined as?",
+     "options": [
+      "Diffuse meningeal pus",
+      "Walled-off pus in brain",
+      "Infected subdural blood"
+     ],
+     "answer": 1,
+     "why": "Brain abscess = walled-off pus in brain parenchyma."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Neonates get organisms from the birth canal (GBS, E. coli, Listeria). Older children: meningococcus, pneumococcus. Abscess spreads from ear/sinus or via right-to-left shunts that bypass lung filtering.",
+   "hook": "Newborn: GBS, E. coli, Listeria.",
+   "checks": [
+    {
+     "q": "Two most frequent pathogens in neonatal meningitis?",
+     "options": [
+      "Pneumococcus and Hib",
+      "Meningococcus and Listeria",
+      "GBS and E. coli"
+     ],
+     "answer": 2,
+     "why": "Official answer: Streptococcus agalactiae (GBS) and E. coli."
+    },
+    {
+     "q": "Which heart disease predisposes to brain abscess?",
+     "options": [
+      "Cyanotic CHD",
+      "Isolated ASD with left-to-right shunt",
+      "Bicuspid aortic valve"
+     ],
+     "answer": 0,
+     "why": "Right-to-left shunt bypasses the lung filter."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Cytokines open the blood-brain barrier: protein leaks in, bacteria consume glucose, neutrophils flood in. Oedema and poor CSF absorption raise ICP.",
+   "hook": "Bacteria: protein Up, glucose Down.",
+   "checks": [
+    {
+     "q": "CSF changes in bacterial meningitis?",
+     "options": [
+      "Protein low, glucose high",
+      "Protein high, glucose low",
+      "Protein normal, glucose low"
+     ],
+     "answer": 1,
+     "why": "Official answer: protein elevated, glucose decreased."
+    },
+    {
+     "q": "Raised ICP in meningitis is due to oedema and impaired what?",
+     "options": [
+      "CSF production",
+      "Venous dilation",
+      "CSF absorption"
+     ],
+     "answer": 2,
+     "why": "Oedema plus impaired CSF absorption raise ICP."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Older children show meningism (neck stiffness, Kernig, Brudzinski); infants show nonspecific fever, irritability, bulging fontanelle. Non-blanching rash means meningococcal sepsis. Abscess: focal signs, fever in only half.",
+   "hook": "Non-blanching rash = meningococcus until proven otherwise.",
+   "checks": [
+    {
+     "q": "Meningitis sign in infants?",
+     "options": [
+      "Bulging fontanelle",
+      "Kernig's sign",
+      "Neck stiffness"
+     ],
+     "answer": 0,
+     "why": "Infants rarely show meningism; look for fever, irritability, bulging fontanelle."
+    },
+    {
+     "q": "A non-blanching rash with fever suggests?",
+     "options": [
+      "Viral exanthem",
+      "Meningococcal sepsis",
+      "ITP"
+     ],
+     "answer": 1,
+     "why": "Non-blanching rash → meningococcal sepsis."
+    },
+    {
+     "q": "Proportion of brain abscess patients with fever?",
+     "options": [
+      "Nearly all",
+      "Under 10%",
+      "About half"
+     ],
+     "answer": 2,
+     "why": "Fever is present in only half; focal signs and headache dominate."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Bacterial CSF: neutrophils >1000/µL, protein >1 g/L, low glucose ratio. With raised ICP, shock or coagulopathy, skip LP but never delay antibiotics. Abscess: ring-enhancing lesion; LP risks herniation.",
+   "hook": "LP can wait, antibiotics can't.",
+   "checks": [
+    {
+     "q": "CSF:blood glucose ratio in bacterial meningitis?",
+     "options": [
+      "Below 0.4",
+      "Below 0.8",
+      "Above 0.6"
+     ],
+     "answer": 0,
+     "why": "CSF:blood glucose <0.4 with neutrophils >1000/µL."
+    },
+    {
+     "q": "With raised ICP in suspected meningitis, what is delayed?",
+     "options": [
+      "Antibiotics",
+      "Lumbar puncture",
+      "Blood cultures"
+     ],
+     "answer": 1,
+     "why": "Delay LP, never delay antibiotics."
+    },
+    {
+     "q": "Brain abscess appearance on contrast imaging?",
+     "options": [
+      "Diffuse meningeal enhancement",
+      "Tram-track calcification",
+      "Ring-enhancing lesion"
+     ],
+     "answer": 2,
+     "why": "Ring-enhancing lesion; LP contraindicated."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Under 3 months add amoxicillin to cefotaxime to cover Listeria; older children get ceftriaxone. Dexamethasone (>3 months) cuts hearing loss; test hearing within 4 weeks. Abscesses need drainage plus 4-8 weeks IV antibiotics.",
+   "hook": "Under 3 months: add amoxicillin for Listeria.",
+   "checks": [
+    {
+     "q": "Why add amoxicillin under 3 months?",
+     "options": [
+      "To cover Listeria",
+      "To cover GBS",
+      "To cover meningococcus"
+     ],
+     "answer": 0,
+     "why": "Cephalosporins miss Listeria; amoxicillin covers it."
+    },
+    {
+     "q": "Dexamethasone in meningitis reduces what?",
+     "options": [
+      "Mortality from sepsis",
+      "Hearing loss",
+      "Seizure frequency"
+     ],
+     "answer": 1,
+     "why": "Dexamethasone (>3 months) reduces hearing loss."
+    },
+    {
+     "q": "Duration of IV antibiotics for brain abscess?",
+     "options": [
+      "7-10 days",
+      "3-6 months",
+      "4-8 weeks"
+     ],
+     "answer": 2,
+     "why": "Drain + IV antibiotics 4-8 weeks."
+    }
+   ]
+  }
+ ],
+ "III-54": [
+  {
+   "block": "Def",
+   "explain": "Encephalitis inflames brain tissue itself. Facial palsy is central (UMN, above facial nucleus) or peripheral (LMN, nerve itself).",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Encephalitis is inflammation of what?",
+     "options": [
+      "Brain parenchyma",
+      "Meninges only",
+      "Spinal cord"
+     ],
+     "answer": 0,
+     "why": "Encephalitis = brain parenchyma; meningitis = meninges."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "HSV-1 is the key treatable cause in children (HSV-2 in neonates); also autoimmune (anti-NMDAR, ADEM). Facial palsy: Bell is a diagnosis of exclusion; consider otitis, Lyme, VZV, hypertension, leukaemia.",
+   "hook": "Bell's = last resort label.",
+   "checks": [
+    {
+     "q": "Key treatable cause of childhood encephalitis?",
+     "options": [
+      "Enterovirus",
+      "HSV-1",
+      "Measles"
+     ],
+     "answer": 1,
+     "why": "HSV-1 is treatable with aciclovir; neonates HSV-2."
+    },
+    {
+     "q": "Ramsay Hunt syndrome is caused by?",
+     "options": [
+      "HSV-1",
+      "Borrelia",
+      "VZV"
+     ],
+     "answer": 2,
+     "why": "Ramsay Hunt = VZV reactivation in the geniculate ganglion."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "HSV encephalitis favours the temporal lobes. The upper face gets cortical input from both hemispheres, so a central lesion spares the forehead.",
+   "hook": "Forehead spared = Central (brain) lesion.",
+   "checks": [
+    {
+     "q": "Which lobe does HSV encephalitis typically affect?",
+     "options": [
+      "Temporal",
+      "Occipital",
+      "Parietal"
+     ],
+     "answer": 0,
+     "why": "HSV encephalitis targets the temporal lobe."
+    },
+    {
+     "q": "Why is the forehead spared in central facial palsy?",
+     "options": [
+      "Separate cranial nerve",
+      "Bilateral cortical supply",
+      "Peripheral nerve regeneration"
+     ],
+     "answer": 1,
+     "why": "Upper face nucleus gets bilateral cortical input."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Encephalitis = fever plus altered behaviour/consciousness, seizures, focal signs. Peripheral palsy hits the whole half-face; central spares the forehead. Bilateral palsy: Lyme, GBS, leukaemia.",
+   "hook": "Bilateral facial palsy: Lyme, GBS, Leukaemia.",
+   "checks": [
+    {
+     "q": "Encephalitis differs from meningitis by featuring?",
+     "options": [
+      "Neck stiffness",
+      "Photophobia",
+      "Altered behaviour/consciousness"
+     ],
+     "answer": 2,
+     "why": "Fever + altered behaviour/consciousness suggests parenchymal involvement."
+    },
+    {
+     "q": "Peripheral facial palsy affects?",
+     "options": [
+      "Whole half-face",
+      "Lower face only",
+      "Forehead only"
+     ],
+     "answer": 0,
+     "why": "Peripheral (LMN): whole half-face incl. forehead, can't close eye."
+    },
+    {
+     "q": "Ear vesicles with facial palsy suggest?",
+     "options": [
+      "Lyme disease",
+      "Ramsay Hunt syndrome",
+      "Bell palsy"
+     ],
+     "answer": 1,
+     "why": "Ramsay Hunt: VZV vesicles in the ear."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Viral encephalitis: lymphocytic CSF with normal glucose; HSV PCR confirms; MRI and EEG show temporal changes. Every facial palsy: look in the ear and check BP; atypical course → brain imaging.",
+   "hook": "Facial palsy: ear + BP every time.",
+   "checks": [
+    {
+     "q": "Typical CSF in viral encephalitis?",
+     "options": [
+      "Neutrophils, low glucose",
+      "Normal cells, high protein",
+      "Lymphocytes, normal glucose"
+     ],
+     "answer": 2,
+     "why": "Lymphocytic CSF with normal glucose; send HSV PCR."
+    },
+    {
+     "q": "Which measurement is mandatory in every facial palsy?",
+     "options": [
+      "Blood pressure",
+      "Blood glucose",
+      "Serum calcium"
+     ],
+     "answer": 0,
+     "why": "Hypertension can cause facial palsy; also examine the ear."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Start IV aciclovir on suspicion: 14-21 days (21 in neonates); it can crystallise in kidneys, so hydrate. Anti-NMDAR in girls → search for ovarian teratoma. Bell's: eye protection and prednisolone within 72 h.",
+   "hook": "Suspect HSV? Aciclovir now, prove later.",
+   "checks": [
+    {
+     "q": "Neonatal HSV encephalitis aciclovir duration?",
+     "options": [
+      "14 days",
+      "21 days",
+      "7 days"
+     ],
+     "answer": 1,
+     "why": "14-21 days; 21 days in neonates."
+    },
+    {
+     "q": "Anti-NMDAR encephalitis in a girl: search for?",
+     "options": [
+      "Neuroblastoma",
+      "Thymoma",
+      "Ovarian teratoma"
+     ],
+     "answer": 2,
+     "why": "Ovarian teratoma can drive anti-NMDAR antibodies."
+    },
+    {
+     "q": "Prednisolone for Bell palsy should start within?",
+     "options": [
+      "72 hours",
+      "7 days",
+      "24 hours"
+     ],
+     "answer": 0,
+     "why": "Prednisolone within 72 h; protect the eye."
+    }
+   ]
+  }
+ ],
+ "III-55": [
+  {
+   "block": "Def",
+   "explain": "Skin and nervous system both develop from ectoderm, so one genetic defect can mark both.",
+   "hook": "Skin + brain: same ectoderm parent.",
+   "checks": [
+    {
+     "q": "Why do neurocutaneous syndromes affect skin and nerves?",
+     "options": [
+      "Shared mesodermal origin",
+      "Shared ectodermal origin",
+      "Common vascular supply"
+     ],
+     "answer": 1,
+     "why": "Both derive from ectoderm."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "NF1 = neurofibromin on chr 17; NF2 = merlin on chr 22 (both AD). TSC1/2 also AD. Sturge-Weber is a somatic GNAQ mutation, so not inherited.",
+   "hook": "NF2 = chromosome 22 (two twos); NF1 = 17.",
+   "checks": [
+    {
+     "q": "NF1 gene is located on which chromosome?",
+     "options": [
+      "22",
+      "9",
+      "17"
+     ],
+     "answer": 2,
+     "why": "NF1 neurofibromin chr 17; NF2 merlin chr 22."
+    },
+    {
+     "q": "Sturge-Weber syndrome results from what?",
+     "options": [
+      "Somatic GNAQ mutation",
+      "Autosomal dominant TSC2 mutation",
+      "X-linked inheritance"
+     ],
+     "answer": 0,
+     "why": "Somatic GNAQ mutation, not inherited."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Neurofibromin normally brakes Ras; loss lets neural crest cells grow tumours. TSC loss overactivates mTOR → hamartomas. SWS: a leptomeningeal angioma steals blood → cortical ischaemia.",
+   "hook": "TSC = mTOR → everolimus blocks it.",
+   "checks": [
+    {
+     "q": "Loss of neurofibromin leaves which pathway unchecked?",
+     "options": [
+      "Wnt",
+      "Ras",
+      "JAK-STAT"
+     ],
+     "answer": 1,
+     "why": "Neurofibromin is a Ras-GAP; loss → Ras overactivity."
+    },
+    {
+     "q": "Which pathway is overactive in tuberous sclerosis?",
+     "options": [
+      "Ras/MAPK",
+      "Hedgehog",
+      "mTOR"
+     ],
+     "answer": 2,
+     "why": "TSC1/TSC2 loss → mTOR overactivity → hamartomas."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "NF1: ≥6 café-au-lait macules, freckling, neurofibromas, optic glioma, Lisch nodules. NF2: bilateral vestibular schwannomas. TSC: ash-leaf macules, angiofibromas, cardiac rhabdomyomas, infantile spasms. SWS: V1 port-wine stain.",
+   "hook": "NF2 = 2 ears (bilateral vestibular schwannomas).",
+   "checks": [
+    {
+     "q": "NF1 requires at least how many café-au-lait macules?",
+     "options": [
+      "6",
+      "3",
+      "10"
+     ],
+     "answer": 0,
+     "why": "≥6 café-au-lait macules is an NF1 criterion."
+    },
+    {
+     "q": "Hallmark tumour of NF2?",
+     "options": [
+      "Optic glioma",
+      "Bilateral vestibular schwannomas",
+      "Plexiform neurofibroma"
+     ],
+     "answer": 1,
+     "why": "NF2: bilateral vestibular schwannomas."
+    },
+    {
+     "q": "Port-wine stain distribution in Sturge-Weber?",
+     "options": [
+      "V3 (mandibular)",
+      "C2 dermatome",
+      "V1 (ophthalmic)"
+     ],
+     "answer": 2,
+     "why": "V1 port-wine stain with seizures, hemiparesis, glaucoma."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "NF1 needs two or more criteria; annual eye checks catch optic glioma. Wood's lamp shows ash-leaf macules; infantile spasms show hypsarrhythmia. SWS: tram-track gyral calcification.",
+   "hook": "Tram-tracks = Sturge-Weber.",
+   "checks": [
+    {
+     "q": "Annual check in NF1 children screens for?",
+     "options": [
+      "Optic glioma",
+      "Glaucoma",
+      "Cataract"
+     ],
+     "answer": 0,
+     "why": "Annual eye checks screen for optic pathway glioma."
+    },
+    {
+     "q": "Which tool reveals ash-leaf macules?",
+     "options": [
+      "Dermatoscope with polarised light",
+      "Wood lamp",
+      "Slit lamp"
+     ],
+     "answer": 1,
+     "why": "Wood lamp highlights hypopigmented ash-leaf macules."
+    },
+    {
+     "q": "Characteristic imaging finding in Sturge-Weber?",
+     "options": [
+      "Ring-enhancing lesion",
+      "Subependymal nodules",
+      "Tram-track calcification"
+     ],
+     "answer": 2,
+     "why": "Tram-track (gyriform) calcification."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Selumetinib (MEK inhibitor) shrinks NF1 plexiform neurofibromas by blocking Ras downstream. TSC spasms: vigabatrin; SEGA: everolimus (mTOR). SWS: seizure control, aspirin, glaucoma follow-up, laser.",
+   "hook": "TSC spasms? Vigabatrin.",
+   "checks": [
+    {
+     "q": "Drug for NF1 plexiform neurofibroma?",
+     "options": [
+      "Selumetinib",
+      "Everolimus",
+      "Vigabatrin"
+     ],
+     "answer": 0,
+     "why": "Selumetinib (MEK inhibitor) targets Ras pathway downstream."
+    },
+    {
+     "q": "First-line treatment of infantile spasms in TSC?",
+     "options": [
+      "Prednisolone",
+      "Vigabatrin",
+      "Valproate"
+     ],
+     "answer": 1,
+     "why": "Vigabatrin is first-line for TSC spasms; SEGA: everolimus."
+    },
+    {
+     "q": "Which antiplatelet is used in Sturge-Weber?",
+     "options": [
+      "Clopidogrel",
+      "Dipyridamole",
+      "Low-dose aspirin"
+     ],
+     "answer": 2,
+     "why": "Low-dose aspirin reduces stroke-like episodes; plus seizure control, laser."
+    }
+   ]
+  }
+ ]
+}

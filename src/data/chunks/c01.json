@@ -1,0 +1,2442 @@
+{
+ "I-16": [
+  {
+   "block": "Def",
+   "explain": "Red urine or a positive dipstick is not haematuria until microscopy shows red cells; then the source decides the work-up.",
+   "hook": "Dipstick suspects, microscope convicts.",
+   "checks": [
+    {
+     "q": "What confirms true haematuria?",
+     "options": [
+      "Red cells on urine microscopy",
+      "Positive dipstick for blood",
+      "Red-coloured urine on inspection"
+     ],
+     "answer": 0,
+     "why": "Microscopy proves red cells; dipsticks also react to haemoglobin and myoglobin."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Glomerular causes leak cells through damaged filters; non-glomerular bleed from the tract below. UTI is the commonest cause overall.",
+   "hook": "Filter vs pipes: IgA, PSGN, HSP, Alport above; UTI, stones, trauma, Wilms below.",
+   "checks": [
+    {
+     "q": "Which is a glomerular cause of haematuria?",
+     "options": [
+      "Urinary stones",
+      "Alport syndrome",
+      "Sickle cell disease"
+     ],
+     "answer": 1,
+     "why": "Alport is a type IV collagen glomerular disease; stones and sickle bleed below the glomerulus."
+    },
+    {
+     "q": "Commonest cause of haematuria overall in children?",
+     "options": [
+      "IgA nephropathy",
+      "Wilms tumour",
+      "Urinary tract infection"
+     ],
+     "answer": 2,
+     "why": "UTI is the commonest cause overall; IgA is the commonest glomerulonephritis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Casts form in tubules, so red cell casts mean the cells entered at the nephron. Timing after sore throat separates IgA from post-strep GN.",
+   "hook": "IgA = 'Immediately' (1-2 days); post-strep = 'Patient' (1-3 weeks).",
+   "checks": [
+    {
+     "q": "Which urine finding proves glomerular haematuria?",
+     "options": [
+      "Red cell casts",
+      "Clots in the urine",
+      "Terminal haematuria"
+     ],
+     "answer": 0,
+     "why": "Casts are moulded in tubules, so red cell casts place the bleed in the nephron."
+    },
+    {
+     "q": "Haematuria 1-2 days after URTI with normal complement suggests?",
+     "options": [
+      "Post-streptococcal GN",
+      "Membranoproliferative GN",
+      "IgA nephropathy"
+     ],
+     "answer": 2,
+     "why": "IgA is synpharyngitic with normal C3; post-strep comes 1-3 weeks later with low C3."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Blood that passes the glomerulus is altered to brown and does not clot. Timing in the stream locates lower-tract bleeding.",
+   "hook": "Cola = kidney; clots = plumbing.",
+   "checks": [
+    {
+     "q": "Colour of glomerular haematuria?",
+     "options": [
+      "Bright red with clots",
+      "Brown or cola-coloured",
+      "Pink only at stream end"
+     ],
+     "answer": 1,
+     "why": "Glomerular blood is oxidised to brown and lacks clots; clots point to lower tract."
+    },
+    {
+     "q": "Haematuria only at the start of the stream suggests which origin?",
+     "options": [
+      "Urethra",
+      "Bladder",
+      "Kidney"
+     ],
+     "answer": 0,
+     "why": "Initial = urethral; terminal = bladder neck or prostate."
+    },
+    {
+     "q": "Haematuria plus sensorineural deafness suggests?",
+     "options": [
+      "IgA nephropathy",
+      "Thin basement membrane disease",
+      "Alport syndrome"
+     ],
+     "answer": 2,
+     "why": "Alport (collagen IV) affects kidney, cochlea and eye; thin BM disease has no deafness."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A positive dipstick without red cells means a pigment, not blood. In glomerular disease, complement and renal function stage it.",
+   "hook": "Dipstick positive, no cells → think pigment.",
+   "checks": [
+    {
+     "q": "Dipstick blood positive, no red cells on microscopy suggests?",
+     "options": [
+      "Beetroot ingestion",
+      "Myoglobinuria or haemoglobinuria",
+      "Rifampicin use"
+     ],
+     "answer": 1,
+     "why": "Haem pigments react with the dipstick; beetroot and rifampicin colour urine but are dipstick negative."
+    },
+    {
+     "q": "Key blood test in glomerular haematuria?",
+     "options": [
+      "Complement levels",
+      "Serum ferritin",
+      "Blood culture"
+     ],
+     "answer": 0,
+     "why": "Low C3 points to post-strep GN, MPGN or lupus; normal C3 to IgA."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Once casts prove a glomerular source, cystoscopy is pointless. Non-glomerular causes are treated directly.",
+   "hook": "Casts → kidney, not bladder.",
+   "checks": [
+    {
+     "q": "Red cell casts found: next direction of work-up?",
+     "options": [
+      "Cystoscopy",
+      "Glomerular work-up",
+      "Bladder ultrasound only"
+     ],
+     "answer": 1,
+     "why": "Casts localise to the glomerulus, so stop investigating the bladder."
+    },
+    {
+     "q": "Wilms tumour typically spreads to which organ?",
+     "options": [
+      "Bone",
+      "Liver",
+      "Lungs"
+     ],
+     "answer": 2,
+     "why": "Wilms metastasises mostly to the lungs; neuroblastoma favours bone and marrow."
+    }
+   ]
+  }
+ ],
+ "I-17": [
+  {
+   "block": "Def",
+   "explain": "Bladder control is expected by 5, so wetting is only labelled enuresis after that age and when frequent and persistent.",
+   "hook": "5 years, 2 a week, 3 months: 5-2-3.",
+   "checks": [
+    {
+     "q": "Minimum age to diagnose enuresis?",
+     "options": [
+      "4 years",
+      "5 years",
+      "6 years"
+     ],
+     "answer": 1,
+     "why": "Enuresis needs age ≥ 5 with wetting ≥ 2 times/week for ≥ 3 months."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Nocturnal enuresis is strongly inherited. Secondary enuresis (after 6 dry months) needs a cause such as UTI or diabetes.",
+   "hook": "Both parents wet → 7 in 10 kids wet.",
+   "checks": [
+    {
+     "q": "Greatest risk factor for primary enuresis?",
+     "options": [
+      "Family history",
+      "Constipation",
+      "Male sex"
+     ],
+     "answer": 0,
+     "why": "Genetics dominates: both parents affected gives ~70% risk."
+    },
+    {
+     "q": "Which is a cause of secondary enuresis?",
+     "options": [
+      "Small for gestational age",
+      "Diabetes mellitus",
+      "Iron deficiency"
+     ],
+     "answer": 1,
+     "why": "New wetting after being dry suggests UTI, DM, DI, constipation or stress."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Three mechanisms: the child does not wake, makes too much night urine (low ADH), or has a small bladder. A full rectum irritates the bladder.",
+   "hook": "Sleep, wee volume, small tank.",
+   "checks": [
+    {
+     "q": "Nocturnal polyuria in enuresis reflects low levels of?",
+     "options": [
+      "Aldosterone",
+      "Cortisol",
+      "ADH"
+     ],
+     "answer": 2,
+     "why": "Inadequate nocturnal ADH rise causes high night urine volume, the basis for desmopressin."
+    },
+    {
+     "q": "How does constipation cause wetting?",
+     "options": [
+      "Detrusor overactivity from bladder compression",
+      "Reduced ADH secretion",
+      "Urethral sphincter weakness"
+     ],
+     "answer": 0,
+     "why": "A loaded rectum compresses the bladder, triggering overactive detrusor contractions."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Constant dribbling despite normal voiding means urine bypasses the sphincter, classically an ectopic ureter in girls.",
+   "hook": "Always damp girl = ureter in the wrong place.",
+   "checks": [
+    {
+     "q": "Continuous dampness in a toilet-trained girl suggests?",
+     "options": [
+      "Detrusor overactivity",
+      "Ectopic ureter",
+      "Posterior urethral valves"
+     ],
+     "answer": 1,
+     "why": "An ectopic ureter entering below the sphincter drips constantly; valves occur in boys."
+    },
+    {
+     "q": "Sacral dimple with hairy patch in an enuretic child suggests?",
+     "options": [
+      "Spinal dysraphism",
+      "Hirschsprung disease",
+      "Diabetes insipidus"
+     ],
+     "answer": 0,
+     "why": "Cutaneous lumbosacral markers signal occult spinal dysraphism (tethered cord)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Rule out organic causes cheaply: dipstick and a focused neuro exam catch most.",
+   "hook": "Dip every wetter.",
+   "checks": [
+    {
+     "q": "First investigation for every enuretic child?",
+     "options": [
+      "Renal ultrasound",
+      "Urine dipstick",
+      "Voiding cystourethrogram"
+     ],
+     "answer": 1,
+     "why": "Dipstick screens for infection, glucose and concentrating ability (specific gravity)."
+    },
+    {
+     "q": "Which examination is key in enuresis?",
+     "options": [
+      "Fundoscopy",
+      "Thyroid palpation",
+      "Lumbosacral spine and lower limbs"
+     ],
+     "answer": 2,
+     "why": "Spine, gait and lower-limb reflexes screen for neurogenic bladder."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Start with behavioural measures; add alarm (conditioning, lasting cure) or desmopressin (fast, but relapse). Desmopressin + fluids risks hyponatraemia.",
+   "hook": "Alarm cures, desmopressin covers (sleepovers).",
+   "checks": [
+    {
+     "q": "First-line treatment of enuresis?",
+     "options": [
+      "Oral desmopressin",
+      "Lifestyle and behavioural training",
+      "Imipramine"
+     ],
+     "answer": 1,
+     "why": "Behavioural measures first: evening fluid restriction and timed voiding."
+    },
+    {
+     "q": "Which drug is now rarely used for enuresis?",
+     "options": [
+      "Desmopressin",
+      "Oxybutynin",
+      "Imipramine"
+     ],
+     "answer": 2,
+     "why": "Imipramine is rarely used because of cardiotoxicity in overdose."
+    },
+    {
+     "q": "Main risk if fluids aren't restricted on desmopressin?",
+     "options": [
+      "Hyperkalaemia",
+      "Hyponatraemia",
+      "Hypoglycaemia"
+     ],
+     "answer": 1,
+     "why": "Desmopressin retains free water; evening drinking causes dilutional hyponatraemia."
+    }
+   ]
+  }
+ ],
+ "I-18": [
+  {
+   "block": "Def",
+   "explain": "Polyuria is defined by body surface area so it scales across ages.",
+   "hook": "Over 2 litres per m² per day.",
+   "checks": [
+    {
+     "q": "Threshold for true polyuria in children?",
+     "options": [
+      "> 1 l/m²/day",
+      "> 2 l/m²/day",
+      "> 4 l/m²/day"
+     ],
+     "answer": 1,
+     "why": "Polyuria is >2 l/m²/day."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Too much solute (glucose), no ADH effect (DI), or too much drinking. Central DI lesions sit in the hypothalamus/pituitary.",
+   "hook": "Sugar, hormone, habit.",
+   "checks": [
+    {
+     "q": "Commonest osmotic cause of polyuria?",
+     "options": [
+      "Diabetes mellitus",
+      "Mannitol use",
+      "Chronic kidney disease"
+     ],
+     "answer": 0,
+     "why": "Glycosuria drives osmotic diuresis; DM is the classic cause."
+    },
+    {
+     "q": "Which tumour classically causes central DI in children?",
+     "options": [
+      "Medulloblastoma",
+      "Craniopharyngioma",
+      "Pilocytic astrocytoma"
+     ],
+     "answer": 1,
+     "why": "Craniopharyngioma and germinoma involve the hypothalamic-pituitary axis."
+    },
+    {
+     "q": "Which electrolyte abnormality causes nephrogenic DI?",
+     "options": [
+      "Hypercalcaemia",
+      "Hyperkalaemia",
+      "Hypernatraemia"
+     ],
+     "answer": 0,
+     "why": "High Ca and low K impair renal concentrating ability."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Central DI lacks ADH; nephrogenic has ADH but the kidney cannot respond. Compulsive drinkers dilute their plasma.",
+   "hook": "Central = no signal; nephrogenic = deaf receiver.",
+   "checks": [
+    {
+     "q": "In nephrogenic DI, ADH levels are typically?",
+     "options": [
+      "Absent",
+      "Low",
+      "Normal or high"
+     ],
+     "answer": 2,
+     "why": "The kidney ignores ADH, so ADH is normal or raised."
+    },
+    {
+     "q": "Serum osmolality in primary polydipsia?",
+     "options": [
+      "Low-normal",
+      "High",
+      "Very high"
+     ],
+     "answer": 0,
+     "why": "Excess water intake dilutes plasma; DI raises serum osmolality."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Glucose in urine plus weight loss despite eating means insulin lack. DI loses free water so plasma concentrates while urine stays dilute.",
+   "hook": "DI: thick blood, thin urine.",
+   "checks": [
+    {
+     "q": "Weight loss despite good appetite, glycosuria and ketones suggest?",
+     "options": [
+      "Diabetes insipidus",
+      "Diabetes mellitus",
+      "Primary polydipsia"
+     ],
+     "answer": 1,
+     "why": "Insulin deficiency causes catabolism, glycosuria and ketosis."
+    },
+    {
+     "q": "Typical DI laboratory pattern?",
+     "options": [
+      "Low serum osm, dilute urine",
+      "High serum osm, concentrated urine",
+      "High serum osm, dilute urine"
+     ],
+     "answer": 2,
+     "why": "Free water loss concentrates plasma while urine cannot concentrate."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Dipstick excludes DM in seconds. The water deprivation test is stopped early to avoid dangerous dehydration; desmopressin response separates central from nephrogenic.",
+   "hook": "Responds to DDAVP → brain is the problem → MRI.",
+   "checks": [
+    {
+     "q": "First bedside test in polyuria?",
+     "options": [
+      "Urine dipstick for glucose",
+      "Water deprivation test",
+      "Serum ADH level"
+     ],
+     "answer": 0,
+     "why": "Dipstick for glucose first; then paired serum and urine osmolality."
+    },
+    {
+     "q": "When is the water deprivation test stopped?",
+     "options": [
+      "1-2% body-weight loss",
+      "3-5% body-weight loss",
+      "8-10% body-weight loss"
+     ],
+     "answer": 1,
+     "why": "Stop at 3-5% weight loss to prevent severe dehydration."
+    },
+    {
+     "q": "Urine concentrates after desmopressin: next step?",
+     "options": [
+      "Renal ultrasound",
+      "Serum lithium level",
+      "Pituitary MRI"
+     ],
+     "answer": 2,
+     "why": "Response means central DI, so image the hypothalamic-pituitary axis."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Central DI replaces the missing hormone, and other pituitary hormones may also be lost. Nephrogenic DI cannot use ADH, so reduce solute load and use thiazides.",
+   "hook": "Paradox: a diuretic (thiazide) reduces urine in nephrogenic DI.",
+   "checks": [
+    {
+     "q": "Treatment of central DI?",
+     "options": [
+      "Thiazide diuretic",
+      "Desmopressin",
+      "Indometacin"
+     ],
+     "answer": 1,
+     "why": "Replace ADH with desmopressin; also check cortisol and other pituitary axes."
+    },
+    {
+     "q": "Which drug class paradoxically helps nephrogenic DI?",
+     "options": [
+      "Thiazides",
+      "Loop diuretics",
+      "Carbonic anhydrase inhibitors"
+     ],
+     "answer": 0,
+     "why": "Thiazides cause mild volume depletion, increasing proximal reabsorption."
+    }
+   ]
+  }
+ ],
+ "I-19": [
+  {
+   "block": "Def",
+   "explain": "Childhood BP norms vary with age, sex and height, so centiles are used and repeated readings avoid white-coat errors. Phaeo follows the rule of 10s.",
+   "hook": "95th centile ×3 visits.",
+   "checks": [
+    {
+     "q": "Hypertension threshold in children?",
+     "options": [
+      "≥ 90th centile",
+      "≥ 95th centile",
+      "≥ 99th centile"
+     ],
+     "answer": 1,
+     "why": "BP ≥ 95th centile for age, sex and height on 3 occasions."
+    },
+    {
+     "q": "Phaeochromocytoma arises from which cells?",
+     "options": [
+      "Chromaffin cells",
+      "Zona glomerulosa cells",
+      "Neural crest blast cells"
+     ],
+     "answer": 0,
+     "why": "Phaeo is a catecholamine-secreting chromaffin cell tumour (rule of 10s)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Unlike adults, most childhood hypertension is secondary, mainly renal. Phaeo associates with inherited tumour syndromes.",
+   "hook": "Child BP high? Look at the kidney.",
+   "checks": [
+    {
+     "q": "Most frequent cause of hypertension before adolescence?",
+     "options": [
+      "Essential hypertension",
+      "Coarctation of aorta",
+      "Kidney disease"
+     ],
+     "answer": 2,
+     "why": "Renal parenchymal disease causes ~70-80% (matches university key)."
+    },
+    {
+     "q": "Which polycystic kidney disease presents in infancy?",
+     "options": [
+      "ADPKD",
+      "ARPKD",
+      "Medullary sponge kidney"
+     ],
+     "answer": 1,
+     "why": "ARPKD (PKHD1) presents in infants; ADPKD in young adults."
+    },
+    {
+     "q": "Which syndrome is linked to phaeochromocytoma?",
+     "options": [
+      "MEN 1",
+      "Turner syndrome",
+      "MEN 2A"
+     ],
+     "answer": 2,
+     "why": "MEN 2A/2B, VHL, NF1 and SDH mutations; MEN 1 gives parathyroid, pancreas, pituitary."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Catecholamine bursts cause paroxysms. Blocking beta first leaves alpha vasoconstriction unopposed. Neuroblastoma is the childhood adrenal medulla tumour.",
+   "hook": "Alpha before beta, like the alphabet.",
+   "checks": [
+    {
+     "q": "Phaeochromocytoma symptoms are typically?",
+     "options": [
+      "Episodic",
+      "Constant",
+      "Nocturnal only"
+     ],
+     "answer": 0,
+     "why": "Catecholamine surges produce paroxysmal attacks."
+    },
+    {
+     "q": "Giving a beta-blocker first in phaeo risks?",
+     "options": [
+      "Hypoglycaemia",
+      "Hypertensive crisis",
+      "Bradycardic arrest"
+     ],
+     "answer": 1,
+     "why": "Unopposed alpha vasoconstriction triggers a hypertensive crisis."
+    },
+    {
+     "q": "Which oncogene is linked to neuroblastoma?",
+     "options": [
+      "N-myc",
+      "BCR-ABL",
+      "WT1"
+     ],
+     "answer": 0,
+     "why": "N-myc amplification marks poor prognosis; WT1 is Wilms."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Catecholamines cause headache, sweating, palpitations and hyperglycaemia. Pulse and phenotype clues point to other causes.",
+   "hook": "Phaeo triad: headache, sweat, palpitations.",
+   "checks": [
+    {
+     "q": "Classic phaeo triad includes headache, palpitations and?",
+     "options": [
+      "Sweating",
+      "Flushing",
+      "Diarrhoea"
+     ],
+     "answer": 0,
+     "why": "Episodic headache, sweating and palpitations; flushing suggests carcinoid."
+    },
+    {
+     "q": "Hypertension with weak femoral pulses suggests?",
+     "options": [
+      "Renal artery stenosis",
+      "Coarctation of aorta",
+      "Phaeochromocytoma"
+     ],
+     "answer": 1,
+     "why": "Coarctation reduces lower-limb perfusion: weak, delayed femorals."
+    },
+    {
+     "q": "Which feature suggests MEN 2B?",
+     "options": [
+      "Short stature",
+      "Café-au-lait spots",
+      "Lip mucosal neuromas"
+     ],
+     "answer": 2,
+     "why": "MEN 2B: marfanoid habitus, kyphoscoliosis, mucosal neuromas."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A small cuff overestimates BP. Phaeo is confirmed biochemically before imaging. Renal imaging finds PKD and FMD.",
+   "hook": "Biochemistry before scans.",
+   "checks": [
+    {
+     "q": "Correct BP cuff bladder covers what share of arm circumference?",
+     "options": [
+      "40%",
+      "60%",
+      "80%"
+     ],
+     "answer": 2,
+     "why": "Bladder should cover 80% of arm; too small falsely raises BP."
+    },
+    {
+     "q": "First test for suspected phaeochromocytoma?",
+     "options": [
+      "Adrenal CT",
+      "Metanephrines",
+      "MIBG scan"
+     ],
+     "answer": 1,
+     "why": "Confirm with metanephrines, then CT/MRI, then I-123 MIBG."
+    },
+    {
+     "q": "'String of beads' on angiography indicates?",
+     "options": [
+      "Fibromuscular dysplasia",
+      "Takayasu arteritis",
+      "Polyarteritis nodosa"
+     ],
+     "answer": 0,
+     "why": "FMD gives alternating stenoses and dilatations."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Block alpha first, then beta, then operate. Hyperkinetic (high output) hypertension responds to beta-blockers; Cushing triad BP maintains brain perfusion.",
+   "hook": "Cushing triad: don't drop the BP, drop the ICP.",
+   "checks": [
+    {
+     "q": "First drug in preoperative phaeochromocytoma management?",
+     "options": [
+      "Propranolol",
+      "Phenoxybenzamine",
+      "Amlodipine"
+     ],
+     "answer": 1,
+     "why": "Alpha-blockade with phenoxybenzamine first, then beta-blockade, then surgery."
+    },
+    {
+     "q": "Drug of choice for hyperkinetic hypertension?",
+     "options": [
+      "ACE inhibitor",
+      "Thiazide",
+      "Beta-blocker"
+     ],
+     "answer": 2,
+     "why": "Beta-blockers reduce high cardiac output (university key)."
+    }
+   ]
+  }
+ ],
+ "I-20": [
+  {
+   "block": "Def",
+   "explain": "Duration separates self-limiting infection from persistent disease; the 3-4 week gap is the subacute zone.",
+   "hook": "Under 3 acute; over 4 chronic.",
+   "checks": [
+    {
+     "q": "Chronic cough in children lasts more than?",
+     "options": [
+      "2 weeks",
+      "4 weeks",
+      "8 weeks"
+     ],
+     "answer": 1,
+     "why": "Chronic cough lasts >4 weeks; acute <3 weeks (adults use 8 weeks)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Acute cough is usually viral. Chronic cough needs a specific diagnosis; asthma is common but not the only cause.",
+   "hook": "Acute = virus until proven otherwise.",
+   "checks": [
+    {
+     "q": "Most common cause of acute cough?",
+     "options": [
+      "Viral respiratory infection",
+      "Asthma",
+      "Foreign body"
+     ],
+     "answer": 0,
+     "why": "Viral URTI is commonest (university key)."
+    },
+    {
+     "q": "Which is a cause of chronic cough?",
+     "options": [
+      "Croup",
+      "Bronchiolitis",
+      "Protracted bacterial bronchitis"
+     ],
+     "answer": 2,
+     "why": "PBB is chronic wet cough; croup and bronchiolitis are acute."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Bronchiolitis inflames small airways. Pertussis runs in three phases. Wet cough plus clubbing means suppuration (CF, bronchiectasis).",
+   "hook": "Clubbing is never asthma.",
+   "checks": [
+    {
+     "q": "Usual cause of bronchiolitis?",
+     "options": [
+      "Parainfluenza",
+      "RSV",
+      "Adenovirus"
+     ],
+     "answer": 1,
+     "why": "RSV causes most bronchiolitis; parainfluenza causes croup."
+    },
+    {
+     "q": "First phase of pertussis?",
+     "options": [
+      "Catarrhal",
+      "Paroxysmal",
+      "Convalescent"
+     ],
+     "answer": 0,
+     "why": "Catarrhal (1-2 weeks) → paroxysmal → convalescent."
+    },
+    {
+     "q": "Chronic wet cough with clubbing suggests?",
+     "options": [
+      "Asthma",
+      "Psychogenic cough",
+      "Suppurative lung disease"
+     ],
+     "answer": 2,
+     "why": "Clubbing points to CF or bronchiectasis, never asthma."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "The sound of the cough and the context point to the diagnosis. Infants with pertussis may only have apnoea.",
+   "hook": "Bark = croup; whoop = pertussis; sudden = foreign body.",
+   "checks": [
+    {
+     "q": "Young infants with pertussis may present with?",
+     "options": [
+      "Stridor",
+      "Apnoea and cyanosis",
+      "Barking cough"
+     ],
+     "answer": 1,
+     "why": "Infants often lack the whoop and present with apnoea or cyanosis."
+    },
+    {
+     "q": "Barking cough suggests?",
+     "options": [
+      "Croup",
+      "Asthma",
+      "Cystic fibrosis"
+     ],
+     "answer": 0,
+     "why": "Barking seal-like cough = croup (laryngotracheitis)."
+    },
+    {
+     "q": "Sudden cough in a previously well toddler suggests?",
+     "options": [
+      "Pertussis",
+      "Asthma",
+      "Foreign body aspiration"
+     ],
+     "answer": 2,
+     "why": "Abrupt onset in a well toddler = foreign body until proven otherwise."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Growth, clubbing and history identify serious chronic disease. Radiolucent foreign bodies don't show on X-ray.",
+   "hook": "Normal CXR doesn't clear a foreign body.",
+   "checks": [
+    {
+     "q": "Which history item is key in chronic cough?",
+     "options": [
+      "Choking episode",
+      "Recent travel abroad",
+      "Pet ownership only"
+     ],
+     "answer": 0,
+     "why": "A choking history suggests foreign body; also check growth, clubbing, TB contacts."
+    },
+    {
+     "q": "Suspected foreign body with normal CXR: next step?",
+     "options": [
+      "Repeat CXR in a week",
+      "Trial of salbutamol",
+      "Rigid bronchoscopy"
+     ],
+     "answer": 2,
+     "why": "Most foreign bodies are radiolucent; rigid bronchoscopy diagnoses and removes."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Viral cough resolves alone; OTC cough medicines are ineffective and risky. Pertussis antibiotics mainly cut spread.",
+   "hook": "Pertussis: macrolide for patient and contacts.",
+   "checks": [
+    {
+     "q": "Management of viral cough in children?",
+     "options": [
+      "OTC cough syrup",
+      "Reassurance and safety-netting",
+      "Oral antibiotics"
+     ],
+     "answer": 1,
+     "why": "OTC cough medicines are not recommended in children."
+    },
+    {
+     "q": "RSV prevention in infants uses?",
+     "options": [
+      "Nirsevimab",
+      "Ribavirin",
+      "Oseltamivir"
+     ],
+     "answer": 0,
+     "why": "Monoclonal antibodies nirsevimab or palivizumab prevent RSV."
+    },
+    {
+     "q": "Treatment of pertussis?",
+     "options": [
+      "Amoxicillin",
+      "Ceftriaxone",
+      "Macrolide"
+     ],
+     "answer": 2,
+     "why": "Macrolides (azithromycin) for case and close contacts."
+    }
+   ]
+  }
+ ],
+ "I-21": [
+  {
+   "block": "Def",
+   "explain": "Most sore throats are viral; the clinical job is to find group A strep because it causes rheumatic fever.",
+   "hook": "Hunt the strep among the viruses.",
+   "checks": [
+    {
+     "q": "Proportion of childhood sore throats that are viral?",
+     "options": [
+      "About 30-40%",
+      "About 50%",
+      "About 70-80%"
+     ],
+     "answer": 2,
+     "why": "70-80% are viral; the aim is finding group A strep."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Strep peaks in school age; EBV in teens. Some throats are airway emergencies.",
+   "hook": "Strep 3-14.",
+   "checks": [
+    {
+     "q": "Peak age range for streptococcal pharyngitis?",
+     "options": [
+      "Under 2 years",
+      "3-14 years",
+      "15-25 years"
+     ],
+     "answer": 1,
+     "why": "Group A strep is commonest age 3-14; rare under 3."
+    },
+    {
+     "q": "Which sore-throat cause is an emergency?",
+     "options": [
+      "Epiglottitis",
+      "Adenoviral pharyngitis",
+      "Herpangina"
+     ],
+     "answer": 0,
+     "why": "Epiglottitis, quinsy, retropharyngeal abscess, diphtheria and Lemierre are emergencies."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Antibiotics prevent rheumatic fever (cross-reactive antibodies) but not PSGN (immune complexes). Catarrhal symptoms imply a virus.",
+   "hook": "Antibiotics stop the heart damage, not the kidney damage.",
+   "checks": [
+    {
+     "q": "Antibiotics for strep throat prevent which complication?",
+     "options": [
+      "Post-strep glomerulonephritis",
+      "Acute rheumatic fever",
+      "Scarlet fever"
+     ],
+     "answer": 1,
+     "why": "Treatment prevents rheumatic fever; PSGN is not prevented."
+    },
+    {
+     "q": "Sore throat with cough and coryza suggests?",
+     "options": [
+      "Viral cause",
+      "Group A strep",
+      "Quinsy"
+     ],
+     "answer": 0,
+     "why": "Cough, coryza and hoarseness point to a virus."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Strep: fever, exudate, tender anterior nodes, no cough. Deep neck infections show trismus or airway signs.",
+   "hook": "Quinsy pushes uvula away.",
+   "checks": [
+    {
+     "q": "Which feature favours EBV over strep?",
+     "options": [
+      "Tonsillar exudate",
+      "Tender anterior nodes",
+      "Splenomegaly"
+     ],
+     "answer": 2,
+     "why": "EBV: posterior cervical nodes and splenomegaly."
+    },
+    {
+     "q": "In quinsy, the uvula deviates?",
+     "options": [
+      "Away from the abscess",
+      "Towards the abscess",
+      "Not at all"
+     ],
+     "answer": 0,
+     "why": "Peritonsillar abscess pushes the uvula to the opposite side, with trismus."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A negative rapid test can miss strep, so culture follows. EBV and diphtheria have tell-tale lab or exam signs.",
+   "hook": "Negative rapid test → culture.",
+   "checks": [
+    {
+     "q": "Rapid strep test negative: next step?",
+     "options": [
+      "Reassure, no further test",
+      "Throat culture",
+      "Monospot test"
+     ],
+     "answer": 1,
+     "why": "Rapid antigen tests have low sensitivity; confirm negatives with culture."
+    },
+    {
+     "q": "Grey-white adherent pseudomembrane suggests?",
+     "options": [
+      "Diphtheria",
+      "EBV",
+      "Candidiasis"
+     ],
+     "answer": 0,
+     "why": "Diphtheria forms a grey pseudomembrane that bleeds on removal."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Ten days of penicillin eradicates strep to prevent rheumatic fever. Amoxicillin in EBV causes a rash; the spleen can rupture.",
+   "hook": "EBV + amoxicillin = rash; spleen = no rugby.",
+   "checks": [
+    {
+     "q": "Treatment for streptococcal pharyngitis?",
+     "options": [
+      "Amoxicillin 3 days",
+      "Azithromycin 1 day",
+      "Penicillin V 10 days"
+     ],
+     "answer": 2,
+     "why": "Penicillin V for 10 days to prevent rheumatic fever."
+    },
+    {
+     "q": "EBV: how long to avoid contact sports?",
+     "options": [
+      "1-2 weeks",
+      "4-6 weeks",
+      "3 months"
+     ],
+     "answer": 1,
+     "why": "Avoid contact sport 4-6 weeks due to splenic rupture risk."
+    }
+   ]
+  }
+ ],
+ "I-22": [
+  {
+   "block": "Def",
+   "explain": "Stridor in inspiration means the narrowing is above the thoracic inlet, where negative pressure collapses the airway.",
+   "hook": "Inspiratory = up high.",
+   "checks": [
+    {
+     "q": "Inspiratory stridor localises obstruction to?",
+     "options": [
+      "Intrathoracic trachea",
+      "Bronchi",
+      "Above the vocal cords"
+     ],
+     "answer": 2,
+     "why": "Inspiratory stridor = extrathoracic obstruction; acute cause usually croup."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Croup is a viral laryngotracheitis of young children. Mimics include bacterial and structural causes.",
+   "hook": "Parainfluenza = croup.",
+   "checks": [
+    {
+     "q": "Commonest cause of croup?",
+     "options": [
+      "RSV",
+      "Parainfluenza virus",
+      "Haemophilus influenzae"
+     ],
+     "answer": 1,
+     "why": "Parainfluenza; typical age 6 months to 6 years."
+    },
+    {
+     "q": "Bacterial tracheitis is usually caused by?",
+     "options": [
+      "Staph aureus",
+      "Strep pneumoniae",
+      "Moraxella"
+     ],
+     "answer": 0,
+     "why": "Staph aureus is the classic cause of bacterial tracheitis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The cricoid is a complete ring, so swelling can only go inward, narrowing the subglottis.",
+   "hook": "Rigid ring: swelling squeezes inwards.",
+   "checks": [
+    {
+     "q": "Why does subglottic swelling narrow the airway so much?",
+     "options": [
+      "Thyroid cartilage compresses it",
+      "Cricoid is a complete ring",
+      "Trachea lacks cartilage there"
+     ],
+     "answer": 1,
+     "why": "The cricoid is the only complete cartilage ring, so oedema can only narrow the lumen."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Croup: bark, stridor, not toxic. Toxic children with drooling or no response to adrenaline have a bacterial cause.",
+   "hook": "Toxic + no bark = not croup.",
+   "checks": [
+    {
+     "q": "Stridor that improves lying prone suggests?",
+     "options": [
+      "Laryngomalacia",
+      "Vascular ring",
+      "Croup"
+     ],
+     "answer": 0,
+     "why": "Laryngomalacia improves prone and worsens supine or with crying."
+    },
+    {
+     "q": "Toxic child with stridor not responding to adrenaline suggests?",
+     "options": [
+      "Croup",
+      "Laryngomalacia",
+      "Bacterial tracheitis"
+     ],
+     "answer": 2,
+     "why": "Bacterial tracheitis: toxic and unresponsive to nebulised adrenaline."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Severity is clinical; saturation drops late. In epiglottitis throat examination can trigger complete obstruction.",
+   "hook": "Epiglottitis: hands off the throat.",
+   "checks": [
+    {
+     "q": "Which is NOT used to grade croup severity?",
+     "options": [
+      "Stridor at rest",
+      "Oxygen saturation",
+      "Conscious level"
+     ],
+     "answer": 1,
+     "why": "Severity uses stridor at rest, recession and conscious level; hypoxia is late."
+    },
+    {
+     "q": "Suspected epiglottitis: what must you avoid?",
+     "options": [
+      "Examining the throat",
+      "Keeping the child upright",
+      "Calling anaesthetics"
+     ],
+     "answer": 0,
+     "why": "Throat examination can precipitate complete airway obstruction."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Steroids reduce oedema for every croup; adrenaline gives fast but short relief, so observe afterwards. Epiglottitis needs a secured airway.",
+   "hook": "Adrenaline lasts ~2 hours: watch for rebound.",
+   "checks": [
+    {
+     "q": "Nebulised adrenaline effect in croup wears off after about?",
+     "options": [
+      "30 minutes",
+      "2 hours",
+      "12 hours"
+     ],
+     "answer": 1,
+     "why": "Effect lasts about 2 hours, so observe for rebound. (Steroid route: university key accepts rectal steroid.)"
+    },
+    {
+     "q": "First priority in epiglottitis?",
+     "options": [
+      "Secure the airway",
+      "IV antibiotics",
+      "Lateral neck X-ray"
+     ],
+     "answer": 0,
+     "why": "Secure the airway first, in theatre with anaesthetics and ENT."
+    }
+   ]
+  }
+ ],
+ "I-23": [
+  {
+   "block": "Def",
+   "explain": "Red cell destruction triggers marrow response (reticulocytes) and releases haem (bilirubin, LDH) while haptoglobin is consumed.",
+   "hook": "Haemolysis: retics up, hapto down.",
+   "checks": [
+    {
+     "q": "Which marker is low in haemolysis?",
+     "options": [
+      "Reticulocytes",
+      "LDH",
+      "Haptoglobin"
+     ],
+     "answer": 2,
+     "why": "Haptoglobin binds free Hb and is consumed; retics, bilirubin, LDH rise."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "The Coombs test splits immune from non-immune haemolysis.",
+   "hook": "Warm = IgG; cold = IgM (M for 'chilly Mountain').",
+   "checks": [
+    {
+     "q": "Antibody class in warm autoimmune haemolytic anaemia?",
+     "options": [
+      "IgM",
+      "IgG",
+      "IgA"
+     ],
+     "answer": 1,
+     "why": "Warm AIHA is IgG; cold AIHA is IgM."
+    },
+    {
+     "q": "Which haemolytic anaemia is Coombs negative?",
+     "options": [
+      "Hereditary spherocytosis",
+      "Warm AIHA",
+      "Haemolytic disease of newborn"
+     ],
+     "answer": 0,
+     "why": "HS is a membrane defect, not immune, so DAT is negative."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Spherocytosis: weak membrane tethering makes rigid spheres trapped in the spleen. G6PD cells can't resist oxidant stress.",
+   "hook": "G6PD: beans, bites, Heinz.",
+   "checks": [
+    {
+     "q": "Inheritance of hereditary spherocytosis?",
+     "options": [
+      "X-linked recessive",
+      "Autosomal recessive",
+      "Autosomal dominant"
+     ],
+     "answer": 2,
+     "why": "HS is mostly autosomal dominant; G6PD is X-linked."
+    },
+    {
+     "q": "Bite cells and Heinz bodies after fava beans suggest?",
+     "options": [
+      "G6PD deficiency",
+      "Spherocytosis",
+      "Thalassaemia"
+     ],
+     "answer": 0,
+     "why": "Oxidant stress denatures Hb (Heinz bodies) that the spleen bites out."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Haemolysis causes jaundice and splenomegaly. Parvovirus halts erythropoiesis, which haemolytic patients can't tolerate.",
+   "hook": "Low retics in a haemolyser = parvovirus.",
+   "checks": [
+    {
+     "q": "Painful swollen hands in a sickle cell infant?",
+     "options": [
+      "Acute chest syndrome",
+      "Dactylitis",
+      "Septic arthritis"
+     ],
+     "answer": 1,
+     "why": "Dactylitis (hand-foot syndrome) is often the first sickle crisis."
+    },
+    {
+     "q": "Sudden low reticulocytes in chronic haemolysis suggest?",
+     "options": [
+      "Parvovirus B19",
+      "EBV",
+      "Folate excess"
+     ],
+     "answer": 0,
+     "why": "Parvovirus B19 infects erythroid precursors, causing aplastic crisis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "HS shows spherocytes, raised MCHC and positive EMA binding. Fragmented cells mean mechanical destruction.",
+   "hook": "Schistocytes = shredded in small vessels.",
+   "checks": [
+    {
+     "q": "Confirmatory test for hereditary spherocytosis?",
+     "options": [
+      "Hb electrophoresis",
+      "Direct Coombs test",
+      "EMA binding test"
+     ],
+     "answer": 2,
+     "why": "EMA binding (flow cytometry) is positive; DAT is negative."
+    },
+    {
+     "q": "Schistocytes on film indicate?",
+     "options": [
+      "Spherocytosis",
+      "Microangiopathic haemolysis",
+      "Thalassaemia"
+     ],
+     "answer": 1,
+     "why": "Fragmented cells = MAHA (HUS, TTP, DIC)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Warm AIHA responds to steroids. Asplenic sickle children need penicillin and urgent antibiotics for fever.",
+   "hook": "Sickle: penicillin till 5.",
+   "checks": [
+    {
+     "q": "First-line drug treatment for warm AIHA?",
+     "options": [
+      "IVIG",
+      "Rituximab",
+      "Steroids"
+     ],
+     "answer": 2,
+     "why": "Stop offending drugs, give steroids; splenectomy last resort."
+    },
+    {
+     "q": "Sickle cell: daily penicillin until what age?",
+     "options": [
+      "2 years",
+      "5 years",
+      "12 years"
+     ],
+     "answer": 1,
+     "why": "Prophylactic penicillin to 5 years for functional asplenia."
+    }
+   ]
+  }
+ ],
+ "I-24": [
+  {
+   "block": "Def",
+   "explain": "MCV sorts anaemias into micro-, normo- and macrocytic. Iron deficiency is commonest.",
+   "hook": "Start with the MCV.",
+   "checks": [
+    {
+     "q": "First branch point in classifying anaemia?",
+     "options": [
+      "Reticulocyte count",
+      "MCV",
+      "Ferritin"
+     ],
+     "answer": 1,
+     "why": "MCV first; iron deficiency is the commonest childhood anaemia."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Small cells: iron, thalassaemia, lead. Large cells: B12/folate, Diamond-Blackfan. All lines low: Fanconi, aplastic.",
+   "hook": "Microcytic = 'FiLTh': iron, lead, thal.",
+   "checks": [
+    {
+     "q": "Which causes microcytic anaemia?",
+     "options": [
+      "Lead poisoning",
+      "Folate deficiency",
+      "Diamond-Blackfan anaemia"
+     ],
+     "answer": 0,
+     "why": "Lead, iron deficiency and thal trait are microcytic."
+    },
+    {
+     "q": "Which causes inherited pancytopenia?",
+     "options": [
+      "Diamond-Blackfan anaemia",
+      "Fanconi anaemia",
+      "Thalassaemia trait"
+     ],
+     "answer": 1,
+     "why": "Fanconi is inherited marrow failure; DBA affects red cells only."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Cow's milk is iron-poor, blocks iron absorption and causes occult GI blood loss. Without B12/folate, DNA lags and cells grow large.",
+   "hook": "Too much milk, too little iron.",
+   "checks": [
+    {
+     "q": "Classic dietary cause of iron deficiency in toddlers?",
+     "options": [
+      "Excess cow's milk",
+      "Excess fruit juice",
+      "Vegetarian diet"
+     ],
+     "answer": 0,
+     "why": "Cow's milk is iron-poor, inhibits absorption and causes occult blood loss."
+    },
+    {
+     "q": "Why are cells large in B12 deficiency?",
+     "options": [
+      "Excess haemoglobin",
+      "Membrane defect",
+      "Impaired DNA synthesis"
+     ],
+     "answer": 2,
+     "why": "Nuclear maturation lags behind cytoplasm, giving megaloblasts."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Lead leaves a gum line and neuro signs; B12 causes neuropathy. Fanconi carries skeletal and skin anomalies.",
+   "hook": "Fanconi: thumbs, short, café-au-lait.",
+   "checks": [
+    {
+     "q": "Bluish gum-tooth line suggests?",
+     "options": [
+      "B12 deficiency",
+      "Lead poisoning",
+      "Iron deficiency"
+     ],
+     "answer": 1,
+     "why": "Lead lines (Burton line) on the gums."
+    },
+    {
+     "q": "Malformed thumbs and short stature with anaemia suggest?",
+     "options": [
+      "Fanconi anaemia",
+      "Thalassaemia",
+      "Lead poisoning"
+     ],
+     "answer": 0,
+     "why": "Fanconi: thumb/radial anomalies, short stature, café-au-lait spots."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Iron deficiency makes cells of varying size (high RDW); thal trait makes many uniform small cells. Ferritin rises in inflammation.",
+   "hook": "Thal trait: many small even cells.",
+   "checks": [
+    {
+     "q": "RDW in thalassaemia trait is typically?",
+     "options": [
+      "High",
+      "Normal",
+      "Very low"
+     ],
+     "answer": 1,
+     "why": "Normal RDW with normal/high RBC count; high RDW suggests iron deficiency."
+    },
+    {
+     "q": "Why can ferritin be normal despite iron deficiency?",
+     "options": [
+      "It's an acute phase protein",
+      "Lab error is common",
+      "Iron supplements raise it"
+     ],
+     "answer": 0,
+     "why": "Inflammation raises ferritin, masking deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Continue iron after Hb normalises to refill stores. Chelation intensity scales with blood lead.",
+   "hook": "Iron: 3 more months to fill the tank.",
+   "checks": [
+    {
+     "q": "Continue oral iron how long after Hb normalises?",
+     "options": [
+      "2 weeks",
+      "1 month",
+      "3 months"
+     ],
+     "answer": 2,
+     "why": "Continue 3 months to replenish iron stores."
+    },
+    {
+     "q": "Blood lead 45-69 mcg/dL is treated with?",
+     "options": [
+      "IM dimercaprol",
+      "Oral succimer (DMSA)",
+      "EDTA alone"
+     ],
+     "answer": 1,
+     "why": "DMSA for 45-69; ≥ 70 needs dimercaprol + EDTA."
+    }
+   ]
+  }
+ ],
+ "I-25": [
+  {
+   "block": "Def",
+   "explain": "Downward crossing of centiles shows growth falling below the child's own trajectory.",
+   "hook": "Two lines down = FTT.",
+   "checks": [
+    {
+     "q": "FTT classically means crossing how many weight centiles downward?",
+     "options": [
+      "One",
+      "Two or more",
+      "Four or more"
+     ],
+     "answer": 1,
+     "why": "Crossing ≥ 2 major weight centile lines downward."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Most FTT is not enough food in. Organic causes include malabsorption, metabolic and cardiac disease.",
+   "hook": "Not enough in, before rare diseases.",
+   "checks": [
+    {
+     "q": "Commonest cause of failure to thrive?",
+     "options": [
+      "Inadequate intake",
+      "Cystic fibrosis",
+      "Coeliac disease"
+     ],
+     "answer": 0,
+     "why": "Non-organic inadequate intake; neglect is the commonest maltreatment."
+    },
+    {
+     "q": "Which is an organic cause of FTT?",
+     "options": [
+      "Toddler's diarrhoea",
+      "Constitutional delay",
+      "Galactosaemia"
+     ],
+     "answer": 2,
+     "why": "Galactosaemia, CF and congenital heart disease cause organic FTT."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Undernutrition hits weight first, then height, sparing the head longest. Heart disease raises needs and reduces feeding.",
+   "hook": "Weight, height, head: W-H-H.",
+   "checks": [
+    {
+     "q": "Which is lost last in undernutrition?",
+     "options": [
+      "Weight",
+      "Head circumference",
+      "Height"
+     ],
+     "answer": 1,
+     "why": "Weight → height → head circumference."
+    },
+    {
+     "q": "Why do infants with congenital heart disease fail to thrive?",
+     "options": [
+      "More energy use, less intake",
+      "Malabsorption of fat",
+      "Excess protein loss"
+     ],
+     "answer": 0,
+     "why": "Increased work of breathing and tachycardia raise expenditure while feeding tires them."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Short but plump points to hormone problems, not starvation. Early small head points to prenatal causes. Kwashiorkor = protein lack with oedema.",
+   "hook": "Kwashiorkor swells; marasmus shrivels.",
+   "checks": [
+    {
+     "q": "Short, plump child with delayed bone age suggests?",
+     "options": [
+      "Malnutrition",
+      "Endocrine cause",
+      "Familial short stature"
+     ],
+     "answer": 1,
+     "why": "Hypothyroidism, GH deficiency or Cushing keep weight but stunt height."
+    },
+    {
+     "q": "Small head from early infancy suggests?",
+     "options": [
+      "Intrauterine or congenital infection",
+      "Late-onset neglect",
+      "Coeliac disease"
+     ],
+     "answer": 0,
+     "why": "Early microcephaly reflects prenatal insults or genetic causes."
+    },
+    {
+     "q": "Oedema with swollen abdomen in malnutrition indicates?",
+     "options": [
+      "Marasmus",
+      "Rickets",
+      "Kwashiorkor"
+     ],
+     "answer": 2,
+     "why": "Kwashiorkor: protein deficiency with oedema; marasmus is wasting."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Watching a feed reveals technique and interaction problems that no test can.",
+   "hook": "Watch, don't test.",
+   "checks": [
+    {
+     "q": "Highest-yield 'investigation' in failure to thrive?",
+     "options": [
+      "Sweat test",
+      "Observing a feed",
+      "Coeliac serology"
+     ],
+     "answer": 1,
+     "why": "Observing a feed often reveals the problem."
+    },
+    {
+     "q": "Neonatal jaundice with E. coli sepsis suggests?",
+     "options": [
+      "Galactosaemia",
+      "Cystic fibrosis",
+      "Hypothyroidism"
+     ],
+     "answer": 0,
+     "why": "Galactosaemia predisposes to E. coli sepsis; meconium ileus → CF."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Management targets the cause; feeding advice for intake. Suspected abuse is a safeguarding referral first.",
+   "hook": "Suspect abuse → call protection services.",
+   "checks": [
+    {
+     "q": "First-line management of FTT from poor intake?",
+     "options": [
+      "Feeding advice",
+      "Nasogastric feeding",
+      "Growth hormone"
+     ],
+     "answer": 0,
+     "why": "Treat the cause; feeding advice for intake problems."
+    },
+    {
+     "q": "Suspected abuse in FTT: first contact?",
+     "options": [
+      "Police",
+      "Child protective services",
+      "Family GP"
+     ],
+     "answer": 1,
+     "why": "Notify child protective services first."
+    }
+   ]
+  }
+ ],
+ "I-26": [
+  {
+   "block": "Def",
+   "explain": "Infant livers are often palpable below the costal margin, so span, not edge, defines enlargement.",
+   "hook": "Measure span, not edge.",
+   "checks": [
+    {
+     "q": "How to assess hepatomegaly in infants?",
+     "options": [
+      "Measure liver span",
+      "Palpable edge alone",
+      "Ultrasound always first"
+     ],
+     "answer": 0,
+     "why": "A palpable edge is normal in infants; measure the span."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Infections (EBV, CMV, malaria, leishmaniasis), haemolysis, inflammation and storage disease enlarge liver and spleen.",
+   "hook": "Infection, blood, storage, inflammation.",
+   "checks": [
+    {
+     "q": "Which infection causes hepatosplenomegaly?",
+     "options": [
+      "Rotavirus",
+      "Visceral leishmaniasis",
+      "RSV"
+     ],
+     "answer": 1,
+     "why": "Leishmaniasis, malaria, EBV and CMV cause hepatosplenomegaly."
+    },
+    {
+     "q": "Which glycogen storage disease causes hepatomegaly?",
+     "options": [
+      "Type V",
+      "Type II",
+      "Type I"
+     ],
+     "answer": 2,
+     "why": "Type I (von Gierke) causes hepatomegaly and fasting hypoglycaemia."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The spleen must be substantially enlarged before palpable. Big spleens trap cells, lowering counts.",
+   "hook": "Big spleen eats platelets.",
+   "checks": [
+    {
+     "q": "Spleen must enlarge how much before palpable?",
+     "options": [
+      "About 2-3 times",
+      "About 1.2 times",
+      "About 10 times"
+     ],
+     "answer": 0,
+     "why": "Roughly 2-3 times normal size before palpable."
+    },
+    {
+     "q": "Hypersplenism typically lowers which count?",
+     "options": [
+      "Reticulocytes",
+      "Platelets",
+      "Eosinophils"
+     ],
+     "answer": 1,
+     "why": "Sequestration lowers platelets (and other cells)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Von Gierke cannot release glucose from glycogen. CMV causes extramedullary haematopoiesis (blueberry muffin rash).",
+   "hook": "Blueberry muffin = congenital infection.",
+   "checks": [
+    {
+     "q": "Infant hepatomegaly with fasting hypoglycaemia suggests?",
+     "options": [
+      "Pompe disease",
+      "Gaucher disease",
+      "Von Gierke disease"
+     ],
+     "answer": 2,
+     "why": "Glucose-6-phosphatase deficiency traps glycogen in the liver."
+    },
+    {
+     "q": "Spiking fevers with salmon-pink rash suggest?",
+     "options": [
+      "Systemic JIA",
+      "CMV infection",
+      "Kawasaki disease"
+     ],
+     "answer": 0,
+     "why": "Systemic JIA: quotidian fever with evanescent salmon rash."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "The blood film shows haemolysis, leukaemia or atypical lymphocytes. INR reflects liver synthesis; ALT reflects injury.",
+   "hook": "INR = function; ALT = damage.",
+   "checks": [
+    {
+     "q": "First test in hepatosplenomegaly?",
+     "options": [
+      "Abdominal CT",
+      "FBC and blood film",
+      "Liver biopsy"
+     ],
+     "answer": 1,
+     "why": "FBC and film first."
+    },
+    {
+     "q": "Best marker of liver synthetic function?",
+     "options": [
+      "ALT",
+      "Alkaline phosphatase",
+      "Prothrombin time (INR)"
+     ],
+     "answer": 2,
+     "why": "PT/INR reflects clotting factor synthesis; ALT reflects injury."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "No organomegaly-specific treatment: manage the cause. EBV spleens are fragile.",
+   "hook": "EBV spleen: no contact sport 4-6 weeks.",
+   "checks": [
+    {
+     "q": "Management principle in hepatosplenomegaly?",
+     "options": [
+      "Treat the cause",
+      "Splenectomy",
+      "Steroids empirically"
+     ],
+     "answer": 0,
+     "why": "Treat the underlying cause."
+    },
+    {
+     "q": "EBV splenomegaly: avoid contact sport for?",
+     "options": [
+      "1 week",
+      "4-6 weeks",
+      "6 months"
+     ],
+     "answer": 1,
+     "why": "Avoid contact sports 4-6 weeks (splenic rupture)."
+    }
+   ]
+  }
+ ],
+ "I-27": [
+  {
+   "block": "Def",
+   "explain": "Dehydration kills in diarrhoea, so hydration status outranks stool details.",
+   "hook": "Look at the child, not the nappy.",
+   "checks": [
+    {
+     "q": "Priority in acute diarrhoea?",
+     "options": [
+      "Stool culture",
+      "Assessing hydration",
+      "Identifying the pathogen"
+     ],
+     "answer": 1,
+     "why": "Assess hydration first."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Viruses cause most acute diarrhoea; blood suggests bacteria. In chronic diarrhoea growth separates benign from serious.",
+   "hook": "Growing well? Probably toddler's diarrhoea.",
+   "checks": [
+    {
+     "q": "Commonest causes of acute diarrhoea in children?",
+     "options": [
+      "Salmonella and Shigella",
+      "Giardia",
+      "Rotavirus and norovirus"
+     ],
+     "answer": 2,
+     "why": "Mostly viral; bacterial if bloody."
+    },
+    {
+     "q": "Pivotal question in chronic diarrhoea?",
+     "options": [
+      "Is the child growing?",
+      "Is stool watery?",
+      "Is there a pet?"
+     ],
+     "answer": 0,
+     "why": "Growth separates toddler's diarrhoea from coeliac, CF, IBD."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "SGLT1 co-transports sodium with glucose even in infected gut, so ORS works. Antibiotics release Shiga toxin. Osmotic diarrhoea needs intake.",
+   "hook": "Fast: osmotic stops, secretory continues.",
+   "checks": [
+    {
+     "q": "Why does ORS work in gastroenteritis?",
+     "options": [
+      "SGLT1 stays intact",
+      "Kills enteric viruses",
+      "Blocks chloride secretion"
+     ],
+     "answer": 0,
+     "why": "Sodium-glucose cotransport is preserved, pulling water with it."
+    },
+    {
+     "q": "Antibiotics in E. coli O157 raise risk of?",
+     "options": [
+      "Toxic megacolon",
+      "C. difficile only",
+      "Haemolytic uraemic syndrome"
+     ],
+     "answer": 2,
+     "why": "Antibiotics increase Shiga toxin release → HUS."
+    },
+    {
+     "q": "Diarrhoea continuing during fasting is?",
+     "options": [
+      "Osmotic",
+      "Secretory",
+      "Toddler's diarrhoea"
+     ],
+     "answer": 1,
+     "why": "Secretory continues; osmotic stops with fasting."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Rapid transit in a thriving toddler shows undigested food. Blood and high fever point to invasive bacteria.",
+   "hook": "Peas and carrots in the nappy = toddler's.",
+   "checks": [
+    {
+     "q": "Recognisable food in stools of a thriving 2-year-old?",
+     "options": [
+      "Coeliac disease",
+      "Toddler's diarrhoea",
+      "Cystic fibrosis"
+     ],
+     "answer": 1,
+     "why": "Toddler's diarrhoea: thriving child, undigested food."
+    },
+    {
+     "q": "Which feature suggests bacterial diarrhoea?",
+     "options": [
+      "Bloody stool",
+      "Watery stool",
+      "Vomiting first"
+     ],
+     "answer": 0,
+     "why": "Blood, high fever and severe pain suggest bacteria."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Dehydration is graded clinically. Faltering growth needs coeliac, CF and IBD screening; total IgA avoids false-negative tTG.",
+   "hook": "tTG needs total IgA alongside.",
+   "checks": [
+    {
+     "q": "How is dehydration graded?",
+     "options": [
+      "Serum sodium",
+      "Urine osmolality",
+      "Clinical signs"
+     ],
+     "answer": 2,
+     "why": "Dehydration is graded clinically."
+    },
+    {
+     "q": "Why measure total IgA with tTG?",
+     "options": [
+      "IgA deficiency gives false negatives",
+      "To diagnose IBD",
+      "To grade severity"
+     ],
+     "answer": 0,
+     "why": "tTG-IgA is falsely negative in IgA deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "ORS plus continued feeding is first-line; IV only if ORS fails. Antimotility drugs and routine antibiotics are avoided.",
+   "hook": "ORS first, IV if it fails.",
+   "checks": [
+    {
+     "q": "First-line treatment of dehydrating gastroenteritis?",
+     "options": [
+      "IV fluids",
+      "ORS and continue feeding",
+      "Loperamide"
+     ],
+     "answer": 1,
+     "why": "ORS and continue feeding; IV only if ORS fails."
+    },
+    {
+     "q": "Use of loperamide in children with diarrhoea?",
+     "options": [
+      "First-line",
+      "Only if bloody",
+      "Not used"
+     ],
+     "answer": 2,
+     "why": "Loperamide is not used in children; no routine antibiotics."
+    }
+   ]
+  }
+ ],
+ "I-28": [
+  {
+   "block": "Def",
+   "explain": "Bile enters at the ampulla of Vater, so bilious vomit means the blockage lies beyond it.",
+   "hook": "Green means go: to theatre.",
+   "checks": [
+    {
+     "q": "Bilious vomiting means obstruction distal to?",
+     "options": [
+      "Pylorus",
+      "Ampulla of Vater",
+      "Ileocaecal valve"
+     ],
+     "answer": 1,
+     "why": "Bile enters at the ampulla, so obstruction is distal to it."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Age determines the likely cause: congenital obstruction in neonates, pyloric stenosis and intussusception in infants.",
+   "hook": "Age sorts vomiting.",
+   "checks": [
+    {
+     "q": "Which endocrine disorder causes neonatal vomiting?",
+     "options": [
+      "Salt-wasting CAH",
+      "Hypothyroidism",
+      "Diabetes insipidus"
+     ],
+     "answer": 0,
+     "why": "Salt-wasting CAH causes vomiting, shock and electrolyte disturbance."
+    },
+    {
+     "q": "Which causes vomiting in an infant of 2 months?",
+     "options": [
+      "Appendicitis",
+      "DKA",
+      "Pyloric stenosis"
+     ],
+     "answer": 2,
+     "why": "Pyloric stenosis peaks at 2-8 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Vomiting gastric acid loses H+ and Cl-. Kidneys save sodium by swapping K+ and H+, so urine is acidic.",
+   "hook": "Pyloric: low Cl, low K, alkalosis.",
+   "checks": [
+    {
+     "q": "Acid-base picture in pyloric stenosis?",
+     "options": [
+      "Hyperchloraemic metabolic acidosis",
+      "Hypochloraemic hypokalaemic metabolic alkalosis",
+      "Respiratory alkalosis"
+     ],
+     "answer": 1,
+     "why": "Loss of HCl gives hypochloraemic, hypokalaemic alkalosis."
+    },
+    {
+     "q": "Urine pH in late pyloric stenosis despite alkalosis?",
+     "options": [
+      "Acidic",
+      "Alkaline",
+      "Neutral"
+     ],
+     "answer": 0,
+     "why": "Paradoxical aciduria: kidneys excrete H+ to retain Na+ and K+."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Hypertrophied pylorus blocks gastric outflow without bile: projectile vomit, hungry after. CAH loses aldosterone: low Na, high K.",
+   "hook": "Firstborn boy, 6 weeks, projectile.",
+   "checks": [
+    {
+     "q": "Typical age of pyloric stenosis?",
+     "options": [
+      "Birth to 1 week",
+      "2-8 weeks",
+      "6-12 months"
+     ],
+     "answer": 1,
+     "why": "Presents at 2-8 weeks, firstborn boys."
+    },
+    {
+     "q": "Neonate with shock, low sodium, high potassium?",
+     "options": [
+      "Pyloric stenosis",
+      "Malrotation",
+      "Salt-wasting CAH"
+     ],
+     "answer": 2,
+     "why": "Aldosterone deficiency gives hyponatraemia and hyperkalaemia."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Volvulus can necrose the midgut within hours, so bilious vomiting is urgent. Ultrasound shows the thick pylorus.",
+   "hook": "Bilious vomit = rule out volvulus now.",
+   "checks": [
+    {
+     "q": "Bilious vomiting in a neonate: urgent exclusion of?",
+     "options": [
+      "Malrotation with volvulus",
+      "Pyloric stenosis",
+      "Reflux"
+     ],
+     "answer": 0,
+     "why": "Midgut volvulus must be excluded urgently."
+    },
+    {
+     "q": "Imaging of choice for pyloric stenosis?",
+     "options": [
+      "Barium meal",
+      "Abdominal X-ray",
+      "Ultrasonography"
+     ],
+     "answer": 2,
+     "why": "Ultrasound (university key)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Pyloric stenosis is not an emergency operation: correct the alkalosis first. Volvulus is.",
+   "hook": "Fix the fluids, then the pylorus.",
+   "checks": [
+    {
+     "q": "Why correct alkalosis before pyloromyotomy?",
+     "options": [
+      "Bleeding risk",
+      "Post-operative apnoea risk",
+      "Wound infection risk"
+     ],
+     "answer": 1,
+     "why": "Alkalosis depresses respiratory drive, risking post-op apnoea."
+    },
+    {
+     "q": "Operation for pyloric stenosis?",
+     "options": [
+      "Ramstedt pyloromyotomy",
+      "Ladd procedure",
+      "Gastrojejunostomy"
+     ],
+     "answer": 0,
+     "why": "Ramstedt pyloromyotomy; Ladd procedure is for malrotation."
+    }
+   ]
+  }
+ ],
+ "I-29": [
+  {
+   "block": "Def",
+   "explain": "Appendicitis is the commonest surgical acute abdomen in children.",
+   "hook": "",
+   "checks": [
+    {
+     "q": "Most common cause of acute abdomen in children?",
+     "options": [
+      "Intussusception",
+      "Mesenteric adenitis",
+      "Appendicitis"
+     ],
+     "answer": 2,
+     "why": "Appendicitis (university key)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Age narrows the list: NEC/volvulus in neonates, intussusception in toddlers, appendicitis in school age, torsion in adolescents.",
+   "hook": "Neonate NEC, toddler telescopes, schoolkid appendix.",
+   "checks": [
+    {
+     "q": "Typical acute abdomen cause in a toddler?",
+     "options": [
+      "Intussusception",
+      "NEC",
+      "Ovarian torsion"
+     ],
+     "answer": 0,
+     "why": "Intussusception peaks in toddlers; NEC in neonates."
+    },
+    {
+     "q": "Which is an acute abdomen cause in adolescents?",
+     "options": [
+      "NEC",
+      "Testicular torsion",
+      "Malrotation"
+     ],
+     "answer": 1,
+     "why": "Adolescents: testicular or ovarian torsion, gynaecological causes."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Early appendix pain is visceral, referred to the umbilicus via T10. Splenic rupture may be delayed after a subcapsular haematoma.",
+   "hook": "Appendix starts at the belly button (T10).",
+   "checks": [
+    {
+     "q": "Why does appendicitis pain start periumbilically?",
+     "options": [
+      "Midgut visceral afferents to T10",
+      "Peritoneum is irritated",
+      "Psoas muscle spasm"
+     ],
+     "answer": 0,
+     "why": "The appendix is midgut; visceral afferents enter at T10."
+    },
+    {
+     "q": "Second stage of two-stage splenic rupture?",
+     "options": [
+      "Peritonitis",
+      "Sudden shock hours to days later",
+      "Splenic abscess"
+     ],
+     "answer": 1,
+     "why": "Subcapsular haematoma ruptures later causing rapid shock (university key)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Bilious vomiting in a neonate is volvulus until proven otherwise. Appendicitis pain migrates as the parietal peritoneum is irritated.",
+   "hook": "Pain moves: umbilicus → RLQ.",
+   "checks": [
+    {
+     "q": "Neonate with bilious vomiting: presume?",
+     "options": [
+      "Pyloric stenosis",
+      "Hirschsprung disease",
+      "Malrotation with volvulus"
+     ],
+     "answer": 2,
+     "why": "Malrotation with midgut volvulus until proven otherwise."
+    },
+    {
+     "q": "Typical appendicitis fever?",
+     "options": [
+      "Low-grade",
+      "Above 40 °C",
+      "Absent always"
+     ],
+     "answer": 0,
+     "why": "Low fever; high fever suggests perforation or other cause."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Cheap checks catch mimics: pneumonia, UTI, DKA and torsion. Polytrauma gets whole-body CT.",
+   "hook": "Chest, dip, glucose, scrotum.",
+   "checks": [
+    {
+     "q": "Which 'free check' catches DKA in abdominal pain?",
+     "options": [
+      "Chest exam",
+      "Blood glucose",
+      "Scrotal exam"
+     ],
+     "answer": 1,
+     "why": "Glucose detects DKA presenting as abdominal pain."
+    },
+    {
+     "q": "Imaging study for the polytraumatised child?",
+     "options": [
+      "FAST ultrasound only",
+      "Plain X-rays",
+      "Acute whole-body CT"
+     ],
+     "answer": 2,
+     "why": "Acute CT (university key); selective CT is now preferred to limit radiation."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Peritonism needs a surgeon; resuscitate first if unstable. Torsion is time-critical.",
+   "hook": "Testis: 6 hours.",
+   "checks": [
+    {
+     "q": "Child with peritonism: management?",
+     "options": [
+      "Surgical referral",
+      "Oral antibiotics, review",
+      "Laxatives"
+     ],
+     "answer": 0,
+     "why": "Peritonism → surgical referral; resuscitate if unstable."
+    },
+    {
+     "q": "Testicular salvage falls sharply after about?",
+     "options": [
+      "2 hours",
+      "6 hours",
+      "24 hours"
+     ],
+     "answer": 1,
+     "why": "Salvage drops markedly after about 6 hours."
+    }
+   ]
+  }
+ ],
+ "I-30": [
+  {
+   "block": "Def",
+   "explain": "Rule out benign causes (bladder, faeces, hydronephrosis), then distinguish the two big tumours.",
+   "hook": "Wilms vs neuroblastoma.",
+   "checks": [
+    {
+     "q": "Main malignant differential of an abdominal mass in a child?",
+     "options": [
+      "Wilms vs neuroblastoma",
+      "Hepatoblastoma vs lymphoma",
+      "Teratoma vs sarcoma"
+     ],
+     "answer": 0,
+     "why": "Exclude benign causes, then separate Wilms from neuroblastoma."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Neonatal masses are mostly renal. Wilms links to WT1 syndromes; neuroblastoma arises from neural crest.",
+   "hook": "WAGR: Wilms, Aniridia, GU anomalies, Retardation.",
+   "checks": [
+    {
+     "q": "Most neonatal abdominal masses arise from?",
+     "options": [
+      "Liver",
+      "Adrenal",
+      "Kidney"
+     ],
+     "answer": 2,
+     "why": "Most neonatal masses are renal: hydronephrosis, MCDK."
+    },
+    {
+     "q": "Aniridia is associated with which tumour?",
+     "options": [
+      "Neuroblastoma",
+      "Wilms tumour",
+      "Hepatoblastoma"
+     ],
+     "answer": 1,
+     "why": "WAGR syndrome includes Wilms and aniridia."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Wilms arises from persistent metanephric blastema; it spreads to the lungs. Its capsule can rupture with palpation, upstaging it.",
+   "hook": "Wilms → lungs.",
+   "checks": [
+    {
+     "q": "Wilms tumour arises from?",
+     "options": [
+      "Metanephric mesenchyme",
+      "Neural crest",
+      "Ureteric bud"
+     ],
+     "answer": 0,
+     "why": "Metanephric blastema; neuroblastoma is neural crest."
+    },
+    {
+     "q": "Why avoid repeated palpation of a renal mass?",
+     "options": [
+      "Causes hypertension",
+      "Triggers catecholamine surge",
+      "Risk of tumour rupture"
+     ],
+     "answer": 2,
+     "why": "Rupture spills tumour and upstages Wilms."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Wilms: older, well, smooth, stays on one side. Neuroblastoma: younger, unwell, crosses midline, paraneoplastic and periorbital signs.",
+   "hook": "Neuroblastoma crosses; Wilms stays.",
+   "checks": [
+    {
+     "q": "Peak age of Wilms tumour?",
+     "options": [
+      "Under 1 year",
+      "3-4 years",
+      "10-12 years"
+     ],
+     "answer": 1,
+     "why": "Wilms peaks at 3-4 years; neuroblastoma under 2."
+    },
+    {
+     "q": "Opsoclonus-myoclonus suggests?",
+     "options": [
+      "Neuroblastoma",
+      "Wilms tumour",
+      "Hepatoblastoma"
+     ],
+     "answer": 0,
+     "why": "Paraneoplastic opsoclonus-myoclonus-ataxia is classic for neuroblastoma."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Ultrasound is safe and shows organ of origin. Neuroblastoma secretes catecholamine metabolites.",
+   "hook": "VMA/HVA = neuroblastoma.",
+   "checks": [
+    {
+     "q": "First imaging for a palpable abdominal mass?",
+     "options": [
+      "CT abdomen",
+      "MRI abdomen",
+      "Abdominal ultrasound"
+     ],
+     "answer": 2,
+     "why": "Ultrasound first."
+    },
+    {
+     "q": "Raised urinary VMA and HVA suggest?",
+     "options": [
+      "Wilms tumour",
+      "Neuroblastoma",
+      "Phaeochromocytoma"
+     ],
+     "answer": 1,
+     "why": "Catecholamine metabolites are raised in neuroblastoma."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Avoid palpation. Europe gives chemo first to shrink the tumour; the US operates first for staging.",
+   "hook": "SIOP: chemo first; COG: cut first.",
+   "checks": [
+    {
+     "q": "Suspected Wilms: what must be avoided?",
+     "options": [
+      "Repeated palpation",
+      "Ultrasound",
+      "Chest imaging"
+     ],
+     "answer": 0,
+     "why": "Repeated palpation risks rupture."
+    },
+    {
+     "q": "European (SIOP) approach to Wilms tumour?",
+     "options": [
+      "Surgery first",
+      "Chemotherapy before surgery",
+      "Radiotherapy alone"
+     ],
+     "answer": 1,
+     "why": "SIOP gives pre-op chemo; COG usually operates first."
+    }
+   ]
+  }
+ ]
+}

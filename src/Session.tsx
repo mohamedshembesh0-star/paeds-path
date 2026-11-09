@@ -1,15 +1,16 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ArrowRight, Check, Eye, Flame, RotateCcw, X, Zap } from "lucide-react";
+import { ArrowRight, Check, Eye, Flame, Lightbulb, Pause, RotateCcw, Sparkles, X, Zap } from "lucide-react";
 import { BLOCK_LABEL, topicById, topicLabel } from "./course";
-import type { Card, Mcq } from "./types";
+import type { Card, Mcq, Teach } from "./types";
 
-export type SessionItem = Mcq | Card;
-export type Miss = { item: SessionItem; chosen?: string };
+export type SessionItem = Mcq | Card | Teach;
+export type GradedItem = Mcq | Card;
+export type Miss = { item: GradedItem; chosen?: string };
 export type SessionResult = { total: number; firstTryCorrect: number; xp: number; misses: Miss[]; bestCombo: number };
 
 type Entry = { item: SessionItem; retry: number; order: number[] };
 
-const LEVEL_NAME = { 1: "CORE", 2: "APPLIED", 3: "HARD" } as const;
+const LEVEL_NAME = { 1: "Core", 2: "Applied", 3: "Hard" } as const;
 
 function shuffledOrder(length: number): number[] {
   const order = Array.from({ length }, (_, i) => i);
@@ -49,20 +50,22 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
   const barRef = useRef<HTMLDivElement>(null);
 
   const entry = queue[pos];
-  const uniqueTotal = items.length;
+  const uniqueTotal = items.filter((item) => item.type !== "teach").length;
+  const [hold, setHold] = useState(false);
   const [doneUnique, setDoneUnique] = useState(0);
   const doneIds = useRef(new Set<string>());
 
-  const answered = entry?.item.type === "mcq" ? picked !== null : cardVerdict !== null;
+  const answered = entry?.item.type === "teach" ? true : entry?.item.type === "mcq" ? picked !== null : cardVerdict !== null;
 
   const grade = useCallback(
     (correct: boolean, chosen?: string) => {
-      if (!entry) return;
-      const id = entry.item.id;
+      if (!entry || entry.item.type === "teach") return;
+      const item = entry.item;
+      const id = item.id;
       const firstTry = !attempted.current.has(id);
       attempted.current.add(id);
       if (firstTry && correct) firstRight.current.add(id);
-      if (!correct && !misses.current.has(id)) misses.current.set(id, { item: entry.item, chosen });
+      if (!correct && !misses.current.has(id)) misses.current.set(id, { item, chosen });
       onGrade(id, correct, firstTry);
       if (correct && !doneIds.current.has(id)) {
         doneIds.current.add(id);
@@ -77,10 +80,16 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
         });
       } else {
         setCombo(0);
-        if (entry.retry < 3) setQueue((q) => [...q, entryFor(entry.item, entry.retry + 1)]);
+        // Re-ask a miss at the end of the current chunk (before the next teaching step), else at the end.
+        if (entry.retry < 3)
+          setQueue((q) => {
+            const nextTeach = q.findIndex((e, i) => i > pos && e.item.type === "teach");
+            const at = nextTeach < 0 ? q.length : nextTeach;
+            return [...q.slice(0, at), entryFor(item, entry.retry + 1), ...q.slice(at)];
+          });
       }
     },
-    [entry, onGrade],
+    [entry, onGrade, pos],
   );
 
   const choose = useCallback(
@@ -106,8 +115,17 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
     setPicked(null);
     setRevealed(false);
     setCardVerdict(null);
+    setHold(false);
     setPos((p) => p + 1);
   }, [answered]);
+
+  // Quick checks answered correctly move on by themselves (tap Hold to stay and read).
+  const quickRight = entry?.item.type === "mcq" && !!entry.item.quick && picked !== null && picked === entry.item.answer;
+  useEffect(() => {
+    if (!quickRight || hold) return;
+    const timer = window.setTimeout(advance, 1600);
+    return () => window.clearTimeout(timer);
+  }, [quickRight, hold, advance]);
 
   // Finish when we run off the end of the queue.
   useEffect(() => {
@@ -136,7 +154,12 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
       const target = event.target as HTMLElement | null;
       if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
       const key = event.key.toLowerCase();
-      if (entry.item.type === "mcq") {
+      if (entry.item.type === "teach") {
+        if (key === "enter" || key === " ") {
+          event.preventDefault();
+          advance();
+        }
+      } else if (entry.item.type === "mcq") {
         if (picked === null) {
           const n = "12345".indexOf(key) >= 0 ? "12345".indexOf(key) : "abcde".indexOf(key);
           if (n >= 0 && n < entry.order.length) {
@@ -176,31 +199,36 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
           <div className="progress-track"><span style={{ width: `${percent}%` }} /></div>
           <span>{doneUnique}<i>/</i>{uniqueTotal}</span>
         </div>
-        <span className={`combo-chip ${combo >= 3 ? "hot" : ""}`} title="Correct in a row"><Flame size={14} /> {combo}</span>
-        <span className="xp-chip"><Zap size={14} /> {xp}</span>
+        <span className={`combo-chip ${combo >= 3 ? "hot" : ""}`} title="Correct in a row" aria-label={`${combo} correct in a row`}><Flame size={14} /> {combo}</span>
+        <span className="xp-chip" aria-label={`${xp} points this session`}><Zap size={14} /> {xp}</span>
       </div>
 
-      {header && <p className="eyebrow session-header">{header}</p>}
+      {header && <p className="session-header">{header}</p>}
 
-      {entry.item.type === "mcq" ? (
-        <McqView entry={entry as Entry & { item: Mcq }} picked={picked} onChoose={choose} showTopic={showTopic} topicTitle={topic ? `${topicLabel(topic)} · ${topic.title}` : ""} />
+      {entry.item.type === "teach" ? (
+        <TeachView key={entry.item.id} teach={entry.item} onNext={advance} />
+      ) : entry.item.type === "mcq" ? (
+        <McqView key={`${entry.item.id}-${pos}`} entry={entry as Entry & { item: Mcq }} picked={picked} onChoose={choose} showTopic={showTopic} topicTitle={topic ? `${topicLabel(topic)} · ${topic.title}` : ""} />
       ) : (
         <CardView card={entry.item} revealed={revealed} verdict={cardVerdict} onReveal={() => setRevealed(true)} onJudge={judgeCard} showTopic={showTopic} topicTitle={topic ? `${topicLabel(topic)} · ${topic.title}` : ""} retry={entry.retry} />
       )}
 
       {entry.item.type === "mcq" && picked !== null && (
-        <div ref={barRef} className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"}`}>
+        <div ref={barRef} role="status" aria-live="polite" className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"} ${entry.item.quick ? "quick" : ""}`}>
           <div className="answer-bar-inner">
             <div className="answer-bar-copy">
               <b>{picked === entry.item.answer ? (entry.retry ? "Got it this time." : pickPraise(combo)) : "Not quite."}</b>
               {picked !== entry.item.answer && <p className="answer-correct">Answer: {entry.item.options[entry.item.answer]}</p>}
               <p>{entry.item.explain}</p>
-              {entry.item.note && <p className="answer-note"><span>YOUR NOTES</span>{entry.item.note}</p>}
-              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> This one comes back before the end.</p>}
+              {entry.item.note && <p className="answer-note"><span>From your notes</span>{entry.item.note}</p>}
+              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> You will get this one again in a moment.</p>}
             </div>
-            <button className="button continue-button" onClick={advance} autoFocus>
-              Continue <ArrowRight size={17} />
-            </button>
+            <div className="answer-actions">
+              {quickRight && !hold && <button className="button hold-button" onClick={() => setHold(true)}><Pause size={15} /> Hold</button>}
+              <button className={`button continue-button ${quickRight && !hold ? "auto" : ""}`} onClick={advance} autoFocus>
+                Continue <ArrowRight size={17} />
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -217,9 +245,12 @@ function pickPraise(combo: number): string {
 function McqView({ entry, picked, onChoose, showTopic, topicTitle }: { entry: Entry & { item: Mcq }; picked: number | null; onChoose: (i: number) => void; showTopic?: boolean; topicTitle: string }) {
   const q = entry.item;
   return (
-    <div className="question-card">
+    <div className={`question-card ${q.quick ? "quick" : ""}`}>
       <div className="question-meta">
-        <span className="question-type">{entry.retry ? "RETRY · " : ""}{LEVEL_NAME[q.level]} · {BLOCK_LABEL[q.block].toUpperCase()}</span>
+        <span className="kind-row">
+          <span className="block-chip">{BLOCK_LABEL[q.block]}</span>
+          <span className="kind-label">{q.quick ? "Quick check" : `${LEVEL_NAME[q.level]} vignette`}{entry.retry ? ", second try" : ""}</span>
+        </span>
         {showTopic && <span className="question-source">{topicTitle}</span>}
       </div>
       <h2 className="question-stem">{q.stem}</h2>
@@ -244,21 +275,24 @@ function CardView({ card, revealed, verdict, onReveal, onJudge, showTopic, topic
   return (
     <div className="question-card card-mode">
       <div className="question-meta">
-        <span className={`question-type ${card.university ? "uni" : ""}`}>{retry ? "RETRY · " : ""}{card.university ? "UNIVERSITY SCREENING QUESTION" : "SAY IT OUT LOUD · ORAL DRILL"}</span>
+        <span className="kind-row">
+          <span className={`block-chip ${card.university ? "uni" : ""}`}>{card.university ? "University screening" : "Oral drill"}</span>
+          <span className="kind-label">{card.university ? "Learn the official wording" : "Say it out loud"}{retry ? ", second try" : ""}</span>
+        </span>
         {showTopic && <span className="question-source">{topicTitle}</span>}
       </div>
       <h2 className="question-stem">{card.front}</h2>
       {!revealed ? (
         <div className="recall-before">
-          <p>{card.university ? "This is on the university's screening list. Say your answer, then check it against their official wording." : "Answer aloud or in your head as if the examiner just asked. Then check yourself honestly."}</p>
+          <p>{card.university ? "Say your answer, then compare it with the university's wording." : "Answer as if the examiner just asked, then check yourself honestly."}</p>
           <button className="button button-primary full-button" onClick={onReveal}>
-            <span><Eye size={16} /> Reveal model answer</span> <ArrowRight size={17} />
+            <span><Eye size={16} /> Show answer</span> <ArrowRight size={17} />
           </button>
         </div>
       ) : (
         <>
           <div className="recall-answer">
-            <p className="eyebrow">{card.university ? "OFFICIAL ANSWER: WRITE IT LIKE THIS" : "MODEL ANSWER"}</p>
+            <p className="answer-label">{card.university ? "Official answer" : "Model answer"}</p>
             {lines.length > 1 ? <ul>{lines.map((line, i) => <li key={i}>{line}</li>)}</ul> : <p className="recall-single">{card.back}</p>}
             {card.caveat && <p className="caveat">Note: {card.caveat}</p>}
           </div>
@@ -268,6 +302,23 @@ function CardView({ card, revealed, verdict, onReveal, onJudge, showTopic, topic
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+function TeachView({ teach, onNext }: { teach: Teach; onNext: () => void }) {
+  return (
+    <div className="teach-card">
+      <div className="teach-head">
+        <span className="block-chip">{BLOCK_LABEL[teach.block]}</span>
+        <span className="kind-label">Part {teach.step} of {teach.steps}</span>
+      </div>
+      <ul className="teach-lines">{teach.lines.map((line, i) => <li key={i}>{line}</li>)}</ul>
+      {teach.explain && <p className="teach-explain"><Lightbulb size={16} /> <span>{teach.explain}</span></p>}
+      {teach.hook && <p className="teach-hook"><Sparkles size={16} /> <span>{teach.hook}</span></p>}
+      <button className="button button-primary full-button big" onClick={onNext} autoFocus>
+        <span>Got it, quiz me</span> <ArrowRight size={18} />
+      </button>
     </div>
   );
 }

@@ -649,3 +649,88 @@ h1 em { color: var(--forest); font-style: normal; }
 .screen-a { padding: 0 14px 14px 54px; font-size: 13.5px; line-height: 1.55; color: #2f5545; }
 .screen-a .text-link { margin-top: 8px; }
 @media (max-width: 700px) { .screen-a { padding-left: 14px; } }
+
+/* ---------- bite-size lessons, rapid fire, cram ---------- */
+.teach-card { margin-top: 6px; padding: clamp(18px, 4vw, 28px); border: 1px solid #cfe0d3; border-radius: 17px; background: #f4f8f2; box-shadow: 0 8px 30px rgba(47,54,44,.04); opacity: 1; translate: 0 0; transition: opacity .25s ease-out, translate .25s ease-out; }
+@starting-style { .teach-card { opacity: 0; translate: 0 8px; } }
+.teach-head { display: flex; align-items: center; gap: 10px; }
+.teach-step { padding: 4px 8px; border-radius: 7px; background: #dbe9dc; color: #2f5545; font: 700 11px var(--app-font-mono); }
+.teach-lines { margin: 16px 0 14px; padding-left: 20px; color: #24303b; font-size: 16px; line-height: 1.6; font-weight: 600; }
+.teach-lines li { margin-bottom: 9px; }
+.teach-lines li::marker { color: #5a8c6d; }
+.teach-explain, .teach-hook { display: flex; gap: 9px; align-items: flex-start; margin: 0 0 10px; padding: 10px 12px; border-radius: 10px; font-size: 14px; line-height: 1.55; }
+.teach-explain { background: #fff; color: #3a4a52; }
+.teach-hook { background: #f6eedf; color: #6e4f33; font-weight: 600; }
+.teach-explain svg { flex: 0 0 auto; margin-top: 3px; color: #c49a3c; }
+.teach-hook svg { flex: 0 0 auto; margin-top: 3px; color: #b9604b; }
+.teach-card .button { margin-top: 8px; }
+.block-aids { margin-top: 10px; }
+.block-aids .teach-explain, .block-aids .teach-hook { font-size: 12.5px; padding: 8px 10px; }
+.block-aids .teach-explain { background: #f2f0e8; }
+.question-card.quick h2.question-stem { font-size: clamp(18px, 2.4vw, 21px); }
+.question-card.quick .answer-option { min-height: 56px; font-size: 15px; }
+.answer-bar { opacity: 1; translate: 0 0; transition: opacity .2s ease-out, translate .2s ease-out; }
+@starting-style { .answer-bar { opacity: 0; translate: 0 6px; } }
+.answer-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+.hold-button { color: #2f5545; background: rgba(255,255,255,.7); min-height: 50px; }
+.continue-button.auto { background-image: linear-gradient(90deg, rgba(255,255,255,.28) 50%, transparent 50%); background-size: 200% 100%; background-position: 100% 0; animation: auto-fill 1.6s linear forwards; }
+@keyframes auto-fill { to { background-position: 0 0; } }
+.cram-list { display: grid; gap: 12px; }
+.cram-topic { padding: 16px 18px; border: 1px solid #e1ddd3; border-radius: 14px; background: #fbfaf6; content-visibility: auto; contain-intrinsic-size: auto 520px; }
+.cram-topic header { display: flex; gap: 10px; align-items: baseline; }
+.cram-topic header span { font: 10px var(--app-font-mono); color: #9a775e; }
+.cram-topic header h2 { margin: 0; font: 700 18px var(--app-font-serif); letter-spacing: -.02em; }
+.cram-topic header i { margin-left: auto; font: 700 11px var(--app-font-mono); font-style: normal; color: var(--forest); }
+.cram-pearl { margin: 8px 0 10px; padding: 8px 10px; border-radius: 8px; background: #e6efe6; color: #2f5545; font-size: 13px; font-weight: 600; line-height: 1.5; }
+.cram-blocks { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+.cram-block b { font-size: 11px; color: #8c725a; text-transform: uppercase; letter-spacing: .06em; }
+.cram-block ul { margin: 4px 0 0; padding-left: 16px; font-size: 13px; line-height: 1.5; color: #34434b; }
+.cram-hook { display: flex; gap: 6px; align-items: flex-start; margin: 5px 0 0; font-size: 12px; color: #8a5a38; font-weight: 600; }
+.cram-hook svg { flex: 0 0 auto; margin-top: 3px; }
+@media (max-width: 700px) {
+  .cram-blocks { grid-template-columns: 1fr; }
+  .teach-lines { font-size: 15px; }
+  .answer-actions { width: 100%; }
+  .answer-actions .continue-button { flex: 1; }
+}
+@media print {
+  .sidebar, .mobile-top, .mobile-bottom, .topline, .site-footer, .no-print, .page-heading { display: none !important; }
+  .main-area { margin: 0; padding: 0; }
+  body { background: #fff; }
+  .cram-topic { break-inside: avoid; content-visibility: visible; border-color: #ccc; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .continue-button.auto { animation: none; }
+}
+
+/* ---------- lesson readability pass (16px+ body, sentence-case labels, press feedback) ---------- */
+.lesson-wrap button, .lesson-wrap a { touch-action: manipulation; }
+.kind-row { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.block-chip { display: inline-flex; align-items: center; min-height: 26px; padding: 3px 10px; border-radius: 999px; background: #dfece2; color: #254d41; font: 700 13px/1.2 var(--app-font-sans); }
+.block-chip.uni { background: #f6e1d3; color: #8a3f27; }
+.kind-label { color: #5f6b70; font: 500 13px/1.3 var(--app-font-sans); }
+.session-header { margin: 16px 0 10px; color: #5f6b70; font-size: 14px; font-weight: 600; line-height: 1.4; }
+.question-card h2.question-stem { font: 600 19px/1.5 var(--app-font-sans); }
+.question-card.quick h2.question-stem { font-size: 20px; }
+.answer-option, .question-card.quick .answer-option { font-size: 16px; line-height: 1.45; min-height: 56px; color: #26333c; }
+.answer-option:active:not(:disabled) { scale: .985; }
+.answer-option { transition: border-color .15s, background-color .15s, scale .12s ease-out; }
+.answer-bar-copy b { font-size: 19px; }
+.answer-bar-copy p { font-size: 15.5px; line-height: 1.55; }
+.answer-note { font-size: 14.5px!important; }
+.answer-note span { font: 600 12px/1.3 var(--app-font-sans); letter-spacing: 0; opacity: .75; }
+.answer-label { margin: 0 0 8px; color: #3c755e; font-size: 13px; font-weight: 700; }
+.recall-answer ul, .recall-single { font-size: 16px; }
+.recall-before p { font-size: 15px; color: #4a575e; }
+.teach-lines { font-size: 17px; }
+.teach-explain, .teach-hook { font-size: 15px; }
+.lesson-progress span, .combo-chip, .xp-chip, .timer-chip { font-variant-numeric: tabular-nums; }
+.lesson-progress span { font-size: 12px; color: #55625d; }
+@media (max-width: 700px) {
+  .question-card h2.question-stem, .question-card.quick h2.question-stem { font-size: 18px; }
+  .answer-option, .question-card.quick .answer-option { font-size: 16px; padding: 12px; }
+  .teach-lines { font-size: 16.5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .answer-option:active:not(:disabled) { scale: 1; }
+}

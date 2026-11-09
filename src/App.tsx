@@ -2,13 +2,13 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import {
-  Activity, ArrowLeft, ClipboardCheck, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, ClipboardCheck, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
-import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, course, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
+import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, capstoneFor, checkCount, chunksFor, course, hasChunks, lessonSteps, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
 import {
   accuracy, blockAccuracy, buildPlan, completeLesson, dayKey, dueItems, emptyProgress, fromTransferCode, gradeItem, loadProgress, mergeProgress, mixedDrill, nextDueAt,
-  parseImport, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
+  parseImport, rapidFire, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { Session, type SessionItem, type SessionResult } from "./Session";
@@ -68,11 +68,12 @@ const navItems = [
   { href: "/topics", label: "Topics", icon: Layers3 },
   { href: "/review", label: "Review", icon: RotateCcw },
   { href: "/screening", label: "Screening", icon: ClipboardCheck },
+  { href: "/cram", label: "Cram sheets", icon: ScrollText },
   { href: "/oral", label: "Mock oral", icon: Mic },
   { href: "/progress", label: "Progress", icon: Activity },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
-const mobileNav = navItems.filter((n) => n.href !== "/settings" && n.href !== "/progress");
+const mobileNav = navItems.filter((n) => n.href !== "/settings" && n.href !== "/progress" && n.href !== "/oral");
 
 function AppShell({ children }: { children: ReactNode }) {
   const [location] = useLocation();
@@ -152,7 +153,6 @@ function HomePage() {
   useTick();
   const plan = buildPlan(progress);
   const due = dueItems(progress);
-  const weak = weakItems(progress);
   const doneToday = plan.learnedToday >= plan.targetToday && plan.remaining > 0;
   const pct = Math.round((plan.learnedToday / Math.max(1, plan.targetToday)) * 100);
   const totalPct = Math.round((plan.learnedTotal / course.topics.length) * 100);
@@ -168,7 +168,7 @@ function HomePage() {
           <p className="lede">
             {plan.remaining === 0
               ? "Spend today on reviews, weak spots and mock orals."
-              : `Today's target is ${plan.targetToday} new topic${plan.targetToday === 1 ? "" : "s"}, then clear your reviews. Each lesson takes about 4 minutes: a quick look at your notes, 8 exam-style questions, then 3 oral drills.`}
+              : `Today's target is ${plan.targetToday} new topic${plan.targetToday === 1 ? "" : "s"}, then clear your reviews. Lessons go block by block: read 1–3 lines, answer a quick question on each, then 3 vignettes to tie it together. Correct answers move on by themselves.`}
           </p>
         </div>
         <div className="heading-stats">
@@ -210,11 +210,11 @@ function HomePage() {
           <span>Spaced review</span>
           <small>{due.length ? "Answer these before they fade." : nextDue ? `Next one due ${relTime(nextDue)}.` : "Nothing yet. Learn a topic first."}</small>
         </Link>
-        <Link href="/review/weak" className={`action-card ${weak.length ? "" : "muted"}`}>
-          <span className="action-icon gold"><Dumbbell size={19} /></span>
-          <b>{weak.length} weak</b>
-          <span>Weak-spot drill</span>
-          <small>Questions you have missed and not yet locked in.</small>
+        <Link href="/review/rapid" className="action-card">
+          <span className="action-icon gold"><Gauge size={19} /></span>
+          <b>30 quick</b>
+          <span>Rapid fire</span>
+          <small>Fast single-fact questions from the topics you've learned. Correct answers move on by themselves.</small>
         </Link>
         <Link href="/screening" className="action-card">
           <span className="action-icon navy"><ClipboardCheck size={19} /></span>
@@ -331,6 +331,15 @@ function NotesBlocks({ topic, compact }: { topic: Topic; compact?: boolean }) {
             <div><h2>{BLOCK_LABEL[block]}</h2></div>
           </div>
           <ul>{topic.blocks[block].map((line, i) => <li key={i}>{line}</li>)}</ul>
+          {(() => {
+            const c = chunksFor(topic.id).find((x) => x.block === block);
+            return c && (c.explain || c.hook) ? (
+              <div className="block-aids">
+                {c.explain && <p className="teach-explain"><Lightbulb size={14} /> <span>{c.explain}</span></p>}
+                {c.hook && <p className="teach-hook"><Sparkles size={14} /> <span>{c.hook}</span></p>}
+              </div>
+            ) : null;
+          })()}
         </section>
       ))}
     </div>
@@ -400,22 +409,34 @@ function LessonPage() {
   const topic = topicById.get(topicId);
   const { progress, update } = useStore();
   const [, navigate] = useLocation();
-  const [phase, setPhase] = useState<"intro" | "quiz" | "done">("intro");
+  const chunked = !!topic && hasChunks(topic.id);
+  // Chunked lessons teach as they go, so they start straight away.
+  const [phase, setPhase] = useState<"intro" | "quiz" | "deep" | "done">(chunked ? "quiz" : "intro");
   const [result, setResult] = useState<SessionResult | null>(null);
+  const [deepDone, setDeepDone] = useState(false);
   const [runKey, setRunKey] = useState(0);
 
   useEffect(() => {
-    setPhase("intro");
+    setPhase(topic && hasChunks(topic.id) ? "quiz" : "intro");
     setResult(null);
+    setDeepDone(false);
     window.scrollTo(0, 0);
-  }, [topicId]);
+  }, [topicId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const items = useMemo<SessionItem[]>(() => {
     if (!topic) return [];
     const bank = bankFor(topic.id);
+    if (hasChunks(topic.id)) return [...lessonSteps(topic.id), ...screeningFor(topic.id)];
     const qs = [...bank.questions].sort((a, b) => a.level - b.level);
     return [...qs, ...bank.cards, ...screeningFor(topic.id)];
   }, [topic, runKey]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const deepItems = useMemo<SessionItem[]>(() => {
+    if (!topic) return [];
+    const bank = bankFor(topic.id);
+    const used = new Set(capstoneFor(topic.id).map((q) => q.id));
+    return [...bank.questions.filter((q) => !used.has(q.id)).sort((a, b) => a.level - b.level), ...bank.cards];
+  }, [topic]);
 
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "lesson")), [update]);
   const onFinish = useCallback(
@@ -429,24 +450,38 @@ function LessonPage() {
     },
     [topic, update],
   );
+  const onDeepFinish = useCallback((r: SessionResult) => {
+    setResult(r);
+    setDeepDone(true);
+    setPhase("done");
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!topic) return <NotFound />;
   const bank = bankFor(topic.id);
+  const header = `${topicLabel(topic)} · ${topic.title}`;
 
   if (phase === "quiz") {
-    return <Session key={`${topic.id}-${runKey}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => setPhase("intro")} header={`${topicLabel(topic)} · ${topic.title}`} />;
+    return <Session key={`${topic.id}-${runKey}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(`/topic/${topic.id}`)} header={header} />;
+  }
+  if (phase === "deep") {
+    return <Session key={`${topic.id}-deep-${runKey}`} items={deepItems} onGrade={onGrade} onFinish={onDeepFinish} onExit={() => setPhase("done")} header={`DEEP PRACTICE · ${header}`} />;
   }
 
   if (phase === "done" && result) {
     const plan = buildPlan(progress);
     const next = plan.next && plan.next.id !== topic.id ? plan.next : undefined;
+    const secondary: { label: string; href?: string; onClick?: () => void }[] = [];
+    if (chunked && !deepDone && deepItems.length) secondary.push({ label: `Deep practice (${deepItems.length} more)`, onClick: () => { setRunKey((k) => k + 1); setPhase("deep"); } });
+    secondary.push({ label: "Redo lesson", onClick: () => { setRunKey((k) => k + 1); setDeepDone(false); setPhase("quiz"); } });
+    secondary.push({ label: "Notes & cram sheet", href: `/topic/${topic.id}` });
     return (
       <ResultView
-        title={topic.title}
+        title={deepDone ? `Deep practice · ${topic.title}` : topic.title}
         result={result}
         primary={next ? { label: `Next: ${next.title}`, href: `/learn/${next.id}` } : { label: "Back to today", href: "/" }}
-        secondary={[{ label: "Redo this lesson", onClick: () => { setRunKey((k) => k + 1); setPhase("quiz"); } }, { label: "Read notes", href: `/topic/${topic.id}` }]}
-        footnote={plan.remaining > 0 ? `${plan.learnedToday}/${plan.targetToday} topics today. Missed questions come back in your review queue in about 15 minutes.` : "Every topic learned. Keep your review queue at zero."}
+        secondary={secondary}
+        footnote={plan.remaining > 0 ? `${plan.learnedToday}/${plan.targetToday} topics today. Misses come back in your review queue in about 15 minutes.` : "Every topic learned. Keep your review queue at zero."}
       />
     );
   }
@@ -467,12 +502,11 @@ function LessonPage() {
           <span className="teaching-step-number"><BookOpen size={18} /></span>
           <div><p className="eyebrow">60-SECOND SCAN</p><h2>Your notes</h2></div>
         </div>
-        <p className="teaching-purpose">Skim these once. Every question is built from these lines, and the oral drills at the end ask you to say them back.</p>
         <NotesBlocks topic={topic} compact />
       </div>
       <div className="sticky-start">
         <button className="button button-primary full-button big" onClick={() => setPhase("quiz")} autoFocus>
-          <span><Play size={17} /> Start: {bank.questions.length} questions + {bank.cards.length + screeningFor(topic.id).length} drills</span><ArrowRight size={18} />
+          <span><Play size={17} /> Start: {items.length} steps</span><ArrowRight size={18} />
         </button>
       </div>
     </div>
@@ -544,7 +578,11 @@ function ReviewHub() {
         <div><p className="eyebrow">SPACED REPETITION</p><h1>Review before<br /><em>it fades.</em></h1><p className="lede">Each question you answer is scheduled again: a miss comes back in 15 minutes, a correct answer in 3 hours, then 12 hours, 1 day and 2 days. Keeping this queue at zero is what makes three days of learning still be there on exam day.</p></div>
         <div className="review-stat"><RotateCcw size={20} /><b>{due.length}</b><span>due now</span></div>
       </header>
-      <section className="action-grid three">
+      <section className="action-grid">
+        <Link href="/review/rapid" className="action-card">
+          <span className="action-icon mint"><Gauge size={19} /></span><b>30</b><span>Rapid fire</span>
+          <small>Quick single-fact questions, auto-advancing. The fastest way to run through a lot of facts.</small>
+        </Link>
         <Link href="/review/due" className={`action-card ${due.length ? "" : "muted"}`}>
           <span className="action-icon coral"><RotateCcw size={19} /></span><b>{due.length} due</b><span>Due reviews</span>
           <small>{due.length ? `Up to 25 per round, newest misses first.` : nextDue ? `All clear. Next one due ${relTime(nextDue)}.` : "Learn a topic to fill this up."}</small>
@@ -583,12 +621,14 @@ function ReviewSession() {
   const items = useMemo<SessionItem[]>(() => {
     if (mode === "due") return dueItems(progress).slice(0, 25);
     if (mode === "weak") return weakItems(progress).slice(0, 20);
+    if (mode === "rapid") return rapidFire(progress, 30);
+    if (mode === "rapid-I" || mode === "rapid-II" || mode === "rapid-III") return rapidFire(progress, 30, mode.slice(6) as Topic["section"]);
     if (mode === "screening") return screeningDrill(progress, 25);
     return mixedDrill(progress, 20);
   }, [mode, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "review")), [update]);
   const onFinish = useCallback((r: SessionResult) => { setResult(r); window.scrollTo(0, 0); }, []);
-  const title = mode === "due" ? "Due reviews" : mode === "weak" ? "Weak-spot drill" : mode === "screening" ? "University screening" : "Mixed drill";
+  const title = mode === "due" ? "Due reviews" : mode === "weak" ? "Weak-spot drill" : mode === "screening" ? "University screening" : mode.startsWith("rapid") ? "Rapid fire" : "Mixed drill";
 
   if (result) {
     const moreDue = dueItems(progress).length;
@@ -598,7 +638,7 @@ function ReviewSession() {
       <ResultView
         title={title}
         result={result}
-        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : "Another 20", href: `/review/${mode}/${round + 1}` } : { label: "Back to today", href: "/" }}
+        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : mode.startsWith("rapid") ? "Another 30" : "Another 20", href: `/review/${mode}/${round + 1}` } : { label: "Back to today", href: "/" }}
         secondary={[{ label: mode === "screening" ? "All screening questions" : "Review hub", href: mode === "screening" ? "/screening" : "/review" }]}
       />
     );
@@ -674,6 +714,66 @@ function ScreeningPage() {
       </div>
       <div className="screen-list">{list.map((c) => <ScreeningRow key={c.id} card={c} showTopic />)}</div>
       {list.length === 0 && <p className="subtle-note">Nothing matches.</p>}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ cram sheets */
+
+function CramPage() {
+  const { progress } = useStore();
+  const [query, setQuery] = useState("");
+  const [section, setSection] = useState<"all" | Topic["section"]>("all");
+  const [onlyWeak, setOnlyWeak] = useState(false);
+  const q = query.trim().toLowerCase();
+  const topics = course.topics.filter((t) => {
+    if (section !== "all" && t.section !== section) return false;
+    if (onlyWeak && !(progress.topics[t.id] && topicMastery(progress, t.id) < 60)) return false;
+    if (!q) return true;
+    const text = `${topicLabel(t)} ${t.title} ${BLOCKS.map((b) => t.blocks[b].join(" ")).join(" ")}`.toLowerCase();
+    return text.includes(q);
+  });
+  return (
+    <div className="page-wrap cram-page">
+      <header className="page-heading simple-heading">
+        <div><p className="eyebrow">CRAM MODE</p><h1>Every topic<br /><em>on one screen.</em></h1><p className="lede">The key point, your notes and a memory hook for every block, topic after topic. Scroll it the night before, or print a section.</p></div>
+      </header>
+      <div className="filter-row no-print">
+        <label className="search-box"><Search size={17} /><input aria-label="Search cram sheets" placeholder="Search any fact, e.g. 'ceftriaxone'" value={query} onChange={(e) => setQuery(e.target.value)} />{query && <button aria-label="Clear search" onClick={() => setQuery("")}><X size={15} /></button>}</label>
+        <div className="segmented">{(["all", "I", "II", "III"] as const).map((x) => <button key={x} className={section === x ? "on" : ""} onClick={() => setSection(x)}>{x === "all" ? "All" : `Section ${x}`}</button>)}</div>
+        <div className="segmented"><button className={onlyWeak ? "on" : ""} onClick={() => setOnlyWeak(!onlyWeak)}>Only weak</button></div>
+        <button className="button button-outline" onClick={() => window.print()}><Printer size={15} /> Print</button>
+        {section !== "all" && <Link className="button button-outline" href={`/review/rapid-${section}`}><Gauge size={15} /> Rapid fire section {section}</Link>}
+      </div>
+      <p className="subtle-note no-print">{topics.length} topics</p>
+      <div className="cram-list">
+        {topics.map((t) => {
+          const chunks = chunksFor(t.id);
+          const bank = bankFor(t.id);
+          return (
+            <article className="cram-topic" key={t.id}>
+              <header>
+                <span>{topicLabel(t)}</span>
+                <Link href={`/topic/${t.id}`}><h2>{t.title}</h2></Link>
+                {progress.topics[t.id] && <i>{topicMastery(progress, t.id)}%</i>}
+              </header>
+              {bank.summary && <p className="cram-pearl">{bank.summary}</p>}
+              <div className="cram-blocks">
+                {BLOCKS.filter((b) => t.blocks[b].length).map((b) => {
+                  const c = chunks.find((x) => x.block === b);
+                  return (
+                    <div className="cram-block" key={b}>
+                      <b>{BLOCK_LABEL[b]}</b>
+                      <ul>{t.blocks[b].map((l, i) => <li key={i}>{l}</li>)}</ul>
+                      {c?.hook && <p className="cram-hook"><Sparkles size={12} /> {c.hook}</p>}
+                    </div>
+                  );
+                })}
+              </div>
+            </article>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -988,7 +1088,7 @@ function SettingsPage() {
         <span className="settings-icon"><HeartPulse size={20} /></span>
         <div className="settings-copy">
           <p className="eyebrow">ABOUT THE CONTENT</p><h2>{questionCount} questions across {authoredTopics} topics</h2>
-          <p>Every question is written from your 165 one-page summaries and keyed to the exact line it tests (shown after you answer). Where a line of your notes is debatable, the explanation says so. Shortcuts: keys 1–4 or A–D pick an answer, Enter continues, Space reveals an oral drill.</p>
+          <p>Lessons now teach one block at a time with {checkCount} quick single-fact checks, then 3 vignettes; Deep practice holds the rest. Every question is written from your 165 one-page summaries and keyed to the exact line it tests (shown after you answer). Where a line of your notes is debatable, the explanation says so. Shortcuts: keys 1–4 or A–D pick an answer, Enter continues, Space reveals an oral drill.</p>
         </div>
       </section>
 
@@ -1040,6 +1140,7 @@ export default function App() {
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
           <Route path="/screening" component={ScreeningPage} />
+          <Route path="/cram" component={CramPage} />
           <Route path="/oral" component={OralPage} />
           <Route path="/progress" component={ProgressPage} />
           <Route path="/settings" component={SettingsPage} />

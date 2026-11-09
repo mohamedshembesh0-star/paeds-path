@@ -1,0 +1,2462 @@
+{
+ "II-36": [
+  {
+   "block": "Def",
+   "explain": "After birth, lung expansion and oxygen should drop pulmonary resistance; in PPHN it stays high, so blood takes the fetal shortcuts right-to-left.",
+   "hook": "PPHN = the baby 'forgot' to switch off fetal circulation.",
+   "checks": [
+    {
+     "q": "In PPHN, what fails to happen after birth?",
+     "options": [
+      "Ductus arteriosus fails to close",
+      "Pulmonary vascular resistance fails to fall",
+      "Systemic resistance fails to rise"
+     ],
+     "answer": 1,
+     "why": "PVR stays high; the open duct is a consequence, not the primary defect."
+    },
+    {
+     "q": "Which direction is the shunt at the PDA and foramen ovale in PPHN?",
+     "options": [
+      "Left-to-right",
+      "Bidirectional, mostly left-to-right",
+      "Right-to-left"
+     ],
+     "answer": 2,
+     "why": "High pulmonary pressure pushes blood right-to-left, causing cyanosis."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Anything that injures lungs or causes hypoxia/acidosis keeps pulmonary vessels constricted; some drugs and lung hypoplasia remodel vessels before birth.",
+   "hook": "Meconium is the Most common.",
+   "checks": [
+    {
+     "q": "What is the commonest cause of PPHN?",
+     "options": [
+      "Meconium aspiration",
+      "Group B strep sepsis",
+      "Respiratory distress syndrome"
+     ],
+     "answer": 0,
+     "why": "Meconium aspiration leads; sepsis, asphyxia and RDS are other causes."
+    },
+    {
+     "q": "Which maternal drug in pregnancy is linked to PPHN?",
+     "options": [
+      "Paracetamol",
+      "SSRIs",
+      "Labetalol"
+     ],
+     "answer": 1,
+     "why": "SSRIs (and NSAIDs, which close the duct early) are associated with PPHN."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Blood that skips the lungs never meets the oxygen, so raising FiO2 does little; hypoxia then tightens vessels further.",
+   "hook": "Vicious circle: hypoxia → constriction → more shunt → more hypoxia.",
+   "checks": [
+    {
+     "q": "Why does raising FiO2 barely help in PPHN?",
+     "options": [
+      "Alveoli are collapsed",
+      "Haemoglobin is abnormal",
+      "Shunted blood bypasses alveoli"
+     ],
+     "answer": 2,
+     "why": "Right-to-left shunt bypasses ventilated alveoli, unlike parenchymal disease."
+    },
+    {
+     "q": "Which two factors drive more pulmonary vasoconstriction in PPHN?",
+     "options": [
+      "Hypoxia and acidosis",
+      "Hypercapnia and alkalosis",
+      "Anaemia and fever"
+     ],
+     "answer": 0,
+     "why": "Hypoxia + acidosis constrict pulmonary vessels, closing the vicious circle."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "A term baby who is bluer than the lungs explain, with swinging saturations, points to shunting; high pulmonary pressure gives a loud P2.",
+   "hook": "Blue out of proportion + labile sats = think PPHN.",
+   "checks": [
+    {
+     "q": "Typical PPHN cyanosis is described as?",
+     "options": [
+      "Mild and improving with oxygen",
+      "Out of proportion to lung disease",
+      "Only during feeding"
+     ],
+     "answer": 1,
+     "why": "Cyanosis exceeds the lung findings because of extrapulmonary shunting."
+    },
+    {
+     "q": "Which heart sound is typical in PPHN?",
+     "options": [
+      "Loud single S2",
+      "Widely split fixed S2",
+      "Third heart sound"
+     ],
+     "answer": 0,
+     "why": "Raised pulmonary pressure gives a loud single S2, plus a TR murmur."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "The right hand is pre-ductal; legs are post-ductal. A gap shows ductal right-to-left shunt; echo proves it and excludes structural heart disease.",
+   "hook": "Right hand = pre-ductal (before the duct).",
+   "checks": [
+    {
+     "q": "Which pre-post-ductal saturation gap suggests PPHN?",
+     "options": [
+      ">3%",
+      ">10%",
+      ">1%"
+     ],
+     "answer": 0,
+     "why": "A gap over 3% (right hand higher) indicates ductal right-to-left shunting."
+    },
+    {
+     "q": "Which test confirms the shunt and excludes cyanotic heart disease?",
+     "options": [
+      "Chest X-ray",
+      "Hyperoxia test",
+      "Echocardiography"
+     ],
+     "answer": 2,
+     "why": "Echo shows the shunt and rules out lesions such as TAPVD."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Calm the baby and avoid triggers of vasoconstriction, dilate pulmonary vessels selectively with iNO, and keep systemic pressure above pulmonary.",
+   "hook": "Calm, warm, iNO, pressors, then ECMO.",
+   "checks": [
+    {
+     "q": "Which is part of general PPHN care?",
+     "options": [
+      "Frequent handling and stimulation",
+      "Hyperoxia to 100% saturations",
+      "Minimal handling and sedation"
+     ],
+     "answer": 2,
+     "why": "Stimulation causes vasoconstriction; hyperoxia should be avoided too."
+    },
+    {
+     "q": "At what oxygenation index is inhaled nitric oxide started?",
+     "options": [
+      "OI >5-10",
+      "OI >20-25",
+      "OI >40-50"
+     ],
+     "answer": 1,
+     "why": "iNO 20 ppm is given if OI >20-25; it relaxes vessels via cGMP."
+    },
+    {
+     "q": "What is used if PPHN is refractory to medical therapy?",
+     "options": [
+      "ECMO",
+      "High-dose steroids",
+      "Exchange transfusion"
+     ],
+     "answer": 0,
+     "why": "ECMO is the rescue after BP support (milrinone, adrenaline, vasopressin) fails."
+    }
+   ]
+  }
+ ],
+ "II-37": [
+  {
+   "block": "Def",
+   "explain": "Babies can catch infections at three times: through the placenta, during passage through the birth canal, or after birth.",
+   "hook": "Three routes: Before, During, After birth.",
+   "checks": [
+    {
+     "q": "Which is NOT a route of perinatal infection?",
+     "options": [
+      "Transplacental",
+      "Intrapartum",
+      "Paternal germline"
+     ],
+     "answer": 2,
+     "why": "Routes are transplacental, intrapartum and postnatal."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Bloodborne agents cross the placenta; genital-tract and blood organisms infect at delivery; hospital lines and hands infect afterwards.",
+   "hook": "Placenta = TORCH; canal = GBS/HSV; NICU = CoNS.",
+   "checks": [
+    {
+     "q": "Which is a transplacental perinatal infection?",
+     "options": [
+      "Parvovirus B19",
+      "Group B strep",
+      "Gonococcus"
+     ],
+     "answer": 0,
+     "why": "Parvovirus B19 crosses the placenta, like TORCH, VZV and Zika."
+    },
+    {
+     "q": "Which infection is typically acquired intrapartum?",
+     "options": [
+      "Rubella",
+      "Toxoplasma",
+      "Group B strep"
+     ],
+     "answer": 2,
+     "why": "GBS is acquired from the birth canal during delivery."
+    },
+    {
+     "q": "Commonest NICU line-associated organism postnatally?",
+     "options": [
+      "Listeria",
+      "Coagulase-negative staph",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 1,
+     "why": "CoNS from lines and hands are classic postnatal NICU pathogens."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Early infection disrupts organ formation, causing malformations; late infection causes active disease. Infant immunity tolerates HBV, so chronicity is common.",
+   "hook": "Early = malformed; late = inflamed.",
+   "checks": [
+    {
+     "q": "Infection in early pregnancy typically causes?",
+     "options": [
+      "Malformation",
+      "Active disease at birth",
+      "No fetal effect"
+     ],
+     "answer": 0,
+     "why": "Organogenesis is hit early; later infections cause active disease at birth."
+    },
+    {
+     "q": "Roughly what proportion of infected infants become HBV carriers?",
+     "options": [
+      "Up to 10%",
+      "Up to 50%",
+      "Up to 90%"
+     ],
+     "answer": 2,
+     "why": "Up to 90% of infants infected with HBV become chronic carriers."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "HSV targets brain, skin and liver. Conjunctivitis timing tracks the organism's incubation: chemical within a day, gonococcus fast, chlamydia slower.",
+   "hook": "Conjunctivitis: chemical day 1, Gono 2-5, Chlamydia 5-14.",
+   "checks": [
+    {
+     "q": "Which triad fits neonatal HSV?",
+     "options": [
+      "Seizures, vesicles, hepatitis",
+      "Cataract, deafness, PDA",
+      "Snuffles, rash, saber shins"
+     ],
+     "answer": 0,
+     "why": "HSV causes seizures (encephalitis), vesicles and hepatitis."
+    },
+    {
+     "q": "Gonococcal conjunctivitis typically appears at which age?",
+     "options": [
+      "Day 1",
+      "2-5 days",
+      "5-14 days"
+     ],
+     "answer": 1,
+     "why": "Gonococcus 2-5 days; chlamydia 5-14 days; silver nitrate gives chemical conjunctivitis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Screening the mother lets you prevent transmission: treat or immunise the baby at birth or give intrapartum prophylaxis.",
+   "hook": "Screen mum: HIV, HBV, syphilis, GBS.",
+   "checks": [
+    {
+     "q": "Which is part of routine antenatal infection screening?",
+     "options": [
+      "Toxoplasma",
+      "Hepatitis B",
+      "CMV"
+     ],
+     "answer": 1,
+     "why": "Antenatal screening covers HIV, hepatitis B, syphilis and GBS status."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Each organism has a specific prophylaxis or drug; passive plus active immunisation blocks HBV, and HIV is avoided via ART and no breastfeeding.",
+   "hook": "HBV baby: jab + HBIG within 12 h.",
+   "checks": [
+    {
+     "q": "Within what time should HBV vaccine + HBIG be given?",
+     "options": [
+      "12 hours",
+      "48 hours",
+      "7 days"
+     ],
+     "answer": 0,
+     "why": "Give within 12 hours (latest 24 h); breastfeeding is still allowed."
+    },
+    {
+     "q": "What is the treatment for neonatal gonococcal infection?",
+     "options": [
+      "Azithromycin",
+      "Ceftriaxone",
+      "Penicillin G"
+     ],
+     "answer": 1,
+     "why": "Gonococcus → ceftriaxone; chlamydia → azithromycin."
+    },
+    {
+     "q": "Which feeding advice applies to HIV-positive mothers here?",
+     "options": [
+      "Breastfeed with ART",
+      "Mixed feeding",
+      "No breastfeeding"
+     ],
+     "answer": 2,
+     "why": "Per the notes: ART and no breastfeeding."
+    }
+   ]
+  }
+ ],
+ "II-38": [
+  {
+   "block": "Def",
+   "explain": "TORCH groups congenital infections with overlapping features: growth restriction, eye and brain damage, rash and organomegaly.",
+   "hook": "TORCH: Toxo, Other, Rubella, CMV, HSV.",
+   "checks": [
+    {
+     "q": "In TORCH, what does the 'C' stand for?",
+     "options": [
+      "Chlamydia",
+      "CMV",
+      "Candida"
+     ],
+     "answer": 1,
+     "why": "C = cytomegalovirus; Other covers syphilis, VZV, parvovirus, Zika."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Maternal infection crosses the placenta; damage is worst in the first trimester when organs are forming. CMV is the most frequent.",
+   "hook": "CMV = Commonest congenital infection.",
+   "checks": [
+    {
+     "q": "Which is the commonest congenital TORCH infection?",
+     "options": [
+      "Toxoplasma",
+      "Rubella",
+      "CMV"
+     ],
+     "answer": 2,
+     "why": "CMV is the commonest; risk of severe damage is highest in the 1st trimester."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "These organisms attack rapidly dividing fetal cells, so growth, brain and eyes suffer. Parvovirus destroys red cell precursors, causing hydrops.",
+   "hook": "Parvo kills RBC precursors → hydrops.",
+   "checks": [
+    {
+     "q": "TORCH organisms damage the fetus by attacking?",
+     "options": [
+      "Dividing fetal cells",
+      "Maternal kidneys",
+      "Amniotic fluid"
+     ],
+     "answer": 0,
+     "why": "Attacking dividing cells causes IUGR, CNS and eye damage."
+    },
+    {
+     "q": "Which congenital infection causes hydrops fetalis?",
+     "options": [
+      "VZV",
+      "Parvovirus B19",
+      "Toxoplasma"
+     ],
+     "answer": 1,
+     "why": "Parvovirus B19 → fetal anaemia → hydrops; VZV → limb hypoplasia."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Each agent has a signature: calcification pattern (CMV periventricular, toxo diffuse), the eye lesion, and for syphilis nose and bone signs.",
+   "hook": "CMV circles the ventricles; toxo scatters everywhere.",
+   "checks": [
+    {
+     "q": "Which calcification pattern is typical of congenital CMV?",
+     "options": [
+      "Diffuse",
+      "Basal ganglia only",
+      "Periventricular"
+     ],
+     "answer": 2,
+     "why": "CMV gives periventricular calcification; toxo gives diffuse calcification."
+    },
+    {
+     "q": "Which triad suggests congenital rubella?",
+     "options": [
+      "Cataract, deafness, PDA",
+      "Chorioretinitis, hydrocephalus, calcification",
+      "Seizures, vesicles, hepatitis"
+     ],
+     "answer": 0,
+     "why": "Rubella: cataract, deafness, PDA; the second option is toxoplasmosis."
+    },
+    {
+     "q": "Which sign is typical of congenital syphilis?",
+     "options": [
+      "Blueberry muffin rash",
+      "Snuffles",
+      "Limb hypoplasia"
+     ],
+     "answer": 1,
+     "why": "Syphilis: snuffles, desquamating rash, saber shins."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "After 21 days, a positive CMV PCR could be postnatal infection, so testing must be early; most babies look normal, hence follow-up.",
+   "hook": "CMV PCR: 3 weeks window.",
+   "checks": [
+    {
+     "q": "Within how many days must CMV urine/saliva PCR be done?",
+     "options": [
+      "7 days",
+      "21 days",
+      "42 days"
+     ],
+     "answer": 1,
+     "why": "Within 21 days to prove congenital (not postnatal) infection."
+    },
+    {
+     "q": "How is congenital toxoplasmosis diagnosed per the notes?",
+     "options": [
+      "Antibody testing",
+      "Urine PCR",
+      "Blood culture"
+     ],
+     "answer": 0,
+     "why": "Toxoplasmosis is diagnosed by antibody testing."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Targeted antimicrobials for each agent; rubella has no cure, so prevention by vaccination is the strategy.",
+   "hook": "Toxo triple: pyrimethamine, sulfadiazine, folate.",
+   "checks": [
+    {
+     "q": "Treatment of symptomatic congenital CMV?",
+     "options": [
+      "Aciclovir 14 days",
+      "Valganciclovir 6 months",
+      "Foscarnet 3 weeks"
+     ],
+     "answer": 1,
+     "why": "Symptomatic CMV: valganciclovir for 6 months."
+    },
+    {
+     "q": "How is congenital rubella prevented?",
+     "options": [
+      "MMR vaccination",
+      "Antenatal immunoglobulin",
+      "Penicillin G"
+     ],
+     "answer": 0,
+     "why": "Rubella is prevented by MMR; syphilis is treated with penicillin G."
+    },
+    {
+     "q": "HSV lesions present in labour: delivery method?",
+     "options": [
+      "Vacuum delivery",
+      "Vaginal delivery",
+      "C-section"
+     ],
+     "answer": 2,
+     "why": "Active lesions in labour → C-section; aciclovir from 36 weeks."
+    }
+   ]
+  }
+ ],
+ "II-39": [
+  {
+   "block": "Def",
+   "explain": "Timing reflects source: early sepsis comes from the mother's genital tract, late sepsis from hospital or community exposure.",
+   "hook": "72 hours splits mother's bugs from the ward's bugs.",
+   "checks": [
+    {
+     "q": "What cut-off separates early- from late-onset neonatal sepsis?",
+     "options": [
+      "24 hours",
+      "72 hours",
+      "7 days"
+     ],
+     "answer": 1,
+     "why": "Early <72 h = vertical; late >72 h = nosocomial/community."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Early organisms come from the birth canal; late ones from lines and the environment. Long membrane rupture and chorioamnionitis raise early risk.",
+   "hook": "Early = GEL: GBS, E. coli, Listeria.",
+   "checks": [
+    {
+     "q": "Which organism is a classic early-onset sepsis cause?",
+     "options": [
+      "Listeria",
+      "Candida",
+      "Pseudomonas"
+     ],
+     "answer": 0,
+     "why": "Early: GBS, E. coli, Listeria; Candida is late-onset."
+    },
+    {
+     "q": "Commonest late-onset cause linked to central lines?",
+     "options": [
+      "E. coli",
+      "Coagulase-negative staph",
+      "Listeria"
+     ],
+     "answer": 1,
+     "why": "CoNS colonise lines and dominate late-onset sepsis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Neonates have few neutrophils in reserve and low complement and antibodies, while lines breach skin barriers, so infection spreads fast.",
+   "hook": "Empty neutrophil bank + open skin door.",
+   "checks": [
+    {
+     "q": "Why does neonatal sepsis spread rapidly?",
+     "options": [
+      "Excess neutrophil reserve",
+      "High IgA levels",
+      "Small neutrophil reserve"
+     ],
+     "answer": 2,
+     "why": "Small neutrophil reserve plus low complement/Ig allows rapid spread."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Neonates rarely mount fever or focal signs; sepsis shows as non-specific changes in breathing, temperature, feeding and perfusion.",
+   "hook": "Any 'off' baby is septic until proven otherwise.",
+   "checks": [
+    {
+     "q": "Which describes neonatal sepsis signs?",
+     "options": [
+      "Subtle and non-specific",
+      "Always high fever",
+      "Focal and localised"
+     ],
+     "answer": 0,
+     "why": "Apnoea, temperature instability, grunting, poor feeding and mottling."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Culture identifies the organism, serial CRP tracks inflammation, LP excludes meningitis. Maternal swabs flag GBS colonisation.",
+   "hook": "Swab mum for GBS.",
+   "checks": [
+    {
+     "q": "Which is part of the neonatal sepsis work-up?",
+     "options": [
+      "Lumbar puncture",
+      "Abdominal CT",
+      "Bone marrow biopsy"
+     ],
+     "answer": 0,
+     "why": "Blood culture, serial CRP and lumbar puncture."
+    },
+    {
+     "q": "Which sepsis agent is found by maternal vaginal screening?",
+     "options": [
+      "Listeria",
+      "E. coli",
+      "Group B strep"
+     ],
+     "answer": 2,
+     "why": "Official answer: GBS is identified by maternal vaginal screening."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Intrapartum penicillin needs time to reach the baby; empirical antibiotics must be fast and cover GBS, Gram-negatives and Listeria.",
+   "hook": "Penicillin ≥4 h before birth; antibiotics within 1 h.",
+   "checks": [
+    {
+     "q": "Intrapartum GBS penicillin must start how long before delivery?",
+     "options": [
+      "At least 1 hour",
+      "At least 4 hours",
+      "At least 12 hours"
+     ],
+     "answer": 1,
+     "why": "At least 4 hours; it does not prevent late-onset GBS."
+    },
+    {
+     "q": "Empirical regimen for sepsis without meningitis?",
+     "options": [
+      "Ampicillin + cefotaxime",
+      "Vancomycin + meropenem",
+      "Ampicillin + gentamicin"
+     ],
+     "answer": 2,
+     "why": "Ampicillin + gentamicin within 1 h; cefotaxime replaces gentamicin if meningitis."
+    },
+    {
+     "q": "Previous baby had invasive GBS: what next pregnancy?",
+     "options": [
+      "Prophylaxis in every pregnancy",
+      "Screen and treat only if positive",
+      "No action"
+     ],
+     "answer": 0,
+     "why": "A prior invasive GBS baby means intrapartum prophylaxis every pregnancy."
+    }
+   ]
+  }
+ ],
+ "II-40": [
+  {
+   "block": "Def",
+   "explain": "Preterm brains bleed (IVH) or suffer white matter ischaemia (PVL); term brains suffer global hypoxia, stroke, infection or trauma.",
+   "hook": "Preterm: bleeds and white matter; term: HIE.",
+   "checks": [
+    {
+     "q": "Which CNS disorders typify preterm neonates?",
+     "options": [
+      "HIE and stroke",
+      "IVH and PVL",
+      "Kernicterus and trauma"
+     ],
+     "answer": 1,
+     "why": "Preterm: IVH and PVL; term: HIE, stroke, infection, kernicterus, trauma."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "IVH strikes very preterm babies early; HIE is the leading cause of seizures. Instrumental delivery and traction cause trauma injuries.",
+   "hook": "Vacuum → subgaleal; traction → Erb.",
+   "checks": [
+    {
+     "q": "What is the commonest cause of neonatal seizures?",
+     "options": [
+      "Hypoglycaemia",
+      "HIE",
+      "Meningitis"
+     ],
+     "answer": 1,
+     "why": "HIE is the commonest seizure cause; IVH occurs <32 weeks within 72 h."
+    },
+    {
+     "q": "Subgaleal haemorrhage typically follows which delivery?",
+     "options": [
+      "Vacuum delivery",
+      "Elective C-section",
+      "Breech vaginal"
+     ],
+     "answer": 0,
+     "why": "Vacuum extraction causes subgaleal bleeding; lateral traction causes Erb palsy."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The germinal matrix is fragile and richly vascular, so it bleeds; periventricular white matter is a watershed area prone to ischaemia.",
+   "hook": "PVL hits the leg fibres → spastic diplegia.",
+   "checks": [
+    {
+     "q": "Where does IVH originate?",
+     "options": [
+      "Choroid plexus",
+      "Cerebral cortex",
+      "Germinal matrix"
+     ],
+     "answer": 2,
+     "why": "The fragile germinal matrix bleeds, risking hydrocephalus."
+    },
+    {
+     "q": "PVL classically leads to?",
+     "options": [
+      "Spastic diplegia",
+      "Hemiplegia",
+      "Athetoid palsy"
+     ],
+     "answer": 0,
+     "why": "Watershed white matter ischaemia → PVL → spastic diplegia."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Neonatal seizures lack tonic-clonic patterns. A boggy swelling crossing sutures with shock means bleeding under the galea.",
+   "hook": "Erb = waiter's tip.",
+   "checks": [
+    {
+     "q": "IVH sign related to head size?",
+     "options": [
+      "Microcephaly",
+      "Rapidly increasing head circumference",
+      "Bulging only at birth"
+     ],
+     "answer": 1,
+     "why": "IVH: low tone, seizures, rapidly increasing head circumference."
+    },
+    {
+     "q": "Scalp swelling crossing sutures with shock suggests?",
+     "options": [
+      "Cephalohaematoma",
+      "Caput succedaneum",
+      "Subgaleal haemorrhage"
+     ],
+     "answer": 2,
+     "why": "Subgaleal bleeds cross sutures and can cause shock; cephalohaematoma doesn't cross."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Ultrasound through the fontanelle images bleeds; seizures first need reversible metabolic causes excluded before EEG.",
+   "hook": "Seizure? Sugar and calcium first.",
+   "checks": [
+    {
+     "q": "What does Papile grade IV IVH represent?",
+     "options": [
+      "Periventricular haemorrhagic infarction",
+      "Germinal matrix bleed only",
+      "Ventricular dilatation without bleed"
+     ],
+     "answer": 0,
+     "why": "Grade IV = periventricular haemorrhagic infarction on cranial ultrasound."
+    },
+    {
+     "q": "Which tests come first in neonatal seizures?",
+     "options": [
+      "EEG and MRI",
+      "Glucose and calcium",
+      "Sodium and magnesium"
+     ],
+     "answer": 1,
+     "why": "Check glucose and calcium first, then sodium, magnesium, infection; EEG."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Phenobarbital is the first antiseizure drug in neonates. IVH is prevented by maturing vessels and keeping cerebral flow stable. Most plexus palsies recover.",
+   "hook": "Pheno first; Erb heals 80% in 3 months.",
+   "checks": [
+    {
+     "q": "First-line drug for neonatal seizures?",
+     "options": [
+      "Levetiracetam",
+      "Phenytoin",
+      "Phenobarbital"
+     ],
+     "answer": 2,
+     "why": "Phenobarbital is first line."
+    },
+    {
+     "q": "Which helps prevent IVH?",
+     "options": [
+      "Antenatal steroids",
+      "Early cord clamping",
+      "Permissive hypercapnia swings"
+     ],
+     "answer": 0,
+     "why": "Antenatal steroids, magnesium, delayed cord clamping; avoid pressure/CO2 swings."
+    },
+    {
+     "q": "Erb palsy: rate of spontaneous resolution within 3 months?",
+     "options": [
+      "About 30%",
+      "About 80%",
+      "About 50%"
+     ],
+     "answer": 1,
+     "why": "About 80% resolve spontaneously within 3 months."
+    }
+   ]
+  }
+ ],
+ "II-41": [
+  {
+   "block": "Def",
+   "explain": "Newborn skin and cord problems range from harmless rashes needing reassurance to infections needing urgent treatment.",
+   "hook": "Mostly benign; spot the infection.",
+   "checks": [
+    {
+     "q": "Which is NOT in the neonatal skin/umbilical topic?",
+     "options": [
+      "Vascular lesions",
+      "Umbilical problems",
+      "Psoriatic arthritis"
+     ],
+     "answer": 2,
+     "why": "The topic covers benign rashes, vascular lesions, skin infections and umbilical problems."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Benign rashes reflect immature skin and glands; infections come from staph, candida, HSV and cord colonisation.",
+   "hook": "Erythema toxicum, milia, miliaria: all harmless.",
+   "checks": [
+    {
+     "q": "Which newborn skin finding is benign?",
+     "options": [
+      "Bullous impetigo",
+      "Erythema toxicum",
+      "Omphalitis"
+     ],
+     "answer": 1,
+     "why": "Erythema toxicum is benign; the others are infective."
+    },
+    {
+     "q": "Which is an infective neonatal skin condition?",
+     "options": [
+      "SSSS",
+      "Dermal melanocytosis",
+      "Nevus simplex"
+     ],
+     "answer": 0,
+     "why": "SSSS (and bullous impetigo, candida, HSV, omphalitis) are infective."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Staph toxin splits desmoglein-1 in superficial epidermis only, so mucosa is spared. Cord infection can track along the umbilical vein.",
+   "hook": "Desmoglein-1 = skin only; mucosa spared.",
+   "checks": [
+    {
+     "q": "What does SSSS exfoliative toxin cleave?",
+     "options": [
+      "Desmoglein-1",
+      "Desmoglein-3",
+      "Collagen VII"
+     ],
+     "answer": 0,
+     "why": "Desmoglein-1 is skin-only, so mucosa is spared (unlike pemphigus vulgaris dsg-3)."
+    },
+    {
+     "q": "Omphalitis can spread via the umbilical vein to cause?",
+     "options": [
+      "Pyloric stenosis",
+      "Portal vein thrombosis",
+      "Meckel diverticulum"
+     ],
+     "answer": 1,
+     "why": "Omphalitis → umbilical vein → sepsis and portal vein thrombosis."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Look at what is in the lesion and where umbilical discharge comes from: the urachus links bladder, the vitelline duct links gut.",
+   "hook": "Urine = urachus; faeces = vitelline.",
+   "checks": [
+    {
+     "q": "Erythema toxicum pustules are full of?",
+     "options": [
+      "Neutrophils",
+      "Bacteria",
+      "Eosinophils"
+     ],
+     "answer": 2,
+     "why": "Sterile pustules packed with eosinophils."
+    },
+    {
+     "q": "Natural course of strawberry haemangioma?",
+     "options": [
+      "Grows rapidly then regresses",
+      "Stable lifelong",
+      "Turns malignant"
+     ],
+     "answer": 0,
+     "why": "Infantile haemangioma proliferates, then involutes."
+    },
+    {
+     "q": "Urine leaking from the navel indicates?",
+     "options": [
+      "Vitelline duct",
+      "Patent urachus",
+      "Umbilical granuloma"
+     ],
+     "answer": 1,
+     "why": "Urine = patent urachus; faeces = vitelline duct."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Neutrophils are needed to separate the cord; failure of adhesion (CD18) delays it. A single umbilical artery is a marker for other anomalies.",
+   "hook": "Late cord + high neutrophils = LAD (CD18).",
+   "checks": [
+    {
+     "q": "Delayed cord separation with neutrophilia suggests?",
+     "options": [
+      "Chronic granulomatous disease",
+      "Leukocyte adhesion deficiency",
+      "DiGeorge syndrome"
+     ],
+     "answer": 1,
+     "why": "LAD (CD18 defect): neutrophils can't leave vessels; normal separation 5-15 days."
+    },
+    {
+     "q": "A single umbilical artery raises suspicion of?",
+     "options": [
+      "Congenital and chromosomal anomalies",
+      "Neonatal sepsis",
+      "Haemolytic disease"
+     ],
+     "answer": 0,
+     "why": "Single umbilical artery is associated with congenital/chromosomal anomalies."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Treat only what threatens function or health: propranolol for dangerous haemangiomas, cautery for granulomas, antibiotics/antivirals for infections.",
+   "hook": "Haemangioma near eye/airway → propranolol.",
+   "checks": [
+    {
+     "q": "Indicated drug for haemangioma threatening eye or airway?",
+     "options": [
+      "Prednisolone",
+      "Timolol cream",
+      "Propranolol"
+     ],
+     "answer": 2,
+     "why": "Propranolol if eye, airway or ulceration involved."
+    },
+    {
+     "q": "Umbilical hernia usually resolves by what age?",
+     "options": [
+      "Age 1",
+      "Age 5",
+      "Age 10"
+     ],
+     "answer": 1,
+     "why": "Monitor; most resolve by age 5. Granuloma → silver nitrate."
+    },
+    {
+     "q": "Treatment of SSSS?",
+     "options": [
+      "IV flucloxacillin",
+      "Topical mupirocin",
+      "Oral aciclovir"
+     ],
+     "answer": 0,
+     "why": "SSSS → IV flucloxacillin; omphalitis IV antibiotics; HSV aciclovir."
+    }
+   ]
+  }
+ ],
+ "II-42": [
+  {
+   "block": "Def",
+   "explain": "NEC is bowel death in preterm infants once feeding begins; meconium ileus is a thick-meconium obstruction that strongly points to CF.",
+   "hook": "Meconium ileus = think CF.",
+   "checks": [
+    {
+     "q": "NEC typically occurs in preterms after what?",
+     "options": [
+      "Starting feeds",
+      "Phototherapy",
+      "First vaccination"
+     ],
+     "answer": 0,
+     "why": "Ischaemic-inflammatory necrosis begins after feeds start."
+    },
+    {
+     "q": "Meconium ileus is strongly associated with?",
+     "options": [
+      "Hirschsprung disease",
+      "Cystic fibrosis",
+      "Down syndrome"
+     ],
+     "answer": 1,
+     "why": "Meconium ileus is a CF presentation (~15% of CF)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Immaturity is the key driver; formula and dysbiosis add risk, whereas breast milk's factors protect the gut.",
+   "hook": "Breast milk protects; prematurity predisposes.",
+   "checks": [
+    {
+     "q": "Biggest risk factor for NEC?",
+     "options": [
+      "Formula feeding",
+      "Prematurity",
+      "Maternal diabetes"
+     ],
+     "answer": 1,
+     "why": "Prematurity is the biggest risk factor; breast milk is protective."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Weak barrier, wrong bacteria and poor blood flow let bacteria invade the bowel wall and produce gas within it.",
+   "hook": "Gas in the wall = bacteria in the wall.",
+   "checks": [
+    {
+     "q": "What does bacterial invasion of the bowel wall in NEC produce?",
+     "options": [
+      "Pneumatosis intestinalis",
+      "Volvulus",
+      "Intussusception"
+     ],
+     "answer": 0,
+     "why": "Bacteria invade the wall and produce intramural gas: pneumatosis."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "NEC shows gut failure (distension, intolerance, blood) and systemic sepsis; meconium ileus shows low obstruction with no stool passed.",
+   "hook": "NEC triad: distension, intolerance, bloody stool.",
+   "checks": [
+    {
+     "q": "Which triad matches the official NEC symptoms?",
+     "options": [
+      "Fever, rash, diarrhoea",
+      "Vomiting, jaundice, seizures",
+      "Distension, feed intolerance, bloody stool"
+     ],
+     "answer": 2,
+     "why": "Official answer: abdominal distension, nutritional intolerance, bloody stool."
+    },
+    {
+     "q": "Which feature fits meconium ileus?",
+     "options": [
+      "No meconium passed",
+      "Bloody stool",
+      "Non-bilious vomiting"
+     ],
+     "answer": 0,
+     "why": "Distension, bilious vomiting and failure to pass meconium."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "X-ray reveals gas where it shouldn't be; a cross-table lateral picks up free air when the baby can't be moved. Meconium ileus shows a small unused colon.",
+   "hook": "Rigler = both bowel wall sides seen = perforation.",
+   "checks": [
+    {
+     "q": "What does Rigler sign indicate in NEC?",
+     "options": [
+      "Portal venous gas",
+      "Perforation",
+      "Pneumatosis"
+     ],
+     "answer": 1,
+     "why": "Rigler sign (both sides of bowel wall visible) means free air = perforation."
+    },
+    {
+     "q": "Immobile baby with NEC: how to detect perforation?",
+     "options": [
+      "Horizontal beam X-ray, baby supine",
+      "Abdominal ultrasound only",
+      "Upright erect film"
+     ],
+     "answer": 0,
+     "why": "Official answer: horizontal X-ray from side position with baby lying on back."
+    },
+    {
+     "q": "Which X-ray finding suggests meconium ileus?",
+     "options": [
+      "Double bubble",
+      "Pneumatosis",
+      "Soap-bubble appearance"
+     ],
+     "answer": 2,
+     "why": "Soap-bubble and microcolon; sweat test later."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Rest the bowel, decompress, support nutrition and cover gut flora; operate if perforated. Gastrografin's osmotic action loosens meconium.",
+   "hook": "NEC: NPO, NG, TPN, antibiotics.",
+   "checks": [
+    {
+     "q": "Core medical NEC treatment includes?",
+     "options": [
+      "Continued enteral feeds",
+      "NPO and NG decompression",
+      "Oral laxatives"
+     ],
+     "answer": 1,
+     "why": "Bowel rest (NPO), NG decompression, IV fluids, TPN, IV antibiotics."
+    },
+    {
+     "q": "Which is an indication for surgery in NEC?",
+     "options": [
+      "Bowel perforation",
+      "Feed intolerance alone",
+      "Mild distension"
+     ],
+     "answer": 0,
+     "why": "Perforation, peritonitis or deterioration despite medical therapy."
+    },
+    {
+     "q": "First-line treatment for uncomplicated meconium ileus?",
+     "options": [
+      "Laparotomy",
+      "Rectal washouts with saline",
+      "Gastrografin enema"
+     ],
+     "answer": 2,
+     "why": "Gastrografin enema; surgery if it fails."
+    }
+   ]
+  }
+ ],
+ "II-43": [
+  {
+   "block": "Def",
+   "explain": "CDH is mostly a left posterolateral defect; OA leaves a blind upper pouch, usually with a fistula from the trachea to the lower oesophagus.",
+   "hook": "Bochdalek = Back and Left.",
+   "checks": [
+    {
+     "q": "Typical location of a Bochdalek hernia?",
+     "options": [
+      "Right anterior",
+      "Left posterolateral",
+      "Central tendon"
+     ],
+     "answer": 1,
+     "why": "Bochdalek CDH is usually left-sided posterolateral; Morgagni is anterior."
+    },
+    {
+     "q": "Most common OA type has?",
+     "options": [
+      "No fistula",
+      "Proximal fistula only",
+      "Distal TEF"
+     ],
+     "answer": 2,
+     "why": "Proximal blind pouch with distal TEF in 85%."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Gut in the chest squeezes the developing lung; OA is part of a mesodermal defect spectrum, so other anomalies coexist.",
+   "hook": "VACTERL: vertebral, anal, cardiac, TE, renal, limb.",
+   "checks": [
+    {
+     "q": "OA/TEF is associated with which anomaly cluster?",
+     "options": [
+      "VACTERL",
+      "CHARGE",
+      "WAGR"
+     ],
+     "answer": 0,
+     "why": "OA/TEF is part of VACTERL (mesodermal defects)."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "In CDH, lung underdevelopment and pulmonary hypertension decide outcome. In OA, fluid can't be swallowed, causing polyhydramnios and drooling.",
+   "hook": "OA: can't swallow → polyhydramnios.",
+   "checks": [
+    {
+     "q": "What determines survival in CDH?",
+     "options": [
+      "Size of the bowel herniated",
+      "Pulmonary hypoplasia and hypertension",
+      "Side of the defect"
+     ],
+     "answer": 1,
+     "why": "Pulmonary hypoplasia and pulmonary hypertension determine survival."
+    },
+    {
+     "q": "Which pregnancy finding accompanies OA?",
+     "options": [
+      "Polyhydramnios",
+      "Oligohydramnios",
+      "Placenta praevia"
+     ],
+     "answer": 0,
+     "why": "Fetus can't swallow amniotic fluid → polyhydramnios."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Bowel in the chest empties the abdomen and shifts the heart; OA babies can't clear saliva. An H-type fistula without atresia causes feeding cough.",
+   "hook": "CDH: scaphoid belly, heart on the right.",
+   "checks": [
+    {
+     "q": "Which abdominal sign suggests CDH?",
+     "options": [
+      "Distended abdomen",
+      "Scaphoid abdomen",
+      "Umbilical hernia"
+     ],
+     "answer": 1,
+     "why": "Viscera in chest leave a scaphoid abdomen; heart sounds shift right."
+    },
+    {
+     "q": "Classic early sign of OA?",
+     "options": [
+      "Excess drooling",
+      "Projectile vomiting",
+      "Bloody stool"
+     ],
+     "answer": 0,
+     "why": "Excess drooling and choking at first feed."
+    },
+    {
+     "q": "Cough since birth, always with feeds, suggests?",
+     "options": [
+      "Laryngomalacia",
+      "Gastro-oesophageal reflux",
+      "H-type TEF"
+     ],
+     "answer": 2,
+     "why": "H-type TEF: no atresia, but feeds pass into the airway."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A firm tube stops and coils in the upper pouch. Gas in the stomach means air enters via a distal fistula; no gas means pure atresia.",
+   "hook": "Coiled tube + gas = OA with distal TEF.",
+   "checks": [
+    {
+     "q": "Gastric gas with a coiled NG tube indicates?",
+     "options": [
+      "Pure OA",
+      "Distal fistula",
+      "H-type fistula"
+     ],
+     "answer": 1,
+     "why": "Gas in stomach requires a distal fistula; pure OA gives gasless abdomen."
+    },
+    {
+     "q": "Pure OA without fistula gives what on X-ray?",
+     "options": [
+      "Gasless abdomen",
+      "Double bubble",
+      "Soap-bubble pattern"
+     ],
+     "answer": 0,
+     "why": "Gasless abdomen; also screen VACTERL and do echo."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Bag-mask would inflate gut in the chest, so intubate. Stabilise lungs and pulmonary pressure before repair. In OA, suction the pouch first.",
+   "hook": "CDH: never bag-mask.",
+   "checks": [
+    {
+     "q": "Which airway step is avoided in CDH?",
+     "options": [
+      "Intubation",
+      "Bag-mask ventilation",
+      "NG tube insertion"
+     ],
+     "answer": 1,
+     "why": "Bag-mask inflates herniated bowel; intubate and place NG tube."
+    },
+    {
+     "q": "CDH surgery timing?",
+     "options": [
+      "Immediately at birth",
+      "Within 1 hour",
+      "After stabilisation"
+     ],
+     "answer": 2,
+     "why": "CDH is a physiological, not surgical, emergency."
+    },
+    {
+     "q": "Before OA/TEF surgery, which tube is placed?",
+     "options": [
+      "Replogle tube",
+      "Chest drain",
+      "Sengstaken tube"
+     ],
+     "answer": 0,
+     "why": "A Replogle tube suctions the upper pouch; look for VACTERL."
+    }
+   ]
+  }
+ ],
+ "II-44": [
+  {
+   "block": "Def",
+   "explain": "This group covers blockages along the gut and defects of the abdominal wall where bowel lies outside.",
+   "hook": "Blocked gut vs gut outside.",
+   "checks": [
+    {
+     "q": "Which is an abdominal wall defect?",
+     "options": [
+      "Duodenal atresia",
+      "Anal atresia",
+      "Gastroschisis"
+     ],
+     "answer": 2,
+     "why": "Gastroschisis and omphalocele are wall defects; the others are obstructions."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Duodenal atresia is an early recanalisation failure (Down link); jejunoileal atresia follows a later vascular accident. Omphalocele links to syndromes.",
+   "hook": "Double bubble = Down; omphalocele = syndromes.",
+   "checks": [
+    {
+     "q": "Which chromosomal abnormality links to duodenal atresia?",
+     "options": [
+      "Trisomy 18",
+      "Trisomy 21",
+      "Turner syndrome"
+     ],
+     "answer": 1,
+     "why": "Official answer: trisomy 21; jejunoileal atresia is vascular."
+    },
+    {
+     "q": "Gastroschisis is associated with?",
+     "options": [
+      "Young mothers",
+      "Beckwith-Wiedemann",
+      "Trisomy 13"
+     ],
+     "answer": 0,
+     "why": "Gastroschisis: young mothers; omphalocele: BWS, trisomies 13/18."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Bile enters below the ampulla, so blockage beyond it gives bilious vomiting; the fetus can't absorb swallowed fluid, causing polyhydramnios.",
+   "hook": "Below ampulla → green vomit.",
+   "checks": [
+    {
+     "q": "Obstruction below the ampulla causes which vomiting?",
+     "options": [
+      "Non-bilious",
+      "Bilious",
+      "Faeculent"
+     ],
+     "answer": 1,
+     "why": "Below the ampulla, bile enters: bilious vomiting from first feed."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "High blockage leaves a flat belly; low blockage gives many dilated loops. Omphalocele is midline in a sac; gastroschisis is bare, to the right.",
+   "hook": "Gastroschisis = Gut bare, right side.",
+   "checks": [
+    {
+     "q": "Duodenal atresia abdominal appearance?",
+     "options": [
+      "Flat abdomen",
+      "Massive distension",
+      "Visible peristalsis of many loops"
+     ],
+     "answer": 0,
+     "why": "High obstruction: bilious vomiting with flat abdomen."
+    },
+    {
+     "q": "Gastroschisis lies where relative to the cord?",
+     "options": [
+      "Midline in sac",
+      "Left of cord",
+      "Right of cord"
+     ],
+     "answer": 2,
+     "why": "Right of cord, no membrane; omphalocele is midline with a sac."
+    },
+    {
+     "q": "Which defect has more associated major malformations?",
+     "options": [
+      "Gastroschisis",
+      "Omphalocele",
+      "Umbilical hernia"
+     ],
+     "answer": 1,
+     "why": "Omphalocele has cardiac, GU and neural tube anomalies."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Air fills the stomach and proximal duodenum with nothing beyond: two bubbles. Malrotation with volvulus must be excluded.",
+   "hook": "Double bubble = duodenal atresia.",
+   "checks": [
+    {
+     "q": "Radiological sign of duodenal atresia?",
+     "options": [
+      "Double bubble",
+      "Soap bubble",
+      "Pneumatosis"
+     ],
+     "answer": 0,
+     "why": "Official answer: double bubble; exclude malrotation."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Decompress and rehydrate, then bypass the atresia. Exposed bowel needs protection from fluid and heat loss. High anal atresia needs a stoma first.",
+   "hook": "High anal atresia → colostomy first.",
+   "checks": [
+    {
+     "q": "Definitive surgery for duodenal atresia?",
+     "options": [
+      "Gastrojejunostomy",
+      "Duodenoduodenostomy",
+      "Ladd procedure"
+     ],
+     "answer": 1,
+     "why": "Decompress, fluids, then duodenoduodenostomy."
+    },
+    {
+     "q": "If primary gastroschisis closure fails, what is used?",
+     "options": [
+      "Skin graft",
+      "Mesh only",
+      "Staged silo repair"
+     ],
+     "answer": 2,
+     "why": "Wrap in sterile saline dressings; primary closure else staged silo."
+    },
+    {
+     "q": "How is defecation ensured in high anal atresia?",
+     "options": [
+      "Colostomy",
+      "Anoplasty",
+      "Rectal dilatation"
+     ],
+     "answer": 0,
+     "why": "Official answer: colostomy, then PSARP; low lesions get anoplasty."
+    }
+   ]
+  }
+ ],
+ "II-45": [
+  {
+   "block": "Def",
+   "explain": "BPD is defined by ongoing respiratory support at 36 weeks corrected; ROP is disordered growth of retinal vessels in preterm eyes.",
+   "hook": "BPD = still on O2 at 36 weeks.",
+   "checks": [
+    {
+     "q": "BPD is defined as oxygen or support at what PMA?",
+     "options": [
+      "32 weeks",
+      "36 weeks",
+      "40 weeks"
+     ],
+     "answer": 1,
+     "why": "BPD = O2 or respiratory support at 36 weeks PMA."
+    },
+    {
+     "q": "ROP is a disorder of?",
+     "options": [
+      "Retinal vessel growth",
+      "Lens development",
+      "Optic nerve myelination"
+     ],
+     "answer": 0,
+     "why": "Abnormal retinal vessel growth in preterm babies."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Immature lungs and eyes are damaged by too much oxygen, ventilation pressure and inflammation.",
+   "hook": "Oxygen helps but harms the preterm.",
+   "checks": [
+    {
+     "q": "Besides prematurity, which is a key cause of BPD?",
+     "options": [
+      "Oxygen toxicity",
+      "Maternal smoking only",
+      "Iron overload"
+     ],
+     "answer": 0,
+     "why": "Oxygen toxicity, ventilator trauma and infection on top of prematurity."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Injury halts alveolar and vessel growth, leaving fewer, simpler alveoli. In ROP, high oxygen then relative hypoxia triggers VEGF-driven abnormal vessels.",
+   "hook": "ROP: oxygen → hypoxia → VEGF → new vessels.",
+   "checks": [
+    {
+     "q": "BPD lungs show which alveolar change?",
+     "options": [
+      "Hyperplastic alveoli",
+      "Simplified alveoli",
+      "Normal alveoli"
+     ],
+     "answer": 1,
+     "why": "Arrested growth leaves simplified alveoli, plus pulmonary hypertension."
+    },
+    {
+     "q": "Which mediator drives neovascularisation in ROP?",
+     "options": [
+      "TNF-alpha",
+      "IL-6",
+      "VEGF"
+     ],
+     "answer": 2,
+     "why": "Hypoxic retina releases VEGF → neovascularisation."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "BPD babies need oxygen for weeks and show scarring on X-ray. Preterm follow-up watches growth, development, hearing and vision.",
+   "hook": "Follow-up: grow, develop, hear, see.",
+   "checks": [
+    {
+     "q": "BPD chest X-ray shows?",
+     "options": [
+      "Ground-glass opacities",
+      "Lobar consolidation",
+      "Normal lungs"
+     ],
+     "answer": 0,
+     "why": "Ground-glass opacities from scarring, with prolonged oxygen need."
+    },
+    {
+     "q": "PVL in a preterm leads to which outcome?",
+     "options": [
+      "Hemiplegia",
+      "Ataxia",
+      "Spastic diplegia"
+     ],
+     "answer": 2,
+     "why": "PVL → spastic diplegia, so neurodevelopment is followed."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Correct for prematurity when judging growth and milestones until ~2 years, but vaccinate by real age. Screen small/early babies for ROP.",
+   "hook": "Corrected for milestones; chronological for jabs.",
+   "checks": [
+    {
+     "q": "Which age is used for preterm vaccination?",
+     "options": [
+      "Corrected age",
+      "Chronological age",
+      "Gestational age"
+     ],
+     "answer": 1,
+     "why": "Vaccines use chronological age; growth/development use corrected age."
+    },
+    {
+     "q": "ROP screening criterion?",
+     "options": [
+      "<31 weeks or <1501 g",
+      "<35 weeks or <2000 g",
+      "<28 weeks only"
+     ],
+     "answer": 0,
+     "why": "Screen <31 weeks or <1501 g; BPD with rising O2 needs echo."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Preterms lack iron and vitamin D stores and are vulnerable to RSV. Prevent BPD by maturing lungs; treat ROP by stopping neovascular drive.",
+   "hook": "ROP: laser or anti-VEGF.",
+   "checks": [
+    {
+     "q": "Which is used for RSV prevention in preterms?",
+     "options": [
+      "Oseltamivir",
+      "Nirsevimab",
+      "Ribavirin"
+     ],
+     "answer": 1,
+     "why": "Nirsevimab or palivizumab; supplement iron and vitamin D."
+    },
+    {
+     "q": "Which helps prevent BPD?",
+     "options": [
+      "Caffeine",
+      "High-concentration oxygen",
+      "Early diuretics"
+     ],
+     "answer": 0,
+     "why": "Maternal glucocorticoids, surfactant, caffeine; optimise oxygen and nutrition."
+    },
+    {
+     "q": "Treatment for ROP?",
+     "options": [
+      "Topical steroids",
+      "Vitrectomy first line",
+      "Laser photocoagulation"
+     ],
+     "answer": 2,
+     "why": "Laser photocoagulation or anti-VEGF."
+    }
+   ]
+  }
+ ],
+ "II-46": [
+  {
+   "block": "Def",
+   "explain": "Hodgkin is defined by Reed-Sternberg cells and peaks in adolescents; childhood NHL is almost always aggressive high grade.",
+   "hook": "RS cell = owl's eye = Hodgkin.",
+   "checks": [
+    {
+     "q": "Which cell defines Hodgkin lymphoma?",
+     "options": [
+      "Reed-Sternberg cell",
+      "Starry-sky macrophage",
+      "Smudge cell"
+     ],
+     "answer": 0,
+     "why": "Reed-Sternberg cells; childhood NHL is high grade."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Burkitt is driven by MYC translocation; nodular sclerosis dominates Hodgkin subtypes.",
+   "hook": "Burkitt: 8 meets 14, MYC.",
+   "checks": [
+    {
+     "q": "Which translocation is typical of Burkitt lymphoma?",
+     "options": [
+      "t(9;22)",
+      "t(8;14)",
+      "t(14;18)"
+     ],
+     "answer": 1,
+     "why": "t(8;14) moves MYC next to the IgH locus."
+    },
+    {
+     "q": "Commonest Hodgkin subtype?",
+     "options": [
+      "Mixed cellularity",
+      "Lymphocyte depleted",
+      "Nodular sclerosis"
+     ],
+     "answer": 2,
+     "why": "Nodular sclerosis is commonest (70%)."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Hodgkin's RS cells recruit inflammatory cells and spread node to node; cytokines cause B symptoms. Burkitt cells divide fast and lyse en masse.",
+   "hook": "TLS: high K, PO4, urate; low Ca.",
+   "checks": [
+    {
+     "q": "Hodgkin lymphoma spreads how?",
+     "options": [
+      "Contiguously node to node",
+      "Haematogenously early",
+      "Randomly"
+     ],
+     "answer": 0,
+     "why": "Contiguous spread; cytokines cause B symptoms."
+    },
+    {
+     "q": "Which TLS finding is low?",
+     "options": [
+      "Potassium",
+      "Calcium",
+      "Urate"
+     ],
+     "answer": 1,
+     "why": "Phosphate binds calcium, so calcium falls; K, phosphate, urate rise."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Lymphoma nodes are painless and rubbery; B symptoms show systemic disease. Burkitt favours the abdomen; lymphoblastic the mediastinum.",
+   "hook": "Burkitt = belly; lymphoblastic = chest.",
+   "checks": [
+    {
+     "q": "Which weight loss counts as a B symptom?",
+     "options": [
+      ">10%",
+      ">5%",
+      ">20%"
+     ],
+     "answer": 0,
+     "why": "B symptoms: fever, drenching night sweats, weight loss >10%."
+    },
+    {
+     "q": "Lymphoblastic lymphoma typically presents with?",
+     "options": [
+      "Abdominal mass",
+      "Jaw mass",
+      "Anterior mediastinal mass"
+     ],
+     "answer": 2,
+     "why": "Lymphoblastic → anterior mediastinal mass; Burkitt → abdominal mass."
+    },
+    {
+     "q": "Which node size is suspicious?",
+     "options": [
+      ">1 cm",
+      ">2 cm",
+      ">0.5 cm"
+     ],
+     "answer": 1,
+     "why": "Suspicious: >2 cm, hard, supraclavicular, persistent."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Whole-node excision preserves architecture for diagnosis; steroids can melt lymphoma and spoil the biopsy.",
+   "hook": "Biopsy before steroids.",
+   "checks": [
+    {
+     "q": "Reed-Sternberg cells are positive for?",
+     "options": [
+      "CD15 and CD30",
+      "CD19 and CD20",
+      "CD3 and CD4"
+     ],
+     "answer": 0,
+     "why": "RS cells are CD15+, CD30+; staging with CXR and PET-CT."
+    },
+    {
+     "q": "Which drug must be avoided before lymph node biopsy?",
+     "options": [
+      "Paracetamol",
+      "Steroids",
+      "Antibiotics"
+     ],
+     "answer": 1,
+     "why": "Steroids can shrink lymphoma and make biopsy non-diagnostic."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Hodgkin is highly curable; therapy intensity adapts to response. Rasburicase breaks down urate but produces H2O2, dangerous in G6PD deficiency.",
+   "hook": "Mediastinal mass: don't lie them flat.",
+   "checks": [
+    {
+     "q": "Cure rate of childhood Hodgkin lymphoma?",
+     "options": [
+      ">50%",
+      ">70%",
+      ">90%"
+     ],
+     "answer": 2,
+     "why": "Response-adapted chemotherapy cures >90%."
+    },
+    {
+     "q": "Rasburicase is contraindicated in which condition?",
+     "options": [
+      "G6PD deficiency",
+      "Sickle cell trait",
+      "Hereditary spherocytosis"
+     ],
+     "answer": 0,
+     "why": "Rasburicase generates H2O2 → haemolysis in G6PD deficiency."
+    },
+    {
+     "q": "With a mediastinal mass, what should be avoided?",
+     "options": [
+      "IV fluids",
+      "Sitting upright",
+      "General anaesthesia"
+     ],
+     "answer": 2,
+     "why": "Avoid GA and lying flat: risk of airway compression."
+    }
+   ]
+  }
+ ],
+ "II-47": [
+  {
+   "block": "Def",
+   "explain": "Leukaemia is the commonest childhood cancer, and most is ALL, peaking in preschool years.",
+   "hook": "ALL peaks 2-5 years.",
+   "checks": [
+    {
+     "q": "Peak age of childhood ALL?",
+     "options": [
+      "2-5 years",
+      "6-10 years",
+      "Adolescence"
+     ],
+     "answer": 0,
+     "why": "ALL ~80% of childhood leukaemia, peak 2-5 years."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Down syndrome increases leukaemia risk markedly.",
+   "hook": "Down syndrome → leukaemia risk.",
+   "checks": [
+    {
+     "q": "Which syndrome is a key risk factor for leukaemia?",
+     "options": [
+      "Turner syndrome",
+      "Down syndrome",
+      "Marfan syndrome"
+     ],
+     "answer": 1,
+     "why": "Down syndrome is a classic risk factor."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Blasts crowd out normal marrow, so all cell lines fall; they also infiltrate bone and organs, and hide in the CNS beyond chemo's reach.",
+   "hook": "CNS = sanctuary site.",
+   "checks": [
+    {
+     "q": "Why is the CNS important in leukaemia?",
+     "options": [
+      "It is never involved",
+      "It is a sanctuary site",
+      "It produces blasts"
+     ],
+     "answer": 1,
+     "why": "CNS is a sanctuary; hence intrathecal methotrexate."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Marrow failure gives pallor, bleeding and infection; infiltration gives bone pain, organomegaly and nodes. T-ALL arises in thymus.",
+   "hook": "T-ALL = Thymus mass.",
+   "checks": [
+    {
+     "q": "Which leukaemia type has a mediastinal mass?",
+     "options": [
+      "B-ALL",
+      "AML",
+      "T-ALL"
+     ],
+     "answer": 2,
+     "why": "T-ALL arises from thymic T cells → mediastinal mass."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Marrow examination confirms leukaemia; flow and genetics classify and stratify. MRD after treatment is the strongest prognostic marker.",
+   "hook": "MRD is the strongest predictor.",
+   "checks": [
+    {
+     "q": "What is the test for acute leukaemia?",
+     "options": [
+      "Peripheral blood film only",
+      "Lymph node biopsy",
+      "Bone marrow examination"
+     ],
+     "answer": 2,
+     "why": "Official answer: bone marrow examination, plus flow cytometry and genetics."
+    },
+    {
+     "q": "Strongest prognostic factor in ALL?",
+     "options": [
+      "Minimal residual disease",
+      "Age at diagnosis",
+      "Initial WBC"
+     ],
+     "answer": 0,
+     "why": "MRD is strongest; good: age 1-10, WBC <50, hyperdiploidy/ETV6-RUNX1."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Multi-phase chemo over ~2 years with CNS-directed therapy cures most. Neutropenic fever is an emergency. Donor immune cells fight leukaemia after SCT.",
+   "hook": "GvL: donor cells attack leukaemia.",
+   "checks": [
+    {
+     "q": "Which drug is given intrathecally in ALL?",
+     "options": [
+      "Vincristine",
+      "Methotrexate",
+      "Cytarabine IV"
+     ],
+     "answer": 1,
+     "why": "Intrathecal methotrexate treats the CNS sanctuary; cure ~90%."
+    },
+    {
+     "q": "Febrile neutropenia: antibiotics within?",
+     "options": [
+      "1 hour",
+      "4 hours",
+      "24 hours"
+     ],
+     "answer": 0,
+     "why": "IV antibiotics within 1 hour; co-trimoxazole prevents Pneumocystis."
+    },
+    {
+     "q": "What is graft versus leukaemia?",
+     "options": [
+      "Recipient rejects donor marrow",
+      "Donor cells attack recipient skin",
+      "Donor cells attack leukaemic cells"
+     ],
+     "answer": 2,
+     "why": "Official definition: donor cells' immune attack on leukaemic cells."
+    }
+   ]
+  }
+ ],
+ "II-48": [
+  {
+   "block": "Def",
+   "explain": "Platelets plug small vessels, so their failure causes skin and mucosal bleeding; joint bleeds suggest a clotting factor problem.",
+   "hook": "Platelets: skin/mucosa; factors: joints.",
+   "checks": [
+    {
+     "q": "Platelet disorders typically bleed into?",
+     "options": [
+      "Joints",
+      "Skin and mucosa",
+      "Deep muscles"
+     ],
+     "answer": 1,
+     "why": "Skin and mucosa; joint bleeds suggest coagulation factor deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Low count arises from destruction or underproduction; normal count with bleeding means dysfunction.",
+   "hook": "Normal count, still bleeding → function defect.",
+   "checks": [
+    {
+     "q": "Which is a destructive cause of thrombocytopenia?",
+     "options": [
+      "ITP",
+      "Aplastic anaemia",
+      "Leukaemia"
+     ],
+     "answer": 0,
+     "why": "ITP destroys platelets; aplasia and leukaemia reduce production."
+    },
+    {
+     "q": "Which has normal count but platelet dysfunction?",
+     "options": [
+      "ITP",
+      "NAIT",
+      "Glanzmann"
+     ],
+     "answer": 2,
+     "why": "Glanzmann, Bernard-Soulier, vWD, aspirin: normal count, poor function."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "ITP antibodies coat platelets for splenic removal. Without ADAMTS13, large vWF multimers form clots. Glanzmann lacks aggregation; Bernard-Soulier adhesion.",
+   "hook": "Glanzmann = Gather fails; Bernard-Soulier = Binding fails.",
+   "checks": [
+    {
+     "q": "ITP antibodies target which platelet glycoprotein?",
+     "options": [
+      "GPIb-IX",
+      "GPIIb/IIIa",
+      "GPVI"
+     ],
+     "answer": 1,
+     "why": "IgG against GPIIb/IIIa; platelets cleared by splenic macrophages."
+    },
+    {
+     "q": "TTP results from deficiency of?",
+     "options": [
+      "ADAMTS13",
+      "Factor VIII",
+      "Protein C"
+     ],
+     "answer": 0,
+     "why": "ADAMTS13 deficiency leaves uncleaved vWF → microthrombi."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Platelet bleeding shows as petechiae and epistaxis; brain bleeding is the dreaded outcome. ITP: well child after a virus, no big organs.",
+   "hook": "ITP: well child, post-viral, isolated purpura.",
+   "checks": [
+    {
+     "q": "Most feared complication of thrombocytopenia?",
+     "options": [
+      "Haemarthrosis",
+      "Gastrointestinal bleed",
+      "Intracranial bleeding"
+     ],
+     "answer": 2,
+     "why": "Intracranial haemorrhage is the feared complication."
+    },
+    {
+     "q": "Purpura 3 weeks after a viral illness, well child?",
+     "options": [
+      "ITP",
+      "Leukaemia",
+      "HUS"
+     ],
+     "answer": 0,
+     "why": "Official answer: ITP; no organomegaly fits."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "ITP is a diagnosis of exclusion with only platelets low, and the marrow compensates. Other abnormalities demand marrow exam to exclude leukaemia.",
+   "hook": "Other line low or HSM → marrow.",
+   "checks": [
+    {
+     "q": "ITP blood film typically shows?",
+     "options": [
+      "Small platelets",
+      "Large platelets",
+      "Platelet clumps only"
+     ],
+     "answer": 1,
+     "why": "Large young platelets; marrow has increased megakaryocytes."
+    },
+    {
+     "q": "When is bone marrow needed in suspected ITP?",
+     "options": [
+      "Platelets below 50",
+      "Any petechiae",
+      "Another cell line low"
+     ],
+     "answer": 2,
+     "why": "Other line low, HSM or bone pain → marrow to exclude leukaemia."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Most childhood ITP remits, so skin-only bleeding is watched; treat bleeding with steroids/IVIG. Reactive thrombocytosis needs no treatment.",
+   "hook": "ITP: watch skin, treat mucosa.",
+   "checks": [
+    {
+     "q": "Childhood ITP with cutaneous bleeding only?",
+     "options": [
+      "Observation",
+      "Corticosteroids",
+      "Splenectomy"
+     ],
+     "answer": 0,
+     "why": "Observe: 75-80% resolve in 6 months; mucosal bleeding → steroids."
+    },
+    {
+     "q": "Treatment for chronic ITP (>12 months)?",
+     "options": [
+      "Romiplostim/eltrombopag",
+      "Plasma exchange",
+      "Aspirin"
+     ],
+     "answer": 0,
+     "why": "TPO agonists romiplostim/eltrombopag; IVIG for significant bleeding."
+    },
+    {
+     "q": "Management of reactive thrombocytosis?",
+     "options": [
+      "Aspirin",
+      "Hydroxyurea",
+      "No treatment"
+     ],
+     "answer": 2,
+     "why": "Reactive thrombocytosis needs no treatment and no aspirin; TTP → plasma exchange."
+    }
+   ]
+  }
+ ],
+ "II-49": [
+  {
+   "block": "Def",
+   "explain": "DIC consumes clotting factors and platelets; HUS and TTP are thrombotic microangiopathies that shred red cells.",
+   "hook": "HUS triad: MAHA, low platelets, AKI.",
+   "checks": [
+    {
+     "q": "Which is NOT part of the HUS triad?",
+     "options": [
+      "Acute kidney injury",
+      "Thrombocytopenia",
+      "Prolonged PT"
+     ],
+     "answer": 2,
+     "why": "Triad: MAHA, thrombocytopenia, AKI; clotting times are normal."
+    },
+    {
+     "q": "TTP involves deficiency of which enzyme?",
+     "options": [
+      "ADAMTS13",
+      "Plasmin",
+      "Antithrombin"
+     ],
+     "answer": 0,
+     "why": "ADAMTS13, the vWF metalloprotease."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Severe systemic insults trigger DIC. Shiga toxin E. coli causes typical HUS; complement dysregulation causes atypical HUS.",
+   "hook": "Typical = toxin; atypical = complement.",
+   "checks": [
+    {
+     "q": "Which is a cause of DIC?",
+     "options": [
+      "Iron deficiency",
+      "Sepsis",
+      "Vitamin B12 deficiency"
+     ],
+     "answer": 1,
+     "why": "Sepsis, shock, trauma, malignancy."
+    },
+    {
+     "q": "Which E. coli serotype causes typical HUS?",
+     "options": [
+      "O157:H7",
+      "K1",
+      "O104 only"
+     ],
+     "answer": 0,
+     "why": "Shiga toxin-producing E. coli O157:H7 after bloody diarrhoea."
+    },
+    {
+     "q": "Atypical HUS is due to?",
+     "options": [
+      "Shiga toxin",
+      "ADAMTS13 antibodies",
+      "Alternative complement dysregulation"
+     ],
+     "answer": 2,
+     "why": "Alternative complement pathway dysregulation."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Tissue factor triggers widespread clotting that uses up factors, so patients clot and bleed. Shiga toxin injures glomerular endothelium via Gb3.",
+   "hook": "Gb3 = toxin's door on the glomerulus.",
+   "checks": [
+    {
+     "q": "Which initiates DIC?",
+     "options": [
+      "Tissue factor",
+      "Factor XII deficiency",
+      "ADAMTS13 loss"
+     ],
+     "answer": 0,
+     "why": "Tissue factor → microthrombi + consumption + fibrinolysis."
+    },
+    {
+     "q": "Shiga toxin binds which receptor?",
+     "options": [
+      "CD18",
+      "Gb3",
+      "GPIIb/IIIa"
+     ],
+     "answer": 1,
+     "why": "Gb3 on glomerular endothelium → microthrombi, RBC fragmentation, AKI."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "DIC paradoxically causes both clots and bleeding. HUS follows bloody diarrhoea with pallor, bruising and kidney failure.",
+   "hook": "DIC = clot and bleed at once.",
+   "checks": [
+    {
+     "q": "DIC clinically shows?",
+     "options": [
+      "Thrombosis only",
+      "Bleeding only",
+      "Bleeding plus thrombosis"
+     ],
+     "answer": 2,
+     "why": "Consumption causes bleeding while microthrombi cause thrombosis."
+    },
+    {
+     "q": "HUS typically follows?",
+     "options": [
+      "Bloody diarrhoea",
+      "Streptococcal sore throat",
+      "Measles"
+     ],
+     "answer": 0,
+     "why": "Anaemia, low platelets, AKI after bloody diarrhoea."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "DIC uses up factors and fibrinogen (long clotting times, low fibrinogen) and breaks clot (high D-dimer); HUS spares the clotting cascade.",
+   "hook": "Normal PT/APTT = HUS, not DIC.",
+   "checks": [
+    {
+     "q": "Fibrinogen level in DIC?",
+     "options": [
+      "High",
+      "Low",
+      "Normal"
+     ],
+     "answer": 1,
+     "why": "Low fibrinogen, low platelets, prolonged PT/APTT, high D-dimer."
+    },
+    {
+     "q": "Which distinguishes HUS from DIC?",
+     "options": [
+      "Normal clotting times",
+      "Low platelets",
+      "Anaemia"
+     ],
+     "answer": 0,
+     "why": "Clotting is normal in HUS but prolonged in DIC."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Treat DIC's trigger and replace products only if bleeding. Typical HUS is supportive; antibiotics may release more toxin. Block complement in atypical HUS.",
+   "hook": "Atypical HUS: eculizumab blocks C5.",
+   "checks": [
+    {
+     "q": "Cornerstone of DIC management?",
+     "options": [
+      "Heparin for all",
+      "Prophylactic FFP",
+      "Treat the underlying cause"
+     ],
+     "answer": 2,
+     "why": "Treat the cause; platelets, FFP, cryo only if bleeding."
+    },
+    {
+     "q": "What should be avoided in typical HUS?",
+     "options": [
+      "Dialysis",
+      "Antibiotics",
+      "IV fluids"
+     ],
+     "answer": 1,
+     "why": "Avoid antibiotics and antimotility drugs; supportive care/dialysis."
+    },
+    {
+     "q": "Treatment of atypical HUS?",
+     "options": [
+      "Eculizumab",
+      "Rituximab alone",
+      "Plasma exchange only"
+     ],
+     "answer": 0,
+     "why": "Eculizumab (anti-C5); TTP → plasma exchange, steroids, rituximab."
+    }
+   ]
+  }
+ ],
+ "II-50": [
+  {
+   "block": "Def",
+   "explain": "A block in haem synthesis causes the substrates before it to pile up; which substrate accumulates determines the symptoms.",
+   "hook": "Block → backlog before the block.",
+   "checks": [
+    {
+     "q": "In porphyria, what accumulates?",
+     "options": [
+      "Haem itself",
+      "Precursors before the block",
+      "Products after the block"
+     ],
+     "answer": 1,
+     "why": "Precursors before the enzyme block accumulate."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "AIP is dominant PBG deaminase deficiency; PCT (UROD) is commonest overall; EPP (ferrochelatase) commonest in children. Enzyme inducers raise ALA synthase.",
+   "hook": "Barbiturates trigger AIP.",
+   "checks": [
+    {
+     "q": "Which enzyme is deficient in AIP?",
+     "options": [
+      "Porphobilinogen deaminase",
+      "UROD",
+      "Ferrochelatase"
+     ],
+     "answer": 0,
+     "why": "AIP: autosomal dominant PBG deaminase (HMBS) deficiency."
+    },
+    {
+     "q": "Most common porphyria overall?",
+     "options": [
+      "AIP",
+      "Porphyria cutanea tarda",
+      "EPP"
+     ],
+     "answer": 1,
+     "why": "PCT (UROD deficiency) is the most common porphyria."
+    },
+    {
+     "q": "Commonest porphyria in children?",
+     "options": [
+      "AIP",
+      "PCT",
+      "Erythropoietic protoporphyria"
+     ],
+     "answer": 2,
+     "why": "EPP (ferrochelatase deficiency); P-450 inducers trigger attacks."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Early precursors (ALA, PBG) are neurotoxic, giving acute attacks; late porphyrins absorb light, causing skin damage.",
+   "hook": "Early = nerves; late = light.",
+   "checks": [
+    {
+     "q": "Which precursors are neurotoxic?",
+     "options": [
+      "ALA and PBG",
+      "Uroporphyrins",
+      "Protoporphyrin"
+     ],
+     "answer": 0,
+     "why": "Early precursors ALA and PBG cause acute neurovisceral attacks."
+    },
+    {
+     "q": "Late porphyrins cause what?",
+     "options": [
+      "Neuropathy",
+      "Photosensitivity",
+      "Hyponatraemia"
+     ],
+     "answer": 1,
+     "why": "Late porphyrins cause photosensitivity."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "AIP: neurovisceral attacks with dark urine and no skin signs. Hyponatraemia is from SIADH. PCT gives blistering on sun-exposed skin.",
+   "hook": "Wine In PAIN.",
+   "checks": [
+    {
+     "q": "Which feature is absent in AIP?",
+     "options": [
+      "Abdominal pain",
+      "Neuropathy",
+      "Photosensitivity"
+     ],
+     "answer": 2,
+     "why": "AIP has no photosensitivity (early precursors only)."
+    },
+    {
+     "q": "Hyponatraemia in an AIP attack is due to?",
+     "options": [
+      "SIADH",
+      "Vomiting alone",
+      "Adrenal failure"
+     ],
+     "answer": 0,
+     "why": "SIADH causes hyponatraemia in attacks."
+    },
+    {
+     "q": "PCT presents with?",
+     "options": [
+      "Abdominal pain and psychosis",
+      "Blistering photosensitivity",
+      "Peripheral neuropathy"
+     ],
+     "answer": 1,
+     "why": "Blistering cutaneous photosensitivity and hyperpigmentation."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "During an attack, PBG floods the urine, making it the quick screening test.",
+   "hook": "Attack → check urine PBG.",
+   "checks": [
+    {
+     "q": "Screening test in an acute porphyria attack?",
+     "options": [
+      "Urinary porphobilinogen",
+      "Plasma protoporphyrin",
+      "Faecal porphyrins"
+     ],
+     "answer": 0,
+     "why": "Urinary PBG, with raised ALA."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Haem and glucose switch off ALA synthase, cutting precursor production. PCT is treated by lowering iron or mobilising porphyrins.",
+   "hook": "Haem + glucose shut ALA synthase.",
+   "checks": [
+    {
+     "q": "Acute attack treatment?",
+     "options": [
+      "IV haem arginate and glucose",
+      "Barbiturate sedation",
+      "Phlebotomy"
+     ],
+     "answer": 0,
+     "why": "Haemin and glucose inhibit ALA synthesis; barbiturates are contraindicated."
+    },
+    {
+     "q": "Which treats PCT?",
+     "options": [
+      "IV haemin",
+      "Low-dose hydroxychloroquine",
+      "Beta-carotene only"
+     ],
+     "answer": 1,
+     "why": "PCT: low-dose hydroxychloroquine or phlebotomy."
+    }
+   ]
+  }
+ ]
+}

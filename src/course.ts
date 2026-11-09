@@ -1,6 +1,6 @@
 import courseData from "./data/course.json";
 import screeningData from "./data/screening.json";
-import type { BlockName, Card, Course, Mcq, Topic, TopicBank } from "./types";
+import type { BlockName, Card, Chunk, Course, Mcq, Teach, Topic, TopicBank } from "./types";
 
 export const BLOCKS: BlockName[] = ["Def", "Cause", "Patho", "Signs", "Dx", "Rx"];
 
@@ -128,7 +128,75 @@ export function screeningFor(topicId: string): Card[] {
   return screening.filter((card) => card.topicId === topicId);
 }
 
+/* ---------- bite-size chunks: one per notes block, quick single-fact checks ---------- */
+
+type RawCheck = { q: string; options: string[]; answer: number; why: string };
+type RawChunk = { block: BlockName; explain?: string; hook?: string; checks?: RawCheck[] };
+const chunkFiles = import.meta.glob("./data/chunks/*.json", { eager: true, import: "default" }) as Record<string, Record<string, RawChunk[]>>;
+
+const chunkMap = new Map<string, Chunk[]>();
+for (const file of Object.values(chunkFiles)) {
+  for (const [topicId, raw] of Object.entries(file)) {
+    const topic = topicById.get(topicId);
+    if (!topic || !Array.isArray(raw)) continue;
+    const chunks: Chunk[] = raw
+      .filter((c) => BLOCKS.includes(c.block))
+      .map((c, ci) => {
+        const lines = topic.blocks[c.block] ?? [];
+        const checks: Mcq[] = (c.checks ?? [])
+          .filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length)
+          .map((q, i) => ({
+            type: "mcq",
+            id: `${topicId}-f${ci}-${i}`,
+            topicId,
+            block: c.block,
+            level: 1,
+            stem: q.q,
+            options: q.options,
+            answer: q.answer,
+            explain: q.why ?? "",
+            note: lines[i] ?? "",
+            quick: true,
+          }));
+        return { block: c.block, lines, explain: c.explain ?? "", hook: c.hook ?? "", checks };
+      })
+      .filter((c) => c.lines.length || c.checks.length);
+    if (chunks.length) chunkMap.set(topicId, chunks);
+  }
+}
+
+export function chunksFor(topicId: string): Chunk[] {
+  return chunkMap.get(topicId) ?? [];
+}
+
+export function hasChunks(topicId: string): boolean {
+  return chunkMap.has(topicId);
+}
+
+/** The vignettes used to "put it together" at the end of a chunked lesson. */
+export function capstoneFor(topicId: string): Mcq[] {
+  const qs = bankFor(topicId).questions;
+  const l2 = qs.filter((q) => q.level === 2);
+  const l3 = qs.filter((q) => q.level === 3);
+  return [...l2.slice(0, 2), ...l3.slice(0, 1), ...qs].filter((q, i, all) => all.indexOf(q) === i).slice(0, 3);
+}
+
+/** Lesson steps: teach a block → quick checks on it → next block … → 3 vignettes. */
+export function lessonSteps(topicId: string): (Teach | Mcq)[] {
+  const chunks = chunksFor(topicId);
+  const steps: (Teach | Mcq)[] = [];
+  chunks.forEach((c, i) => {
+    steps.push({ type: "teach", id: `${topicId}-t${i}`, topicId, block: c.block, lines: c.lines, explain: c.explain, hook: c.hook, step: i + 1, steps: chunks.length });
+    steps.push(...c.checks);
+  });
+  return [...steps, ...capstoneFor(topicId)];
+}
+
+export const allChecks: Mcq[] = course.topics.flatMap((t) => chunksFor(t.id).flatMap((c) => c.checks));
+export const checkCount = allChecks.length;
+
 export const allItems: (Mcq | Card)[] = [
+  ...allChecks,
   ...course.topics.flatMap((topic) => {
     const bank = bankFor(topic.id);
     return [...bank.questions, ...bank.cards];

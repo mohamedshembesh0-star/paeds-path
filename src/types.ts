@@ -22,7 +22,23 @@ export type Mcq = {
   answer: number;
   explain: string;
   note: string;
+  quick?: boolean; // bite-size single-fact check
 };
+
+/** A short teaching step before a block's quick checks (not graded). */
+export type Teach = {
+  type: "teach";
+  id: string;
+  topicId: string;
+  block: BlockName;
+  lines: string[];
+  explain: string;
+  hook: string;
+  step: number;
+  steps: number;
+};
+
+export type Chunk = { block: BlockName; lines: string[]; explain: string; hook: string; checks: Mcq[] };
 
 export type Card = {
   type: "card";

@@ -1,0 +1,2742 @@
+{
+ "I-1": [
+  {
+   "block": "Def",
+   "explain": "A comatose child loses airway tone and protective reflexes, so the airway kills first; neurology can wait until ABC is secured.",
+   "hook": "A before brain: airway first, always.",
+   "checks": [
+    {
+     "q": "In an unconscious child, which problem is addressed before neurology?",
+     "options": [
+      "Glucose",
+      "Airway",
+      "Pupils"
+     ],
+     "answer": 1,
+     "why": "Loss of tone and reflexes obstructs the airway; airway comes before any neurological work-up."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Coma causes split into metabolic/toxic and structural; AEIOU-TIPS lists them so none is forgotten at the bedside.",
+   "hook": "AEIOU-TIPS: vowels then TIPS.",
+   "checks": [
+    {
+     "q": "Which mnemonic lists the causes of coma?",
+     "options": [
+      "AEIOU-TIPS",
+      "MUDPILES",
+      "VINDICATE"
+     ],
+     "answer": 0,
+     "why": "AEIOU-TIPS is the coma list; MUDPILES is for raised anion gap acidosis."
+    },
+    {
+     "q": "In AEIOU-TIPS, what does the 'I' stand for?",
+     "options": [
+      "Infarction",
+      "Intussusception",
+      "Insulin"
+     ],
+     "answer": 2,
+     "why": "I = insulin (hypo/hyperglycaemia); infection is the I of TIPS."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Focal lesions damage one side; toxins and metabolic upsets hit the whole brain. Rising ICP squeezes perfusion and pushes brain through openings.",
+   "hook": "Cushing triad: high BP, slow pulse, odd breathing.",
+   "checks": [
+    {
+     "q": "Global, symmetric signs in coma suggest which cause type?",
+     "options": [
+      "Structural",
+      "Psychogenic",
+      "Metabolic/toxic"
+     ],
+     "answer": 2,
+     "why": "Metabolic/toxic causes act diffusely; structural lesions give focal, asymmetric signs."
+    },
+    {
+     "q": "Which triad signals raised ICP?",
+     "options": [
+      "Hypotension, tachycardia, deep breathing",
+      "Hypertension, bradycardia, irregular breathing",
+      "Hypertension, tachycardia, fever"
+     ],
+     "answer": 1,
+     "why": "Cushing triad: hypertension, bradycardia, irregular respiration as CPP = MAP - ICP falls."
+    },
+    {
+     "q": "Uncal herniation compresses which cranial nerve, dilating the pupil?",
+     "options": [
+      "CN III",
+      "CN VI",
+      "CN IV"
+     ],
+     "answer": 0,
+     "why": "Uncus compresses the oculomotor nerve (CN III) → dilated pupil; tonsillar herniation → arrest."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Specific signs point to the cause: drug toxidromes, posturing level, and skin clues of sepsis or abuse.",
+   "hook": "Decorticate = flexed to the 'cor' (heart).",
+   "checks": [
+    {
+     "q": "Pinpoint pupils with respiratory depression suggest which poisoning?",
+     "options": [
+      "Opioids",
+      "Anticholinergics",
+      "Amphetamines"
+     ],
+     "answer": 0,
+     "why": "Opioids cause miosis plus CNS/respiratory depression; anticholinergics dilate pupils."
+    },
+    {
+     "q": "Which posture shows flexed arms?",
+     "options": [
+      "Decerebrate",
+      "Opisthotonus",
+      "Decorticate"
+     ],
+     "answer": 2,
+     "why": "Decorticate = flexed arms; decerebrate = extended arms (lower, worse lesion)."
+    },
+    {
+     "q": "On exposure, odd bruises in a comatose child should raise concern for?",
+     "options": [
+      "Vitamin C deficiency",
+      "Non-accidental injury",
+      "Haemophilia A"
+     ],
+     "answer": 1,
+     "why": "Expose fully: odd bruises suggest abuse, purpura suggests meningococcus."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Hypoglycaemia is quick to find and fix; CT finds structural causes; LP can cause herniation if pressure is high.",
+   "hook": "'Don't Ever Forget Glucose' (DEFG).",
+   "checks": [
+    {
+     "q": "Which bedside test must never be skipped in coma?",
+     "options": [
+      "Urine dipstick",
+      "ECG",
+      "Glucose"
+     ],
+     "answer": 2,
+     "why": "Hypoglycaemia is common, reversible and brain-damaging, so bedside glucose is mandatory."
+    },
+    {
+     "q": "Head CT is indicated at which GCS threshold?",
+     "options": [
+      "≤ 14",
+      "≤ 8",
+      "≤ 12"
+     ],
+     "answer": 0,
+     "why": "Per notes, CT if GCS ≤ 14, skull fracture or focal signs; ≤ 8 is the intubation threshold."
+    },
+    {
+     "q": "Lumbar puncture is contraindicated with raised ICP or what?",
+     "options": [
+      "Fever",
+      "Shock",
+      "Neck stiffness"
+     ],
+     "answer": 1,
+     "why": "Never LP with raised ICP (herniation risk) or shock; fever is the reason to consider LP."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Protect airway, reverse what's reversible, treat infection early and lower ICP by drainage, CO₂ reduction and osmotherapy.",
+   "hook": "GCS 8 → intubate.",
+   "checks": [
+    {
+     "q": "At what GCS should an unconscious child be intubated?",
+     "options": [
+      "10 or less",
+      "8 or less",
+      "12 or less"
+     ],
+     "answer": 1,
+     "why": "GCS ≤ 8 means airway reflexes are unreliable → intubation."
+    },
+    {
+     "q": "If meningitis is possible, when is ceftriaxone given?",
+     "options": [
+      "Immediately, before LP",
+      "After LP result",
+      "After CT head"
+     ],
+     "answer": 0,
+     "why": "Don't delay antibiotics for LP; give ceftriaxone immediately."
+    },
+    {
+     "q": "Which drug is used to lower raised ICP?",
+     "options": [
+      "Furosemide",
+      "Dexamethasone",
+      "Mannitol"
+     ],
+     "answer": 2,
+     "why": "Raised ICP: head up, hyperventilate, mannitol (osmotic)."
+    }
+   ]
+  }
+ ],
+ "I-2": [
+  {
+   "block": "Def",
+   "explain": "Seizures beyond 5 min rarely stop alone and get harder to stop, so treatment starts at 5 min and escalates every 5 min.",
+   "hook": "5-5-5: benzo, benzo, second line.",
+   "checks": [
+    {
+     "q": "Status epilepticus is defined as a seizure lasting at least how long?",
+     "options": [
+      "10 min",
+      "30 min",
+      "5 min"
+     ],
+     "answer": 2,
+     "why": "Operational definition: ≥ 5 min, when treatment should start; 30 min is the old definition."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Age predicts cause: neonates have structural/metabolic insults, toddlers fever, older children epilepsy or lesions.",
+   "hook": "Neonatal seizure = always look for a cause.",
+   "checks": [
+    {
+     "q": "A neonatal seizure is best described as?",
+     "options": [
+      "Usually benign febrile",
+      "Always pathological",
+      "Usually idiopathic epilepsy"
+     ],
+     "answer": 1,
+     "why": "Neonatal seizures always have a cause: HIE, hypoglycaemia, low Ca/Na, sepsis, bleed."
+    },
+    {
+     "q": "What is the commonest seizure type in toddlers?",
+     "options": [
+      "Febrile seizure",
+      "Absence seizure",
+      "Infantile spasm"
+     ],
+     "answer": 0,
+     "why": "Febrile seizures affect 3-5% of children and dominate this age."
+    },
+    {
+     "q": "Which is a cause of seizures in older children per the notes?",
+     "options": [
+      "AVM",
+      "HIE",
+      "Febrile seizure"
+     ],
+     "answer": 0,
+     "why": "Older children: epilepsy, trauma, tumour, AVM; HIE is neonatal."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Young brains wire excitation before inhibition, so the threshold is low; fever or metabolic stress tips it over.",
+   "hook": "Accelerator before brakes.",
+   "checks": [
+    {
+     "q": "Why is the seizure threshold low in infants?",
+     "options": [
+      "Myelination is complete",
+      "GABA is inhibitory early",
+      "Excitatory synapses mature first"
+     ],
+     "answer": 2,
+     "why": "Excitatory synapses mature before inhibitory ones → low threshold."
+    },
+    {
+     "q": "What tends to trigger febrile seizures?",
+     "options": [
+      "Slow temperature fall",
+      "Rapid temperature rise",
+      "Prolonged low fever"
+     ],
+     "answer": 1,
+     "why": "A rapid rise in temperature crosses the threshold, not the absolute height."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Seizure types look distinct: absence is brief staring, focal has automatisms, West has spasms with chaotic EEG.",
+   "hook": "Absence: blow on a windmill to provoke it.",
+   "checks": [
+    {
+     "q": "Absence seizures are provoked by what?",
+     "options": [
+      "Photic stimulation only",
+      "Sleep deprivation only",
+      "Hyperventilation"
+     ],
+     "answer": 2,
+     "why": "Absence: blank stare, provoked by hyperventilation in clinic."
+    },
+    {
+     "q": "Mouth chewing and staring suggest which seizure type?",
+     "options": [
+      "Focal impaired awareness",
+      "Absence",
+      "Myoclonic"
+     ],
+     "answer": 0,
+     "why": "Automatisms (chewing, head tilt) with confusion = focal impaired awareness."
+    },
+    {
+     "q": "Which EEG pattern goes with West syndrome?",
+     "options": [
+      "3 Hz spike-wave",
+      "Hypsarrhythmia",
+      "Centrotemporal spikes"
+     ],
+     "answer": 1,
+     "why": "West: spasms + hypsarrhythmia; 3 Hz spike-wave is absence."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Correct reversible causes first (glucose, salts, infection), then image and EEG a first unexplained seizure.",
+   "hook": "Glucose at zero.",
+   "checks": [
+    {
+     "q": "When is bedside glucose checked in a seizing child?",
+     "options": [
+      "At 5 min",
+      "At 0 min",
+      "After seizure stops"
+     ],
+     "answer": 1,
+     "why": "Glucose at 0 min alongside Ca, Na and an infection screen."
+    },
+    {
+     "q": "For a first seizure, which emergency imaging is used?",
+     "options": [
+      "CT head without contrast",
+      "CT head with contrast",
+      "Skull X-ray"
+     ],
+     "answer": 0,
+     "why": "Emergency: non-contrast CT head; MRI electively; plus EEG."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Escalate by time: two benzodiazepine doses, then a second-line agent, then anaesthesia. Specific syndromes have specific drugs.",
+   "hook": "ACTH for West; phenobarbital for neonates.",
+   "checks": [
+    {
+     "q": "At 15 min of status, which drug is given?",
+     "options": [
+      "Third benzodiazepine",
+      "Propofol",
+      "Levetiracetam"
+     ],
+     "answer": 2,
+     "why": "5 & 10 min: benzodiazepines; 15 min: levetiracetam/phenytoin/valproate; 25 min: RSI."
+    },
+    {
+     "q": "First-line anticonvulsant in neonatal seizures?",
+     "options": [
+      "Lorazepam",
+      "Valproate",
+      "Phenobarbital"
+     ],
+     "answer": 2,
+     "why": "Neonates: phenobarbital, pyridoxine if resistant; ACTH is for West syndrome."
+    }
+   ]
+  }
+ ],
+ "I-3": [
+  {
+   "block": "Def",
+   "explain": "Most childhood headaches are primary and benign; the job is to spot the rare secondary one.",
+   "hook": "Primary = benign; secondary = search.",
+   "checks": [
+    {
+     "q": "Migraine and tension-type headache are which category?",
+     "options": [
+      "Secondary",
+      "Primary",
+      "Referred"
+     ],
+     "answer": 1,
+     "why": "Primary headaches (migraine, tension) are benign; secondary have an underlying cause."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Benign primary headache dominates; tumours in children sit in the posterior fossa, giving hydrocephalus early.",
+   "hook": "Kids' tumours live downstairs (infratentorial).",
+   "checks": [
+    {
+     "q": "Which headache types form the overwhelming majority in children?",
+     "options": [
+      "Migraine and tension-type",
+      "Tumour and IIH",
+      "Sinusitis and caries"
+     ],
+     "answer": 0,
+     "why": "Primary headaches, migraine and tension-type, are by far most common."
+    },
+    {
+     "q": "Childhood CNS tumours are usually located where?",
+     "options": [
+      "Infratentorial",
+      "Supratentorial",
+      "Spinal"
+     ],
+     "answer": 0,
+     "why": "Pilocytic astrocytoma, medulloblastoma, ependymoma: posterior fossa."
+    },
+    {
+     "q": "Which secondary cause is listed alongside IIH?",
+     "options": [
+      "Cluster headache",
+      "Trigeminal neuralgia",
+      "Medication overuse headache"
+     ],
+     "answer": 2,
+     "why": "Also IIH and medication overuse headache."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Lying flat and coughing raise ICP further; the long intracranial course of CN VI makes it stretch first.",
+   "hook": "Six is stretched first.",
+   "checks": [
+    {
+     "q": "Raised ICP headache is typically worse when?",
+     "options": [
+      "In the evening",
+      "On waking",
+      "After meals"
+     ],
+     "answer": 1,
+     "why": "Lying flat overnight raises ICP → worse on waking, with vomiting without nausea."
+    },
+    {
+     "q": "Which cranial nerve palsy is a false localising sign of raised ICP?",
+     "options": [
+      "CN III",
+      "CN VII",
+      "CN VI"
+     ],
+     "answer": 2,
+     "why": "Abducens has a long course and stretches with raised ICP."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Paediatric migraine is shorter and more often bilateral than adult migraine; tension is steady and featureless.",
+   "hook": "Kids' migraine: shorter and both sides.",
+   "checks": [
+    {
+     "q": "In children, migraine can last as short as?",
+     "options": [
+      "2 hours",
+      "30 minutes",
+      "12 hours"
+     ],
+     "answer": 0,
+     "why": "Adults 4-72 h; children often bilateral and as short as 2 h."
+    },
+    {
+     "q": "Chronic tension-type headache occurs on how many days per month?",
+     "options": [
+      "5",
+      "15",
+      "10"
+     ],
+     "answer": 1,
+     "why": "Chronic = ≥ 15 days/month for more than 3 months."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "A structured history (tempo, progression) plus red flags decides who needs imaging; MRI avoids radiation and sees posterior fossa better.",
+   "hook": "Red flag → MRI.",
+   "checks": [
+    {
+     "q": "Which is one of the three key headache history questions?",
+     "options": [
+      "Family history of migraine?",
+      "Progressive or not?",
+      "Response to paracetamol?"
+     ],
+     "answer": 1,
+     "why": "Ask: acute or chronic, progressive or not, any red flags."
+    },
+    {
+     "q": "Which age is a headache red flag?",
+     "options": [
+      "Under 5 years",
+      "Under 10 years",
+      "Over 12 years"
+     ],
+     "answer": 0,
+     "why": "Red flags include awakening from sleep, ataxia, focal signs, age under 5."
+    },
+    {
+     "q": "Preferred imaging when a headache red flag is present?",
+     "options": [
+      "CT",
+      "Skull X-ray",
+      "MRI"
+     ],
+     "answer": 2,
+     "why": "Urgent neuroimaging, preferably MRI."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Simple analgesia first, triptans if needed; IIH is treated by cutting CSF production; diaries guide triggers and prophylaxis.",
+   "hook": "Acetazolamide dries the CSF tap.",
+   "checks": [
+    {
+     "q": "First-line for acute migraine in children?",
+     "options": [
+      "Triptans",
+      "Opioids",
+      "NSAIDs or paracetamol"
+     ],
+     "answer": 2,
+     "why": "NSAIDs or acetaminophen first-line; triptans also possible."
+    },
+    {
+     "q": "Drug of choice for idiopathic intracranial hypertension?",
+     "options": [
+      "Mannitol",
+      "Acetazolamide",
+      "Propranolol"
+     ],
+     "answer": 1,
+     "why": "Acetazolamide reduces CSF production (± furosemide)."
+    },
+    {
+     "q": "What tool identifies headache triggers?",
+     "options": [
+      "Headache diary",
+      "EEG",
+      "Lumbar puncture"
+     ],
+     "answer": 0,
+     "why": "A diary reveals triggers and frequency; prophylaxis if frequent."
+    }
+   ]
+  }
+ ],
+ "I-4": [
+  {
+   "block": "Def",
+   "explain": "Young infants cannot localise infection and look deceptively well, so fever alone drives the work-up.",
+   "hook": "Under 3 months: fever = full respect.",
+   "checks": [
+    {
+     "q": "Below what age can infants not localise infection?",
+     "options": [
+      "3 months",
+      "6 months",
+      "1 month"
+     ],
+     "answer": 0,
+     "why": "Under 3 months, infants can't localise; fever threshold ≥ 38 °C."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Neonatal pathogens come from the birth canal; UTI is the most common serious bacterial infection overall.",
+   "hook": "GBS, E. coli, Listeria: the birth canal trio.",
+   "checks": [
+    {
+     "q": "Which organism is a classic cause of neonatal sepsis?",
+     "options": [
+      "Haemophilus influenzae",
+      "Pneumococcus",
+      "Listeria"
+     ],
+     "answer": 2,
+     "why": "Neonatal sepsis: GBS, E. coli, Listeria; consider HSV."
+    },
+    {
+     "q": "Commonest serious bacterial infection in febrile infants?",
+     "options": [
+      "Meningitis",
+      "UTI",
+      "Pneumonia"
+     ],
+     "answer": 1,
+     "why": "Urinary tract infection is the commonest SBI."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Immature immunity, no vaccines yet and no localising signs mean looking well does not exclude serious infection.",
+   "hook": "Looks well ≠ is well.",
+   "checks": [
+    {
+     "q": "In young febrile infants, clinical appearance is?",
+     "options": [
+      "Highly reliable",
+      "Diagnostic",
+      "Unreliable"
+     ],
+     "answer": 2,
+     "why": "Immature immunity and no localising signs make appearance unreliable."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Infant meningitis is vague; specific red flags like a non-blanching rash or prolonged fever point to dangerous diagnoses.",
+   "hook": "Fever > 5 days: think Kawasaki.",
+   "checks": [
+    {
+     "q": "Which sign is usually absent in infant meningitis?",
+     "options": [
+      "Neck stiffness",
+      "Poor feeding",
+      "Irritability"
+     ],
+     "answer": 0,
+     "why": "Infants present with poor feeding, 'not right'; no neck stiffness."
+    },
+    {
+     "q": "Fever over 5 days in an infant suggests?",
+     "options": [
+      "Roseola",
+      "Kawasaki disease",
+      "Teething"
+     ],
+     "answer": 1,
+     "why": "Prolonged fever >5 days → think Kawasaki; non-blanching rash → meningococcus."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Work-up intensity falls with age: neonates get everything including LP; older infants are risk-stratified.",
+   "hook": "Under 28 days: everyone gets the LP.",
+   "checks": [
+    {
+     "q": "Which febrile infants all get a lumbar puncture?",
+     "options": [
+      "Under 3 months",
+      "Under 28 days",
+      "Under 6 months"
+     ],
+     "answer": 1,
+     "why": "Under 28 days: full septic screen incl. LP for all."
+    },
+    {
+     "q": "In febrile infants aged 1-3 months, when is LP done?",
+     "options": [
+      "If unwell",
+      "Always",
+      "Never"
+     ],
+     "answer": 0,
+     "why": "1-3 months: FBC, CRP, culture, urine; LP if unwell."
+    },
+    {
+     "q": "How should urine be collected in a febrile child over 3 months?",
+     "options": [
+      "Urine bag",
+      "Nappy pad",
+      "Clean catch"
+     ],
+     "answer": 2,
+     "why": "Clean catch, not a bag (contamination)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Neonatal antibiotics must cover Listeria, which cephalosporins miss, hence ampicillin; well older infants with a viral source can go home.",
+   "hook": "Listeria laughs at cephalosporins.",
+   "checks": [
+    {
+     "q": "Which antibiotic is added for febrile neonates to cover Listeria?",
+     "options": [
+      "Ceftriaxone",
+      "Vancomycin",
+      "Ampicillin"
+     ],
+     "answer": 2,
+     "why": "IV ampicillin + gentamicin/cefotaxime; ± aciclovir."
+    },
+    {
+     "q": "Listeria is resistant to which antibiotic class?",
+     "options": [
+      "Penicillins",
+      "Cephalosporins",
+      "Aminoglycosides"
+     ],
+     "answer": 1,
+     "why": "Listeria is intrinsically resistant to cephalosporins, so ampicillin is needed."
+    },
+    {
+     "q": "Management of a well infant over 3 months with viral source?",
+     "options": [
+      "Home with safety-netting",
+      "Admit for IV antibiotics",
+      "Full septic screen"
+     ],
+     "answer": 0,
+     "why": "Well, >3 months, viral source → home with safety-netting."
+    }
+   ]
+  }
+ ],
+ "I-5": [
+  {
+   "block": "Def",
+   "explain": "Blanching tells you if blood has leaked from vessels (petechiae/purpura) — that changes urgency more than any other feature.",
+   "hook": "Glass first, guess second.",
+   "checks": [
+    {
+     "q": "What is the first question with fever and rash?",
+     "options": [
+      "Does it blanch?",
+      "Is it itchy?",
+      "Where did it start?"
+     ],
+     "answer": 0,
+     "why": "Non-blanching = possible meningococcus; ask first, pattern-match after."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "The numbered diseases are historical exanthems; chickenpox is VZV spread by air; a few rashes are emergencies.",
+   "hook": "1 measles, 2 scarlet, 3 rubella, 5 parvo, 6 roseola.",
+   "checks": [
+    {
+     "q": "Which is the 'fifth disease'?",
+     "options": [
+      "Roseola",
+      "Rubella",
+      "Parvovirus"
+     ],
+     "answer": 2,
+     "why": "Fifth = parvovirus B19; sixth = roseola (exanthema subitum)."
+    },
+    {
+     "q": "How is chickenpox transmitted?",
+     "options": [
+      "Faeco-oral",
+      "Airborne",
+      "Vector-borne"
+     ],
+     "answer": 1,
+     "why": "VZV is airborne (and by contact with vesicle fluid)."
+    },
+    {
+     "q": "Which rash with fever is an emergency?",
+     "options": [
+      "Roseola",
+      "Fifth disease",
+      "Kawasaki"
+     ],
+     "answer": 2,
+     "why": "Emergencies: meningococcaemia, Kawasaki, SJS/TEN, toxic shock."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Purpura means vessel leak; in sepsis that is lethal, but straining can do it above the SVC area. Chickenpox comes in waves.",
+   "hook": "Chickenpox: 'stars in all stages'.",
+   "checks": [
+    {
+     "q": "Non-blanching rash with fever is what until proven otherwise?",
+     "options": [
+      "Meningococcal sepsis",
+      "ITP",
+      "Henoch-Schönlein purpura"
+     ],
+     "answer": 0,
+     "why": "Fever + non-blanching rash = meningococcal sepsis until proven otherwise."
+    },
+    {
+     "q": "Petechiae above the nipple line after coughing are due to?",
+     "options": [
+      "Thrombocytopenia",
+      "Raised venous pressure",
+      "Vasculitis"
+     ],
+     "answer": 1,
+     "why": "Straining raises SVC-territory venous pressure → benign petechiae."
+    },
+    {
+     "q": "Chickenpox lesions are typically in what pattern?",
+     "options": [
+      "Same stage",
+      "Different stages",
+      "Dermatomal only"
+     ],
+     "answer": 1,
+     "why": "Crops in different stages; smallpox lesions are all the same stage."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Each exanthem has a signature: where it starts, mucosal clues, nodes or face pattern.",
+   "hook": "Slapped cheek = parvo; sandpaper = scarlet.",
+   "checks": [
+    {
+     "q": "Where does the measles rash start?",
+     "options": [
+      "Behind the ears",
+      "On the trunk",
+      "On the palms"
+     ],
+     "answer": 0,
+     "why": "Measles starts behind the ears/hairline; Koplik spots; death from pneumonia."
+    },
+    {
+     "q": "Strawberry tongue and sandpaper rash suggest?",
+     "options": [
+      "Measles",
+      "Parvovirus",
+      "Scarlet fever"
+     ],
+     "answer": 2,
+     "why": "Scarlet fever: sandpaper rash, strawberry tongue; parvo: slapped cheek."
+    },
+    {
+     "q": "Rubella characteristically causes which lymphadenopathy?",
+     "options": [
+      "Supraclavicular",
+      "Axillary",
+      "Suboccipital"
+     ],
+     "answer": 2,
+     "why": "Rubella: suboccipital/postauricular nodes; Coxsackie A: hand, foot and mouth."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "After the glass test, morphology, start site and rash-fever timing narrow it; incubation helps with contacts.",
+   "hook": "Scarlet is quickest: 2-5 days.",
+   "checks": [
+    {
+     "q": "What simple test checks if a rash blanches?",
+     "options": [
+      "Nikolsky sign",
+      "Glass test",
+      "Koebner test"
+     ],
+     "answer": 1,
+     "why": "Press a glass: rash visible through it = non-blanching."
+    },
+    {
+     "q": "Incubation period of measles?",
+     "options": [
+      "10-14 days",
+      "2-5 days",
+      "14-21 days"
+     ],
+     "answer": 0,
+     "why": "Measles 10-14 d; scarlet 2-5 d; rubella 14-21 d; varicella 10-21 d."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Meningococcal sepsis needs antibiotics before anything else; chickenpox and Kawasaki have specific time-critical treatments.",
+   "hook": "Kawasaki: IVIG inside 10 days.",
+   "checks": [
+    {
+     "q": "Immediate treatment for suspected meningococcal sepsis?",
+     "options": [
+      "Benzylpenicillin or ceftriaxone",
+      "Oral amoxicillin",
+      "IV aciclovir"
+     ],
+     "answer": 0,
+     "why": "Give benzylpenicillin or ceftriaxone immediately."
+    },
+    {
+     "q": "What does a newborn of a mother with chickenpox receive?",
+     "options": [
+      "IVIG",
+      "Varicella vaccine",
+      "VZIG"
+     ],
+     "answer": 2,
+     "why": "Newborn of infected mother: VZIG; severe chickenpox: IV aciclovir."
+    },
+    {
+     "q": "Kawasaki: IVIG should be given within how many days?",
+     "options": [
+      "5",
+      "10",
+      "21"
+     ],
+     "answer": 1,
+     "why": "IVIG within 10 days of fever onset to prevent coronary aneurysm."
+    }
+   ]
+  }
+ ],
+ "I-6": [
+  {
+   "block": "Def",
+   "explain": "FUO needs both duration and a negative initial work-up; Kawasaki is a clinical diagnosis by criteria count.",
+   "hook": "Kawasaki: fever 5 + 4 of 5.",
+   "checks": [
+    {
+     "q": "FUO requires fever >38 °C for at least how long?",
+     "options": [
+      "3 days",
+      "14 days",
+      "8 days"
+     ],
+     "answer": 2,
+     "why": "FUO: fever >38 °C ≥ 8 days with no cause after initial evaluation."
+    },
+    {
+     "q": "Kawasaki: fever ≥ 5 days plus how many principal features?",
+     "options": [
+      "4 of 5",
+      "3 of 5",
+      "2 of 5"
+     ],
+     "answer": 0,
+     "why": "Classic Kawasaki needs fever ≥ 5 days plus 4 of 5 features."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Common things first: infection outnumbers inflammatory disease and cancer in FUO.",
+   "hook": "FUO: infection 50, inflammation 20, malignancy 10.",
+   "checks": [
+    {
+     "q": "What is the commonest cause of FUO?",
+     "options": [
+      "Malignancy",
+      "Infection",
+      "Inflammatory disease"
+     ],
+     "answer": 1,
+     "why": "Infection ~50%, inflammatory ~20%, malignancy ~10%."
+    },
+    {
+     "q": "Kawasaki classically affects which children?",
+     "options": [
+      "Scandinavian",
+      "Asian",
+      "African"
+     ],
+     "answer": 1,
+     "why": "Kawasaki is most common in children of East Asian descent."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Kawasaki is a medium-vessel vasculitis with coronary predilection. In sJIA, a falling ESR with rising ferritin signals MAS (consumption).",
+   "hook": "Falling ESR in sJIA = danger, not recovery.",
+   "checks": [
+    {
+     "q": "Which vessels does Kawasaki damage most?",
+     "options": [
+      "Coronary arteries",
+      "Renal arteries",
+      "Cerebral arteries"
+     ],
+     "answer": 0,
+     "why": "Coronary aneurysm → rupture or MI."
+    },
+    {
+     "q": "sJIA with falling ESR and high ferritin suggests?",
+     "options": [
+      "Remission",
+      "Septic arthritis",
+      "Macrophage activation syndrome"
+     ],
+     "answer": 2,
+     "why": "Falling ESR (fibrinogen consumed), cytopenias, high ferritin → MAS."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Kawasaki eyes are dry and spare the limbus; platelets rise late; sJIA has a daily fever spike with an evanescent rash.",
+   "hook": "Kawasaki eyes: red but no pus.",
+   "checks": [
+    {
+     "q": "Kawasaki conjunctivitis is typically?",
+     "options": [
+      "Unilateral, purulent",
+      "Bilateral, purulent",
+      "Bilateral, non-purulent"
+     ],
+     "answer": 2,
+     "why": "Bilateral, non-purulent, limbal sparing."
+    },
+    {
+     "q": "When does thrombocytosis appear in Kawasaki?",
+     "options": [
+      "First day",
+      "Second week",
+      "After 2 months"
+     ],
+     "answer": 1,
+     "why": "Platelets rise in the second week; CRP/ESR high, sterile pyuria."
+    },
+    {
+     "q": "sJIA rash is described as?",
+     "options": [
+      "Salmon-pink macular",
+      "Purpuric",
+      "Vesicular"
+     ],
+     "answer": 0,
+     "why": "Daily spiking fevers with a salmon-pink evanescent rash."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "In FUO, repeated bedside reassessment catches evolving clues better than blind tests; Kawasaki needs serial echo to catch aneurysms.",
+   "hook": "FUO: look again tomorrow.",
+   "checks": [
+    {
+     "q": "Highest-yield investigation in FUO?",
+     "options": [
+      "Repeated history and examination",
+      "PET-CT",
+      "Bone marrow biopsy"
+     ],
+     "answer": 0,
+     "why": "Daily repeated history and exam picks up evolving clues."
+    },
+    {
+     "q": "Kawasaki echo timing after diagnosis?",
+     "options": [
+      "1 and 6 months",
+      "Only at diagnosis",
+      "1-2 and 4-6 weeks"
+     ],
+     "answer": 2,
+     "why": "Echo at diagnosis, then 1-2 and 4-6 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "IVIG damps the vasculitis and prevents aneurysms; aspirin is the one paediatric use despite Reye risk. Infants are atypical and highest risk.",
+   "hook": "IVIG 2 g/kg + aspirin, within 10 days.",
+   "checks": [
+    {
+     "q": "IVIG dose in Kawasaki?",
+     "options": [
+      "1 g/kg",
+      "2 g/kg",
+      "0.4 g/kg"
+     ],
+     "answer": 1,
+     "why": "IVIG 2 g/kg plus aspirin within 10 days."
+    },
+    {
+     "q": "Kawasaki not defervescing after IVIG: next step?",
+     "options": [
+      "Stop aspirin",
+      "Start antibiotics",
+      "Second IVIG"
+     ],
+     "answer": 2,
+     "why": "No defervescence → second IVIG; refractory → steroids/infliximab."
+    },
+    {
+     "q": "Live vaccines after IVIG are delayed for how long?",
+     "options": [
+      "8 months",
+      "1 month",
+      "3 months"
+     ],
+     "answer": 0,
+     "why": "Delay live vaccines ~8 months (IVIG antibodies block response)."
+    }
+   ]
+  }
+ ],
+ "I-7": [
+  {
+   "block": "Def",
+   "explain": "Respiratory distress shows as fast breathing plus work-of-breathing signs; >60/min is tachypnoea in a newborn.",
+   "hook": "Over 60 = too fast for a newborn.",
+   "checks": [
+    {
+     "q": "Neonatal tachypnoea threshold?",
+     "options": [
+      "> 40/min",
+      "> 60/min",
+      "> 80/min"
+     ],
+     "answer": 1,
+     "why": "Newborn tachypnoea is >60 breaths/min."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Gestation and delivery mode predict the cause: preterm → RDS, term section → TTN, post-term → meconium.",
+   "hook": "Pre-RDS, section-TTN, post-MAS.",
+   "checks": [
+    {
+     "q": "Meconium aspiration typically affects which babies?",
+     "options": [
+      "Extremely preterm",
+      "Term and post-term",
+      "Late preterm only"
+     ],
+     "answer": 1,
+     "why": "MAS: term and post-term; RDS: prematurity."
+    },
+    {
+     "q": "Which is a structural cause of neonatal distress?",
+     "options": [
+      "Diaphragmatic hernia",
+      "Pyloric stenosis",
+      "Hirschsprung disease"
+     ],
+     "answer": 0,
+     "why": "Structural: CDH, choanal atresia, TE fistula; also sepsis and cyanotic CHD."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "No surfactant → alveoli collapse; retained fluid → TTN; failure of pulmonary pressure to fall → PPHN.",
+   "hook": "Surfactant keeps the balloons open.",
+   "checks": [
+    {
+     "q": "What is lacking in RDS?",
+     "options": [
+      "Lung fluid",
+      "Pulmonary vessels",
+      "Surfactant"
+     ],
+     "answer": 2,
+     "why": "Prematurity → inadequate surfactant → alveolar collapse."
+    },
+    {
+     "q": "TTN is caused by?",
+     "options": [
+      "Surfactant deficiency",
+      "Meconium inhalation",
+      "Delayed clearance of fetal lung fluid"
+     ],
+     "answer": 2,
+     "why": "TTN: delayed clearance of fetal lung fluid."
+    },
+    {
+     "q": "In PPHN, what fails to fall after birth?",
+     "options": [
+      "Systemic vascular resistance",
+      "Pulmonary vascular resistance",
+      "Haemoglobin"
+     ],
+     "answer": 1,
+     "why": "PVR stays high → right-to-left shunt; meconium also inactivates surfactant."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Signs point to anatomy: empty abdomen in CDH, crying relieves choanal atresia, feeding-linked choking in TEF.",
+   "hook": "Pink when crying = choanal atresia.",
+   "checks": [
+    {
+     "q": "TTN settles within how long?",
+     "options": [
+      "24-72 hours",
+      "1-2 weeks",
+      "6 hours"
+     ],
+     "answer": 0,
+     "why": "TTN: term section baby, grunting, settles in 24-72 h."
+    },
+    {
+     "q": "Scaphoid abdomen in a distressed newborn suggests?",
+     "options": [
+      "Diaphragmatic hernia",
+      "Choanal atresia",
+      "TTN"
+     ],
+     "answer": 0,
+     "why": "Bowel in the chest → scaphoid abdomen = CDH."
+    },
+    {
+     "q": "Coughing, choking and cyanosis with feeds suggest?",
+     "options": [
+      "TTN",
+      "RDS",
+      "TE fistula"
+     ],
+     "answer": 2,
+     "why": "TE fistula: coughing, choking, cyanosis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "CXR, hyperoxia and NG tube position quickly separate lung, heart and oesophagus causes.",
+   "hook": "Coiled tube = blind oesophagus.",
+   "checks": [
+    {
+     "q": "RDS chest X-ray shows?",
+     "options": [
+      "Fluid in fissures",
+      "Ground-glass with air bronchograms",
+      "Patchy hyperinflation"
+     ],
+     "answer": 1,
+     "why": "RDS: ground-glass with air bronchograms; L:S ratio ≥ 2 means maturity."
+    },
+    {
+     "q": "No response to 100% oxygen suggests?",
+     "options": [
+      "RDS",
+      "TTN",
+      "Duct-dependent CHD"
+     ],
+     "answer": 2,
+     "why": "Failure to improve on 100% O₂ → cardiac (duct-dependent); PPHN → echo."
+    },
+    {
+     "q": "NG tube coiling in the oesophagus indicates?",
+     "options": [
+      "Oesophageal atresia",
+      "Choanal atresia",
+      "Pyloric stenosis"
+     ],
+     "answer": 0,
+     "why": "A coiled NG tube = blind-ending oesophagus."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Support breathing, give surfactant/steroids for RDS, avoid inflating bowel in CDH, treat sepsis and dilate pulmonary vessels in PPHN.",
+   "hook": "CDH: no bag-mask, tube + suction.",
+   "checks": [
+    {
+     "q": "Surfactant is given in RDS when FiO₂ exceeds?",
+     "options": [
+      "0.21",
+      "0.30",
+      "0.60"
+     ],
+     "answer": 1,
+     "why": "CPAP for all; surfactant when FiO₂ > 0.30; antenatal steroids to mother."
+    },
+    {
+     "q": "Which is contraindicated in CDH resuscitation?",
+     "options": [
+      "Intubation",
+      "Bag-mask ventilation",
+      "NG suction"
+     ],
+     "answer": 1,
+     "why": "Bag-mask inflates bowel in the chest; intubate with NG on suction."
+    },
+    {
+     "q": "Specific treatment for PPHN?",
+     "options": [
+      "Nitric oxide",
+      "Surfactant",
+      "Furosemide"
+     ],
+     "answer": 0,
+     "why": "Inhaled NO dilates pulmonary vessels; sepsis gets ampicillin + gentamicin."
+    }
+   ]
+  }
+ ],
+ "I-8": [
+  {
+   "block": "Def",
+   "explain": "Timing and bilirubin type point to cause; UGT is the liver enzyme turning unconjugated into conjugated bilirubin.",
+   "hook": "UGT = the liver's bilirubin glue.",
+   "checks": [
+    {
+     "q": "Which enzyme conjugates bilirubin?",
+     "options": [
+      "β-glucuronidase",
+      "Haem oxygenase",
+      "UGT"
+     ],
+     "answer": 2,
+     "why": "UDP-glucuronyltransferase conjugates bilirubin; β-glucuronidase undoes it."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Day-1 jaundice is haemolysis or sepsis; unconjugated types are production/conjugation issues; conjugated means liver or bile flow.",
+   "hook": "Day 1 jaundice = always pathological.",
+   "checks": [
+    {
+     "q": "Jaundice in the first 24 hours is?",
+     "options": [
+      "Usually physiological",
+      "Breast milk jaundice",
+      "Always pathological"
+     ],
+     "answer": 2,
+     "why": "Day-1 jaundice: Rh/ABO, G6PD, spherocytosis, sepsis."
+    },
+    {
+     "q": "Breast milk jaundice is linked to which enzyme?",
+     "options": [
+      "UGT",
+      "β-glucuronidase",
+      "G6PD"
+     ],
+     "answer": 1,
+     "why": "Breast milk β-glucuronidase deconjugates bilirubin → reabsorption."
+    },
+    {
+     "q": "Which causes conjugated jaundice?",
+     "options": [
+      "Biliary atresia",
+      "Gilbert syndrome",
+      "Crigler-Najjar"
+     ],
+     "answer": 0,
+     "why": "Conjugated: biliary atresia, hepatitis, choledochal cyst, TORCH, galactosaemia."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Light converts bilirubin into water-soluble isomers; free unconjugated bilirubin crosses into basal ganglia; Rh sensitisation needs a prior exposure.",
+   "hook": "Rh: first baby sensitises, second suffers.",
+   "checks": [
+    {
+     "q": "How does phototherapy work?",
+     "options": [
+      "Makes bilirubin water-soluble",
+      "Increases hepatic conjugation",
+      "Destroys red cells"
+     ],
+     "answer": 0,
+     "why": "Light isomerises bilirubin to water-soluble forms excreted without conjugation."
+    },
+    {
+     "q": "High unconjugated bilirubin causes?",
+     "options": [
+      "Biliary atresia",
+      "Cirrhosis",
+      "Kernicterus"
+     ],
+     "answer": 2,
+     "why": "Unconjugated bilirubin is lipid-soluble → crosses BBB → kernicterus."
+    },
+    {
+     "q": "Rh disease affects which pregnancy?",
+     "options": [
+      "Only the first",
+      "Not the first",
+      "Every pregnancy equally"
+     ],
+     "answer": 1,
+     "why": "Rh- mother sensitised in a prior pregnancy; Rh+ fetus affected later."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Pale stools mean no bile reaching the gut; cephalohaematoma is bounded by sutures; bilirubin encephalopathy gives abnormal tone and cry.",
+   "hook": "Pale stools + dark urine = blocked bile.",
+   "checks": [
+    {
+     "q": "Prolonged jaundice, pale stools and dark urine suggest?",
+     "options": [
+      "Breast milk jaundice",
+      "Gilbert syndrome",
+      "Biliary atresia"
+     ],
+     "answer": 2,
+     "why": "Beyond 2 weeks with pale stools/dark urine = biliary atresia."
+    },
+    {
+     "q": "Which swelling does not cross suture lines?",
+     "options": [
+      "Cephalohaematoma",
+      "Caput succedaneum",
+      "Subgaleal haemorrhage"
+     ],
+     "answer": 0,
+     "why": "Cephalohaematoma is subperiosteal, so bounded by sutures."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Early jaundice needs a haemolysis screen; every prolonged case needs a split bilirubin to catch conjugated causes.",
+   "hook": "Split it: >25 or >20%.",
+   "checks": [
+    {
+     "q": "Which test is part of the early jaundice work-up?",
+     "options": [
+      "Liver biopsy",
+      "Direct Coombs",
+      "Abdominal ultrasound"
+     ],
+     "answer": 1,
+     "why": "Blood group, direct Coombs, FBC, film."
+    },
+    {
+     "q": "Conjugated hyperbilirubinaemia is >20% of total or above?",
+     "options": [
+      "50 μmol/L",
+      "25 μmol/L",
+      "10 μmol/L"
+     ],
+     "answer": 1,
+     "why": "Conjugated: >25 μmol/L or >20% of total."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Treat by threshold charts, escalate to exchange; feed more; prevent Rh sensitisation; fix biliary atresia early.",
+   "hook": "Kasai before 60 days.",
+   "checks": [
+    {
+     "q": "When is exchange transfusion indicated?",
+     "options": [
+      "Phototherapy fails or encephalopathy",
+      "Bilirubin above phototherapy line",
+      "Any day-1 jaundice"
+     ],
+     "answer": 0,
+     "why": "Phototherapy above the line; exchange if it fails or encephalopathy."
+    },
+    {
+     "q": "Management of breast milk jaundice?",
+     "options": [
+      "Stop breastfeeding",
+      "Switch to formula",
+      "Continue breastfeeding"
+     ],
+     "answer": 2,
+     "why": "Breast milk jaundice: continue; breastfeeding jaundice: increase feeds."
+    },
+    {
+     "q": "Kasai portoenterostomy should be done before?",
+     "options": [
+      "6 months",
+      "1 year",
+      "60 days"
+     ],
+     "answer": 2,
+     "why": "Kasai before 60 days gives best results; anti-D at 28-32 weeks and within 72 h."
+    }
+   ]
+  }
+ ],
+ "I-9": [
+  {
+   "block": "Def",
+   "explain": "Central cyanosis reflects low arterial saturation, seen in warm, well-perfused mucosa unlike peripheral blueness.",
+   "hook": "Look at the tongue, not the toes.",
+   "checks": [
+    {
+     "q": "Central cyanosis indicates?",
+     "options": [
+      "Poor peripheral perfusion",
+      "Low arterial O₂ saturation",
+      "Cold exposure"
+     ],
+     "answer": 1,
+     "why": "Central (lips, mucosa) = low arterial saturation."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Blue babies have lung, heart, pulmonary pressure or blood causes; the cardiac ones are the five Ts.",
+   "hook": "Five Ts: count the fingers.",
+   "checks": [
+    {
+     "q": "Polycythaemia causing cyanosis is haematocrit above?",
+     "options": [
+      "65%",
+      "45%",
+      "55%"
+     ],
+     "answer": 0,
+     "why": "Polycythaemia: haematocrit >65%."
+    },
+    {
+     "q": "Commonest cyanotic heart disease overall?",
+     "options": [
+      "Tetralogy of Fallot",
+      "Transposition",
+      "Truncus arteriosus"
+     ],
+     "answer": 0,
+     "why": "ToF is commonest overall; transposition presents on day 1."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "High pulmonary pressure shunts blood past the lungs; duct-dependent lesions collapse as the duct closes.",
+   "hook": "Duct closes day 2-3 → crash.",
+   "checks": [
+    {
+     "q": "PPHN causes right-to-left shunt through which routes?",
+     "options": [
+      "VSD and ASD",
+      "Coronary sinus",
+      "PDA and foramen ovale"
+     ],
+     "answer": 2,
+     "why": "PVR stays high → R→L shunt at PDA and PFO."
+    },
+    {
+     "q": "When does the ductus usually close, causing collapse?",
+     "options": [
+      "Week 2",
+      "Day 2-3",
+      "Hour 1"
+     ],
+     "answer": 1,
+     "why": "Duct closes day 2-3 → duct-dependent babies collapse."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Breathing is driven mainly by CO₂, so cyanotic heart babies breathe quietly; methaemoglobin looks brown with a normal PaO₂.",
+   "hook": "Blue but happy = heart.",
+   "checks": [
+    {
+     "q": "A 'comfortably blue' newborn suggests which cause?",
+     "options": [
+      "Pulmonary",
+      "Sepsis",
+      "Cardiac"
+     ],
+     "answer": 2,
+     "why": "Respiratory drive responds mainly to CO₂, so cardiac cyanosis is comfortable."
+    },
+    {
+     "q": "Chocolate-brown blood with normal PaO₂ suggests?",
+     "options": [
+      "Methaemoglobinaemia",
+      "PPHN",
+      "Polycythaemia"
+     ],
+     "answer": 0,
+     "why": "Methaemoglobinaemia: brown blood, normal PaO₂."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Oxygen fixes lung disease but not fixed shunts; pre/post-ductal difference reveals shunt at the duct; echo defines anatomy.",
+   "hook": "Hyperoxia: lungs respond, hearts don't.",
+   "checks": [
+    {
+     "q": "Which cyanosis improves on 100% oxygen?",
+     "options": [
+      "Cardiac",
+      "Pulmonary",
+      "PPHN"
+     ],
+     "answer": 1,
+     "why": "Hyperoxia test: pulmonary improves; cardiac and PPHN do not."
+    },
+    {
+     "q": "Pre-ductal saturation is measured on which limb?",
+     "options": [
+      "Left hand",
+      "Right hand",
+      "Right foot"
+     ],
+     "answer": 1,
+     "why": "Right hand = pre-ductal; difference >10% suggests PPHN."
+    },
+    {
+     "q": "Key investigation in neonatal cyanosis?",
+     "options": [
+      "Echocardiography",
+      "Chest X-ray",
+      "ECG"
+     ],
+     "answer": 0,
+     "why": "Echo defines cardiac anatomy and PPHN."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Keep the duct open with PGE1; open the atrial septum to mix blood in TGA; dilate lung vessels with NO; reduce methaemoglobin with methylene blue.",
+   "hook": "Methaemoglobin → methylene blue.",
+   "checks": [
+    {
+     "q": "Drug to keep the duct open?",
+     "options": [
+      "Indometacin",
+      "Ibuprofen",
+      "Prostaglandin E1"
+     ],
+     "answer": 2,
+     "why": "PGE1 keeps duct open; indometacin/ibuprofen close it."
+    },
+    {
+     "q": "Transposition: what is done before arterial switch?",
+     "options": [
+      "Blalock-Taussig shunt",
+      "Fontan procedure",
+      "Balloon atrial septostomy"
+     ],
+     "answer": 2,
+     "why": "Septostomy improves mixing before the arterial switch."
+    },
+    {
+     "q": "Treatment of methaemoglobinaemia?",
+     "options": [
+      "Inhaled nitric oxide",
+      "Methylene blue",
+      "Prostaglandin E1"
+     ],
+     "answer": 1,
+     "why": "Methylene blue reduces methaemoglobin; NO is for PPHN."
+    }
+   ]
+  }
+ ],
+ "I-10": [
+  {
+   "block": "Def",
+   "explain": "Defining thresholds triggers treatment; HHS is extreme glucose and osmolality without much ketosis.",
+   "hook": "Neonate low: under 2.6.",
+   "checks": [
+    {
+     "q": "Neonatal hypoglycaemia threshold?",
+     "options": [
+      "< 2.6 mmol/L",
+      "< 3.5 mmol/L",
+      "< 1.5 mmol/L"
+     ],
+     "answer": 0,
+     "why": "Neonatal hypoglycaemia: blood glucose below 2.6 mmol/L."
+    },
+    {
+     "q": "HHS: glucose above which level?",
+     "options": [
+      "600 mg/dL",
+      "250 mg/dL",
+      "400 mg/dL"
+     ],
+     "answer": 0,
+     "why": "HHS: glucose >600 mg/dL, osmolarity >320."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Ketones show whether fat is being burned: ketotic hypos are fasting problems; non-ketotic mean insulin excess or blocked fat oxidation.",
+   "hook": "No ketones: insulin or MCAD.",
+   "checks": [
+    {
+     "q": "Commonest age for ketotic hypoglycaemia?",
+     "options": [
+      "Neonatal",
+      "Adolescence",
+      "1-5 years"
+     ],
+     "answer": 2,
+     "why": "Ketotic hypoglycaemia of childhood: commonest at 1-5 y."
+    },
+    {
+     "q": "Non-ketotic hypoglycaemia with fat oxidation defect suggests?",
+     "options": [
+      "GSD type I",
+      "MCAD deficiency",
+      "GH deficiency"
+     ],
+     "answer": 1,
+     "why": "No ketones → hyperinsulinism or fat-oxidation defect (MCAD)."
+    },
+    {
+     "q": "Childhood hyperglycaemia is almost always?",
+     "options": [
+      "Type 2 DM",
+      "MODY",
+      "Type 1 DM"
+     ],
+     "answer": 2,
+     "why": "Hyperglycaemia in children is almost always type 1 diabetes."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Fetal islets overrespond to maternal glucose and keep pumping after birth; fast falls in glucose shift water into brain cells.",
+   "hook": "No bolus in DKA: protect the brain.",
+   "checks": [
+    {
+     "q": "Infants of diabetic mothers become hypoglycaemic because of?",
+     "options": [
+      "Fetal hyperinsulinism",
+      "Glycogen deficiency",
+      "Cortisol deficiency"
+     ],
+     "answer": 0,
+     "why": "Maternal hyperglycaemia → fetal hyperinsulinism → hypo and macrosomia."
+    },
+    {
+     "q": "Insulin bolus in DKA risks which complication?",
+     "options": [
+      "Hyperkalaemia",
+      "Cerebral oedema",
+      "Pancreatitis"
+     ],
+     "answer": 1,
+     "why": "Rapid osmotic shifts → cerebral oedema."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Early adrenaline response gives autonomic signs; later the brain runs out of fuel causing neuroglycopenia.",
+   "hook": "Shaky first, confused later.",
+   "checks": [
+    {
+     "q": "Which is a neuroglycopenic sign?",
+     "options": [
+      "Sweating",
+      "Confusion",
+      "Tremor"
+     ],
+     "answer": 1,
+     "why": "Autonomic: sweating, tremor, tachycardia; neuroglycopenic: confusion, seizures, coma."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "The cause is only visible during the hypo, so sample before correcting; ketones discriminate the groups; DKA is a triad.",
+   "hook": "Critical sample before sugar.",
+   "checks": [
+    {
+     "q": "When is the critical sample taken?",
+     "options": [
+      "Before giving glucose",
+      "After glucose correction",
+      "Next morning fasting"
+     ],
+     "answer": 0,
+     "why": "Take insulin, C-peptide, cortisol, GH, ketones before giving glucose."
+    },
+    {
+     "q": "Best discriminator in hypoglycaemia work-up?",
+     "options": [
+      "Insulin next morning",
+      "HbA1c",
+      "Ketone level at the time"
+     ],
+     "answer": 2,
+     "why": "Ketones at the time of the low sugar split ketotic vs non-ketotic."
+    },
+    {
+     "q": "DKA bicarbonate threshold?",
+     "options": [
+      "< 22 mmol/L",
+      "< 10 mmol/L",
+      "< 18 mmol/L"
+     ],
+     "answer": 2,
+     "why": "DKA: glucose + ketosis + pH <7.3 or bicarbonate <18 mmol/L (notes)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Correct sugar quickly with dextrose; then treat the cause specifically; in DKA restore volume before slow insulin.",
+   "hook": "2-10: 2 ml/kg of 10%.",
+   "checks": [
+    {
+     "q": "Hypoglycaemia bolus dose?",
+     "options": [
+      "5 ml/kg of 50% dextrose",
+      "2 ml/kg of 10% dextrose",
+      "10 ml/kg of 5% dextrose"
+     ],
+     "answer": 1,
+     "why": "2 ml/kg 10% dextrose, then infusion; glucagon if no access."
+    },
+    {
+     "q": "Drug for hyperinsulinism?",
+     "options": [
+      "Diazoxide",
+      "Octreotide only",
+      "Metformin"
+     ],
+     "answer": 0,
+     "why": "Diazoxide inhibits insulin release; cornstarch for GSD; avoid fasting in MCAD."
+    },
+    {
+     "q": "DKA insulin infusion rate?",
+     "options": [
+      "0.05-0.1 U/kg/h",
+      "0.5-1 U/kg/h",
+      "0.01 U/kg/h"
+     ],
+     "answer": 0,
+     "why": "Fluids first, then insulin 0.05-0.1 U/kg/h an hour later, no bolus."
+    }
+   ]
+  }
+ ],
+ "I-11": [
+  {
+   "block": "Def",
+   "explain": "Reactive nodes are small, tender and self-limiting; persistence, size or hardness push toward malignancy.",
+   "hook": "Reactive: soft, sore, small, short-lived.",
+   "checks": [
+    {
+     "q": "Reactive nodes typically resolve within?",
+     "options": [
+      "1-2 weeks",
+      "3-6 months",
+      "4-6 weeks"
+     ],
+     "answer": 2,
+     "why": "Reactive nodes: soft, tender, <2 cm, resolve in 4-6 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Localised nodes drain a local infection; generalised nodes mean systemic infection, inflammation or malignancy.",
+   "hook": "Cat scratch = Bartonella.",
+   "checks": [
+    {
+     "q": "Commonest cause of localised bacterial lymphadenitis?",
+     "options": [
+      "Bartonella",
+      "Staphylococcus aureus",
+      "Atypical mycobacteria"
+     ],
+     "answer": 1,
+     "why": "S. aureus > S. pyogenes; also Bartonella, atypical mycobacteria, TB."
+    },
+    {
+     "q": "Which causes generalised lymphadenopathy?",
+     "options": [
+      "Cat scratch",
+      "Dental abscess",
+      "EBV"
+     ],
+     "answer": 2,
+     "why": "Generalised: EBV, CMV, toxo, HIV, Kawasaki, JIA, SLE, leukaemia, lymphoma."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "EBV drives T-cell proliferation; pyogenic nodes liquefy; lymphoma is diagnosed by architecture, and mediastinal nodes can compress the airway.",
+   "hook": "Lymphoma needs the whole node.",
+   "checks": [
+    {
+     "q": "In EBV, which node region shows T-cell hyperplasia?",
+     "options": [
+      "Paracortex",
+      "Germinal centre",
+      "Medulla"
+     ],
+     "answer": 0,
+     "why": "EBV: T-cell hyperplasia in the paracortex."
+    },
+    {
+     "q": "Staph/Strep lymphadenitis can progress to?",
+     "options": [
+      "Calcification",
+      "Abscess",
+      "Lymphoma"
+     ],
+     "answer": 1,
+     "why": "Suppuration → abscess with fluctuance."
+    },
+    {
+     "q": "Why is excisional rather than needle sampling needed for lymphoma?",
+     "options": [
+      "More cells",
+      "Nodal architecture",
+      "Lower bleeding risk"
+     ],
+     "answer": 1,
+     "why": "Lymphoma diagnosis depends on architecture; mediastinal mass threatens airway."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "EBV gives a recognisable syndrome; red-flag node features suggest malignancy; atypical mycobacteria give a cold purple node.",
+   "hook": "Supraclavicular node = sinister.",
+   "checks": [
+    {
+     "q": "EBV typically causes which nodes?",
+     "options": [
+      "Posterior cervical",
+      "Supraclavicular",
+      "Inguinal"
+     ],
+     "answer": 0,
+     "why": "EBV: fatigue, fever, posterior cervical nodes, pharyngitis, HSM."
+    },
+    {
+     "q": "Which node site is worrying?",
+     "options": [
+      "Anterior cervical",
+      "Inguinal",
+      "Supraclavicular"
+     ],
+     "answer": 2,
+     "why": "Worrying: >2 cm and growing, >6 weeks, supraclavicular, painless."
+    },
+    {
+     "q": "Cold, violaceous, non-tender node in a toddler suggests?",
+     "options": [
+      "Staph aureus",
+      "EBV",
+      "Atypical mycobacteria"
+     ],
+     "answer": 2,
+     "why": "Atypical mycobacteria: violaceous, painless node in toddlers."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Blood count and film detect leukaemia quickly; CXR before anaesthesia avoids airway collapse from a mediastinal mass.",
+   "hook": "CXR before the knife.",
+   "checks": [
+    {
+     "q": "Highest-yield first test in lymphadenopathy?",
+     "options": [
+      "Lymph node FNA",
+      "FBC and film",
+      "CT neck"
+     ],
+     "answer": 1,
+     "why": "FBC and film first; CRP, LDH, urate, EBV/CMV serology."
+    },
+    {
+     "q": "What must be done before node biopsy?",
+     "options": [
+      "Chest X-ray",
+      "Bone marrow aspirate",
+      "PET scan"
+     ],
+     "answer": 0,
+     "why": "CXR looks for a mediastinal mass threatening the airway under anaesthesia."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Most nodes are reactive and only need watching; when lymphoma is suspected take the whole node.",
+   "hook": "Excise, don't aspirate.",
+   "checks": [
+    {
+     "q": "Soft, mobile, non-tender nodes are managed by?",
+     "options": [
+      "Observation",
+      "Antibiotics",
+      "Excision"
+     ],
+     "answer": 0,
+     "why": "Observation: reactive nodes resolve in 4-6 weeks."
+    },
+    {
+     "q": "Biopsy type for suspected lymphoma?",
+     "options": [
+      "Fine needle aspiration",
+      "Core needle",
+      "Excisional"
+     ],
+     "answer": 2,
+     "why": "Excisional biopsy preserves architecture; FNA is inadequate."
+    }
+   ]
+  }
+ ],
+ "I-12": [
+  {
+   "block": "Def",
+   "explain": "Septic arthritis destroys a joint in hours, so it is excluded before anything else.",
+   "hook": "Sepsis first, sort later.",
+   "checks": [
+    {
+     "q": "What must be excluded first in a child with joint pain?",
+     "options": [
+      "JIA",
+      "Septic arthritis",
+      "Perthes disease"
+     ],
+     "answer": 1,
+     "why": "Septic arthritis is joint-destroying and must be excluded first."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Group causes into reactive, inflammatory, malignant, mechanical and septic; age predicts mechanical ones.",
+   "hook": "DDH baby, Perthes child, SUFE teen.",
+   "checks": [
+    {
+     "q": "Rheumatic fever arises through which mechanism?",
+     "options": [
+      "Direct joint infection",
+      "Immune complex deposition",
+      "GAS M protein mimicry"
+     ],
+     "answer": 2,
+     "why": "Anti-M protein antibodies cross-react with host tissue."
+    },
+    {
+     "q": "Typical age of Perthes disease?",
+     "options": [
+      "4-8 years",
+      "0-1 year",
+      "12-15 years"
+     ],
+     "answer": 0,
+     "why": "Perthes 4-8 y; DDH infancy; SUFE obese adolescent."
+    },
+    {
+     "q": "Osteomyelitis in sickle cell is classically due to?",
+     "options": [
+      "Pseudomonas",
+      "Salmonella",
+      "Kingella"
+     ],
+     "answer": 1,
+     "why": "Septic arthritis: S. aureus; sickle cell osteomyelitis: Salmonella."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Slow, looping metaphyseal capillaries let bacteria settle, so osteomyelitis begins there.",
+   "hook": "Bugs park in the metaphyseal hairpin loops.",
+   "checks": [
+    {
+     "q": "Where does haematogenous osteomyelitis start?",
+     "options": [
+      "Diaphysis",
+      "Metaphysis",
+      "Epiphysis"
+     ],
+     "answer": 1,
+     "why": "Slow-flowing hairpin capillary loops in the metaphysis."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Toxicity and fever separate septic from transient synovitis; timing of pain hints at the cause; Jones criteria define rheumatic fever.",
+   "hook": "Morning inflammatory, evening mechanical, night malignant.",
+   "checks": [
+    {
+     "q": "Afebrile, well child with a limp suggests?",
+     "options": [
+      "Transient synovitis",
+      "Septic arthritis",
+      "Osteomyelitis"
+     ],
+     "answer": 0,
+     "why": "Septic: febrile, toxic; transient synovitis: afebrile, well."
+    },
+    {
+     "q": "Night-time bone pain suggests which cause?",
+     "options": [
+      "Mechanical",
+      "Inflammatory",
+      "Malignancy"
+     ],
+     "answer": 2,
+     "why": "Morning = inflammatory, after activity = mechanical, night = malignant."
+    },
+    {
+     "q": "Which is a major Jones criterion?",
+     "options": [
+      "Fever",
+      "Raised ESR",
+      "Sydenham chorea"
+     ],
+     "answer": 2,
+     "why": "Major: carditis, polyarthritis, chorea, erythema marginatum, nodules."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Kocher criteria estimate septic risk; aspirate to confirm; JIA is defined by age and duration.",
+   "hook": "Kocher: 4 points, 4 = almost certain.",
+   "checks": [
+    {
+     "q": "Kocher criterion temperature threshold?",
+     "options": [
+      "> 38.0 °C",
+      "> 38.5 °C",
+      "> 39.5 °C"
+     ],
+     "answer": 1,
+     "why": "Kocher: non-weight-bearing, fever >38.5, ESR >40, WBC >12."
+    },
+    {
+     "q": "Imaging of choice for osteomyelitis?",
+     "options": [
+      "MRI",
+      "Plain X-ray",
+      "Bone scan"
+     ],
+     "answer": 0,
+     "why": "MRI shows early marrow oedema; X-ray changes lag ~10-14 days."
+    },
+    {
+     "q": "JIA requires arthritis lasting at least?",
+     "options": [
+      "6 weeks",
+      "2 weeks",
+      "6 months"
+     ],
+     "answer": 0,
+     "why": "JIA: onset before 16, lasting ≥ 6 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Get the organism before antibiotics, then wash out; NSAIDs for benign or inflammatory disease; prevent rheumatic recurrence with penicillin.",
+   "hook": "Tap before treat.",
+   "checks": [
+    {
+     "q": "In septic arthritis, when is the joint aspirated?",
+     "options": [
+      "After 48 h of antibiotics",
+      "Only if not improving",
+      "Before antibiotics"
+     ],
+     "answer": 2,
+     "why": "Aspirate first for culture, then IV antibiotics + washout."
+    },
+    {
+     "q": "First-line DMARD in JIA?",
+     "options": [
+      "Hydroxychloroquine",
+      "Methotrexate",
+      "Azathioprine"
+     ],
+     "answer": 1,
+     "why": "JIA: weekly methotrexate; transient synovitis: rest and NSAIDs."
+    },
+    {
+     "q": "Rheumatic fever prophylaxis if penicillin anaphylaxis?",
+     "options": [
+      "Cephalosporins",
+      "Co-amoxiclav",
+      "Macrolides"
+     ],
+     "answer": 2,
+     "why": "Penicillin prophylaxis; macrolides if anaphylaxis."
+    }
+   ]
+  }
+ ],
+ "I-13": [
+  {
+   "block": "Def",
+   "explain": "DRE confirms blood and finds fissures/masses; haemodynamics decide urgency; then age and story narrow the cause.",
+   "hook": "Finger first (DRE), then the age.",
+   "checks": [
+    {
+     "q": "First test in a child with bloody stool?",
+     "options": [
+      "Digital rectal examination",
+      "Stool culture",
+      "Abdominal ultrasound"
+     ],
+     "answer": 0,
+     "why": "DRE and haemodynamics first (university exam answer)."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Each age has its own bleeders: neonates swallowed blood or NEC, toddlers fissures, older children colitis.",
+   "hook": "Toddler bleed: fissure first.",
+   "checks": [
+    {
+     "q": "Which neonatal cause of 'bloody stool' isn't the baby's blood?",
+     "options": [
+      "NEC",
+      "Swallowed maternal blood",
+      "Volvulus"
+     ],
+     "answer": 1,
+     "why": "Swallowed maternal blood is common; confirm with Apt test."
+    },
+    {
+     "q": "Commonest cause of bloody stool in toddlers?",
+     "options": [
+      "Intussusception",
+      "Anal fissure",
+      "Meckel's diverticulum"
+     ],
+     "answer": 1,
+     "why": "Fissure is commonest; also intussusception, Meckel's, polyp."
+    },
+    {
+     "q": "Which causes bloody stool in older children?",
+     "options": [
+      "IBD",
+      "NEC",
+      "CMPA"
+     ],
+     "answer": 0,
+     "why": "Older: infectious colitis, IBD, HSP, HUS."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Ectopic gastric acid ulcerates neighbouring ileum; Meckel's follows the rule of 2s; shiga toxin injures endothelium, and antibiotics release more.",
+   "hook": "Meckel's: everything is 2.",
+   "checks": [
+    {
+     "q": "Why does a Meckel's diverticulum bleed?",
+     "options": [
+      "Ectopic pancreatic tissue",
+      "Arteriovenous malformation",
+      "Ectopic gastric mucosa"
+     ],
+     "answer": 2,
+     "why": "Acid from ectopic gastric mucosa ulcerates adjacent ileum."
+    },
+    {
+     "q": "Rule of 2s: Meckel's lies how far from the ileocaecal valve?",
+     "options": [
+      "2 inches",
+      "2 metres",
+      "2 feet"
+     ],
+     "answer": 2,
+     "why": "2% of people, 2 feet from valve, 2 inches long, under age 2."
+    },
+    {
+     "q": "Antibiotics in E. coli O157 infection do what?",
+     "options": [
+      "Prevent HUS",
+      "Increase toxin release",
+      "Shorten diarrhoea"
+     ],
+     "answer": 1,
+     "why": "Antibiotics increase shiga toxin release → HUS risk."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Pain pattern and vomiting separate surgical causes: colicky pain → intussusception, painless big bleed → Meckel's, bilious vomit → volvulus.",
+   "hook": "Bilious vomit = volvulus until proven otherwise.",
+   "checks": [
+    {
+     "q": "Paroxysmal pain with sausage-shaped mass suggests?",
+     "options": [
+      "Intussusception",
+      "Meckel's",
+      "Volvulus"
+     ],
+     "answer": 0,
+     "why": "Intussusception (3 mo-3 y): paroxysmal pain + sausage mass."
+    },
+    {
+     "q": "Painless, transfusion-requiring rectal bleeding suggests?",
+     "options": [
+      "Meckel's diverticulum",
+      "Anal fissure",
+      "Intussusception"
+     ],
+     "answer": 0,
+     "why": "Painless massive bleeding without diarrhoea = Meckel's (exam answer)."
+    },
+    {
+     "q": "Bilious vomiting plus blood suggests?",
+     "options": [
+      "Fissure",
+      "HUS",
+      "Volvulus"
+     ],
+     "answer": 2,
+     "why": "Bilious vomiting + blood = volvulus, a surgical emergency."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Apt distinguishes fetal from maternal haemoglobin; a technetium scan shows gastric mucosa; ultrasound shows the target; HUS is a triad.",
+   "hook": "Target on ultrasound = intussusception.",
+   "checks": [
+    {
+     "q": "Which test detects swallowed maternal blood?",
+     "options": [
+      "Coombs test",
+      "Apt test",
+      "Guaiac test"
+     ],
+     "answer": 1,
+     "why": "Apt test distinguishes maternal (adult) from fetal Hb."
+    },
+    {
+     "q": "Imaging for suspected Meckel's?",
+     "options": [
+      "Abdominal ultrasound",
+      "Barium meal",
+      "Technetium-99m pertechnetate scan"
+     ],
+     "answer": 2,
+     "why": "Tc-99m pertechnetate is taken up by gastric mucosa; intussusception → US target sign."
+    },
+    {
+     "q": "Which is part of the HUS triad?",
+     "options": [
+      "Thrombocytopenia",
+      "Neutrophilia",
+      "Hypercalcaemia"
+     ],
+     "answer": 0,
+     "why": "HUS: haemolytic anaemia, thrombocytopenia, AKI."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Resuscitate first; then cause-specific: air/contrast enema for intussusception, surgery for volvulus, bowel rest for NEC, no antibiotics in HUS.",
+   "hook": "NEC: stop, drain, treat.",
+   "checks": [
+    {
+     "q": "A shocked child with bloody stool needs first?",
+     "options": [
+      "Colonoscopy",
+      "Resuscitation",
+      "Meckel's scan"
+     ],
+     "answer": 1,
+     "why": "Resuscitate first: wide-bore access, fluids, cross-match."
+    },
+    {
+     "q": "First-line treatment of intussusception?",
+     "options": [
+      "Laparotomy",
+      "Enema reduction",
+      "Antibiotics"
+     ],
+     "answer": 1,
+     "why": "Enema reduction; volvulus → theatre; NEC → stop feeds, decompress, antibiotics."
+    },
+    {
+     "q": "Antibiotics in HUS from E. coli O157?",
+     "options": [
+      "Avoided",
+      "IV ceftriaxone",
+      "Oral azithromycin"
+     ],
+     "answer": 0,
+     "why": "No antibiotics: they increase toxin release."
+    }
+   ]
+  }
+ ],
+ "I-14": [
+  {
+   "block": "Def",
+   "explain": "Swallowed blood from the nose or mother's nipple, or red food, mimics haematemesis; confirm source first.",
+   "hook": "Is it theirs, and is it gut?",
+   "checks": [
+    {
+     "q": "First step in apparent haematemesis?",
+     "options": [
+      "Urgent endoscopy",
+      "Start PPI",
+      "Confirm it's the child's GI blood"
+     ],
+     "answer": 2,
+     "why": "Confirm the blood is the child's own and from the GI tract."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Split non-variceal (mucosal) from variceal (portal hypertension); neonates swallow maternal blood or lack vitamin K.",
+   "hook": "UVC → portal vein clot → varices.",
+   "checks": [
+    {
+     "q": "Which is a non-variceal upper GI bleed cause?",
+     "options": [
+      "Portal vein thrombosis",
+      "Biliary atresia",
+      "Mallory-Weiss tear"
+     ],
+     "answer": 2,
+     "why": "Non-variceal: oesophagitis, gastritis, PUD, Mallory-Weiss, button battery."
+    },
+    {
+     "q": "Which neonatal procedure predisposes to varices?",
+     "options": [
+      "Circumcision",
+      "Umbilical venous catheterisation",
+      "Heel prick"
+     ],
+     "answer": 1,
+     "why": "UVC → portal vein thrombosis → portal hypertension."
+    },
+    {
+     "q": "Which neonatal bleeding cause is preventable?",
+     "options": [
+      "Vitamin K deficiency bleeding",
+      "Swallowed maternal blood",
+      "Mallory-Weiss tear"
+     ],
+     "answer": 0,
+     "why": "Neonate: swallowed maternal blood, vitamin K deficiency bleeding (prevented by prophylaxis)."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Pre-hepatic block raises portal pressure with a normal liver; batteries generate current and alkali that burn through tissue fast.",
+   "hook": "Button battery: hours, not days.",
+   "checks": [
+    {
+     "q": "Portal vein thrombosis causes which type of portal hypertension?",
+     "options": [
+      "Pre-hepatic",
+      "Intra-hepatic",
+      "Post-hepatic"
+     ],
+     "answer": 0,
+     "why": "Portal vein thrombosis = pre-hepatic portal hypertension → varices."
+    },
+    {
+     "q": "A swallowed button battery can erode into?",
+     "options": [
+      "The trachea only",
+      "The spleen",
+      "The aorta"
+     ],
+     "answer": 2,
+     "why": "Necrosis within hours can erode into the aorta (aorto-oesophageal fistula)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Portal hypertension signs suggest varices; multi-site neonatal bleeding suggests a coagulation factor deficiency.",
+   "hook": "Big spleen + bleed = varices.",
+   "checks": [
+    {
+     "q": "Splenomegaly with haematemesis suggests?",
+     "options": [
+      "Peptic ulcer",
+      "Variceal bleed",
+      "Mallory-Weiss tear"
+     ],
+     "answer": 1,
+     "why": "Splenomegaly, ascites, caput medusae, low platelets → variceal."
+    },
+    {
+     "q": "Neonate bleeding from several sites suggests?",
+     "options": [
+      "Swallowed maternal blood",
+      "Mallory-Weiss",
+      "Vitamin K deficiency"
+     ],
+     "answer": 2,
+     "why": "Multi-site bleeding in a neonate = vitamin K deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Exclude mimics first, then decide variceal vs non-variceal because the drugs and endoscopic approach differ.",
+   "hook": "Impostors: nose, nipple, food.",
+   "checks": [
+    {
+     "q": "Which is a haematemesis impostor?",
+     "options": [
+      "Epistaxis",
+      "Oesophagitis",
+      "Gastritis"
+     ],
+     "answer": 0,
+     "why": "Exclude epistaxis, cracked nipple (Apt test), red foods."
+    },
+    {
+     "q": "Why split variceal from non-variceal?",
+     "options": [
+      "It predicts age",
+      "It decides treatment",
+      "It sets transfusion threshold"
+     ],
+     "answer": 1,
+     "why": "Variceal vs non-variceal determines treatment."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Resuscitate and correct clotting; vasoactive drugs + antibiotics + banding for varices; PPI + endoscopy for mucosal bleeds; batteries out now.",
+   "hook": "Varices: terlipressin, antibiotics, bands.",
+   "checks": [
+    {
+     "q": "Coagulopathy in GI bleeding is corrected with?",
+     "options": [
+      "Tranexamic acid alone",
+      "Vitamin K + FFP",
+      "Platelets alone"
+     ],
+     "answer": 1,
+     "why": "Two large cannulas, cross-match; vitamin K + FFP for coagulopathy."
+    },
+    {
+     "q": "Vasoactive drug for variceal bleeding?",
+     "options": [
+      "Terlipressin",
+      "Propranolol",
+      "Omeprazole"
+     ],
+     "answer": 0,
+     "why": "Terlipressin or octreotide + prophylactic antibiotics + band ligation."
+    },
+    {
+     "q": "Non-variceal bleed: drug given with endoscopy?",
+     "options": [
+      "Octreotide",
+      "Terlipressin",
+      "High-dose PPI"
+     ],
+     "answer": 2,
+     "why": "High-dose PPI + endoscopy; button battery → emergency removal."
+    }
+   ]
+  }
+ ],
+ "I-15": [
+  {
+   "block": "Def",
+   "explain": "Most proteinuria is trivial; confirm it's real and quantify it. Pyuria is treated as infection until culture says otherwise.",
+   "hook": "Pyuria = UTI until proven sterile.",
+   "checks": [
+    {
+     "q": "Leukocyturia is regarded as what until culture negative?",
+     "options": [
+      "Nephritis",
+      "Contamination",
+      "UTI"
+     ],
+     "answer": 2,
+     "why": "Leukocyturia = UTI until culture negative."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Benign transient/orthostatic proteinuria dominates; nephrotic children 1-10 y almost always have minimal change; sterile pyuria has a short list.",
+   "hook": "1-10 years nephrotic = minimal change.",
+   "checks": [
+    {
+     "q": "Commonest cause of proteinuria in children?",
+     "options": [
+      "Minimal change disease",
+      "Transient proteinuria",
+      "Orthostatic proteinuria"
+     ],
+     "answer": 1,
+     "why": "Commonest: transient; orthostatic in upright overweight adolescents."
+    },
+    {
+     "q": "Nephrotic syndrome age 1-10 is usually due to?",
+     "options": [
+      "Minimal change disease",
+      "FSGS",
+      "Membranous nephropathy"
+     ],
+     "answer": 0,
+     "why": "Minimal change ~90% at age 1-10."
+    },
+    {
+     "q": "Which causes sterile pyuria?",
+     "options": [
+      "Kawasaki disease",
+      "Nephrotic syndrome",
+      "Orthostatic proteinuria"
+     ],
+     "answer": 0,
+     "why": "Sterile pyuria: partially treated UTI, renal TB, Kawasaki, appendicitis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Protein loss drops albumin, causing oedema and liver lipid overproduction; PSGN consumes C3 via the alternative pathway and resolves.",
+   "hook": "PSGN: throat 1-2, skin 3-6 weeks.",
+   "checks": [
+    {
+     "q": "Nephrotic syndrome albumin threshold?",
+     "options": [
+      "< 40 g/L",
+      "< 20 g/L",
+      "< 30 g/L"
+     ],
+     "answer": 2,
+     "why": "Nephrotic: heavy proteinuria, oedema, albumin <30 g/L (notes), hyperlipidaemia."
+    },
+    {
+     "q": "PSGN after pharyngitis follows by how long?",
+     "options": [
+      "3-6 weeks",
+      "1-2 weeks",
+      "1-2 days"
+     ],
+     "answer": 1,
+     "why": "Throat 1-2 weeks, skin 3-6 weeks; low C3, normal C4, normal by 8 weeks."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Nephrotic losses of antibodies and anticoagulant proteins cause infection and clots; nephritic is inflammation with blood, casts and hypertension.",
+   "hook": "Nephrotic: protein out; nephritic: blood out.",
+   "checks": [
+    {
+     "q": "Which is a nephrotic complication?",
+     "options": [
+      "Hypercalcaemia",
+      "Polycythaemia",
+      "Renal vein thrombosis"
+     ],
+     "answer": 2,
+     "why": "SBP, renal vein thrombosis, PE (loss of antithrombin, immunoglobulin)."
+    },
+    {
+     "q": "Red cell casts indicate?",
+     "options": [
+      "Nephritic syndrome",
+      "Nephrotic syndrome",
+      "UTI"
+     ],
+     "answer": 0,
+     "why": "Nephritic: haematuria with red cell casts, hypertension, milder proteinuria."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Dipstick screens, first-morning sample rules out orthostatic, ratio quantifies; nitrites are specific, LE sensitive; image after UTI to find reflux/scars.",
+   "hook": "DMSA for scars, MCUG for reflux.",
+   "checks": [
+    {
+     "q": "How is proteinuria quantified?",
+     "options": [
+      "Dipstick grade",
+      "Protein:creatinine ratio",
+      "24 h urine sodium"
+     ],
+     "answer": 1,
+     "why": "Urinalysis → first-morning urine → protein:creatinine ratio."
+    },
+    {
+     "q": "Which urine dipstick marker is specific for UTI?",
+     "options": [
+      "Leucocyte esterase",
+      "Nitrites",
+      "Protein"
+     ],
+     "answer": 1,
+     "why": "Nitrites specific, leucocyte esterase sensitive."
+    },
+    {
+     "q": "Which scan detects renal scarring after UTI?",
+     "options": [
+      "DMSA",
+      "MCUG",
+      "Ultrasound"
+     ],
+     "answer": 0,
+     "why": "Ultrasound → MCUG (reflux) → DMSA (scarring)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Typical nephrotic children respond to steroids so biopsy is skipped; nephritic disease can progress, needing specialist input.",
+   "hook": "Typical nephrotic: steroids, skip biopsy.",
+   "checks": [
+    {
+     "q": "Typical nephrotic syndrome aged 1-10 is treated with?",
+     "options": [
+      "Biopsy then steroids",
+      "Cyclophosphamide",
+      "Steroids without biopsy"
+     ],
+     "answer": 2,
+     "why": "Typical 1-10 y nephrotic → steroids without biopsy."
+    },
+    {
+     "q": "Nephritic syndrome requires?",
+     "options": [
+      "Oral antibiotics only",
+      "Routine GP review",
+      "Urgent nephrology referral"
+     ],
+     "answer": 2,
+     "why": "Nephritic → urgent nephrology."
+    }
+   ]
+  }
+ ]
+}

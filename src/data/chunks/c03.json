@@ -1,0 +1,323 @@
+{
+"I-46": [
+{"block":"Def","explain":"Amniotic fluid index (AFI) sums the deepest pocket in four quadrants; too much or too little signals a problem with fetal urine output or swallowing.","hook":"Poly over 24, oligo under 5.","checks":[
+{"q":"Which AFI defines oligohydramnios?","options":["Under 8 cm","Under 5 cm","Under 2 cm"],"answer":1,"why":"Oligohydramnios is AFI under 5 cm; polyhydramnios is AFI above 24-25 cm."}]},
+{"block":"Cause","explain":"Poly = fetus cannot swallow/absorb (atresias) or pees too much (diabetes); oligo = no urine made, urine blocked, or fluid leaking out.","hook":"Oligo: no pee, blocked pee, leaking bag. ACEi/ARB shut fetal kidneys.","checks":[
+{"q":"Which maternal condition causes polyhydramnios via fetal osmotic diuresis?","options":["Pre-eclampsia","Hypothyroidism","Diabetes mellitus"],"answer":2,"why":"Maternal hyperglycaemia → fetal hyperglycaemia → osmotic diuresis → excess fluid. Pre-eclampsia tends to cause oligohydramnios."},
+{"q":"What is the commonest cause of oligohydramnios?","options":["PPROM","Renal agenesis","Posterior urethral valves"],"answer":0,"why":"Leakage from preterm prelabour rupture of membranes is the commonest cause; renal agenesis and PUV are rarer."},
+{"q":"Which drug class taken in pregnancy can cause oligohydramnios?","options":["Beta-blockers","ACE inhibitors / ARBs","Calcium channel blockers"],"answer":1,"why":"ACEi/ARBs impair fetal renal perfusion and urine output, causing oligohydramnios; they are contraindicated in pregnancy."}]},
+{"block":"Patho","explain":"From mid-pregnancy the fetus makes fluid by urinating and removes it by swallowing; fluid in the airways is needed to stretch and grow the lungs.","hook":"Fetus pees in, drinks out. No fluid, no lungs.","checks":[
+{"q":"After 20 weeks, what is the main source of amniotic fluid?","options":["Fetal urine","Fetal lung fluid","Placental transudate"],"answer":0,"why":"Fetal urine dominates after 20 weeks; fetal swallowing removes it."},
+{"q":"What is the lethal consequence of early oligohydramnios?","options":["Renal failure","Pulmonary hypoplasia","Heart failure"],"answer":1,"why":"Without fluid the lungs fail to distend and grow → pulmonary hypoplasia, the usual cause of death."}]},
+{"block":"Signs","explain":"A stretched uterus contracts early and releases a gush when membranes rupture; too little fluid compresses the fetus and cord.","hook":"Potter: Pulmonary hypoplasia, Odd face, Twisted limbs, Renal agenesis.","checks":[
+{"q":"After rapid decompression of polyhydramnios, which complication may occur?","options":["Uterine rupture","Vasa praevia","Placental abruption"],"answer":2,"why":"Sudden loss of uterine volume can shear the placenta off → abruption; cord prolapse and preterm labour also occur."},
+{"q":"Pulmonary hypoplasia, twisted facies and limb deformities form which sequence?","options":["Potter sequence","Pierre Robin sequence","VACTERL association"],"answer":0,"why":"Potter sequence results from oligohydramnios, classically from renal agenesis. Pierre Robin is micrognathia/glossoptosis."},
+{"q":"Besides growth restriction, what fetal complication does oligohydramnios cause in labour?","options":["Cord prolapse","Cord compression","Shoulder dystocia"],"answer":1,"why":"Little fluid cushions the cord poorly → compression. Cord prolapse is a polyhydramnios risk."}]},
+{"block":"Dx","explain":"Ultrasound measures fluid and often reveals the cause: dilated stomach plus duodenum or a distended bladder with dilated posterior urethra.","hook":"Double bubble = duodenum; keyhole = valves.","checks":[
+{"q":"A keyhole bladder on prenatal ultrasound suggests what?","options":["Duodenal atresia","Renal agenesis","Posterior urethral valves"],"answer":2,"why":"Dilated bladder and posterior urethra form a keyhole in PUV; double bubble indicates duodenal atresia."},
+{"q":"Oligohydramnios before roughly which gestation causes the most severe lung hypoplasia?","options":["24 weeks","32 weeks","16 weeks"],"answer":0,"why":"Fluid loss before ~24 weeks hits the canalicular phase of lung growth → most severe hypoplasia."}]},
+{"block":"Rx","explain":"Polyhydramnios may mean the baby cannot swallow, so test before feeding; for oligo, the lungs determine outcome.","hook":"Poly baby: tube before food.","checks":[
+{"q":"Newborn after polyhydramnios: what before the first feed?","options":["Abdominal X-ray","Pass an NG tube","Blood glucose"],"answer":1,"why":"Passing an NG tube excludes oesophageal atresia before feeding risks aspiration."},
+{"q":"Which drug can reduce severe polyhydramnios?","options":["Nifedipine","Magnesium sulfate","Indomethacin"],"answer":2,"why":"Indomethacin reduces fetal urine output; amnioreduction is the alternative. Mild term cases are managed expectantly."},
+{"q":"In oligohydramnios, what is the main cause of death?","options":["Renal failure","Pulmonary hypoplasia","Sepsis"],"answer":1,"why":"Pulmonary hypoplasia is the killer; management otherwise targets the cause."}]}
+],
+"I-47": [
+{"block":"Def","explain":"Newborns rarely have primary cardiac arrest; bradycardia is due to hypoxia, so inflating the lungs fixes the heart. A rising heart rate proves it works.","hook":"Babies arrest from lungs, not hearts: aerate first.","checks":[
+{"q":"Newborn arrest is usually of what origin?","options":["Cardiac","Respiratory","Metabolic"],"answer":1,"why":"Neonatal arrest is respiratory; aerating the lungs is the priority."},
+{"q":"Best indicator of successful newborn resuscitation?","options":["Skin colour","Oxygen saturation","Heart rate"],"answer":2,"why":"A rising heart rate is the best sign that ventilation is working; colour is unreliable."}]},
+{"block":"Cause","explain":"Hypoxic babies first stop breathing (primary apnoea), then gasp, then stop for good; post-dates babies pass meconium in utero.","hook":"Apnoea → gasp → final apnoea.","checks":[
+{"q":"After primary apnoea and gasping, what follows in hypoxia?","options":["Terminal apnoea","Hyperventilation","Seizures"],"answer":0,"why":"Hypoxia sequence: primary apnoea → gasping → terminal apnoea, which needs active ventilation."},
+{"q":"Meconium aspiration typically affects which infants?","options":["Extremely preterm","Late preterm","Term and post-term"],"answer":2,"why":"The mature gut passes meconium, so term and post-term infants are affected; preterms rarely."}]},
+{"block":"Patho","explain":"The first breaths replace lung fluid with air; oxygen dilates pulmonary vessels. Meconium blocks airways and inactivates surfactant.","hook":"Slow heart in a baby = no oxygen until proven otherwise.","checks":[
+{"q":"Establishing FRC with the first breaths causes what?","options":["Pulmonary vascular resistance falls","Systemic resistance falls","Ductus arteriosus dilates"],"answer":0,"why":"Lung aeration and oxygen drop pulmonary vascular resistance, switching to adult circulation."},
+{"q":"How does meconium impair lung function?","options":["Stimulates surfactant","Inactivates surfactant","Causes pleural effusion"],"answer":1,"why":"Meconium inactivates surfactant and obstructs airways; neonatal bradycardia means hypoxia until proven otherwise."}]},
+{"block":"Signs","explain":"Initial assessment is quick: tone, breathing and heart rate decide whether to intervene; Apgar documents status but does not guide resuscitation.","hook":"APGAR: Appearance, Pulse, Grimace, Activity, Respiration.","checks":[
+{"q":"Below what heart rate should you intervene at birth?","options":["60/min","100/min","120/min"],"answer":1,"why":"HR under 100 or not breathing → start inflation breaths; under 60 after effective ventilation → compressions."},
+{"q":"When is the Apgar score assessed?","options":["At 1 and 5 minutes","At birth and 10 minutes","At 5 and 15 minutes"],"answer":0,"why":"Apgar is scored at 1 and 5 minutes (repeated later if low)."}]},
+{"block":"Dx","explain":"HR is heard with a stethoscope then monitored by ECG or right-hand (pre-ductal) oximetry; healthy newborns are blue at first, so saturations rise slowly.","hook":"Sats climb slowly: ~70 at 3, ~80 at 5, ~90 at 10.","checks":[
+{"q":"What is the first tool to assess newborn heart rate?","options":["Pulse oximeter","Umbilical palpation only","Stethoscope"],"answer":2,"why":"Stethoscope first, then ECG or pre-ductal SpO₂ for continuous monitoring."},
+{"q":"Target pre-ductal SpO₂ at 5 minutes after birth?","options":["70-75%","80-85%","90-95%"],"answer":1,"why":"Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min."},
+{"q":"During PPV, the left chest transilluminates brighter. Diagnosis?","options":["Left pneumothorax","Right pneumothorax","Left lung collapse"],"answer":0,"why":"Free air in the pleura glows brighter on transillumination → left pneumothorax."}]},
+{"block":"Rx","explain":"Keep warm, then long inflation breaths open fluid-filled lungs; compressions only once ventilation is effective and HR stays below 60.","hook":"5 long breaths in air; 3 compressions : 1 breath.","checks":[
+{"q":"How long is each newborn inflation breath?","options":["1 second","5 seconds","2-3 seconds"],"answer":2,"why":"Five inflation breaths of 2-3 s each; term babies start in air (21%)."},
+{"q":"Newborn compression-to-ventilation ratio?","options":["15:2","3:1","30:2"],"answer":1,"why":"3:1 when HR is under 60 after 30 s of effective ventilation; 15:2 is paediatric BLS."},
+{"q":"Dose of adrenaline via UVC in newborn resuscitation?","options":["20 µg/kg","10 µg/kg","100 µg/kg"],"answer":0,"why":"Adrenaline 20 µg/kg via UVC; HIE is then cooled to 33-34 °C for 72 h, starting within 6 h."}]}
+],
+"I-48": [
+{"block":"Def","explain":"Children rarely have primary cardiac events; arrest is the end-point of untreated hypoxia or shock, so outcome depends on how fast effective resuscitation starts.","hook":"Kids' hearts stop last - fix air and circulation early.","checks":[
+{"q":"Paediatric cardiac arrest is usually the end result of what?","options":["Primary arrhythmia","Progressive hypoxia or shock","Coronary ischaemia"],"answer":1,"why":"Children arrest after progressive hypoxia or shock, unlike adults with primary cardiac causes."},
+{"q":"Key determinant of survival in paediatric arrest?","options":["Time to effective resuscitation","Initial blood glucose","Number of shocks given"],"answer":0,"why":"Elapsed time to effective resuscitation is the key to survival."}]},
+{"block":"Cause","explain":"Failing breathing or circulation exhausts the child, hypoxia slows the heart and it ends in asystole, which is why non-shockable rhythms dominate.","hook":"Hypoxia → brady → asystole: kids rarely need the defib.","checks":[
+{"q":"In the hypoxic arrest sequence, what precedes asystole?","options":["Ventricular fibrillation","Tachycardia","Bradycardia"],"answer":2,"why":"Respiratory failure/shock → tiring → hypoxia → bradycardia → asystole."},
+{"q":"Commonest arrest rhythms in children?","options":["VF and pulseless VT","Asystole and PEA","Torsades de pointes"],"answer":1,"why":"Non-shockable rhythms (asystole, PEA) are commonest in paediatric arrest."}]},
+{"block":"Patho","explain":"With obstruction or tiring, the diaphragm pulls the abdomen out while the compliant chest is sucked in. PEA means electrical activity without output.","hook":"Seesaw breathing: chest in, belly out.","checks":[
+{"q":"Paradoxical breathing: on inspiration, the chest moves how?","options":["Outward with the abdomen","Inward, abdomen outward","Not at all"],"answer":1,"why":"Chest moves inward and abdomen outward during inhalation, and vice versa."},
+{"q":"Organised rhythm without a palpable pulse is called what?","options":["Asystole","Ventricular fibrillation","PEA"],"answer":2,"why":"Pulseless electrical activity: organised electrical rhythm but no palpable pulse."}]},
+{"block":"Signs","explain":"ABCDE assessment looks for work of breathing, circulation and neurology systematically; never forget glucose.","hook":"DEFG: Don't Ever Forget Glucose.","checks":[
+{"q":"In the ABCDE assessment, which scale assesses disability quickly?","options":["APGAR","AVPU","FLACC"],"answer":1,"why":"AVPU (Alert, Voice, Pain, Unresponsive) plus glucose assesses D in ABCDE."}]},
+{"block":"Dx","explain":"Oximeters read light absorption by Hb in pulsatile flow, so abnormal Hb, low Hb or poor perfusion fool them; they also say nothing about CO₂.","hook":"Sats tell you O₂, not CO₂ - ventilation needs capnography.","checks":[
+{"q":"Pulse oximetry is unreliable in which poisoning?","options":["Carbon monoxide","Paracetamol","Iron"],"answer":0,"why":"Carboxyhaemoglobin reads as oxyhaemoglobin → falsely normal SpO₂. Also methaemoglobinaemia, anaemia, cold extremities."},
+{"q":"To assess ventilation rather than oxygenation, use what?","options":["Pulse oximetry","Chest X-ray","Capnography or blood gas"],"answer":2,"why":"SpO₂ ignores ventilation; CO₂ requires capnography or a blood gas."}]},
+{"block":"Rx","explain":"Spontaneously breathing children get maximal oxygen via reservoir mask; in arrest, give rescue breaths first because the cause is hypoxic.","hook":"5 breaths, then 15:2; shock 4 J/kg; amio after shocks 3 and 5.","checks":[
+{"q":"Oxygen flow via reservoir mask for a conscious breathing child?","options":["2-4 l/min","5-8 l/min","10-15 l/min"],"answer":2,"why":"Face mask with reservoir at high flow 10-15 l/min."},
+{"q":"Adrenaline dose in paediatric asystole/PEA?","options":["10 µg/kg every 3-5 min","20 µg/kg every 10 min","1 mg every 3-5 min"],"answer":0,"why":"Adrenaline 10 µg/kg IV/IO every 3-5 min with CPR (15:2 after 5 rescue breaths)."},
+{"q":"Shock energy for paediatric VF/pulseless VT?","options":["2 J/kg","4 J/kg","8 J/kg"],"answer":1,"why":"Unsynchronised 4 J/kg; amiodarone after the 3rd and 5th shocks."}]}
+],
+"I-49": [
+{"block":"Def","explain":"In fever the body deliberately resets its thermostat higher; in hyperthermia the set point is normal but heat overwhelms it.","hook":"Fever = thermostat turned up, not a broken boiler.","checks":[
+{"q":"What is the mechanism of fever?","options":["Failure of heat loss","Raised hypothalamic set point","Increased thyroid output"],"answer":1,"why":"Fever is a cytokine-driven rise in the hypothalamic set point; heat-loss failure is hyperthermia."}]},
+{"block":"Cause","explain":"Microbial products (pyrogens) trigger immune cells to release endogenous pyrogenic cytokines. Early neonatal sepsis reflects maternal flora acquired at birth.","hook":"Pyrogen trio: IL-1, IL-6, TNF.","checks":[
+{"q":"Which cytokines mediate fever?","options":["IL-4, IL-5, IL-13","IL-10, TGF-β","IL-1, IL-6, TNF-α"],"answer":2,"why":"IL-1, IL-6 and TNF-α are endogenous pyrogens; IL-10/TGF-β are anti-inflammatory."},
+{"q":"Early-onset neonatal sepsis occurs within what time of birth?","options":["24 hours","72 hours","7 days"],"answer":1,"why":"Early-onset is within 72 hours (some define 7 days); it reflects vertical transmission."}]},
+{"block":"Patho","explain":"Cytokines induce COX-2 to make PGE₂, which raises the set point; the body then conserves and generates heat. NSAIDs and paracetamol block this.","hook":"Block COX → no PGE₂ → thermostat resets.","checks":[
+{"q":"Which mediator raises the hypothalamic set point?","options":["PGE₂","Histamine","Bradykinin"],"answer":0,"why":"Cytokines induce hypothalamic PGE₂, raising the set point → shivering and vasoconstriction."},
+{"q":"How do antipyretics lower fever?","options":["Block IL-1 receptors","Block COX","Directly cool the skin"],"answer":1,"why":"Antipyretics inhibit COX, reducing PGE₂; fever itself is not harmful."}]},
+{"block":"Signs","explain":"Young infants have immature immunity and few signs, so any fever under 3 months is high risk; signs of poor perfusion or meningism are red.","hook":"Under 3 months + 38 = red; 3-6 months + 39 = amber.","checks":[
+{"q":"NICE: which temperature makes a child under 3 months red risk?","options":["≥ 37.5 °C","≥ 39 °C","≥ 38 °C"],"answer":2,"why":"Under 3 months with ≥ 38 °C is red; ≥ 39 °C at 3-6 months is amber."},
+{"q":"NICE amber: fever for how many days?","options":["≥ 3 days","≥ 5 days","≥ 7 days"],"answer":1,"why":"Fever for 5 days or more is amber (consider Kawasaki disease)."}]},
+{"block":"Dx","explain":"The traffic-light system stratifies febrile under-5s; neonates get full septic screen and rapid antibiotics. Pain scales match the child's ability to self-report.","hook":"FLACC for babies, faces from 4, numbers from 8.","checks":[
+{"q":"NICE traffic light system applies to children of what age?","options":["Under 5 years","Under 2 years","Under 12 years"],"answer":0,"why":"The NICE traffic light system is for febrile children under 5; red features prompt septic work-up."},
+{"q":"In suspected neonatal sepsis, give antibiotics within what time?","options":["4 hours","1 hour","6 hours"],"answer":1,"why":"After blood culture (plus CRP, LP), antibiotics within 1 hour."},
+{"q":"Which pain scale suits a preverbal child?","options":["Numeric scale","Wong-Baker faces","FLACC"],"answer":2,"why":"FLACC (behavioural) for preverbal; Wong-Baker from age 4; numeric from 8."}]},
+{"block":"Rx","explain":"Treat the child's distress, not the number. Aspirin risks Reye syndrome; codeine is unpredictable as ultra-rapid CYP2D6 metabolisers make excess morphine.","hook":"Paracetamol 15, ibuprofen 10 (mg/kg).","checks":[
+{"q":"Paracetamol dose for a febrile distressed child?","options":["15 mg/kg every 4-6 h","10 mg/kg every 12 h","25 mg/kg every 8 h"],"answer":0,"why":"Paracetamol 15 mg/kg 4-6 hourly; ibuprofen 10 mg/kg three times daily."},
+{"q":"Why is aspirin avoided under 16 years?","options":["Gastric ulceration","Reye syndrome","Bleeding risk"],"answer":1,"why":"Aspirin is linked to Reye syndrome; antipyretics also do not prevent febrile seizures."},
+{"q":"Empirical antibiotics for neonatal sepsis?","options":["Ceftriaxone + vancomycin","Co-amoxiclav alone","Ampicillin + gentamicin"],"answer":2,"why":"Ampicillin + gentamicin covers GBS, E. coli and Listeria; codeine is contraindicated under 12 (CYP2D6)."}]}
+],
+"I-50": [
+{"block":"Def","explain":"Shock means tissues get too little oxygen, regardless of blood pressure. Types follow the failing part: volume, vessels, pump, obstruction or oxygen carriage.","hook":"Shock types: Hypo, Distributive, Cardiogenic, Obstructive, Dissociative.","checks":[
+{"q":"Shock from carbon monoxide or severe anaemia is which type?","options":["Distributive","Obstructive","Dissociative"],"answer":2,"why":"Dissociative shock: oxygen delivery fails despite flow because Hb cannot carry O₂."}]},
+{"block":"Cause","explain":"Fluid loss is commonest in children, but sepsis, anaphylaxis and cardiac causes matter. A duct-dependent lesion decompensates as the duct closes in the first weeks.","hook":"Grey baby, 1-2 weeks, no femorals = duct closing.","checks":[
+{"q":"Commonest cause of hypovolaemic shock in children?","options":["Haemorrhage","Gastroenteritis","Burns"],"answer":1,"why":"Gastroenteritis with dehydration is the commonest; haemorrhage follows trauma."},
+{"q":"Neonate aged 1-2 weeks in shock with weak femorals suggests?","options":["Duct-dependent lesion","Septic shock","Adrenal crisis"],"answer":0,"why":"Duct closure in a duct-dependent systemic lesion (e.g. coarctation) causes shock with weak femorals."}]},
+{"block":"Patho","explain":"Children have strong vasoconstriction and rely on heart rate, holding BP until late; when BP falls, decompensation is imminent.","hook":"Tachy early, hypotension late.","checks":[
+{"q":"Children maintain BP until roughly what volume is lost?","options":["10-15%","30-40%","50-60%"],"answer":1,"why":"Tachycardia + vasoconstriction compensate until 30-40% of volume is lost."},
+{"q":"In paediatric shock, hypotension is what kind of sign?","options":["Late sign","Early sign","Unrelated sign"],"answer":0,"why":"Hypotension is late; tachycardia is the early sign."}]},
+{"block":"Signs","explain":"Compensated shock shows tachycardia and poor perfusion; once the heart slows and BP falls, the child is about to arrest.","hook":"Slow + low = about to go.","checks":[
+{"q":"Earliest sign of shock in children?","options":["Hypotension","Oliguria","Tachycardia"],"answer":2,"why":"Tachycardia is earliest; CRT >2 s, mottling, oliguria and lactate follow."},
+{"q":"Bradycardia with hypotension in a shocked child means what?","options":["Recovery","Pre-arrest decompensation","Vagal response"],"answer":1,"why":"Bradycardia + hypotension indicates decompensation and imminent arrest."}]},
+{"block":"Dx","explain":"Baseline cultures and gases guide treatment. Expected minimum systolic BP rises with age. Reassessment after boluses detects fluid overload.","hook":"Minimum systolic = 70 + 2 × age.","checks":[
+{"q":"Which test reflects tissue hypoperfusion in shock?","options":["Lactate","Amylase","Troponin"],"answer":0,"why":"Raised lactate indicates anaerobic metabolism from poor perfusion; take cultures, gas, glucose too."},
+{"q":"Hypotension threshold in a child aged 1-10 years?","options":["Systolic below 90 + 2 × age","Systolic below 60 + age","Systolic below 70 + 2 × age"],"answer":2,"why":"Hypotension: systolic below 70 + (2 × age) mmHg in 1-10 year olds."},
+{"q":"After each fluid bolus, a new enlarged liver edge suggests what?","options":["Hepatitis","Fluid overload","Adequate response"],"answer":1,"why":"Liver enlargement or crackles after boluses signal fluid overload; reassess HR, CRT, BP each time."}]},
+{"block":"Rx","explain":"Restore volume fast and treat infection early; if fluids fail, add vasoactive drugs. Clindamycin halts toxin production; IM adrenaline is always first in anaphylaxis.","hook":"Sepsis: 20 ml/kg + antibiotics in 1 hour.","checks":[
+{"q":"Fluid bolus volume in paediatric septic shock?","options":["10 ml/kg","40 ml/kg","20 ml/kg"],"answer":2,"why":"Official answer: 20 ml/kg body weight, with antibiotics within 1 hour."},
+{"q":"Why add clindamycin in toxic shock syndrome?","options":["Suppresses toxin synthesis","Better CSF penetration","Covers Pseudomonas"],"answer":0,"why":"Clindamycin inhibits ribosomal toxin synthesis; fluid-refractory shock needs adrenaline or noradrenaline."},
+{"q":"First drug in paediatric anaphylaxis?","options":["IV hydrocortisone","IM adrenaline","IV chlorphenamine"],"answer":1,"why":"IM adrenaline first (150 µg under 6 years); steroids and antihistamines are adjuncts."}]}
+],
+"I-51": [
+{"block":"Def","explain":"Birth injuries are classified by the tissue layer bleeding (scalp swellings) or by the nerve roots stretched (plexus palsies).","hook":"Layer for scalp, root for arm.","checks":[
+{"q":"Scalp birth injuries are classified by what?","options":["Anatomical layer","Gestational age","Birth weight"],"answer":0,"why":"Caput, cephalhaematoma and subgaleal bleeds differ by anatomical layer; plexus injuries by nerve root."}]},
+{"block":"Cause","explain":"Big babies and instrumental or obstructed deliveries apply more force; maternal glucose drives fetal insulin, a growth hormone in utero.","hook":"Sugar mum → big baby → stuck shoulders.","checks":[
+{"q":"Which is a major risk factor for neonatal birth injury?","options":["Caesarean section","Shoulder dystocia","Prematurity"],"answer":1,"why":"Shoulder dystocia, macrosomia, vacuum and forceps raise birth injury risk."},
+{"q":"Maternal hyperglycaemia leads to which fetal finding?","options":["Growth restriction","Microcephaly","Macrosomia"],"answer":2,"why":"Fetal hyperinsulinaemia promotes growth → macrosomia → birth trauma."}]},
+{"block":"Patho","explain":"Caput is oedema above the periosteum so it crosses sutures; cephalhaematoma is under periosteum, bounded by sutures; subgaleal space is huge, allowing massive bleeding.","hook":"Caput crosses, cephal can't; subgaleal swallows blood.","checks":[
+{"q":"Which scalp swelling crosses suture lines?","options":["Caput succedaneum","Cephalhaematoma","Epidural haematoma"],"answer":0,"why":"Caput (scalp oedema) crosses sutures; subperiosteal cephalhaematoma does not."},
+{"q":"Subgaleal haemorrhage results from injury to which vessels?","options":["Middle meningeal artery","Emissary veins","Bridging cortical veins"],"answer":1,"why":"Emissary veins rupture into the space between aponeurosis and periosteum."},
+{"q":"Erb palsy is caused by what mechanism?","options":["Arm hyperabduction","Direct clavicle blow","Lateral neck traction"],"answer":2,"why":"Lateral traction on the neck stretches C5-C6; arm hyperabduction gives Klumpke."}]},
+{"block":"Signs","explain":"Bleeds release haem that becomes bilirubin; subgaleal bleeds can hold a large blood volume. Root level determines the limb posture.","hook":"Erb = waiter's tip (C5-6); Klumpke = claw (C8-T1).","checks":[
+{"q":"Cephalhaematoma resorption can cause what?","options":["Jaundice","Hypoglycaemia","Seizures"],"answer":0,"why":"Breakdown of the collected blood increases bilirubin load → jaundice."},
+{"q":"Subgaleal haemorrhage typically follows what delivery?","options":["Caesarean section","Vacuum delivery","Breech vaginal"],"answer":1,"why":"Vacuum extraction is the classic cause; it can lead to hypovolaemic shock."},
+{"q":"Klumpke palsy with Horner syndrome involves which roots?","options":["C5-C6","C3-C5","C8-T1"],"answer":2,"why":"Klumpke = C8-T1 (claw hand, ± Horner via T1 sympathetics); Erb = C5-C6."}]},
+{"block":"Dx","explain":"Subgaleal blood loss shows as an enlarging head and falling Hb. The phrenic nerve shares roots with Erb, and the clavicle lies over vessels and plexus.","hook":"C3-4-5 keeps the diaphragm alive.","checks":[
+{"q":"How is a subgaleal haemorrhage monitored?","options":["Head circumference and haemoglobin","Daily skull X-ray","Bilirubin alone"],"answer":0,"why":"Serial head circumference and Hb detect ongoing blood loss."},
+{"q":"Erb palsy with tachypnoea suggests which nerve injury?","options":["Recurrent laryngeal","Phrenic","Long thoracic"],"answer":1,"why":"Phrenic nerve (C3-C5) palsy → diaphragm paralysis → tachypnoea."},
+{"q":"With a clavicle fracture, which structure also needs checking?","options":["Carotid artery","Vagus nerve","Subclavian artery"],"answer":2,"why":"The subclavian artery and brachial plexus lie beneath the clavicle."}]},
+{"block":"Rx","explain":"McRoberts flattens the sacral promontory; suprapubic pressure dislodges the shoulder. Most injuries heal, but persisting biceps weakness implies root avulsion.","hook":"Biceps silent at 3-6 months → surgeon.","checks":[
+{"q":"First manoeuvre in shoulder dystocia?","options":["Fundal pressure","Zavanelli manoeuvre","McRoberts manoeuvre"],"answer":2,"why":"McRoberts (hip flexion) + suprapubic pressure; fundal pressure worsens impaction."},
+{"q":"Commonest birth fracture?","options":["Clavicle","Humerus","Femur"],"answer":0,"why":"The clavicle is commonest and heals rapidly; 80% of plexus palsies resolve within 3 months."},
+{"q":"No biceps recovery by 3-6 months in Erb palsy: next step?","options":["Continue physiotherapy","Surgical exploration","Splinting only"],"answer":1,"why":"Absent biceps recovery by 3-6 months warrants surgery; subgaleal bleeds need volume and blood."}]}
+],
+"I-52": [
+{"block":"Def","explain":"Curious toddlers ingest what they find, usually small amounts; adolescents take deliberate, often mixed overdoses.","hook":"Toddler = accident; teen = intent.","checks":[
+{"q":"Accidental ingestion peaks at what age?","options":["1-4 years","6-10 years","Under 6 months"],"answer":0,"why":"Toddlers 1-4 y ingest accidentally; adolescents deliberately."}]},
+{"block":"Cause","explain":"Household medicines and products dominate; button batteries burn tissue. Lead paint was banned in 1978, so older homes are the source.","hook":"Lead paint before '78.","checks":[
+{"q":"Lead poisoning risk relates to homes built before which year?","options":["1958","1990","1978"],"answer":2,"why":"Lead-based paint was banned in 1978; older homes carry risk."},
+{"q":"Which ingested object needs urgent attention due to tissue burns?","options":["Plastic toy","Button battery","Glass marble"],"answer":1,"why":"Button batteries cause electrical/caustic burns rapidly; other blunt objects usually pass."}]},
+{"block":"Patho","explain":"Paracetamol injury begins when glutathione runs out and NAPQI binds liver proteins. TCAs block cardiac sodium channels, slowing conduction.","hook":"NAPQI eats glutathione; TCA widens QRS.","checks":[
+{"q":"Toxic metabolite of paracetamol?","options":["Acetaldehyde","NAPQI","Formic acid"],"answer":1,"why":"NAPQI is detoxified by glutathione until stores are exhausted → hepatotoxicity."},
+{"q":"Why do TCAs widen the QRS?","options":["Na⁺ channel blockade","K⁺ channel opening","Ca²⁺ channel blockade"],"answer":0,"why":"TCAs block fast Na⁺ channels → wide QRS; iron is corrosive then a mitochondrial poison."}]},
+{"block":"Signs","explain":"Recognising the toxidrome points to the drug class. Paracetamol looks harmless early; aspirin first stimulates breathing, then causes acidosis.","hook":"Pinpoint pupils = opioid; aspirin: alkalosis then acidosis.","checks":[
+{"q":"Pinpoint pupils indicate which toxidrome?","options":["Anticholinergic","Sympathomimetic","Opioid"],"answer":2,"why":"Opioids cause miosis; anticholinergic and sympathomimetic toxidromes cause mydriasis."},
+{"q":"How does paracetamol overdose look on day 1?","options":["Jaundiced","Nearly asymptomatic","Comatose"],"answer":1,"why":"Day 1 is near asymptomatic - hence the need for levels; lead shows a blue gum line."},
+{"q":"Early acid-base change in aspirin poisoning?","options":["Pure respiratory alkalosis","Metabolic acidosis","Respiratory acidosis"],"answer":0,"why":"Salicylates stimulate respiration first → respiratory alkalosis; later mixed with metabolic acidosis."}]},
+{"block":"Dx","explain":"Stabilise first and calculate the worst-case dose. Paracetamol levels before 4 h are unreliable because absorption is incomplete.","hook":"Paracetamol level at 4 h, plot on nomogram.","checks":[
+{"q":"Paracetamol level is plotted on the nomogram from what time?","options":["1 hour","2 hours","4 hours"],"answer":2,"why":"From 4 hours post-ingestion, when absorption is complete; iron gets X-ray + serum iron."},
+{"q":"How is ingested dose estimated in a child?","options":["mg/kg, worst case","Total mg, best case","Ask the child"],"answer":0,"why":"Calculate in mg/kg and assume worst case; ABCDE + glucose first."},
+{"q":"Raised capillary lead level: next test?","options":["Bone X-ray","Venous lead level","Urine lead"],"answer":1,"why":"Capillary samples may be contaminated → confirm with venous lead level."}]},
+{"block":"Rx","explain":"Vomiting risks aspiration and caustic re-exposure. Charcoal binds most drugs early, not ions or alcohols. Antidotes target each mechanism.","hook":"Charcoal won't bind: Iron, Lithium, Alcohols (ILA).","checks":[
+{"q":"Activated charcoal does not bind which substance?","options":["Paracetamol","Iron","Aspirin"],"answer":1,"why":"Charcoal does not bind iron, lithium or alcohols; use only within 1 hour; never induce vomiting."},
+{"q":"Antidote for iron poisoning?","options":["Desferrioxamine","N-acetylcysteine","Dimercaprol"],"answer":0,"why":"Desferrioxamine chelates iron; NAC for paracetamol, bicarbonate for TCA, naloxone for opioid."},
+{"q":"Button battery lodged in oesophagus: management?","options":["Wait for passage","Laxatives","Urgent endoscopy"],"answer":2,"why":"Oesophageal battery or coin needs urgent endoscopy; lead: DMSA if moderate, dimercaprol + EDTA if severe."}]}
+],
+"I-53": [
+{"block":"Def","explain":"Maltreatment covers acts (physical, sexual, emotional) and omissions; neglect is the most frequent although least visible.","hook":"Neglect: the commonest and quietest.","checks":[
+{"q":"Commonest form of child maltreatment?","options":["Physical abuse","Neglect","Sexual abuse"],"answer":1,"why":"Neglect is the commonest form of maltreatment."}]},
+{"block":"Cause","explain":"Abuse repeats across generations, usually by the main carer. Inconsolable crying peaks at 2-4 months, triggering shaking.","hook":"Crying peak 2-4 months = shaking peak.","checks":[
+{"q":"Most significant parental risk factor for child abuse?","options":["Being abused themselves","Low income","Young age"],"answer":0,"why":"A history of being abused is the strongest parental risk factor; abuser usually the primary caregiver."},
+{"q":"Peak age of shaken baby syndrome?","options":["6-9 months","12-18 months","2-4 months"],"answer":2,"why":"Under 1 year, peaking at 2-4 months (crying peak); sexual abuse peaks at 9-12 years."}]},
+{"block":"Patho","explain":"Acceleration-deceleration shears veins bridging cortex to dura, and the vitreous tugs the retina; squeezing the chest levers the ribs posteriorly.","hook":"Shake → bridging veins tear; grip → back ribs crack.","checks":[
+{"q":"Shaking causes subdural haemorrhage by tearing which vessels?","options":["Middle meningeal artery","Bridging veins","Emissary veins"],"answer":1,"why":"Bridging veins tear → subdural; middle meningeal artery → epidural."},
+{"q":"Which fractures result from gripping the infant's chest?","options":["Posterior rib fractures","Skull fractures","Clavicle fractures"],"answer":0,"why":"Squeezing levers ribs over transverse processes → posterior rib fractures."}]},
+{"block":"Signs","explain":"Red flags are history mismatch and patterns impossible accidentally: bruises before cruising, immersion scald lines.","hook":"Those who don't cruise rarely bruise.","checks":[
+{"q":"Which history feature raises suspicion of abuse?","options":["Prompt presentation","Consistent story","Delay in seeking care"],"answer":2,"why":"Delay, changing story and injuries not fitting development suggest abuse."},
+{"q":"Which scald pattern suggests abuse?","options":["Splash marks","Sharp lines of demarcation","Single drip mark"],"answer":1,"why":"Forced immersion leaves sharp demarcation; any bruise in a non-mobile infant is also suspicious."},
+{"q":"Abusive head trauma triad: subdural, retinal haemorrhages and what?","options":["Encephalopathy","Skull fracture","Scalp bruising"],"answer":0,"why":"The triad is subdural haemorrhage, retinal haemorrhages and encephalopathy."}]},
+{"block":"Dx","explain":"Imaging shows bleeds, a repeat skeletal survey catches healing fractures missed initially; coagulation excludes mimics.","hook":"Corner + back rib = abuse.","checks":[
+{"q":"When is the skeletal survey repeated?","options":["3-5 days","6 weeks","11-14 days"],"answer":2,"why":"Repeat at 11-14 days reveals healing fractures not visible initially."},
+{"q":"Most specific fracture for abuse?","options":["Classic metaphyseal (corner) fracture","Spiral tibial fracture","Clavicle fracture"],"answer":0,"why":"Posterior rib and classic metaphyseal (corner) fractures are most specific."}]},
+{"block":"Rx","explain":"Protect the child: inform child protective services, document precisely, admit if unsafe; child welfare overrides confidentiality.","hook":"Report, record, keep safe.","checks":[
+{"q":"First step when abuse is suspected?","options":["Confront the parents","Contact child protective services","Discharge with follow-up"],"answer":1,"why":"Contact child protective services; both abuse and neglect are reported."},
+{"q":"Welfare of the child overrides what?","options":["Confidentiality","Clinical guidelines","Consent to treatment"],"answer":0,"why":"Child welfare overrides confidentiality; document exactly and admit if needed."}]}
+],
+"I-54": [
+{"block":"Def","explain":"An aspirated foreign body can lodge at any airway level; site determines symptoms, from stridor to unilateral wheeze.","hook":"","checks":[
+{"q":"Airway foreign body may lodge where?","options":["Oesophagus or stomach","Larynx, trachea or bronchus","Nasopharynx only"],"answer":1,"why":"An inhaled object sits in larynx, trachea or bronchus; oesophageal objects are swallowed, not aspirated."}]},
+{"block":"Cause","explain":"Toddlers lack molars to grind food and eat while moving; the right main bronchus is wider and more in line with the trachea.","hook":"Right bronchus: wider, straighter, steeper.","checks":[
+{"q":"Peak age for airway foreign bodies?","options":["Under 6 months","5-8 years","1-3 years"],"answer":2,"why":"Toddlers 1-3 y: no molars, eat while running; nuts are classic."},
+{"q":"Why is the right lung most commonly affected?","options":["Wider, more vertical bronchus","Larger lung volume","Shorter trachea"],"answer":0,"why":"The right main bronchus is wider and more vertical."}]},
+{"block":"Patho","explain":"Partial obstruction lets air in on inspiration but not out (bronchi narrow on expiration) → hyperinflation. Complete obstruction absorbs distal air.","hook":"Partial = trap air; complete = collapse.","checks":[
+{"q":"Partial bronchial obstruction causes what on expiration?","options":["Atelectasis","Air trapping","Pleural effusion"],"answer":1,"why":"A check-valve effect traps air on expiration → hyperinflation."},
+{"q":"Complete bronchial obstruction leads to what?","options":["Atelectasis","Hyperinflation","Pneumothorax"],"answer":0,"why":"Distal air is absorbed → atelectasis; nuts are radiolucent so often not seen."}]},
+{"block":"Signs","explain":"After the choking episode, symptoms can settle for days, so a quiet child doesn't exclude it; later localised signs and infection appear.","hook":"Choke, calm, then cough/wheeze/pneumonia.","checks":[
+{"q":"Bronchial foreign body classically causes which wheeze?","options":["Bilateral expiratory","Inspiratory only","Unilateral"],"answer":2,"why":"Unilateral wheeze after a symptom-free interval, with recurrent pneumonia in the same lobe."},
+{"q":"Laryngotracheal foreign body presents with what?","options":["Stridor and cyanosis","Unilateral wheeze","Recurrent pneumonia"],"answer":0,"why":"Upper airway obstruction gives stridor and cyanosis."}]},
+{"block":"Dx","explain":"Air trapping shifts the mediastinum with each breath; comparing inspiratory and expiratory films shows it. Radiolucent objects mean a normal X-ray proves nothing.","hook":"Holzknecht = mediastinum swinging like a pendulum.","checks":[
+{"q":"Holzknecht sign indicates what?","options":["Pneumothorax","Airway foreign body","Pleural effusion"],"answer":1,"why":"Official answer: pendulum mediastinal movement = airway foreign body aspiration."},
+{"q":"Which imaging helps diagnose an airway foreign body?","options":["Inspiratory and expiratory chest X-ray","Abdominal ultrasound","Lateral neck X-ray only"],"answer":0,"why":"Expiratory and inspiratory radiographs or fluoroscopy; a normal X-ray never excludes it."}]},
+{"block":"Rx","explain":"Infant livers and abdomens are vulnerable, so back blows and chest thrusts are used under 1; abdominal thrusts after. Rigid bronchoscopy is definitive.","hook":"Under 1: back + chest. Over 1: back + tummy.","checks":[
+{"q":"Choking infant under 1 year: after 5 back blows give?","options":["5 abdominal thrusts","5 chest thrusts","2 rescue breaths"],"answer":1,"why":"5 back blows then 5 chest thrusts; abdominal thrusts risk liver injury in infants."},
+{"q":"Choking child over 1 year: which thrusts?","options":["Chest thrusts","Head tilt","Abdominal thrusts"],"answer":2,"why":"Over 1 year, abdominal thrusts (Heimlich) after back blows."},
+{"q":"Definitive treatment of airway foreign body?","options":["Rigid bronchoscopy","Postural drainage","Flexible endoscopy"],"answer":0,"why":"Rigid bronchoscopy; a symptomatic swallowed coin needs emergency endoscopy."}]}
+],
+"I-55": [
+{"block":"Def","explain":"Every scan must be justified and use the lowest dose; prefer methods without ionising radiation such as ultrasound and MRI.","hook":"ALARA: As Low As Reasonably Achievable.","checks":[
+{"q":"Radiation principle in paediatric imaging?","options":["ALARA","ABCDE","SPIKES"],"answer":0,"why":"ALARA: justification, optimisation and non-ionising methods first."}]},
+{"block":"Cause","explain":"Rapidly dividing cells are more DNA-damage prone, and children have decades for cancer to develop.","hook":"Small bodies, long futures.","checks":[
+{"q":"Why are children more radiosensitive than adults?","options":["Thinner skin","Dividing cells and longer remaining life","Higher blood flow"],"answer":1,"why":"Dividing cells, longer life ahead and organs close to the beam increase risk."}]},
+{"block":"Patho","explain":"The open fontanelle is an acoustic window; blood reflects echoes while CSF is black. The germinal matrix is fragile and vascular in preterms.","hook":"Fontanelle = window; germinal matrix = preterm bleed site.","checks":[
+{"q":"Cranial ultrasound in infants is done through what?","options":["Temporal bone","Orbit","Anterior fontanelle"],"answer":2,"why":"The anterior fontanelle provides the acoustic window; blood is echogenic, CSF anechoic."},
+{"q":"Preterm intraventricular haemorrhage arises where?","options":["Choroid plexus","Germinal matrix","Cerebellum"],"answer":1,"why":"The fragile germinal matrix is the source of preterm IVH."}]},
+{"block":"Signs","explain":"The thymus is large in infants and shrinks later; absence suggests T-cell immunodeficiency. A normal thymus is soft and does not compress the trachea.","hook":"Sail sign until 3; no sail = DiGeorge/SCID.","checks":[
+{"q":"Thymus shadow is normally visible on CXR until what age?","options":["1 year","3 years","10 years"],"answer":1,"why":"Official answer: till 3 years; absence suggests DiGeorge or SCID."},
+{"q":"Mediastinal shadow narrowing the trachea suggests what?","options":["A mass","Normal thymus","Pneumonia"],"answer":0,"why":"Normal thymus is soft and doesn't compress the trachea; narrowing means a mass."}]},
+{"block":"Dx","explain":"Ultrasound first, MRI next; for urinary tract: anatomy (US), reflux (MCUG), scars (DMSA, delayed so acute inflammation resolves), drainage (MAG3).","hook":"DMSA = scars, wait 4-6 months.","checks":[
+{"q":"Cranial ultrasound best detects which conditions?","options":["Brain haemorrhage and hydrocephalus","Skull fracture and epidural","Tumours and demyelination"],"answer":0,"why":"Official answer: brain haemorrhage and hydrocephalus."},
+{"q":"When is DMSA done after UTI to show scars?","options":["Within 1 week","4-6 months","2 years"],"answer":1,"why":"DMSA 4-6 months after infection so acute changes don't mimic scars."}]},
+{"block":"Rx","explain":"Speed wins in trauma (CT); stroke often needs MRI; ultrasound suits pyloric stenosis and intussusception; bilious vomiting needs contrast for malrotation.","hook":"Green vomit → upper GI contrast for malrotation.","checks":[
+{"q":"Imaging for a polytraumatised child?","options":["Ultrasound","MRI","Acute CT"],"answer":2,"why":"Polytrauma → acute CT; head trauma: non-contrast CT if GCS ≤ 14 or skull fracture."},
+{"q":"Suspected stroke with normal CT: next imaging?","options":["MRI / MR angiography","Repeat CT in 1 week","Cranial ultrasound"],"answer":0,"why":"CT misses early ischaemia; MRI/MRA is needed."},
+{"q":"Imaging for bilious vomiting in an infant?","options":["Abdominal ultrasound","Upper GI contrast","Plain CXR"],"answer":1,"why":"Upper GI contrast to rule out malrotation; ultrasound for pyloric stenosis and intussusception."}]}
+],
+"II-1": [
+{"block":"Def","explain":"Vaccines train the immune system without disease, creating memory B and T cells that rapidly make high-affinity IgG on real exposure.","hook":"Rehearsal now, fast response later.","checks":[
+{"q":"Vaccines protect by priming what?","options":["Mast cells","Memory B and T cells","Neutrophils"],"answer":1,"why":"Memory B and T cells produce fast, high-affinity IgG on infection."}]},
+{"block":"Cause","explain":"Live attenuated vaccines replicate, so they can harm the immunocompromised fetus or SCID patient. Hungary's schedule includes newborn BCG.","hook":"Live: MMR, Varicella, Rotavirus, BCG - not in SCID or pregnancy.","checks":[
+{"q":"Which vaccine is live attenuated?","options":["Hepatitis B","Tetanus","Rotavirus"],"answer":2,"why":"Live: MMR, varicella, rotavirus, BCG - avoid in SCID and pregnancy."},
+{"q":"In Hungary, BCG is given to whom?","options":["All newborns","High-risk only","Adolescents"],"answer":0,"why":"Hungary vaccinates all newborns with BCG; varicella mandatory since 2019."}]},
+{"block":"Patho","explain":"Maternal IgG neutralises live measles vaccine in early infancy. Polysaccharides are T-independent, so infants respond poorly unless conjugated to protein.","hook":"Conjugate = protein buys T-cell help.","checks":[
+{"q":"Why is MMR given after 12 months?","options":["Immature thymus","Maternal antibodies neutralise it","Higher fever risk"],"answer":1,"why":"Residual maternal antibodies neutralise the live vaccine earlier."},
+{"q":"Why do conjugate vaccines work in infants?","options":["Protein carrier recruits T-helper cells","They are live","They contain adjuvant IgA"],"answer":0,"why":"Protein carrier converts a T-independent polysaccharide response into T-dependent."}]},
+{"block":"Signs","explain":"Live vaccines replicate briefly, so mild disease-like symptoms appear after the incubation period.","hook":"MMR rash a week later, not a day.","checks":[
+{"q":"When do MMR fever and rash appear after vaccination?","options":["24-48 hours","3-4 weeks","7-12 days"],"answer":2,"why":"After viral replication: 7-12 days post-vaccination."},
+{"q":"A few-lesion rash after varicella vaccine reflects what?","options":["Wild-type infection","Vaccine-strain replication","Allergy"],"answer":1,"why":"Mild rash with few lesions = vaccine-strain replication."}]},
+{"block":"Dx","explain":"True contraindications are few; minor illness and prematurity are not reasons to delay. Pertussis is held after encephalopathy.","hook":"Only anaphylaxis stops all; preterms go by birthday.","checks":[
+{"q":"The only universal vaccine contraindication?","options":["Anaphylaxis to previous dose or component","Mild fever","Prematurity"],"answer":0,"why":"Anaphylaxis to a prior dose or component is the only universal contraindication."},
+{"q":"After DTaP encephalopathy, what is withheld?","options":["Tetanus component","Pertussis component","All vaccines"],"answer":1,"why":"Encephalopathy → hold pertussis; anaphylaxis → no future DTaP doses."},
+{"q":"Preterm infants are vaccinated according to which age?","options":["Corrected age","Gestational age","Chronological age"],"answer":2,"why":"Preterms follow chronological age; mild illness is not a contraindication."}]},
+{"block":"Rx","explain":"Infant series at 2-4-6 months; live MMR/varicella after maternal antibody wanes, with a booster; adolescent boosters and HPV before sexual exposure.","hook":"2-4-6 infant, 1 and 4 MMR, 11 teen jabs.","checks":[
+{"q":"Hepatitis B vaccine schedule?","options":["Birth, 2 and 6 months","2, 4 and 6 months","1 and 4 years"],"answer":0,"why":"Hep B at birth, 2 and 6 months; DTaP, IPV, PCV15, rotavirus at 2, 4, 6 months."},
+{"q":"MMR and varicella are given at which ages?","options":["6 months and 1 year","1 year and 4 years","2 and 11 years"],"answer":1,"why":"MMR and varicella at 1 and 4 years; annual influenza from 6 months."},
+{"q":"Which vaccines are given at age 11?","options":["MMR, varicella, BCG","Rotavirus, IPV, Hep A","Tdap, meningococcal, HPV"],"answer":2,"why":"Age 11: Tdap, meningococcal and HPV (HPV through 26)."}]}
+],
+"II-2": [
+{"block":"Def","explain":"Development is assessed across separate domains because a child can be delayed in one and normal in others.","hook":"4 domains: Gross, Fine/vision, Speech/hearing, Social.","checks":[
+{"q":"Which is one of the four developmental domains?","options":["Speech and hearing","Memory","Growth"],"answer":0,"why":"Domains: gross motor, fine motor/vision, speech/hearing, social."}]},
+{"block":"Cause","explain":"Regression suggests neurodegenerative or serious disease; early handedness implies weakness of the other side, e.g. hemiplegic CP.","hook":"Early hand preference = the other hand is weak.","checks":[
+{"q":"Which developmental finding is an urgent red flag?","options":["Late walking at 15 months","Loss of acquired skills","Shyness with strangers"],"answer":1,"why":"Any loss of skills (regression) is urgent; walking at 15 months is normal."},
+{"q":"Hand preference is a red flag before what age?","options":["24 months","6 months","12 months"],"answer":2,"why":"Hand preference before 12 months suggests weakness of the other side (e.g. hemiplegia)."}]},
+{"block":"Patho","explain":"Myelination proceeds head-to-tail and centre-to-periphery, so head control precedes sitting and walking; cortical maturation suppresses primitive reflexes.","hook":"Head to toe, core to fingers.","checks":[
+{"q":"Developmental progression follows which direction?","options":["Caudocephalic","Cephalocaudal","Distal to proximal"],"answer":1,"why":"Myelination drives cephalocaudal, proximal→distal progression."},
+{"q":"Primitive reflexes normally persist until what age?","options":["6-12 months","2-3 months","2 years"],"answer":0,"why":"Official answer: till 6-12 months; persistence suggests UMN lesion (e.g. CP)."}]},
+{"block":"Signs","explain":"Milestones follow a predictable order; memorise the anchor ages and judge a child against the upper limit, not the average.","hook":"Smile 6 wk, roll 6 mo, sit 9 mo, walk 12-18 mo.","checks":[
+{"q":"Normal age of social smile?","options":["2 weeks","6 weeks","4 months"],"answer":1,"why":"Social smile at 6 weeks; lifts head at 2 months, rolls at 6 months."},
+{"q":"Sitting alone and stranger anxiety appear at about what age?","options":["9 months","6 months","12 months"],"answer":0,"why":"Sits alone and stranger anxiety at 9 months; pulls to stand at 9-12 months."},
+{"q":"Upper limit for independent walking?","options":["12 months","24 months","18 months"],"answer":2,"why":"Walks at 12-18 months; not walking by 18 months needs assessment."}]},
+{"block":"Dx","explain":"Single measurements mislead; serial centile plots show trajectory. Undernutrition hits weight first, then length, and head last.","hook":"FTT order: Weight → Height → Head.","checks":[
+{"q":"Growth failure: crossing how many major centile lines?","options":["One","Two","Four"],"answer":1,"why":"Weight below 5th centile or crossing two major lines defines growth failure."},
+{"q":"In failure to thrive, which falls first?","options":["Head circumference","Height","Weight"],"answer":2,"why":"Weight falls first, then height, then head circumference (brain spared)."},
+{"q":"What matters most when interpreting centile charts?","options":["Trajectory over time","Single weight value","Parental height alone"],"answer":0,"why":"Judge the trajectory of serial weight, length and head circumference."}]},
+{"block":"Rx","explain":"Babies lose weight initially, regain it, then grow fast; serial growth velocity detects problems earlier than absolute size.","hook":"Weight: back at 2 wk, ×2 at 4-5 mo, ×3 at 1 yr.","checks":[
+{"q":"Birth weight triples by what age?","options":["6 months","12 months","24 months"],"answer":1,"why":"Regained by 2 weeks, doubles by 4-5 months, triples by 12 months."},
+{"q":"Most sensitive marker of growth?","options":["Growth velocity","Absolute height","BMI"],"answer":0,"why":"Growth velocity is most sensitive; length rises 50% by 1 year."}]}
+],
+"II-3": [
+{"block":"Def","explain":"Normal term newborn reference values anchor everything; SGA is a statistical definition (below 10th centile), unlike FGR which implies pathology.","hook":"Term: 2.5-4 kg, head 35 cm; SGA below 10th.","checks":[
+{"q":"Normal term birth weight range?","options":["2000-3500 g","2500-4000 g","3000-4500 g"],"answer":1,"why":"Term birth weight 2500-4000 g, head circumference ~35 cm."},
+{"q":"SGA is birth weight below which centile?","options":["10th","3rd","25th"],"answer":0,"why":"Small for gestational age = below the 10th centile for gestation."}]},
+{"block":"Cause","explain":"Smoking constricts placental vessels and causes hypoxia. Late placental problems spare the head; early fetal causes restrict everything.","hook":"Smoking: top preventable LBW cause.","checks":[
+{"q":"Leading cause of low birth weight in developed countries?","options":["Pre-eclampsia","Maternal smoking","Congenital infection"],"answer":1,"why":"Smoking is the leading cause of LBW in developed countries."},
+{"q":"Asymmetric FGR is usually due to what?","options":["Trisomies","TORCH infection","Placental insufficiency"],"answer":2,"why":"Asymmetric = placental insufficiency; trisomies and TORCH cause symmetric growth lag."}]},
+{"block":"Patho","explain":"With late placental failure, blood is redirected to the brain (head sparing); hypoxia drives erythropoietin, making thick blood.","hook":"Brain-sparing: big head, thin body.","checks":[
+{"q":"Asymmetric FGR spares which part?","options":["Liver","Abdomen","Head"],"answer":2,"why":"Late placental FGR redistributes flow to the brain → head spared; symmetric = global lag."},
+{"q":"Chronic fetal hypoxia leads to polycythaemia above what haematocrit?","options":["65%","45%","55%"],"answer":0,"why":"Hypoxia → EPO → haematocrit over 65% → hyperviscosity, jaundice."}]},
+{"block":"Signs","explain":"IUGR babies have small glycogen and fat stores; preterms show immature skin, ears and tone, and immature lungs, brain vessels, gut and retina.","hook":"Preterm problems: RDS, IVH, PDA, NEC, ROP.","checks":[
+{"q":"Typical metabolic problem in IUGR newborns?","options":["Hyperglycaemia","Hypoglycaemia","Hypercalcaemia"],"answer":1,"why":"Low glycogen stores → hypoglycaemia; also hypothermia and polycythaemia."},
+{"q":"Which feature suggests prematurity?","options":["Lanugo","Deep sole creases","Firm ear cartilage"],"answer":0,"why":"Preterm: thin red skin, lanugo, soft ears, hypotonia; deep creases mean maturity."},
+{"q":"Respiratory distress syndrome in preterms is due to what?","options":["Meconium aspiration","Retained lung fluid","Surfactant deficiency"],"answer":2,"why":"RDS = surfactant deficiency; retained fluid is transient tachypnoea."}]},
+{"block":"Dx","explain":"Weight categories step down by 500 g; gestation comes from early ultrasound or Ballard exam. Absent end-diastolic flow means high placental resistance.","hook":"LBW 2500, VLBW 1500, ELBW 1000.","checks":[
+{"q":"Very low birth weight is under what?","options":["2500 g","1500 g","1000 g"],"answer":1,"why":"LBW < 2500 g, VLBW < 1500 g, ELBW < 1000 g."},
+{"q":"Postnatal gestational age assessment uses which score?","options":["New Ballard score","Apgar score","Silverman score"],"answer":0,"why":"New Ballard score (or dating ultrasound) estimates gestation."},
+{"q":"Absent/reversed umbilical end-diastolic flow in FGR means what?","options":["Repeat in 2 weeks","Normal variant","Urgent delivery"],"answer":2,"why":"Absent or reversed EDF signals severe placental resistance → urgent delivery."}]},
+{"block":"Rx","explain":"Antenatal steroids mature lungs, MgSO₄ protects the brain; surfactant replaces what is missing. NEC needs gut rest; ROP is lasered.","hook":"Steroids 24-34 wk; laser the ROP.","checks":[
+{"q":"Antenatal glucocorticoids are given at which gestation?","options":["20-28 weeks","24-34 weeks","34-38 weeks"],"answer":1,"why":"Maternal steroids at 24-34 weeks + MgSO₄; artificial surfactant after birth."},
+{"q":"First-line management of NEC?","options":["NPO, NG tube, IV fluids, antibiotics","Immediate laparotomy","Increase feeds"],"answer":0,"why":"NPO, NG decompression, fluids, antibiotics; surgery for perforation."},
+{"q":"Treatment of retinopathy of prematurity?","options":["Topical steroids","Patching","Laser photocoagulation"],"answer":2,"why":"ROP is treated with laser photocoagulation."}]}
+],
+"II-4": [
+{"block":"Def","explain":"Supply matches demand, so feed whenever the baby wants; breast milk alone covers needs for 6 months.","hook":"On demand, 6 months only, 2 years total.","checks":[
+{"q":"How often should a baby be breastfed?","options":["Every 3 hours","Every 4 hours","On demand"],"answer":2,"why":"Official answer: on demand; exclusively for 6 months, continue to 2 years."}]},
+{"block":"Cause","explain":"Galactosaemic infants cannot metabolise lactose; some maternal infections transmit via milk or close contact. Hep B is covered by vaccine and immunoglobulin.","hook":"Galactosaemia, HIV, TB, varicella: no breast. Hep B, mastitis: fine.","checks":[
+{"q":"Which infant condition contraindicates breastfeeding?","options":["Galactosaemia","Phenylketonuria","Jaundice"],"answer":0,"why":"Galactosaemia is an absolute contraindication; PKU allows partial breastfeeding."},
+{"q":"Which maternal condition is NOT a contraindication?","options":["HIV","Hepatitis B","Untreated tuberculosis"],"answer":1,"why":"Hepatitis B and mastitis are not contraindications; HIV, untreated TB, varicella are."}]},
+{"block":"Patho","explain":"Prolactin makes milk, oxytocin ejects it; emptying drives production. Lower protein suits immature kidneys; colostrum gives passive IgA.","hook":"Prolactin produces, oxytocin outs.","checks":[
+{"q":"Which hormone causes milk let-down?","options":["Prolactin","Oxytocin","Oestrogen"],"answer":1,"why":"Oxytocin ejects milk; prolactin drives synthesis."},
+{"q":"Breast milk protein content compared with cow's milk?","options":["Twice as much","Equal","One third"],"answer":2,"why":"Official answer: one third; colostrum is rich in IgA."}]},
+{"block":"Signs","explain":"Wet nappies show intake; early weight loss up to 10% is normal, regained by 2 weeks. Breast milk jaundice is from a milk enzyme deconjugating bilirubin.","hook":"Day 5: 5 wet nappies.","checks":[
+{"q":"Adequate feeding at day 5: how many wet nappies daily?","options":["≥ 2","≥ 5","≥ 10"],"answer":1,"why":"≥ 5 wet nappies daily at 5 days; weight loss up to 10% is acceptable."},
+{"q":"Birth weight is regained by what age?","options":["2 weeks","1 week","4 weeks"],"answer":0,"why":"Birth weight is regained by 2 weeks."},
+{"q":"Which milk enzyme causes breast milk jaundice?","options":["Lipase","Lactase","β-glucuronidase"],"answer":2,"why":"β-glucuronidase deconjugates bilirubin → enterohepatic reabsorption."}]},
+{"block":"Dx","explain":"Cow's milk is iron-poor, causes occult GI bleeding and has a high solute load. Infants need far more energy and fluid per kg than adults.","hook":"100 kcal and 150 ml per kg per day.","checks":[
+{"q":"Cow's milk should first be given after what age?","options":["6 months","9 months","12 months"],"answer":2,"why":"Official answer: after 12 months, otherwise iron deficiency and renal solute load."},
+{"q":"Early infant energy requirement?","options":["~100-110 kcal/kg/day","~50-60 kcal/kg/day","~150-160 kcal/kg/day"],"answer":0,"why":"About 100-110 kcal/kg/day; fluid about 150 ml/kg/day."},
+{"q":"Oedema and swollen abdomen indicate which malnutrition?","options":["Marasmus","Kwashiorkor","Rickets"],"answer":1,"why":"Kwashiorkor (protein deficiency) causes oedema; marasmus is wasting."}]},
+{"block":"Rx","explain":"Solids at ~6 months, never before 17 weeks; honey may contain botulinum spores. Breastfeeding jaundice is underfeeding; milk jaundice is benign.","hook":"No honey before one.","checks":[
+{"q":"Why no honey under 12 months?","options":["Infant botulism","Allergy risk","Dental caries"],"answer":0,"why":"Honey may carry C. botulinum spores → infant botulism; solids not before 17 weeks."},
+{"q":"Management of breastfeeding jaundice?","options":["Stop breastfeeding","Feed more often","Phototherapy only"],"answer":1,"why":"It reflects underfeeding → feed more often (q2h); breast milk jaundice: continue."},
+{"q":"Routine vitamin D supplement for infants?","options":["100 IU daily","1000 IU weekly","400 IU daily"],"answer":2,"why":"Vitamin D 400 IU daily for all, plus vitamin K 1 mg IM at birth."}]}
+],
+"II-5": [
+{"block":"Def","explain":"Psychosomatic symptoms are genuinely felt, driven by stress rather than disease. Bulimia needs recurrent binges plus compensation at a set frequency.","hook":"Bulimia: weekly for 3 months.","checks":[
+{"q":"Commonest psychosomatic complaint in children?","options":["Headache","Functional abdominal pain","Chest pain"],"answer":1,"why":"Functional abdominal pain is the commonest psychosomatic condition."},
+{"q":"Bulimia: binge + compensation at what minimum frequency?","options":["Weekly for 3 months","Daily for 1 month","Monthly for 6 months"],"answer":0,"why":"DSM-5: at least weekly for 3 months."}]},
+{"block":"Cause","explain":"Psychosocial stress at school or home triggers symptoms; anxiety about leaving a parent can present as school refusal.","hook":"Tummy ache on school mornings = separation anxiety.","checks":[
+{"q":"School avoidance is typically linked to what?","options":["Learning disability","ADHD","Separation anxiety"],"answer":2,"why":"Separation anxiety commonly underlies school avoidance."},
+{"q":"Anorexia nervosa peaks in which group?","options":["Adolescent girls","Prepubertal boys","Young adult men"],"answer":0,"why":"Anorexia peaks in adolescent girls."}]},
+{"block":"Patho","explain":"Stress activates the HPA and brain-gut axis, amplifying gut sensation. Starvation switches off pulsatile GnRH. Vomiting loses acid and volume, triggering aldosterone.","hook":"Starve → GnRH off → periods off.","checks":[
+{"q":"Functional pain arises via the brain-gut axis causing what?","options":["Mucosal ulceration","Visceral hypersensitivity","Bacterial overgrowth"],"answer":1,"why":"Stress → HPA and brain-gut axis → visceral hypersensitivity."},
+{"q":"Amenorrhoea in anorexia results from loss of what?","options":["Pulsatile GnRH","Prolactin","Thyroid hormone"],"answer":0,"why":"Loss of pulsatile GnRH → low LH/FSH/oestrogen → amenorrhoea."},
+{"q":"Recurrent vomiting causes HCl loss and raised what?","options":["ADH only","Cortisol","Aldosterone"],"answer":2,"why":"Volume loss activates aldosterone → renal K⁺ loss and alkalosis."}]},
+{"block":"Signs","explain":"Starvation slows the body; purging damages teeth and glands and calluses knuckles. Conversion patients may seem unconcerned by dramatic deficits.","hook":"Russell = knuckle scars from fingers in throat.","checks":[
+{"q":"Cardiovascular sign typical of anorexia nervosa?","options":["Tachycardia","Hypertension","Bradycardia"],"answer":2,"why":"AN: bradycardia, hypotension, lanugo, amenorrhoea, MVP."},
+{"q":"Knuckle calluses in bulimia are called what?","options":["Russell sign","Trousseau sign","Gottron papules"],"answer":0,"why":"Russell sign from induced vomiting; also parotid hypertrophy and enamel erosion."},
+{"q":"La belle indifférence is typical of which disorder?","options":["Anorexia nervosa","Conversion disorder","Bulimia nervosa"],"answer":1,"why":"Unconcern about symptoms (la belle indifférence) suggests conversion disorder."}]},
+{"block":"Dx","explain":"Look for red flags, then stop testing - excessive investigation reinforces illness. Vomiting yields low K⁺ and Cl⁻ with alkalosis. Admit AN when physiology is unstable.","hook":"AN admission: HR under 40, SBP under 80.","checks":[
+{"q":"In psychosomatic complaints, after excluding red flags, what next?","options":["Repeat full work-up","Avoid endless tests","Refer for surgery"],"answer":1,"why":"Exclude red flags but avoid endless tests, which reinforce illness."},
+{"q":"Typical acid-base finding in bulimia?","options":["Hypokalaemic hypochloraemic metabolic alkalosis","Hyperkalaemic metabolic acidosis","Respiratory acidosis"],"answer":0,"why":"Vomiting causes hypokalaemic hypochloraemic metabolic alkalosis."},
+{"q":"Anorexia admission criterion for heart rate?","options":["Under 60","Under 50","Under 40"],"answer":2,"why":"Admit if HR under 40, SBP under 80, temp under 35.5 °C, %mBMI under 70%, syncope."}]},
+{"block":"Rx","explain":"Families are central to adolescent AN recovery; bulimia responds to CBT ± fluoxetine. Refeeding drives insulin, shifting phosphate into cells.","hook":"Refeeding: watch phosphate.","checks":[
+{"q":"First-line treatment for adolescent anorexia nervosa?","options":["SSRIs","Family-based therapy","Inpatient tube feeding"],"answer":1,"why":"Family-based therapy is first-line; bulimia uses psychotherapy ± fluoxetine."},
+{"q":"Key electrolyte disturbance in refeeding syndrome?","options":["Hyponatraemia","Hypercalcaemia","Hypophosphataemia"],"answer":2,"why":"Insulin surge drives phosphate into cells → hypophosphataemia."},
+{"q":"Managing persistent somatic symptoms involves what?","options":["Monthly visits, single physician","Weekly specialist rotation","Discharge without follow-up"],"answer":0,"why":"Regular monthly visits with one physician and screening for self-harm."}]}
+]
+}

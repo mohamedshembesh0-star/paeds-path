@@ -1,4 +1,4 @@
-import { allItems, bankFor, course, itemById, screening, studyOrder, topicById } from "./course";
+import { allChecks, allItems, bankFor, capstoneFor, chunksFor, course, itemById, screening, studyOrder, topicById } from "./course";
 import type { BlockName, Card, ItemState, Mcq, Progress, Topic, TopicState } from "./types";
 
 const KEY = "paeds-path-v2";
@@ -260,7 +260,11 @@ export function daysUntilExam(progress: Progress): number {
 
 export function topicMastery(progress: Progress, topicId: string): number {
   const bank = bankFor(topicId);
-  const items = [...bank.questions, ...bank.cards];
+  const checks = chunksFor(topicId).flatMap((c) => c.checks);
+  // Chunked topics: mastery = the lesson's quick checks + capstone vignettes, plus any extra item already practised.
+  const core = checks.length ? [...checks, ...capstoneFor(topicId)] : [...bank.questions, ...bank.cards];
+  const extra = checks.length ? [...bank.questions, ...bank.cards].filter((i) => !core.includes(i as Mcq) && progress.items[i.id]) : [];
+  const items = [...core, ...extra];
   if (!items.length) return progress.topics[topicId] ? 100 : 0;
   const total = items.reduce((sum, item) => {
     const state = progress.items[item.id];
@@ -360,6 +364,24 @@ export function mixedDrill(progress: Progress, size = 20): Mcq[] {
   const scored = pool.map((q) => ({ q, key: Math.random() ** (1 / weight(q)) }));
   scored.sort((a, b) => b.key - a.key);
   return scored.slice(0, size).map((entry) => entry.q);
+}
+
+/** Rapid fire: quick single-fact checks from learned topics (or a chosen section), weakest first-ish. */
+export function rapidFire(progress: Progress, size = 30, section?: Topic["section"]): Mcq[] {
+  const learned = new Set(Object.keys(progress.topics));
+  let pool = allChecks.filter((q) => (!section || topicById.get(q.topicId)?.section === section));
+  const learnedPool = pool.filter((q) => learned.has(q.topicId));
+  if (learnedPool.length >= 10) pool = learnedPool;
+  const weight = (q: Mcq) => {
+    const st = progress.items[q.id];
+    if (!st) return 2;
+    return 1 + Math.max(0, 4 - st.box) + st.wrong * 2;
+  };
+  return pool
+    .map((q) => ({ q, key: Math.random() ** (1 / weight(q)) }))
+    .sort((a, b) => b.key - a.key)
+    .slice(0, size)
+    .map((x) => x.q);
 }
 
 export function accuracy(progress: Progress): number {
