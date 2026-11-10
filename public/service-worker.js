@@ -28,10 +28,10 @@ self.addEventListener("fetch", (event) => {
         caches.open(CACHE).then((cache) => cache.put(APP_ROOT, copy));
       }
       return response;
-    }).catch(async () => (await caches.match(APP_ROOT)) || Response.error()));
+    }).catch(async () => (await caches.match(APP_ROOT, { ignoreVary: true })) || Response.error()));
     return;
   }
-  event.respondWith(caches.match(request).then((cached) => cached || fetch(request).then((response) => {
+  event.respondWith(caches.match(request, { ignoreVary: true }).then((cached) => cached || fetch(request).then((response) => {
     if (response.ok && response.type === "basic") {
       const copy = response.clone();
       caches.open(CACHE).then((cache) => cache.put(request, copy));
