@@ -836,6 +836,7 @@ function CramPage() {
         <div className="segmented">{(["all", "I", "II", "III"] as const).map((x) => <button key={x} className={section === x ? "on" : ""} onClick={() => setSection(x)}>{x === "all" ? "All" : `Section ${x}`}</button>)}</div>
         <div className="segmented"><button className={onlyWeak ? "on" : ""} onClick={() => setOnlyWeak(!onlyWeak)}>Only weak</button></div>
         <button className="button button-outline" onClick={() => window.print()}><Printer size={15} /> Print</button>
+        {!offline && <a className="button button-primary" href="/paeds-path-trees.pdf" download><Download size={15} /> Tree diagrams PDF</a>}
         {section !== "all" && <Link className="button button-outline" href={`/review/rapid-${section}`}><Gauge size={15} /> Rapid fire section {section}</Link>}
       </div>
       <p className="subtle-note no-print">{topics.length} topics</p>
