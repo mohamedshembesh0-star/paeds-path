@@ -673,7 +673,7 @@ h1 em { color: var(--forest); font-style: normal; }
 @starting-style { .answer-bar { opacity: 0; translate: 0 6px; } }
 .answer-actions { display: flex; gap: 8px; flex: 0 0 auto; }
 .hold-button { color: #2f5545; background: rgba(255,255,255,.7); min-height: 50px; }
-.continue-button.auto { background-image: linear-gradient(90deg, rgba(255,255,255,.28) 50%, transparent 50%); background-size: 200% 100%; background-position: 100% 0; animation: auto-fill 1.6s linear forwards; }
+.continue-button.auto { background-image: linear-gradient(90deg, rgba(255,255,255,.28) 50%, transparent 50%); background-size: 200% 100%; background-position: 100% 0; animation: auto-fill 2.5s linear forwards; }
 @keyframes auto-fill { to { background-position: 0 0; } }
 .cram-list { display: grid; gap: 12px; }
 .cram-topic { padding: 16px 18px; border: 1px solid #e1ddd3; border-radius: 14px; background: #fbfaf6; content-visibility: auto; contain-intrinsic-size: auto 520px; }

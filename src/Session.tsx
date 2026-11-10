@@ -132,7 +132,7 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
   const quickRight = entry?.item.type === "mcq" && !!entry.item.quick && picked !== null && picked === entry.item.answer;
   useEffect(() => {
     if (!quickRight || hold) return;
-    const timer = window.setTimeout(advance, 1000);
+    const timer = window.setTimeout(advance, 2500);
     return () => window.clearTimeout(timer);
   }, [quickRight, hold, advance]);
 
@@ -223,7 +223,7 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
       )}
 
       {entry.item.type === "mcq" && picked !== null && (
-        <div ref={barRef} role="status" aria-live="polite" onClick={(e) => { if (!(e.target as HTMLElement).closest("button")) advance(); }} className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"} ${entry.item.quick ? "quick" : ""}`}>
+        <div ref={barRef} role="status" aria-live="polite" onClick={(e) => { if (!(e.target as HTMLElement).closest("button")) advance(); }} onPointerEnter={(e) => { if (e.pointerType === "mouse") setHold(true); }} className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"} ${entry.item.quick ? "quick" : ""}`}>
           <div className="answer-bar-inner">
             <div className="answer-bar-copy">
               <b>{picked === entry.item.answer ? (entry.retry ? "Got it this time." : pickPraise(combo)) : "Not quite."}</b>
