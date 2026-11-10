@@ -36,6 +36,7 @@ export type Teach = {
   hook: string;
   step: number;
   steps: number;
+  title?: string; // set on the topic intro card in Blitz mode
 };
 
 export type Chunk = { block: BlockName; lines: string[]; explain: string; hook: string; checks: Mcq[] };
@@ -69,6 +70,7 @@ export type TopicState = {
   bestScore: number; // % first-try correct in best lesson
   lastScore: number;
   oral?: number; // last mock-oral self score (0-6 blocks)
+  secs?: number; // seconds spent on the most recent lesson (for pace)
 };
 
 export type DayLog = { topics: number; answered: number; correct: number; xp: number };

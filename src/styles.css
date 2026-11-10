@@ -776,3 +776,16 @@ h1 em { color: var(--forest); font-style: normal; }
 /* Center the ink toolbar without halving its available width */
 .ink-bar { left: 10px; right: 10px; width: fit-content; margin-inline: auto; translate: 0 0; }
 @starting-style { .ink-bar { opacity: 0; translate: 0 10px; } }
+
+/* ---------- speed pass: blitz, reading toggle, pace ---------- */
+.session-header-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; }
+.reading-toggle { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: #fbfaf6; color: #44525a; font: 600 12.5px var(--app-font-sans); cursor: pointer; touch-action: manipulation; }
+.reading-toggle[aria-pressed="true"] { background: #dfece2; border-color: #b8d3bf; color: #254d41; }
+.blitz-sizes { display: inline-flex; gap: 4px; }
+.blitz-sizes a { min-width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 10px; font: 700 13px var(--app-font-sans); color: #44525a; }
+.blitz-sizes a.on { background: #254d41; border-color: #254d41; color: #fff; }
+.pace-line { max-width: 520px; margin: 14px 0 0!important; color: #cfdbd2!important; font-size: 13px!important; line-height: 1.5; }
+.teach-title { margin: 14px 0 4px; color: #1f2a37; font: 800 clamp(24px, 3.4vw, 32px)/1.15 var(--app-font-serif); letter-spacing: -.03em; }
+.teach-card .pearl { margin: 10px 0 16px; }
+.answer-bar { cursor: pointer; }
+.answer-bar .teach-hook { margin-top: 8px; font-size: 14px; }

@@ -213,7 +213,7 @@ export function gradeItem(progress: Progress, itemId: string, correct: boolean, 
   return touchDay(next, { answered: firstTry ? 1 : 0, correct: correct && firstTry ? 1 : 0, xp });
 }
 
-export function completeLesson(progress: Progress, topicId: string, score: number): Progress {
+export function completeLesson(progress: Progress, topicId: string, score: number, secs?: number): Progress {
   const now = Date.now();
   const prev = progress.topics[topicId];
   const state: TopicState = {
@@ -223,6 +223,7 @@ export function completeLesson(progress: Progress, topicId: string, score: numbe
     bestScore: Math.max(prev?.bestScore ?? 0, score),
     lastScore: score,
     oral: prev?.oral,
+    secs: secs && secs > 5 && secs < 3600 ? Math.round(secs) : prev?.secs,
   };
   const next = { ...progress, topics: { ...progress.topics, [topicId]: state } };
   return touchDay(next, { topics: prev ? 0 : 1, xp: 25 + (score === 100 ? 15 : 0) });
@@ -382,6 +383,18 @@ export function rapidFire(progress: Progress, size = 30, section?: Topic["sectio
     .sort((a, b) => b.key - a.key)
     .slice(0, size)
     .map((x) => x.q);
+}
+
+/** Median seconds per topic over recent lessons (null until there is data). */
+export function pace(progress: Progress): number | null {
+  const recent = Object.values(progress.topics)
+    .filter((t) => t.secs)
+    .sort((a, b) => b.lastAt - a.lastAt)
+    .slice(0, 15)
+    .map((t) => t.secs!)
+    .sort((a, b) => a - b);
+  if (!recent.length) return null;
+  return recent[Math.floor(recent.length / 2)];
 }
 
 export function accuracy(progress: Progress): number {

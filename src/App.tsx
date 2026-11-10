@@ -2,13 +2,13 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import {
-  Activity, ArrowLeft, ClipboardCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, ClipboardCheck, Rocket, BookOpenCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
-import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, capstoneFor, checkCount, chunksFor, course, hasChunks, lessonSteps, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
+import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, blitzSteps, checkCount, chunksFor, course, fastLessonSteps, hasChunks, lessonSteps, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
 import {
   accuracy, blockAccuracy, buildPlan, completeLesson, dayKey, dueItems, emptyProgress, fromTransferCode, gradeItem, loadProgress, mergeProgress, mixedDrill, nextDueAt,
-  parseImport, rapidFire, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
+  pace, parseImport, rapidFire, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { InkProvider, useInk, useInkScope } from "./Ink";
@@ -86,7 +86,7 @@ function AppShell({ children }: { children: ReactNode }) {
   const plan = buildPlan(progress);
   const isActive = (href: string) => (href === "/" ? location === "/" : location.startsWith(href));
   return (
-    <div className={`app-shell ${/^\/(learn|review)\//.test(location) ? "focus-mode" : ""}`}>
+    <div className={`app-shell ${/^\/(learn|review|blitz)\//.test(location) ? "focus-mode" : ""}`}>
       <aside className="sidebar">
         <Link href="/" className="brand-lockup" aria-label="Paeds Path home">
           <span className="brand-mark"><HeartPulse size={21} strokeWidth={2.4} /></span>
@@ -194,9 +194,15 @@ function HomePage() {
             </>
           )}
           <div className="today-actions">
-            {plan.next ? <Link className="button button-light" href={`/learn/${plan.next.id}`}><Play size={16} /> {firstVisit ? "Start first lesson" : "Start lesson"}</Link> : <Link className="button button-light" href="/oral"><Mic size={16} /> Mock oral</Link>}
+            {plan.next ? (
+              <>
+                <Link className="button button-light" href="/blitz/5"><Rocket size={16} /> Blitz the next 5 topics</Link>
+                <Link className="button button-ghost-light" href={`/learn/${plan.next.id}`}><Play size={16} /> {firstVisit ? "One topic at a time" : "Single lesson"}</Link>
+              </>
+            ) : <Link className="button button-light" href="/oral"><Mic size={16} /> Mock oral</Link>}
             {due.length > 0 && <Link className="button button-ghost-light" href="/review/due"><RotateCcw size={16} /> Review {due.length}</Link>}
           </div>
+          {plan.remaining > 0 && <PaceLine remaining={plan.remaining} />}
           <div className="today-meter">
             <div className="today-meter-track"><span style={{ width: `${Math.min(100, pct)}%` }} /></div>
             <small>{plan.learnedToday} of {plan.targetToday} topics today</small>
@@ -278,6 +284,96 @@ function TopicRow({ topic, index, href }: { topic: Topic; index: number; href?: 
       <ArrowRight size={16} className="row-arrow" />
     </Link>
   );
+}
+
+function readPref(key: string, fallback: boolean): boolean {
+  try { const v = localStorage.getItem(key); return v === null ? fallback : v === "1"; } catch { return fallback; }
+}
+function writePref(key: string, v: boolean) {
+  try { localStorage.setItem(key, v ? "1" : "0"); } catch { /* ignore */ }
+}
+
+function fmtDuration(secs: number): string {
+  if (secs < 90) return `${Math.max(1, Math.round(secs))} s`;
+  const m = Math.round(secs / 60);
+  if (m < 60) return `${m} min`;
+  return `${Math.floor(m / 60)} h ${m % 60} min`;
+}
+
+function PaceLine({ remaining }: { remaining: number }) {
+  const { progress } = useStore();
+  const p = pace(progress);
+  if (!p) return <p className="pace-line">Blitz mode runs topics back to back: a one-line key point, then quick questions. No reading cards, no stops between topics.</p>;
+  return <p className="pace-line">Your pace is about {fmtDuration(p)} per topic, so the {remaining} remaining topics take roughly {fmtDuration(p * remaining)} of focused work.</p>;
+}
+
+/* ------------------------------------------------------------------ blitz */
+
+function BlitzPage() {
+  const { n, round } = useParams<{ n: string; round?: string }>();
+  const size = Math.min(15, Math.max(1, Number(n) || 5));
+  const { progress, update } = useStore();
+  const [, navigate] = useLocation();
+  // Freeze the topic list when the blitz starts.
+  const topicIds = useMemo(() => studyOrder.filter((t) => !progress.topics[t.id]).slice(0, size).map((t) => t.id), [size, round]); // eslint-disable-line react-hooks/exhaustive-deps
+  const items = useMemo<SessionItem[]>(() => {
+    const out: SessionItem[] = [];
+    for (const id of topicIds) out.push(...blitzSteps([id]).map((s) => (s.type === "teach" ? { ...s, step: topicIds.indexOf(id) + 1, steps: topicIds.length } : s)), ...screeningFor(id));
+    return out;
+  }, [topicIds]);
+  const perTopic = useRef<Record<string, { need: Set<string>; tried: Set<string>; right: number; done: boolean }>>({});
+  const lastDone = useRef(Date.now());
+  const [result, setResult] = useState<SessionResult | null>(null);
+
+  useEffect(() => {
+    perTopic.current = {};
+    for (const it of items) {
+      if (it.type === "teach") continue;
+      (perTopic.current[it.topicId] ??= { need: new Set(), tried: new Set(), right: 0, done: false }).need.add(it.id);
+    }
+    lastDone.current = Date.now();
+  }, [items]);
+
+  const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => {
+    update((p) => gradeItem(p, id, correct, firstTry, "lesson"));
+    const tid = id.startsWith("S-") ? items.find((i) => i.id === id)?.topicId : id.slice(0, id.indexOf("-", id.indexOf("-") + 1));
+    const t = tid ? perTopic.current[tid] : undefined;
+    if (!t || t.done) return;
+    if (firstTry) { t.tried.add(id); if (correct) t.right += 1; }
+    if ([...t.need].every((x) => t.tried.has(x))) {
+      // Topic finished: mark it learned now, so leaving the blitz early keeps it.
+      t.done = true;
+      const score = Math.round((t.right / Math.max(1, t.need.size)) * 100);
+      const secs = (Date.now() - lastDone.current) / 1000;
+      lastDone.current = Date.now();
+      update((p) => completeLesson(p, tid!, score, secs));
+    }
+  }, [items, update]);
+
+  const onFinish = useCallback((r: SessionResult) => { setResult(r); window.scrollTo(0, 0); }, []);
+
+  if (!topicIds.length) {
+    return <div className="page-wrap"><div className="empty-state empty-large"><div className="empty-illustration"><CheckCircle2 size={28} /></div><h2>Every topic is learned.</h2><p>Spend the rest of your time on reviews, rapid fire and mock orals.</p><Link href="/review" className="button button-primary">Go to reviews <ArrowRight size={17} /></Link></div></div>;
+  }
+  if (result) {
+    const left = studyOrder.filter((t) => !progress.topics[t.id]).length;
+    return (
+      <ResultView
+        title={`Blitz: ${topicIds.length} topics`}
+        result={result}
+        primary={left ? { label: `Blitz the next ${Math.min(size, left)}`, href: `/blitz/${size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
+        secondary={[{ label: "Back to today", href: "/" }, { label: "Review what I missed", href: "/review/weak" }]}
+        footnote={`${left} topics left. Vignettes and oral drills for these topics are waiting in Deep practice on each topic page.`}
+      />
+    );
+  }
+  const header = (
+    <span className="session-header-row">
+      <span>Blitz: {topicIds.length} topics</span>
+      <span className="blitz-sizes">{[3, 5, 10].map((k) => <Link key={k} className={k === size ? "on" : ""} href={`/blitz/${k}/${(Number(round) || 0) + 1}`}>{k}</Link>)}</span>
+    </span>
+  );
+  return <Session key={`blitz-${size}-${round ?? 0}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/")} header={header} />;
 }
 
 /* ------------------------------------------------------------------ topics */
@@ -417,6 +513,8 @@ function LessonPage() {
   const [result, setResult] = useState<SessionResult | null>(null);
   const [deepDone, setDeepDone] = useState(false);
   const [runKey, setRunKey] = useState(0);
+  const [reading, setReading] = useState(() => readPref("paeds-reading-cards", false));
+  const started = useRef(Date.now());
 
   useEffect(() => {
     setPhase(topic && hasChunks(topic.id) ? "quiz" : "intro");
@@ -428,24 +526,27 @@ function LessonPage() {
   const items = useMemo<SessionItem[]>(() => {
     if (!topic) return [];
     const bank = bankFor(topic.id);
-    if (hasChunks(topic.id)) return [...lessonSteps(topic.id), ...screeningFor(topic.id)];
+    if (hasChunks(topic.id)) return [...(reading ? lessonSteps(topic.id) : fastLessonSteps(topic.id)), ...screeningFor(topic.id)];
     const qs = [...bank.questions].sort((a, b) => a.level - b.level);
     return [...qs, ...bank.cards, ...screeningFor(topic.id)];
-  }, [topic, runKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [topic, runKey, reading]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => { started.current = Date.now(); }, [runKey, topicId, reading]);
 
   const deepItems = useMemo<SessionItem[]>(() => {
     if (!topic) return [];
     const bank = bankFor(topic.id);
-    const used = new Set(capstoneFor(topic.id).map((q) => q.id));
+    const used = new Set(items.map((q) => q.id));
     return [...bank.questions.filter((q) => !used.has(q.id)).sort((a, b) => a.level - b.level), ...bank.cards];
-  }, [topic]);
+  }, [topic, items]);
 
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "lesson")), [update]);
   const onFinish = useCallback(
     (r: SessionResult) => {
       if (!topic) return;
       const score = Math.round((r.firstTryCorrect / Math.max(1, r.total)) * 100);
-      update((p) => completeLesson(p, topic.id, score));
+      const secs = (Date.now() - started.current) / 1000;
+      update((p) => completeLesson(p, topic.id, score, secs));
       setResult(r);
       setPhase("done");
       window.scrollTo(0, 0);
@@ -464,7 +565,15 @@ function LessonPage() {
   const header = `${topicLabel(topic)} · ${topic.title}`;
 
   if (phase === "quiz") {
-    return <Session key={`${topic.id}-${runKey}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(`/topic/${topic.id}`)} header={header} />;
+    const sessionHeader = chunked ? (
+      <span className="session-header-row">
+        <span>{header}</span>
+        <button className="reading-toggle" aria-pressed={reading} onClick={() => { const v = !reading; setReading(v); writePref("paeds-reading-cards", v); setRunKey((k) => k + 1); }}>
+          <BookOpenCheck size={15} /> Reading cards {reading ? "on" : "off"}
+        </button>
+      </span>
+    ) : header;
+    return <Session key={`${topic.id}-${runKey}-${reading}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(`/topic/${topic.id}`)} header={sessionHeader} />;
   }
   if (phase === "deep") {
     return <Session key={`${topic.id}-deep-${runKey}`} items={deepItems} onGrade={onGrade} onFinish={onDeepFinish} onExit={() => setPhase("done")} header={`DEEP PRACTICE · ${header}`} />;
@@ -518,6 +627,14 @@ function LessonPage() {
 function ResultView({ title, result, primary, secondary, footnote }: { title: string; result: SessionResult; primary: { label: string; href: string }; secondary: { label: string; href?: string; onClick?: () => void }[]; footnote?: string }) {
   const score = Math.round((result.firstTryCorrect / Math.max(1, result.total)) * 100);
   const verdict = score >= 90 ? "Exam-ready." : score >= 70 ? "Solid. Polish the misses." : score >= 50 ? "Getting there." : "This one needs another pass.";
+  const [, go] = useLocation();
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Enter" && !(e.target as HTMLElement)?.closest?.("button, a, input, textarea")) { e.preventDefault(); go(primary.href); }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [primary.href, go]);
   return (
     <div className="page-wrap">
       <div className="lesson-complete">
@@ -530,7 +647,7 @@ function ResultView({ title, result, primary, secondary, footnote }: { title: st
           <div><b>{result.bestCombo}</b><span>best streak</span></div>
         </div>
         <div className="complete-buttons">
-          <Link href={primary.href} className="button button-primary big">{primary.label} <ArrowRight size={17} /></Link>
+          <Link href={primary.href} className="button button-primary big" autoFocus>{primary.label} <ArrowRight size={17} /></Link>
         </div>
         <div className="complete-buttons secondary">
           {secondary.map((s) => (s.href ? <Link key={s.label} href={s.href} className="button button-outline">{s.label}</Link> : <button key={s.label} className="button button-outline" onClick={s.onClick}>{s.label}</button>))}
@@ -659,6 +776,11 @@ function ReviewSession() {
     );
   }
   return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(mode === "screening" ? "/screening" : "/review")} header={title.toUpperCase()} />;
+}
+
+function BlitzRoute() {
+  const [location] = useLocation();
+  return <BlitzPage key={location} />;
 }
 
 /** Remount on every round so each one starts fresh. */
@@ -1170,6 +1292,7 @@ export default function App() {
           <Route path="/topics" component={TopicsPage} />
           <Route path="/topic/:topicId" component={TopicPage} />
           <Route path="/learn/:topicId" component={LessonPage} />
+          <Route path="/blitz/:n/:round?" component={BlitzRoute} />
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
           <Route path="/screening" component={ScreeningPage} />

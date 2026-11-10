@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { ArrowRight, Check, Eye, Flame, Lightbulb, Pause, RotateCcw, Sparkles, X, Zap } from "lucide-react";
-import { BLOCK_LABEL, topicById, topicLabel } from "./course";
+import { BLOCK_LABEL, hookFor, topicById, topicLabel } from "./course";
 import { useInkScope } from "./Ink";
 import type { Card, Mcq, Teach } from "./types";
 
@@ -32,7 +32,7 @@ type Props = {
   onGrade: (itemId: string, correct: boolean, firstTry: boolean) => void;
   onFinish: (result: SessionResult) => void;
   onExit: () => void;
-  header?: string;
+  header?: React.ReactNode;
 };
 
 export function Session({ items, showTopic, onGrade, onFinish, onExit, header }: Props) {
@@ -126,7 +126,7 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
   const quickRight = entry?.item.type === "mcq" && !!entry.item.quick && picked !== null && picked === entry.item.answer;
   useEffect(() => {
     if (!quickRight || hold) return;
-    const timer = window.setTimeout(advance, 1600);
+    const timer = window.setTimeout(advance, 1000);
     return () => window.clearTimeout(timer);
   }, [quickRight, hold, advance]);
 
@@ -217,14 +217,15 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
       )}
 
       {entry.item.type === "mcq" && picked !== null && (
-        <div ref={barRef} role="status" aria-live="polite" className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"} ${entry.item.quick ? "quick" : ""}`}>
+        <div ref={barRef} role="status" aria-live="polite" onClick={(e) => { if (!(e.target as HTMLElement).closest("button")) advance(); }} className={`answer-bar ${picked === entry.item.answer ? "good" : "bad"} ${entry.item.quick ? "quick" : ""}`}>
           <div className="answer-bar-inner">
             <div className="answer-bar-copy">
               <b>{picked === entry.item.answer ? (entry.retry ? "Got it this time." : pickPraise(combo)) : "Not quite."}</b>
               {picked !== entry.item.answer && <p className="answer-correct">Answer: {entry.item.options[entry.item.answer]}</p>}
               <p>{entry.item.explain}</p>
               {entry.item.note && <p className="answer-note"><span>From your notes</span>{entry.item.note}</p>}
-              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> You will get this one again in a moment.</p>}
+              {picked !== entry.item.answer && entry.item.quick && hookFor(entry.item.topicId, entry.item.block) && <p className="teach-hook"><Sparkles size={15} /> <span>{hookFor(entry.item.topicId, entry.item.block)}</span></p>}
+              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> You'll get this one again shortly. Tap here or press Enter to continue.</p>}
             </div>
             <div className="answer-actions">
               {quickRight && !hold && <button className="button hold-button" onClick={() => setHold(true)}><Pause size={15} /> Hold</button>}
@@ -313,14 +314,15 @@ function TeachView({ teach, onNext }: { teach: Teach; onNext: () => void }) {
   return (
     <div className="teach-card">
       <div className="teach-head">
-        <span className="block-chip">{BLOCK_LABEL[teach.block]}</span>
-        <span className="kind-label">Part {teach.step} of {teach.steps}</span>
+        <span className="block-chip">{teach.title ? topicLabel(topicById.get(teach.topicId)!) : BLOCK_LABEL[teach.block]}</span>
+        <span className="kind-label">{teach.title ? `Topic ${teach.step} of ${teach.steps}` : `Part ${teach.step} of ${teach.steps}`}</span>
       </div>
-      <ul className="teach-lines">{teach.lines.map((line, i) => <li key={i}>{line}</li>)}</ul>
+      {teach.title && <h2 className="teach-title">{teach.title}</h2>}
+      {teach.title ? (teach.lines[0] && <p className="pearl">{teach.lines[0]}</p>) : <ul className="teach-lines">{teach.lines.map((line, i) => <li key={i}>{line}</li>)}</ul>}
       {teach.explain && <p className="teach-explain"><Lightbulb size={16} /> <span>{teach.explain}</span></p>}
       {teach.hook && <p className="teach-hook"><Sparkles size={16} /> <span>{teach.hook}</span></p>}
       <button className="button button-primary full-button big" onClick={onNext} autoFocus>
-        <span>Got it, quiz me</span> <ArrowRight size={18} />
+        <span>{teach.title ? "Start questions" : "Got it, quiz me"}</span> <ArrowRight size={18} />
       </button>
     </div>
   );

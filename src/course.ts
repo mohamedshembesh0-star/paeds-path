@@ -182,6 +182,31 @@ export function capstoneFor(topicId: string): Mcq[] {
 }
 
 /** Lesson steps: teach a block → quick checks on it → next block … → 3 vignettes. */
+/** Test-first lesson: quick checks block by block (the notes line + hook appear on a miss), then 1 vignette. */
+export function fastLessonSteps(topicId: string): Mcq[] {
+  const checks = chunksFor(topicId).flatMap((c) => c.checks);
+  const cap = capstoneFor(topicId);
+  const hard = cap.find((q) => q.level === 3) ?? cap[0];
+  return hard ? [...checks, hard] : checks;
+}
+
+/** Blitz: several topics back to back; a one-card intro per topic, then its quick checks. */
+export function blitzSteps(topicIds: string[]): (Teach | Mcq)[] {
+  const steps: (Teach | Mcq)[] = [];
+  topicIds.forEach((id, i) => {
+    const topic = topicById.get(id);
+    if (!topic) return;
+    const summary = bankFor(id).summary;
+    steps.push({ type: "teach", id: `${id}-intro`, topicId: id, block: "Def", lines: summary ? [summary] : [], explain: "", hook: "", step: i + 1, steps: topicIds.length, title: topic.title });
+    steps.push(...chunksFor(id).flatMap((c) => c.checks));
+  });
+  return steps;
+}
+
+export function hookFor(topicId: string, block: BlockName): string {
+  return chunksFor(topicId).find((c) => c.block === block)?.hook ?? "";
+}
+
 export function lessonSteps(topicId: string): (Teach | Mcq)[] {
   const chunks = chunksFor(topicId);
   const steps: (Teach | Mcq)[] = [];
