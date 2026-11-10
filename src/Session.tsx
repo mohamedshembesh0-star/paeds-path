@@ -83,12 +83,18 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
         });
       } else {
         setCombo(0);
-        // Re-ask a miss at the end of the current chunk (before the next teaching step), else at the end.
+        // Successive relearning: a miss comes back twice — soon (after a few other questions)
+        // and again later (end of this topic / round) — so it has to be got right after a gap.
         if (entry.retry < 3)
           setQueue((q) => {
             const nextTeach = q.findIndex((e, i) => i > pos && e.item.type === "teach");
-            const at = nextTeach < 0 ? q.length : nextTeach;
-            return [...q.slice(0, at), entryFor(item, entry.retry + 1), ...q.slice(at)];
+            const boundary = nextTeach < 0 ? q.length : nextTeach;
+            const near = Math.min(pos + 4, boundary);
+            const copies: [number, Entry][] = [[near, entryFor(item, entry.retry + 1)]];
+            if (entry.retry === 0 && boundary > near) copies.push([boundary, entryFor(item, entry.retry + 2)]);
+            let next = q;
+            for (const [at, e] of copies.sort((a, b) => b[0] - a[0])) next = [...next.slice(0, at), e, ...next.slice(at)];
+            return next;
           });
       }
     },
@@ -225,7 +231,7 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
               <p>{entry.item.explain}</p>
               {entry.item.note && <p className="answer-note"><span>From your notes</span>{entry.item.note}</p>}
               {picked !== entry.item.answer && entry.item.quick && hookFor(entry.item.topicId, entry.item.block) && <p className="teach-hook"><Sparkles size={15} /> <span>{hookFor(entry.item.topicId, entry.item.block)}</span></p>}
-              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> You'll get this one again shortly. Tap here or press Enter to continue.</p>}
+              {picked !== entry.item.answer && <p className="answer-requeue"><RotateCcw size={13} /> This comes back twice more this round. Tap here or press Enter to continue.</p>}
             </div>
             <div className="answer-actions">
               {quickRight && !hold && <button className="button hold-button" onClick={() => setHold(true)}><Pause size={15} /> Hold</button>}

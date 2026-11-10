@@ -9,7 +9,7 @@ const MIN = 60_000;
 const HOUR = 60 * MIN;
 const DAY = 24 * HOUR;
 /** Compressed Leitner ladder for a short pre-exam window. Index = box. */
-export const INTERVALS = [0, 15 * MIN, 3 * HOUR, 12 * HOUR, DAY, 2 * DAY, 4 * DAY];
+export const INTERVALS = [0, 10 * MIN, 3 * HOUR, 8 * HOUR, DAY, 2 * DAY, 4 * DAY];
 const MAX_BOX = INTERVALS.length - 1;
 
 export function dayKey(date = new Date()): string {
@@ -310,10 +310,12 @@ export function buildPlan(progress: Progress): Plan {
 
 export function dueItems(progress: Progress, now = Date.now()): (Mcq | Card)[] {
   return Object.entries(progress.items)
-    .filter(([id, state]) => state.due <= now && itemById.has(id))
+    .filter(([id, state]) => state.due <= now && itemById.has(id) && !id.startsWith("S-"))
     .sort(([, a], [, b]) => a.box - b.box || a.due - b.due)
     .map(([id]) => itemById.get(id)!)
-    .filter((item) => (item.type === "card" && item.university) || !!progress.topics[item.topicId] || progress.items[item.id].box <= 1);
+    .filter((item) => !!progress.topics[item.topicId] || progress.items[item.id].box <= 1)
+    // Fast multiple-choice relearning first, slower vignettes and oral cards after.
+    .sort((a, b) => Number(!(a.type === "mcq" && a.quick)) - Number(!(b.type === "mcq" && b.quick)));
 }
 
 /** Screening drill: never-seen first (in list order), then the shakiest / most overdue. */
@@ -344,7 +346,7 @@ export function screeningStats(progress: Progress) {
 
 export function weakItems(progress: Progress): (Mcq | Card)[] {
   return Object.entries(progress.items)
-    .filter(([id, state]) => state.wrong > 0 && state.box <= 2 && itemById.has(id))
+    .filter(([id, state]) => state.wrong > 0 && state.box <= 2 && itemById.has(id) && !id.startsWith("S-"))
     .sort(([, a], [, b]) => b.wrong - a.wrong || a.box - b.box)
     .map(([id]) => itemById.get(id)!);
 }

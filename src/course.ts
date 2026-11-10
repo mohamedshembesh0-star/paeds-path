@@ -226,7 +226,6 @@ export const allItems: (Mcq | Card)[] = [
     const bank = bankFor(topic.id);
     return [...bank.questions, ...bank.cards];
   }),
-  ...screening,
 ];
 export const itemById = new Map(allItems.map((item) => [item.id, item]));
 

@@ -2,13 +2,13 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import {
-  Activity, ArrowLeft, ClipboardCheck, Rocket, BookOpenCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, Rocket, BookOpenCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
-import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, blitzSteps, checkCount, chunksFor, course, fastLessonSteps, hasChunks, lessonSteps, questionCount, screening, screeningFor, studyOrder, topicById, topicLabel } from "./course";
+import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, blitzSteps, checkCount, chunksFor, course, fastLessonSteps, hasChunks, lessonSteps, questionCount, studyOrder, topicById, topicLabel } from "./course";
 import {
   accuracy, blockAccuracy, buildPlan, completeLesson, dayKey, dueItems, emptyProgress, fromTransferCode, gradeItem, loadProgress, mergeProgress, mixedDrill, nextDueAt,
-  pace, parseImport, rapidFire, recordOral, saveProgress, screeningDrill, screeningStats, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
+  pace, parseImport, rapidFire, recordOral, saveProgress, sectionStats, toTransferCode, topicMastery, weakItems, DEFAULT_EXAM,
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { InkProvider, useInk, useInkScope } from "./Ink";
@@ -68,7 +68,6 @@ const navItems = [
   { href: "/", label: "Today", icon: Home },
   { href: "/topics", label: "Topics", icon: Layers3 },
   { href: "/review", label: "Review", icon: RotateCcw },
-  { href: "/screening", label: "Screening", icon: ClipboardCheck },
   { href: "/cram", label: "Cram sheets", icon: ScrollText },
   { href: "/sketch", label: "Sketch pad", icon: PenTool },
   { href: "/oral", label: "Mock oral", icon: Mic },
@@ -200,7 +199,7 @@ function HomePage() {
                 <Link className="button button-ghost-light" href={`/learn/${plan.next.id}`}><Play size={16} /> {firstVisit ? "One topic at a time" : "Single lesson"}</Link>
               </>
             ) : <Link className="button button-light" href="/oral"><Mic size={16} /> Mock oral</Link>}
-            {due.length > 0 && <Link className="button button-ghost-light" href="/review/due"><RotateCcw size={16} /> Review {due.length}</Link>}
+            {due.length > 0 && <Link className="button button-ghost-light" href="/review/due"><RotateCcw size={16} /> Relearn {due.length} due</Link>}
           </div>
           {plan.remaining > 0 && <PaceLine remaining={plan.remaining} />}
           <div className="today-meter">
@@ -215,7 +214,7 @@ function HomePage() {
         <Link href="/review/due" className={`action-card ${due.length ? "" : "muted"}`}>
           <span className="action-icon coral"><RotateCcw size={19} /></span>
           <b>{due.length} due</b>
-          <span>Spaced review</span>
+          <span>Relearn round</span>
           <small>{due.length ? "Answer these before they fade." : nextDue ? `Next one due ${relTime(nextDue)}.` : "Nothing yet. Learn a topic first."}</small>
         </Link>
         <Link href="/review/rapid" className="action-card">
@@ -224,11 +223,11 @@ function HomePage() {
           <span>Rapid fire</span>
           <small>Fast single-fact questions from the topics you've learned. Correct answers move on by themselves.</small>
         </Link>
-        <Link href="/screening" className="action-card">
-          <span className="action-icon navy"><ClipboardCheck size={19} /></span>
-          <b>{screeningStats(progress).solid}/100</b>
-          <span>University screening</span>
-          <small>The 100 official screening questions with their exact answers. Get all of them solid.</small>
+        <Link href="/review/weak" className="action-card">
+          <span className="action-icon navy"><Dumbbell size={19} /></span>
+          <b>{weakItems(progress).length} weak</b>
+          <span>Weak spots</span>
+          <small>Every question you've missed that isn't locked in yet, repeated until you get it.</small>
         </Link>
         <Link href="/oral" className="action-card">
           <span className="action-icon mint"><Mic size={19} /></span>
@@ -318,7 +317,7 @@ function BlitzPage() {
   const topicIds = useMemo(() => studyOrder.filter((t) => !progress.topics[t.id]).slice(0, size).map((t) => t.id), [size, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const items = useMemo<SessionItem[]>(() => {
     const out: SessionItem[] = [];
-    for (const id of topicIds) out.push(...blitzSteps([id]).map((s) => (s.type === "teach" ? { ...s, step: topicIds.indexOf(id) + 1, steps: topicIds.length } : s)), ...screeningFor(id));
+    for (const id of topicIds) out.push(...blitzSteps([id]).map((s) => (s.type === "teach" ? { ...s, step: topicIds.indexOf(id) + 1, steps: topicIds.length } : s)));
     return out;
   }, [topicIds]);
   const perTopic = useRef<Record<string, { need: Set<string>; tried: Set<string>; right: number; done: boolean }>>({});
@@ -363,7 +362,7 @@ function BlitzPage() {
         result={result}
         primary={left ? { label: `Blitz the next ${Math.min(size, left)}`, href: `/blitz/${size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
         secondary={[{ label: "Back to today", href: "/" }, { label: "Review what I missed", href: "/review/weak" }]}
-        footnote={`${left} topics left. Vignettes and oral drills for these topics are waiting in Deep practice on each topic page.`}
+        footnote={`${left} topics left. Come back for a Relearn round in a few hours: these questions return then and again tomorrow, which is what makes them stick.`}
       />
     );
   }
@@ -466,12 +465,6 @@ function TopicPage() {
         </div>
       </div>
       <NotesBlocks topic={topic} />
-      {screeningFor(topic.id).length > 0 && (
-        <section className="synthesis-section">
-          <div className="section-title-row"><div><p className="eyebrow">ON THE UNIVERSITY SCREENING LIST</p><h2>Official screening questions</h2><p className="section-sub">Learn these answers word for word.</p></div></div>
-          <div className="screen-list">{screeningFor(topic.id).map((c) => <ScreeningRow key={c.id} card={c} />)}</div>
-        </section>
-      )}
       {bank.cards.length > 0 && (
         <section className="synthesis-section">
           <div className="section-title-row"><div><p className="eyebrow">WHAT THE EXAMINER WILL ASK</p><h2>Oral prompts</h2><p className="section-sub">Answer out loud before you open each one.</p></div></div>
@@ -526,9 +519,9 @@ function LessonPage() {
   const items = useMemo<SessionItem[]>(() => {
     if (!topic) return [];
     const bank = bankFor(topic.id);
-    if (hasChunks(topic.id)) return [...(reading ? lessonSteps(topic.id) : fastLessonSteps(topic.id)), ...screeningFor(topic.id)];
+    if (hasChunks(topic.id)) return reading ? lessonSteps(topic.id) : fastLessonSteps(topic.id);
     const qs = [...bank.questions].sort((a, b) => a.level - b.level);
-    return [...qs, ...bank.cards, ...screeningFor(topic.id)];
+    return [...qs, ...bank.cards];
   }, [topic, runKey, reading]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => { started.current = Date.now(); }, [runKey, topicId, reading]);
@@ -592,7 +585,7 @@ function LessonPage() {
         result={result}
         primary={next ? { label: `Next: ${next.title}`, href: `/learn/${next.id}` } : { label: "Back to today", href: "/" }}
         secondary={secondary}
-        footnote={plan.remaining > 0 ? `${plan.learnedToday}/${plan.targetToday} topics today. Misses come back in your review queue in about 15 minutes.` : "Every topic learned. Keep your review queue at zero."}
+        footnote={plan.remaining > 0 ? `${plan.learnedToday}/${plan.targetToday} topics today. Do a Relearn round in a few hours: today's questions come back then, and again tomorrow.` : "Every topic learned. Keep your review queue at zero."}
       />
     );
   }
@@ -694,7 +687,7 @@ function ReviewHub() {
   return (
     <div className="page-wrap">
       <header className="page-heading simple-heading">
-        <div><p className="eyebrow">SPACED REPETITION</p><h1>Review before<br /><em>it fades.</em></h1><p className="lede">Each question you answer is scheduled again: a miss comes back in 15 minutes, a correct answer in 3 hours, then 12 hours, 1 day and 2 days. Keeping this queue at zero is what makes three days of learning still be there on exam day.</p></div>
+        <div><p className="eyebrow">SUCCESSIVE RELEARNING</p><h1>Relearn before<br /><em>it fades.</em></h1><p className="lede">The method with the strongest evidence for exam retention: answer questions with feedback, repeat misses until they're right, then do it again in later sessions. Here a question you get right comes back after 8 hours, then 1 day; a miss comes back in 10 minutes. Quick multiple-choice questions come first, so a round goes fast.</p></div>
         <div className="review-stat"><RotateCcw size={20} /><b>{due.length}</b><span>due now</span></div>
       </header>
       <section className="action-grid">
@@ -703,7 +696,7 @@ function ReviewHub() {
           <small>Quick single-fact questions, auto-advancing. The fastest way to run through a lot of facts.</small>
         </Link>
         <Link href="/review/due" className={`action-card ${due.length ? "" : "muted"}`}>
-          <span className="action-icon coral"><RotateCcw size={19} /></span><b>{due.length} due</b><span>Due reviews</span>
+          <span className="action-icon coral"><RotateCcw size={19} /></span><b>{due.length} due</b><span>Relearn round</span>
           <small>{due.length ? `Up to 25 per round, newest misses first.` : nextDue ? `All clear. Next one due ${relTime(nextDue)}.` : "Learn a topic to fill this up."}</small>
         </Link>
         <Link href="/review/weak" className={`action-card ${weak.length ? "" : "muted"}`}>
@@ -738,16 +731,15 @@ function ReviewSession() {
   const [result, setResult] = useState<SessionResult | null>(null);
   // Freeze the item list at the start of each round.
   const items = useMemo<SessionItem[]>(() => {
-    if (mode === "due") return dueItems(progress).slice(0, 25);
+    if (mode === "due") return dueItems(progress).slice(0, 30);
     if (mode === "weak") return weakItems(progress).slice(0, 20);
     if (mode === "rapid") return rapidFire(progress, 30);
     if (mode === "rapid-I" || mode === "rapid-II" || mode === "rapid-III") return rapidFire(progress, 30, mode.slice(6) as Topic["section"]);
-    if (mode === "screening") return screeningDrill(progress, 25);
     return mixedDrill(progress, 20);
   }, [mode, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const onGrade = useCallback((id: string, correct: boolean, firstTry: boolean) => update((p) => gradeItem(p, id, correct, firstTry, "review")), [update]);
   const onFinish = useCallback((r: SessionResult) => { setResult(r); window.scrollTo(0, 0); }, []);
-  const title = mode === "due" ? "Due reviews" : mode === "weak" ? "Weak-spot drill" : mode === "screening" ? "University screening" : mode.startsWith("rapid") ? "Rapid fire" : "Mixed drill";
+  const title = mode === "due" ? "Relearn round" : mode === "weak" ? "Weak-spot drill" : mode.startsWith("rapid") ? "Rapid fire" : "Mixed drill";
 
   if (result) {
     const moreDue = dueItems(progress).length;
@@ -757,8 +749,8 @@ function ReviewSession() {
       <ResultView
         title={title}
         result={result}
-        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode === "screening" ? "Next 25 screening questions" : mode.startsWith("rapid") ? "Another 30" : "Another 20", href: `/review/${mode}/${round + 1}` } : { label: "Back to today", href: "/" }}
-        secondary={[{ label: mode === "screening" ? "All screening questions" : "Review hub", href: mode === "screening" ? "/screening" : "/review" }]}
+        primary={more > 0 ? { label: mode === "due" ? `Keep going (${moreDue} due)` : mode === "weak" ? `Another round (${moreWeak} weak)` : mode.startsWith("rapid") ? "Another 30" : "Another 20", href: `/review/${mode}/${round + 1}` } : { label: "Back to today", href: "/" }}
+        secondary={[{ label: "Review hub", href: "/review" }]}
       />
     );
   }
@@ -775,7 +767,7 @@ function ReviewSession() {
       </div>
     );
   }
-  return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate(mode === "screening" ? "/screening" : "/review")} header={title.toUpperCase()} />;
+  return <Session key={`${mode}-${round}`} items={items} showTopic onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/review")} header={title.toUpperCase()} />;
 }
 
 function BlitzRoute() {
@@ -787,59 +779,6 @@ function BlitzRoute() {
 function ReviewSessionRoute() {
   const [location] = useLocation();
   return <ReviewSession key={location} />;
-}
-
-/* ------------------------------------------------------------------ screening */
-
-function ScreeningRow({ card, showTopic }: { card: (typeof screening)[number]; showTopic?: boolean }) {
-  const { progress } = useStore();
-  const st = progress.items[card.id];
-  const topic = topicById.get(card.topicId)!;
-  const status = !st ? "new" : st.box >= 3 ? "solid" : "shaky";
-  return (
-    <details className={`screen-row ${status}`}>
-      <summary>
-        <span className="screen-n">{card.id.slice(2)}</span>
-        <span className="screen-q">{card.front}{showTopic && <small>{topicLabel(topic)} · {topic.title}</small>}</span>
-        <span className={`screen-status ${status}`}>{status === "new" ? "NEW" : status === "solid" ? "SOLID" : "SHAKY"}</span>
-      </summary>
-      <div className="screen-a"><b>{card.back}</b>{card.caveat && <p className="caveat">Note: {card.caveat}</p>}{showTopic && <Link className="text-link" href={`/topic/${topic.id}`}>Open topic <ArrowRight size={13} /></Link>}</div>
-    </details>
-  );
-}
-
-function ScreeningPage() {
-  const { progress } = useStore();
-  const [query, setQuery] = useState("");
-  const [filter, setFilter] = useState<"all" | "new" | "shaky" | "solid">("all");
-  const stats = screeningStats(progress);
-  const q = query.trim().toLowerCase();
-  const list = screening.filter((c) => {
-    if (q && !`${c.front} ${c.back}`.toLowerCase().includes(q)) return false;
-    const st = progress.items[c.id];
-    if (filter === "new") return !st;
-    if (filter === "shaky") return !!st && st.box < 3;
-    if (filter === "solid") return !!st && st.box >= 3;
-    return true;
-  });
-  return (
-    <div className="page-wrap">
-      <header className="page-heading simple-heading">
-        <div><p className="eyebrow">THE UNIVERSITY'S OWN LIST</p><h1>100 screening<br /><em>questions.</em></h1><p className="lede">These come with the university's official answers. Drill them until every one is solid: say the answer, reveal it, and be strict with yourself. Each one also appears inside its topic's lesson, and they are spaced like everything else.</p></div>
-        <div className="review-stat"><ClipboardCheck size={20} /><b>{stats.solid}</b><span>solid / 100</span></div>
-      </header>
-      <div className="screen-meter"><div className="progress-track"><span style={{ width: `${stats.solid}%` }} /></div><small>{stats.seen} seen · {stats.solid} solid · {stats.shaky} shaky · {stats.total - stats.seen} new</small></div>
-      <div className="oral-setup">
-        <Link href="/review/screening" className="button button-primary big"><Play size={17} /> Drill 25 {stats.seen < stats.total ? "(new first)" : "(weakest first)"}</Link>
-      </div>
-      <div className="filter-row">
-        <label className="search-box"><Search size={17} /><input aria-label="Search screening questions" placeholder="Search questions and answers" value={query} onChange={(e) => setQuery(e.target.value)} />{query && <button aria-label="Clear search" onClick={() => setQuery("")}><X size={15} /></button>}</label>
-        <div className="segmented">{(["all", "new", "shaky", "solid"] as const).map((f) => <button key={f} className={filter === f ? "on" : ""} onClick={() => setFilter(f)}>{f[0].toUpperCase() + f.slice(1)}</button>)}</div>
-      </div>
-      <div className="screen-list">{list.map((c) => <ScreeningRow key={c.id} card={c} showTopic />)}</div>
-      {list.length === 0 && <p className="subtle-note">Nothing matches.</p>}
-    </div>
-  );
 }
 
 /* ------------------------------------------------------------------ sketch pad */
@@ -1295,7 +1234,6 @@ export default function App() {
           <Route path="/blitz/:n/:round?" component={BlitzRoute} />
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
-          <Route path="/screening" component={ScreeningPage} />
           <Route path="/cram" component={CramPage} />
           <Route path="/sketch" component={SketchPage} />
           <Route path="/oral" component={OralPage} />
