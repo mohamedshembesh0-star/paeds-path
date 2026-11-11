@@ -85,7 +85,7 @@ function AppShell({ children }: { children: ReactNode }) {
   const plan = buildPlan(progress);
   const isActive = (href: string) => (href === "/" ? location === "/" : location.startsWith(href));
   return (
-    <div className={`app-shell ${/^\/(learn|review|blitz)\//.test(location) ? "focus-mode" : ""}`}>
+    <div className={`app-shell ${/^\/(learn|review|blitz|sprint)\//.test(location) ? "focus-mode" : ""}`}>
       <aside className="sidebar">
         <Link href="/" className="brand-lockup" aria-label="Paeds Path home">
           <span className="brand-mark"><HeartPulse size={21} strokeWidth={2.4} /></span>
@@ -195,7 +195,8 @@ function HomePage() {
           <div className="today-actions">
             {plan.next ? (
               <>
-                <Link className="button button-light" href="/blitz/5"><Rocket size={16} /> Blitz the next 5 topics</Link>
+                <Link className="button button-light" href="/sprint/6"><Rocket size={16} /> Final sprint: next 6 topics</Link>
+                <Link className="button button-ghost-light" href="/blitz/5">Blitz 5 (full)</Link>
                 <Link className="button button-ghost-light" href={`/learn/${plan.next.id}`}><Play size={16} /> {firstVisit ? "One topic at a time" : "Single lesson"}</Link>
               </>
             ) : <Link className="button button-light" href="/oral"><Mic size={16} /> Mock oral</Link>}
@@ -308,18 +309,33 @@ function PaceLine({ remaining }: { remaining: number }) {
 
 /* ------------------------------------------------------------------ blitz */
 
-function BlitzPage() {
+/** Final sprint order: unlearned topics rotating Section III → II → I, so every section gets covered. */
+function sprintOrder(progress: Progress): Topic[] {
+  const by = (sec: Topic["section"]) => studyOrder.filter((t) => t.section === sec && !progress.topics[t.id]);
+  const queues = [by("III"), by("II"), by("I")];
+  const out: Topic[] = [];
+  while (queues.some((q) => q.length)) for (const q of queues) if (q.length) out.push(q.shift()!);
+  return out;
+}
+
+function BlitzPage({ sprint = false }: { sprint?: boolean }) {
   const { n, round } = useParams<{ n: string; round?: string }>();
-  const size = Math.min(15, Math.max(1, Number(n) || 5));
+  const size = Math.min(15, Math.max(1, Number(n) || (sprint ? 6 : 5)));
   const { progress, update } = useStore();
   const [, navigate] = useLocation();
-  // Freeze the topic list when the blitz starts.
-  const topicIds = useMemo(() => studyOrder.filter((t) => !progress.topics[t.id]).slice(0, size).map((t) => t.id), [size, round]); // eslint-disable-line react-hooks/exhaustive-deps
+  const base = sprint ? "/sprint" : "/blitz";
+  const label = sprint ? "Final sprint" : "Blitz";
+  // Freeze the topic list when the round starts.
+  const topicIds = useMemo(() => (sprint ? sprintOrder(progress) : studyOrder.filter((t) => !progress.topics[t.id])).slice(0, size).map((t) => t.id), [size, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const items = useMemo<SessionItem[]>(() => {
     const out: SessionItem[] = [];
-    for (const id of topicIds) out.push(...blitzSteps([id]).map((s) => (s.type === "teach" ? { ...s, step: topicIds.indexOf(id) + 1, steps: topicIds.length } : s)));
+    for (const id of topicIds) {
+      const steps = blitzSteps([id]).map((s) => (s.type === "teach" ? { ...s, step: topicIds.indexOf(id) + 1, steps: topicIds.length } : s));
+      // Sprint: the key-point card plus one quick question per notes block (~1 min a topic).
+      out.push(...(sprint ? [steps[0], ...chunksFor(id).map((c) => c.checks[0]).filter(Boolean)] : steps));
+    }
     return out;
-  }, [topicIds]);
+  }, [topicIds]); // eslint-disable-line react-hooks/exhaustive-deps
   const perTopic = useRef<Record<string, { need: Set<string>; tried: Set<string>; right: number; done: boolean }>>({});
   const lastDone = useRef(Date.now());
   const [result, setResult] = useState<SessionResult | null>(null);
@@ -356,11 +372,12 @@ function BlitzPage() {
   }
   if (result) {
     const left = studyOrder.filter((t) => !progress.topics[t.id]).length;
+    const nextLabel = sprint ? `Sprint the next ${Math.min(size, left)}` : `Blitz the next ${Math.min(size, left)}`;
     return (
       <ResultView
-        title={`Blitz: ${topicIds.length} topics`}
+        title={`${label}: ${topicIds.length} topics`}
         result={result}
-        primary={left ? { label: `Blitz the next ${Math.min(size, left)}`, href: `/blitz/${size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
+        primary={left ? { label: nextLabel, href: `${base}/${size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
         secondary={[{ label: "Back to today", href: "/" }, { label: "Review what I missed", href: "/review/weak" }]}
         footnote={`${left} topics left. Come back for a Relearn round in a few hours: these questions return then and again tomorrow, which is what makes them stick.`}
       />
@@ -368,11 +385,11 @@ function BlitzPage() {
   }
   const header = (
     <span className="session-header-row">
-      <span>Blitz: {topicIds.length} topics</span>
-      <span className="blitz-sizes">{[3, 5, 10].map((k) => <Link key={k} className={k === size ? "on" : ""} href={`/blitz/${k}/${(Number(round) || 0) + 1}`}>{k}</Link>)}</span>
+      <span>{label}: {topicIds.length} topics</span>
+      <span className="blitz-sizes">{(sprint ? [3, 6, 12] : [3, 5, 10]).map((k) => <Link key={k} className={k === size ? "on" : ""} href={`${base}/${k}/${(Number(round) || 0) + 1}`}>{k}</Link>)}</span>
     </span>
   );
-  return <Session key={`blitz-${size}-${round ?? 0}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/")} header={header} />;
+  return <Session key={`${base}-${size}-${round ?? 0}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/")} header={header} />;
 }
 
 /* ------------------------------------------------------------------ topics */
@@ -772,7 +789,7 @@ function ReviewSession() {
 
 function BlitzRoute() {
   const [location] = useLocation();
-  return <BlitzPage key={location} />;
+  return <BlitzPage key={location} sprint={location.startsWith("/sprint")} />;
 }
 
 /** Remount on every round so each one starts fresh. */
@@ -1233,6 +1250,7 @@ export default function App() {
           <Route path="/topic/:topicId" component={TopicPage} />
           <Route path="/learn/:topicId" component={LessonPage} />
           <Route path="/blitz/:n/:round?" component={BlitzRoute} />
+          <Route path="/sprint/:n/:round?" component={BlitzRoute} />
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
           <Route path="/cram" component={CramPage} />
