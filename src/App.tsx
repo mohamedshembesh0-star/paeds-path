@@ -12,6 +12,7 @@ import {
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { InkProvider, useInk, useInkScope } from "./Ink";
+import { PatientPage, PatientsPage } from "./Patients";
 import { Session, type SessionItem, type SessionResult } from "./Session";
 import type { BlockName, Progress, Topic } from "./types";
 
@@ -68,6 +69,7 @@ const navItems = [
   { href: "/", label: "Today", icon: Home },
   { href: "/topics", label: "Topics", icon: Layers3 },
   { href: "/review", label: "Review", icon: RotateCcw },
+  { href: "/patients", label: "Patients", icon: Stethoscope },
   { href: "/cram", label: "Cram sheets", icon: ScrollText },
   { href: "/sketch", label: "Sketch pad", icon: PenTool },
   { href: "/oral", label: "Mock oral", icon: Mic },
@@ -1260,6 +1262,8 @@ export default function App() {
           <Route path="/sprint/:n/:round?" component={BlitzRoute} />
           <Route path="/review" component={ReviewHub} />
           <Route path="/review/:mode/:round?" component={ReviewSessionRoute} />
+          <Route path="/patients" component={PatientsPage} />
+          <Route path="/patients/:id" component={PatientPage} />
           <Route path="/cram" component={CramPage} />
           <Route path="/sketch" component={SketchPage} />
           <Route path="/oral" component={OralPage} />
