@@ -114,7 +114,7 @@
    "hook": "Right hand = pre-ductal (before the duct).",
    "checks": [
     {
-     "q": "Which pre-post-ductal saturation gap suggests PPHN?",
+     "q": "From what pre-post-ductal saturation gap is PPHN suspected?",
      "options": [
       ">3%",
       ">10%",
@@ -388,7 +388,7 @@
      "why": "Attacking dividing cells causes IUGR, CNS and eye damage."
     },
     {
-     "q": "Which congenital infection causes hydrops fetalis?",
+     "q": "Which congenital infection causes hydrops fetalis via fetal anaemia?",
      "options": [
       "VZV",
       "Parvovirus B19",
@@ -1184,7 +1184,7 @@
      "q": "OA/TEF is associated with which anomaly cluster?",
      "options": [
       "VACTERL",
-      "CHARGE",
+      "Beckwith-Wiedemann",
       "WAGR"
      ],
      "answer": 0,
@@ -1737,7 +1737,7 @@
      "why": "Lymphoblastic → anterior mediastinal mass; Burkitt → abdominal mass."
     },
     {
-     "q": "Which node size is suspicious?",
+     "q": "Above what size is a lymph node suspicious for malignancy?",
      "options": [
       ">1 cm",
       ">2 cm",
@@ -1783,8 +1783,8 @@
     {
      "q": "Cure rate of childhood Hodgkin lymphoma?",
      "options": [
-      ">50%",
-      ">70%",
+      "About 50%",
+      "About 70%",
       ">90%"
      ],
      "answer": 2,
@@ -1919,10 +1919,10 @@
      "options": [
       "Vincristine",
       "Methotrexate",
-      "Cytarabine IV"
+      "Asparaginase"
      ],
      "answer": 1,
-     "why": "Intrathecal methotrexate treats the CNS sanctuary; cure ~90%."
+     "why": "Intrathecal methotrexate treats the CNS sanctuary (intrathecal vincristine is fatal); cure ~90%."
     },
     {
      "q": "Febrile neutropenia: antibiotics within?",
@@ -1998,11 +1998,11 @@
    "hook": "Glanzmann = Gather fails; Bernard-Soulier = Binding fails.",
    "checks": [
     {
-     "q": "ITP antibodies target which platelet glycoprotein?",
+     "q": "ITP IgG is classically directed against which target?",
      "options": [
-      "GPIb-IX",
+      "PF4-heparin complex",
       "GPIIb/IIIa",
-      "GPVI"
+      "ADAMTS13"
      ],
      "answer": 1,
      "why": "IgG against GPIIb/IIIa; platelets cleared by splenic macrophages."
@@ -2155,11 +2155,11 @@
      "why": "Sepsis, shock, trauma, malignancy."
     },
     {
-     "q": "Which E. coli serotype causes typical HUS?",
+     "q": "Which E. coli serotype classically causes typical HUS?",
      "options": [
       "O157:H7",
       "K1",
-      "O104 only"
+      "O78 (ETEC)"
      ],
      "answer": 0,
      "why": "Shiga toxin-producing E. coli O157:H7 after bloody diarrhoea."

@@ -852,7 +852,7 @@
   ]
  },
  "I-7": {
-  "summary": "Neonatal respiratory distress is pattern recognition on gestation and delivery: preterm = RDS, term C-section = TTN, post-term with meconium = MAS/PPHN - but always think sepsis, cardiac, CDH, choanal atresia and TE fistula; CPAP for all.",
+  "summary": "Neonatal respiratory distress is pattern recognition on gestation and delivery: preterm = RDS, term C-section = TTN, post-term with meconium = MAS/PPHN - but always think sepsis, cardiac, CDH, choanal atresia and TE fistula; CPAP is the default support (CDH: intubate, never bag-mask).",
   "questions": [
    {
     "type": "mcq",
@@ -994,7 +994,7 @@
   ]
  },
  "I-8": {
-  "summary": "Neonatal jaundice is sorted by onset and by splitting the bilirubin: jaundice in the first 24 hours is always pathological (haemolysis until proven otherwise), and prolonged conjugated jaundice with pale stools is biliary atresia until a Kasai is done before 60 days.",
+  "summary": "Neonatal jaundice is sorted by onset and by splitting the bilirubin: jaundice in the first 24 hours is always pathological (haemolysis until proven otherwise), and prolonged conjugated jaundice with pale stools is biliary atresia until proven otherwise - Kasai before 60 days.",
   "questions": [
    {
     "type": "mcq",

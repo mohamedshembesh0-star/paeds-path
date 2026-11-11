@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { ArrowRight, Check, Eye, Flame, Lightbulb, Pause, RotateCcw, Sparkles, X, Zap } from "lucide-react";
+import { ArrowRight, Check, ClipboardList, Eye, Flame, Lightbulb, Pause, RotateCcw, Sparkles, X, Zap } from "lucide-react";
 import { BLOCK_LABEL, hookFor, topicById, topicLabel } from "./course";
 import { useInkScope } from "./Ink";
 import type { Card, Mcq, Teach } from "./types";
@@ -209,7 +209,7 @@ export function Session({ items, showTopic, onGrade, onFinish, onExit, header }:
           <span>{doneUnique}<i>/</i>{uniqueTotal}</span>
         </div>
         <span className={`combo-chip ${combo >= 3 ? "hot" : ""}`} title="Correct in a row" aria-label={`${combo} correct in a row`}><Flame size={14} /> {combo}</span>
-        <span className="xp-chip" aria-label={`${xp} points this session`}><Zap size={14} /> {xp}</span>
+        <span key={xp} className="xp-chip bump" aria-label={`${xp} points this session`}><Zap size={14} /> {xp}</span>
       </div>
 
       {header && <p className="session-header">{header}</p>}
@@ -318,7 +318,8 @@ function CardView({ card, revealed, verdict, onReveal, onJudge, showTopic, topic
 
 function TeachView({ teach, onNext }: { teach: Teach; onNext: () => void }) {
   return (
-    <div className="teach-card">
+    <div className={`teach-card ${teach.title ? "chart" : ""}`}>
+      {teach.title && <span className="chart-clip" aria-hidden="true"><ClipboardList size={18} /></span>}
       <div className="teach-head">
         <span className="block-chip">{teach.title ? topicLabel(topicById.get(teach.topicId)!) : BLOCK_LABEL[teach.block]}</span>
         <span className="kind-label">{teach.title ? `Topic ${teach.step} of ${teach.steps}` : `Part ${teach.step} of ${teach.steps}`}</span>

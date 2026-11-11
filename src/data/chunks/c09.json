@@ -20,7 +20,7 @@
   {
    "block": "Cause",
    "explain": "Respiratory viruses dominate; group A strep is the key bacterial throat pathogen and pneumococcus leads in sinus and middle ear disease.",
-   "hook": "Croup = Parainfluenza (P for 'parrot bark').",
+   "hook": "Croup = Parainfluenza (seal-like barking cough).",
    "checks": [
     {
      "q": "Which virus is the classic cause of croup?",
@@ -117,7 +117,7 @@
      "q": "Symptom duration suggesting bacterial sinusitis?",
      "options": [
       "Over 3 days",
-      "Over 6 weeks",
+      "Over 5 days",
       "Over 10 days"
      ],
      "answer": 2,

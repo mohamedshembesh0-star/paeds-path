@@ -360,7 +360,7 @@
  "II-23": [
   {
    "block": "Def",
-   "explain": "Children rarely transmit TB; a child with TB means a recently infected household adult is the source, so contact tracing is essential.",
+   "explain": "Children rarely transmit TB; a child with TB means an infectious adult (usually in the household) is the source, so contact tracing is essential.",
    "hook": "Child with TB = find the coughing adult.",
    "checks": [
     {
@@ -422,7 +422,7 @@
      "options": [
       "Cord factor",
       "Sulfatides",
-      "Mycolic acid capsule"
+      "Catalase (KatG)"
      ],
      "answer": 0,
      "why": "Cord factor stimulates macrophages to release TNF-α; sulfatides block phagolysosome fusion."
@@ -1071,14 +1071,14 @@
    "hook": "Eculizumab = man-made C5 deficiency.",
    "checks": [
     {
-     "q": "Treatment for atypical HUS?",
+     "q": "Key vaccine for a child with terminal complement deficiency?",
      "options": [
-      "Rituximab",
-      "Plasma exchange only",
-      "Eculizumab"
+      "BCG",
+      "Rotavirus",
+      "Meningococcal ACWY + B"
      ],
      "answer": 2,
-     "why": "Anti-C5 eculizumab; needs meningococcal vaccination first."
+     "why": "Meningococcal ACWY + B (plus pneumococcus, Hib); early antibiotics for fever."
     },
     {
      "q": "Why must eculizumab patients get meningococcal vaccine?",
@@ -2435,12 +2435,12 @@
     {
      "q": "Drug used for apnoea of prematurity?",
      "options": [
-      "Theophylline IV",
+      "Salbutamol",
       "Naloxone",
       "Caffeine"
      ],
      "answer": 2,
-     "why": "Caffeine citrate."
+     "why": "Caffeine citrate (a methylxanthine) stimulates respiratory drive."
     }
    ]
   }

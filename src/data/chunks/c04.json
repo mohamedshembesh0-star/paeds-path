@@ -1395,7 +1395,7 @@
       "Single-stranded RNA"
      ],
      "answer": 0,
-     "why": "B19 is the only ssDNA virus causing human disease; fifth disease."
+     "why": "B19 is a parvovirus: small, non-enveloped, single-stranded DNA; causes fifth disease."
     }
    ]
   },
@@ -1516,14 +1516,14 @@
      "why": "Falling Hb with reticulocytopenia."
     },
     {
-     "q": "Pregnant woman, B19 antibody positive: management?",
+     "q": "Pregnant woman exposed to B19, IgG positive and IgM negative: management?",
      "options": [
       "Weekly ultrasound",
       "Reassurance",
       "Termination counselling"
      ],
      "answer": 1,
-     "why": "Antibody positive means immune: reassure. Weekly ultrasound is for infection >20 weeks."
+     "why": "IgG positive, IgM negative means past infection and immunity: reassure. Weekly ultrasound is for acute infection >20 weeks."
     }
    ]
   },
@@ -1874,7 +1874,7 @@
      "q": "Which antibiotic is added in necrotising fasciitis?",
      "options": [
       "Gentamicin",
-      "Vancomycin",
+      "Co-trimoxazole",
       "Clindamycin"
      ],
      "answer": 2,
@@ -2045,14 +2045,14 @@
      "why": "Clindamycin inhibits protein synthesis, suppressing toxin production."
     },
     {
-     "q": "Which drug treats MSSA?",
+     "q": "Which is a first-line drug for MSSA?",
      "options": [
       "Vancomycin",
       "Cefazolin",
       "Ceftaroline"
      ],
      "answer": 1,
-     "why": "MSSA: anti-staph penicillins or cefazolin; vancomycin is for MRSA."
+     "why": "MSSA: anti-staph penicillins or cefazolin are first-line; vancomycin is reserved for MRSA."
     },
     {
      "q": "Which β-lactam binds MRSA's altered PBPs?",
@@ -2363,7 +2363,7 @@
    "hook": "Short IV, long oral: ~3 weeks total.",
    "checks": [
     {
-     "q": "Which IV drug treats MSSA osteomyelitis?",
+     "q": "First-line IV drug for MSSA osteomyelitis?",
      "options": [
       "Cefazolin",
       "Vancomycin",

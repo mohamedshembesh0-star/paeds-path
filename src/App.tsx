@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { Link, Route, Router, Switch, useLocation, useParams } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import {
-  Activity, ArrowLeft, Rocket, BookOpenCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
+  Activity, ArrowLeft, Stethoscope, Rocket, BookOpenCheck, PenTool, Lightbulb, Printer, ScrollText, Gauge, ArrowRight, BookOpen, Brain, CalendarClock, Check, CheckCircle2, ChevronDown, Clipboard, Clock3, Download, Dumbbell, ExternalLink,
   Flame, GraduationCap, HeartPulse, Home, Layers3, ListChecks, Menu, Mic, Play, RotateCcw, Search, Settings, ShieldAlert, Shuffle, Sparkles, Target, Timer, Trophy, Upload, X, Zap,
 } from "lucide-react";
 import { BLOCKS, BLOCK_LABEL, SECTION_NAME, authoredTopics, bankFor, blitzSteps, checkCount, chunksFor, course, fastLessonSteps, hasChunks, lessonSteps, questionCount, studyOrder, topicById, topicLabel } from "./course";
@@ -88,7 +88,7 @@ function AppShell({ children }: { children: ReactNode }) {
     <div className={`app-shell ${/^\/(learn|review|blitz|sprint)\//.test(location) ? "focus-mode" : ""}`}>
       <aside className="sidebar">
         <Link href="/" className="brand-lockup" aria-label="Paeds Path home">
-          <span className="brand-mark"><HeartPulse size={21} strokeWidth={2.4} /></span>
+          <span className="brand-mark"><Stethoscope size={21} strokeWidth={2.4} /></span>
           <span><b>paeds path</b><small>FINAL EXAM SPRINT</small></span>
         </Link>
         <div className="sidebar-label">YOUR DESK</div>
@@ -109,7 +109,7 @@ function AppShell({ children }: { children: ReactNode }) {
         </div>
       </aside>
       <div className="mobile-top">
-        <Link href="/" className="mobile-brand"><span className="brand-mark"><HeartPulse size={19} /></span><b>paeds path</b></Link>
+        <Link href="/" className="mobile-brand"><span className="brand-mark"><Stethoscope size={19} /></span><b>paeds path</b></Link>
         <span className="mobile-countdown"><CalendarClock size={14} /> {examLabel(plan.examIn)}</span>
         <button aria-label="Toggle navigation" className="icon-button" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>
       </div>
@@ -169,7 +169,7 @@ function HomePage() {
           <p className="lede">
             {plan.remaining === 0
               ? "Spend today on reviews, weak spots and mock orals."
-              : `Today's target is ${plan.targetToday} new topic${plan.targetToday === 1 ? "" : "s"}, then clear your reviews. Lessons go block by block: read 1–3 lines, answer a quick question on each, then 3 vignettes to tie it together. Correct answers move on by themselves.`}
+              : `Tap Sprint all and keep going: one key-point card per topic, then one quick question per notes block. Topics rotate through Sections III, II and I, and every finished topic is saved, so you can stop and resume any time.`}
           </p>
         </div>
         <div className="heading-stats">
@@ -209,7 +209,10 @@ function HomePage() {
             <small>{plan.learnedToday} of {plan.targetToday} topics today</small>
           </div>
         </div>
-        <div className="today-art" aria-hidden="true"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="art-cross"><span /><i /></div><span className="art-caption">LEARN / RECALL / REPEAT</span></div>
+        <div className="ecg" aria-hidden="true">
+          <svg viewBox="0 0 600 120" preserveAspectRatio="none"><path className="ecg-line" pathLength="1" d="M0,70 L90,70 L105,70 L115,52 L125,70 L150,70 L162,70 L170,88 L182,12 L194,104 L204,70 L240,70 L258,50 L276,70 L330,70 L345,70 L355,52 L365,70 L390,70 L402,70 L410,88 L422,12 L434,104 L444,70 L480,70 L498,50 L516,70 L600,70" /></svg>
+          <span className="ecg-heart"><HeartPulse size={26} /></span>
+        </div>
       </section>
 
       <section className="action-grid">
@@ -651,6 +654,7 @@ function ResultView({ title, result, primary, secondary, footnote }: { title: st
   return (
     <div className="page-wrap">
       <div className="lesson-complete">
+        {score >= 70 && <div className="confetti" aria-hidden="true">{Array.from({ length: 18 }, (_, i) => <i key={i} style={{ ["--x" as string]: `${(i * 53) % 100}%`, ["--d" as string]: `${(i % 6) * 0.12}s`, ["--r" as string]: `${(i * 47) % 360}deg`, ["--c" as string]: ["#94c5a6", "#f0aa7f", "#ffd76a", "#8fb8d8", "#e79ab0"][i % 5] }} />)}</div>}
         <div className="complete-seal">{score >= 70 ? <Trophy size={31} /> : <RotateCcw size={31} />}</div>
         <p className="eyebrow">{title.toUpperCase()}</p>
         <h1>{verdict}</h1>

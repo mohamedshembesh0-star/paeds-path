@@ -64,7 +64,7 @@
      "options": [
       "Urine",
       "Bile",
-      "Plasma caeruloplasmin only"
+      "Sweat"
      ],
      "answer": 1,
      "why": "ATP7B moves copper into bile; blocked excretion leaves copper deposits in liver, brain, cornea."
@@ -91,7 +91,7 @@
      "options": [
       "4-5 years",
       "6 months",
-      "12 years"
+      "1-2 years"
      ],
      "answer": 0,
      "why": "Copper accumulates slowly, so symptoms begin after 4-5 years (official answer)."
@@ -153,8 +153,8 @@
     {
      "q": "Which antibiotic reduces ammonia-producing gut bacteria in liver failure?",
      "options": [
-      "Metronidazole",
-      "Vancomycin",
+      "Azithromycin",
+      "Ceftriaxone",
       "Rifaximin"
      ],
      "answer": 2,
@@ -452,7 +452,7 @@
      "why": "Calprotectin reflects mucosal neutrophils; low values make IBD unlikely."
     },
     {
-     "q": "Which imaging evaluates the small bowel in paediatric IBD?",
+     "q": "Preferred imaging of the small bowel in paediatric IBD?",
      "options": [
       "MR enterography",
       "CT abdomen with contrast",
@@ -991,7 +991,7 @@
       "MRI abdomen"
      ],
      "answer": 1,
-     "why": "Stable → CT with IV contrast; unstable → X-ray."
+     "why": "Notes: stable → CT with IV contrast; unstable → X-ray (in practice children often get X-ray/US first)."
     }
    ]
   },

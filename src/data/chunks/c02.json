@@ -268,11 +268,11 @@
      "why": "Nephrotic: UPCR >200 mg/mmol with low albumin; 20-200 is sub-nephrotic."
     },
     {
-     "q": "Low albumin with negative urine dipstick suggests loss where?",
+     "q": "Low albumin with negative urine dipstick points to which organs?",
      "options": [
-      "Kidney",
+      "Kidney or bladder",
       "Gut or liver",
-      "Skin"
+      "Skin or lungs"
      ],
      "answer": 1,
      "why": "No proteinuria means the albumin is lost via gut (protein-losing enteropathy) or not made by the liver."
@@ -456,7 +456,7 @@
       "10 ml/kg"
      ],
      "answer": 2,
-     "why": "Per the notes, a 10 ml/kg 0.9% sodium chloride bolus (NICE 2020+ guidance)."
+     "why": "Notes (NICE 2020): 10 ml/kg 0.9% sodium chloride bolus; older texts/WHO say 20 ml/kg."
     }
    ]
   }
@@ -857,7 +857,7 @@
      "why": "Testicular enlargement to ≥4 ml is the first sign in boys; thelarche in girls."
     },
     {
-     "q": "Pubertal boy with small testes suggests what source?",
+     "q": "Early virilisation in a boy with small testes suggests what source?",
      "options": [
       "Central gonadotropin activation",
       "Adrenal (e.g. CAH)",
@@ -1130,12 +1130,12 @@
     {
      "q": "Which hormone is raised in Prader-Willi syndrome?",
      "options": [
-      "Leptin",
+      "Growth hormone",
       "Insulin-like growth factor",
       "Ghrelin"
      ],
      "answer": 2,
-     "why": "Raised ghrelin contributes to the hyperphagia in Prader-Willi."
+     "why": "Raised ghrelin drives the hyperphagia in Prader-Willi; GH and IGF-1 are low."
     },
     {
      "q": "Common mechanism of acanthosis nigricans, PCOS and fatty liver?",
@@ -2189,7 +2189,7 @@
      "q": "Which assessment is key to classify hyponatraemia?",
      "options": [
       "Serum calcium",
-      "Blood glucose",
+      "Serum magnesium",
       "Volume status"
      ],
      "answer": 2,

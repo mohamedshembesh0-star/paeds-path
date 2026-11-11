@@ -522,7 +522,7 @@
      "options": [
       "Chromaffin cells",
       "Zona glomerulosa cells",
-      "Neural crest blast cells"
+      "Juxtaglomerular cells"
      ],
      "answer": 0,
      "why": "Phaeo is a catecholamine-secreting chromaffin cell tumour (rule of 10s)."
@@ -833,8 +833,8 @@
      "q": "Which history item is key in chronic cough?",
      "options": [
       "Choking episode",
-      "Recent travel abroad",
-      "Pet ownership only"
+      "Family history of migraine",
+      "Birth order in family"
      ],
      "answer": 0,
      "why": "A choking history suggests foreign body; also check growth, clubbing, TB contacts."
@@ -1001,7 +1001,7 @@
       "Monospot test"
      ],
      "answer": 1,
-     "why": "Rapid antigen tests have low sensitivity; confirm negatives with culture."
+     "why": "Rapid tests are specific but can miss strep; confirm negatives with culture."
     },
     {
      "q": "Grey-white adherent pseudomembrane suggests?",
@@ -1054,10 +1054,10 @@
      "options": [
       "Intrathoracic trachea",
       "Bronchi",
-      "Above the vocal cords"
+      "Extrathoracic airway"
      ],
      "answer": 2,
-     "why": "Inspiratory stridor = extrathoracic obstruction; acute cause usually croup."
+     "why": "Inspiratory stridor = extrathoracic (larynx/subglottis) obstruction; acute cause usually croup."
     }
    ]
   },
@@ -1696,11 +1696,11 @@
      "q": "Which glycogen storage disease causes hepatomegaly?",
      "options": [
       "Type V",
-      "Type II",
+      "Type VII",
       "Type I"
      ],
      "answer": 2,
-     "why": "Type I (von Gierke) causes hepatomegaly and fasting hypoglycaemia."
+     "why": "Type I (von Gierke) causes hepatomegaly and fasting hypoglycaemia; V and VII are muscle forms."
     }
    ]
   },
@@ -1851,7 +1851,7 @@
      "options": [
       "Is the child growing?",
       "Is stool watery?",
-      "Is there a pet?"
+      "Is stool green?"
      ],
      "answer": 0,
      "why": "Growth separates toddler's diarrhoea from coeliac, CF, IBD."
@@ -2045,7 +2045,7 @@
       "Neutral"
      ],
      "answer": 0,
-     "why": "Paradoxical aciduria: kidneys excrete H+ to retain Na+ and K+."
+     "why": "Paradoxical aciduria: K+ is depleted, so kidneys excrete H+ to retain Na+."
     }
    ]
   },
@@ -2305,7 +2305,7 @@
   },
   {
    "block": "Cause",
-   "explain": "Neonatal masses are mostly renal. Wilms links to WT1 syndromes; neuroblastoma arises from neural crest.",
+   "explain": "Neonatal masses are mostly renal. Wilms links to WAGR and Beckwith-Wiedemann; neuroblastoma arises from neural crest.",
    "hook": "WAGR: Wilms, Aniridia, GU anomalies, Retardation.",
    "checks": [
     {
@@ -2404,7 +2404,7 @@
      "options": [
       "Wilms tumour",
       "Neuroblastoma",
-      "Phaeochromocytoma"
+      "Hepatoblastoma"
      ],
      "answer": 1,
      "why": "Catecholamine metabolites are raised in neuroblastoma."

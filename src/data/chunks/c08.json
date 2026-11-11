@@ -572,16 +572,6 @@
    "hook": "Lose AT-III = clot; lose IgG = infect.",
    "checks": [
     {
-     "q": "Which urinary loss predisposes to thrombosis?",
-     "options": [
-      "Protein C gain",
-      "Fibrinogen",
-      "Antithrombin III"
-     ],
-     "answer": 2,
-     "why": "Urinary loss of antithrombin III makes children hypercoagulable."
-    },
-    {
      "q": "What structural change underlies minimal change disease?",
      "options": [
       "Podocyte effacement",
@@ -590,6 +580,16 @@
      ],
      "answer": 0,
      "why": "A circulating factor causes podocyte foot-process effacement."
+    },
+    {
+     "q": "Which urinary loss predisposes to thrombosis?",
+     "options": [
+      "Transferrin",
+      "Fibrinogen",
+      "Antithrombin III"
+     ],
+     "answer": 2,
+     "why": "Urinary loss of antithrombin III makes children hypercoagulable."
     }
    ]
   },
@@ -1820,16 +1820,6 @@
    "hook": "Rare sex affected = more genes.",
    "checks": [
     {
-     "q": "Carter effect: higher risk when affected proband is?",
-     "options": [
-      "The less common sex",
-      "The commoner sex for that disorder",
-      "An only child of healthy parents"
-     ],
-     "answer": 0,
-     "why": "Affected less common sex implies higher liability, so relatives have more risk."
-    },
-    {
      "q": "Recurrence risks in multifactorial disease are?",
      "options": [
       "Mendelian",
@@ -1838,6 +1828,16 @@
      ],
      "answer": 1,
      "why": "Recurrence is empiric, derived from population data."
+    },
+    {
+     "q": "Carter effect: higher risk when affected proband is?",
+     "options": [
+      "The less common sex",
+      "The commoner sex for that disorder",
+      "An only child of healthy parents"
+     ],
+     "answer": 0,
+     "why": "Affected less common sex implies higher liability, so relatives have more risk."
     }
    ]
   },
@@ -2409,7 +2409,7 @@
      "q": "Which lysosomal disease is newborn screened?",
      "options": [
       "Tay-Sachs",
-      "Fabry",
+      "Niemann-Pick C",
       "Pompe"
      ],
      "answer": 2,

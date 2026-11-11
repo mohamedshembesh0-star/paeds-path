@@ -1,5 +1,8 @@
 import { allChecks, allItems, bankFor, capstoneFor, chunksFor, course, itemById, screening, studyOrder, topicById } from "./course";
 import type { BlockName, Card, ItemState, Mcq, Progress, Topic, TopicState } from "./types";
+import seedData from "./data/seed-progress.json";
+
+const SEED_FLAG = "paeds-seed-2026-11-11";
 
 const KEY = "paeds-path-v2";
 const OLD_KEY = "paeds-path-v1";
@@ -47,6 +50,25 @@ function sanitize(raw: unknown): Progress | null {
 }
 
 export function loadProgress(): Progress {
+  const base = loadStored();
+  // One-time: fold in the owner's latest exported progress so every device starts from it.
+  try {
+    if (!localStorage.getItem(SEED_FLAG)) {
+      localStorage.setItem(SEED_FLAG, "1");
+      const seed = sanitize(seedData);
+      if (seed) {
+        const merged = mergeProgress(base, seed);
+        localStorage.setItem(KEY, JSON.stringify(merged));
+        return merged;
+      }
+    }
+  } catch {
+    /* storage blocked: carry on with what we have */
+  }
+  return base;
+}
+
+function loadStored(): Progress {
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) return sanitize(JSON.parse(raw)) ?? emptyProgress();

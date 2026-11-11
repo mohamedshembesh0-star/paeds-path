@@ -3,7 +3,7 @@
   {
    "block": "Def",
    "explain": "LCH is a clonal myeloid neoplasm of Langerhans-type cells; HLH is not a tumour but uncontrolled immune activation by macrophages and T cells.",
-   "hook": "LCH = Langerhans cells grow; HLH = Hyper-Lymphohistiocytic Hyperinflammation.",
+   "hook": "LCH = Langerhans cells grow; HLH = Haemophagocytic LymphoHistiocytosis (hyperinflammation).",
    "checks": [
     {
      "q": "Which cells are overactivated alongside macrophages in HLH?",
