@@ -12,6 +12,7 @@ import {
 } from "./progress";
 import { getTopicReferences } from "./references";
 import { InkProvider, useInk, useInkScope } from "./Ink";
+import { Tutor } from "./Tutor";
 import { PatientPage, PatientsPage } from "./Patients";
 import { Session, type SessionItem, type SessionResult } from "./Session";
 import type { BlockName, Progress, Topic } from "./types";
@@ -1272,6 +1273,7 @@ export default function App() {
           <Route component={NotFound} />
         </Switch>
       </AppShell>
+      <Tutor />
     </StoreProvider>
     </InkProvider>
     </Router>

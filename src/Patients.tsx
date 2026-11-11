@@ -1,7 +1,31 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "wouter";
-import { ArrowLeft, ArrowRight, Baby, Check, ClipboardList, MessageCircle, RotateCcw, Search, Stethoscope, User, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUp, Baby, Check, ClipboardList, Lightbulb, MessageCircle, RotateCcw, Search, Sparkles, Stethoscope, User, X } from "lucide-react";
 import { PATIENTS, type Patient } from "./data/patients";
+import { aiAvailable, streamChat, type ChatMsg } from "./ai";
+
+/** Everything the AI needs to play this patient. Items are numbered so its replies can be scored. */
+function caseSheet(p: Patient): string {
+  return [
+    `Patient: ${p.name}, ${p.age} (${p.kind}).`,
+    `History giver you play: ${p.who}.`,
+    `Setting: ${p.intro}`,
+    `Opening line (already said to the student): ${p.opening}`,
+    "",
+    "HISTORY ITEMS",
+    ...p.history.map((h, i) => `H${i}${h.key ? " [key]" : ""} (${h.g}) Q: ${h.q} | A: ${h.a}`),
+    "",
+    "EXAMINATION STEPS",
+    ...p.exam.map((e, i) => `E${i}${e.key ? " [key]" : ""} (${e.g}) ${e.step}: ${e.finding}${e.abnormal ? " (abnormal)" : ""}`),
+    "",
+    `Investigations, only if the student asks for a result: ${p.tests}`,
+    `Diagnosis (never reveal or confirm): ${p.options[p.answer]}`,
+  ].join("\n");
+}
+
+const TAG = /\[\[\s*H:([\d,\s]*)E:([\d,\s]*)\]\]/;
+const visible = (t: string) => t.replace(/\s*\[\[[\s\S]*$/, "").replace(/\s*\[$/, "");
+const nums = (t: string, max: number) => t.split(",").map((x) => parseInt(x, 10)).filter((n) => Number.isInteger(n) && n >= 0 && n < max);
 
 /* Two bedside patients: take the history by asking, examine step by step, then commit to a diagnosis. */
 
@@ -47,6 +71,37 @@ function Encounter({ patient }: { patient: Patient }) {
   const [query, setQuery] = useState("");
   const [openGroup, setOpenGroup] = useState<string | null>(patient.history[0].g);
   const chatEnd = useRef<HTMLDivElement>(null);
+  const [ai, setAi] = useState(aiAvailable);
+  const [talk, setTalk] = useState<ChatMsg[]>([]);
+  const [draft, setDraft] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [aiError, setAiError] = useState("");
+  const sheet = useMemo(() => caseSheet(patient), [patient]);
+
+  const say = async (text: string) => {
+    const content = text.trim();
+    if (!content || busy) return;
+    const history: ChatMsg[] = [...talk, { role: "user", content }];
+    setTalk([...history, { role: "assistant", content: "" }]);
+    setDraft("");
+    setAiError("");
+    setBusy(true);
+    try {
+      const full = await streamChat({ mode: "patient", messages: history, context: sheet }, (t) => setTalk([...history, { role: "assistant", content: t }]));
+      const tag = TAG.exec(full);
+      if (tag) {
+        const h = nums(tag[1], patient.history.length), e = nums(tag[2], patient.exam.length);
+        if (h.length) setAsked((a) => [...new Set([...a, ...h])]);
+        if (e.length) setDone((d) => [...new Set([...d, ...e])]);
+      }
+    } catch (err) {
+      setTalk(history.slice(0, -1));
+      setDraft(content);
+      setAiError(navigator.onLine ? (err as Error).message : "You are offline. Switch to Guided to keep practising.");
+    } finally {
+      setBusy(false);
+    }
+  };
 
   const hxGroups = useMemo(() => [...new Set(patient.history.map((h) => h.g))], [patient]);
   const exGroups = useMemo(() => [...new Set(patient.exam.map((e) => e.g))], [patient]);
@@ -55,12 +110,12 @@ function Encounter({ patient }: { patient: Patient }) {
   const gotHx = asked.filter((i) => patient.history[i].key).length;
   const gotEx = done.filter((i) => patient.exam[i].key).length;
 
-  useEffect(() => { chatEnd.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }); }, [asked.length]);
+  useEffect(() => { chatEnd.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }); }, [asked.length, talk]);
 
   const ask = (i: number) => { if (!asked.includes(i)) setAsked((a) => [...a, i]); };
   const q = query.trim().toLowerCase();
   const matches = q ? patient.history.map((h, i) => ({ h, i })).filter(({ h, i }) => !asked.includes(i) && q.split(/\s+/).every((w) => h.q.toLowerCase().includes(w))) : [];
-  const reset = () => { setAsked([]); setDone([]); setPicked(null); setTab("history"); setQuery(""); window.scrollTo(0, 0); };
+  const reset = () => { setAsked([]); setDone([]); setPicked(null); setTab("history"); setQuery(""); setTalk([]); setAiError(""); window.scrollTo(0, 0); };
 
   return (
     <div className="page-wrap encounter">
@@ -69,13 +124,44 @@ function Encounter({ patient }: { patient: Patient }) {
         <span className="patient-avatar small">{patient.id === "neonate" ? <Baby size={22} /> : <User size={22} />}</span>
         <div><b>{patient.name}, {patient.age}</b><p>{patient.intro}</p></div>
       </div>
+      {aiAvailable && (
+        <div className="segmented enc-mode" role="group" aria-label="Practice mode">
+          <button className={ai ? "on" : ""} aria-pressed={ai} onClick={() => { setAi(true); if (tab === "exam") setTab("history"); }}><Sparkles size={14} /> AI patient</button>
+          <button className={!ai ? "on" : ""} aria-pressed={!ai} onClick={() => setAi(false)}>Guided</button>
+        </div>
+      )}
       <div className="enc-tabs" role="tablist">
-        <button role="tab" aria-selected={tab === "history"} className={tab === "history" ? "on" : ""} onClick={() => setTab("history")}><MessageCircle size={16} /> History <i>{gotHx}/{keyHx}</i></button>
-        <button role="tab" aria-selected={tab === "exam"} className={tab === "exam" ? "on" : ""} onClick={() => setTab("exam")}><Stethoscope size={16} /> Examination <i>{gotEx}/{keyEx}</i></button>
+        <button role="tab" aria-selected={tab === "history"} className={tab === "history" ? "on" : ""} onClick={() => setTab("history")}><MessageCircle size={16} /> {ai ? "Talk and examine" : "History"} <i>{ai ? `${gotHx + gotEx}/${keyHx + keyEx}` : `${gotHx}/${keyHx}`}</i></button>
+        {!ai && <button role="tab" aria-selected={tab === "exam"} className={tab === "exam" ? "on" : ""} onClick={() => setTab("exam")}><Stethoscope size={16} /> Examination <i>{gotEx}/{keyEx}</i></button>}
         <button role="tab" aria-selected={tab === "dx"} className={tab === "dx" ? "on" : ""} onClick={() => setTab("dx")}><ClipboardList size={16} /> Diagnosis</button>
       </div>
 
-      {tab === "history" && (
+      {tab === "history" && ai && (
+        <section>
+          <p className="teaching-purpose">Type like you would at the bedside. Ask the {patient.id === "neonate" ? "mother" : "patient"} anything, or say what you examine ("I inspect the chest", "I auscultate the lungs"). The counter tracks the key points you have covered.</p>
+          <div className="chat tall" aria-live="polite">
+            <div className="bubble them"><span>{patient.who}</span>{patient.opening}</div>
+            {talk.map((m, i) => {
+              if (m.role === "user") return <div key={i} className="bubble me">{m.content}</div>;
+              const text = visible(m.content);
+              const examiner = /^Examiner:/i.test(text);
+              return <div key={i} className={`bubble them ${examiner ? "examiner" : ""}`}><span>{examiner ? "Examiner" : patient.who}</span>{text ? text.replace(/^Examiner:\s*/i, "") : <span className="typing"><i /><i /><i /></span>}</div>;
+            })}
+            <div ref={chatEnd} />
+          </div>
+          {aiError && <p className="tutor-error">{aiError} <button className="text-link" onClick={() => setAi(false)}>Use Guided mode</button></p>}
+          <form className="tutor-input enc-input" onSubmit={(e) => { e.preventDefault(); say(draft); }}>
+            <textarea rows={1} value={draft} placeholder="Ask a question or say what you examine" aria-label="Talk to the patient" enterKeyHint="send"
+              onChange={(e) => setDraft(e.target.value)}
+              onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); say(draft); } }} />
+            <button type="submit" className="tutor-send" aria-label="Send" disabled={busy || !draft.trim()}><ArrowUp size={18} /></button>
+          </form>
+          <div className="q-list"><button className="q-chip" disabled={busy} onClick={() => say("Examiner, can I have a hint about what I have not covered yet?")}><Lightbulb size={14} /> Hint</button></div>
+          <div className="enc-next"><button className="button button-primary big" onClick={() => { setTab("dx"); window.scrollTo(0, 0); }}>Commit to a diagnosis <ArrowRight size={17} /></button></div>
+        </section>
+      )}
+
+      {tab === "history" && !ai && (
         <section>
           <div className="chat" aria-live="polite">
             <div className="bubble them"><span>{patient.who}</span>{patient.opening}</div>
@@ -111,7 +197,7 @@ function Encounter({ patient }: { patient: Patient }) {
         </section>
       )}
 
-      {tab === "exam" && (
+      {tab === "exam" && !ai && (
         <section>
           <p className="teaching-purpose">Tap each step in the order you would do it. You get the technique and what you find.</p>
           {exGroups.map((g) => (

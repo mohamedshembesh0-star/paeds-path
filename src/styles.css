@@ -909,3 +909,44 @@ body { background-image: radial-gradient(circle at 1px 1px, rgba(50,107,88,.07) 
 .debrief-score span { padding: 6px 11px; border-radius: 999px; background: #f0eee6; font-size: 13.5px; }
 @media (max-width: 700px) { .patient-grid { grid-template-columns: 1fr; } .ex-body { padding-left: 12px; } .enc-tabs { top: 58px; } .enc-tabs button { font-size: 12.5px; gap: 4px; } .bubble { max-width: 94%; } }
 @media (max-width: 700px) { .enc-tabs button svg { display: none; } .enc-tabs button { padding: 0 4px; min-width: 0; } .enc-tabs i { padding: 2px 5px; font-size: 10.5px; } }
+
+/* AI tutor panel and AI patient chat */
+.tutor-fab { position: fixed; right: 0; top: calc(50% + 62px); translate: 0 -50%; z-index: 31; width: 46px; height: 54px; display: grid; place-items: center; border: 0; border-radius: 14px 0 0 14px; background: #202a3b; color: #f4d58a; box-shadow: -4px 6px 18px rgba(32,42,59,.28); cursor: pointer; touch-action: manipulation; }
+.tutor-fab:hover { background: #2b3850; }
+.tutor-panel { position: fixed; z-index: 40; right: 14px; bottom: 14px; width: min(400px, calc(100vw - 28px)); height: min(640px, calc(100dvh - 28px)); display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 18px; background: var(--card-paper); box-shadow: 0 24px 60px rgba(20,28,40,.28); overflow: hidden; animation: tutor-in .22s ease-out both; }
+@keyframes tutor-in { from { opacity: 0; translate: 0 14px; } to { opacity: 1; translate: 0 0; } }
+.tutor-panel header { display: flex; align-items: center; gap: 10px; padding: 12px 12px 12px 14px; background: #202a3b; color: #f2f0e9; }
+.tutor-panel header div { flex: 1; display: grid; line-height: 1.2; }
+.tutor-panel header b { font: 800 15px var(--app-font-serif); }
+.tutor-panel header small { font-size: 11px; color: #aeb7c4; }
+.tutor-panel header .icon-button { color: #f2f0e9; background: transparent; border-color: transparent; }
+.tutor-mark { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 9px; background: #f4d58a; color: #202a3b; }
+.tutor-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: grid; align-content: start; gap: 10px; padding: 14px; }
+.tutor-body .bubble, .chat.tall .bubble { white-space: pre-wrap; overflow-wrap: anywhere; }
+.tutor-body .bubble { max-width: 92%; font-size: 14.5px; }
+.tutor-empty { display: grid; gap: 8px; justify-items: start; }
+.tutor-empty p { margin: 0 0 4px; color: var(--muted-ink); font-size: 14px; }
+.tutor-error { margin: 0; padding: 9px 12px; border-radius: 10px; background: #f8e9e4; color: #8a3e2c; font-size: 13px; }
+.tutor-input { display: flex; align-items: flex-end; gap: 8px; padding: 10px; border-top: 1px solid var(--line); background: #f6f4ed; }
+.tutor-input textarea { flex: 1; min-height: 44px; max-height: 120px; padding: 11px 13px; border: 1px solid var(--line); border-radius: 13px; background: #fff; color: var(--ink); font: 16px/1.35 var(--app-font-sans); resize: none; field-sizing: content; outline: 0; }
+.tutor-input textarea:focus-visible { border-color: var(--forest); box-shadow: 0 0 0 3px #7daf9855; }
+.tutor-send { flex: 0 0 auto; width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: 50%; background: var(--forest); color: #fff; cursor: pointer; touch-action: manipulation; }
+.tutor-send:disabled { background: #c6cdc8; cursor: default; }
+.typing { display: inline-flex!important; gap: 4px; padding: 5px 0; margin: 0!important; }
+.typing i { width: 6px; height: 6px; border-radius: 50%; background: #9aa6a0; animation: typing 1s ease-in-out infinite; }
+.typing i:nth-child(2) { animation-delay: .15s; } .typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes typing { 0%, 60%, 100% { opacity: .3; translate: 0 0; } 30% { opacity: 1; translate: 0 -3px; } }
+.enc-mode { margin-bottom: 10px; }
+.enc-mode button { display: inline-flex; align-items: center; gap: 6px; }
+.chat.tall { max-height: 52vh; min-height: 180px; }
+.bubble.them.examiner { background: #eef3f8; border-color: #d3dde8; }
+.bubble.them.examiner > span:first-child { color: #47628a; }
+.enc-input { margin-top: 10px; border: 1px solid var(--line); border-radius: 16px; }
+@media (max-width: 700px) {
+  .tutor-panel { inset: 0; width: 100vw; height: 100dvh; border: 0; border-radius: 0; }
+  .tutor-input { padding-bottom: calc(10px + env(safe-area-inset-bottom)); }
+  .enc-input { padding-bottom: 10px; }
+  .chat.tall { max-height: 40dvh; }
+}
+@media print { .tutor-fab, .tutor-panel { display: none!important; } }
+@media (prefers-reduced-motion: reduce) { .tutor-panel, .typing i { animation: none; } }
