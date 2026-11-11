@@ -950,3 +950,11 @@ body { background-image: radial-gradient(circle at 1px 1px, rgba(50,107,88,.07) 
 }
 @media print { .tutor-fab, .tutor-panel { display: none!important; } }
 @media (prefers-reduced-motion: reduce) { .tutor-panel, .typing i { animation: none; } }
+.diagram { display: grid; gap: 6px; width: 100%; }
+.diagram iframe { width: 100%; aspect-ratio: 1 / 1; border: 1px solid var(--line); border-radius: 14px; background: #f6f4ed; }
+.diagram-tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.diagram-tools button { display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 0 11px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: #44525a; font: 600 12.5px var(--app-font-sans); cursor: pointer; touch-action: manipulation; }
+.diagram-full { position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; gap: 8px; padding: 10px 10px calc(10px + env(safe-area-inset-bottom)); background: #202a3b; }
+.diagram-full iframe { flex: 1; width: 100%; min-height: 0; border: 0; border-radius: 12px; background: #f6f4ed; }
+.diagram-full .diagram-tools { justify-content: center; }
+.bubble.drawing { display: flex; align-items: center; gap: 8px; color: var(--muted-ink); font-size: 13.5px; }
