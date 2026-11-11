@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "wouter";
-import { ArrowLeft, ArrowRight, ArrowUp, Baby, Check, ClipboardList, Lightbulb, MessageCircle, RotateCcw, Search, Sparkles, Stethoscope, User, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUp, Baby, Check, ClipboardList, Lightbulb, List, MessageCircle, Timer, RotateCcw, Search, Sparkles, Stethoscope, User, X } from "lucide-react";
 import { PATIENTS, type Patient } from "./data/patients";
 import { aiAvailable, streamChat, type ChatMsg } from "./ai";
+import { ExamBoard } from "./Exam";
 
 /** Everything the AI needs to play this patient. Items are numbered so its replies can be scored. */
 function caseSheet(p: Patient): string {
@@ -77,6 +78,22 @@ function Encounter({ patient }: { patient: Patient }) {
   const [busy, setBusy] = useState(false);
   const [aiError, setAiError] = useState("");
   const sheet = useMemo(() => caseSheet(patient), [patient]);
+  const [listView, setListView] = useState(false);
+  /* 10-minute station clock: starts on the first action, stops when a diagnosis is committed. */
+  const LIMIT = 600;
+  const [startedAt, setStartedAt] = useState<number | null>(null);
+  const [secs, setSecs] = useState(0);
+  const began = asked.length + done.length + talk.length > 0;
+  useEffect(() => { if (began && startedAt === null) setStartedAt(Date.now()); }, [began, startedAt]);
+  useEffect(() => {
+    if (startedAt === null || picked !== null) return;
+    const tick = () => setSecs(Math.floor((Date.now() - startedAt) / 1000));
+    tick();
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, [startedAt, picked]);
+  const remaining = LIMIT - secs;
+  const clock = (n: number) => `${Math.floor(Math.abs(n) / 60)}:${String(Math.abs(n) % 60).padStart(2, "0")}`;
 
   const say = async (text: string) => {
     const content = text.trim();
@@ -115,7 +132,7 @@ function Encounter({ patient }: { patient: Patient }) {
   const ask = (i: number) => { if (!asked.includes(i)) setAsked((a) => [...a, i]); };
   const q = query.trim().toLowerCase();
   const matches = q ? patient.history.map((h, i) => ({ h, i })).filter(({ h, i }) => !asked.includes(i) && q.split(/\s+/).every((w) => h.q.toLowerCase().includes(w))) : [];
-  const reset = () => { setAsked([]); setDone([]); setPicked(null); setTab("history"); setQuery(""); setTalk([]); setAiError(""); window.scrollTo(0, 0); };
+  const reset = () => { setAsked([]); setDone([]); setPicked(null); setTab("history"); setQuery(""); setTalk([]); setAiError(""); setStartedAt(null); setSecs(0); window.scrollTo(0, 0); };
 
   return (
     <div className="page-wrap encounter">
@@ -123,22 +140,25 @@ function Encounter({ patient }: { patient: Patient }) {
       <div className="enc-head">
         <span className="patient-avatar small">{patient.id === "neonate" ? <Baby size={22} /> : <User size={22} />}</span>
         <div><b>{patient.name}, {patient.age}</b><p>{patient.intro}</p></div>
+        <span className={`enc-clock ${remaining <= 0 ? "over" : remaining <= 120 ? "low" : ""}`} aria-label="Time left"><Timer size={15} />{remaining >= 0 ? clock(remaining) : `+${clock(remaining)}`}</span>
       </div>
+      {startedAt === null && <p className="enc-plan">10-minute station: about 4 min history, 4 min examination, 2 min diagnosis. The clock starts on your first move.</p>}
+      {remaining <= 0 && picked === null && <p className="tutor-error">Time is up. Commit to your diagnosis now. <button className="text-link" onClick={() => { setTab("dx"); window.scrollTo(0, 0); }}>Go to Diagnosis</button></p>}
       {aiAvailable && (
         <div className="segmented enc-mode" role="group" aria-label="Practice mode">
-          <button className={ai ? "on" : ""} aria-pressed={ai} onClick={() => { setAi(true); if (tab === "exam") setTab("history"); }}><Sparkles size={14} /> AI patient</button>
+          <button className={ai ? "on" : ""} aria-pressed={ai} onClick={() => setAi(true)}><Sparkles size={14} /> AI patient</button>
           <button className={!ai ? "on" : ""} aria-pressed={!ai} onClick={() => setAi(false)}>Guided</button>
         </div>
       )}
       <div className="enc-tabs" role="tablist">
-        <button role="tab" aria-selected={tab === "history"} className={tab === "history" ? "on" : ""} onClick={() => setTab("history")}><MessageCircle size={16} /> {ai ? "Talk and examine" : "History"} <i>{ai ? `${gotHx + gotEx}/${keyHx + keyEx}` : `${gotHx}/${keyHx}`}</i></button>
-        {!ai && <button role="tab" aria-selected={tab === "exam"} className={tab === "exam" ? "on" : ""} onClick={() => setTab("exam")}><Stethoscope size={16} /> Examination <i>{gotEx}/{keyEx}</i></button>}
+        <button role="tab" aria-selected={tab === "history"} className={tab === "history" ? "on" : ""} onClick={() => setTab("history")}><MessageCircle size={16} /> History <i>{gotHx}/{keyHx}</i></button>
+        <button role="tab" aria-selected={tab === "exam"} className={tab === "exam" ? "on" : ""} onClick={() => setTab("exam")}><Stethoscope size={16} /> Examine <i>{gotEx}/{keyEx}</i></button>
         <button role="tab" aria-selected={tab === "dx"} className={tab === "dx" ? "on" : ""} onClick={() => setTab("dx")}><ClipboardList size={16} /> Diagnosis</button>
       </div>
 
       {tab === "history" && ai && (
         <section>
-          <p className="teaching-purpose">Type like you would at the bedside. Ask the {patient.id === "neonate" ? "mother" : "patient"} anything, or say what you examine ("I inspect the chest", "I auscultate the lungs"). The counter tracks the key points you have covered.</p>
+          <p className="teaching-purpose">Type like you would at the bedside. Ask the {patient.id === "neonate" ? "mother" : "patient"} anything in your own words. Aim to be done in about 4 minutes, then examine.</p>
           <div className="chat tall" aria-live="polite">
             <div className="bubble them"><span>{patient.who}</span>{patient.opening}</div>
             {talk.map((m, i) => {
@@ -157,7 +177,7 @@ function Encounter({ patient }: { patient: Patient }) {
             <button type="submit" className="tutor-send" aria-label="Send" disabled={busy || !draft.trim()}><ArrowUp size={18} /></button>
           </form>
           <div className="q-list"><button className="q-chip" disabled={busy} onClick={() => say("Examiner, can I have a hint about what I have not covered yet?")}><Lightbulb size={14} /> Hint</button></div>
-          <div className="enc-next"><button className="button button-primary big" onClick={() => { setTab("dx"); window.scrollTo(0, 0); }}>Commit to a diagnosis <ArrowRight size={17} /></button></div>
+          <div className="enc-next"><button className="button button-primary big" onClick={() => { setTab("exam"); window.scrollTo(0, 0); }}>Examine {patient.name} <ArrowRight size={17} /></button></div>
         </section>
       )}
 
@@ -197,10 +217,11 @@ function Encounter({ patient }: { patient: Patient }) {
         </section>
       )}
 
-      {tab === "exam" && !ai && (
+      {tab === "exam" && (
         <section>
-          <p className="teaching-purpose">Tap each step in the order you would do it. You get the technique and what you find.</p>
-          {exGroups.map((g) => (
+          <div className="exam-top"><p className="teaching-purpose">Pick a tool, then tap {patient.name} where you would use it. Work in your usual order: look, feel, percuss, listen.</p><button className="reading-toggle" onClick={() => setListView(!listView)}><List size={14} /> {listView ? "Patient view" : "List view"}</button></div>
+          {!listView && <ExamBoard patient={patient} done={done} onDone={(items) => setDone((d) => [...new Set([...d, ...items])])} />}
+          {listView && exGroups.map((g) => (
             <div key={g} className="ex-group">
               <h3>{g}</h3>
               {patient.exam.map((e, i) => ({ e, i })).filter(({ e }) => e.g === g).map(({ e, i }) => {
@@ -230,7 +251,7 @@ function Encounter({ patient }: { patient: Patient }) {
           {picked !== null && (
             <div className="debrief">
               <h3>{picked === patient.answer ? "Correct." : "Not this time."} {patient.options[patient.answer]}</h3>
-              <div className="debrief-score"><span><b>{gotHx}/{keyHx}</b> key history questions</span><span><b>{gotEx}/{keyEx}</b> key exam steps</span></div>
+              <div className="debrief-score"><span><b>{gotHx}/{keyHx}</b> key history questions</span><span><b>{gotEx}/{keyEx}</b> key exam steps</span>{startedAt !== null && <span><b>{clock(secs)}</b> {secs <= LIMIT ? "inside the 10 minutes" : "over the 10 minutes"}</span>}</div>
               <h4>Why</h4><ul>{patient.whyDx.map((w) => <li key={w}>{w}</li>)}</ul>
               <h4>Why not the others</h4><ul>{patient.notThis.map((n) => <li key={n.dx}><b>{n.dx}:</b> {n.why}</li>)}</ul>
               <h4>Labs and diagnostics</h4><p>{patient.tests}</p>

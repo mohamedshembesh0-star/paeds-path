@@ -958,3 +958,47 @@ body { background-image: radial-gradient(circle at 1px 1px, rgba(50,107,88,.07) 
 .diagram-full iframe { flex: 1; width: 100%; min-height: 0; border: 0; border-radius: 12px; background: #f6f4ed; }
 .diagram-full .diagram-tools { justify-content: center; }
 .bubble.drawing { display: flex; align-items: center; gap: 8px; color: var(--muted-ink); font-size: 13.5px; }
+
+/* Drawn patient with examination tools */
+.enc-head { position: relative; }
+.enc-clock { margin-left: auto; flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px; padding: 7px 11px; border-radius: 999px; background: #e4eee5; color: var(--forest-deep); font: 700 15px var(--app-font-mono); font-variant-numeric: tabular-nums; }
+.enc-clock.low { background: #f6ecd0; color: #7a5a12; }
+.enc-clock.over { background: #f8e2db; color: #8a3e2c; }
+.enc-plan { margin: 0 0 10px; color: var(--muted-ink); font-size: 13.5px; }
+.exam-top { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; }
+.exam-top .reading-toggle { flex: 0 0 auto; }
+.exam-tools { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 8px; scrollbar-width: none; }
+.exam-tools button { flex: 0 0 auto; min-width: 66px; min-height: 58px; display: grid; justify-items: center; gap: 3px; padding: 8px 8px 6px; border: 1.5px solid var(--line); border-radius: 14px; background: #fff; color: #44525a; cursor: pointer; touch-action: manipulation; transition: background .15s ease-out, border-color .15s ease-out, color .15s ease-out; }
+.exam-tools button span { font: 600 11.5px var(--app-font-sans); white-space: nowrap; }
+.exam-tools button.on { border-color: var(--forest); background: var(--forest); color: #fff; }
+.exam-hint { display: flex; align-items: center; gap: 7px; margin: 2px 0 8px; color: #55626a; font-size: 13.5px; }
+.exam-stage { display: grid; grid-template-columns: minmax(0, 340px) 1fr; gap: 14px; align-items: start; }
+.exam-figure { width: 100%; height: auto; display: block; touch-action: manipulation; user-select: none; }
+.exam-figure .side-tag { font: 700 13px var(--app-font-mono); fill: #8696a3; }
+.exam-figure .breathe { transform-origin: 150px 200px; animation: breathe 2s ease-in-out infinite; }
+@keyframes breathe { 0%, 100% { transform: scale(1); } 45% { transform: scale(1.035, 1.02); } }
+.spot { fill: rgba(50,107,88,.07); stroke: #326b58; stroke-width: 1.4; stroke-dasharray: 4 4; cursor: pointer; outline: none; transition: fill .15s ease-out; }
+.spot:hover, .spot:focus-visible { fill: rgba(50,107,88,.24); }
+.spot.used { fill: rgba(50,107,88,.2); stroke-dasharray: none; }
+.spot-pulse { fill: none; stroke: #b9604b; stroke-width: 3; pointer-events: none; transform-box: fill-box; transform-origin: center; animation: spot-pulse .9s ease-out both; }
+@keyframes spot-pulse { from { transform: scale(.4); opacity: 1; } to { transform: scale(3.2); opacity: 0; } }
+.exam-side { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; }
+.exam-left { margin: 2px 0 0; padding-left: 18px; font-size: 13.5px; color: #44525a; display: grid; gap: 3px; }
+.exam-left-done { display: flex; align-items: center; gap: 6px; margin: 2px 0 0; font-size: 13.5px; color: var(--forest-deep); font-weight: 600; }
+.exam-result { margin-top: 12px; padding: 13px; border: 1px solid var(--line); border-radius: 14px; background: #fbfaf6; display: grid; gap: 8px; animation: page-enter .22s ease both; }
+.exam-result-head { font: 800 15px var(--app-font-serif); text-transform: capitalize; }
+.exam-note { margin: 0; font-size: 14.5px; line-height: 1.5; color: #44525a; }
+.exam-sound { display: flex; align-items: center; gap: 9px; margin: 0; font-size: 13.5px; font-weight: 600; color: #47628a; }
+.bars { display: inline-flex; align-items: center; gap: 3px; height: 18px; }
+.bars i { width: 3px; height: 100%; border-radius: 2px; background: #47628a; transform-origin: center; animation: bars .7s ease-in-out 6 both; }
+.bars i:nth-child(2) { animation-delay: .1s; } .bars i:nth-child(3) { animation-delay: .2s; } .bars i:nth-child(4) { animation-delay: .3s; } .bars i:nth-child(5) { animation-delay: .4s; }
+@keyframes bars { 0%, 100% { transform: scaleY(.25); } 50% { transform: scaleY(1); } }
+.ex-body.flat { padding: 0; animation: none; }
+.ex-step-name { font-weight: 700; }
+@media (max-width: 700px) {
+  .exam-stage { grid-template-columns: 1fr; }
+  .exam-figure { max-height: 52dvh; }
+  .exam-side { flex-direction: row; flex-wrap: wrap; }
+  .exam-left { flex-basis: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .exam-figure .breathe, .bars i, .spot-pulse { animation: none; } }
