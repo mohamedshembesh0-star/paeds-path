@@ -195,7 +195,8 @@ function HomePage() {
           <div className="today-actions">
             {plan.next ? (
               <>
-                <Link className="button button-light" href="/sprint/6"><Rocket size={16} /> Final sprint: next 6 topics</Link>
+                <Link className="button button-light" href="/sprint/all"><Rocket size={16} /> Sprint all {plan.remaining} remaining topics</Link>
+                <Link className="button button-ghost-light" href="/sprint/6">6 at a time</Link>
                 <Link className="button button-ghost-light" href="/blitz/5">Blitz 5 (full)</Link>
                 <Link className="button button-ghost-light" href={`/learn/${plan.next.id}`}><Play size={16} /> {firstVisit ? "One topic at a time" : "Single lesson"}</Link>
               </>
@@ -320,7 +321,9 @@ function sprintOrder(progress: Progress): Topic[] {
 
 function BlitzPage({ sprint = false }: { sprint?: boolean }) {
   const { n, round } = useParams<{ n: string; round?: string }>();
-  const size = Math.min(15, Math.max(1, Number(n) || (sprint ? 6 : 5)));
+  // "all" = every remaining topic in one continuous session.
+  const all = n === "all";
+  const size = all ? 1000 : Math.min(15, Math.max(1, Number(n) || (sprint ? 6 : 5)));
   const { progress, update } = useStore();
   const [, navigate] = useLocation();
   const base = sprint ? "/sprint" : "/blitz";
@@ -372,12 +375,12 @@ function BlitzPage({ sprint = false }: { sprint?: boolean }) {
   }
   if (result) {
     const left = studyOrder.filter((t) => !progress.topics[t.id]).length;
-    const nextLabel = sprint ? `Sprint the next ${Math.min(size, left)}` : `Blitz the next ${Math.min(size, left)}`;
+    const nextLabel = all ? `Continue with all ${left} remaining` : sprint ? `Sprint the next ${Math.min(size, left)}` : `Blitz the next ${Math.min(size, left)}`;
     return (
       <ResultView
-        title={`${label}: ${topicIds.length} topics`}
+        title={`${label}: ${topicIds.length} topics done`}
         result={result}
-        primary={left ? { label: nextLabel, href: `${base}/${size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
+        primary={left ? { label: nextLabel, href: `${base}/${all ? "all" : size}/${(Number(round) || 0) + 1}` } : { label: "Back to today", href: "/" }}
         secondary={[{ label: "Back to today", href: "/" }, { label: "Review what I missed", href: "/review/weak" }]}
         footnote={`${left} topics left. Come back for a Relearn round in a few hours: these questions return then and again tomorrow, which is what makes them stick.`}
       />
@@ -385,8 +388,8 @@ function BlitzPage({ sprint = false }: { sprint?: boolean }) {
   }
   const header = (
     <span className="session-header-row">
-      <span>{label}: {topicIds.length} topics</span>
-      <span className="blitz-sizes">{(sprint ? [3, 6, 12] : [3, 5, 10]).map((k) => <Link key={k} className={k === size ? "on" : ""} href={`${base}/${k}/${(Number(round) || 0) + 1}`}>{k}</Link>)}</span>
+      <span>{label}: {all ? `all ${topicIds.length} remaining topics` : `${topicIds.length} topics`}</span>
+      <span className="blitz-sizes">{(sprint ? [3, 6, 12] : [3, 5, 10]).map((k) => <Link key={k} className={!all && k === size ? "on" : ""} href={`${base}/${k}/${(Number(round) || 0) + 1}`}>{k}</Link>)}<Link className={all ? "on" : ""} href={`${base}/all/${(Number(round) || 0) + 1}`}>All</Link></span>
     </span>
   );
   return <Session key={`${base}-${size}-${round ?? 0}`} items={items} onGrade={onGrade} onFinish={onFinish} onExit={() => navigate("/")} header={header} />;
