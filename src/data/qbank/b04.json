@@ -1,0 +1,2132 @@
+{
+ "II-6": {
+  "summary": "Newborn screening exists because the placenta hides metabolic disease until feeds start: screen at 48-72 h, treat a positive screen as an emergency recall (not a diagnosis), and remember the non-blood screens (hearing, pulse oximetry, hips, red reflex).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "At what age is the heel-prick dried blood spot for newborn metabolic screening ideally collected?",
+    "options": [
+     "Within the first 12 hours of life",
+     "48-72 hours of life",
+     "At 7-10 days of life",
+     "At the 6-week check"
+    ],
+    "answer": 1,
+    "explain": "Sampling at 48-72 h allows protein feeds to raise phenylalanine and other metabolites so the defect becomes detectable; a sample in the first hours (still reflecting placental clearance) risks false negatives, while waiting 1-6 weeks delays treatment.",
+    "note": "Heel prick at 48-72 hours → tandem mass spectrometry on dried blood spot, TSH, enzyme assays."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why are most inborn errors of metabolism clinically silent at birth and only become apparent after feeding begins?",
+    "options": [
+     "Maternal enzymes cross the placenta and persist for months",
+     "Fetal enzymes are expressed only after delivery",
+     "The placenta clears toxic metabolites in utero",
+     "Toxic metabolites are stored harmlessly in fetal fat"
+    ],
+    "answer": 2,
+    "explain": "In utero the mother's placenta and liver remove the accumulating metabolite; once the neonate is fed, the substrate load unmasks the defect. Maternal enzymes do not cross and persist, which is the classic misconception.",
+    "note": "Placenta clears toxic metabolites in utero → feeding unmasks the defect."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-day-old breastfed infant has jaundice, vomiting, hepatomegaly and bilateral cataracts. Blood cultures grow Escherichia coli. What is the most likely underlying diagnosis?",
+    "options": [
+     "Phenylketonuria",
+     "Classic galactosaemia",
+     "MCAD deficiency",
+     "Congenital hypothyroidism"
+    ],
+    "answer": 1,
+    "explain": "Jaundice, cataract and E. coli sepsis after milk feeds is the galactosaemia triad (galactose-1-phosphate toxicity). PKU causes no acute neonatal illness, MCAD presents with fasting hypoketotic hypoglycaemia, and hypothyroidism gives prolonged jaundice but not cataract or Gram-negative sepsis.",
+    "note": "Galactosaemia: jaundice, cataract, E. coli sepsis after milk feeds."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A previously well 14-month-old is found unresponsive after a gastroenteritis illness during which he barely ate for 18 hours. Glucose is 1.5 mmol/L with negative urine ketones. Which screened disorder best explains this?",
+    "options": [
+     "MCAD deficiency",
+     "Galactosaemia",
+     "Biotinidase deficiency",
+     "Phenylketonuria"
+    ],
+    "answer": 0,
+    "explain": "Fasting plus hypoketotic hypoglycaemia is the signature of a fatty-acid oxidation defect: without β-oxidation the child cannot make ketones. Galactosaemia presents in the neonatal period with feeds, and PKU causes developmental delay rather than acute hypoglycaemic collapse.",
+    "note": "MCAD: fasting → hypoketotic hypoglycaemia, sudden death."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-day-old's newborn screen shows raised phenylalanine. The parents are told by phone. What is the most appropriate next step?",
+    "options": [
+     "Start a lifelong low-phenylalanine diet and discharge to GP follow-up",
+     "Repeat the heel prick routinely at the 6-week check",
+     "Reassure, as screening tests are specific enough to act on",
+     "Urgent recall for confirmatory testing before labelling the diagnosis"
+    ],
+    "answer": 3,
+    "explain": "A positive screen is not a diagnosis: the infant needs urgent recall and quantitative confirmation (plasma amino acids, BH4 defects excluded). Starting lifelong therapy without confirmation or waiting until 6 weeks are both wrong.",
+    "note": "Positive screen ≠ diagnosis → urgent recall + confirmation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby is born to a mother who is HBsAg-positive. What is the correct immediate management of the baby?",
+    "options": [
+     "Hepatitis B immune globulin plus hepatitis B vaccine within 12 hours",
+     "Hepatitis B vaccine alone at the 2-month immunisation visit",
+     "Hepatitis B immune globulin alone, vaccine after maternal viral load",
+     "Avoid breastfeeding and test the baby for HBsAg at 1 month"
+    ],
+    "answer": 0,
+    "explain": "Passive (HBIG) plus active (vaccine) immunisation within 12 h prevents ~95% of vertical transmission. Vaccine alone or delayed vaccination is inadequate, and breastfeeding is not contraindicated once immunoprophylaxis is given.",
+    "note": "Hepatitis B mother: immune globulin + vaccine within 12 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "Parents decline all 'injections' for their newborn. Which routinely given prophylaxis are they most importantly declining, given the risk of intracranial bleeding at a few weeks of age?",
+    "options": [
+     "Vitamin D 400 IU",
+     "BCG vaccine",
+     "Vitamin K",
+     "Erythromycin eye ointment"
+    ],
+    "answer": 2,
+    "explain": "Vitamin K prevents haemorrhagic disease of the newborn, whose late form (2-12 weeks, mainly breastfed babies) classically causes intracranial haemorrhage. Vitamin D is oral and prevents rickets, not bleeding; eye prophylaxis prevents ophthalmia neonatorum.",
+    "note": "All newborns receive vitamin K to prevent haemorrhagic disease; vitamin D 400 IU."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 3,
+    "stem": "A committee debates adding a disease to the national newborn screen. Which feature of the disease would most strongly argue AGAINST inclusion under the Wilson-Jungner principles?",
+    "options": [
+     "It is clinically silent at birth and only detectable biochemically",
+     "It causes serious harm if not detected",
+     "A cheap dried-blood-spot assay is available",
+     "No effective treatment changes the outcome if started early"
+    ],
+    "answer": 3,
+    "explain": "Screening is justified for conditions that are silent at birth, harmful and treatable; if early detection does not change outcome, screening only creates anxiety. The other options are arguments FOR inclusion.",
+    "note": "Screening for diseases silent at birth, harmful, treatable (Wilson-Jungner)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Which conditions are covered by Hungarian newborn screening and how is it performed?",
+    "back": "26 congenital metabolic diseases: PKU, hypothyroidism (TSH), galactosaemia, biotinidase + tandem-MS (aminoacidopathies, FAO defects e.g. MCAD, organic acidurias) • heel prick 48-72 h, dried blood spot • positive screen → urgent recall + confirmation."
+   },
+   {
+    "type": "card",
+    "front": "List the non-blood newborn screens and routine neonatal prophylaxis.",
+    "back": "Hearing • pulse oximetry (critical CHD) • hips (DDH) • red reflex; vision every well-child visit (amblyopia) • vitamin K for all • vitamin D 400 IU • HBsAg+ mother: HBIG + vaccine within 12 h."
+   },
+   {
+    "type": "card",
+    "front": "Give the key presentation and treatment of PKU, galactosaemia and MCAD deficiency.",
+    "back": "PKU (phenylalanine hydroxylase): fair skin, musty odour → low-phe diet • Galactosaemia: jaundice, cataract, E. coli sepsis after milk → stop lactose • MCAD: fasting hypoketotic hypoglycaemia, sudden death → avoid fasting."
+   }
+  ]
+ },
+ "II-7": {
+  "summary": "SIDS is a diagnosis of exclusion explained by the triple-risk model (vulnerable infant + critical 2-4-month window + stressor such as prone sleep); prevention is 'back to sleep' in the parents' room on a firm, bare cot mattress, smoke-free.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "At what age does the incidence of sudden infant death syndrome peak?",
+    "options": [
+     "First week of life",
+     "6-9 months",
+     "10-12 months",
+     "2-4 months"
+    ],
+    "answer": 3,
+    "explain": "SIDS peaks at 2-4 months during sleep and is rare after 6 months. The neonatal week is dominated by perinatal causes of death rather than SIDS.",
+    "note": "SIDS peaks at 2-4 months of age, during sleep."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which statement correctly describes how a death is classified as sudden infant death syndrome?",
+    "options": [
+     "Any sudden unexpected death occurring during sleep in a child under 2 years",
+     "Unexplained after autopsy, death-scene investigation and clinical history",
+     "A sudden death with pulmonary petechiae found on autopsy",
+     "Any infant death where resuscitation was unsuccessful"
+    ],
+    "answer": 1,
+    "explain": "SIDS applies under 1 year and only when a full autopsy, scene investigation and history review find no cause. Autopsy findings like petechiae are non-specific, and the age limit is 1 year, not 2.",
+    "note": "SIDS is sudden death under 1 year, a diagnosis of exclusion after autopsy, scene investigation, history."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 3-month-old born at 33 weeks is placed prone to sleep for the first time by a grandparent and is found dead in the morning. Which framework best explains why this particular infant died?",
+    "options": [
+     "Primary cardiac channelopathy (long QT) unmasked during deep sleep",
+     "Overwhelming occult bacterial sepsis",
+     "Triple-risk model: vulnerable infant, critical period, external stressor",
+     "Accidental mechanical suffocation by an adult"
+    ],
+    "answer": 2,
+    "explain": "Prematurity (vulnerable infant), age 2-4 months (critical developmental period) and unaccustomed prone sleep (stressor) together satisfy the triple-risk model. Channelopathies and sepsis must be excluded at autopsy but do not explain the risk-factor pattern.",
+    "note": "Triple-risk model: vulnerable infant + critical developmental period + external stressor."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "What is the proposed mechanism linking prone sleeping to sudden infant death?",
+    "options": [
+     "Gastro-oesophageal reflux leads to aspiration pneumonia",
+     "Pressure on the chest wall restricts ventilation and causes immediate cardiac arrest",
+     "CO2 rebreathing causes hypoxia and the infant fails to arouse",
+     "Prone posture causes vagally mediated complete heart block"
+    ],
+    "answer": 2,
+    "explain": "Face-down infants rebreathe exhaled CO2 and become hypoxic; a vulnerable infant with an immature arousal response fails to wake and turn. Supine sleep does not increase aspiration, a common parental worry.",
+    "note": "Prone → rebreathes CO2 → hypoxia → vulnerable infant fails to arouse."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Parents of a 6-week-old ask which sleeping arrangement carries the HIGHEST risk of sudden infant death. Which do you name?",
+    "options": [
+     "Sleeping on a sofa with a parent who has drunk alcohol",
+     "Supine in a cot in the parents' bedroom",
+     "Supine in a cot with a pacifier",
+     "Supine in his own cot in a separate room, with a baby monitor"
+    ],
+    "answer": 0,
+    "explain": "Bed-sharing on a sofa, especially with alcohol, is among the strongest risk factors. Supine sleep in own cot in the parents' room, pacifier use and avoiding overheating are all protective.",
+    "note": "Smoking, bed-sharing (sofa, alcohol), prone/side sleep, soft bedding, overheating, prematurity."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 4-month-old is brought in dead after being found unresponsive in his cot. Apart from the autopsy, which investigation is essential to exclude abuse before SIDS can be considered?",
+    "options": [
+     "Echocardiogram of the siblings",
+     "Serum electrolytes of the mother",
+     "Chest X-ray only",
+     "Skeletal survey"
+    ],
+    "answer": 3,
+    "explain": "A full skeletal survey identifies occult fractures of non-accidental injury; a metabolic screen excludes defects such as MCAD. A chest X-ray alone misses metaphyseal and rib fractures elsewhere.",
+    "note": "Unexpected death → full autopsy + skeletal survey, metabolic screen; exclude infection, MCAD, abuse."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Which pair best represents the leading causes of death in infancy versus in children over 1 year of age?",
+    "options": [
+     "Perinatal conditions and malformations in infants; accidents over 1 year",
+     "SIDS in infants; malignancy and leukaemia as the leading cause over 1 year",
+     "Infections in infants; congenital heart disease over 1 year",
+     "Accidents in infants; perinatal conditions over 1 year"
+    ],
+    "answer": 0,
+    "explain": "Infant mortality is dominated by perinatal conditions (prematurity) and congenital malformations, while beyond 1 year accidents account for about 36-40% of deaths. Malignancy is a leading disease-related cause after 1 year but trails injuries.",
+    "note": "Infant deaths: perinatal conditions (prematurity) and congenital malformations; over 1 year, accidents 36-40%."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A mother of a 2-month-old asks how to reduce SIDS risk. She smokes, plans to bring the baby into her bed, and worries a dummy will spoil breastfeeding. Which advice is correct?",
+    "options": [
+     "Side-lying in the parents' bed so she can monitor breathing",
+     "Supine in her own cot in the parents' room; a dummy at sleep time is protective",
+     "Prone on a firm mattress to reduce reflux and aspiration",
+     "Bed-sharing is safe as long as she only smokes outside and the baby is supine"
+    ],
+    "answer": 1,
+    "explain": "Back to sleep, room-sharing in a separate cot, smoking cessation and a pacifier during sleep all reduce risk. Side and prone positions increase risk, and bed-sharing with a smoker remains high risk even if she smokes outdoors.",
+    "note": "“Back to sleep” (supine), avoid bed sharing, smoking cessation, pacifier during sleep."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the risk factors for SIDS.",
+    "back": "Prone/side sleep • bed-sharing (sofa, alcohol) • parental smoking • soft bedding • overheating • prematurity/low birth weight (<2500 g) • boys, winter, age 2-4 months."
+   },
+   {
+    "type": "card",
+    "front": "What advice do you give parents to prevent SIDS?",
+    "back": "“Back to sleep” supine • own cot in parents' room • firm mattress, no soft bedding • no bed-sharing • smoking cessation • pacifier at sleep • breastfeed, immunise • avoid overheating."
+   },
+   {
+    "type": "card",
+    "front": "How is an unexpected infant death investigated?",
+    "back": "Diagnosis of exclusion: full autopsy + skeletal survey + metabolic screen + death-scene investigation + history • exclude infection, MCAD, abuse • offer bereavement support."
+   }
+  ]
+ },
+ "II-8": {
+  "summary": "Signs of infection are the host response: tachycardia out of proportion to fever and prolonged CRT signal early shock, any infant <3 months with ≥38 °C gets a full septic screen, and early CRP can falsely reassure because it peaks at 36-48 h.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "According to NICE traffic-light criteria, which temperature finding alone places an infant in the high-risk (red) category?",
+    "options": [
+     "Temperature ≥39 °C in an infant aged 3-6 months",
+     "Fever lasting more than 3 days at any age",
+     "Temperature ≥40 °C in a child under 5 years",
+     "Temperature ≥38 °C in an infant under 3 months"
+    ],
+    "answer": 3,
+    "explain": "Infants under 3 months with ≥38 °C are red regardless of appearance; ≥39 °C at 3-6 months is amber, and fever ≥5 days is also amber.",
+    "note": "Any infant under 3 months with temperature ≥38 °C is high risk (NICE red); mottled skin, non-blanching rash."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which inflammatory marker rises earliest and is more specific for bacterial infection?",
+    "options": [
+     "CRP, within 2-4 hours",
+     "ESR, within 6 hours",
+     "White cell count, within 1 hour",
+     "Procalcitonin, within 2-4 hours"
+    ],
+    "answer": 3,
+    "explain": "Procalcitonin rises within 2-4 h and is more bacterial-specific, whereas CRP peaks only at 36-48 h, so an early normal CRP can falsely reassure. ESR is slow and non-specific.",
+    "note": "CRP peaks at 36-48 hours (early CRP may reassure falsely); procalcitonin rises within 2-4 hours, more bacterial-specific."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-week-old has a temperature of 38.2 °C, is feeding normally and looks well. Urine dipstick is negative. What is the most appropriate management?",
+    "options": [
+     "Full septic screen including blood culture, urine and lumbar puncture",
+     "Discharge with antipyretics and safety-net advice",
+     "Check CRP and discharge if under 20 mg/L",
+     "Observe for 4 hours and perform a septic screen only if the fever persists"
+    ],
+    "answer": 0,
+    "explain": "An infant under 3 months with ≥38 °C needs a full septic screen whatever their appearance, because serious bacterial infection is often clinically silent. A normal early CRP can be falsely reassuring.",
+    "note": "Infant <3 months ≥ 38 °C → full septic screen."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old with fever 38.5 °C has a heart rate of 190/min, cool peripheries and capillary refill of 4 seconds, but a normal blood pressure. What does this picture most likely indicate?",
+    "options": [
+     "Expected response to fever",
+     "Decompensated septic shock",
+     "Compensated septic shock",
+     "Supraventricular tachycardia"
+    ],
+    "answer": 2,
+    "explain": "Tachycardia out of proportion to fever with prolonged CRT and vasoconstriction indicates compensated shock; hypotension is a late, pre-terminal sign in children, so normal BP does not reassure. SVT rates are usually >220 and fixed.",
+    "note": "Tachycardia out of proportion to fever → shock."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "What is the mechanism of mottled skin and prolonged capillary refill in a febrile child with sepsis?",
+    "options": [
+     "Peripheral vasoconstriction to maintain central perfusion",
+     "Bacterial emboli occluding dermal capillaries",
+     "Prostaglandin-mediated peripheral vasodilation with capillary leak",
+     "Hypothalamic resetting of the temperature set-point"
+    ],
+    "answer": 0,
+    "explain": "In early shock, catecholamine-driven vasoconstriction diverts blood to vital organs, producing mottling and slow CRT. The hypothalamic set-point change explains fever itself, not the perfusion signs.",
+    "note": "Vasoconstriction → mottling, prolonged CRT → early shock."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which mediator acts in the hypothalamus to raise the thermoregulatory set-point in fever?",
+    "options": [
+     "Histamine",
+     "Prostaglandin E2",
+     "Bradykinin",
+     "Leukotriene B4 (LTB4)"
+    ],
+    "answer": 1,
+    "explain": "IL-1, IL-6 and TNF induce PGE2 in the hypothalamus, raising the set-point; this is why COX inhibitors such as paracetamol and ibuprofen reduce fever.",
+    "note": "IL-1, IL-6, TNF induce PGE2 in hypothalamus → raised set-point → fever."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A febrile 5-year-old with headache and neck stiffness has a lumbar puncture. Which CSF result is most consistent with bacterial meningitis?",
+    "options": [
+     "WBC 3/µL, glucose normal, protein normal",
+     "WBC 80/µL, lymphocyte predominant, glucose normal",
+     "WBC 1200/µL, neutrophil predominant, glucose low",
+     "WBC 2/µL, glucose low, protein normal"
+    ],
+    "answer": 2,
+    "explain": "Bacterial meningitis gives a neutrophilic pleocytosis with low glucose (bacteria and neutrophils consume it). Normal CSF WBC is <5/µL; a lymphocytic picture with normal glucose suggests viral meningitis.",
+    "note": "Normal CSF WBC <5/µL; bacterial meningitis → low glucose."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old has fever, a spreading non-blanching rash, CRT 5 s and drowsiness. Blood cultures have been taken. What is the next step?",
+    "options": [
+     "Perform a lumbar puncture before antibiotics to guide therapy",
+     "Give IV antibiotics now; defer the lumbar puncture",
+     "Wait for the CRP result before starting antibiotics",
+     "Arrange a CT head before any further intervention"
+    ],
+    "answer": 1,
+    "explain": "In a shocked child, cultures are followed by antibiotics within the hour, and LP is never allowed to delay treatment (it is also unsafe in shock or raised ICP). Waiting for CRP or CT costs time.",
+    "note": "Shocked child: cultures → antibiotics within the hour; never delay for LP."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Which clinical signs suggest serious bacterial infection in a febrile child?",
+    "back": "Grunting, RR >60 • bulging fontanelle, neck stiffness • petechiae/non-blanching rash • lethargy • mottled skin, prolonged CRT • tachycardia out of proportion to fever • any infant <3 mo ≥38 °C."
+   },
+   {
+    "type": "card",
+    "front": "Compare CRP and procalcitonin in early sepsis.",
+    "back": "CRP peaks 36-48 h → early CRP may falsely reassure • procalcitonin rises within 2-4 h, more bacterial-specific."
+   },
+   {
+    "type": "card",
+    "front": "What are the key principles of managing a febrile infant or shocked child?",
+    "back": "Infant <3 mo ≥38 °C → full septic screen • blood cultures before antibiotics (number and volume decide sensitivity) • shocked: cultures → antibiotics within 1 h • never delay for LP."
+   }
+  ]
+ },
+ "II-9": {
+  "summary": "Pick the antibiotic by age-specific bugs, site penetration and severity, culture first and review at 48-72 h; neonates need amoxicillin/ampicillin because Listeria ignores cephalosporins, and know the age-specific toxicities (grey baby, tooth staining, ceftriaxone-calcium).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Why must empirical antibiotic therapy for neonatal sepsis include ampicillin or amoxicillin?",
+    "options": [
+     "Listeria monocytogenes is intrinsically resistant to cephalosporins",
+     "Group B streptococcus is resistant to gentamicin and cefotaxime",
+     "E. coli in neonates is uniformly sensitive to ampicillin",
+     "Ampicillin is the only agent that crosses the neonatal blood-brain barrier"
+    ],
+    "answer": 0,
+    "explain": "Listeria is intrinsically resistant to cephalosporins, so amoxicillin/ampicillin is mandatory in neonatal cover. GBS remains penicillin- and cephalosporin-sensitive, and many E. coli are ampicillin-resistant, which is why gentamicin or cefotaxime is added.",
+    "note": "Listeria is resistant to cephalosporins, so neonatal cover needs amoxicillin."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 5-day-old has fever, lethargy and a bulging fontanelle; CSF shows a neutrophilic pleocytosis. Which empirical regimen is most appropriate?",
+    "options": [
+     "Ampicillin plus gentamicin",
+     "Ampicillin plus cefotaxime",
+     "Ceftriaxone alone",
+     "Vancomycin plus meropenem"
+    ],
+    "answer": 1,
+    "explain": "Suspected neonatal meningitis is treated with ampicillin (Listeria, GBS) plus cefotaxime for CNS penetration against Gram-negatives. Gentamicin penetrates CSF poorly, and ceftriaxone is avoided in neonates (bilirubin displacement, calcium precipitation).",
+    "note": "Neonatal sepsis: ampicillin + gentamicin; suspected meningitis: ampicillin + cefotaxime. Beyond neonate: ceftriaxone."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-day-old receiving IV calcium-containing fluids for hypocalcaemia develops suspected sepsis. Why should ceftriaxone be avoided?",
+    "options": [
+     "It causes grey baby syndrome through immature glucuronidation",
+     "It causes permanent tooth discolouration",
+     "It causes acute tubular necrosis and ototoxicity at high trough levels",
+     "It displaces bilirubin from albumin and precipitates with calcium"
+    ],
+    "answer": 3,
+    "explain": "In neonates ceftriaxone displaces bilirubin (kernicterus risk) and forms fatal ceftriaxone-calcium precipitates in lungs and kidneys. Grey baby is chloramphenicol, tooth staining is tetracycline, and ATN/ototoxicity is aminoglycosides.",
+    "note": "Ceftriaxone in neonates displaces bilirubin and precipitates with calcium."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which antibiotic class kills in a concentration-dependent manner, so that a high peak level relative to MIC is the main dosing target?",
+    "options": [
+     "Penicillins",
+     "Cephalosporins",
+     "Carbapenems (e.g. meropenem)",
+     "Aminoglycosides"
+    ],
+    "answer": 3,
+    "explain": "Aminoglycosides show concentration-dependent killing (once-daily high-dose regimens), whereas β-lactams are time-dependent: what matters is time above MIC, favouring frequent dosing or infusions.",
+    "note": "Aminoglycosides show concentration-dependent killing; β -lactams show time-dependent killing."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old is prescribed an antibiotic for a tick-borne infection, and the mother asks about a classic dental side effect. Which class is she worried about, and why is it now considered acceptable for short courses?",
+    "options": [
+     "Macrolides; staining resolves after stopping",
+     "Tetracyclines; short courses of doxycycline rarely stain teeth",
+     "Fluoroquinolones; staining affects only the primary dentition",
+     "Aminoglycosides; staining is dose-independent"
+    ],
+    "answer": 1,
+    "explain": "Tetracyclines chelate calcium in developing teeth causing permanent staining; doxycycline binds calcium less and courses up to 21 days are now accepted at any age (e.g. Lyme, rickettsiae). Fluoroquinolones are linked to tendon and cartilage damage instead.",
+    "note": "Chloramphenicol → gray baby syndrome; tetracyclines → permanent tooth staining."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old on IV ceftriaxone for presumed pyelonephritis has been afebrile for 24 hours; urine culture at 48 hours grows E. coli sensitive to co-amoxiclav. What is the best next step?",
+    "options": [
+     "Continue IV ceftriaxone for a full 14-day course to prevent renal scarring",
+     "Add gentamicin for synergy",
+     "Switch to oral co-amoxiclav to complete a short course",
+     "Stop antibiotics as the child is afebrile"
+    ],
+    "answer": 2,
+    "explain": "Antimicrobial stewardship: review at 48-72 h, narrow to culture results and switch IV to oral once afebrile, for the shortest effective duration. Stopping now would undertreat pyelonephritis, and continuing IV adds no benefit.",
+    "note": "Narrow to culture, IV → oral when afebrile, shortest effective duration."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old with a cough, RR 45 and focal crackles is diagnosed with uncomplicated community-acquired pneumonia; she is maintaining saturation and tolerating fluids. What is the first-line treatment?",
+    "options": [
+     "Oral clarithromycin",
+     "IV ceftriaxone",
+     "Oral amoxicillin",
+     "Oral co-amoxiclav"
+    ],
+    "answer": 2,
+    "explain": "Pneumococcus is the main target, and oral amoxicillin is first line for uncomplicated paediatric CAP. Macrolides are added for suspected atypicals in older children; IV therapy is reserved for those who cannot take oral or are severely unwell.",
+    "note": "CAP: oral amoxicillin; MSSA: nafcillin, oxacillin, dicloxacillin; newborn gonorrhea: ceftriaxone."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A skin abscess isolate of Staphylococcus aureus is resistant to penicillin but sensitive to flucloxacillin and co-amoxiclav. What is the mechanism of the penicillin resistance?",
+    "options": [
+     "β-lactamase hydrolysing the β-lactam ring",
+     "Altered penicillin-binding protein (PBP2a)",
+     "Reduced porin channels in the outer membrane",
+     "Active efflux pump expression"
+    ],
+    "answer": 0,
+    "explain": "Penicillinase-producing S. aureus hydrolyses the β-lactam ring; flucloxacillin is β-lactamase-stable and clavulanate inhibits the enzyme, so both work. Altered PBP2a (MRSA) would make it resistant to flucloxacillin too.",
+    "note": "β -lactams inhibit penicillin-binding protein transpeptidases; β -lactamase hydrolyzes the β -lactam ring."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the principles for choosing and reviewing an antibiotic in a child?",
+    "back": "Choose by bug (age, site), penetration, severity, local resistance • culture first • review at 48-72 h → narrow or stop • IV → oral when afebrile • shortest effective duration • no antibiotics for colds, bronchiolitis, viral wheeze."
+   },
+   {
+    "type": "card",
+    "front": "Give the empirical antibiotic regimens by age and indication.",
+    "back": "Neonatal sepsis: ampicillin + gentamicin • neonatal meningitis: ampicillin + cefotaxime • beyond neonate: ceftriaxone • CAP: oral amoxicillin • MSSA: nafcillin/oxacillin/dicloxacillin • newborn gonorrhoea: ceftriaxone."
+   },
+   {
+    "type": "card",
+    "front": "Name the antibiotic toxicities that matter specifically in children.",
+    "back": "Chloramphenicol: grey baby • tetracyclines: tooth staining • ceftriaxone (neonate): bilirubin displacement, Ca precipitation • aminoglycosides: ATN, ototoxicity • fluoroquinolones: tendon rupture, cartilage damage."
+   }
+  ]
+ },
+ "II-10": {
+  "summary": "Lyme disease: erythema migrans >5 cm after a tick bite is a clinical diagnosis (no serology); doxycycline for most (amoxicillin in young children per European practice), IV ceftriaxone for neuro or high-grade AV block. Mumps: viraemia seeds glands and CNS, which explains every complication; treat supportively and prevent with MMR ×2.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 7-year-old has an expanding 9 cm erythematous patch with central clearing on his thigh, 10 days after a hiking trip with a known tick bite. What is the appropriate diagnostic approach?",
+    "options": [
+     "ELISA followed by Western blot before treatment",
+     "Clinical diagnosis; treat without serology",
+     "Skin biopsy for Borrelia PCR",
+     "Repeat serology in 4 weeks, then treat if positive"
+    ],
+    "answer": 1,
+    "explain": "Erythema migrans (tick bite plus a growing erythema >5 cm) is diagnostic; serology is often negative this early and treatment should not wait. Two-tier serology is reserved for early disseminated or late disease.",
+    "note": "Erythema migrans is clinical: tick bite + growing erythema more than 5 cm; no serology."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Roughly how long must an Ixodes tick remain attached before transmission of Borrelia burgdorferi becomes likely?",
+    "options": [
+     "Less than 1 hour of attachment",
+     "About 4-6 hours",
+     "More than 24-36 hours",
+     "More than 7 days"
+    ],
+    "answer": 2,
+    "explain": "The spirochete migrates from the tick midgut to the salivary glands only after prolonged feeding, so transmission needs >24-36 h of attachment; prompt tick removal is protective.",
+    "note": "Lyme: Northeast and upper Midwest US; needs >24-36 h attachment. Mumps: incubation 16-18 days."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old presents in August with a unilateral lower motor neurone facial palsy. Three weeks ago she had an expanding rash after a forest camp. Which further assessment is most important?",
+    "options": [
+     "MRI of the internal auditory meatus",
+     "Nerve conduction studies of the facial nerve",
+     "Serum ACE level for sarcoidosis",
+     "ECG to look for atrioventricular block"
+    ],
+    "answer": 3,
+    "explain": "Facial palsy in an endemic setting suggests stage 2 (early disseminated) Lyme, which can also cause carditis with AV block; an ECG identifies high-grade block needing IV ceftriaxone and monitoring.",
+    "note": "Lyme stage 2: facial palsy, meningitis, carditis (AV block); stage 3: encephalopathy, arthritis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 12-year-old has early Lyme disease with second-degree AV block (PR >300 ms) and syncope. What is the most appropriate treatment?",
+    "options": [
+     "Oral doxycycline for 10 days",
+     "Oral amoxicillin for 14 days",
+     "Single-dose doxycycline",
+     "IV ceftriaxone"
+    ],
+    "answer": 3,
+    "explain": "Neurological disease or high-grade heart block requires IV ceftriaxone (with cardiac monitoring). Oral agents are for erythema migrans or mild disease, and single-dose doxycycline is only post-bite prophylaxis.",
+    "note": "Neuro/high-grade block: IV ceftriaxone. Prophylaxis if tick attached ≥36 hours, within 72 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old had an engorged Ixodes tick removed today from an endemic area; it was attached for about 48 hours and was removed 20 hours ago. There is no rash. What is the most appropriate management?",
+    "options": [
+     "10-day course of amoxicillin",
+     "Lyme serology now and repeated in 6 weeks",
+     "Single dose of doxycycline as prophylaxis",
+     "No action; watch for rash only"
+    ],
+    "answer": 2,
+    "explain": "Prophylaxis is indicated when the tick was attached ≥36 h and it can be given within 72 h of removal: a single dose of doxycycline. Serology immediately after a bite is uninformative, and a full course is for established disease.",
+    "note": "Neuro/high-grade block: IV ceftriaxone. Prophylaxis if tick attached ≥36 hours, within 72 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 15-year-old unvaccinated boy has bilateral parotid swelling, then develops headache with neck stiffness and a tender swollen testis. What single process explains all these features?",
+    "options": [
+     "Viraemia seeding glandular tissue and the CNS",
+     "Ascending infection from the parotid duct",
+     "Immune-complex deposition after clearance",
+     "Direct spread from the parotid to the meninges"
+    ],
+    "answer": 0,
+    "explain": "Mumps virus spreads haematogenously to glands (parotid, testis, pancreas) and the CNS, which is why orchitis, pancreatitis and meningitis can occur even without parotitis.",
+    "note": "Mumps: viraemia seeds glands + CNS → explains every complication."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "Which mumps complication is characteristically seen in post-pubertal males rather than young boys?",
+    "options": [
+     "Orchitis",
+     "Aseptic meningitis",
+     "Pancreatitis",
+     "Sensorineural deafness"
+    ],
+    "answer": 0,
+    "explain": "Orchitis occurs mainly after puberty (up to a third of adolescent/adult males) and can cause testicular atrophy; meningitis, pancreatitis and deafness occur at any age.",
+    "note": "Mumps: painful parotid swelling; orchitis in post-pubertal males; meningitis, pancreatitis, deafness."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 6-year-old with tender bilateral pre-auricular swelling and fever also has epigastric pain. Which laboratory result supports the clinical diagnosis but cannot by itself distinguish parotitis from pancreatitis?",
+    "options": [
+     "Raised serum lipase",
+     "Raised serum amylase",
+     "Positive heterophile antibody test",
+     "Raised antistreptolysin O titre"
+    ],
+    "answer": 1,
+    "explain": "Amylase rises in both salivary and pancreatic inflammation; lipase is pancreas-specific. Mumps is confirmed by RT-PCR (buccal swab) or IgM.",
+    "note": "Early disseminated/late: ELISA then Western if confirmation needed. Mumps: raised amylase, RT-PCR/IgM."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the stages of Lyme disease and their manifestations.",
+    "back": "Stage 1: erythema migrans (expanding, central clearing, >5 cm) • Stage 2 (early disseminated): facial palsy, meningitis, carditis (AV block) • Stage 3 (late): arthritis, encephalopathy."
+   },
+   {
+    "type": "card",
+    "front": "How do you treat Lyme disease, including prophylaxis?",
+    "back": "EM: young child amoxicillin, older doxycycline (US any age, 10 d) • neuro/high-grade AV block: IV ceftriaxone • prophylaxis: single-dose doxycycline if tick attached ≥36 h, within 72 h."
+   },
+   {
+    "type": "card",
+    "front": "List the complications of mumps and how it is diagnosed and prevented.",
+    "back": "Viraemia → glands + CNS: orchitis (post-pubertal), meningitis, pancreatitis, deafness • incubation 16-18 d • Dx: raised amylase, RT-PCR/IgM • Rx supportive • prevent: MMR ×2."
+   }
+  ]
+ },
+ "II-11": {
+  "summary": "Infectious mononucleosis is a teenager with fever, exudative pharyngitis, posterior cervical nodes and splenomegaly; the 'atypical lymphocytes' are reactive CD8 T cells, Monospot fails under 4-5 years (use VCA IgM), treatment is supportive, and the spleen dictates 3-4 weeks off contact sport.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 16-year-old has 10 days of fatigue, fever and sore throat with grey-white tonsillar exudate, tender posterior cervical lymph nodes and a palpable spleen tip. What is the most likely diagnosis?",
+    "options": [
+     "Group A streptococcal tonsillitis",
+     "Infectious mononucleosis",
+     "Acute lymphoblastic leukaemia",
+     "Diphtheria"
+    ],
+    "answer": 1,
+    "explain": "Posterior cervical nodes, splenomegaly and prolonged fatigue point to EBV; streptococcal tonsillitis gives anterior cervical nodes without splenomegaly. Leukaemia must be excluded if there are cytopenias or blasts.",
+    "note": "Fatigue, fever, posterior cervical lymphadenopathy, pharyngitis, hepatosplenomegaly; grey-white tonsillar exudate."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 17-year-old with exudative tonsillitis is prescribed amoxicillin and 2 days later develops a widespread itchy maculopapular rash. What is the best interpretation?",
+    "options": [
+     "IgE-mediated penicillin allergy; label as penicillin-allergic for life",
+     "Scarlet fever rash from untreated group A streptococcus",
+     "Rash due to amoxicillin in EBV infection; not a true penicillin allergy",
+     "Early Stevens-Johnson syndrome; admit for IV fluids"
+    ],
+    "answer": 2,
+    "explain": "Most patients with EBV given amoxicillin develop a maculopapular rash; it does not indicate true penicillin allergy and should not lead to a lifelong label. Scarlet fever has a sandpaper texture and would improve on amoxicillin.",
+    "note": "Amoxicillin in EBV causes a maculopapular rash - not true penicillin allergy."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Through which receptor does Epstein-Barr virus enter B lymphocytes?",
+    "options": [
+     "CD21 (complement receptor 2)",
+     "CD4",
+     "CD19 (B-cell co-receptor)",
+     "CCR5"
+    ],
+    "answer": 0,
+    "explain": "EBV first infects oropharyngeal epithelium, then B cells via CD21 (CR2), binding through glycoprotein gp350. CD4 and CCR5 are HIV receptors.",
+    "note": "EBV first infects oropharyngeal epithelium, then B cells via CD21."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A blood film from a teenager with mononucleosis shows large lymphocytes with abundant cytoplasm that 'skirts' around red cells. What are these cells?",
+    "options": [
+     "Reactive CD8 T cells",
+     "EBV-infected B cells",
+     "Leukaemic lymphoblasts",
+     "Activated monocytes"
+    ],
+    "answer": 0,
+    "explain": "Downey type II atypical lymphocytes are reactive cytotoxic CD8 T cells responding to EBV-infected B cells, not the infected B cells themselves. Blasts would raise concern for leukaemia.",
+    "note": "Reactive CD8 T cells = Downey type II atypical lymphocytes."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 3-year-old has fever, exudative tonsillitis, cervical lymphadenopathy and splenomegaly; the blood film shows 18% atypical lymphocytes but the Monospot test is negative. What is the most appropriate next test?",
+    "options": [
+     "Repeat the Monospot test in 1-2 weeks",
+     "Bone marrow aspirate",
+     "Throat swab culture only",
+     "EBV viral capsid antigen (VCA) IgM"
+    ],
+    "answer": 3,
+    "explain": "Heterophile antibody tests are often negative under 4-5 years; EBV-specific serology (VCA IgM) confirms acute infection. A marrow is needed only if there are cytopenias or blasts.",
+    "note": "Atypical lymphocytes >10% on smear; Monospot often negative under 4-5 years → VCA IgM."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 14-year-old with suspected glandular fever has hepatosplenomegaly, haemoglobin 82 g/L, platelets 35 × 10^9/L and neutrophils 0.4 × 10^9/L. What is the most important next step?",
+    "options": [
+     "Reassure; cytopenias are typical of EBV",
+     "Start oral aciclovir",
+     "Give oral prednisolone for presumed EBV-related immune marrow suppression",
+     "Blood film and bone marrow examination to exclude leukaemia"
+    ],
+    "answer": 3,
+    "explain": "Mild cytopenias can occur in EBV, but trilineage cytopenia with organomegaly must be treated as possible leukaemia until proven otherwise. Aciclovir is useless, and steroids before a diagnosis could mask ALL.",
+    "note": "Cytopenias or blasts → exclude leukaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 16-year-old rugby player is diagnosed with infectious mononucleosis and has splenomegaly. What advice is most important?",
+    "options": [
+     "Start oral aciclovir to shorten the illness",
+     "Avoid contact sport for at least 3-4 weeks",
+     "Begin oral prednisolone to reduce spleen size",
+     "Return to sport as soon as the fever settles"
+    ],
+    "answer": 1,
+    "explain": "Splenic rupture is the most feared complication, so contact sport is avoided for 3-4 weeks. Aciclovir does not change the course, and steroids are reserved for airway obstruction, haemolysis or severe thrombocytopenia.",
+    "note": "No contact sport for 3-4 weeks because of splenic rupture."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 15-year-old with EBV infection has massive tonsillar swelling, drooling and inspiratory stridor. Which treatment is indicated in addition to airway support?",
+    "options": [
+     "IV aciclovir",
+     "IV benzylpenicillin",
+     "Corticosteroids",
+     "Rituximab"
+    ],
+    "answer": 2,
+    "explain": "Steroids are indicated only for impending airway obstruction, haemolysis or severe thrombocytopenia; aciclovir is ineffective. Penicillins add nothing for EBV and amoxicillin causes the rash.",
+    "note": "Steroids only for airway obstruction, haemolysis or thrombocytopenia."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the clinical picture of infectious mononucleosis.",
+    "back": "Teenager, saliva spread • fever, fatigue, pharyngitis with grey-white exudate • posterior cervical nodes • hepatosplenomegaly • raised LFTs, lymphocytosis • amoxicillin rash (not allergy) • young children mild/silent."
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose EBV infection, and what pitfall applies in young children?",
+    "back": "Atypical lymphocytes >10% (reactive CD8 T cells, Downey II) • heterophile antibodies (Monospot) from polyclonal B activation, often negative <4-5 y → VCA IgM • cytopenias/blasts → exclude leukaemia."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of infectious mononucleosis.",
+    "back": "Supportive: rest, fluids, paracetamol • aciclovir useless • steroids only for airway obstruction, haemolysis, thrombocytopenia • no contact sport 3-4 weeks (splenic rupture) • avoid amoxicillin."
+   }
+  ]
+ },
+ "II-12": {
+  "summary": "Measles = 3 Cs + Koplik spots then a cephalocaudal rash; pneumonia kills and immune amnesia follows. Rubella matters for the fetus (cataract, deafness, PDA). Scarlet fever is a GAS toxin rash: confirm on culture and give 10 days of penicillin to prevent rheumatic fever.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An unvaccinated 4-year-old has had 3 days of high fever, cough, coryza and conjunctivitis. Tiny white spots on a red background are seen on the buccal mucosa opposite the molars. What will most likely happen next?",
+    "options": [
+     "A vesicular rash appearing in successive crops, starting on the trunk",
+     "A slapped-cheek rash followed by a lacy limb rash",
+     "A rash appearing on the trunk as the fever resolves",
+     "A maculopapular rash starting behind the ears and spreading downward"
+    ],
+    "answer": 3,
+    "explain": "This is measles prodrome with Koplik spots; the rash appears day 3-4 behind the ears/hairline and spreads downward. Rash-after-defervescence is roseola, and crops of vesicles are varicella.",
+    "note": "Measles: 3 Cs + Koplik spots → rash day 3-4, ears downward."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "What is the most common cause of death from measles in children?",
+    "options": [
+     "Acute encephalitis",
+     "Pneumonia",
+     "Subacute sclerosing panencephalitis",
+     "Myocarditis"
+    ],
+    "answer": 1,
+    "explain": "Measles pneumonia (viral or secondary bacterial) causes most deaths; acute encephalitis is rarer, and SSPE is a late, uniformly fatal but rare complication years later.",
+    "note": "Measles pneumonia is the commonest death; SSPE years later."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Two years after measles, a child has had repeated serious bacterial infections despite previously normal immunity. What mechanism best explains this?",
+    "options": [
+     "Measles causes permanent neutropenia",
+     "Measles induces persistent hypogammaglobulinaemia of IgA only",
+     "Measles causes functional asplenia",
+     "Measles destroys memory lymphocytes ('immune amnesia')"
+    ],
+    "answer": 3,
+    "explain": "Measles infects and kills memory B and T cells, erasing pre-existing immune memory for years; this is a major argument for vaccination beyond the acute illness.",
+    "note": "Measles kills memory cells → immune amnesia; rubella crosses placenta → organogenesis damage."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An unvaccinated 18-month-old was exposed to a child with measles 2 days ago; he is immunocompetent. What is the most appropriate post-exposure measure?",
+    "options": [
+     "Human normal immunoglobulin only after day 7",
+     "MMR vaccine now (within 72 hours)",
+     "Oral aciclovir for 7 days",
+     "No action; vaccinate at the routine time"
+    ],
+    "answer": 1,
+    "explain": "MMR within 72 h of exposure can prevent or modify measles; immunoglobulin is used within 6 days for those who cannot receive live vaccine (infants, pregnant, immunocompromised). Aciclovir has no role.",
+    "note": "Measles: supportive + vitamin A; contacts MMR ≤ 72 h or Ig ≤ 6 days."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has bilateral cataracts, fails the hearing screen and has a continuous machinery murmur. The mother had a rash illness with tender neck nodes at 8 weeks' gestation. What is the most likely diagnosis?",
+    "options": [
+     "Congenital cytomegalovirus infection",
+     "Congenital toxoplasmosis",
+     "Congenital rubella syndrome",
+     "Congenital varicella syndrome"
+    ],
+    "answer": 2,
+    "explain": "The classic congenital rubella triad is cataract, sensorineural deafness and PDA, highest risk with first-trimester infection (~80% fetal injury). CMV is the commonest congenital infection but gives periventricular calcification and microcephaly, not cataract and PDA.",
+    "note": "Rubella: postauricular and suboccipital nodes; CRS: cataract, sensorineural deafness, PDA (80% foetal injury)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old has fever and sore throat, then a fine red rash that feels like sandpaper, a red 'strawberry' tongue and pale skin around the mouth. What is the most likely diagnosis?",
+    "options": [
+     "Scarlet fever",
+     "Kawasaki disease",
+     "Measles",
+     "Staphylococcal scalded skin syndrome"
+    ],
+    "answer": 0,
+    "explain": "Sandpaper rash, strawberry tongue and circumoral pallor in a 2-10-year-old with pharyngitis is scarlet fever (GAS exotoxin). Kawasaki also has strawberry tongue but needs ≥5 days of fever with conjunctivitis and extremity changes.",
+    "note": "Scarlet: sandpaper rash, strawberry tongue, circumoral pallor, desquamation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old with fever, exudative pharyngitis and a sandpaper rash has a negative rapid streptococcal antigen test. What is the most appropriate next step?",
+    "options": [
+     "Exclude group A streptococcus and stop investigating",
+     "Measure the ASO titre today to confirm",
+     "Send a throat swab for culture",
+     "Check EBV serology before any further step"
+    ],
+    "answer": 2,
+    "explain": "Rapid strep tests have imperfect sensitivity, so a negative result in a child with typical features should be followed by throat culture, the gold standard. ASO rises only weeks later and reflects past infection.",
+    "note": "Scarlet: throat swab; Rapid Strep has low sensitivity, culture confirms; ASO later."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-year-old's scarlet fever has resolved clinically after 3 days of phenoxymethylpenicillin, and the parents want to stop. What do you advise?",
+    "options": [
+     "Complete 10 days to prevent rheumatic fever",
+     "Stop now, as symptoms have resolved",
+     "Switch to a 3-day course of azithromycin to finish the course",
+     "Stop and repeat the throat swab in 1 week"
+    ],
+    "answer": 0,
+    "explain": "A full 10-day course of penicillin eradicates GAS from the pharynx and prevents acute rheumatic fever. Shorter courses relapse more often; azithromycin is an alternative only in penicillin allergy.",
+    "note": "Scarlet fever: phenoxymethylpenicillin 10 days (US also amoxicillin) → prevents rheumatic fever."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare measles, rubella and scarlet fever: organism and key signs.",
+    "back": "Measles (paramyxovirus): 3 Cs + Koplik → rash day 3-4 from ears down • Rubella (togavirus): postauricular/suboccipital nodes, mild • Scarlet (GAS exotoxin): sandpaper rash, strawberry tongue, circumoral pallor, desquamation."
+   },
+   {
+    "type": "card",
+    "front": "What are the complications and the management of measles?",
+    "back": "Pneumonia (commonest death) • encephalitis • SSPE years later • immune amnesia • Rx: supportive + vitamin A • contacts: MMR ≤72 h or Ig ≤6 days • prevent: MMR ×2."
+   },
+   {
+    "type": "card",
+    "front": "Describe congenital rubella syndrome.",
+    "back": "First-trimester rubella crosses placenta → organogenesis damage (~80% fetal injury) • cataract • sensorineural deafness • PDA • prevent with MMR; avoid live vaccine in pregnancy."
+   }
+  ]
+ },
+ "II-13": {
+  "summary": "Think by route and organ: tissue-migrating worms give eosinophilia (Th2/IL-5), Giardia flattens villi (fatty stools), Entamoeba invades (bloody diarrhoea, liver abscess); threadworm is the common European worm (tape test, mebendazole for the household, repeat at 2 weeks), and fever after endemic travel is malaria until films say otherwise.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 5-year-old girl wakes at night scratching her perianal area; her sister has similar symptoms. What is the most likely cause?",
+    "options": [
+     "Enterobius vermicularis",
+     "Ascaris lumbricoides (roundworm)",
+     "Giardia lamblia",
+     "Toxocara canis"
+    ],
+    "answer": 0,
+    "explain": "Nocturnal perianal itch from egg-laying females is classic threadworm (Enterobius), the commonest helminth in Europe, and spreads within households. Ascaris causes abdominal or pulmonary symptoms rather than perianal itch.",
+    "note": "Threadworm: nocturnal perianal itch. Toxocara: leukocoria (ocular larva migrans), mimics retinoblastoma."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A sticky tape test confirms threadworm in a 6-year-old. What is the most appropriate management?",
+    "options": [
+     "Mebendazole for the child only, single dose",
+     "Metronidazole for the child for 7 days",
+     "Mebendazole for the child and all household members, repeated after 2 weeks",
+     "Albendazole for the child and exclusion from school until the tape test is clear"
+    ],
+    "answer": 2,
+    "explain": "Mebendazole kills adult worms but not eggs, so a repeat dose at 2 weeks treats newly hatched worms, and the whole household is treated with hygiene measures. Metronidazole is for protozoa, and school exclusion is not needed.",
+    "note": "Threadworm: mebendazole, repeat after 2 weeks, treat the whole household."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old who plays with the family puppy presents with a white pupillary reflex in one eye and reduced vision; the child is otherwise well with eosinophilia. Which diagnosis must be distinguished from the most dangerous alternative?",
+    "options": [
+     "Congenital cataract, which mimics retinopathy of prematurity",
+     "Ocular toxocariasis, which mimics retinoblastoma",
+     "Toxoplasma chorioretinitis, which mimics coloboma",
+     "Coats disease, which mimics glaucoma"
+    ],
+    "answer": 1,
+    "explain": "Toxocara larvae (from puppies) cause ocular larva migrans with leukocoria, which must be distinguished from retinoblastoma; eosinophilia reflects tissue-migrating larvae. Treatment is albendazole.",
+    "note": "Threadworm: nocturnal perianal itch. Toxocara: leukocoria (ocular larva migrans), mimics retinoblastoma."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A child returning from a summer camp has 3 weeks of bloating, flatulence and foul-smelling, pale, floating stools without blood. What is the mechanism of these symptoms?",
+    "options": [
+     "Trophozoites invade the colonic mucosa causing ulceration",
+     "Preformed toxin causes secretory diarrhoea",
+     "Larvae migrate through the lungs and gut wall causing eosinophilic enteritis",
+     "Trophozoites flatten small-bowel villi causing fat and lactose malabsorption"
+    ],
+    "answer": 3,
+    "explain": "Giardia (faecal-oral, camping streams, daycare) attaches to duodenal epithelium and flattens villi → steatorrhoea and secondary lactose intolerance. Colonic invasion with bloody stools is Entamoeba.",
+    "note": "Giardia flattens villi → fat/lactose malabsorption; Entamoeba trophozoites invade colon."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which immune pathway explains the eosinophilia in tissue-migrating helminth infections?",
+    "options": [
+     "Th1 response with interferon-gamma",
+     "Th2 response with IL-5",
+     "Th17 response with IL-17",
+     "Complement activation with C5a"
+    ],
+    "answer": 1,
+    "explain": "Helminths drive a Th2 response; IL-5 stimulates eosinophil production and activation, and IL-4/IL-13 drive IgE. Th1/IFN-γ is the response to intracellular pathogens.",
+    "note": "Tissue-migrating worms → Th2 / IL-5 → eosinophilia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 12-year-old who recently arrived from South Asia has bloody diarrhoea, then fever and right upper quadrant pain; ultrasound shows a right lobe liver abscess. Which stool finding would confirm the cause?",
+    "options": [
+     "Flagellated trophozoites with ventral sucking discs",
+     "Oocysts on modified acid-fast stain",
+     "Trophozoites containing ingested red blood cells",
+     "Eggs with a lateral spine"
+    ],
+    "answer": 2,
+    "explain": "Entamoeba histolytica invades the colon (flask-shaped ulcers) and spreads via the portal vein to the right liver lobe; trophozoites with endocytosed RBCs are diagnostic. Giardia trophozoites have sucking discs; acid-fast oocysts are Cryptosporidium.",
+    "note": "Entamoeba: trophozoites with endocytosed RBCs; biopsy with flask-shaped lesions."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-year-old has fever and rigors 10 days after returning from visiting relatives in Nigeria. The parents say she took 'some' prophylaxis. What is the most urgent investigation?",
+    "options": [
+     "Blood culture and wait 48 hours",
+     "Stool microscopy for ova, cysts and parasites",
+     "Dengue serology",
+     "Thick and thin blood films for malaria"
+    ],
+    "answer": 3,
+    "explain": "Fever after travel to an endemic area is malaria until proven otherwise, regardless of prophylaxis; urgent thick (detection) and thin (species, parasitaemia) films are needed because falciparum can deteriorate within hours.",
+    "note": "Fever after endemic travel = malaria → urgent thick/thin films."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A newborn has hydrocephalus, chorioretinitis and diffuse intracranial calcifications; the mother owns cats. What is the recommended treatment?",
+    "options": [
+     "Pyrimethamine plus sulfadiazine with folinic acid for 12 months",
+     "IV ganciclovir for 6 weeks",
+     "Spiramycin for 4 weeks",
+     "Albendazole plus corticosteroids for 2 weeks, then repeat imaging"
+    ],
+    "answer": 0,
+    "explain": "Congenital toxoplasmosis (diffuse calcifications, hydrocephalus, chorioretinitis) is treated with pyrimethamine + sulfadiazine + leucovorin for 12 months; leucovorin protects against pyrimethamine marrow suppression. Ganciclovir is for congenital CMV (periventricular calcification); spiramycin is used in pregnancy.",
+    "note": "Congenital toxo: pyrimethamine + sulfadiazine + folate (leucovorin) for 12 months."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Name the common paediatric helminths and protozoa with their key clinical clue.",
+    "back": "Enterobius: perianal itch at night • Toxocara (puppies): leukocoria, mimics retinoblastoma • Giardia: fatty floating stools • Entamoeba: bloody diarrhoea, liver abscess • Toxoplasma: chorioretinitis, hydrocephalus, calcifications • Malaria: fever, anaemia, splenomegaly."
+   },
+   {
+    "type": "card",
+    "front": "How are threadworm, Giardia and amoebiasis diagnosed?",
+    "back": "Threadworm: sticky tape test • Giardia: trophozoites or cysts in stool • Entamoeba: trophozoites with ingested RBCs; flask-shaped ulcers on biopsy • travel fever: urgent thick/thin films."
+   },
+   {
+    "type": "card",
+    "front": "Give the treatment of the common parasitic infections in children.",
+    "back": "Threadworm: mebendazole, repeat at 2 weeks, whole household • Giardia/Entamoeba: metronidazole (or tinidazole) • Toxocara: albendazole • Congenital toxo: pyrimethamine + sulfadiazine + leucovorin 12 months."
+   }
+  ]
+ },
+ "II-14": {
+  "summary": "HSV hides in sensory ganglia and recurs; any suspicion of HSV encephalitis or neonatal HSV means IV aciclovir now. Parvovirus B19 targets erythroid progenitors via P antigen: slapped cheek in children, aplastic crisis in haemolytic anaemias, hydrops in the fetus. Coxsackie A = hand-foot-mouth; B = heart and pleura.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old has 2 days of fever, behaviour change and a focal seizure. MRI shows temporal lobe signal change. CSF HSV PCR has been sent. What is the most appropriate next step?",
+    "options": [
+     "Wait for the PCR result before treating",
+     "Start IV aciclovir immediately",
+     "Start oral valaciclovir and review in 24 hours",
+     "Start IV ceftriaxone alone"
+    ],
+    "answer": 1,
+    "explain": "Suspected HSV encephalitis is treated with IV aciclovir immediately, because delay worsens mortality and neurological outcome; PCR results take time and can be negative early. Ceftriaxone covers bacteria but not HSV.",
+    "note": "Suspected HSV encephalitis → IV aciclovir immediately; eczema herpeticum: aciclovir."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old with atopic eczema becomes febrile and miserable with clusters of monomorphic punched-out erosions over the flexural eczema. What is the most likely diagnosis?",
+    "options": [
+     "Impetiginised eczema",
+     "Eczema herpeticum",
+     "Flare of atopic eczema",
+     "Staphylococcal scalded skin syndrome"
+    ],
+    "answer": 1,
+    "explain": "Monomorphic punched-out erosions in eczematous skin with fever is eczema herpeticum (HSV), requiring aciclovir. Impetiginised eczema has honey-coloured crusts and a well child.",
+    "note": "HSV: herpes labialis, dendritic corneal ulcers; eczema herpeticum = punched-out erosions + fever."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Where does HSV-1 establish latency after primary orolabial infection?",
+    "options": [
+     "Trigeminal ganglion",
+     "Dorsal root ganglion of S2-S4",
+     "Geniculate ganglion only",
+     "Oropharyngeal epithelium"
+    ],
+    "answer": 0,
+    "explain": "HSV-1 travels retrogradely to the trigeminal sensory ganglion and reactivates as herpes labialis or keratitis; HSV-2 typically establishes latency in sacral ganglia.",
+    "note": "HSV stays latent in sensory ganglia (HSV-1: trigeminal ganglion) → recurrence."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old with hereditary spherocytosis has a 4-day history of fever and malaise, then marked pallor. Haemoglobin has fallen from 105 to 52 g/L. Which finding best supports parvovirus B19 aplastic crisis rather than haemolytic crisis?",
+    "options": [
+     "Rising unconjugated bilirubin",
+     "Increased spherocytes on the film",
+     "Reticulocyte count close to zero",
+     "Massive splenic enlargement"
+    ],
+    "answer": 2,
+    "explain": "B19 infects erythroid progenitors via the P antigen and halts production, so the hallmark is falling Hb with reticulocytopenia. A haemolytic crisis gives reticulocytosis and rising bilirubin; massive splenomegaly suggests sequestration.",
+    "note": "Aplastic crisis: falling Hb + reticulocytopenia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 6-year-old has bright red cheeks followed a few days later by a lacy reticular rash on the arms; she now feels well. What is the causative agent?",
+    "options": [
+     "Human herpesvirus 6",
+     "Coxsackie A16",
+     "Rubella virus",
+     "Parvovirus B19"
+    ],
+    "answer": 3,
+    "explain": "Slapped cheek then lacy rash is erythema infectiosum (fifth disease) from parvovirus B19; the child is no longer infectious once the rash appears. HHV-6 causes roseola, Coxsackie A16 hand-foot-mouth.",
+    "note": "B19: slapped cheek, lacy rash; fetal hydrops fetalis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A pregnant teacher at 24 weeks is exposed to a pupil with slapped cheek syndrome. Serology shows positive parvovirus IgM with IgG. What is the most appropriate management?",
+    "options": [
+     "Reassure; she is immune and no further fetal follow-up is needed",
+     "Offer termination of pregnancy",
+     "Weekly ultrasound with middle cerebral artery Doppler for fetal anaemia",
+     "Give IV immunoglobulin to the mother"
+    ],
+    "answer": 2,
+    "explain": "IgM positivity indicates recent infection, so after 20 weeks the fetus is monitored by serial ultrasound (MCA Doppler) for anaemia and hydrops. Reassurance applies when she is IgG-positive/IgM-negative (immune). B19 is not teratogenic, so termination is not indicated.",
+    "note": "Pregnant, B19 antibody positive: reassurance; >20 weeks weekly ultrasounds."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 9-year-old in late summer has fever and severe paroxysmal stabbing chest pain worse on breathing; two classmates had a similar illness. Which agent is most likely?",
+    "options": [
+     "Coxsackie A virus",
+     "Parvovirus B19",
+     "Herpes simplex virus type 1",
+     "Coxsackie B virus"
+    ],
+    "answer": 3,
+    "explain": "Bornholm disease (epidemic pleurodynia) is caused by Coxsackie B, which also causes myocarditis; enteroviruses spread faecal-orally in summer/autumn. Coxsackie A causes hand, foot and mouth disease and herpangina.",
+    "note": "Coxsackie A: hand, foot and mouth disease; B: myocarditis, Bornholm disease."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10-day-old has vesicles on the scalp, lethargy and seizures; the mother had a primary genital HSV infection near term. What is the treatment?",
+    "options": [
+     "High-dose IV aciclovir for 14-21 days",
+     "Oral aciclovir for 7 days",
+     "Topical aciclovir to the lesions plus oral aciclovir for 5 days",
+     "IV ganciclovir for 6 weeks"
+    ],
+    "answer": 0,
+    "explain": "Neonatal HSV (especially CNS disease) needs high-dose IV aciclovir for 14 days (skin-eye-mouth) to 21 days (CNS/disseminated). Oral or topical therapy is inadequate; ganciclovir is for CMV. Caesarean delivery reduces risk when lesions are present in labour.",
+    "note": "Neonatal HSV: high-dose IV aciclovir 14-21 days; genital HSV in labor: cesarean delivery."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the clinical manifestations of HSV in children.",
+    "back": "Herpes labialis/gingivostomatitis • dendritic corneal ulcers • eczema herpeticum (punched-out erosions + fever) • HSV encephalitis (temporal lobe) • neonatal HSV from genital tract • latency in sensory ganglia (HSV-1 trigeminal) → recurrence."
+   },
+   {
+    "type": "card",
+    "front": "What does parvovirus B19 cause, and why?",
+    "back": "Infects erythroid progenitors via P antigen • child: slapped cheek, lacy rash • sickle cell/spherocytosis: aplastic crisis (falling Hb + reticulocytopenia) → transfusion • fetus: anaemia, hydrops → intrauterine transfusion."
+   },
+   {
+    "type": "card",
+    "front": "Distinguish Coxsackie A from Coxsackie B disease.",
+    "back": "Enteroviruses, faecal-oral, summer/autumn • Coxsackie A: hand, foot and mouth disease (herpangina) • Coxsackie B: myocarditis, Bornholm disease (pleurodynia)."
+   }
+  ]
+ },
+ "II-15": {
+  "summary": "Chickenpox is crops of lesions in all stages (repeated viraemia), infectious from 1-2 days before the rash until all are crusted; give paracetamol not ibuprofen or aspirin, aciclovir for neonates and the immunocompromised, and treat fever returning after day 3-4 as invasive GAS. Zoster is dermatomal reactivation from sensory ganglia.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does chickenpox characteristically show papules, vesicles and crusts at the same time in one area?",
+    "options": [
+     "The virus spreads slowly from one dermatome to the next",
+     "Secondary bacterial infection converts vesicles to crusts",
+     "Repeated waves of viraemia produce successive crops",
+     "Lesions start on the limbs and spread centrally"
+    ],
+    "answer": 2,
+    "explain": "Successive viraemic waves seed the skin in crops, so lesions in different stages coexist; this distinguishes varicella from smallpox (all lesions in the same stage). The rash is centripetal, starting on the trunk.",
+    "note": "Repeated viraemia waves → crops: lesions in different stages of healing together."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 4-year-old developed a chickenpox rash yesterday. The nursery asks when she can return. What is the correct advice?",
+    "options": [
+     "Once she has been fever-free for 24 hours",
+     "After 21 days from the rash onset",
+     "Immediately, as she was infectious only before the rash",
+     "When all lesions have crusted over"
+    ],
+    "answer": 3,
+    "explain": "Varicella is infectious from 1-2 days before the rash until all lesions are crusted (usually ~5 days). Being afebrile is not enough, and 21 days is the upper limit of incubation, relevant for exposed contacts.",
+    "note": "Airborne; incubation 10-21 days; infectious 1-2 days before rash until all lesions crusted."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 5-year-old with chickenpox was improving, but on day 5 her fever returns at 39.8 °C and an area of skin on her thigh becomes red, swollen and exquisitely painful. Ibuprofen was given at home. What complication must be suspected?",
+    "options": [
+     "Invasive group A streptococcal infection",
+     "Varicella pneumonitis",
+     "Reye syndrome",
+     "Acute post-infectious cerebellar ataxia"
+    ],
+    "answer": 0,
+    "explain": "Fever returning after day 3-4 of varicella should prompt suspicion of invasive GAS (cellulitis, necrotising fasciitis, toxic shock); ibuprofen use has been associated with this. Reye syndrome follows aspirin, with encephalopathy and liver failure.",
+    "note": "Fever returning after day 3-4 → invasive group A streptococcus. Hutchinson sign → eye."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 13-year-old on chemotherapy has a painful vesicular rash on the forehead and the tip of the nose on the left side. What does involvement of the nasal tip specifically indicate?",
+    "options": [
+     "Risk of ophthalmic involvement via the nasociliary nerve",
+     "Spread across the midline indicating dissemination",
+     "Involvement of the maxillary division of the trigeminal nerve",
+     "Primary varicella rather than zoster"
+    ],
+    "answer": 0,
+    "explain": "Hutchinson sign (vesicles on the nasal tip) reflects nasociliary branch (V1) involvement and predicts ocular zoster, so urgent ophthalmology review is needed. Zoster normally does not cross the midline.",
+    "note": "Fever returning after day 3-4 → invasive group A streptococcus. Hutchinson sign → eye."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A pregnant woman develops chickenpox 3 days before delivery. What is the main risk to the baby?",
+    "options": [
+     "Congenital varicella syndrome with limb hypoplasia",
+     "Congenital cataract and deafness",
+     "Severe neonatal varicella",
+     "No risk, because maternal IgG protects the baby"
+    ],
+    "answer": 2,
+    "explain": "Maternal rash from 5 days before to 2 days after delivery means the baby is exposed to virus before maternal IgG has crossed, so severe neonatal varicella can occur (VZIG ± aciclovir). Congenital varicella syndrome follows infection before 20 weeks.",
+    "note": "Maternal rash -5 to +2 days of delivery → severe neonatal varicella."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A previously healthy 3-year-old has uncomplicated chickenpox with fever and itch. What is the most appropriate symptomatic treatment?",
+    "options": [
+     "Ibuprofen and calamine lotion",
+     "Aspirin and antihistamine",
+     "Oral aciclovir and ibuprofen",
+     "Paracetamol and emollients"
+    ],
+    "answer": 3,
+    "explain": "Paracetamol and emollients are recommended; ibuprofen is avoided (linked with invasive GAS and severe skin infection) and aspirin is contraindicated (Reye syndrome). Aciclovir is not routine in healthy young children.",
+    "note": "Paracetamol, emollients; avoid ibuprofen, never aspirin (Reye)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-year-old on high-dose steroids for nephrotic syndrome develops widespread chickenpox with fever and tachypnoea. What is the most appropriate treatment?",
+    "options": [
+     "Oral aciclovir at home",
+     "IV aciclovir",
+     "Varicella-zoster immune globulin alone",
+     "Live attenuated varicella vaccine"
+    ],
+    "answer": 1,
+    "explain": "Immunocompromised children with disseminated disease or pneumonitis need IV aciclovir. VZIG is post-exposure prophylaxis for high-risk contacts, not treatment of established disease, and live vaccine is contraindicated.",
+    "note": "Aciclovir for neonates, immunocompromised, severe disease (IV if disseminated); VZIG for high-risk contacts."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Where does varicella-zoster virus remain latent, and what triggers herpes zoster?",
+    "options": [
+     "Motor neurones; falling antibody levels",
+     "Dorsal root ganglia; falling T-cell immunity",
+     "Salivary glands; UV exposure",
+     "Peripheral nerve axons; bacterial superinfection"
+    ],
+    "answer": 1,
+    "explain": "VZV lies dormant in sensory (dorsal root and cranial) ganglia and reactivates when cell-mediated immunity declines, giving a painful unilateral dermatomal rash. Antibody levels are not the controlling factor.",
+    "note": "VZV becomes latent in dorsal root (sensory) ganglia → falling T-cell immunity → zoster."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare varicella with herpes zoster.",
+    "back": "Varicella = primary VZV: airborne, incubation 10-21 d, itchy centripetal crops in all stages • zoster = reactivation from sensory ganglia with falling T-cell immunity: painful, unilateral, dermatomal, does not cross midline."
+   },
+   {
+    "type": "card",
+    "front": "List the complications of varicella and the risks in pregnancy.",
+    "back": "Invasive GAS (fever returning after day 3-4) • Reye with aspirin • Hutchinson sign → eye • before 20 weeks → congenital varicella syndrome • maternal rash -5 to +2 days of delivery → severe neonatal varicella."
+   },
+   {
+    "type": "card",
+    "front": "How do you treat and prevent varicella?",
+    "back": "Paracetamol, emollients; avoid ibuprofen, never aspirin • aciclovir for neonates, immunocompromised, severe (IV if disseminated) • VZIG for high-risk contacts • live vaccine 2 doses • PHN: TCAs, gabapentin."
+   }
+  ]
+ },
+ "II-16": {
+  "summary": "Skin infections are read by depth: impetigo (superficial, well child), erysipelas (sharp edge), cellulitis (ill-defined), necrotising fasciitis (pain out of proportion, mild skin) — and SSSS is a toxin splitting desmoglein-1, so blisters are sterile and mucosae are spared, unlike TEN.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A well 4-year-old has several lesions around the nose and mouth with honey-coloured crusts. What is the most likely diagnosis?",
+    "options": [
+     "Impetigo",
+     "Erysipelas",
+     "Eczema herpeticum",
+     "Cellulitis"
+    ],
+    "answer": 0,
+    "explain": "Golden crusts in a well child are non-bullous impetigo (S. aureus or GAS). Eczema herpeticum gives punched-out erosions with fever, and erysipelas/cellulitis are deeper, red, warm plaques.",
+    "note": "Impetigo: honey-coloured (golden) crusts, well. Erysipelas: upper dermis, sharp raised edge; cellulitis ill-defined."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old has three small localised patches of non-bullous impetigo on one forearm. What is the most appropriate first-line treatment?",
+    "options": [
+     "Oral flucloxacillin",
+     "Topical mupirocin",
+     "IV cefazolin",
+     "Topical hydrocortisone"
+    ],
+    "answer": 1,
+    "explain": "Localised impetigo is treated topically (mupirocin or fusidic acid); oral flucloxacillin (US cephalexin) is for widespread or bullous disease. Topical steroids would worsen infection.",
+    "note": "Impetigo: topical (mupirocin), or oral flucloxacillin (US cephalexin) if widespread/bullous."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 2-year-old has fever, irritability and tender generalised erythema with superficial flaccid blisters that slough with gentle pressure; the oral mucosa is normal. What is the mechanism of the skin splitting?",
+    "options": [
+     "Exfoliative toxin cleaving desmoglein-1 in the granular layer",
+     "Superantigen-driven T-cell attack on keratinocytes",
+     "Drug-induced keratinocyte apoptosis at the dermo-epidermal junction",
+     "Direct bacterial invasion of the epidermis"
+    ],
+    "answer": 0,
+    "explain": "SSSS is caused by circulating S. aureus exfoliative toxins cleaving desmoglein-1 in the granular layer. Mucous membranes are spared because they rely on desmoglein-3. TEN is full-thickness epidermal necrosis, usually drug-induced.",
+    "note": "S. aureus exfoliative toxin cleaves desmoglein-1 in the granular layer → bullous impetigo, SSSS."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "Which feature best distinguishes staphylococcal scalded skin syndrome from toxic epidermal necrolysis in a child with widespread skin peeling?",
+    "options": [
+     "Positive Nikolsky sign",
+     "Presence of fever",
+     "Widespread erythema before blistering",
+     "Sparing of the mucous membranes"
+    ],
+    "answer": 3,
+    "explain": "Both conditions can be Nikolsky-positive, febrile and erythrodermic, but SSSS spares mucosa (desmoglein-3 is intact) whereas TEN involves mucous membranes. Histology shows a superficial (granular) split in SSSS versus full-thickness necrosis in TEN.",
+    "note": "SSSS: Nikolsky +, spares mucous membranes (desmoglein-3) -unlike TEN."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old has fever and a swollen red eyelid after sinusitis. Which finding most strongly indicates the need for urgent CT imaging?",
+    "options": [
+     "Eyelid swelling extending to the cheek",
+     "Conjunctival injection with discharge",
+     "Painful eye movements with proptosis",
+     "Temperature above 39 °C"
+    ],
+    "answer": 2,
+    "explain": "Proptosis, painful or restricted eye movements and reduced vision indicate orbital (post-septal) cellulitis, requiring CT to look for a subperiosteal abscess and IV antibiotics. Lid swelling and conjunctival injection occur in periorbital cellulitis.",
+    "note": "Proptosis/painful eye movement → orbital cellulitis → CT."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-year-old with chickenpox has severe thigh pain out of proportion to a faint area of erythema, tachycardia 170/min and a CRT of 4 s. Which next step is most appropriate after resuscitation?",
+    "options": [
+     "Oral flucloxacillin, analgesia and review of the erythema in 24 hours",
+     "Urgent surgical exploration and debridement with IV antibiotics including clindamycin",
+     "MRI of the thigh before any surgical referral",
+     "Incision and drainage of the area of erythema"
+    ],
+    "answer": 1,
+    "explain": "Pain out of proportion with systemic toxicity suggests necrotising fasciitis (thrombosed perforators cause deep necrosis with deceptively mild skin). Urgent surgery plus clindamycin (anti-toxin) is required; imaging must not delay surgery.",
+    "note": "Necrotising fasciitis: urgent surgery + clindamycin, consider IVIG."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 5-year-old has a scaly patch of alopecia with broken hairs; the lesion fluoresces green under Wood's lamp. Which treatment is required?",
+    "options": [
+     "Topical clotrimazole alone",
+     "Oral flucloxacillin",
+     "Oral antifungal therapy",
+     "Topical permethrin"
+    ],
+    "answer": 2,
+    "explain": "Green fluorescence suggests Microsporum tinea capitis; topical agents do not penetrate the hair shaft, so oral antifungals (griseofulvin or terbinafine) are required. Trichophyton tonsurans, common in African American children, usually does not fluoresce.",
+    "note": "SSSS/orbital: admit, IV antibiotics. Abscess: incision and drainage. Tinea capitis: oral antifungal."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A child has a well-demarcated, raised, bright red, shiny plaque on the cheek with a sharp edge. Which skin layer is primarily involved?",
+    "options": [
+     "Epidermis only",
+     "Deep dermis and subcutaneous fat",
+     "Fascia and underlying skeletal muscle",
+     "Upper dermis and superficial lymphatics"
+    ],
+    "answer": 3,
+    "explain": "Erysipelas affects the upper dermis and lymphatics, producing a raised sharp edge; cellulitis involves deeper dermis/subcutis with ill-defined borders, and necrotising fasciitis involves the fascia. Depth decides the clinical picture.",
+    "note": "Bacterial, viral, fungal skin infections; depth decides the picture."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify bacterial skin infections by depth with their key features.",
+    "back": "Impetigo (epidermis): golden crusts, well • erysipelas (upper dermis): sharp raised edge • cellulitis (deeper): ill-defined • necrotising fasciitis (fascia): pain out of proportion, bullae, crepitus, shock."
+   },
+   {
+    "type": "card",
+    "front": "How do you distinguish SSSS from TEN?",
+    "back": "SSSS: S. aureus exfoliative toxin cleaves desmoglein-1 (granular layer), Nikolsky +, mucosa spared (desmoglein-3), blister fluid sterile → culture focus • TEN: drug-induced, full-thickness, mucosa involved."
+   },
+   {
+    "type": "card",
+    "front": "Outline the treatment of paediatric skin infections.",
+    "back": "Impetigo: topical mupirocin, or oral flucloxacillin (US cephalexin) if widespread/bullous • SSSS/orbital: admit, IV antibiotics • abscess: I&D • tinea capitis: oral antifungal • necrotising fasciitis: surgery + clindamycin ± IVIG."
+   }
+  ]
+ },
+ "II-17": {
+  "summary": "S. aureus walls itself off (coagulase → abscess) so pus needs draining; TSS is a TSST-1 superantigen storm in which blood cultures are usually negative (unlike streptococcal TSS), and you treat with fluids, source removal and a β-lactam plus clindamycin to switch off toxin synthesis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 14-year-old girl who started using tampons has sudden fever of 40 °C, a diffuse sunburn-like rash, vomiting, BP 78/40 and rising creatinine. What is the most likely diagnosis?",
+    "options": [
+     "Meningococcal septicaemia",
+     "Kawasaki disease",
+     "Staphylococcal toxic shock syndrome",
+     "Scarlet fever"
+    ],
+    "answer": 2,
+    "explain": "High fever, erythroderma, hypotension and multi-organ involvement with tampon use is staphylococcal TSS. Meningococcal sepsis causes a purpuric non-blanching rash; scarlet fever does not cause shock.",
+    "note": "TSS: high fever, erythroderma, hypotension, multi-organ failure."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "How does TSST-1 cause the massive cytokine release in toxic shock syndrome?",
+    "options": [
+     "It cross-links MHC class II with the T-cell receptor Vβ region outside the peptide groove",
+     "It is processed by antigen-presenting cells and presented to CD8 T cells",
+     "It directly lyses endothelial cells by forming membrane pores",
+     "It activates complement through the alternative pathway, causing anaphylatoxin release"
+    ],
+    "answer": 0,
+    "explain": "Superantigens bind MHC II and TCR Vβ outside the antigen-binding groove, non-specifically activating up to 20% of T cells, unlike the <0.01% activated by conventional antigens.",
+    "note": "TSST-1 superantigen binds MHC II and TCR V β → T-cell activation (up to 20%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "In a child with suspected staphylococcal toxic shock syndrome, why is clindamycin added to a β-lactam?",
+    "options": [
+     "It is the only agent active against MSSA",
+     "It neutralises circulating preformed toxin already bound to T cells",
+     "It prevents emergence of β-lactamase",
+     "It suppresses bacterial toxin synthesis at the ribosome"
+    ],
+    "answer": 3,
+    "explain": "Clindamycin inhibits protein synthesis, turning off toxin production regardless of bacterial growth phase (Eagle effect). It does not neutralise existing toxin, which is the rationale for IVIG in severe cases.",
+    "note": "TSS: fluids, vasopressors, source removal; β -lactam + clindamycin (suppresses toxin synthesis); IVIG if severe."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Two children have toxic shock: one after nasal packing for epistaxis, the other with necrotising fasciitis following varicella. Which statement about blood cultures is correct?",
+    "options": [
+     "Usually positive in both cases",
+     "Usually negative in the nasal packing case; usually positive in the varicella case",
+     "Usually negative in both cases",
+     "Usually positive in the nasal packing case; usually negative in the varicella case"
+    ],
+    "answer": 1,
+    "explain": "Staphylococcal TSS is toxin-mediated from a localised focus, so blood cultures are usually negative; streptococcal TSS (GAS, often after varicella or necrotising fasciitis) usually has positive blood cultures.",
+    "note": "Staph TSS blood culture usually negative; strep TSS positive (toxic shock-like syndrome: GAS)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "Several children at a party develop vomiting and abdominal cramps 2 hours after eating custard pastries; none are febrile. What is the mechanism?",
+    "options": [
+     "Invasive Salmonella enteritis",
+     "Preformed staphylococcal enterotoxin",
+     "Toxin produced in the gut by Clostridium perfringens",
+     "Norovirus infection"
+    ],
+    "answer": 1,
+    "explain": "Rapid onset (1-6 h) vomiting after cream or custard foods reflects preformed heat-stable S. aureus enterotoxin. Salmonella and C. perfringens take longer because toxin is produced after ingestion or invasion occurs.",
+    "note": "Food poisoning: vomiting 1-6 hours after eating (preformed enterotoxin)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 10-year-old has S. aureus bacteraemia on two blood cultures but no obvious focus. What is the most appropriate next step?",
+    "options": [
+     "Search for a focus in bone, joint and heart, and repeat blood cultures",
+     "Treat for 5 days with IV flucloxacillin and stop if afebrile",
+     "Assume contamination and repeat cultures only",
+     "Switch to oral antibiotics and discharge"
+    ],
+    "answer": 0,
+    "explain": "S. aureus in blood is never a contaminant; it seeds bone, joints and heart valves, so you image for osteomyelitis/septic arthritis, consider echocardiography, and repeat cultures to document clearance.",
+    "note": "Bacteraemia → search bone, joint, heart focus + repeat cultures."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 9-year-old has a large fluctuant thigh abscess; culture grows S. aureus resistant to oxacillin. Besides drainage, which antibiotic is most appropriate for systemic infection?",
+    "options": [
+     "Cefazolin",
+     "Flucloxacillin",
+     "Vancomycin",
+     "Amoxicillin-clavulanate"
+    ],
+    "answer": 2,
+    "explain": "Oxacillin resistance defines MRSA (altered PBP2a), which makes all standard β-lactams including cefazolin, flucloxacillin and co-amoxiclav ineffective; vancomycin or linezolid are used (ceftaroline is the exception that binds altered PBPs).",
+    "note": "MRSA → vancomycin, linezolid; daptomycin for bacteremia; ceftaroline binds altered PBPs."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which S. aureus virulence factor is most responsible for forming a walled-off abscess?",
+    "options": [
+     "Protein A",
+     "Exfoliative toxin",
+     "Panton-Valentine leukocidin",
+     "Coagulase"
+    ],
+    "answer": 3,
+    "explain": "Coagulase converts fibrinogen to fibrin, building a wall around the infection and producing abscesses, furuncles and carbuncles — which is why pus must be drained. Protein A binds Fc to block opsonisation.",
+    "note": "Coagulase builds a fibrin wall → abscesses, furuncles, carbuncles."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the sources, features and diagnosis of staphylococcal toxic shock syndrome?",
+    "back": "Tampons, retained gauze, burns, wounds, nasal packing, varicella lesions • high fever, erythroderma, hypotension, multi-organ failure • palm/sole desquamation 1-2 weeks later • blood culture usually negative (strep TSS positive)."
+   },
+   {
+    "type": "card",
+    "front": "How do you manage toxic shock syndrome?",
+    "back": "Fluids, vasopressors • source removal (tampon, packing, drain) • β-lactam + clindamycin (suppresses toxin synthesis) • IVIG if severe."
+   },
+   {
+    "type": "card",
+    "front": "Give the antibiotic choices for MSSA versus MRSA.",
+    "back": "MSSA: nafcillin, oxacillin, dicloxacillin (flucloxacillin), cefazolin + drain pus • MRSA (altered PBPs): vancomycin, linezolid; daptomycin for bacteraemia; ceftaroline binds altered PBPs."
+   }
+  ]
+ },
+ "II-18": {
+  "summary": "Two clostridial toxins, opposite paralyses: tetanospasmin blocks inhibitory GABA/glycine release (trismus, spasms, conscious child), botulinum toxin blocks ACh release (descending flaccid paralysis, constipation, alert afebrile infant). Tetanus gives no immunity, so vaccinate after recovery.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "What is usually the first sign of generalised tetanus?",
+    "options": [
+     "Opisthotonus",
+     "Trismus",
+     "Descending flaccid weakness",
+     "Ptosis"
+    ],
+    "answer": 1,
+    "explain": "Tetanus classically starts at the jaw with trismus (lockjaw), followed by risus sardonicus, generalised spasms and opisthotonus with preserved consciousness. Ptosis and descending flaccid weakness are features of botulism.",
+    "note": "Tetanus: jaw first - trismus (lock jaw), risus sardonicus, spasms, opisthotonus; conscious. Neonate stops sucking."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 9-day-old born at home to an unimmunised mother stops sucking, becomes irritable and develops generalised stiffness with spasms triggered by touch. The cord was cut with a non-sterile blade. What is the most likely diagnosis?",
+    "options": [
+     "Neonatal tetanus",
+     "Infant botulism",
+     "Bacterial meningitis",
+     "Hypocalcaemic tetany"
+    ],
+    "answer": 0,
+    "explain": "Inability to suck, rigidity and stimulus-induced spasms around day 3-14 after unclean cord care in an unimmunised mother's baby is neonatal tetanus. Botulism produces a floppy, not rigid, infant.",
+    "note": "Tetanus: spores in soil/rusty nails, deep wounds, unclean cord with poorly immunized mother."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "What is the mechanism by which tetanospasmin produces muscle rigidity and spasms?",
+    "options": [
+     "It travels retrogradely to the spinal cord and blocks GABA and glycine release",
+     "It cleaves SNARE proteins at the neuromuscular junction, blocking acetylcholine",
+     "It blocks postsynaptic nicotinic receptors at the motor end-plate",
+     "It inhibits acetylcholinesterase in the synaptic cleft"
+    ],
+    "answer": 0,
+    "explain": "Tetanospasmin is transported retrogradely to inhibitory interneurones and blocks release of GABA and glycine, causing disinhibited motor activity. Botulinum toxin acts peripherally to block acetylcholine release, causing flaccid paralysis.",
+    "note": "Tetanospasmin → retrograde axonal transport → blocks GABA/glycine release → spasms."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old has 3 days of constipation, then poor feeding, a weak cry, ptosis, sluggish pupils and loss of head control. He is afebrile and alert. His mother sweetened his dummy with honey. What is the most likely diagnosis?",
+    "options": [
+     "Spinal muscular atrophy type 1",
+     "Guillain-Barré syndrome",
+     "Myasthenia gravis",
+     "Infant botulism"
+    ],
+    "answer": 3,
+    "explain": "Constipation followed by descending symmetric flaccid paralysis with bulbar and pupillary involvement in an afebrile, alert infant exposed to honey is infant botulism. SMA spares the eyes and pupils; GBS ascends.",
+    "note": "Botulism: constipation, early diplopia, ptosis, descending symmetric flaccid paralysis, floppy head; afebrile, alert."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-month-old with suspected infant botulism develops a fever, and the team considers empirical antibiotics. Which agent should be avoided and why?",
+    "options": [
+     "Ampicillin, because it lyses clostridia and releases toxin",
+     "Cefotaxime, because it reduces gut colonisation resistance",
+     "Gentamicin, because aminoglycosides worsen neuromuscular blockade",
+     "Metronidazole, because it causes peripheral neuropathy and worsens the weakness"
+    ],
+    "answer": 2,
+    "explain": "Aminoglycosides potentiate neuromuscular blockade and can precipitate respiratory failure in botulism. Treatment is supportive care plus human-derived botulism immune globulin; antibiotics are not routinely needed for infant botulism.",
+    "note": "Infant botulism: supportive + human-derived botulism immune globulin; adults: horse-derived antitoxin; no aminoglycosides."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An unvaccinated 8-year-old has trismus and generalised spasms 10 days after stepping on a rusty nail. Which management combination is most appropriate?",
+    "options": [
+     "Tetanus toxoid booster alone, wound cleaning and oral penicillin at home",
+     "Botulism immune globulin and supportive care",
+     "IV dexamethasone and phenytoin",
+     "Human tetanus immune globulin, wound debridement, metronidazole, benzodiazepines and ICU care"
+    ],
+    "answer": 3,
+    "explain": "Tetanus treatment neutralises unbound toxin (HTIG), removes the source (debridement, metronidazole), controls spasms (benzodiazepines) and supports the airway in ICU. Toxoid alone does not treat established disease.",
+    "note": "Tetanus: human tetanus immune globulin (HTIG), debridement, metronidazole, benzodiazepines, ICU."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-year-old has recovered from generalised tetanus after 4 weeks in ICU. The parents assume he is now immune. What do you advise?",
+    "options": [
+     "No vaccination needed; natural infection gives lifelong immunity",
+     "Give a single booster only in 10 years",
+     "Complete a full course of tetanus toxoid, since disease does not confer immunity",
+     "Check antitoxin antibody titres first, then vaccinate only if they are low"
+    ],
+    "answer": 2,
+    "explain": "The amount of toxin that causes tetanus is too small to induce immunity, so a full primary course of toxoid is given after recovery. Maternal toxoid vaccination prevents neonatal tetanus.",
+    "note": "Prevent: maternal toxoid vaccination; vaccinate after recovery (no immunity after tetanus)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "How is the diagnosis of tetanus established in a child with trismus and spasms?",
+    "options": [
+     "By culturing Clostridium tetani from the wound",
+     "Clinically, from the characteristic features with preserved consciousness and sensation",
+     "By detecting tetanus toxin in serum",
+     "By electromyography showing a decremental response to repetitive stimulation"
+    ],
+    "answer": 1,
+    "explain": "Tetanus is a clinical diagnosis: wound cultures are often negative (and C. tetani can be isolated from people without disease), and no reliable confirmatory blood test exists. Consciousness and sensation are characteristically preserved.",
+    "note": "Tetanus: clinical assessment only; toxin effects, consciousness and sensation preserved."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare tetanus and botulism: toxin action and clinical picture.",
+    "back": "Tetanus: tetanospasmin, retrograde transport, blocks GABA/glycine → trismus, risus sardonicus, spasms, opisthotonus; conscious • Botulism: cleaves SNARE → no ACh → constipation, ptosis, diplopia, descending flaccid paralysis; afebrile, alert."
+   },
+   {
+    "type": "card",
+    "front": "How do you treat and prevent tetanus?",
+    "back": "HTIG • debridement • metronidazole • benzodiazepines for spasms • ICU • prevent: maternal toxoid (neonatal tetanus), clean cord care • vaccinate after recovery (no immunity after tetanus)."
+   },
+   {
+    "type": "card",
+    "front": "What causes infant botulism, and how is it managed?",
+    "back": "Ingested spores (honey, juice, dust) colonise immature gut • supportive care + human-derived botulism immune globulin • adults: equine antitoxin • avoid aminoglycosides."
+   }
+  ]
+ },
+ "II-19": {
+  "summary": "Haematogenous bacteria settle in the slow-flow metaphysis; under 18 months transphyseal vessels let osteomyelitis spill into the joint. X-rays stay normal for 10-14 days (use MRI), septic arthritis is a surgical emergency, and most children need only a short IV course then oral to ~3 weeks.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does acute haematogenous osteomyelitis in children typically start in the metaphysis of long bones?",
+    "options": [
+     "The metaphysis has the highest density of osteoclasts",
+     "The periosteum is thinnest over the diaphysis",
+     "The epiphysis receives the richest arterial supply in growing children",
+     "Slow, turbulent flow in the metaphyseal sinusoids allows bacteria to settle"
+    ],
+    "answer": 3,
+    "explain": "Metaphyseal capillaries form looping venous sinusoids with sluggish flow and few phagocytes, where blood-borne bacteria lodge; pus then lifts the periosteum (involucrum) and dead bone forms a sequestrum.",
+    "note": "Children: hematogenous spread; bacteria settle in the metaphysis (slow flow in sinusoids) → pus → sequestrum, involucrum."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 2-year-old attending nursery has a mildly painful swollen knee with low-grade fever and a modest CRP rise; blood cultures are negative but joint fluid PCR is positive. Which organism is most likely?",
+    "options": [
+     "Pseudomonas aeruginosa",
+     "Kingella kingae",
+     "Salmonella species",
+     "Neisseria gonorrhoeae"
+    ],
+    "answer": 1,
+    "explain": "Kingella kingae is a leading cause of osteoarticular infection between 6 months and 4 years, often indolent with negative cultures, and best detected by PCR. Pseudomonas follows nail-puncture wounds, Salmonella is associated with sickle cell disease.",
+    "note": "S. aureus most common; Kingella kingae 6 months-4 years; GBS/E. coli neonates."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 12-year-old stepped on a nail through his trainer 10 days ago and now has a painful swollen forefoot with fever. Which organism must the empirical treatment cover?",
+    "options": [
+     "Kingella kingae",
+     "Salmonella species",
+     "Pseudomonas aeruginosa",
+     "Group B streptococcus (Streptococcus agalactiae)"
+    ],
+    "answer": 2,
+    "explain": "Puncture wounds through rubber-soled shoes are classically associated with Pseudomonas osteochondritis, requiring anti-pseudomonal cover and surgical debridement; S. aureus should also be considered.",
+    "note": "Salmonella in sickle cell; Pseudomonas after nail puncture."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old has fever 39.5 °C, refuses to walk and holds the right hip in a fixed position; any movement causes severe pain. How is the hip most likely positioned?",
+    "options": [
+     "Flexed, abducted and externally rotated",
+     "Extended, adducted and internally rotated",
+     "Flexed, adducted and internally rotated",
+     "Fully extended in neutral rotation"
+    ],
+    "answer": 0,
+    "explain": "An effusion distends the hip capsule, and flexion, abduction and external rotation maximise capsular volume and minimise pain. Flexion-adduction-internal rotation is the posture of a posterior hip dislocation.",
+    "note": "Septic hip held flexed, abducted and externally rotated."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old has 4 days of fever and focal distal femoral tenderness; CRP 95 mg/L, ESR 70 mm/h, and the femoral X-ray is normal. What is the best investigation to confirm the diagnosis?",
+    "options": [
+     "Repeat plain X-ray in 24 hours",
+     "CT of the femur",
+     "MRI of the femur",
+     "No imaging; a normal X-ray excludes osteomyelitis"
+    ],
+    "answer": 2,
+    "explain": "Plain films remain normal for 10-14 days in osteomyelitis; MRI is most sensitive and shows marrow oedema and subperiosteal abscess. CT is less sensitive early and involves radiation.",
+    "note": "MRI best for osteomyelitis (high ESR, normal X-ray → MRI)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 10-month-old has distal femoral metaphyseal osteomyelitis and develops a swollen knee effusion. What anatomical feature explains the joint involvement at this age?",
+    "options": [
+     "Transphyseal vessels connecting metaphysis and epiphysis",
+     "An intra-articular metaphysis at the distal femur",
+     "Absence of a periosteum in infancy",
+     "A cartilaginous growth plate acting as a conduit for pus"
+    ],
+    "answer": 0,
+    "explain": "Under 18 months, blood vessels cross the physis, so metaphyseal infection spreads into the epiphysis and joint; after the physis becomes a barrier, contiguous joint spread occurs mainly where the metaphysis is intra-articular (hip, shoulder, elbow, ankle).",
+    "note": "Under 18 months, transphyseal vessels spread infection to the joint."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old with uncomplicated MSSA osteomyelitis of the tibia has become afebrile with a falling CRP after 3 days of IV cefazolin. What is the best plan?",
+    "options": [
+     "Continue IV therapy for 6 weeks via a peripherally inserted central line",
+     "Stop antibiotics now, as the CRP is falling",
+     "Switch to oral therapy for 5 days in total",
+     "Switch to oral therapy to complete about 3 weeks in total"
+    ],
+    "answer": 3,
+    "explain": "Current evidence supports a short IV phase (2-4 days) then oral antibiotics once clinically improving, for about 3 weeks in total for uncomplicated disease. Prolonged IV courses add line complications without benefit.",
+    "note": "Short IV (2-4 days) → oral; about 3 weeks total."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-year-old has a hot swollen knee; aspiration yields purulent fluid with Gram-positive cocci in clusters. IV antibiotics have been started. What else is required?",
+    "options": [
+     "Splint and reassess in 48 hours",
+     "Urgent joint washout",
+     "Intra-articular corticosteroid injection",
+     "MRI before any surgical intervention"
+    ],
+    "answer": 1,
+    "explain": "Septic arthritis is a surgical emergency: proteolytic enzymes in pus destroy articular cartilage within hours, so the joint needs urgent washout in addition to antibiotics. Steroids into an infected joint are contraindicated.",
+    "note": "Septic arthritis: joint washout; drain subperiosteal abscess, remove sequestrum."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Which organisms cause osteomyelitis and septic arthritis at different ages and settings?",
+    "back": "S. aureus most common • Kingella kingae 6 mo-4 y • GBS/E. coli neonates • Salmonella in sickle cell • Pseudomonas after nail puncture."
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate a child with suspected bone or joint infection?",
+    "back": "Blood culture, CRP, ESR • ultrasound for effusion • X-ray normal for 10-14 days • joint aspiration: Gram stain, culture, PCR • MRI best for osteomyelitis."
+   },
+   {
+    "type": "card",
+    "front": "Outline treatment of osteomyelitis and septic arthritis.",
+    "back": "MSSA: nafcillin/oxacillin/dicloxacillin, IV cefazolin; MRSA: clindamycin or vancomycin • short IV (2-4 d) → oral, ~3 weeks total • septic arthritis: joint washout • drain subperiosteal abscess, remove sequestrum."
+   }
+  ]
+ },
+ "II-20": {
+  "summary": "Screen hips with Ortolani (relocates) and Barlow (dislocates), image with ultrasound before ~4.5 months and X-ray after, and treat early with a Pavlik harness; clubfoot is Ponseti casting; OI (type I collagen) must be considered before labelling fractures as abuse; achondroplasia is FGFR3 gain-of-function with rhizomelia and foramen magnum stenosis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "During the newborn hip examination, the examiner abducts the flexed hip and lifts the greater trochanter, feeling a 'clunk'. What does a positive result indicate?",
+    "options": [
+     "A located hip that has been dislocated",
+     "A benign ligamentous click without instability",
+     "A dislocated hip that has been relocated",
+     "A fixed irreducible dislocation"
+    ],
+    "answer": 2,
+    "explain": "Ortolani relocates a dislocated hip (abduction + anterior lift); Barlow dislocates a located but unstable hip (adduction + posterior push). A fixed dislocation cannot be relocated and is Ortolani-negative.",
+    "note": "Ortolani relocates a dislocated hip; Barlow dislocates a located one."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Which newborn has the highest risk of developmental dysplasia of the hip?",
+    "options": [
+     "A second-born boy delivered vaginally at 38 weeks",
+     "A preterm boy born at 32 weeks by cephalic delivery",
+     "A girl born at term by vaginal delivery to a mother with gestational diabetes",
+     "A first-born girl delivered by caesarean section for breech presentation"
+    ],
+    "answer": 3,
+    "explain": "Breech position, female sex, first-born status and family history are the major risk factors (plus oligohydramnios and tight swaddling). Caesarean section does not remove the risk from breech positioning in utero.",
+    "note": "DDH: breech, family history, female sex, first-born, oligohydramnios, tight swaddling."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 6-week-old girl born breech has a normal hip examination. Which imaging is appropriate?",
+    "options": [
+     "AP pelvic X-ray",
+     "Hip ultrasound",
+     "MRI of the pelvis",
+     "No imaging if the examination is normal"
+    ],
+    "answer": 1,
+    "explain": "The femoral head is cartilaginous and invisible on X-ray in early infancy, so ultrasound is used before about 4.5 months; breech babies get ultrasound even with a normal exam. X-ray becomes useful once the ossific nucleus appears.",
+    "note": "Hip ultrasound before about 4.5 months; X-ray afterwards."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-week-old has an Ortolani-positive left hip confirmed as dislocated on ultrasound. What is the first-line treatment?",
+    "options": [
+     "Pavlik harness",
+     "Closed reduction and hip spica cast",
+     "Open reduction and femoral osteotomy",
+     "Double nappies and review at 6 months"
+    ],
+    "answer": 0,
+    "explain": "Under 6 months a Pavlik harness holds the hips flexed and abducted, allowing the femoral head to mould the acetabulum. Closed then open reduction are reserved for failed harness or late presentation; double nappies are ineffective.",
+    "note": "DDH: Pavlik harness under 6 months → closed → open reduction."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 15-month-old girl walks with a limp and has a shorter left leg, asymmetric thigh creases and restricted left hip abduction. Ortolani and Barlow tests are negative. What is the most likely explanation?",
+    "options": [
+     "A normal hip, as Ortolani and Barlow manoeuvres are both negative",
+     "Transient synovitis of the hip",
+     "Perthes disease",
+     "Established developmental dysplasia with fixed dislocation"
+    ],
+    "answer": 3,
+    "explain": "Ortolani and Barlow tests become negative once the dislocation is fixed and soft tissues contract; limited abduction and leg-length discrepancy are the late signs. Perthes typically presents at 4-8 years.",
+    "note": "DDH: Barlow/Ortolani positive; later limited abduction, leg-length discrepancy."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "An 8-month-old presents with a femoral fracture after a minor fall; X-ray shows osteopenia and old healing rib fractures. The baby has blue sclerae and the father had several fractures as a child. Which diagnosis must be considered before attributing the fractures to abuse?",
+    "options": [
+     "Achondroplasia",
+     "Osteogenesis imperfecta",
+     "Rickets due to vitamin D deficiency",
+     "Scurvy"
+    ],
+    "answer": 1,
+    "explain": "OI (defective type I collagen, usually AD COL1A1/COL1A2) causes low-trauma fractures, blue sclerae and a positive family history, and must be considered in suspected non-accidental injury; it does not exclude abuse but changes the evaluation.",
+    "note": "Consider OI in non-accidental injury. Scoliosis: forward bend test → X-ray."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A newborn has short proximal limbs, macrocephaly with frontal bossing and trident hands; the father is 52 years old and of normal stature. What is the molecular mechanism?",
+    "options": [
+     "Loss-of-function mutation in COL1A1 reducing type I collagen",
+     "Mutation in fibrillin-1 weakening connective tissue",
+     "Gain-of-function mutation in FGFR3 impairing endochondral ossification",
+     "Loss-of-function mutation in the SHOX gene on the sex chromosomes"
+    ],
+    "answer": 2,
+    "explain": "Achondroplasia is caused by a constitutively active FGFR3 that inhibits chondrocyte proliferation in growth plates, giving rhizomelic shortening; most cases are de novo mutations associated with advanced paternal age.",
+    "note": "FGFR3 overactive → poor endochondral growth → rhizomelic limbs."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 13-year-old girl has a positive forward bend test; standing X-ray shows a thoracic curve with a Cobb angle of 34° and she has 2 years of growth remaining. What is the most appropriate management?",
+    "options": [
+     "Bracing",
+     "Observation with repeat X-ray in 6-12 months",
+     "Spinal fusion surgery",
+     "Physiotherapy alone"
+    ],
+    "answer": 0,
+    "explain": "Per the notes, curves of 30-40° in a growing child are braced to prevent progression; 10-30° is monitored and >40-50° needs surgery. (Many guidelines start bracing from ~25° in skeletally immature patients.)",
+    "note": "Scoliosis Cobb 10-30°: monitor; 30-40°: brace; >40-50°: surgery."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How is developmental dysplasia of the hip screened, diagnosed and treated?",
+    "back": "Risk: breech, female, first-born, family history, oligohydramnios, tight swaddling • Ortolani relocates, Barlow dislocates • later: limited abduction, LLD • US <4.5 mo, X-ray after • Pavlik <6 mo → closed → open reduction."
+   },
+   {
+    "type": "card",
+    "front": "Describe clubfoot and its management.",
+    "back": "Rigid CAVE deformity: cavus, adductus, varus, equinus • Ponseti serial casting → Achilles tenotomy → bracing."
+   },
+   {
+    "type": "card",
+    "front": "Compare osteogenesis imperfecta and achondroplasia.",
+    "back": "OI: COL1A1/COL1A2 (usually AD), defective type I collagen → low-trauma fractures, blue sclerae; consider in NAI; IV bisphosphonates • Achondroplasia: FGFR3 gain-of-function, older fathers → rhizomelia, macrocephaly, trident hands, foramen magnum stenosis."
+   }
+  ]
+ }
+}

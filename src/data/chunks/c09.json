@@ -1,0 +1,2592 @@
+{
+ "III-26": [
+  {
+   "block": "Def",
+   "explain": "Most childhood upper airway infections are viral and self-limiting; the skill is spotting the few bacterial or airway-threatening ones.",
+   "hook": "Upper airway = mostly viruses; hunt the bacterial and the blocked.",
+   "checks": [
+    {
+     "q": "What usually causes upper respiratory tract infections in children?",
+     "options": [
+      "Viruses",
+      "Bacteria",
+      "Fungi"
+     ],
+     "answer": 0,
+     "why": "Most URTIs (pharyngitis, croup, bronchitis) are viral, so antibiotics are rarely needed."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Respiratory viruses dominate; group A strep is the key bacterial throat pathogen and pneumococcus leads in sinus and middle ear disease.",
+   "hook": "Croup = Parainfluenza (seal-like barking cough).",
+   "checks": [
+    {
+     "q": "Which virus is the classic cause of croup?",
+     "options": [
+      "Rhinovirus",
+      "Parainfluenza virus",
+      "Adenovirus"
+     ],
+     "answer": 1,
+     "why": "Croup is laryngotracheitis caused mainly by parainfluenza; rhinovirus causes colds."
+    },
+    {
+     "q": "Most frequent pathogen of bacterial sinusitis and otitis media?",
+     "options": [
+      "Group A streptococcus",
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 2,
+     "why": "S. pneumoniae leads sinusitis and AOM; GAS is the key bacterial pharyngitis cause."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Swelling blocks drainage (sinus ostia) or narrows the airway; in croup the cricoid is a rigid ring, so oedema can only shrink the lumen inward.",
+   "hook": "Poiseuille: halve the radius, resistance x16.",
+   "checks": [
+    {
+     "q": "Why does a cold predispose to bacterial sinusitis?",
+     "options": [
+      "Ostiomeatal swelling blocks sinus drainage",
+      "Viruses directly destroy sinus bone",
+      "Mucus becomes sterile and thin"
+     ],
+     "answer": 0,
+     "why": "A swollen ostiomeatal complex stops drainage; stagnant secretions get colonised."
+    },
+    {
+     "q": "Where is the oedema in croup that causes high airway resistance?",
+     "options": [
+      "Supraglottic, at the epiglottis",
+      "Subglottic, within the cricoid ring",
+      "Bronchiolar, in small airways"
+     ],
+     "answer": 1,
+     "why": "The cricoid is a complete rigid ring, so subglottic oedema narrows the radius sharply."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Each airway level has its own sound: subglottic croup barks and has stridor, epiglottitis drools, small airway disease wheezes.",
+   "hook": "Bark = croup, drool = epiglottis, wheeze = bronchioles.",
+   "checks": [
+    {
+     "q": "Which feature argues against strep pharyngitis (Centor)?",
+     "options": [
+      "Fever",
+      "Tender anterior nodes",
+      "Cough"
+     ],
+     "answer": 2,
+     "why": "Strep: fever, exudate, tender nodes and absent cough; cough suggests a virus."
+    },
+    {
+     "q": "Drooling and tripod posture in a toxic child suggest?",
+     "options": [
+      "Epiglottitis",
+      "Croup",
+      "Bronchiolitis"
+     ],
+     "answer": 0,
+     "why": "Epiglottitis patients cannot swallow saliva and lean forward; croup barks instead."
+    },
+    {
+     "q": "How does pertussis often present in young infants?",
+     "options": [
+      "Loud inspiratory whoop",
+      "Apnoea and cyanosis",
+      "Barking cough with stridor"
+     ],
+     "answer": 1,
+     "why": "Young infants often lack the whoop and present with apnoea and cyanosis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Bacterial sinusitis is a clinical diagnosis by time course; strep needs a test, and in epiglottitis examining the throat may trigger obstruction.",
+   "hook": "10 days, double dip, or severe start.",
+   "checks": [
+    {
+     "q": "Symptom duration suggesting bacterial sinusitis?",
+     "options": [
+      "Over 3 days",
+      "Over 5 days",
+      "Over 10 days"
+     ],
+     "answer": 2,
+     "why": "Persistent symptoms beyond 10 days (or double worsening/severe onset) suggest bacterial sinusitis."
+    },
+    {
+     "q": "What must you avoid in suspected epiglottitis?",
+     "options": [
+      "Examining the throat",
+      "Giving oxygen",
+      "Keeping the child upright"
+     ],
+     "answer": 0,
+     "why": "Throat examination can provoke complete obstruction; secure the airway first."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Antibiotics only for the three bacterial URTIs; penicillin for strep aims at preventing rheumatic fever, and steroids shrink croup oedema.",
+   "hook": "Abx trio: Strep throat, AOM, bacterial sinusitis.",
+   "checks": [
+    {
+     "q": "Which upper airway infection should receive antibiotics?",
+     "options": [
+      "Common cold",
+      "Acute bacterial sinusitis",
+      "Bronchiolitis"
+     ],
+     "answer": 1,
+     "why": "University key: strep angina, AOM and acute bacterial sinusitis need antibiotics; colds do not."
+    },
+    {
+     "q": "Duration of penicillin V for strep pharyngitis?",
+     "options": [
+      "5 days",
+      "3 days",
+      "10 days"
+     ],
+     "answer": 2,
+     "why": "A full 10 days eradicates GAS and prevents rheumatic fever."
+    },
+    {
+     "q": "First priority in epiglottitis?",
+     "options": [
+      "Secure the airway",
+      "Oral antibiotics",
+      "Nebulised salbutamol"
+     ],
+     "answer": 0,
+     "why": "Epiglottitis is an airway emergency; intubate in a controlled setting before anything else."
+    }
+   ]
+  }
+ ],
+ "III-27": [
+  {
+   "block": "Def",
+   "explain": "AOM is acute infection behind the drum, OME is fluid without acute infection, and otitis externa is a skin infection of the canal.",
+   "hook": "Media = middle ear; externa = outside canal.",
+   "checks": [
+    {
+     "q": "Middle ear effusion without acute infection is called?",
+     "options": [
+      "Acute otitis media",
+      "Otitis media with effusion",
+      "Otitis externa"
+     ],
+     "answer": 1,
+     "why": "OME is fluid without signs of acute inflammation; AOM is acute infection."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "AOM bugs mirror the nasopharynx; otitis externa follows water exposure and is typically Pseudomonas.",
+   "hook": "Swimmer's ear = Pseudomonas in the pool.",
+   "checks": [
+    {
+     "q": "Most common bacterial cause of AOM?",
+     "options": [
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 2,
+     "why": "Pneumococcus leads AOM, followed by non-typeable H. influenzae and Moraxella."
+    },
+    {
+     "q": "Typical pathogen of otitis externa?",
+     "options": [
+      "Pseudomonas aeruginosa",
+      "Moraxella catarrhalis",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 0,
+     "why": "Otitis externa (swimmer's ear) is classically Pseudomonas."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "A child's Eustachian tube is short, horizontal and floppy, so it blocks and refluxes easily; trapped fluid either infects or just dampens sound.",
+   "hook": "Child tube: short, flat, floppy.",
+   "checks": [
+    {
+     "q": "Why are children prone to AOM?",
+     "options": [
+      "Thicker tympanic membrane",
+      "Short, horizontal, floppy Eustachian tube",
+      "Narrower external canal"
+     ],
+     "answer": 1,
+     "why": "The infant tube drains poorly and lets nasopharyngeal bugs reach the middle ear."
+    },
+    {
+     "q": "What causes otorrhoea in AOM?",
+     "options": [
+      "Canal skin infection",
+      "Cerumen impaction",
+      "Tympanic membrane perforation"
+     ],
+     "answer": 2,
+     "why": "Pus under pressure bulges the drum; perforation releases it as discharge."
+    },
+    {
+     "q": "What hearing loss does OME cause?",
+     "options": [
+      "Conductive",
+      "Sensorineural",
+      "Mixed central"
+     ],
+     "answer": 0,
+     "why": "Fluid damps drum movement, causing conductive loss."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Each condition has its sign: bulging drum in AOM, dull retracted drum with flat tympanogram in OME, tragal pain in externa.",
+   "hook": "Tug the tragus: pain = externa.",
+   "checks": [
+    {
+     "q": "Typical drum appearance in AOM?",
+     "options": [
+      "Retracted",
+      "Bulging",
+      "Normal and translucent"
+     ],
+     "answer": 1,
+     "why": "Pus under pressure makes the drum bulge; OME drums are dull and retracted."
+    },
+    {
+     "q": "Tympanogram type in OME?",
+     "options": [
+      "Type A (normal)",
+      "Type C (negative peak)",
+      "Type B (flat)"
+     ],
+     "answer": 2,
+     "why": "Fluid stops drum movement, giving a flat type B trace."
+    },
+    {
+     "q": "Typical sign of otitis externa?",
+     "options": [
+      "Tragal pain or tenderness",
+      "Bulging drum",
+      "Postauricular swelling"
+     ],
+     "answer": 0,
+     "why": "University key: pain and/or sensitivity of the tragus; canal skin is stretched."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Look at the drum; measure mobility for OME. A pushed-forward ear after AOM means spread to mastoid air cells.",
+   "hook": "Ear sticks out after AOM = mastoid.",
+   "checks": [
+    {
+     "q": "Which test confirms OME?",
+     "options": [
+      "Blood culture",
+      "Tympanometry",
+      "Ear swab"
+     ],
+     "answer": 1,
+     "why": "Tympanometry shows the immobile drum of an effusion."
+    },
+    {
+     "q": "Protruding ear with postauricular swelling after AOM suggests?",
+     "options": [
+      "Otitis externa",
+      "Cholesteatoma",
+      "Mastoiditis"
+     ],
+     "answer": 2,
+     "why": "Spread to the mastoid pushes the pinna forward; treat with IV antibiotics and CT."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Most AOM settles, so analgesia first with antibiotics for high-risk groups; OME is watched, grommets only when chronic.",
+   "hook": "Grommets for glue that won't go.",
+   "checks": [
+    {
+     "q": "When should amoxicillin be given for AOM?",
+     "options": [
+      "Under 2 years with bilateral disease",
+      "Any child with ear pain",
+      "Over 5 years with mild pain"
+     ],
+     "answer": 0,
+     "why": "Antibiotics for <2 y bilateral AOM or otorrhoea; otherwise analgesia and watchful waiting."
+    },
+    {
+     "q": "When are grommets indicated?",
+     "options": [
+      "First episode of AOM",
+      "Chronic serous otitis media",
+      "Acute otitis externa"
+     ],
+     "answer": 1,
+     "why": "University key: chronic serous otitis media or Eustachian tube dysfunction after ~3 months."
+    },
+    {
+     "q": "Treatment of otitis externa?",
+     "options": [
+      "Oral amoxicillin",
+      "Grommet insertion",
+      "Topical antibiotic drops"
+     ],
+     "answer": 2,
+     "why": "Aural toilet plus topical antibiotic ± steroid drops treats a canal infection."
+    }
+   ]
+  }
+ ],
+ "III-28": [
+  {
+   "block": "Def",
+   "explain": "Pneumonia fills alveoli with exudate; infection can then spread to pleura (effusion, empyema) or necrose lung (abscess).",
+   "hook": "Fluid in the alveoli, pus in the pleura.",
+   "checks": [
+    {
+     "q": "Which is a recognised complication of pneumonia?",
+     "options": [
+      "Empyema",
+      "Pneumothorax from asthma",
+      "Bronchiolitis"
+     ],
+     "answer": 0,
+     "why": "Pneumonia can cause effusion, empyema and lung abscess."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Pathogens follow age: birth-canal bugs in neonates, viruses in preschoolers, Mycoplasma in school-age, pneumococcus throughout.",
+   "hook": "Age ladder: GBS → virus → Mycoplasma.",
+   "checks": [
+    {
+     "q": "Commonest cause of pneumonia in preschool children overall?",
+     "options": [
+      "Mycoplasma",
+      "Viruses",
+      "Group B streptococcus"
+     ],
+     "answer": 1,
+     "why": "Viruses dominate under 5; GBS is a neonatal pathogen, Mycoplasma school-age."
+    },
+    {
+     "q": "Most common cause of typical pneumonia?",
+     "options": [
+      "Mycoplasma pneumoniae",
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 2,
+     "why": "University key: S. pneumoniae; S. aureus suggests pneumatoceles after influenza."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Filled alveoli cut compliance and create shunt, so the child breathes fast, works hard and desaturates; pleural fluid evolves from thin to fibrous.",
+   "hook": "Exudate → fibrin → peel.",
+   "checks": [
+    {
+     "q": "Why does pneumonia cause hypoxaemia?",
+     "options": [
+      "Shunt through fluid-filled alveoli",
+      "Central hypoventilation",
+      "Reduced haemoglobin"
+     ],
+     "answer": 0,
+     "why": "Perfused but unventilated alveoli create shunt."
+    },
+    {
+     "q": "Final stage of a parapneumonic effusion?",
+     "options": [
+      "Exudative",
+      "Organising",
+      "Fibrinopurulent"
+     ],
+     "answer": 1,
+     "why": "Stages: exudative, fibrinopurulent, then organising with a fibrous peel."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Fast breathing is the most sensitive sign; lower-lobe pneumonia can irritate the diaphragm and mimic an abdomen; fever despite antibiotics means a collection.",
+   "hook": "Fever after 48 h of antibiotics = look for pus.",
+   "checks": [
+    {
+     "q": "WHO tachypnoea threshold for age 1-5 years?",
+     "options": [
+      "50/min",
+      "60/min",
+      "40/min"
+     ],
+     "answer": 2,
+     "why": "≥60 under 2 months, ≥50 at 2-12 months, ≥40 at 1-5 years."
+    },
+    {
+     "q": "Why can pneumonia cause abdominal pain?",
+     "options": [
+      "Diaphragmatic pleura irritation",
+      "Mesenteric lymphadenitis only",
+      "Hepatic congestion"
+     ],
+     "answer": 0,
+     "why": "Lower-lobe pleurisy refers pain via the diaphragm to the abdomen."
+    },
+    {
+     "q": "Fever persisting after 48 h of antibiotics suggests?",
+     "options": [
+      "Viral co-infection only",
+      "Empyema or abscess",
+      "Drug fever"
+     ],
+     "answer": 1,
+     "why": "Persisting fever suggests a collection needing imaging and drainage."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Pneumonia is a clinical diagnosis; imaging is for those admitted or not improving, and ultrasound shows whether pleural fluid is loculated.",
+   "hook": "Treat the child, not the X-ray.",
+   "checks": [
+    {
+     "q": "Is a CXR routine for a child managed at home?",
+     "options": [
+      "Yes, always",
+      "Only if afebrile",
+      "No, diagnosis is clinical"
+     ],
+     "answer": 2,
+     "why": "Mild CAP managed at home does not need a CXR."
+    },
+    {
+     "q": "SpO₂ threshold for admission?",
+     "options": [
+      "Below 92%",
+      "Below 96%",
+      "Below 85%"
+     ],
+     "answer": 0,
+     "why": "Admit if SpO₂ <92%, grunting, apnoea or poor feeding."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Amoxicillin covers pneumococcus; severe cases go IV; thick pleural pus needs drainage and fibrinolytics to break loculations.",
+   "hook": "Pus: drain it, dissolve it, then VATS.",
+   "checks": [
+    {
+     "q": "First-line oral antibiotic for childhood CAP?",
+     "options": [
+      "Azithromycin",
+      "Amoxicillin",
+      "Ciprofloxacin"
+     ],
+     "answer": 1,
+     "why": "Amoxicillin covers pneumococcus; add a macrolide if Mycoplasma suspected."
+    },
+    {
+     "q": "UK IV choice for severe childhood pneumonia?",
+     "options": [
+      "Vancomycin alone",
+      "Oral clarithromycin",
+      "Co-amoxiclav or cefuroxime"
+     ],
+     "answer": 2,
+     "why": "Severe CAP: IV ampicillin/penicillin G or ceftriaxone (US), co-amoxiclav/cefuroxime (UK)."
+    },
+    {
+     "q": "What dissolves thick empyema pus after drainage?",
+     "options": [
+      "Fibrinolysis with urokinase",
+      "Dornase alfa",
+      "Hypertonic saline"
+     ],
+     "answer": 0,
+     "why": "University key: fibrinolysis (urokinase/streptokinase); VATS if it fails."
+    }
+   ]
+  }
+ ],
+ "III-29": [
+  {
+   "block": "Def",
+   "explain": "These are structural defects present from birth involving the diaphragm, lung tissue or chest wall.",
+   "hook": "Three places: diaphragm, lung, wall.",
+   "checks": [
+    {
+     "q": "Congenital lung malformations involve which structures?",
+     "options": [
+      "Trachea, larynx, pharynx",
+      "Diaphragm, lung parenchyma, chest wall",
+      "Heart valves and great vessels"
+     ],
+     "answer": 1,
+     "why": "They cover diaphragmatic, parenchymal and chest wall anomalies."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "CDH comes from failed closure of the posterolateral pleuroperitoneal canal, mostly left; pectus deformities are the commonest chest wall anomalies.",
+   "hook": "Bochdalek = Back and Left.",
+   "checks": [
+    {
+     "q": "Typical location of a Bochdalek CDH?",
+     "options": [
+      "Right anteromedial",
+      "Central tendon",
+      "Left posterolateral"
+     ],
+     "answer": 2,
+     "why": "Bochdalek hernias are posterolateral, usually left; Morgagni are anterior."
+    },
+    {
+     "q": "Two most frequent chest wall deformities?",
+     "options": [
+      "Pectus excavatum and carinatum",
+      "Poland and Jeune syndromes",
+      "Scoliosis and kyphosis"
+     ],
+     "answer": 0,
+     "why": "Pectus excavatum (sunken) and carinatum (pigeon) are the commonest."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "In CDH, gut in the chest stops lung growth, so hypoplasia and pulmonary hypertension kill; in lobar emphysema weak cartilage lets air in but not out.",
+   "hook": "Ball-valve: air in, can't get out.",
+   "checks": [
+    {
+     "q": "What drives mortality in CDH?",
+     "options": [
+      "Bowel strangulation",
+      "Pulmonary hypoplasia and hypertension",
+      "Cardiac compression only"
+     ],
+     "answer": 1,
+     "why": "Hypoplastic lungs and pulmonary hypertension determine survival."
+    },
+    {
+     "q": "Lobe most often affected in congenital lobar emphysema?",
+     "options": [
+      "Right lower lobe",
+      "Right middle lobe",
+      "Left upper lobe"
+     ],
+     "answer": 2,
+     "why": "Deficient cartilage causes ball-valve trapping, most often left upper lobe."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Abdominal contents in the chest leave a flat belly and push the heart right; a malformed lobe keeps getting infected.",
+   "hook": "CDH: scaphoid belly, heart pushed right.",
+   "checks": [
+    {
+     "q": "Abdominal shape in CDH?",
+     "options": [
+      "Scaphoid",
+      "Distended",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "Gut has moved into the chest, so the abdomen looks sunken."
+    },
+    {
+     "q": "Recurrent pneumonia in the same lobe suggests?",
+     "options": [
+      "Cystic fibrosis",
+      "CPAM or sequestration",
+      "Asthma"
+     ],
+     "answer": 1,
+     "why": "A fixed malformation keeps getting infected in one place."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Many are seen antenatally; CPAM connects to airways, sequestration has its own systemic artery, and pectus severity is graded by Haller index.",
+   "hook": "Sequestration = separate from bronchi, fed by aorta.",
+   "checks": [
+    {
+     "q": "Which lesion has cysts communicating with the airway?",
+     "options": [
+      "Sequestration",
+      "Bronchogenic cyst",
+      "CPAM"
+     ],
+     "answer": 2,
+     "why": "CPAM cysts connect to the bronchial tree; sequestration does not."
+    },
+    {
+     "q": "Usual blood supply of pulmonary sequestration?",
+     "options": [
+      "Systemic artery from the aorta",
+      "Pulmonary artery",
+      "Bronchial vein"
+     ],
+     "answer": 0,
+     "why": "Sequestration has systemic arterial supply, usually from the aorta."
+    },
+    {
+     "q": "Index used to grade pectus severity?",
+     "options": [
+      "Cobb angle",
+      "Haller index",
+      "Reid index"
+     ],
+     "answer": 1,
+     "why": "The Haller index on CT/MRI quantifies pectus depth."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "In CDH bagging inflates the gut in the chest, so intubate and decompress; symptomatic lesions are resected; pectus excavatum is corrected by a bar.",
+   "hook": "CDH: no bag, tube in, NG out.",
+   "checks": [
+    {
+     "q": "What should you avoid in suspected CDH?",
+     "options": [
+      "NG tube on suction",
+      "Early intubation",
+      "Bag-and-mask ventilation"
+     ],
+     "answer": 2,
+     "why": "Bagging inflates the intrathoracic bowel and further compresses the lung."
+    },
+    {
+     "q": "Treatment of symptomatic CPAM or sequestration?",
+     "options": [
+      "Surgical resection",
+      "Long-term antibiotics",
+      "Observation only"
+     ],
+     "answer": 0,
+     "why": "Symptomatic lesions are resected."
+    },
+    {
+     "q": "Surgical correction of pectus excavatum?",
+     "options": [
+      "Compressive brace",
+      "Nuss procedure",
+      "Heller myotomy"
+     ],
+     "answer": 1,
+     "why": "Nuss bar for excavatum; carinatum is treated with a compressive brace."
+    }
+   ]
+  }
+ ],
+ "III-30": [
+  {
+   "block": "Def",
+   "explain": "CF is autosomal recessive; F508del misfolds CFTR so it never reaches the cell surface.",
+   "hook": "F508del: Folded wrong, Fails to arrive.",
+   "checks": [
+    {
+     "q": "Commonest CF mutation?",
+     "options": [
+      "G551D",
+      "N1303K",
+      "F508del"
+     ],
+     "answer": 2,
+     "why": "F508del (class II) causes misfolding and degradation of CFTR."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "About 1 in 25 Europeans carries a mutation; classes describe how CFTR fails: misfolding (II) or failed gating (III).",
+   "hook": "1 in 25 carry → 1 in 2500 affected.",
+   "checks": [
+    {
+     "q": "Approximate CF carrier frequency in Europeans?",
+     "options": [
+      "1 in 25",
+      "1 in 250",
+      "1 in 2500"
+     ],
+     "answer": 0,
+     "why": "Carriers ~1/25; affected births ~1/2500."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Without CFTR, chloride stays in and ENaC pulls sodium and water out, drying mucus; in the sweat duct chloride cannot be reabsorbed, so sweat is salty.",
+   "hook": "Lungs dry, sweat salty: same channel, opposite jobs.",
+   "checks": [
+    {
+     "q": "Why is airway mucus dehydrated in CF?",
+     "options": [
+      "Excess Cl⁻ secretion",
+      "No Cl⁻ secretion and unopposed ENaC",
+      "Ciliary absence"
+     ],
+     "answer": 1,
+     "why": "Absent chloride secretion plus Na⁺ absorption dries the airway surface."
+    },
+    {
+     "q": "Why is CF sweat salty?",
+     "options": [
+      "Sweat glands overproduce sodium",
+      "Kidneys retain chloride",
+      "Sweat duct cannot reabsorb chloride"
+     ],
+     "answer": 2,
+     "why": "CFTR normally reabsorbs Cl⁻ in the duct; without it salt stays in sweat."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Thick secretions block gut, pancreas and airways; chronic airway infection shifts from S. aureus to Pseudomonas; salt loss causes hyponatraemia.",
+   "hook": "Salty, skinny, sticky.",
+   "checks": [
+    {
+     "q": "Contrast enema finding in meconium ileus?",
+     "options": [
+      "Microcolon",
+      "Dilated colon",
+      "Normal colon"
+     ],
+     "answer": 0,
+     "why": "An unused colon is tiny; plain film shows soap-bubble appearance."
+    },
+    {
+     "q": "Main chronic lung pathogen in CF?",
+     "options": [
+      "Haemophilus influenzae",
+      "Pseudomonas aeruginosa",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 1,
+     "why": "S. aureus early, Pseudomonas becomes the main chronic pathogen."
+    },
+    {
+     "q": "Which vitamins are deficient in CF?",
+     "options": [
+      "B1, B6, B12",
+      "C and folate",
+      "A, D, E, K"
+     ],
+     "answer": 2,
+     "why": "Fat malabsorption causes fat-soluble (ADEK) deficiency."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Pancreatic damage raises IRT on newborn screen; diagnosis is confirmed by high sweat chloride.",
+   "hook": "Sweat test: 60 or more = CF.",
+   "checks": [
+    {
+     "q": "What does CF newborn screening measure first?",
+     "options": [
+      "Immunoreactive trypsinogen",
+      "Sweat chloride",
+      "Faecal elastase"
+     ],
+     "answer": 0,
+     "why": "IRT is raised on the heel-prick card, followed by a CFTR panel."
+    },
+    {
+     "q": "Diagnostic sweat chloride level?",
+     "options": [
+      "≥30 mmol/L",
+      "≥60 mmol/L",
+      "≥100 mmol/L"
+     ],
+     "answer": 1,
+     "why": "≥60 diagnostic; 30-59 intermediate."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Clear mucus, kill bugs, replace enzymes and calories, and now correct CFTR with modulators; transplant both lungs so the native lung can't reseed infection.",
+   "hook": "Dornase cuts DNA strands in pus.",
+   "checks": [
+    {
+     "q": "How does dornase alfa work?",
+     "options": [
+      "Opens CFTR channels",
+      "Kills Pseudomonas",
+      "Cleaves neutrophil DNA in mucus"
+     ],
+     "answer": 2,
+     "why": "Dornase breaks down viscous extracellular DNA."
+    },
+    {
+     "q": "Which drug class corrects the CFTR defect?",
+     "options": [
+      "CFTR modulators",
+      "Pancreatic enzymes",
+      "Inhaled tobramycin"
+     ],
+     "answer": 0,
+     "why": "Elexacaftor/tezacaftor/ivacaftor improve CFTR function."
+    },
+    {
+     "q": "Why is CF lung transplant bilateral?",
+     "options": [
+      "Single lungs are unavailable",
+      "Avoids seeding from the native lung",
+      "It reduces rejection"
+     ],
+     "answer": 1,
+     "why": "A remaining infected native lung would reseed the graft."
+    }
+   ]
+  }
+ ],
+ "III-31": [
+  {
+   "block": "Def",
+   "explain": "Asthma combines inflammation, twitchy airways and obstruction that reverses, which separates it from fixed airway disease.",
+   "hook": "Inflamed, twitchy, reversible.",
+   "checks": [
+    {
+     "q": "Which feature defines asthma obstruction?",
+     "options": [
+      "Fixed",
+      "Progressive only",
+      "Reversible"
+     ],
+     "answer": 2,
+     "why": "Asthma = chronic inflammation + hyperresponsiveness + reversible obstruction."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Risk comes from atopy and environment; attacks are set off by viruses, exercise, allergens and smoke.",
+   "hook": "Viruses trigger most childhood attacks.",
+   "checks": [
+    {
+     "q": "Which is a risk factor for asthma?",
+     "options": [
+      "Atopic eczema",
+      "Iron deficiency",
+      "Breastfeeding"
+     ],
+     "answer": 0,
+     "why": "Atopy (eczema, rhinitis), family history, smoke, prematurity and obesity raise risk."
+    },
+    {
+     "q": "Commonest trigger of acute asthma in children?",
+     "options": [
+      "Cold drinks",
+      "Viral infections",
+      "Sunlight"
+     ],
+     "answer": 1,
+     "why": "Viral URTIs trigger most exacerbations."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Th2 inflammation releases histamine and leukotrienes; bronchospasm responds to β2-agonists and oedema to steroids, while chronic inflammation remodels the airway.",
+   "hook": "Spasm → β2; swelling → steroid.",
+   "checks": [
+    {
+     "q": "Which leukotrienes mediate asthma bronchoconstriction?",
+     "options": [
+      "B4 only",
+      "A4 and B4",
+      "C4, D4, E4"
+     ],
+     "answer": 2,
+     "why": "Cysteinyl leukotrienes C4/D4/E4 constrict airways; montelukast blocks them."
+    },
+    {
+     "q": "What does a β2-agonist mainly reverse?",
+     "options": [
+      "Bronchospasm",
+      "Mucosal oedema",
+      "Airway remodelling"
+     ],
+     "answer": 0,
+     "why": "β2-agonists relax smooth muscle; steroids treat oedema/inflammation."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Variable wheeze and night cough are typical; a silent chest means no airflow, and a normal CO2 in a tachypnoeic child means tiring.",
+   "hook": "Silent chest and normal CO2 = danger.",
+   "checks": [
+    {
+     "q": "Typical asthma symptom timing?",
+     "options": [
+      "Morning-only fever",
+      "Night-time cough",
+      "Post-prandial stridor"
+     ],
+     "answer": 1,
+     "why": "Recurrent wheeze, nocturnal cough and exercise symptoms are typical."
+    },
+    {
+     "q": "What does a normal or rising PaCO2 mean in acute asthma?",
+     "options": [
+      "Recovery",
+      "Hyperventilation",
+      "Exhaustion"
+     ],
+     "answer": 2,
+     "why": "A tachypnoeic child should have low CO2; normal/rising signals tiring."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Young children can't do spirometry, so diagnose clinically; from 5 years objective tests show inflammation (FeNO) and reversibility.",
+   "hook": "12% better after salbutamol = reversible.",
+   "checks": [
+    {
+     "q": "How is asthma diagnosed under 5 years?",
+     "options": [
+      "Clinically, with an ICS trial",
+      "Spirometry",
+      "FeNO measurement"
+     ],
+     "answer": 0,
+     "why": "Under-5s cannot reliably perform tests; diagnosis is clinical."
+    },
+    {
+     "q": "FEV1 rise that shows reversibility?",
+     "options": [
+      "At least 5%",
+      "At least 12%",
+      "At least 30%"
+     ],
+     "answer": 1,
+     "why": "A ≥12% FEV1 increase after bronchodilator indicates reversibility."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Inhaled steroids control inflammation and are the base of every step; acute attacks get bronchodilators plus systemic steroid, then magnesium if refractory.",
+   "hook": "ICS is the foundation; magnesium is the rescue.",
+   "checks": [
+    {
+     "q": "Cornerstone controller in childhood asthma?",
+     "options": [
+      "LABA alone",
+      "Oral theophylline",
+      "Inhaled corticosteroid"
+     ],
+     "answer": 2,
+     "why": "Low-dose ICS is the base; LABA is never used alone."
+    },
+    {
+     "q": "Oral steroid used in acute asthma in the UK?",
+     "options": [
+      "Prednisolone",
+      "Hydrocortisone cream",
+      "Fludrocortisone"
+     ],
+     "answer": 0,
+     "why": "Acute: O₂, salbutamol, ipratropium, prednisolone (or dexamethasone in US)."
+    },
+    {
+     "q": "Add-on for severe asthma unresponsive to nebulisers?",
+     "options": [
+      "Oral montelukast",
+      "IV magnesium sulfate",
+      "Inhaled budesonide"
+     ],
+     "answer": 1,
+     "why": "IV magnesium relaxes smooth muscle; then PICU."
+    }
+   ]
+  }
+ ],
+ "III-32": [
+  {
+   "block": "Def",
+   "explain": "Atopy is an inherited tendency to make IgE to harmless antigens via Th2 responses.",
+   "hook": "Atopy = Th2 → IgE.",
+   "checks": [
+    {
+     "q": "Atopy is a genetic tendency to produce which antibody?",
+     "options": [
+      "IgG",
+      "IgA",
+      "IgE"
+     ],
+     "answer": 2,
+     "why": "Atopy is a Th2-driven tendency to make IgE."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Atopic diseases appear in sequence; barrier defects such as filaggrin loss let allergens sensitise through skin.",
+   "hook": "Food → skin → chest → nose.",
+   "checks": [
+    {
+     "q": "Order of the atopic march (university key)?",
+     "options": [
+      "Food allergy, eczema, asthma, rhinitis",
+      "Eczema, rhinitis, asthma, food allergy",
+      "Asthma, eczema, food allergy, rhinitis"
+     ],
+     "answer": 0,
+     "why": "Exam key: food allergy - atopic dermatitis - asthma - allergic rhinitis (literature often puts eczema first)."
+    },
+    {
+     "q": "Which gene mutation breaks the skin barrier in atopy?",
+     "options": [
+      "CFTR",
+      "Filaggrin",
+      "Fibrillin"
+     ],
+     "answer": 1,
+     "why": "Filaggrin loss-of-function allows epicutaneous sensitisation."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "IgE arms mast cells; allergen cross-links IgE causing instant mediator release, while IL-5-driven eosinophils cause late chronic inflammation.",
+   "hook": "IL-5 = eosinophils.",
+   "checks": [
+    {
+     "q": "What triggers mast cell degranulation in allergy?",
+     "options": [
+      "Complement C1 binding",
+      "IgG opsonisation",
+      "Cross-linking of bound IgE"
+     ],
+     "answer": 2,
+     "why": "Allergen bridges two IgE molecules, releasing histamine and leukotrienes."
+    },
+    {
+     "q": "Which cytokine recruits eosinophils?",
+     "options": [
+      "IL-5",
+      "IL-2",
+      "IL-10"
+     ],
+     "answer": 0,
+     "why": "IL-5 drives eosinophils and the late-phase reaction."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "IgE reactions are fast (minutes to 2 h) and systemic; non-IgE reactions are slow and mostly gut or skin.",
+   "hook": "Fast = IgE; slow = cell-mediated.",
+   "checks": [
+    {
+     "q": "Time to onset of IgE-mediated food reactions?",
+     "options": [
+      "1-3 days",
+      "Minutes to 2 hours",
+      "1-2 weeks"
+     ],
+     "answer": 1,
+     "why": "IgE reactions are immediate: urticaria, angioedema, wheeze, anaphylaxis."
+    },
+    {
+     "q": "Which is a non-IgE food reaction?",
+     "options": [
+      "Anaphylaxis",
+      "Acute urticaria",
+      "FPIES"
+     ],
+     "answer": 2,
+     "why": "FPIES, proctocolitis and eczema flares are delayed non-IgE reactions."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Parents over-report food allergy; specific IgE shows sensitisation not allergy, so elimination then re-challenge is the test.",
+   "hook": "Remove, resolve, re-challenge.",
+   "checks": [
+    {
+     "q": "True frequency of childhood food allergy (after re-challenge)?",
+     "options": [
+      "1-2%",
+      "7-10%",
+      "15-20%"
+     ],
+     "answer": 0,
+     "why": "University key: parents report ~7-10%, reality ~1-2%."
+    },
+    {
+     "q": "Recommended method to diagnose food allergy?",
+     "options": [
+      "Specific IgE alone",
+      "Elimination then re-challenge",
+      "Total IgE level"
+     ],
+     "answer": 1,
+     "why": "Specific IgE is not totally reliable; elimination and re-challenge confirm."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Avoid the allergen with dietary support; anaphylaxis needs IM adrenaline in the thigh, repeated after 5 minutes if needed.",
+   "hook": "Adrenaline: 0.01 mL/kg of 1:1000, thigh.",
+   "checks": [
+    {
+     "q": "Formula for a cow's milk-allergic infant?",
+     "options": [
+      "Goat's milk formula",
+      "Soy-based yoghurt",
+      "Extensively hydrolysed formula"
+     ],
+     "answer": 2,
+     "why": "Goat's milk cross-reacts; use extensively hydrolysed formula."
+    },
+    {
+     "q": "IM adrenaline dose in anaphylaxis?",
+     "options": [
+      "10 µg/kg",
+      "1 µg/kg",
+      "100 µg/kg"
+     ],
+     "answer": 0,
+     "why": "10 µg/kg (0.01 mL/kg of 1 mg/mL) IM in anterolateral thigh, repeat at 5 min."
+    }
+   ]
+  }
+ ],
+ "III-33": [
+  {
+   "block": "Def",
+   "explain": "Heart failure means output cannot meet demand, causing congestion; decompensation means shock and collapse.",
+   "hook": "Congested and under-perfused.",
+   "checks": [
+    {
+     "q": "What defines decompensated heart failure?",
+     "options": [
+      "Mild exercise intolerance",
+      "Shock or collapse",
+      "Isolated murmur"
+     ],
+     "answer": 1,
+     "why": "Decompensated HF progresses to low output, shock and collapse."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Timing points to cause: duct-dependent left lesions in week 1, shunts at 4-8 weeks as PVR falls, myocardial disease later.",
+   "hook": "Week 1 = duct; week 6 = shunt.",
+   "checks": [
+    {
+     "q": "Cause of heart failure in the first week of life?",
+     "options": [
+      "Large VSD",
+      "Kawasaki disease",
+      "Duct-dependent left heart lesion"
+     ],
+     "answer": 2,
+     "why": "HLHS and coarctation decompensate as the duct closes."
+    },
+    {
+     "q": "When does a large VSD cause heart failure?",
+     "options": [
+      "4-8 weeks",
+      "First 24 hours",
+      "After 1 year"
+     ],
+     "answer": 0,
+     "why": "Falling pulmonary vascular resistance increases the left-to-right shunt."
+    },
+    {
+     "q": "Which is a later-onset cause of heart failure?",
+     "options": [
+      "Hypoplastic left heart",
+      "Myocarditis",
+      "Critical coarctation"
+     ],
+     "answer": 1,
+     "why": "Myocarditis, cardiomyopathy, arrhythmia, Kawasaki and anaemia cause later HF."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Low output triggers sympathetic and RAAS compensation (sweat, tachycardia, fluid retention); back-pressure congests lungs and liver.",
+   "hook": "Back-up behind the left = lungs; right = liver.",
+   "checks": [
+    {
+     "q": "Why do infants with heart failure sweat?",
+     "options": [
+      "Fever",
+      "Hypoglycaemia",
+      "Sympathetic activation"
+     ],
+     "answer": 2,
+     "why": "Low output drives sympathetic drive: tachycardia and sweating."
+    },
+    {
+     "q": "Raised systemic venous pressure causes?",
+     "options": [
+      "Hepatomegaly",
+      "Tachypnoea",
+      "Cyanosis"
+     ],
+     "answer": 0,
+     "why": "Systemic venous congestion enlarges the liver; pulmonary congestion causes tachypnoea."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Infants show HF as feeding difficulty with sweating and poor growth; the liver edge is the most reliable congestion sign.",
+   "hook": "Infant HF: feeds, sweats, fails to grow.",
+   "checks": [
+    {
+     "q": "Typical feeding sign of infant heart failure?",
+     "options": [
+      "Projectile vomiting",
+      "Sweating during feeds",
+      "Bilious vomiting"
+     ],
+     "answer": 1,
+     "why": "Feeding is exercise for infants; they tire, sweat and fail to thrive."
+    },
+    {
+     "q": "Most reliable sign of heart failure in an infant?",
+     "options": [
+      "Peripheral oedema",
+      "Raised JVP",
+      "Hepatomegaly"
+     ],
+     "answer": 2,
+     "why": "Infant oedema and JVP are hard to see; the liver is reliable."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Echo identifies the lesion; bloods and gas assess severity and organ perfusion.",
+   "hook": "Echo for cause; lactate for severity.",
+   "checks": [
+    {
+     "q": "Which test defines the cause of heart failure?",
+     "options": [
+      "Echocardiography",
+      "Chest X-ray",
+      "ECG"
+     ],
+     "answer": 0,
+     "why": "Echo shows structure and function; CXR shows only cardiomegaly."
+    },
+    {
+     "q": "Which blood marker rises with ventricular stretch?",
+     "options": [
+      "Troponin I",
+      "NT-proBNP",
+      "CRP"
+     ],
+     "answer": 1,
+     "why": "BNP/NT-proBNP is released from stretched myocardium."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Reduce workload and fluid, feed calories, block neurohormones; reopen the duct with PGE1 in neonatal duct-dependent lesions.",
+   "hook": "Week-1 failure: open the duct with PGE1.",
+   "checks": [
+    {
+     "q": "Calorie target for infant heart failure feeds?",
+     "options": [
+      "Up to 80 kcal/kg/day",
+      "Up to 250 kcal/kg/day",
+      "Up to 150 kcal/kg/day"
+     ],
+     "answer": 2,
+     "why": "High-calorie NG feeds up to 150 kcal/kg/day support growth."
+    },
+    {
+     "q": "Which diuretic spares potassium?",
+     "options": [
+      "Spironolactone",
+      "Furosemide",
+      "Bendroflumethiazide"
+     ],
+     "answer": 0,
+     "why": "Spironolactone blocks aldosterone and conserves K⁺."
+    },
+    {
+     "q": "Drug for a first-week duct-dependent lesion?",
+     "options": [
+      "Indomethacin",
+      "Prostaglandin E1",
+      "Ibuprofen"
+     ],
+     "answer": 1,
+     "why": "PGE1 keeps the duct open; NSAIDs would close it."
+    }
+   ]
+  }
+ ],
+ "III-34": [
+  {
+   "block": "Def",
+   "explain": "Cyanotic CHD causes central cyanosis by right-to-left mixing; remember the 5 Ts.",
+   "hook": "5 Ts: Tetralogy, TGA, Truncus, Tricuspid, TAPVR.",
+   "checks": [
+    {
+     "q": "Mnemonic for cyanotic congenital heart disease?",
+     "options": [
+      "The 3 Ds",
+      "The 4 Ps",
+      "The 5 Ts"
+     ],
+     "answer": 2,
+     "why": "Tetralogy, TGA, truncus, tricuspid atresia, TAPVR."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Cyanosis arises either from reduced pulmonary flow with R→L shunt, or from parallel circulations as in TGA.",
+   "hook": "TGA = day 1 blue; Fallot = later blue.",
+   "checks": [
+    {
+     "q": "Which lesion has reduced pulmonary blood flow?",
+     "options": [
+      "Tetralogy of Fallot",
+      "Transposition of great arteries",
+      "Large VSD"
+     ],
+     "answer": 0,
+     "why": "Fallot's RVOT obstruction reduces pulmonary flow with R→L shunt."
+    },
+    {
+     "q": "Commonest cyanotic lesion in the first days?",
+     "options": [
+      "Tetralogy of Fallot",
+      "Transposition of the great arteries",
+      "Truncus arteriosus"
+     ],
+     "answer": 1,
+     "why": "TGA presents with profound early cyanosis."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Cyanosis needs enough deoxygenated haemoglobin; Fallot spells increase R→L shunting; chronic hypoxia drives polycythaemia and clubbing.",
+   "hook": "Spell = more blood bypasses the lungs.",
+   "checks": [
+    {
+     "q": "Deoxygenated haemoglobin needed for visible cyanosis?",
+     "options": [
+      "~0.5 g/dL",
+      "~10 g/dL",
+      "~3-5 g/dL"
+     ],
+     "answer": 2,
+     "why": "Central cyanosis appears at about 3-5 g/dL deoxyhaemoglobin."
+    },
+    {
+     "q": "Which is part of tetralogy of Fallot?",
+     "options": [
+      "Overriding aorta",
+      "ASD",
+      "Coarctation"
+     ],
+     "answer": 0,
+     "why": "RVOT obstruction, VSD, overriding aorta and RV hypertrophy."
+    },
+    {
+     "q": "Chronic hypoxia leads to?",
+     "options": [
+      "Anaemia",
+      "Polycythaemia",
+      "Thrombocytosis only"
+     ],
+     "answer": 1,
+     "why": "Hypoxia raises EPO, causing polycythaemia and clubbing."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "In a tet spell less blood crosses the RVOT so the murmur fades; TGA babies are very blue, often with no murmur.",
+   "hook": "Spell: bluer and quieter.",
+   "checks": [
+    {
+     "q": "What happens to the Fallot murmur during a spell?",
+     "options": [
+      "It becomes louder",
+      "It becomes continuous",
+      "It softens"
+     ],
+     "answer": 2,
+     "why": "Less flow through the obstructed RVOT means a quieter murmur."
+    },
+    {
+     "q": "Classic CXR appearance in TGA?",
+     "options": [
+      "Egg on a string",
+      "Boot-shaped heart",
+      "Snowman"
+     ],
+     "answer": 0,
+     "why": "TGA: egg on a string; Fallot: boot-shaped; supracardiac TAPVR: snowman."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Oxygen does not raise PaO2 when blood bypasses the lungs; pulse oximetry screening catches critical CHD.",
+   "hook": "Cardiac shunt ignores oxygen.",
+   "checks": [
+    {
+     "q": "Result of hyperoxia test in cardiac cyanosis?",
+     "options": [
+      "PaO2 rises above 300",
+      "PaO2 does not rise",
+      "PaCO2 falls sharply"
+     ],
+     "answer": 1,
+     "why": "Shunted blood bypasses the lungs, so 100% O₂ barely raises PaO2."
+    },
+    {
+     "q": "Sites for pulse-oximetry CHD screening?",
+     "options": [
+      "Both hands",
+      "Left hand and ear",
+      "Right hand and a foot"
+     ],
+     "answer": 2,
+     "why": "Pre-ductal (right hand) and post-ductal (foot) saturations are compared."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "A blue newborn not improving on oxygen gets PGE1 to keep pulmonary or mixing flow; tet spells are treated by raising SVR; TGA needs early arterial switch.",
+   "hook": "Knee-chest squeezes arteries, pushes blood to lungs.",
+   "checks": [
+    {
+     "q": "Blue newborn not improving on oxygen: give?",
+     "options": [
+      "PGE1",
+      "Indomethacin",
+      "Digoxin"
+     ],
+     "answer": 0,
+     "why": "PGE1 maintains ductal flow; watch for apnoea."
+    },
+    {
+     "q": "Why does knee-chest position help a tet spell?",
+     "options": [
+      "Lowers pulmonary pressure directly",
+      "Raises systemic vascular resistance",
+      "Slows the heart rate"
+     ],
+     "answer": 1,
+     "why": "Higher SVR reduces R→L shunting across the VSD."
+    },
+    {
+     "q": "Definitive surgery for TGA?",
+     "options": [
+      "Blalock-Taussig shunt",
+      "Fontan procedure",
+      "Arterial switch"
+     ],
+     "answer": 2,
+     "why": "Arterial switch in the first 2-3 weeks after septostomy if needed."
+    }
+   ]
+  }
+ ],
+ "III-35": [
+  {
+   "block": "Def",
+   "explain": "Acyanotic CHD is either a left-to-right shunt or an obstruction to outflow.",
+   "hook": "Shunts or blocks, but pink.",
+   "checks": [
+    {
+     "q": "Two groups of non-cyanotic CHD?",
+     "options": [
+      "L→R shunts and obstructive lesions",
+      "R→L shunts and mixing lesions",
+      "Valve atresias and transpositions"
+     ],
+     "answer": 0,
+     "why": "Acyanotic CHD comprises left-to-right shunts and obstructive lesions."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "VSD is commonest; syndromes link to specific lesions (Down-AVSD, Turner-coarctation, Noonan-pulmonary stenosis).",
+   "hook": "Turner-Coarct, Noonan-PS, Down-AVSD.",
+   "checks": [
+    {
+     "q": "Commonest congenital heart defect?",
+     "options": [
+      "ASD",
+      "VSD",
+      "PDA"
+     ],
+     "answer": 1,
+     "why": "VSD is the commonest CHD."
+    },
+    {
+     "q": "Coarctation is associated with which syndrome?",
+     "options": [
+      "Noonan",
+      "Down",
+      "Turner"
+     ],
+     "answer": 2,
+     "why": "Turner: coarctation; Noonan: pulmonary stenosis; Down: AVSD."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Chronic pulmonary overflow remodels pulmonary vessels until the shunt reverses; a small VSD has a big pressure gradient, so it is loud.",
+   "hook": "Small hole, loud noise.",
+   "checks": [
+    {
+     "q": "Reversal of a long-standing L→R shunt is called?",
+     "options": [
+      "Eisenmenger syndrome",
+      "Kartagener syndrome",
+      "Williams syndrome"
+     ],
+     "answer": 0,
+     "why": "Pulmonary vascular disease reverses flow, causing cyanosis."
+    },
+    {
+     "q": "Why is a small VSD often louder?",
+     "options": [
+      "Larger shunt volume",
+      "High pressure gradient",
+      "Pulmonary hypertension"
+     ],
+     "answer": 1,
+     "why": "Fast, turbulent flow through a small hole makes a loud murmur."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Four key CHD signs; specific clues pin the lesion: fixed split S2 (ASD), machinery murmur (PDA), weak femorals (coarctation).",
+   "hook": "Fixed split = ASD; machinery = PDA.",
+   "checks": [
+    {
+     "q": "Which is one of the 4 key signs of CHD?",
+     "options": [
+      "Clubbing of toes only",
+      "Splenomegaly",
+      "Peripheral pulse abnormalities"
+     ],
+     "answer": 2,
+     "why": "University key: murmur, heart failure, cyanosis, peripheral pulse abnormalities."
+    },
+    {
+     "q": "Fixed wide splitting of S2 suggests?",
+     "options": [
+      "ASD",
+      "VSD",
+      "PDA"
+     ],
+     "answer": 0,
+     "why": "ASD gives a fixed widely split S2; PDA a continuous machinery murmur."
+    },
+    {
+     "q": "Femoral pulses in coarctation?",
+     "options": [
+      "Bounding",
+      "Weak and delayed",
+      "Normal"
+     ],
+     "answer": 1,
+     "why": "Obstruction distal to the arm vessels weakens and delays femorals."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Echo diagnoses structure; murmur site and character suggest the lesion; innocent murmurs are soft, systolic and change with posture.",
+   "hook": "Innocent: soft, systolic, shifts with posture.",
+   "checks": [
+    {
+     "q": "Investigation to diagnose congenital heart defects?",
+     "options": [
+      "ECG",
+      "Chest X-ray",
+      "Echocardiography"
+     ],
+     "answer": 2,
+     "why": "Echocardiography defines congenital anatomy."
+    },
+    {
+     "q": "Holosystolic murmur at left lower sternal border?",
+     "options": [
+      "VSD",
+      "ASD",
+      "Aortic stenosis"
+     ],
+     "answer": 0,
+     "why": "LLSB holosystolic murmur = VSD."
+    },
+    {
+     "q": "Which feature suggests an innocent murmur?",
+     "options": [
+      "Diastolic timing",
+      "Varies with posture",
+      "Associated thrill"
+     ],
+     "answer": 1,
+     "why": "Innocent murmurs are soft, systolic, postural with no other signs."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Large VSDs are closed early before pulmonary vascular disease; ASDs by catheter device at preschool age; prostaglandin keeps the duct open in critical coarctation, NSAIDs close a preterm PDA.",
+   "hook": "Open the duct: PGE1; close it: NSAID.",
+   "checks": [
+    {
+     "q": "Typical age for ASD catheter closure?",
+     "options": [
+      "First month",
+      "After 15 years",
+      "3-5 years"
+     ],
+     "answer": 2,
+     "why": "ASD device closure at 3-5 years; large VSD surgery in first months."
+    },
+    {
+     "q": "Drug to close a preterm PDA?",
+     "options": [
+      "Ibuprofen",
+      "Prostaglandin E1",
+      "Furosemide"
+     ],
+     "answer": 0,
+     "why": "Ibuprofen, indomethacin or paracetamol close the duct; PGE1 keeps it open."
+    }
+   ]
+  }
+ ],
+ "III-36": [
+  {
+   "block": "Def",
+   "explain": "Cardiomyopathy is primary heart muscle disease; dilated is the commonest type in children.",
+   "hook": "DCM: commonest; can't squeeze.",
+   "checks": [
+    {
+     "q": "Commonest type of childhood cardiomyopathy?",
+     "options": [
+      "Hypertrophic",
+      "Dilated",
+      "Restrictive"
+     ],
+     "answer": 1,
+     "why": "Dilated cardiomyopathy is the most common."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "DCM follows myocyte injury (virus, anthracycline, dystrophy); HCM is a dominant sarcomere disorder or transient in infants of diabetic mothers.",
+   "hook": "Doxorubicin dilates; sarcomeres thicken.",
+   "checks": [
+    {
+     "q": "Chemotherapy drug linked to DCM?",
+     "options": [
+      "Vincristine",
+      "Methotrexate",
+      "Doxorubicin"
+     ],
+     "answer": 2,
+     "why": "Anthracyclines (doxorubicin) cause dose-related cardiotoxicity."
+    },
+    {
+     "q": "Inheritance of HCM?",
+     "options": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked recessive"
+     ],
+     "answer": 0,
+     "why": "HCM is usually AD sarcomere gene mutation."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Three failures: DCM can't empty, HCM can't fill and obstructs outflow, RCM can't stretch so atria balloon.",
+   "hook": "Empty, fill, stretch.",
+   "checks": [
+    {
+     "q": "Main haemodynamic problem in DCM?",
+     "options": [
+      "Dynamic LVOT obstruction",
+      "Systolic failure, low EF",
+      "Rigid ventricular walls"
+     ],
+     "answer": 1,
+     "why": "Dilated ventricle can't empty: low EF."
+    },
+    {
+     "q": "Feared complication of HCM?",
+     "options": [
+      "Pericardial effusion",
+      "Endocarditis",
+      "Sudden death"
+     ],
+     "answer": 2,
+     "why": "Dynamic LVOT obstruction and arrhythmia cause sudden death."
+    },
+    {
+     "q": "Characteristic finding in restrictive cardiomyopathy?",
+     "options": [
+      "Huge atria",
+      "Thick septum",
+      "Dilated ventricles"
+     ],
+     "answer": 0,
+     "why": "Stiff ventricles back pressure into very large atria."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "DCM looks like infant heart failure; HCM murmur gets louder when preload falls (Valsalva, standing) because the outflow narrows.",
+   "hook": "Less preload, louder HCM.",
+   "checks": [
+    {
+     "q": "Which is a sign of DCM in an infant?",
+     "options": [
+      "Bounding pulses",
+      "Hepatomegaly",
+      "Hypertension"
+     ],
+     "answer": 1,
+     "why": "DCM: tachypnoea, poor feeding, sweating, hepatomegaly, gallop."
+    },
+    {
+     "q": "HCM murmur with Valsalva?",
+     "options": [
+      "Decreases",
+      "Unchanged",
+      "Increases"
+     ],
+     "answer": 2,
+     "why": "Lower preload shrinks the LV cavity and worsens obstruction."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Echo shows dilation or hypertrophy; because HCM is inherited, relatives must be screened.",
+   "hook": "One case, screen the family.",
+   "checks": [
+    {
+     "q": "Key imaging for cardiomyopathy?",
+     "options": [
+      "Echocardiography",
+      "Abdominal ultrasound",
+      "Barium swallow"
+     ],
+     "answer": 0,
+     "why": "Echo shows low-EF dilated LV or hypertrophy."
+    },
+    {
+     "q": "Who should be screened after a cardiomyopathy diagnosis?",
+     "options": [
+      "School classmates",
+      "First-degree relatives",
+      "Only siblings over 18"
+     ],
+     "answer": 1,
+     "why": "Genetic cardiomyopathies need first-degree relative screening."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "DCM uses heart-failure drugs that prolong survival; HCM avoids anything reducing preload or increasing contractility; RCM goes early to transplant.",
+   "hook": "HCM: slow and full; avoid inotropes.",
+   "checks": [
+    {
+     "q": "Which beta-blocker is used in paediatric DCM?",
+     "options": [
+      "Sotalol",
+      "Esmolol",
+      "Carvedilol"
+     ],
+     "answer": 2,
+     "why": "Carvedilol plus ACE-i/ARB and spironolactone improve survival."
+    },
+    {
+     "q": "What should be avoided in HCM?",
+     "options": [
+      "Inotropes",
+      "Beta-blockers",
+      "Adequate hydration"
+     ],
+     "answer": 0,
+     "why": "Inotropes, vasodilators and excess diuretics worsen LVOT obstruction."
+    },
+    {
+     "q": "Treatment of restrictive cardiomyopathy?",
+     "options": [
+      "Long-term NSAIDs",
+      "Early transplant",
+      "Septal myectomy"
+     ],
+     "answer": 1,
+     "why": "RCM has poor prognosis and early pulmonary hypertension, so early transplant."
+    }
+   ]
+  }
+ ],
+ "III-37": [
+  {
+   "block": "Def",
+   "explain": "Myocarditis inflames heart muscle; pericarditis inflames the sac, sometimes with effusion.",
+   "hook": "Muscle vs sac.",
+   "checks": [
+    {
+     "q": "Pericarditis is inflammation of?",
+     "options": [
+      "Myocardium",
+      "Endocardium",
+      "Pericardium"
+     ],
+     "answer": 2,
+     "why": "Pericarditis affects the pericardium ± effusion."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Viruses dominate both; purulent pericarditis is usually Staph aureus.",
+   "hook": "Myocarditis: think enterovirus.",
+   "checks": [
+    {
+     "q": "Commonest cause of myocarditis in children?",
+     "options": [
+      "Viral infection",
+      "Bacterial infection",
+      "Autoimmune disease"
+     ],
+     "answer": 0,
+     "why": "Enteroviruses, adenovirus and parvovirus B19 are typical."
+    },
+    {
+     "q": "Usual cause of purulent pericarditis?",
+     "options": [
+      "Streptococcus pyogenes",
+      "Staphylococcus aureus",
+      "Escherichia coli"
+     ],
+     "answer": 1,
+     "why": "Purulent pericarditis is classically S. aureus."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Losing myocytes lowers stroke volume, so heart rate rises; in tamponade fluid pressure stops ventricular filling.",
+   "hook": "Tamponade: squeezed shut from outside.",
+   "checks": [
+    {
+     "q": "Compensation for reduced stroke volume in myocarditis?",
+     "options": [
+      "Bradycardia",
+      "Hypertension",
+      "Tachycardia"
+     ],
+     "answer": 2,
+     "why": "Output = SV × HR, so HR rises."
+    },
+    {
+     "q": "Why does stroke volume fall in tamponade?",
+     "options": [
+      "Ventricles cannot fill",
+      "Valves become incompetent",
+      "Myocardium is necrotic"
+     ],
+     "answer": 0,
+     "why": "Pericardial fluid pressure prevents diastolic filling."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Tachycardia out of proportion to fever flags myocarditis; pericardial pain eases leaning forward; tamponade shows Beck triad and pulsus paradoxus.",
+   "hook": "Pulsus paradoxus: >10 mmHg fall on inspiration.",
+   "checks": [
+    {
+     "q": "Clue to myocarditis in a febrile child?",
+     "options": [
+      "Bradycardia with fever",
+      "Tachycardia out of proportion to fever",
+      "Wide pulse pressure"
+     ],
+     "answer": 1,
+     "why": "Disproportionate tachycardia suggests myocardial involvement."
+    },
+    {
+     "q": "Posture relieving pericarditis pain?",
+     "options": [
+      "Lying flat",
+      "Lying on the left side",
+      "Sitting up and leaning forward"
+     ],
+     "answer": 2,
+     "why": "Leaning forward reduces pericardial stretch."
+    },
+    {
+     "q": "Systolic fall defining pulsus paradoxus?",
+     "options": [
+      "Over 10 mmHg on inspiration",
+      "Over 2 mmHg on expiration",
+      "Over 40 mmHg on standing"
+     ],
+     "answer": 0,
+     "why": "Inspiratory fall >10 mmHg in systolic pressure."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Myocarditis shows low voltages and raised troponin; pericarditis gives widespread concave ST elevation with PR depression.",
+   "hook": "Pericarditis ECG: smiley ST, sad PR.",
+   "checks": [
+    {
+     "q": "ECG finding in myocarditis?",
+     "options": [
+      "Delta waves",
+      "Low-voltage QRS",
+      "Long QT only"
+     ],
+     "answer": 1,
+     "why": "Sinus tachycardia and low-voltage QRS are typical."
+    },
+    {
+     "q": "ECG hallmark of pericarditis?",
+     "options": [
+      "Localised convex ST elevation",
+      "Deep Q waves",
+      "Widespread concave ST elevation"
+     ],
+     "answer": 2,
+     "why": "Diffuse concave ST elevation with PR depression."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Myocarditis is supportive with cautious fluids and rest from sport; pericarditis gets NSAID and colchicine; tamponade and pus need drainage.",
+   "hook": "Tamponade: needle it now.",
+   "checks": [
+    {
+     "q": "How long to avoid competitive sport after myocarditis?",
+     "options": [
+      "3-6 months",
+      "1 week",
+      "2 years"
+     ],
+     "answer": 0,
+     "why": "Exercise can trigger arrhythmia; no competitive sport for 3-6 months."
+    },
+    {
+     "q": "Treatment of viral pericarditis?",
+     "options": [
+      "IV antibiotics",
+      "NSAID plus colchicine",
+      "Pericardiectomy"
+     ],
+     "answer": 1,
+     "why": "NSAID + colchicine; tamponade needs pericardiocentesis."
+    },
+    {
+     "q": "Management of purulent pericarditis?",
+     "options": [
+      "Oral NSAIDs alone",
+      "Colchicine alone",
+      "Surgical drainage plus IV antistaphylococcal antibiotics"
+     ],
+     "answer": 2,
+     "why": "Pus must be drained with IV anti-staphylococcal cover."
+    }
+   ]
+  }
+ ],
+ "III-38": [
+  {
+   "block": "Def",
+   "explain": "IE is infection of the endocardium, typically on valves or defects where flow is turbulent.",
+   "hook": "Bugs on valves.",
+   "checks": [
+    {
+     "q": "Usual site of infective endocarditis?",
+     "options": [
+      "A valve or defect",
+      "Pericardial sac",
+      "Coronary arteries"
+     ],
+     "answer": 0,
+     "why": "IE infects the endocardium, usually on valves or defects."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Highest risk is prosthetic material, prosthetic valves and previous IE; lines seed normal neonatal hearts; viridans strep is subacute, S. aureus acute.",
+   "hook": "Viridans = slow, from teeth; aureus = aggressive.",
+   "checks": [
+    {
+     "q": "Which patient has the highest IE risk?",
+     "options": [
+      "Small muscular VSD repaired",
+      "Prosthetic valve",
+      "Innocent murmur"
+     ],
+     "answer": 1,
+     "why": "Prosthetic material/valves and previous IE carry the highest risk."
+    },
+    {
+     "q": "IE risk factor in neonates with normal hearts?",
+     "options": [
+      "Breastfeeding",
+      "Phototherapy",
+      "Central venous catheters"
+     ],
+     "answer": 2,
+     "why": "Central lines seed bacteraemia onto normal endocardium."
+    },
+    {
+     "q": "Organism of subacute IE after dental bacteraemia?",
+     "options": [
+      "Viridans streptococci",
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa"
+     ],
+     "answer": 0,
+     "why": "Viridans streptococci cause subacute IE; S. aureus causes acute IE."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Turbulent jets damage endothelium, platelet-fibrin clumps form and bacteria seed them; fragments embolise and immune complexes cause nephritis and Osler/Roth lesions.",
+   "hook": "Jet → nick → clot → colonise.",
+   "checks": [
+    {
+     "q": "What forms on damaged endothelium before infection?",
+     "options": [
+      "Cholesterol plaque",
+      "Platelet-fibrin vegetation",
+      "Calcium nodule"
+     ],
+     "answer": 1,
+     "why": "A sterile platelet-fibrin vegetation is then seeded by bacteraemia."
+    },
+    {
+     "q": "Immune complexes in IE cause?",
+     "options": [
+      "Janeway lesions",
+      "Splinter haemorrhages from emboli only",
+      "Glomerulonephritis"
+     ],
+     "answer": 2,
+     "why": "Immune complex lesions: GN, Osler nodes, Roth spots."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Suspect IE with prolonged fever and a new murmur; Osler nodes hurt (immune), Janeway lesions don't (embolic).",
+   "hook": "Osler = Ouch; Janeway = painless.",
+   "checks": [
+    {
+     "q": "Classic IE presentation?",
+     "options": [
+      "Prolonged fever with new murmur",
+      "Acute stridor",
+      "Painless jaundice"
+     ],
+     "answer": 0,
+     "why": "FROM JANE: fever, Roth, Osler, murmur, Janeway, anaemia, nail, emboli."
+    },
+    {
+     "q": "Painful finger-pulp nodules in IE are?",
+     "options": [
+      "Janeway lesions",
+      "Osler nodes",
+      "Roth spots"
+     ],
+     "answer": 1,
+     "why": "Osler nodes are painful; Janeway lesions are painless palmar macules."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Diagnosis rests on organisms in blood and a vegetation on echo; take several cultures before antibiotics.",
+   "hook": "Three cultures before one antibiotic.",
+   "checks": [
+    {
+     "q": "Basis of IE diagnosis?",
+     "options": [
+      "CRP and ECG",
+      "Chest X-ray and urine",
+      "Haemoculture and echocardiography"
+     ],
+     "answer": 2,
+     "why": "University key: haemoculture and echocardiography."
+    },
+    {
+     "q": "Blood cultures before antibiotics in suspected IE?",
+     "options": [
+      "At least three",
+      "One",
+      "Ten"
+     ],
+     "answer": 0,
+     "why": "At least three sets from separate venepunctures."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Long IV bactericidal therapy is needed to sterilise avascular vegetations; prophylaxis is a single amoxicillin dose before dental work in high-risk children.",
+   "hook": "Prophylaxis: one dose, an hour before the dentist.",
+   "checks": [
+    {
+     "q": "Duration of IV antibiotics for IE?",
+     "options": [
+      "5-7 days",
+      "4-6 weeks",
+      "2 weeks oral"
+     ],
+     "answer": 1,
+     "why": "Vegetations are poorly penetrated, so 4-6 weeks IV bactericidal therapy."
+    },
+    {
+     "q": "Regimen for IE with prosthetic material?",
+     "options": [
+      "Oral amoxicillin alone",
+      "Ceftriaxone alone",
+      "Vancomycin plus gentamicin"
+     ],
+     "answer": 2,
+     "why": "Prosthetic material: vancomycin + gentamicin; surgery for HF or emboli."
+    },
+    {
+     "q": "IE prophylaxis before dental work in high-risk children?",
+     "options": [
+      "Single oral amoxicillin dose",
+      "One week of amoxicillin",
+      "IV vancomycin for 3 days"
+     ],
+     "answer": 0,
+     "why": "A single oral dose 30-60 minutes before the procedure."
+    }
+   ]
+  }
+ ],
+ "III-39": [
+  {
+   "block": "Def",
+   "explain": "Malabsorption splits into maldigestion (no enzymes) and mucosal disease; coeliac is a permanent gluten-triggered immune enteropathy.",
+   "hook": "Enzymes missing vs wall damaged.",
+   "checks": [
+    {
+     "q": "Pancreatic insufficiency causes which type of malabsorption?",
+     "options": [
+      "Mucosal malabsorption",
+      "Maldigestion",
+      "Lymphatic obstruction"
+     ],
+     "answer": 1,
+     "why": "Lack of enzymes is maldigestion; mucosal disease is malabsorption."
+    },
+    {
+     "q": "What triggers coeliac disease?",
+     "options": [
+      "Lactose",
+      "Fructose",
+      "Gluten"
+     ],
+     "answer": 2,
+     "why": "Coeliac is a permanent immune enteropathy triggered by gluten."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "CF is the main pancreatic cause; mucosal causes include coeliac, CMPA, Giardia, Crohn; coeliac requires HLA-DQ2/DQ8 and clusters with autoimmune and chromosomal conditions.",
+   "hook": "No DQ2/DQ8, no coeliac.",
+   "checks": [
+    {
+     "q": "Commonest cause of pancreatic insufficiency in children?",
+     "options": [
+      "Cystic fibrosis",
+      "Shwachman-Diamond syndrome",
+      "Chronic pancreatitis"
+     ],
+     "answer": 0,
+     "why": "CF is the commonest paediatric cause."
+    },
+    {
+     "q": "Which parasite causes mucosal malabsorption?",
+     "options": [
+      "Enterobius",
+      "Giardia",
+      "Toxocara"
+     ],
+     "answer": 1,
+     "why": "Giardia damages the small bowel mucosa."
+    },
+    {
+     "q": "HLA types required for coeliac disease?",
+     "options": [
+      "B27",
+      "DR3/DR4 only",
+      "DQ2/DQ8"
+     ],
+     "answer": 2,
+     "why": "Coeliac essentially requires HLA-DQ2 or DQ8."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Gliadin triggers T-cell damage flattening villi with deep crypts and lymphocytes; lost surface area means fat malabsorption carries ADEK out.",
+   "hook": "Flat villi, deep crypts, many lymphocytes.",
+   "checks": [
+    {
+     "q": "Classic coeliac histology?",
+     "options": [
+      "Villous atrophy with crypt hyperplasia",
+      "Crypt abscesses with granulomas",
+      "Normal villi with eosinophils"
+     ],
+     "answer": 0,
+     "why": "Villous atrophy, crypt hyperplasia and intraepithelial lymphocytosis."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Classic infants have diarrhoea, distension and wasting after gluten is introduced; older children often show extraintestinal clues.",
+   "hook": "Big belly, flat bottom.",
+   "checks": [
+    {
+     "q": "Typical age of classical coeliac presentation?",
+     "options": [
+      "Neonatal period",
+      "6 months-2 years",
+      "Adolescence only"
+     ],
+     "answer": 1,
+     "why": "Classical coeliac follows gluten introduction at 6 m-2 y."
+    },
+    {
+     "q": "Skin manifestation of coeliac disease?",
+     "options": [
+      "Erythema nodosum",
+      "Pyoderma gangrenosum",
+      "Dermatitis herpetiformis"
+     ],
+     "answer": 2,
+     "why": "University key includes dermatitis herpetiformis (Duhring disease)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Test anti-tTG IgA with total IgA while eating gluten; IgA must be at least 0.2 g/l; biopsy can be skipped if the university's three criteria are met.",
+   "hook": "No gluten, no antibodies.",
+   "checks": [
+    {
+     "q": "First-line coeliac test?",
+     "options": [
+      "Anti-tTG IgA plus total IgA",
+      "HLA typing alone",
+      "Duodenal biopsy"
+     ],
+     "answer": 0,
+     "why": "Serology on a gluten-containing diet with total IgA."
+    },
+    {
+     "q": "Minimum IgA to read tTG/EMA reliably?",
+     "options": [
+      "0.02 g/l",
+      "0.2 g/l",
+      "2.0 g/l"
+     ],
+     "answer": 1,
+     "why": "University key: 0.2 g/l; below this use IgG-based tests."
+    },
+    {
+     "q": "Which is required to avoid biopsy (university criteria)?",
+     "options": [
+      "Low faecal elastase",
+      "Positive stool culture",
+      "Positive HLA-DQ2/DQ8"
+     ],
+     "answer": 2,
+     "why": "Symptoms + tTG AND EMA + HLA-DQ2/DQ8 (ESPGHAN 2012, as the university uses)."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Coeliac needs lifelong strict gluten avoidance, with antibodies falling to confirm adherence; CMPA uses hydrolysed protein formulas.",
+   "hook": "Antibodies tell you if they cheat.",
+   "checks": [
+    {
+     "q": "How is coeliac adherence monitored?",
+     "options": [
+      "Antibody levels",
+      "Repeat biopsy yearly",
+      "Stool elastase"
+     ],
+     "answer": 0,
+     "why": "Falling tTG antibodies reflect gluten-free adherence."
+    },
+    {
+     "q": "Formula for severe CMPA?",
+     "options": [
+      "Goat's milk formula",
+      "Amino-acid formula",
+      "Lactose-free cow's milk"
+     ],
+     "answer": 1,
+     "why": "Extensively hydrolysed formula first; amino-acid formula if severe."
+    }
+   ]
+  }
+ ],
+ "III-40": [
+  {
+   "block": "Def",
+   "explain": "The mouth's problems are mostly infections; oesophageal disease includes reflux, EoE, achalasia, TEF and foreign bodies.",
+   "hook": "Mouth infects; oesophagus obstructs.",
+   "checks": [
+    {
+     "q": "Most mouth diseases in children are?",
+     "options": [
+      "Tumours",
+      "Congenital defects",
+      "Infections"
+     ],
+     "answer": 2,
+     "why": "Oral cavity disease in children is mostly infectious."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Each oral infection has its bug: HSV-1, coxsackie A, Candida; TEF is part of VACTERL, usually atresia with distal fistula.",
+   "hook": "Herpangina = coxsackie at the back.",
+   "checks": [
+    {
+     "q": "Cause of herpangina?",
+     "options": [
+      "Coxsackie A virus",
+      "HSV-1",
+      "Candida albicans"
+     ],
+     "answer": 0,
+     "why": "Herpangina is coxsackie A; gingivostomatitis is HSV-1."
+    },
+    {
+     "q": "Commonest TEF type?",
+     "options": [
+      "Isolated H-type fistula",
+      "Atresia with distal fistula",
+      "Pure atresia without fistula"
+     ],
+     "answer": 1,
+     "why": "Oesophageal atresia with distal TEF accounts for ~85%."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Allergic eosinophilic inflammation scars the oesophagus causing food impaction; button batteries generate current and burn through tissue fast.",
+   "hook": "Battery burns in 2 hours.",
+   "checks": [
+    {
+     "q": "Typical EoE complication?",
+     "options": [
+      "Varices",
+      "Barrett carcinoma",
+      "Food bolus impaction"
+     ],
+     "answer": 2,
+     "why": "Rings and strictures cause food impaction."
+    },
+    {
+     "q": "How fast can a button battery burn the oesophagus?",
+     "options": [
+      "2 hours",
+      "2 days",
+      "2 weeks"
+     ],
+     "answer": 0,
+     "why": "Battery current causes tissue necrosis within about 2 hours."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Gingivostomatitis involves front gums and mouth; herpangina only the soft palate; reflux usually resolves by toddlerhood; TEF chokes with feeds.",
+   "hook": "Front = herpes; back = herpangina.",
+   "checks": [
+    {
+     "q": "Where are lesions in herpangina?",
+     "options": [
+      "Gums and lips",
+      "Soft palate only",
+      "Tongue tip only"
+     ],
+     "answer": 1,
+     "why": "Herpangina is posterior; HSV gingivostomatitis is anterior with swollen gums."
+    },
+    {
+     "q": "Age by which physiological reflux resolves?",
+     "options": [
+      "3-4 months",
+      "5-6 years",
+      "12-18 months"
+     ],
+     "answer": 2,
+     "why": "Physiological infant reflux resolves by 12-18 months."
+    },
+    {
+     "q": "Typical symptom of achalasia?",
+     "options": [
+      "Dysphagia with regurgitation",
+      "Choking at first feed",
+      "Haematemesis"
+     ],
+     "answer": 0,
+     "why": "Achalasia causes dysphagia and regurgitation; TEF chokes newborns."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "EoE is defined histologically; achalasia by barium and manometry; TEF by an NG tube that coils in the pouch.",
+   "hook": "Coiled NG = atresia.",
+   "checks": [
+    {
+     "q": "EoE biopsy threshold?",
+     "options": [
+      "≥5 eosinophils per HPF",
+      "≥15 eosinophils per HPF",
+      "≥50 eosinophils per HPF"
+     ],
+     "answer": 1,
+     "why": "At least 15 eosinophils per high-power field."
+    },
+    {
+     "q": "Barium appearance of achalasia?",
+     "options": [
+      "Corkscrew",
+      "Apple core",
+      "Bird's beak"
+     ],
+     "answer": 2,
+     "why": "Bird's beak taper with absent peristalsis on manometry."
+    },
+    {
+     "q": "Finding suggesting pure oesophageal atresia?",
+     "options": [
+      "Gasless abdomen",
+      "Double bubble",
+      "Free air under diaphragm"
+     ],
+     "answer": 0,
+     "why": "No fistula means no air reaches the gut."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Antivirals work early in HSV; surgery treats severe reflux and achalasia; TEF needs repair and screening for VACTERL; swallowed objects lodged in the oesophagus need urgent endoscopy.",
+   "hook": "Myotomy for achalasia; wrap for reflux.",
+   "checks": [
+    {
+     "q": "Time window for aciclovir in gingivostomatitis?",
+     "options": [
+      "Within 7 days",
+      "Within 72 h",
+      "Within 2 weeks"
+     ],
+     "answer": 1,
+     "why": "Aciclovir helps if started within 72 hours."
+    },
+    {
+     "q": "Surgery for achalasia?",
+     "options": [
+      "Nissen fundoplication",
+      "Nuss procedure",
+      "Heller myotomy"
+     ],
+     "answer": 2,
+     "why": "Heller myotomy divides the LOS; fundoplication treats reflux."
+    },
+    {
+     "q": "Swallowed coin in the oesophagus: management?",
+     "options": [
+      "Emergency endoscopy",
+      "Wait for spontaneous passage",
+      "Laxatives"
+     ],
+     "answer": 0,
+     "why": "Per notes: emergency endoscopy within 2 hours (strictly urgent mainly for batteries)."
+    }
+   ]
+  }
+ ]
+}

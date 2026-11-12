@@ -1,0 +1,2132 @@
+{
+ "I-16": {
+  "summary": "Confirm true red cells on microscopy first, then make the one decision that drives everything: glomerular (cola urine, casts, protein, high BP → complement and renal work-up) or non-glomerular (red urine, clots → UTI, stones, trauma, Wilms).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which finding on urine microscopy proves that haematuria originates in the glomerulus?",
+    "options": [
+     "Red cell casts",
+     "Terminal haematuria with clots",
+     "Calcium oxalate crystals",
+     "White cells with nitrites"
+    ],
+    "answer": 0,
+    "explain": "Red cell casts form when red cells leak through the glomerular basement membrane and are moulded in the tubules, so they localise bleeding to the nephron. Clots and terminal haematuria point to the bladder; crystals suggest stones; pyuria with nitrites suggests UTI.",
+    "note": "Red cell casts prove haematuria is glomerular in origin."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An 8-year-old boy develops cola-coloured urine 1 day after the start of a sore throat and coryza. BP is 104/62 mmHg, there is no oedema, and serum C3 is normal. What is the most likely diagnosis?",
+    "options": [
+     "Post-streptococcal glomerulonephritis",
+     "Alport syndrome",
+     "IgA nephropathy",
+     "Membranoproliferative GN"
+    ],
+    "answer": 2,
+    "explain": "Synpharyngitic haematuria 1-2 days after a URTI with normal complement is IgA nephropathy. Post-streptococcal GN follows after a 1-3 week latent period with low C3; MPGN also lowers C3; Alport has deafness and a family history.",
+    "note": "IgA 1-2 days after URTI, normal complement; post-strep 1-3 weeks, low C3."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "A 5-year-old girl has fever, dysuria, frequency and pink urine. Dipstick shows blood, leucocytes and nitrites. What is the most likely cause of her haematuria?",
+    "options": [
+     "IgA nephropathy",
+     "Urinary tract infection",
+     "Hypercalciuria with stones",
+     "Wilms tumour"
+    ],
+    "answer": 1,
+    "explain": "UTI is the commonest cause of haematuria overall and fits the dysuria, fever, leucocytes and nitrites. Stones cause colicky pain, Wilms usually presents as a painless mass, and IgA gives cola urine after a URTI without pyuria.",
+    "note": "Non-glomerular: UTI (commonest overall), stones, trauma, Wilms, coagulopathy, sickle cell."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old boy has persistent microscopic haematuria. He recently started using bilateral hearing aids, and his maternal uncle is on dialysis. What is the most likely diagnosis?",
+    "options": [
+     "Thin basement membrane disease",
+     "IgA nephropathy",
+     "Autosomal dominant PKD",
+     "Alport syndrome"
+    ],
+    "answer": 3,
+    "explain": "Haematuria with sensorineural deafness and a family history of renal failure (X-linked, through the mother's side) is Alport syndrome. Thin basement membrane disease gives familial haematuria but no deafness or renal failure; ADPKD does not cause deafness.",
+    "note": "Alport: sensorineural deafness and family history of renal failure."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 12-year-old boy notices blood only at the start of his urinary stream, and the rest of the stream is clear. Where is the bleeding most likely coming from?",
+    "options": [
+     "Bladder neck",
+     "Glomerulus",
+     "Renal pelvis",
+     "Urethra"
+    ],
+    "answer": 3,
+    "explain": "Initial haematuria points to the urethra; terminal haematuria to the bladder neck or prostate. Bleeding from the glomerulus or upper tract mixes evenly, so the whole stream is discoloured.",
+    "note": "Initial haematuria = urethral; terminal = bladder or prostate."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 6-year-old boy has calf pain and red-brown urine 3 days after an influenza-like illness. Dipstick is strongly positive for blood, but microscopy shows no red cells. What is the most likely explanation?",
+    "options": [
+     "Pigment from beetroot ingestion",
+     "Myoglobinuria from viral myositis",
+     "Early post-streptococcal nephritis",
+     "Rifampicin discolouration of urine"
+    ],
+    "answer": 1,
+    "explain": "A positive dipstick without red cells means haem pigment: myoglobin (here, influenza myositis) or haemoglobin. Beetroot and rifampicin colour the urine red but leave the dipstick negative, and nephritis would show red cells and casts.",
+    "note": "Dipstick positive with no red cells → myoglobinuria or haemoglobinuria; exclude beetroot, rifampicin."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old girl has painless macroscopic haematuria and a smooth flank mass. Ultrasound shows a solid renal tumour. Which site must be imaged at staging because it is the commonest site of metastasis?",
+    "options": [
+     "Lungs",
+     "Bone marrow",
+     "Brain",
+     "Skeleton"
+    ],
+    "answer": 0,
+    "explain": "Wilms tumour, the likely diagnosis, spreads mainly to the lungs, so a chest CT is part of staging. Bone and marrow metastases are typical of neuroblastoma, and the brain is rarely involved.",
+    "note": "Non-glomerular → target cause: UTI, stones, trauma, tumour (Wilms spreads to lungs)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old has cola-coloured urine. Microscopy shows dysmorphic red cells and red cell casts. His GP has booked a bladder ultrasound and cystoscopy. What is the most appropriate next step?",
+    "options": [
+     "Proceed with cystoscopy to exclude a bladder tumour",
+     "Start trimethoprim pending urine culture",
+     "Check BP, urine protein, creatinine and C3/C4",
+     "Reassure and repeat urinalysis in a year"
+    ],
+    "answer": 2,
+    "explain": "Red cell casts mean glomerular bleeding, so the bladder is not the problem: assess BP, proteinuria, renal function and complement. Cystoscopy looks for lower-tract lesions, antibiotics treat a UTI he does not have, and reassurance ignores possible nephritis.",
+    "note": "Red cell casts → glomerular work-up; stop looking at the bladder."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish glomerular from non-glomerular haematuria at the bedside?",
+    "back": "Glomerular: brown/cola urine, no clots, red cell casts, dysmorphic RBCs, proteinuria, hypertension • Non-glomerular: bright red, clots, normal RBCs; initial = urethral, terminal = bladder/prostate."
+   },
+   {
+    "type": "card",
+    "front": "List the glomerular and non-glomerular causes of haematuria in children.",
+    "back": "Glomerular: IgA, post-strep GN, HSP, Alport, thin BM, MPGN/lupus, HUS • Non-glomerular: UTI (commonest), stones, trauma, Wilms, coagulopathy, sickle cell."
+   },
+   {
+    "type": "card",
+    "front": "Contrast IgA nephropathy and post-streptococcal GN.",
+    "back": "IgA: haematuria 1-2 days after URTI, normal complement, recurrent • Post-strep: 1-3 weeks after throat/skin infection, low C3, oedema, hypertension; antibiotics do not prevent it."
+   }
+  ]
+ },
+ "I-17": {
+  "summary": "Enuresis is only diagnosed from age 5; dipstick everyone and examine the spine to exclude organic and secondary causes, then manage behaviourally, using the alarm for durable cure and desmopressin (with evening fluid restriction) for quick control.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which set of criteria defines enuresis in a child?",
+    "options": [
+     "Age ≥ 3 years, ≥ 1 episode/week for ≥ 1 month",
+     "Age ≥ 7 years, nightly wet episodes for ≥ 6 months",
+     "Age ≥ 4 years, ≥ 2 episodes/week for ≥ 6 weeks",
+     "Age ≥ 5 years, ≥ 2 episodes/week for ≥ 3 months"
+    ],
+    "answer": 3,
+    "explain": "Enuresis requires a developmental age of at least 5 years and involuntary voiding at least twice weekly for 3 months. Wetting below age 5 is developmentally normal; it is primary if never dry and secondary after ≥ 6 months of dryness.",
+    "note": "Involuntary voiding at age ≥ 5: at least 2 times/week for ≥ 3 months; primary vs secondary."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Both parents of a 6-year-old with nocturnal enuresis wet the bed until late childhood. What is the approximate risk of enuresis in their child?",
+    "options": [
+     "About 15%",
+     "About 40%",
+     "About 95%",
+     "About 70%"
+    ],
+    "answer": 3,
+    "explain": "Family history is the greatest risk factor: about 70% if both parents were affected, and roughly 40% with one affected parent.",
+    "note": "Greatest risk factor: family history; both parents → ~70%."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old girl, toilet-trained at 2½ years, voids normally at regular intervals but her underwear is constantly damp day and night. What is the most likely diagnosis?",
+    "options": [
+     "Detrusor overactivity",
+     "Ectopic ureter",
+     "Functional constipation",
+     "Central diabetes insipidus"
+    ],
+    "answer": 1,
+    "explain": "Continuous dribbling between normal voids in a girl means a ureter opening below the sphincter (urethra or vagina). Detrusor overactivity and constipation give urgency and intermittent wetting, and DI causes large-volume voids rather than constant dampness.",
+    "note": "Continuous dampness in a toilet-trained girl → ectopic ureter."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old who had been dry at night for a year starts bedwetting again. He is drinking more and has lost 2 kg. What is the most appropriate first investigation?",
+    "options": [
+     "Urine dipstick for glucose",
+     "Renal tract ultrasound",
+     "Water deprivation test",
+     "Referral to child psychology"
+    ],
+    "answer": 0,
+    "explain": "Secondary enuresis with polydipsia and weight loss means diabetes mellitus until proven otherwise; a urine dipstick (glucose, infection, specific gravity) is the first test in every child. Water deprivation testing comes only after DM is excluded.",
+    "note": "First rule out organic causes: dipstick everyone for infection, glucose, specific gravity."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An 8-year-old with day and night wetting opens his bowels every 4-5 days, and a faecal mass is palpable in the left iliac fossa. By what mechanism does this contribute to his wetting?",
+    "options": [
+     "Faecal impaction reflexly suppresses the normal nocturnal rise in ADH",
+     "Stool retention causes tethering of the spinal cord",
+     "Rectal loading compresses the bladder, causing detrusor overactivity",
+     "Constipation produces an osmotic diuresis at night"
+    ],
+    "answer": 2,
+    "explain": "A loaded rectum presses on the bladder and triggers detrusor overactivity and reduced capacity, so treating constipation often cures the wetting. Low nocturnal ADH is a separate mechanism of primary enuresis.",
+    "note": "Constipation compresses the bladder, causing detrusor overactivity."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 9-year-old with day and night wetting has a hairy patch over the sacrum, a mild gait abnormality and reduced ankle reflexes. What is the most appropriate investigation?",
+    "options": [
+     "MRI of the lumbosacral spine",
+     "Micturating cystourethrogram",
+     "Water deprivation test",
+     "Plain abdominal radiograph"
+    ],
+    "answer": 0,
+    "explain": "A sacral hairy patch with lower-limb neurological signs suggests spinal dysraphism (for example a tethered cord), which MRI demonstrates. An MCUG looks for reflux and an abdominal film for constipation; neither shows the cord.",
+    "note": "Sacral dimple/hairy patch → spinal dysraphism; polyuria, polydipsia, weight loss → DM."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A motivated 8-year-old has primary monosymptomatic enuresis. Dipstick and examination are normal, and 3 months of fluid management and timed voiding have not helped. The family want the option with the best long-term cure and lowest relapse rate. Which is most appropriate?",
+    "options": [
+     "Nightly oral desmopressin",
+     "Imipramine at bedtime",
+     "Enuresis alarm",
+     "Oxybutynin twice daily"
+    ],
+    "answer": 2,
+    "explain": "After behavioural measures fail, the alarm gives the most durable cure. Desmopressin works quickly (useful for sleepovers) but relapse after stopping is common; imipramine is rarely used because of cardiotoxicity, and oxybutynin is for daytime overactive bladder.",
+    "note": "Desmopressin → restrict evening fluids (hyponatraemia); the alarm is the best long-term cure."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old takes desmopressin before a sleepover, then drinks several large glasses of cola during the evening. Next morning she has a headache, vomits and has a generalised seizure. What is the most likely cause?",
+    "options": [
+     "Hypoglycaemia from fasting overnight",
+     "Hyponatraemia from water retention",
+     "Hypernatraemia from free water loss",
+     "Hypocalcaemia from cola phosphate"
+    ],
+    "answer": 1,
+    "explain": "Desmopressin is an ADH analogue, so a large evening fluid load is retained, causing dilutional hyponatraemia and seizures. That is why evening fluids must be restricted to about 200 ml from 1 hour before dosing until morning.",
+    "note": "Desmopressin → restrict evening fluids (hyponatraemia); the alarm is the best long-term cure."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the secondary (organic) causes of enuresis.",
+    "back": "UTI • diabetes mellitus • diabetes insipidus • CKD • constipation • stress/abuse • neurological (spinal dysraphism) • structural (ectopic ureter, posterior urethral valves)."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management ladder for nocturnal enuresis.",
+    "back": "Exclude organic cause (dipstick, spine exam) • lifestyle/behavioural: daytime fluids, evening restriction, timed voiding, treat constipation • alarm (best long-term cure) ± desmopressin (restrict evening fluids) • imipramine rarely."
+   },
+   {
+    "type": "card",
+    "front": "What three mechanisms underlie primary nocturnal enuresis?",
+    "back": "Failure to wake to a full bladder • nocturnal polyuria from low night-time ADH • small functional bladder capacity/detrusor overactivity."
+   }
+  ]
+ },
+ "I-18": {
+  "summary": "Polyuria has three causes: osmotic (diabetes mellitus), diabetes insipidus and primary polydipsia. Dipstick for glucose first, then paired serum and urine osmolality, then a water deprivation test with desmopressin to separate central from nephrogenic DI.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Above which daily urine output is true polyuria defined in a child?",
+    "options": [
+     "2 l/m²/day",
+     "0.5 l/m²/day",
+     "1 l/m²/day",
+     "4 l/m²/day"
+    ],
+    "answer": 0,
+    "explain": "True polyuria is urine output above 2 l/m²/day, usually with polydipsia. Frequent small voids (frequency) without a high total volume is not polyuria.",
+    "note": "True polyuria: >2 l/m²/day, with polydipsia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 9-year-old has 3 weeks of polyuria and thirst and has lost weight despite a good appetite. Dipstick shows glucose 3+ and ketones 2+. What is the most likely diagnosis?",
+    "options": [
+     "Central diabetes insipidus",
+     "Primary polydipsia",
+     "Type 1 diabetes mellitus",
+     "Nephrogenic diabetes insipidus"
+    ],
+    "answer": 2,
+    "explain": "Glycosuria with ketones and weight loss despite eating well means insulin deficiency with an osmotic diuresis. DI and primary polydipsia cause polyuria with dilute urine and no glycosuria.",
+    "note": "Glycosuria, weight loss despite appetite, ketones → DM."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 5-year-old drinks 3 litres of water a day and wakes at night to drink. Dipstick is negative for glucose. Serum sodium is 135 mmol/l, serum osmolality 276 mOsm/kg, and urine osmolality is 90 mOsm/kg. What is the most likely diagnosis?",
+    "options": [
+     "Primary polydipsia",
+     "Central diabetes insipidus",
+     "Nephrogenic diabetes insipidus",
+     "Osmotic diuresis from diabetes"
+    ],
+    "answer": 0,
+    "explain": "Dilute urine with a low-normal serum osmolality means the child is drinking the water off, so ADH is appropriately suppressed. In DI the primary loss of water raises serum osmolality (often > 295) while urine stays dilute.",
+    "note": "Primary polydipsia → low-normal serum osmolality."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old with suspected diabetes insipidus is having a supervised water deprivation test. Her urine remains dilute. At what point should the test be stopped for safety?",
+    "options": [
+     "When 1% of body weight has been lost",
+     "When 8-10% of body weight has been lost",
+     "When 3-5% of body weight has been lost",
+     "Only after a full 24 hours without fluid"
+    ],
+    "answer": 2,
+    "explain": "The test stops once 3-5% of body weight is lost (or serum osmolality/sodium rise significantly), because further deprivation in true DI risks hypernatraemic dehydration. Desmopressin is then given to separate central from nephrogenic DI.",
+    "note": "Water deprivation test: stop at 3-5% body-weight loss."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "During a water deprivation test a 10-year-old's urine osmolality stays below 200 mOsm/kg while serum osmolality rises to 302. After desmopressin, urine osmolality rises to 720 mOsm/kg. What is the most appropriate next investigation?",
+    "options": [
+     "Genetic testing for AVPR2 variants",
+     "MRI of the hypothalamic-pituitary axis",
+     "Renal ultrasound and serum calcium",
+     "Repeat the deprivation test after 48 hours of free fluids"
+    ],
+    "answer": 1,
+    "explain": "Urine that concentrates after desmopressin means the kidney responds and ADH is missing: central DI, which needs MRI to look for craniopharyngioma, germinoma or LCH. AVPR2 testing and calcium/renal imaging apply to nephrogenic DI, where desmopressin has no effect.",
+    "note": "Concentrates after desmopressin → central DI → MRI of the hypothalamic-pituitary axis."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old has new polyuria with confirmed central diabetes insipidus, a scaly seborrhoeic-like scalp rash, and punched-out lytic skull lesions on X-ray. What is the most likely underlying cause?",
+    "options": [
+     "Craniopharyngioma",
+     "Intracranial germinoma",
+     "Hypercalcaemic nephrogenic DI",
+     "Langerhans cell histiocytosis"
+    ],
+    "answer": 3,
+    "explain": "Central DI with lytic skull lesions and a seborrhoeic rash is Langerhans cell histiocytosis infiltrating the pituitary stalk. Craniopharyngioma and germinoma also cause central DI but not rash or lytic bone lesions; hypercalcaemia gives nephrogenic, not central, DI.",
+    "note": "Central DI: craniopharyngioma, germinoma, Langerhans cell histiocytosis, trauma."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 2-year-old boy has X-linked nephrogenic DI (AVPR2 mutation). Despite free access to water and a low-solute diet he still passes very large volumes. Which drug paradoxically reduces his urine output?",
+    "options": [
+     "Desmopressin",
+     "Furosemide",
+     "Spironolactone",
+     "Hydrochlorothiazide"
+    ],
+    "answer": 3,
+    "explain": "Thiazides cause mild volume contraction, increasing proximal sodium and water reabsorption so less water reaches the collecting duct; indometacin can be added. Desmopressin does not work because the V2 receptor is defective, and loop diuretics worsen polyuria.",
+    "note": "Nephrogenic: free water, low-solute diet, thiazides, sometimes indometacin (indomethacin)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "Two days after craniopharyngioma resection, a 9-year-old has polyuria and is started on desmopressin. He then becomes drowsy and hypotensive with a capillary glucose of 2.6 mmol/l. What is the most important next step?",
+    "options": [
+     "Double the desmopressin dose",
+     "Give IV hydrocortisone for adrenal insufficiency",
+     "Start oral levothyroxine for central hypothyroidism",
+     "Give 3% hypertonic saline bolus"
+    ],
+    "answer": 1,
+    "explain": "Pituitary surgery often causes ACTH deficiency as well as DI, and hypotension with hypoglycaemia means cortisol must be replaced urgently. Starting thyroxine before cortisol can precipitate adrenal crisis, and more desmopressin or hypertonic saline does not treat the cause.",
+    "note": "Central DI: desmopressin + assess other pituitary hormones (cortisol)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the three causes of true polyuria, and how do you tell them apart?",
+    "back": "Osmotic diuresis (DM): glycosuria, ketones • DI: high serum osmolality, dilute urine • Primary polydipsia: low-normal serum osmolality, dilute urine • Then water deprivation + desmopressin."
+   },
+   {
+    "type": "card",
+    "front": "How do you interpret a water deprivation test followed by desmopressin?",
+    "back": "Concentrates with deprivation → primary polydipsia • Dilute, concentrates after desmopressin → central DI (MRI pituitary) • Dilute despite desmopressin → nephrogenic DI. Stop at 3-5% weight loss."
+   },
+   {
+    "type": "card",
+    "front": "List the causes and treatment of central versus nephrogenic DI.",
+    "back": "Central: craniopharyngioma, germinoma, LCH, trauma → desmopressin + check cortisol • Nephrogenic: AVPR2, low K, high Ca, lithium → free water, low-solute diet, thiazides ± indometacin."
+   }
+  ]
+ },
+ "I-19": {
+  "summary": "Hypertension in a pre-adolescent child is secondary until proven otherwise, most often renal. Confirm with the right cuff on 3 occasions and check all four limbs. In phaeochromocytoma always give alpha-blockade before beta-blockade.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "How is hypertension defined in a child?",
+    "options": [
+     "BP ≥ 90th centile for age and sex on 2 occasions",
+     "BP ≥ 99th centile for age on a single reading",
+     "BP ≥ 95th centile for age, sex and height on 3 occasions",
+     "BP ≥ 140/90 mmHg at any age, confirmed on 3 separate occasions"
+    ],
+    "answer": 2,
+    "explain": "Paediatric hypertension is a systolic and/or diastolic BP ≥ 95th centile for age, sex and height, confirmed on 3 separate occasions. The 90th-95th centile is 'elevated BP'; fixed adult cut-offs apply only from adolescence (≥ 13 years in the AAP guideline).",
+    "note": "BP ≥ 95th centile for age, sex, height, confirmed on 3 occasions."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of sustained hypertension in a child before adolescence?",
+    "options": [
+     "Primary (essential) hypertension",
+     "Renal parenchymal disease",
+     "Coarctation of the aorta",
+     "Phaeochromocytoma"
+    ],
+    "answer": 1,
+    "explain": "Before adolescence most hypertension is secondary, about 70-80% renal (scarring, glomerulonephritis, PKD), followed by renovascular disease, coarctation, endocrine causes and drugs. Essential hypertension predominates only in obese adolescents.",
+    "note": "Before adolescence most often kidney disease (~70-80%), then renovascular, coarctation, endocrine, drugs."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An obese 12-year-old has a BP of 142/90 mmHg recorded with a standard child cuff whose bladder covers about 60% of his arm circumference. What is the most appropriate next step?",
+    "options": [
+     "Start amlodipine and recheck BP in 2 weeks",
+     "Send plasma metanephrines to screen for phaeochromocytoma",
+     "Arrange renal Doppler ultrasound for stenosis",
+     "Repeat with a cuff whose bladder covers ≥ 80% of the arm"
+    ],
+    "answer": 3,
+    "explain": "An undersized cuff overestimates BP, so the reading must be repeated with a bladder covering at least 80% of the arm circumference (width about 40%) before any work-up or treatment.",
+    "note": "Cuff bladder covers 80% of arm; too small raises reading; BP in all four limbs."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 8-year-old has headaches. Right arm BP is 150/95 mmHg, the femoral pulses are weak and delayed, and there is an interscapular systolic murmur. What is the most likely diagnosis?",
+    "options": [
+     "Renal artery stenosis",
+     "Phaeochromocytoma",
+     "Autosomal recessive PKD",
+     "Coarctation of the aorta"
+    ],
+    "answer": 3,
+    "explain": "Upper-limb hypertension with weak, delayed femorals (radio-femoral delay) is coarctation, which is why BP is measured in all four limbs. Renal artery stenosis and phaeochromocytoma raise BP equally in arms and legs.",
+    "note": "Weak femorals → coarctation; hypertension + bradycardia = Cushing triad."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An 11-year-old has episodes of pounding headache, sweating and palpitations, with BP 175/110 mmHg during attacks. Fasting glucose is 7.4 mmol/l. What is the most appropriate first diagnostic test?",
+    "options": [
+     "CT of the adrenal glands",
+     "Plasma free or urinary metanephrines",
+     "I-123 MIBG scintigraphy",
+     "Plasma renin activity and aldosterone ratio"
+    ],
+    "answer": 1,
+    "explain": "Episodic headache, sweating and palpitations with hyperglycaemia suggest phaeochromocytoma; prove catecholamine excess biochemically (metanephrines) before localising with CT/MRI, then MIBG. Imaging first risks finding incidentalomas.",
+    "note": "Pheo: metanephrines → adrenal CT/MRI → I-123 MIBG scan."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old with biochemically confirmed phaeochromocytoma is tachycardic at 135/min. Which preoperative drug sequence is correct?",
+    "options": [
+     "Phenoxybenzamine, then a beta-blocker, then surgery",
+     "Propranolol, then phenoxybenzamine, then surgery",
+     "Labetalol alone, followed by immediate adrenalectomy",
+     "Immediate adrenalectomy without premedication"
+    ],
+    "answer": 0,
+    "explain": "Alpha-blockade must come first; giving a beta-blocker first removes beta-2 vasodilation and leaves unopposed alpha vasoconstriction, precipitating a hypertensive crisis. Labetalol is mainly a beta-blocker and is unsafe as sole initial therapy.",
+    "note": "Pheo: alpha-blockade first (phenoxybenzamine), then beta-blockade, then surgical excision."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A tall 14-year-old with a marfanoid habitus, kyphoscoliosis and nodular neuromas on the lips and tongue is found to have a phaeochromocytoma. Which other tumour must be screened for urgently?",
+    "options": [
+     "Parathyroid adenoma",
+     "Pituitary adenoma",
+     "Medullary thyroid carcinoma",
+     "Pancreatic gastrinoma"
+    ],
+    "answer": 2,
+    "explain": "Mucosal neuromas with a marfanoid habitus define MEN 2B (RET), whose near-universal and aggressive tumour is medullary thyroid carcinoma (calcitonin, thyroid ultrasound). Hyperparathyroidism belongs to MEN 2A, and pituitary and pancreatic tumours to MEN 1.",
+    "note": "MEN 2B: tall, kyphoscoliosis, lip neuromas."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old with a severe head injury has a BP of 165/100 mmHg, a heart rate of 46/min and irregular breathing. What is the most appropriate approach to his blood pressure?",
+    "options": [
+     "Do not lower BP; treat the raised ICP",
+     "Give IV labetalol to target normal BP",
+     "Give sublingual nifedipine immediately",
+     "Start oral propranolol for the tachycardia"
+    ],
+    "answer": 0,
+    "explain": "Hypertension with bradycardia and irregular respiration is the Cushing response, which keeps cerebral perfusion pressure up against raised ICP. Lowering BP worsens cerebral ischaemia, so treat the ICP; beta-blockers are for hyperkinetic hypertension.",
+    "note": "Hyperkinetic hypertension: beta-blocker; Cushing triad: do not lower BP."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of hypertension in children by category.",
+    "back": "Renal (70-80%): scarring, GN, ARPKD/ADPKD • renovascular: fibromuscular dysplasia (string of beads) • coarctation • endocrine: phaeo, Cushing, CAH, hyperthyroid • drugs • raised ICP • essential (obese adolescents)."
+   },
+   {
+    "type": "card",
+    "front": "Describe the work-up and preoperative management of phaeochromocytoma.",
+    "back": "Metanephrines (plasma/urine) → adrenal CT/MRI → I-123 MIBG • Alpha-blockade first (phenoxybenzamine) → then beta-blocker → surgical excision. Beta first = unopposed alpha crisis."
+   },
+   {
+    "type": "card",
+    "front": "Which syndromes are associated with phaeochromocytoma, and what is the 'rule of 10s'?",
+    "back": "MEN 2A/2B, VHL, NF1, SDH mutations; familial = more often bilateral • Rule of 10s: 10% bilateral, extra-adrenal, malignant, familial, paediatric (children have higher hereditary/bilateral rates)."
+   }
+  ]
+ },
+ "I-20": {
+  "summary": "Acute cough is almost always viral; chronic cough (> 4 weeks) needs a cause. A wet cough with clubbing is suppurative lung disease, never asthma, and a sudden cough in a well toddler is a foreign body even if the X-ray is normal.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "After how long is a child's cough defined as chronic?",
+    "options": [
+     "More than 2 weeks",
+     "More than 8 weeks",
+     "More than 12 weeks",
+     "More than 4 weeks"
+    ],
+    "answer": 3,
+    "explain": "In children, chronic cough is defined as lasting more than 4 weeks; acute cough lasts under 3 weeks. The adult cut-off of 8 weeks does not apply to children.",
+    "note": "Acute cough under 3 weeks; chronic cough lasts more than 4 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A previously well 20-month-old had a sudden coughing and choking episode while eating peanuts 2 days ago. He now has a persistent cough and reduced breath sounds on the right. The chest X-ray is reported as normal. What is the most appropriate next step?",
+    "options": [
+     "Reassure, as the X-ray is normal",
+     "Rigid bronchoscopy",
+     "Trial of inhaled salbutamol",
+     "Repeat chest X-ray in 1 week"
+    ],
+    "answer": 1,
+    "explain": "A witnessed choking episode with unilateral signs is an inhaled foreign body until proven otherwise; most nuts are radiolucent, so a normal X-ray does not exclude it. Rigid bronchoscopy is both diagnostic and therapeutic.",
+    "note": "Suspected foreign body → rigid bronchoscopy; normal CXR doesn't exclude."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-week-old unvaccinated infant has paroxysms of coughing ending in post-tussive vomiting and short apnoeas with cyanosis. She is well between attacks, and the lymphocyte count is 22 × 10⁹/l. Her 4-year-old brother and parents live with her. What is the most appropriate management?",
+    "options": [
+     "Macrolide for the infant and prophylaxis for household contacts",
+     "Macrolide for the infant only; household contacts need no treatment",
+     "Supportive care only, as antibiotics do not help",
+     "Amoxicillin for the infant and household contacts"
+    ],
+    "answer": 0,
+    "explain": "This is pertussis: treat with a macrolide (azithromycin) and give macrolide prophylaxis to household contacts to protect vulnerable infants and interrupt spread. Antibiotics in the paroxysmal stage do not shorten the cough but do reduce transmission; amoxicillin is not effective against Bordetella.",
+    "note": "Pertussis: macrolide, also prophylaxis for contacts."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-month-old has 2 days of coryza followed by cough, widespread fine crackles and wheeze, and mild subcostal recession. SpO₂ is 95% in air, and she is taking 75% of her usual feeds. What is the most appropriate management?",
+    "options": [
+     "Nebulised salbutamol every 4 hours with oxygen as needed",
+     "Oral prednisolone for 3 days",
+     "Supportive care with feeding support and nasal suction",
+     "Oral amoxicillin for 5 days"
+    ],
+    "answer": 2,
+    "explain": "Bronchiolitis (usually RSV) is managed supportively: oxygen if needed, feeding support (NG if under 50-75%), and suction. Bronchodilators, steroids and antibiotics do not improve outcomes; prevention is with nirsevimab or palivizumab.",
+    "note": "Bronchiolitis: supportive; RSV prevention nirsevimab or palivizumab."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 7-year-old has had a wet, productive cough for 4 months. He has digital clubbing and his weight has fallen from the 50th to the 9th centile. He was previously diagnosed with asthma. What is the most appropriate next investigation?",
+    "options": [
+     "Sweat chloride test",
+     "Trial of high-dose inhaled steroid",
+     "Spirometry with bronchodilator reversibility",
+     "24-hour oesophageal pH monitoring"
+    ],
+    "answer": 0,
+    "explain": "A chronic wet cough with clubbing and faltering growth indicates suppurative lung disease (cystic fibrosis, primary ciliary dyskinesia, bronchiectasis), never asthma, which does not cause clubbing. A sweat test is the first step to exclude CF.",
+    "note": "Chronic wet cough + clubbing → suppurative lung disease, never asthma."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-year-old with eczema has a dry cough that wakes him at night and worsens with running, with intermittent wheeze heard by his GP. He is growing normally. What is the most likely diagnosis?",
+    "options": [
+     "Protracted bacterial bronchitis",
+     "Gastro-oesophageal reflux",
+     "Asthma",
+     "Primary ciliary dyskinesia"
+    ],
+    "answer": 2,
+    "explain": "A nocturnal dry cough with exercise-induced symptoms, wheeze and atopy is asthma. Protracted bacterial bronchitis and PCD cause a wet cough, and reflux-related cough is linked to feeds or lying flat without atopic wheeze.",
+    "note": "Barking → croup; nocturnal dry + wheeze → asthma; meconium ileus → CF."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of acute cough in children?",
+    "options": [
+     "Asthma exacerbation",
+     "Viral respiratory tract infection",
+     "Pertussis",
+     "Inhaled foreign body"
+    ],
+    "answer": 1,
+    "explain": "Most acute coughs in children are due to self-limiting viral respiratory infections; management is reassurance and safety-netting, without over-the-counter cough medicines.",
+    "note": "Acute: viral infection of the respiratory tract commonest; bronchiolitis (RSV), croup, foreign body."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 4-year-old with confirmed pertussis in the paroxysmal stage develops sudden right-sided pleuritic chest pain and breathlessness immediately after a violent coughing fit. What is the most likely complication?",
+    "options": [
+     "Secondary bacterial pneumonia",
+     "Pulmonary embolism",
+     "Acute chest syndrome",
+     "Pneumothorax"
+    ],
+    "answer": 3,
+    "explain": "Paroxysmal coughing raises intrathoracic pressure and can rupture alveoli, causing pneumothorax (and subconjunctival haemorrhage, hernias). Secondary pneumonia develops more gradually with fever; PE and acute chest syndrome are not complications of pertussis.",
+    "note": "Pertussis: catarrhal 1-2 weeks → paroxysmal → convalescent; coughing risks pneumothorax."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the differential diagnosis of chronic cough in a child.",
+    "back": "Pertussis • asthma • GERD • cystic fibrosis • protracted bacterial bronchitis • primary ciliary dyskinesia • retained foreign body • TB. Wet cough + clubbing = suppurative disease, not asthma."
+   },
+   {
+    "type": "card",
+    "front": "Describe the stages and treatment of pertussis.",
+    "back": "Catarrhal 1-2 weeks (most infectious) → paroxysmal (whoop, post-tussive vomiting; infants: apnoea, cyanosis) → convalescent • Macrolide + prophylaxis for contacts • Complication: pneumothorax."
+   },
+   {
+    "type": "card",
+    "front": "What must you check in every child with chronic cough?",
+    "back": "Growth chart • clubbing • immunisation status (pertussis) • choking history (foreign body) • TB contacts • wet vs dry character • neonatal history (meconium ileus → CF)."
+   }
+  ]
+ },
+ "I-21": {
+  "summary": "Most sore throats are viral; the job is to find group A strep (abrupt fever, exudate, tender anterior nodes, no cough), treat it with 10 days of penicillin to prevent rheumatic fever, and never miss the airway emergencies.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Approximately what proportion of sore throats in children are viral?",
+    "options": [
+     "20-30%",
+     "40-50%",
+     "70-80%",
+     "Over 95%"
+    ],
+    "answer": 2,
+    "explain": "About 70-80% of paediatric sore throats are viral; the clinical task is to identify the minority caused by group A streptococcus, which is most common at age 3-14.",
+    "note": "About 70-80% of sore throats in children are viral; the task is finding group A strep."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 8-year-old has a sudden fever of 39.5°C, a very sore throat, tonsillar exudate and tender anterior cervical lymph nodes. She has no cough or coryza. What is the most likely cause?",
+    "options": [
+     "Group A streptococcus",
+     "Adenovirus",
+     "Epstein-Barr virus",
+     "Coxsackie A virus"
+    ],
+    "answer": 0,
+    "explain": "Abrupt fever, exudate, tender anterior nodes and no cough in a school-age child point to group A strep. Adenovirus usually comes with conjunctivitis and coryza, EBV with posterior nodes and splenomegaly in teenagers, and Coxsackie with palatal vesicles (herpangina).",
+    "note": "Strep: abrupt fever, exudate, tender nodes, no cough; EBV: posterior nodes, splenomegaly."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-year-old with fever, tonsillar exudate, tender anterior cervical nodes and no cough has a negative rapid antigen test for group A strep. What is the most appropriate next step?",
+    "options": [
+     "Reassure and discharge without follow-up",
+     "Start amoxicillin regardless of the result",
+     "Send a throat swab for culture",
+     "Send a heterophile antibody (Monospot) test"
+    ],
+    "answer": 2,
+    "explain": "Rapid antigen tests have limited sensitivity, so a negative result in a child with a high clinical suspicion should be backed up by throat culture. Empirical antibiotics without confirmation overtreat viral pharyngitis, and Monospot answers a different question.",
+    "note": "Rapid strep has low sensitivity: negative → throat culture."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 16-year-old has a week of sore throat, exudative tonsillitis, marked fatigue, posterior cervical lymphadenopathy and a palpable spleen. What would the blood tests most likely show?",
+    "options": [
+     "Neutrophilia with toxic granulation and left shift",
+     "Atypical lymphocytes and raised transaminases",
+     "Blast cells and thrombocytopenia",
+     "Spherocytes and raised reticulocytes"
+    ],
+    "answer": 1,
+    "explain": "Infectious mononucleosis (EBV) causes a lymphocytosis with atypical (reactive) lymphocytes and a mild hepatitis. Neutrophilia suggests bacterial infection, and blasts with low platelets suggest leukaemia, an important differential of lymphadenopathy with splenomegaly.",
+    "note": "EBV: atypical lymphocytes, raised LFTs; diphtheria: gray-white pseudomembrane."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 15-year-old rugby player with confirmed infectious mononucleosis and splenomegaly wants to play in a match next week. What is the most appropriate advice?",
+    "options": [
+     "Return once he has been afebrile for 48 hours",
+     "Avoid contact sport for 6 months",
+     "Play if he takes amoxicillin now",
+     "Avoid contact sport for 4-6 weeks"
+    ],
+    "answer": 3,
+    "explain": "The enlarged spleen is at risk of rupture, so contact sport should be avoided for 4-6 weeks. Amoxicillin has no role in EBV and typically causes a non-allergic maculopapular rash.",
+    "note": "EBV given amoxicillin → non-allergic maculopapular rash; no contact sport 4-6 weeks (splenic rupture)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 15-year-old has had a sore throat for 5 days that is now much worse on one side. He has trismus, a muffled 'hot potato' voice, drools, and his uvula is deviated to the left. What is the diagnosis?",
+    "options": [
+     "Left peritonsillar abscess",
+     "Retropharyngeal abscess",
+     "Acute epiglottitis",
+     "Right peritonsillar abscess"
+    ],
+    "answer": 3,
+    "explain": "Quinsy pushes the uvula away from the abscess, so a uvula deviated to the left means a right-sided abscess. A retropharyngeal abscess causes neck stiffness and a midline posterior pharyngeal bulge in younger children, and epiglottitis does not cause trismus or uvular deviation.",
+    "note": "Quinsy: trismus, uvula deviated away; epiglottitis: drooling, muffled voice, tripod, no cough."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "A parent asks what treating her daughter's confirmed streptococcal pharyngitis with antibiotics will prevent. Which complication is reliably prevented by antibiotic treatment?",
+    "options": [
+     "Post-streptococcal glomerulonephritis",
+     "Acute rheumatic fever",
+     "Scarlet fever rash",
+     "Post-streptococcal reactive arthritis"
+    ],
+    "answer": 1,
+    "explain": "Prompt treatment of group A strep pharyngitis prevents acute rheumatic fever. It does not prevent post-streptococcal glomerulonephritis, which is mediated by nephritogenic strains and immune complexes regardless of treatment.",
+    "note": "Untreated strep → acute rheumatic fever; antibiotics do not prevent PSGN."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 17-year-old had a sore throat a week ago. He now has high fever, rigors, a tender swelling along the anterior border of the sternocleidomastoid, and multiple cavitating nodules on chest X-ray. What is the most likely diagnosis?",
+    "options": [
+     "Lemierre syndrome",
+     "Peritonsillar abscess",
+     "Retropharyngeal abscess",
+     "Pharyngeal diphtheria"
+    ],
+    "answer": 0,
+    "explain": "Lemierre syndrome is septic thrombophlebitis of the internal jugular vein (usually Fusobacterium necrophorum) after pharyngitis, with septic pulmonary emboli causing cavitating lung lesions. The abscesses cause local signs without septic emboli, and diphtheria produces a grey-white pseudomembrane.",
+    "note": "Emergencies: epiglottitis, quinsy, retropharyngeal abscess, diphtheria, Lemierre syndrome."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish streptococcal, viral and EBV pharyngitis clinically?",
+    "back": "Strep (3-14 y): abrupt fever, exudate, tender anterior nodes, no cough • Viral: cough, coryza, hoarseness • EBV (teen): posterior nodes, splenomegaly, fatigue, atypical lymphocytes, raised LFTs."
+   },
+   {
+    "type": "card",
+    "front": "List the sore-throat emergencies and a key sign of each.",
+    "back": "Epiglottitis: drooling, tripod, no cough • quinsy: trismus, uvula deviated away • retropharyngeal abscess: neck stiffness • diphtheria: grey-white pseudomembrane • Lemierre: IJV thrombophlebitis, septic emboli."
+   },
+   {
+    "type": "card",
+    "front": "How is strep pharyngitis treated, and what does treatment prevent?",
+    "back": "Penicillin V for 10 days (rapid test negative → culture) • prevents acute rheumatic fever, NOT PSGN • amoxicillin in EBV → maculopapular rash."
+   }
+  ]
+ },
+ "I-22": {
+  "summary": "Inspiratory stridor means extrathoracic narrowing. In a child aged 6 months to 6 years with a barking cough it is croup: oral dexamethasone for everyone, nebulised adrenaline if severe. Grade severity by stridor at rest, recession and conscious level, and treat the toxic, drooling child as epiglottitis or tracheitis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does a small amount of mucosal swelling cause disproportionate airway obstruction in croup?",
+    "options": [
+     "The infant epiglottis is long and floppy and prolapses over the larynx on inspiration",
+     "The cricoid is a complete ring, so subglottic swelling can only expand inward",
+     "C-shaped tracheal rings collapse completely during forced expiration",
+     "The vocal cords are rigid and cannot abduct during inspiration"
+    ],
+    "answer": 1,
+    "explain": "The subglottis is encircled by the cricoid, the only complete cartilage ring, so oedema narrows the lumen inward; by Poiseuille's law small reductions in radius greatly increase resistance. Epiglottic prolapse describes laryngomalacia, and expiratory collapse describes tracheomalacia.",
+    "note": "The subglottis swells inward because it is ringed by the cricoid, the only complete cartilage ring."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of croup?",
+    "options": [
+     "Respiratory syncytial virus",
+     "Staphylococcus aureus",
+     "Haemophilus influenzae type b",
+     "Parainfluenza virus"
+    ],
+    "answer": 3,
+    "explain": "Croup (laryngotracheobronchitis) is mostly caused by parainfluenza virus in children aged 6 months to 6 years. RSV causes bronchiolitis, Staph aureus causes bacterial tracheitis, and Hib causes epiglottitis.",
+    "note": "Croup: parainfluenza virus, age 6 months to 6 years."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old has a barking cough and hoarse voice for a day. Stridor is heard only when she cries; at rest there is no stridor or recession, and she is alert and playing. What is the most appropriate management?",
+    "options": [
+     "No treatment, as the croup is only mild",
+     "Nebulised adrenaline and admission for overnight observation",
+     "Oral amoxicillin and review in 48 hours",
+     "Single dose of oral dexamethasone, then discharge"
+    ],
+    "answer": 3,
+    "explain": "Every child with croup, including mild croup, benefits from a single dose of oral dexamethasone (0.15 mg/kg), which reduces return visits and admissions. Nebulised adrenaline is reserved for severe croup, and antibiotics have no role in this viral illness.",
+    "note": "Every child with croup gets oral dexamethasone; severe: nebulised adrenaline, wears off in about 2 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-year-old with croup is being assessed in the emergency department. Which finding is most useful for grading the severity of his croup?",
+    "options": [
+     "Oxygen saturation of 95% in air",
+     "Stridor at rest with sternal recession",
+     "Temperature of 39.2°C",
+     "A loud, frequent barking cough"
+    ],
+    "answer": 1,
+    "explain": "Severity is graded by stridor at rest, recession and conscious level (agitation or lethargy). Saturations stay normal until very late, so normal SpO₂ is falsely reassuring; fever and loudness of the cough do not reflect airway narrowing.",
+    "note": "Severity = stridor at rest, recession, conscious level, not oxygen saturation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 18-month-old with severe croup received oral dexamethasone and nebulised adrenaline at 10:00, and by 10:40 his stridor at rest has resolved. His mother asks to take him home. What is the most appropriate plan?",
+    "options": [
+     "Observe him for at least 2-3 hours after the adrenaline",
+     "Discharge now, as the stridor has resolved",
+     "Give a second adrenaline nebuliser to take home",
+     "Transfer to intensive care for intubation"
+    ],
+    "answer": 0,
+    "explain": "Nebulised adrenaline works within minutes but wears off after about 2 hours, and the stridor can return before the dexamethasone takes full effect. He must be observed for several hours before discharge; he is improving, so intubation is not indicated.",
+    "note": "Every child with croup gets oral dexamethasone; severe: nebulised adrenaline, wears off in about 2 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An unvaccinated 4-year-old has a temperature of 40°C, is sitting forward with his mouth open, drooling, with a muffled voice and soft stridor. He has no cough. What is the most appropriate next step?",
+    "options": [
+     "Examine the throat with a tongue depressor",
+     "Arrange a lateral neck X-ray in radiology",
+     "Secure the airway in theatre with senior anaesthetic and ENT staff",
+     "Insert an IV cannula and take blood cultures before antibiotics"
+    ],
+    "answer": 2,
+    "explain": "This is epiglottitis: keep the child calm with the parent and secure the airway first, ideally by an experienced anaesthetist with ENT ready for a surgical airway. Examining the throat, sending him to radiology or cannulating can provoke complete obstruction.",
+    "note": "Epiglottitis: secure the airway first; foreign body: rigid bronchoscopy."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 3-year-old with a barking cough for 3 days suddenly deteriorates, with a temperature of 39.8°C, a toxic appearance and copious purulent secretions. Her stridor does not improve after nebulised adrenaline. What is the most likely diagnosis?",
+    "options": [
+     "Bacterial tracheitis",
+     "Acute epiglottitis",
+     "Retropharyngeal abscess",
+     "Severe viral croup"
+    ],
+    "answer": 0,
+    "explain": "A croup-like illness that turns toxic, with purulent tracheal secretions and no response to adrenaline, is bacterial tracheitis (usually Staph aureus). Epiglottitis is abrupt with drooling and no barking cough, and viral croup responds to adrenaline and is not toxic.",
+    "note": "Epiglottitis: drooling, toxic, no cough; tracheitis: toxic, no response to adrenaline."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-week-old has had noisy inspiratory breathing since 2 weeks of age. It is worse when supine, feeding or crying and improves when he lies prone. He is feeding well and gaining weight. What is the most likely diagnosis?",
+    "options": [
+     "Vascular ring",
+     "Subglottic stenosis",
+     "Laryngomalacia",
+     "Viral croup"
+    ],
+    "answer": 2,
+    "explain": "Laryngomalacia is the commonest cause of chronic stridor in infancy; floppy supraglottic tissues collapse on inspiration, worse supine and better prone, and most resolve by 18-24 months. Vascular rings cause biphasic stridor with feeding problems, and croup is acute with a barking cough.",
+    "note": "Croup: barking cough, stridor, not toxic; laryngomalacia: improves prone."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish croup, epiglottitis, bacterial tracheitis and a foreign body?",
+    "back": "Croup: barking cough, not toxic, 6 m-6 y • Epiglottitis: toxic, drooling, tripod, no cough • Tracheitis: toxic, purulent secretions, no response to adrenaline • FB: sudden onset, choking history."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of croup.",
+    "back": "Grade by stridor at rest, recession, conscious level (not SpO₂) • all: oral dexamethasone 0.15 mg/kg • severe: nebulised adrenaline (wears off ~2 h, observe) + O₂ • impending failure: senior airway."
+   },
+   {
+    "type": "card",
+    "front": "List the causes of inspiratory stridor in children.",
+    "back": "Acute: croup, epiglottitis, bacterial tracheitis (Staph aureus), foreign body, anaphylaxis • Chronic/congenital: laryngomalacia (better prone), vascular ring, subglottic stenosis, vocal cord palsy."
+   }
+  ]
+ },
+ "I-23": {
+  "summary": "Prove haemolysis (high reticulocytes, unconjugated bilirubin and LDH, low haptoglobin), then split by the direct Coombs test: positive means immune (warm IgG or cold IgM); negative means membrane, enzyme, haemoglobin or microangiopathic causes, which the blood film usually identifies.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which combination of laboratory findings proves haemolysis in an anaemic child?",
+    "options": [
+     "Low reticulocyte count, high conjugated bilirubin, high LDH, high haptoglobin",
+     "High reticulocytes, high unconjugated bilirubin, high LDH, low haptoglobin",
+     "High reticulocytes, high conjugated bilirubin, low LDH, high haptoglobin",
+     "Low reticulocytes, normal bilirubin, low LDH, low ferritin"
+    ],
+    "answer": 1,
+    "explain": "Red cell destruction releases LDH and haemoglobin (which binds and depletes haptoglobin) and raises unconjugated bilirubin, while the marrow responds with reticulocytosis. Conjugated hyperbilirubinaemia points to liver or biliary disease.",
+    "note": "Haemolysis is proven by anaemia with high reticulocytes, high unconjugated bilirubin, high LDH, low haptoglobin."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old has intermittent jaundice and a palpable spleen, and his father had a splenectomy as a child. The film shows spherocytes, the direct Coombs test is negative, and MCHC is raised. Which test best confirms the diagnosis?",
+    "options": [
+     "Eosin-5'-maleimide (EMA) binding test",
+     "Haemoglobin electrophoresis",
+     "G6PD enzyme assay",
+     "Bone marrow aspirate"
+    ],
+    "answer": 0,
+    "explain": "Coombs-negative spherocytosis with a raised MCHC and autosomal dominant family history is hereditary spherocytosis, confirmed by reduced EMA binding on flow cytometry. A negative Coombs test helps exclude immune haemolysis, which also produces spherocytes.",
+    "note": "Spherocytes, Coombs negative, positive EMA binding, raised MCHC = hereditary spherocytosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 4-year-old boy of Mediterranean origin develops pallor, jaundice and dark urine 2 days after eating broad (fava) beans. The film shows bite cells and Heinz bodies. What is the underlying mechanism?",
+    "options": [
+     "Defective red cell membrane tethering proteins (spectrin, ankyrin)",
+     "IgG autoantibodies coating the red cells",
+     "Oxidative damage from deficient NADPH regeneration",
+     "Polymerisation of deoxygenated haemoglobin S"
+    ],
+    "answer": 2,
+    "explain": "G6PD deficiency (X-linked) leaves red cells unable to regenerate NADPH and reduced glutathione, so oxidant stress (fava beans, infection, drugs) denatures haemoglobin into Heinz bodies, which the spleen removes, leaving bite cells. The other options describe spherocytosis, AIHA and sickle cell disease.",
+    "note": "G6PD: triggered by infection, fava beans, drugs → bite cells, Heinz bodies."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 6-year-old with hereditary spherocytosis becomes very pale and tired a week after his sister had 'slapped cheek' rash. His haemoglobin is 45 g/l and reticulocytes are 0.2%; his spleen is no bigger than usual. What is the most likely cause?",
+    "options": [
+     "Parvovirus B19 aplastic crisis",
+     "Acute splenic sequestration",
+     "Hyperhaemolytic crisis",
+     "Dietary folate deficiency"
+    ],
+    "answer": 0,
+    "explain": "In chronic haemolysis a low reticulocyte count signals marrow failure: parvovirus B19 infects erythroid precursors and halts production, which matters only when red cell survival is short. Sequestration and hyperhaemolysis cause a high reticulocyte count, and sequestration enlarges the spleen.",
+    "note": "Low reticulocytes in chronic haemolysis = parvovirus B19 aplastic crisis."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Ten days after Mycoplasma pneumonia, a 10-year-old develops haemolytic anaemia with acrocyanosis in the cold. The direct Coombs test is positive for complement (C3) only. What type of haemolysis is this?",
+    "options": [
+     "Warm autoimmune haemolytic anaemia (IgG)",
+     "Hereditary spherocytosis crisis",
+     "Cold autoimmune haemolytic anaemia (IgM)",
+     "Paroxysmal nocturnal haemoglobinuria"
+    ],
+    "answer": 2,
+    "explain": "Mycoplasma and EBV trigger cold agglutinins, IgM antibodies that fix complement at low temperatures, so the Coombs test detects C3. Warm AIHA is IgG (Coombs IgG ± C3), while spherocytosis and PNH are Coombs negative.",
+    "note": "Positive direct Coombs = immune: warm AIHA IgG, cold AIHA IgM."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-year-old had bloody diarrhoea a week ago and is now pale and oliguric, with a platelet count of 40 × 10⁹/l and raised creatinine. Fragmented red cells are seen on the film. What do these fragments indicate?",
+    "options": [
+     "Oxidative haemolysis",
+     "Microangiopathic haemolysis",
+     "Warm autoimmune haemolysis",
+     "Red cell membrane defect"
+    ],
+    "answer": 1,
+    "explain": "Schistocytes are red cells sheared by fibrin strands in damaged small vessels, the hallmark of microangiopathic haemolysis; here, typical (STEC) haemolytic uraemic syndrome. Oxidative haemolysis gives bite cells and Heinz bodies, while AIHA and membrane defects give spherocytes.",
+    "note": "Schistocytes = microangiopathic haemolysis; Hb electrophoresis for sickle and thalassaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old with sickle cell anaemia (HbSS) presents with a temperature of 39.4°C and no obvious source. What is the most appropriate immediate management?",
+    "options": [
+     "Oral amoxicillin and review in 48 hours",
+     "Paracetamol and observation at home",
+     "Wait for the FBC result before antibiotics",
+     "Blood cultures and prompt IV ceftriaxone"
+    ],
+    "answer": 3,
+    "explain": "Functional asplenia puts children with sickle cell disease at risk of overwhelming pneumococcal sepsis, so fever is an emergency requiring cultures and IV ceftriaxone without delay. This is in addition to daily penicillin prophylaxis until at least 5 years.",
+    "note": "Sickle: daily penicillin to 5 years; fever → ceftriaxone; stroke or priapism → exchange transfusion."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 8-year-old with HbSS suddenly develops right-sided weakness and dysphasia. CT shows no haemorrhage. What is the most appropriate treatment?",
+    "options": [
+     "IV alteplase thrombolysis",
+     "Start hydroxycarbamide and observe",
+     "Oral aspirin and physiotherapy",
+     "Urgent exchange transfusion"
+    ],
+    "answer": 3,
+    "explain": "Acute ischaemic stroke in sickle cell disease is caused by sickling vasculopathy and is treated by urgent exchange transfusion to reduce HbS (target below 30%). Thrombolysis is not standard in sickle stroke, and hydroxycarbamide and aspirin do not reverse the acute event.",
+    "note": "Sickle: daily penicillin to 5 years; fever → ceftriaxone; stroke or priapism → exchange transfusion."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify the haemolytic anaemias of childhood using the direct Coombs test.",
+    "back": "Coombs positive (immune): warm AIHA IgG, cold AIHA IgM (Mycoplasma, EBV), alloimmune • Coombs negative: hereditary spherocytosis, G6PD, sickle cell, thalassaemia, HUS/TTP/DIC (schistocytes)."
+   },
+   {
+    "type": "card",
+    "front": "Summarise hereditary spherocytosis: inheritance, diagnosis, complications.",
+    "back": "Autosomal dominant membrane tethering defect • spherocytes, Coombs negative, raised MCHC, positive EMA binding • jaundice, splenomegaly, gallstones, parvovirus aplastic crisis • splenectomy if severe."
+   },
+   {
+    "type": "card",
+    "front": "Outline acute management of sickle cell complications in children.",
+    "back": "Prophylaxis: daily penicillin to 5 years + vaccines • fever → cultures + IV ceftriaxone • stroke or priapism → exchange transfusion • dactylitis, acute chest syndrome, splenic sequestration, aplastic crisis."
+   }
+  ]
+ },
+ "I-24": {
+  "summary": "Start every anaemia with the MCV. Microcytic anaemia in a child is iron deficiency (often from excess cow's milk) until thalassaemia trait or lead poisoning is excluded with RDW, red cell count and ferritin interpreted alongside CRP; macrocytosis or pancytopenia points to B12/folate deficiency or marrow failure.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which red cell parameter is the first branch point in the diagnostic approach to any anaemia?",
+    "options": [
+     "Mean corpuscular volume (MCV)",
+     "Reticulocyte count",
+     "Serum ferritin",
+     "Red cell distribution width (RDW)"
+    ],
+    "answer": 0,
+    "explain": "Sorting anaemia by MCV into microcytic, normocytic and macrocytic narrows the differential immediately. The reticulocyte count then separates production failure from loss or destruction, and ferritin and RDW refine microcytic anaemia.",
+    "note": "The first branch point in any anaemia is the MCV; the commonest in childhood is iron deficiency."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A pale 18-month-old drinks about 1.5 litres of cow's milk a day and eats little solid food. Hb is 78 g/l and MCV 58 fl. Why does his milk intake cause this anaemia?",
+    "options": [
+     "Milk proteins trigger autoimmune destruction of red cell precursors in the bone marrow",
+     "Milk lacks folate, so red cell DNA synthesis becomes impaired",
+     "Milk is iron-poor, inhibits iron absorption and causes occult GI blood loss",
+     "Milk calcium binds vitamin B12 and blocks ileal absorption"
+    ],
+    "answer": 2,
+    "explain": "Cow's milk is low in iron, its calcium and casein inhibit non-haem iron absorption, it causes occult intestinal blood loss in young children, and it displaces iron-rich foods. Folate and B12 problems would give a macrocytic, not microcytic, anaemia.",
+    "note": "Excess cow's milk: iron-poor, inhibits iron absorption, occult GI blood loss."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A well 4-year-old of Cypriot origin has Hb 108 g/l, MCV 62 fl, red cell count 5.9 × 10¹²/l, normal RDW and normal ferritin. What is the most likely diagnosis?",
+    "options": [
+     "Iron deficiency anaemia",
+     "Beta-thalassaemia trait",
+     "Lead poisoning",
+     "Anaemia of chronic disease"
+    ],
+    "answer": 1,
+    "explain": "Marked microcytosis with mild anaemia, a high red cell count and a normal RDW fits thalassaemia trait (confirm with raised HbA2 on electrophoresis). Iron deficiency gives a high RDW and low red cell count, and a normal ferritin argues against it in a well child.",
+    "note": "RDW high in iron deficiency, normal in thalassaemia trait; red cell count normal or high."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old living in an old house with peeling paint has pica, constipation, irritability and a microcytic anaemia with basophilic stippling. Her venous blood lead level is 55 mcg/dL. Besides removing the lead source, what is the most appropriate treatment?",
+    "options": [
+     "IM dimercaprol plus EDTA",
+     "Oral iron supplements only",
+     "No chelation; monitor levels",
+     "Oral DMSA (succimer)"
+    ],
+    "answer": 3,
+    "explain": "Lead levels of 45-69 mcg/dL are treated with oral chelation using DMSA (succimer). Combined IM dimercaprol and EDTA is reserved for levels ≥ 70 mcg/dL or encephalopathy; below 45, source removal and monitoring are used.",
+    "note": "Lead 45-69: DMSA (succimer); ≥ 70 mcg/dL: IM dimercaprol + EDTA."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old has short stature, several café-au-lait spots, a hypoplastic thumb, and a full blood count showing pancytopenia with macrocytosis. What is the most likely diagnosis?",
+    "options": [
+     "Diamond-Blackfan anaemia",
+     "Acquired aplastic anaemia",
+     "Neurofibromatosis type 1",
+     "Fanconi anaemia"
+    ],
+    "answer": 3,
+    "explain": "Fanconi anaemia is a DNA repair disorder with short stature, café-au-lait spots and radial ray/thumb anomalies, progressing to pancytopenia in mid-childhood. Diamond-Blackfan presents in infancy with isolated red cell aplasia, acquired aplastic anaemia lacks malformations, and NF1 does not cause marrow failure.",
+    "note": "Fanconi: short stature, café-au-lait spots, malformed thumbs."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 2-year-old with a 5-day febrile chest infection has Hb 95 g/l, MCV 63 fl, high RDW, ferritin 45 mcg/l (normal range) and CRP 85 mg/l. How should the ferritin be interpreted?",
+    "options": [
+     "It excludes iron deficiency as the cause",
+     "It may be falsely normal; iron deficiency is not excluded",
+     "It confirms beta-thalassaemia trait",
+     "It indicates iron overload caused by the acute chest infection"
+    ],
+    "answer": 1,
+    "explain": "Ferritin is an acute-phase protein and rises with inflammation, so a 'normal' ferritin with a high CRP can mask iron deficiency; the high RDW and microcytosis still favour it. Recheck when well or use transferrin saturation.",
+    "note": "Ferritin is an acute phase protein, so inflammation can mask deficiency."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A 3-year-old with iron deficiency anaemia is started on oral elemental iron. For how long should treatment continue?",
+    "options": [
+     "For 3 months after Hb normalises",
+     "Until the Hb first becomes normal",
+     "For 2 weeks after Hb normalises",
+     "For 12 months after Hb normalises"
+    ],
+    "answer": 0,
+    "explain": "Iron is continued for about 3 months after the haemoglobin normalises to replenish body iron stores; stopping when Hb normalises leaves stores empty and anaemia recurs. A reticulocyte rise within 1-2 weeks confirms response.",
+    "note": "Iron deficiency: oral elemental iron, continued 3 months after Hb normalises."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 13-year-old who has followed a strict vegan diet for 3 years has tingling in her feet, macrocytic anaemia and hypersegmented neutrophils. Which deficiency is most likely?",
+    "options": [
+     "Folate",
+     "Iron",
+     "Vitamin B12",
+     "Vitamin B6"
+    ],
+    "answer": 2,
+    "explain": "B12 is found only in animal products, and its deficiency causes megaloblastic anaemia with neurological features (paraesthesia, subacute combined degeneration). Folate deficiency gives the same blood picture without neuropathy, iron deficiency is microcytic, and B6 deficiency causes sideroblastic, typically microcytic, anaemia.",
+    "note": "Macrocytic: B12/folate deficiency, Diamond-Blackfan; pancytopenia: Fanconi, aplastic anaemia."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish the causes of microcytic anaemia in a child?",
+    "back": "Iron deficiency: high RDW, low red cell count, low ferritin (beware CRP) • Thalassaemia trait: normal RDW, normal/high red cell count, raised HbA2 • Lead: basophilic stippling, gum line, pica."
+   },
+   {
+    "type": "card",
+    "front": "Outline lead poisoning: features and treatment thresholds.",
+    "back": "Pica, abdominal pain, constipation, irritability, bluish gum-tooth line, basophilic stippling • Remove source • 45-69 mcg/dL: oral DMSA (succimer) • ≥ 70 or encephalopathy: IM dimercaprol + EDTA."
+   },
+   {
+    "type": "card",
+    "front": "List causes of macrocytic anaemia and pancytopenia in children.",
+    "back": "Macrocytic: B12 deficiency (neuro signs), folate deficiency, Diamond-Blackfan (infant red cell aplasia) • Pancytopenia: Fanconi (short stature, café-au-lait, thumb anomalies), aplastic anaemia, leukaemia."
+   }
+  ]
+ },
+ "I-25": {
+  "summary": "Failure to thrive is a pattern (weight falls across two or more centile lines) and usually a feeding problem. Watch a feed and read the growth chart (weight falls before height, head last) before ordering tests, and keep neglect on the list.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which growth pattern classically defines failure to thrive?",
+    "options": [
+     "Weight crossing one centile line downward",
+     "Weight persistently below the 50th centile",
+     "Height below the 2nd centile with weight on the 50th centile",
+     "Weight crossing two or more major centile lines downward"
+    ],
+    "answer": 3,
+    "explain": "Failure to thrive describes faltering weight gain, classically a fall across two or more major centile lines. A child who is small but growing steadily along a low centile (for example, familial short stature) is not failing to thrive.",
+    "note": "Failure to thrive classically means crossing two or more weight centile lines downward."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of failure to thrive in children?",
+    "options": [
+     "Cystic fibrosis",
+     "Coeliac disease",
+     "Congenital heart disease",
+     "Inadequate caloric intake"
+    ],
+    "answer": 3,
+    "explain": "Most failure to thrive is non-organic, caused by insufficient intake (feeding difficulties, poverty, poor technique, neglect). Organic causes such as CF, coeliac disease and congenital heart disease are important but much less common.",
+    "note": "Commonest cause: inadequate intake (non-organic); child neglect is the commonest maltreatment."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 10-month-old's weight has fallen from the 50th to the 2nd centile over 4 months. His length is on the 25th centile and head circumference on the 50th. What does this pattern suggest?",
+    "options": [
+     "An endocrine disorder causing growth failure",
+     "A nutritional deficit, as weight is lost first",
+     "An intrauterine or genetic insult",
+     "Familial short stature with normal growth"
+    ],
+    "answer": 1,
+    "explain": "Undernutrition affects weight first, then height, and head circumference last, so a child with weight falling most is short of calories. Endocrine causes reduce height more than weight, and an early small head suggests an intrauterine or genetic cause.",
+    "note": "Order of loss: weight → height → head circumference."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-year-old's height has fallen from the 50th to the 9th centile over 18 months while his weight has stayed on the 75th, so he looks short and plump. Bone age is delayed. Which category of cause is most likely?",
+    "options": [
+     "An endocrine cause",
+     "Inadequate caloric intake",
+     "Familial short stature",
+     "Malabsorption from coeliac disease"
+    ],
+    "answer": 0,
+    "explain": "Short and plump with slowing height velocity and delayed bone age suggests hypothyroidism, GH deficiency or cortisol excess. Undernutrition and malabsorption make a child thin with weight falling first, and familial short stature has normal growth velocity and bone age.",
+    "note": "Short and plump with delayed bone age suggests an endocrine cause."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-month-old has faltering weight. History and examination reveal no red flags or dysmorphic features. What is the highest-yield next step in assessment?",
+    "options": [
+     "Sweat chloride test",
+     "Coeliac serology",
+     "Observe a feed",
+     "Skeletal survey"
+    ],
+    "answer": 2,
+    "explain": "Most failure to thrive is due to inadequate intake, and directly observing a feed reveals technique, volume, interaction and oromotor problems. Broad laboratory screening in a child without red flags has a very low yield.",
+    "note": "Highest-yield 'investigation': observe a feed."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 10-day-old breastfed baby has poor weight gain, vomiting after feeds, prolonged jaundice, hepatomegaly and E. coli sepsis. Bilateral cataracts are seen on red reflex testing. What is the most likely diagnosis?",
+    "options": [
+     "Galactosaemia",
+     "Cystic fibrosis",
+     "Hereditary fructose intolerance",
+     "Biliary atresia"
+    ],
+    "answer": 0,
+    "explain": "Galactosaemia presents in the first weeks of milk feeding (lactose → galactose) with vomiting, jaundice, liver dysfunction, cataracts and characteristic E. coli sepsis. Hereditary fructose intolerance presents only after weaning onto fruit, and biliary atresia causes conjugated jaundice without sepsis or cataracts.",
+    "note": "Meconium ileus → cystic fibrosis; neonatal jaundice and E. coli sepsis → galactosaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 3-month-old with a large ventricular septal defect sweats and tires during feeds and has fallen to below the 0.4th centile for weight. What is the main mechanism of his failure to thrive?",
+    "options": [
+     "Intestinal malabsorption from gut oedema",
+     "Increased protein loss through the kidneys",
+     "Higher energy expenditure combined with reduced intake",
+     "Acquired growth hormone resistance caused by chronic hypoxaemia"
+    ],
+    "answer": 2,
+    "explain": "Congenital heart disease with heart failure raises metabolic demand (tachypnoea, tachycardia) while breathlessness and fatigue limit feeding, so the energy balance is doubly negative. Malabsorption and protein loss are minor contributors at most.",
+    "note": "Congenital heart disease: increased energy expenditure plus reduced intake."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 15-month-old with failure to thrive is unkempt, has severe nappy dermatitis and has missed several appointments. During a 5-day hospital admission on a normal diet he gains weight rapidly. What is the most appropriate next step?",
+    "options": [
+     "Discharge with dietitian follow-up",
+     "Contact child protective services",
+     "Arrange a sweat chloride test",
+     "Start high-calorie formula and GP review"
+    ],
+    "answer": 1,
+    "explain": "Rapid catch-up weight gain on a normal diet in hospital shows that the problem was intake, and with signs of poor care this indicates neglect; child protective services (children's social care/safeguarding in the UK) must be contacted first. Neglect is the commonest form of maltreatment.",
+    "note": "Suspected abuse: first contact child protective services (CPS)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the organic and non-organic causes of failure to thrive.",
+    "back": "Non-organic (commonest): inadequate intake, feeding difficulty, neglect • Organic: CF (meconium ileus), coeliac, CHD, galactosaemia (jaundice, E. coli sepsis), enteropeptidase deficiency, renal, endocrine."
+   },
+   {
+    "type": "card",
+    "front": "How does the growth chart pattern point to the cause?",
+    "back": "Weight falls first, then height, then head → nutritional • short and plump, delayed bone age → endocrine • small head from early on → intrauterine, genetic or congenital infection."
+   },
+   {
+    "type": "card",
+    "front": "Contrast kwashiorkor and marasmus.",
+    "back": "Kwashiorkor: protein deficiency with oedema, swollen abdomen, fatty liver, skin/hair changes • Marasmus: total calorie deficiency with severe wasting, no oedema."
+   }
+  ]
+ },
+ "I-26": {
+  "summary": "Measure liver span rather than trusting a palpable edge, start with an FBC and film, and judge liver severity by the INR rather than the ALT. The rest of the frame is the company the organomegaly keeps: infection, haemolysis, storage disease or inflammation.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Approximately how much must the spleen enlarge before it becomes palpable below the left costal margin?",
+    "options": [
+     "About 2-3 times its normal size",
+     "About 1.2 times its normal size",
+     "About 5 times its normal size",
+     "About 10 times its normal size"
+    ],
+    "answer": 0,
+    "explain": "The spleen must roughly double or triple in size before its tip can be felt, so any palpable spleen beyond early infancy is significantly enlarged. Massive splenomegaly (crossing the midline or reaching the iliac fossa) suggests a narrower differential.",
+    "note": "A spleen must enlarge to about 2-3 times normal size before it is palpable."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "At a routine check, a well 3-month-old has a liver edge palpable 1.5 cm below the right costal margin. What is the most appropriate next step?",
+    "options": [
+     "Arrange an urgent abdominal CT scan",
+     "Send liver transaminases, bilirubin and a clotting screen",
+     "Percuss the upper border to measure liver span",
+     "Refer for a percutaneous liver biopsy"
+    ],
+    "answer": 2,
+    "explain": "A palpable liver edge is normal in infants and can reflect a low diaphragm rather than hepatomegaly; measuring the span by percussing the upper border distinguishes true enlargement from displacement. Investigations are unnecessary if the span is normal for age.",
+    "note": "Enlarged liver, spleen or both; a palpable liver edge is normal in infants, so measure the liver span."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-month-old has a protuberant abdomen with a large liver, a round 'doll-like' face, and becomes sweaty and irritable 3 hours after feeds. Investigations show hypoglycaemia, lactic acidosis, hyperlipidaemia and hyperuricaemia. What is the most likely diagnosis?",
+    "options": [
+     "Glycogen storage disease type I",
+     "Glycogen storage disease type II",
+     "Galactosaemia",
+     "Hereditary fructose intolerance"
+    ],
+    "answer": 0,
+    "explain": "Von Gierke disease (glucose-6-phosphatase deficiency) traps glycogen in the liver, causing hepatomegaly with fasting hypoglycaemia, lactate, lipids and urate. Pompe (type II) causes cardiomyopathy and hypotonia without hypoglycaemia, and galactosaemia and HFI are triggered by specific sugars.",
+    "note": "Infant hepatomegaly with fasting hypoglycaemia suggests von Gierke."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn is small for gestational age with microcephaly, jaundice, hepatosplenomegaly and purple papules ('blueberry muffin' rash). Cranial ultrasound shows periventricular calcification. What is the most likely cause?",
+    "options": [
+     "Congenital toxoplasmosis",
+     "Congenital rubella",
+     "Congenital cytomegalovirus",
+     "Congenital syphilis"
+    ],
+    "answer": 2,
+    "explain": "Periventricular calcification with microcephaly and a blueberry muffin rash (extramedullary haematopoiesis) is classic congenital CMV, also the commonest cause of non-genetic sensorineural deafness. Toxoplasmosis gives diffuse calcification and hydrocephalus; rubella gives cataracts and PDA.",
+    "note": "CMV newborn: blueberry muffin rash, jaundice; systemic JIA: spiking fevers, salmon-pink rash."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old has had daily fever spikes to 39.5°C for 3 weeks, returning to normal between spikes, with an evanescent salmon-pink rash during fevers, swollen knees and hepatosplenomegaly. What is the most likely diagnosis?",
+    "options": [
+     "Acute lymphoblastic leukaemia",
+     "Systemic juvenile idiopathic arthritis",
+     "Kawasaki disease",
+     "Infectious mononucleosis"
+    ],
+    "answer": 1,
+    "explain": "Quotidian spiking fevers with a salmon-pink rash that comes with the fever, arthritis and organomegaly define systemic JIA. Leukaemia must be excluded with a film (bone pain, cytopenias), Kawasaki causes persistent fever with conjunctivitis and mucosal changes, and EBV causes pharyngitis.",
+    "note": "CMV newborn: blueberry muffin rash, jaundice; systemic JIA: spiking fevers, salmon-pink rash."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A child with hepatomegaly has an ALT of 1,100 U/l. Which test best reflects the liver's synthetic function?",
+    "options": [
+     "Alanine aminotransferase",
+     "Alkaline phosphatase",
+     "Gamma-glutamyl transferase",
+     "Prothrombin time (INR)"
+    ],
+    "answer": 3,
+    "explain": "The INR reflects production of clotting factors and is the best marker of synthetic function and severity in liver disease. ALT measures hepatocyte injury, not function, while ALP and GGT reflect cholestasis.",
+    "note": "Synthetic function: prothrombin time (INR), not the ALT."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 7-year-old who had an umbilical venous catheter as a neonate has splenomegaly and oesophageal varices from portal vein thrombosis. His platelet count is 60 × 10⁹/l and his white count is mildly low, with a normal bone marrow. What is the most likely mechanism of his cytopenias?",
+    "options": [
+     "Autoimmune destruction of platelets (ITP)",
+     "Infiltration of the marrow by malignant cells",
+     "Consumption of platelets and clotting factors by DIC",
+     "Sequestration of blood cells in the enlarged spleen"
+    ],
+    "answer": 3,
+    "explain": "Hypersplenism from portal hypertension pools and destroys blood cells in the congested spleen, lowering the platelet count most. A normal marrow excludes infiltration, ITP would not explain the leucopenia or splenomegaly, and DIC would be acute with a coagulopathy.",
+    "note": "Hypersplenism: enlarged spleen sequesters blood cells and lowers the platelet count."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 9-year-old who moved from South Sudan 6 months ago has had intermittent fever and weight loss for 2 months. He has massive splenomegaly, hepatomegaly, pancytopenia and hypergammaglobulinaemia. What is the most likely diagnosis?",
+    "options": [
+     "Falciparum malaria",
+     "Visceral leishmaniasis",
+     "Infectious mononucleosis",
+     "Chronic myeloid leukaemia"
+    ],
+    "answer": 1,
+    "explain": "Months of fever, wasting, massive splenomegaly, pancytopenia and high globulins in a child from East Africa is visceral leishmaniasis (kala-azar). Malaria causes acute febrile paroxysms within weeks of exposure, EBV lasts weeks with pharyngitis, and CML causes leucocytosis rather than pancytopenia.",
+    "note": "EBV/infectious mononucleosis, CMV, hepatitis A, malaria, visceral leishmaniasis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of hepatosplenomegaly in children by category.",
+    "back": "Infection: EBV, CMV, hepatitis A, malaria, visceral leishmaniasis • haemolysis: hereditary spherocytosis • inflammatory: systemic JIA • storage: GSD I (von Gierke) • malignancy: leukaemia, lymphoma • portal hypertension."
+   },
+   {
+    "type": "card",
+    "front": "What is your initial approach to a child with hepatosplenomegaly?",
+    "back": "Measure liver span (palpable edge normal in infants) • first test: FBC and film • LFTs with INR for synthetic function (not ALT) • glucose (von Gierke) • ultrasound • treat the cause."
+   },
+   {
+    "type": "card",
+    "front": "Which features point to a specific cause of organomegaly?",
+    "back": "Fasting hypoglycaemia → von Gierke • blueberry muffin rash + jaundice in a newborn → CMV • spiking fevers + salmon-pink rash → systemic JIA • low platelets + big spleen → hypersplenism • EBV → no contact sport 4-6 weeks."
+   }
+  ]
+ },
+ "I-27": {
+  "summary": "In acute diarrhoea treat the child's hydration, not the stool: ORS works because SGLT1 is intact. In chronic diarrhoea the only question that matters is whether the child is growing; toddler's diarrhoea thrives, coeliac disease and CF do not.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "When assessing a child with acute diarrhoea, what is the first clinical priority?",
+    "options": [
+     "Sending a stool sample for culture",
+     "Identifying the causative pathogen",
+     "Assessing the degree of dehydration",
+     "Starting an antidiarrhoeal agent"
+    ],
+    "answer": 2,
+    "explain": "Morbidity and mortality in acute diarrhoea come from fluid and electrolyte loss, so the priority is to grade dehydration clinically and replace fluid. Stool testing rarely changes management, and antidiarrhoeals are not used in children.",
+    "note": "In acute diarrhoea the priority is assessing hydration, not the stool."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does oral rehydration solution work even in severe secretory or viral diarrhoea?",
+    "options": [
+     "The CFTR chloride channel is blocked by glucose",
+     "The sodium-glucose cotransporter (SGLT1) remains intact",
+     "Epithelial sodium channels (ENaC) are upregulated",
+     "Colonic Na-K-2Cl cotransporters are inhibited"
+    ],
+    "answer": 1,
+    "explain": "Glucose-coupled sodium absorption via SGLT1 in the small intestine stays functional during infective diarrhoea, and water follows sodium osmotically. That is why ORS needs both sodium and glucose in the right ratio.",
+    "note": "ORS works because the sodium-glucose cotransporter (SGLT1) stays intact."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An 18-month-old has rotavirus gastroenteritis with dry mucous membranes and reduced urine output but normal capillary refill and alertness. He is tolerating small sips. What is the most appropriate management?",
+    "options": [
+     "IV fluid bolus of 20 ml/kg 0.9% saline",
+     "Stop all milk and give only clear fluids for 48 hours",
+     "Oral loperamide and ORS after each stool",
+     "Small frequent volumes of ORS and continue feeding"
+    ],
+    "answer": 3,
+    "explain": "Mild-moderate dehydration is treated with ORS (for example 50 ml/kg over 4 hours) given little and often, with early reintroduction of normal feeds. IV fluids are used only if ORS fails or the child is shocked, prolonged fasting is outdated, and loperamide is not used in children.",
+    "note": "ORS and continue feeding; IV only if ORS fails."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 4-year-old develops bloody diarrhoea 3 days after visiting a petting farm, and stool culture grows E. coli O157. His parents ask for antibiotics to shorten the illness. What is the most appropriate response?",
+    "options": [
+     "Give oral ciprofloxacin to clear the organism and shorten the illness",
+     "Give azithromycin to prevent household spread",
+     "Give loperamide to reduce the stool frequency",
+     "Avoid antibiotics and monitor FBC, renal function and urine output"
+    ],
+    "answer": 3,
+    "explain": "Antibiotics in E. coli O157 increase Shiga toxin release and raise the risk of haemolytic uraemic syndrome, so management is supportive with monitoring for anaemia, thrombocytopenia and renal failure. Antimotility agents also increase HUS risk.",
+    "note": "Antibiotics in E. coli O157 raise the risk of haemolytic uraemic syndrome."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old passes 3-5 loose stools daily containing recognisable peas and carrots. He has no blood in the stool, is active, and has been growing steadily along the 50th centile. What is the most likely diagnosis?",
+    "options": [
+     "Coeliac disease",
+     "Toddler's diarrhoea",
+     "Cow's milk protein allergy",
+     "Chronic giardiasis"
+    ],
+    "answer": 1,
+    "explain": "Loose stools with undigested food in a thriving toddler is toddler's diarrhoea, a functional disorder related to rapid transit and diet (excess juice, low fat). Coeliac disease, allergy and giardiasis usually cause faltering growth or other features.",
+    "note": "Loose stools with recognisable food in a thriving 2-year-old = toddler's diarrhoea."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-year-old has had foul-smelling loose stools for 6 months, a distended abdomen and thin buttocks, and her weight has fallen from the 50th to the 9th centile since wheat was introduced. What is the most appropriate first investigation?",
+    "options": [
+     "Anti-tTG IgA with total IgA",
+     "Stool culture and microscopy",
+     "Faecal calprotectin alone",
+     "Diagnostic colonoscopy"
+    ],
+    "answer": 0,
+    "explain": "Chronic diarrhoea with faltering growth demands investigation, and coeliac disease is screened with tTG IgA plus total IgA, because IgA deficiency gives a false negative. Calprotectin screens for IBD, culture for infection, and colonoscopy is not first-line.",
+    "note": "Faltering growth: coeliac screen with tTG and total IgA, sweat test, calprotectin."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "An infant with chronic watery diarrhoea is kept nil by mouth on IV fluids for 24 hours, but her stool output continues unchanged. The stool osmotic gap is low. What type of diarrhoea is this?",
+    "options": [
+     "Osmotic diarrhoea",
+     "Inflammatory diarrhoea",
+     "Secretory diarrhoea",
+     "Dysmotility diarrhoea"
+    ],
+    "answer": 2,
+    "explain": "Secretory diarrhoea results from active chloride secretion and continues despite fasting, with a low stool osmotic gap. Osmotic diarrhoea (for example lactose intolerance) stops with fasting and has a high gap.",
+    "note": "Osmotic diarrhoea stops with fasting; secretory continues."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 5-year-old has had diarrhoea with visible blood for 2 days, with a temperature of 39.5°C and severe crampy abdominal pain. Which cause is most likely?",
+    "options": [
+     "Bacterial enteritis",
+     "Rotavirus gastroenteritis",
+     "Norovirus gastroenteritis",
+     "Toddler's diarrhoea"
+    ],
+    "answer": 0,
+    "explain": "Blood in the stool, high fever and severe pain suggest an invasive bacterial cause such as Campylobacter, Shigella, Salmonella or STEC. Rotavirus and norovirus cause most acute diarrhoea but produce watery, non-bloody stools.",
+    "note": "Acute: mostly rotavirus and norovirus; bacterial if bloody."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Outline your approach to acute versus chronic diarrhoea in a child.",
+    "back": "Acute: assess hydration first, mostly rotavirus/norovirus, bloody = bacterial • Chronic: is the child growing? Thriving → toddler's diarrhoea; faltering → tTG + total IgA, sweat test, calprotectin."
+   },
+   {
+    "type": "card",
+    "front": "Summarise the management principles of acute gastroenteritis.",
+    "back": "Grade dehydration clinically • ORS (SGLT1 intact) and continue feeding • IV only if ORS fails or shock • no loperamide • no routine antibiotics (E. coli O157 → HUS risk)."
+   },
+   {
+    "type": "card",
+    "front": "How do osmotic and secretory diarrhoea differ?",
+    "back": "Osmotic: stops with fasting, high stool osmotic gap (lactose intolerance, laxatives) • Secretory: continues with fasting, low gap (cholera, toxins, congenital chloride diarrhoea)."
+   }
+  ]
+ },
+ "I-28": {
+  "summary": "Bilious vomiting means obstruction distal to the ampulla and is malrotation with volvulus until proven otherwise. Projectile vomiting in a hungry 2-8-week-old is pyloric stenosis: a hypochloraemic, hypokalaemic alkalosis that is corrected before pyloromyotomy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Green (bilious) vomiting indicates obstruction at which level?",
+    "options": [
+     "Proximal to the pylorus",
+     "At the gastro-oesophageal junction",
+     "Within the gastric antrum",
+     "Distal to the ampulla of Vater"
+    ],
+    "answer": 3,
+    "explain": "Bile enters the duodenum at the ampulla of Vater, so bilious vomiting means obstruction beyond it, as in malrotation with volvulus, duodenal atresia distal to the ampulla, or jejunal atresia. Pyloric stenosis is proximal and therefore non-bilious.",
+    "note": "Green (bilious) vomit means obstruction distal to the ampulla of Vater."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 5-week-old firstborn boy has a week of worsening projectile, non-bilious vomiting after every feed and is hungry immediately afterwards. What is the imaging investigation of choice?",
+    "options": [
+     "Upper GI contrast study",
+     "Abdominal ultrasonography",
+     "Plain abdominal radiograph",
+     "Abdominal CT scan"
+    ],
+    "answer": 1,
+    "explain": "Ultrasound confirms pyloric stenosis by showing a thickened, elongated pyloric muscle without radiation. A contrast study is used for suspected malrotation or when ultrasound is unavailable, and plain films and CT add little.",
+    "note": "Pyloric stenosis imaging of choice: ultrasonography."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-week-old boy with pyloric stenosis has been vomiting for 10 days. Which blood gas and electrolyte pattern is expected?",
+    "options": [
+     "Hypochloraemic, hypokalaemic metabolic alkalosis",
+     "Hyperchloraemic, hyperkalaemic metabolic acidosis",
+     "Hyponatraemic, hyperkalaemic metabolic acidosis",
+     "Hypochloraemic, hyperkalaemic respiratory alkalosis"
+    ],
+    "answer": 0,
+    "explain": "Loss of gastric HCl causes hypochloraemic metabolic alkalosis, and renal potassium wasting (aldosterone, alkalosis) causes hypokalaemia. Hyponatraemia with hyperkalaemia and acidosis suggests salt-wasting CAH instead.",
+    "note": "Pyloric stenosis causes a hypochloraemic, hypokalaemic metabolic alkalosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "An infant with pyloric stenosis has a serum bicarbonate of 36 mmol/l, chloride 85 mmol/l and potassium 2.9 mmol/l, yet his urine pH is 5.5. What best explains the acidic urine?",
+    "options": [
+     "A coexisting distal renal tubular acidosis",
+     "Starvation ketosis leads to renal excretion of ketoacids in the urine",
+     "Volume and K⁺ depletion drive Na⁺ reabsorption in exchange for H⁺",
+     "Lactic acidosis from poor perfusion is developing"
+    ],
+    "answer": 2,
+    "explain": "Paradoxical aciduria occurs because hypovolaemia drives aldosterone-mediated sodium retention; with potassium depleted, the distal tubule exchanges sodium for hydrogen ions, so urine becomes acidic despite systemic alkalosis. This resolves only once chloride, volume and potassium are replaced.",
+    "note": "Urine is acidic despite alkalosis: paradoxical aciduria."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-week-old with ultrasound-confirmed pyloric stenosis has a bicarbonate of 34 mmol/l and chloride of 88 mmol/l. The surgeon has an operating slot in 1 hour. What is the most appropriate plan?",
+    "options": [
+     "Correct fluids and electrolytes, then operate once normal",
+     "Operate in 1 hour, correcting electrolytes during surgery",
+     "Give IV sodium bicarbonate to correct the gas first",
+     "Start IV acetazolamide and operate next day"
+    ],
+    "answer": 0,
+    "explain": "Pyloric stenosis is not a surgical emergency: alkalosis must be corrected first (0.9% saline with glucose and potassium) because it causes post-operative apnoea from respiratory depression. Bicarbonate would worsen the alkalosis.",
+    "note": "Correct fluids and electrolytes before surgery; alkalosis risks post-operative apnoea."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-day-old boy with normal male genitalia presents with vomiting, poor feeding and shock. Sodium is 122 mmol/l, potassium 7.2 mmol/l and glucose 2.4 mmol/l. What is the most likely diagnosis?",
+    "options": [
+     "Hypertrophic pyloric stenosis",
+     "Malrotation with midgut volvulus",
+     "Salt-wasting congenital adrenal hyperplasia",
+     "Inborn error of urea cycle"
+    ],
+    "answer": 2,
+    "explain": "Shock with hyponatraemia, hyperkalaemia and hypoglycaemia in the second week of life is a salt-wasting adrenal crisis from 21-hydroxylase deficiency; boys have normal genitalia, so they are missed until crisis. Pyloric stenosis causes hypokalaemic alkalosis and usually presents later.",
+    "note": "Neonate with shock, hyponatraemia, hyperkalaemia = salt-wasting congenital adrenal hyperplasia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-day-old term baby starts vomiting dark green fluid. He is otherwise well, with a soft, non-distended abdomen. What is the most appropriate next step?",
+    "options": [
+     "Observe and continue normal feeds",
+     "Urgent upper GI contrast study",
+     "Plain abdominal radiograph alone, then discharge",
+     "Change to a hydrolysed formula"
+    ],
+    "answer": 1,
+    "explain": "Bilious vomiting in a neonate is malrotation with volvulus until proven otherwise, and a soft abdomen does not exclude it; an urgent upper GI contrast study shows the position of the duodenojejunal flexure. Delay risks loss of the entire midgut.",
+    "note": "Bilious vomiting: urgent exclusion of malrotation with volvulus."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "Which operation is performed for infantile hypertrophic pyloric stenosis?",
+    "options": [
+     "Heller cardiomyotomy",
+     "Ladd's procedure",
+     "Kasai portoenterostomy",
+     "Ramstedt pyloromyotomy"
+    ],
+    "answer": 3,
+    "explain": "Ramstedt pyloromyotomy splits the hypertrophied pyloric muscle down to the mucosa. Heller myotomy treats achalasia, Ladd's procedure treats malrotation, and Kasai portoenterostomy treats biliary atresia.",
+    "note": "Operation: Ramstedt pyloromyotomy; volvulus → emergency surgery."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of vomiting by age group.",
+    "back": "Neonate: malrotation/volvulus, atresias, Hirschsprung, salt-wasting CAH • Infant: pyloric stenosis, intussusception, GORD • Older: gastroenteritis, appendicitis, DKA, raised ICP."
+   },
+   {
+    "type": "card",
+    "front": "Summarise pyloric stenosis: presentation, biochemistry, imaging and treatment.",
+    "back": "2-8 weeks, firstborn boy, projectile non-bilious vomiting, hungry • hypochloraemic hypokalaemic alkalosis, paradoxical aciduria • ultrasound • correct fluids first (apnoea risk) → Ramstedt pyloromyotomy."
+   },
+   {
+    "type": "card",
+    "front": "What are the red flags in a vomiting child?",
+    "back": "Bilious (malrotation/volvulus → urgent contrast, surgery) • projectile • blood • early-morning vomiting with headache (raised ICP) • shock with hyponatraemia/hyperkalaemia (CAH) • abdominal distension • Kussmaul breathing (DKA)."
+   }
+  ]
+ },
+ "I-29": {
+  "summary": "Appendicitis is the commonest acute abdomen, but the differential is sorted by age: NEC and volvulus in neonates, intussusception in toddlers, appendicitis at school age, torsion in adolescents. Always check the chest, urine, glucose and scrotum.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What is the commonest cause of an acute surgical abdomen in children?",
+    "options": [
+     "Intussusception",
+     "Testicular torsion",
+     "Acute appendicitis",
+     "Mesenteric adenitis"
+    ],
+    "answer": 2,
+    "explain": "Appendicitis is the commonest acute surgical abdomen in children overall, peaking in school age and adolescence. Intussusception dominates in infants and toddlers; mesenteric adenitis is common but not surgical.",
+    "note": "The commonest cause of an acute abdomen in children is appendicitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 8-year-old has a day of abdominal pain that began around the umbilicus and has moved to the right iliac fossa. He has not wanted to eat, his temperature is 37.9°C, and he is tender with guarding at McBurney's point. What is the most likely diagnosis?",
+    "options": [
+     "Acute appendicitis",
+     "Mesenteric adenitis",
+     "Viral gastroenteritis",
+     "Constipation"
+    ],
+    "answer": 0,
+    "explain": "Central pain migrating to the RLQ with anorexia, low-grade fever and localised guarding is classic appendicitis. Mesenteric adenitis follows a URTI with diffuse tenderness and higher fever, gastroenteritis has prominent diarrhoea, and constipation lacks fever and guarding.",
+    "note": "Appendicitis: central pain moving to RLQ, anorexia, low fever."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 9-month-old has episodes of inconsolable crying every 15-20 minutes, during which he draws up his legs and goes pale. He is lethargic between episodes, has vomited, and has passed a 'redcurrant jelly' stool. What is the most likely diagnosis?",
+    "options": [
+     "Malrotation with volvulus",
+     "Incarcerated inguinal hernia",
+     "Intussusception",
+     "Meckel's diverticulum"
+    ],
+    "answer": 2,
+    "explain": "Paroxysmal colicky pain with pallor and lethargy, vomiting and a redcurrant jelly stool in an infant is intussusception, the typical acute abdomen at this age (ileocolic, often a sausage-shaped mass). Meckel's diverticulum causes painless rectal bleeding.",
+    "note": "Sort by age: neonate NEC and volvulus; toddler intussusception; school age appendicitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 12-year-old boy has sudden lower abdominal pain and vomiting for 3 hours. His abdomen is soft with mild suprapubic tenderness. Which part of the examination must not be omitted?",
+    "options": [
+     "Digital rectal examination",
+     "Examination of the scrotum and testes",
+     "Examination of the hip joints",
+     "Fundoscopy for papilloedema"
+    ],
+    "answer": 1,
+    "explain": "Testicular torsion often presents as lower abdominal pain and vomiting, and boys may not mention the scrotum, so the scrotum is one of the four 'free checks' with the chest, urine dipstick and glucose. Rectal examination adds little in children.",
+    "note": "Four free checks: chest, urine dipstick, glucose, scrotum in boys."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 10-year-old hits the handlebars of his bike, has left upper quadrant pain, and is discharged after observation with stable vital signs. Two days later he collapses with tachycardia and hypotension. What is the most likely mechanism?",
+    "options": [
+     "Rupture of a traumatic pancreatic pseudocyst",
+     "Obstruction from an intramural duodenal haematoma",
+     "Delayed perforation of the transverse colon",
+     "Delayed rupture of a subcapsular splenic haematoma"
+    ],
+    "answer": 3,
+    "explain": "Two-stage splenic rupture occurs when a subcapsular haematoma expands and then ruptures hours to days after injury, causing haemorrhagic shock. A duodenal haematoma causes bilious vomiting, a pseudocyst forms over weeks, and perforation causes peritonitis rather than sudden shock.",
+    "note": "Two-stage splenic rupture: subcapsular haematoma, shock hours to days later."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 10-day-old baby born at 29 weeks develops feed intolerance, abdominal distension, bilious aspirates and bloody stools. Abdominal X-ray shows intramural gas. What is the most likely diagnosis?",
+    "options": [
+     "Malrotation with volvulus",
+     "Hirschsprung enterocolitis",
+     "Meconium ileus",
+     "Necrotising enterocolitis"
+    ],
+    "answer": 3,
+    "explain": "A preterm neonate with distension, bloody stools and pneumatosis intestinalis has necrotising enterocolitis, one of the two key neonatal acute abdomens with volvulus. Hirschsprung enterocolitis occurs mainly in term babies with delayed meconium, and meconium ileus presents at birth.",
+    "note": "Sort by age: neonate NEC and volvulus; toddler intussusception; school age appendicitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 9-year-old has 24 hours of right lower quadrant pain with guarding and rebound tenderness. HR is 118/min, BP 102/64 mmHg, and capillary refill 2 seconds. What is the most appropriate next step?",
+    "options": [
+     "Discharge with oral antibiotics and safety-netting advice",
+     "Urgent surgical referral with IV fluids and analgesia",
+     "Give laxatives and reassess in 24 hours",
+     "Arrange outpatient ultrasound within a week"
+    ],
+    "answer": 1,
+    "explain": "Peritonism (guarding, rebound) mandates surgical referral, with resuscitation, analgesia and IV antibiotics as needed. Analgesia does not mask signs and should never be withheld; outpatient imaging or laxatives risk perforation.",
+    "note": "Peritonism → surgical referral; resuscitate if unstable."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old has severe left testicular pain for 4 hours with vomiting. The testis lies high and horizontally, and the cremasteric reflex is absent. What is the most appropriate next step?",
+    "options": [
+     "Immediate surgical exploration",
+     "Doppler ultrasound, then decide",
+     "Analgesia and oral antibiotics",
+     "Manual detorsion, then discharge"
+    ],
+    "answer": 0,
+    "explain": "Clinical testicular torsion goes straight to theatre, because salvage falls sharply after about 6 hours; ultrasound should not delay surgery when the diagnosis is clinically clear. Manual detorsion is only a temporising measure and still requires bilateral fixation.",
+    "note": "Salvage of a torted testis falls sharply after about 6 hours."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of acute abdomen in children by age.",
+    "back": "Neonate: NEC, malrotation/volvulus • toddler: intussusception • school age: appendicitis • adolescent: testicular/ovarian torsion, ectopic and other gynaecological causes • any age: trauma (splenic rupture), DKA, pneumonia."
+   },
+   {
+    "type": "card",
+    "front": "What are the 'four free checks' in a child with abdominal pain, and why?",
+    "back": "Chest (lower lobe pneumonia) • urine dipstick (UTI, glucose) • blood glucose (DKA) • scrotum in boys (torsion)."
+   },
+   {
+    "type": "card",
+    "front": "Why does appendicitis pain start periumbilically, and what are the classic features?",
+    "back": "Appendix is a midgut organ; visceral afferents enter the cord at T10 → periumbilical pain, then parietal peritoneum irritation → RLQ • anorexia, low fever, guarding."
+   }
+  ]
+ },
+ "I-30": {
+  "summary": "With a childhood abdominal mass, first exclude benign causes (bladder, stool, hydronephrosis), then separate the well 3-year-old with a smooth flank mass that respects the midline (Wilms) from the unwell toddler whose mass crosses it (neuroblastoma). Image with ultrasound and do not keep palpating.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest origin of an abdominal mass in a newborn?",
+    "options": [
+     "Hepatic, such as hepatoblastoma or infantile hepatic haemangioma",
+     "Renal, such as hydronephrosis or multicystic dysplastic kidney",
+     "Adrenal, such as neuroblastoma or haemorrhage",
+     "Intestinal, such as a duplication cyst"
+    ],
+    "answer": 1,
+    "explain": "Most neonatal abdominal masses are renal, most often hydronephrosis (for example pelviureteric junction obstruction) or multicystic dysplastic kidney. Neuroblastoma and hepatic tumours are much rarer.",
+    "note": "Neonate: most masses are renal (hydronephrosis, multicystic dysplastic kidney)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A well 3-year-old girl has a smooth left flank mass found by her mother at bath time. It does not cross the midline, there is microscopic haematuria, and BP is raised. What is the most likely diagnosis?",
+    "options": [
+     "Neuroblastoma",
+     "Hepatoblastoma",
+     "Multicystic dysplastic kidney",
+     "Wilms tumour"
+    ],
+    "answer": 3,
+    "explain": "A smooth unilateral flank mass in a well child aged 3-4 years with haematuria and hypertension is Wilms tumour. Neuroblastoma usually affects children under 2 who are unwell, with an irregular mass crossing the midline, and MCDK presents in the neonate.",
+    "note": "Wilms: peaks 3-4 years, well child, smooth mass, does not cross the midline, haematuria."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A miserable 18-month-old has weight loss, bilateral periorbital bruising, and a hard, irregular abdominal mass crossing the midline. Which urine test supports the diagnosis?",
+    "options": [
+     "Raised 5-hydroxyindoleacetic acid",
+     "Raised urinary free cortisol",
+     "Raised urinary beta-hCG level",
+     "Raised vanillylmandelic and homovanillic acid"
+    ],
+    "answer": 3,
+    "explain": "An unwell toddler with a midline-crossing mass and 'raccoon eyes' (orbital metastases) has neuroblastoma; its catecholamine metabolites VMA and HVA are raised in the urine. 5-HIAA is raised in carcinoid, and beta-hCG in germ cell tumours.",
+    "note": "Neuroblastoma: raised urinary VMA and HVA; small blue round cells, Homer-Wright rosettes."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "What is the first-line imaging investigation for a palpable abdominal mass in a child?",
+    "options": [
+     "Contrast-enhanced CT",
+     "Abdominal ultrasound",
+     "Abdominal MRI",
+     "Plain abdominal radiograph"
+    ],
+    "answer": 1,
+    "explain": "Ultrasound is quick, radiation-free and identifies the organ of origin, whether the mass is cystic or solid, and vascular involvement (for example tumour thrombus in the IVC). CT or MRI follows for staging.",
+    "note": "Abdominal ultrasound first."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 2-year-old has absent irises bilaterally, hypospadias with undescended testes, and developmental delay. Which tumour requires regular ultrasound surveillance?",
+    "options": [
+     "Wilms tumour",
+     "Neuroblastoma",
+     "Retinoblastoma",
+     "Hepatoblastoma"
+    ],
+    "answer": 0,
+    "explain": "Aniridia with genitourinary anomalies and intellectual disability is WAGR syndrome (11p13 deletion including WT1), which carries a high risk of Wilms tumour, so renal ultrasound surveillance is performed. Aniridia is not associated with retinoblastoma.",
+    "note": "Wilms: WAGR (aniridia), Beckwith-Wiedemann syndrome, hemihypertrophy; neuroblastoma: neural crest, N-myc."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "On a teaching ward round, a 3-year-old with a newly found smooth renal mass is admitted, and several students ask to examine her abdomen. What is the most appropriate action?",
+    "options": [
+     "Allow each student a gentle examination",
+     "Perform deep palpation to assess mobility",
+     "Restrict abdominal palpation to a single senior examination",
+     "Allow the students to examine her only after sedating the child"
+    ],
+    "answer": 2,
+    "explain": "Repeated palpation of a suspected Wilms tumour risks capsular rupture and tumour spillage, which upstages the disease and worsens prognosis. Examination should be limited, and imaging used to define the mass.",
+    "note": "A suspected Wilms tumour must not be repeatedly palpated."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 4-year-old has a confirmed Wilms tumour. Which site is the commonest location of distant metastases, and so must be imaged at staging?",
+    "options": [
+     "Lungs",
+     "Bone marrow",
+     "Skeleton",
+     "Orbits"
+    ],
+    "answer": 0,
+    "explain": "Wilms tumour arises from metanephric blastema and spreads mainly haematogenously to the lungs, so chest CT is part of staging. Bone marrow, skeletal and orbital metastases are characteristic of neuroblastoma.",
+    "note": "Wilms arises from metanephric mesenchyme (blastema); it spreads mostly to the lungs."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old in a European centre has an imaging-confirmed unilateral Wilms tumour without metastases. Under the SIOP protocol, what is the standard initial treatment?",
+    "options": [
+     "Immediate nephrectomy, then chemotherapy",
+     "Radiotherapy alone without surgery",
+     "Preoperative chemotherapy, then nephrectomy",
+     "Open biopsy and surveillance only"
+    ],
+    "answer": 2,
+    "explain": "SIOP (Europe) gives preoperative chemotherapy (vincristine ± actinomycin D) to shrink the tumour and reduce rupture risk before nephrectomy. The North American COG approach usually operates first, then stages and treats.",
+    "note": "Europe (SIOP): chemotherapy before surgery; US (COG): usually operate first."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish Wilms tumour from neuroblastoma?",
+    "back": "Wilms: 3-4 y, well, smooth flank mass, does not cross midline, haematuria, HTN, lung mets • Neuroblastoma: < 2 y, unwell, irregular mass crosses midline, raccoon eyes, opsoclonus-myoclonus, raised VMA/HVA, bone mets."
+   },
+   {
+    "type": "card",
+    "front": "List the genetic associations of Wilms tumour and neuroblastoma.",
+    "back": "Wilms: WAGR (aniridia, WT1), Beckwith-Wiedemann (macroglossia, organomegaly), hemihypertrophy, Denys-Drash • Neuroblastoma: neural crest origin, N-myc amplification = poor prognosis; Homer-Wright rosettes."
+   },
+   {
+    "type": "card",
+    "front": "How do you approach an abdominal mass in a child?",
+    "back": "Exclude benign causes (bladder, faeces, hydronephrosis/MCDK in neonates) • ultrasound first • do not palpate repeatedly • urinary VMA/HVA • CT/MRI staging • Wilms: SIOP chemo first vs COG surgery first."
+   }
+  ]
+ }
+}

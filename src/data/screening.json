@@ -1,0 +1,608 @@
+[
+ {
+  "n": 1,
+  "q": "Imaging modality of choice when evaluating a child for infantile hypertrophic pyloric stenosis:",
+  "a": "ultrasonography.",
+  "topicId": "I-28"
+ },
+ {
+  "n": 2,
+  "q": "Typical age of intussusception in children:",
+  "a": "3 months - 3 years",
+  "topicId": "III-46"
+ },
+ {
+  "n": 3,
+  "q": "What are the two typical anamnestic features of acute appendicitis?",
+  "a": "First epigastrial and paraumbilical pain, later the pain is localized on the right lower abdominal quadrant.",
+  "topicId": "III-48"
+ },
+ {
+  "n": 4,
+  "q": "Imaging study of the polytraumatized patient:",
+  "a": "acute CT.",
+  "topicId": "I-29",
+  "caveat": "Exam answer as given. Current trauma guidance (ATLS/NICE) in children prefers selective, targeted CT to limit radiation."
+ },
+ {
+  "n": 5,
+  "q": "Most common cause of acute abdomen in children:",
+  "a": "appendicitis.",
+  "topicId": "I-29"
+ },
+ {
+  "n": 6,
+  "q": "What is the first test in case of bloody stool:",
+  "a": "digital rectal examination.",
+  "topicId": "I-13"
+ },
+ {
+  "n": 7,
+  "q": "What is two-stage splenic rupture?",
+  "a": "Splenic rupture occurs in two stages. Initial subcapsular haematoma formation may have only mild symptoms, later second stage may occur after hours or days, and is usually characterised by the rapid development of shock, as the spleen and mesentery tend to bleed rapidly and copiously.",
+  "topicId": "I-29"
+ },
+ {
+  "n": 8,
+  "q": "Which is the most common cause of strangulation ileus?",
+  "a": "Incarcerated hernia.",
+  "topicId": "III-46"
+ },
+ {
+  "n": 9,
+  "q": "The most common cause of transfusion-requiring haematochezia, without abdominal pain and without diarrhoea:",
+  "a": "Meckel’s diverticulum",
+  "topicId": "I-13"
+ },
+ {
+  "n": 10,
+  "q": "You find a high GGT in a patient with ulcerative colitis, what should you think about?",
+  "a": "Sclerosing cholangitis.",
+  "topicId": "III-43"
+ },
+ {
+  "n": 11,
+  "q": "What are the features of the perianal fissures in a patient with Crohn’s disease?",
+  "a": "Not in the midline, deep, not painful.",
+  "topicId": "III-43"
+ },
+ {
+  "n": 12,
+  "q": "What is the first therapeutic choice in Crohn’s disease?",
+  "a": "Exclusive enteral nutrition.",
+  "topicId": "III-43"
+ },
+ {
+  "n": 13,
+  "q": "Which are the 4 most important physical signs of congenital heart diseases?",
+  "a": "Heart murmur, heart failure, cyanosis and peripheral pulse abnormalities.",
+  "topicId": "III-35"
+ },
+ {
+  "n": 14,
+  "q": "Which congenital heart disease predispose to cyanotic (hypoxic) spell?",
+  "a": "Tetralogy of Fallot",
+  "topicId": "III-34"
+ },
+ {
+  "n": 15,
+  "q": "In case of thoracic empyema after drainage or thoracoscopy, what kind of method is used in order to dissolve the thick, highly viscous pleural fluid (pus)?",
+  "a": "Fibrinolysis/urokinase/streptokinase",
+  "topicId": "III-28"
+ },
+ {
+  "n": 16,
+  "q": "What are the two most frequent chest deformities?",
+  "a": "Pectus excavatum and pectus carinatum.",
+  "topicId": "II-20"
+ },
+ {
+  "n": 17,
+  "q": "What are typical signs of bacterial otitis externa?",
+  "a": "Pain and/or sensitivity of the tragus.",
+  "topicId": "III-27"
+ },
+ {
+  "n": 18,
+  "q": "What are the 4 most important indication of adenectomy?",
+  "a": "Recurrent infections of the upper respiratory tract, otitis media, inhibition of nasal breathing, obstructive sleeping apnoea.",
+  "topicId": "III-25"
+ },
+ {
+  "n": 19,
+  "q": "The most frequent pathogen of sinusitis and otitis media?",
+  "a": "S. pneumoniae.",
+  "topicId": "III-27"
+ },
+ {
+  "n": 20,
+  "q": "In which case of inflammatory disease of the middle ear can we suggest tympanostomy tubes (Grommet)?",
+  "a": "Chronic serous otitis media and/or chronic dysfunction of the Eustachian tube.",
+  "topicId": "III-27"
+ },
+ {
+  "n": 21,
+  "q": "What is the most frequent pathogen in urinary tract infections?",
+  "a": "E. Coli.",
+  "topicId": "III-11"
+ },
+ {
+  "n": 22,
+  "q": "What can we find in the urine, in the case of glomerulonephritis?",
+  "a": "Red blood cells with red blood cell casts and most commonly in association with proteinuria",
+  "topicId": "III-13"
+ },
+ {
+  "n": 23,
+  "q": "What is the most frequent cause of hypertension before the adolescent age?",
+  "a": "Kidney disease.",
+  "topicId": "I-19"
+ },
+ {
+  "n": 24,
+  "q": "Which is the most frequent glomerulonephritis type?",
+  "a": "IgA nephropathy.",
+  "topicId": "III-13"
+ },
+ {
+  "n": 25,
+  "q": "What kind of antihypertensive drug would you recommend in hyperkinetic hypertension?",
+  "a": "Beta-blocker.",
+  "topicId": "I-19"
+ },
+ {
+  "n": 26,
+  "q": "What is the prognosis of West-syndrome or infantile spasm?",
+  "a": "Usually poor.",
+  "topicId": "I-2"
+ },
+ {
+  "n": 27,
+  "q": "What is the essential criterion of cerebral palsy?",
+  "a": "Non-progressive, residual brain injury.",
+  "topicId": "III-52"
+ },
+ {
+  "n": 28,
+  "q": "Which pathogen does cause most commonly typical pneumonia?",
+  "a": "S. pneumoniae.",
+  "topicId": "III-28"
+ },
+ {
+  "n": 29,
+  "q": "What are the two main components of the home treatment of pseudocroup?",
+  "a": "Rectal steroid, inhalation of (fresh) cool air.",
+  "topicId": "I-22",
+  "caveat": "Hungarian practice is a rectal steroid suppository. Elsewhere a single oral dose of dexamethasone 0.15 mg/kg is standard."
+ },
+ {
+  "n": 30,
+  "q": "What is the most common cause of acute cough?",
+  "a": "Viral infection of the respiratory tract.",
+  "topicId": "I-20"
+ },
+ {
+  "n": 31,
+  "q": "What is the significance of Holzknecht sign?",
+  "a": "Airway foreign body aspiration.",
+  "topicId": "I-54"
+ },
+ {
+  "n": 32,
+  "q": "What is the most common cause of coughing, which has been presenting since birth and occurring always during feeding?",
+  "a": "Tracheoesophageal fistula.",
+  "topicId": "I-20"
+ },
+ {
+  "n": 33,
+  "q": "How much part of the mortality is caused by accidents in the children older than 1 year, in Hungary?",
+  "a": "36-40%, this is the main cause of death in children older than 1 year.",
+  "topicId": "II-7"
+ },
+ {
+  "n": 34,
+  "q": "What is the prognosis of juvenile absence epilepsy?",
+  "a": "Usually particularly favourable.",
+  "topicId": "I-2"
+ },
+ {
+  "n": 35,
+  "q": "What is the indication of ACTH as an anticonvulsant drug?",
+  "a": "West syndrome/infantile spasm/BNS epilepsy.",
+  "topicId": "I-2"
+ },
+ {
+  "n": 36,
+  "q": "What can prevent coronary artery disease (aneurysm) in Kawasaki syndrome?",
+  "a": "Intravenous immunoglobulin (IVIG).",
+  "topicId": "I-6"
+ },
+ {
+  "n": 37,
+  "q": "List the most important 3 clinical symptoms of NEC.",
+  "a": "Abdominal distension, nutritional intolerance, bloody stool.",
+  "topicId": "II-42"
+ },
+ {
+  "n": 38,
+  "q": "What is the most serious complication of juvenile idiopathic arthritis?",
+  "a": "Macrophage activation syndrome (MAS).",
+  "topicId": "II-21"
+ },
+ {
+  "n": 39,
+  "q": "Which muscles are affected in juvenile polymyositis?",
+  "a": "Proximal muscles of the limbs.",
+  "topicId": "III-9"
+ },
+ {
+  "n": 40,
+  "q": "What is the test for acute leukaemia?",
+  "a": "Bone marrow examination.",
+  "topicId": "II-47"
+ },
+ {
+  "n": 41,
+  "q": "When can we expect the onset of symptoms of Wilson disease?",
+  "a": "After 4-5 years of age.",
+  "topicId": "III-41"
+ },
+ {
+  "n": 42,
+  "q": "What is the proper approach to a child with haemophilia who suffered a head trauma – even if he did not faint?",
+  "a": "Immediate administration of the coagulation factor concentrates (FVIII/FIX/bypassing agent) which the child/family keeps with the child and referring him to the closest haemophilia treatment centre.",
+  "topicId": "I-41"
+ },
+ {
+  "n": 43,
+  "q": "What is the typical feature of stool in biliary atresia?",
+  "a": "Clay-coloured (acholic) stool.",
+  "topicId": "III-42"
+ },
+ {
+  "n": 44,
+  "q": "What kind of diseases are included in `atopic march` and in which order?",
+  "a": "Food allergy - atopic dermatitis – bronchial asthma - allergic rhinitis.",
+  "topicId": "III-32",
+  "caveat": "Exam answer as given. Most literature puts atopic dermatitis first, often appearing together with food allergy."
+ },
+ {
+  "n": 45,
+  "q": "What is the frequency of food allergy in childhood according to the parents and in the reality (after elimination and re-challenge)?",
+  "a": "Approx. 7-10%, and 1-2 %, respectively.",
+  "topicId": "III-32"
+ },
+ {
+  "n": 46,
+  "q": "How to diagnose food allergy - how reliable is allergen-specific IgE testing?",
+  "a": "Allergen specific IgE is not totally reliable. Elimination diet, and after the symptoms disappear, allergen re-challenge is the suggested method of diagnosis.",
+  "topicId": "III-32"
+ },
+ {
+  "n": 47,
+  "q": "What is the minimal IgA concentration to reliably evaluate IgA-based anti-tissue transglutaminase (tTG) and anti-endomyseal antibody (EMA) results as diagnostic tests of coeliac disease?",
+  "a": "0.2 g/l",
+  "topicId": "III-39"
+ },
+ {
+  "n": 48,
+  "q": "Which 3 criteria are required in order to avoid biopsy in a child with suspected celiac disease?",
+  "a": "1. Positive clinical signs and symptoms. 2. Positive tissue-transglutaminase (tTG) antibody AND endomysial antibody (EMA). 3. Positive genetics (HLA-DQ2 and/or -DQ8).",
+  "topicId": "III-39",
+  "caveat": "These are the ESPGHAN 2012 criteria the university uses. ESPGHAN 2020 needs only tTG-IgA ≥10× ULN plus a positive EMA on a second sample; symptoms and HLA are no longer required."
+ },
+ {
+  "n": 49,
+  "q": "What is the diagnostic basis of endocarditis?",
+  "a": "Haemoculture and echocardiography.",
+  "topicId": "III-38"
+ },
+ {
+  "n": 50,
+  "q": "What are the upper airway infections that should be treated with antibiotics?",
+  "a": "Streptococcus angina, acute otitis media and acute bacterial sinusitis.",
+  "topicId": "III-26"
+ },
+ {
+  "n": 51,
+  "q": "What is the diagnostic basis of erythema migrans?",
+  "a": "The fact of tick bite and the clinical picture: growing erythema, which is more than 5 cm in diameter.",
+  "topicId": "II-10"
+ },
+ {
+  "n": 52,
+  "q": "What is the ideal age for closing the soft palate defect?",
+  "a": "1 year of age",
+  "topicId": "III-45"
+ },
+ {
+  "n": 53,
+  "q": "What is the most likely diagnosis in the following case: patient with polyuria, polydipsia with positive urine glucose and acetone test?",
+  "a": "Diabetes mellitus.",
+  "topicId": "III-1"
+ },
+ {
+  "n": 54,
+  "q": "Patient with typical symptoms has a 18,2 mmol/l blood sugar level in the afternoon. What is to be done?",
+  "a": "Direct the child to a paediatric diabetic centre immediately.",
+  "topicId": "III-1"
+ },
+ {
+  "n": 55,
+  "q": "What kind of hormonal changes are seen in the salt wasting form of congenital adrenal hyperplasia due to deficiency of 21-hydroxylase?",
+  "a": "Insufficient glucocorticoid and mineralocorticoid secretion, excessive androgen secretion.",
+  "topicId": "III-5"
+ },
+ {
+  "n": 56,
+  "q": "How does the mother iodine deficiency influence the newborn’s thyroid function?",
+  "a": "It results temporary primary hypothyroidism.",
+  "topicId": "III-6"
+ },
+ {
+  "n": 57,
+  "q": "Which is the most common adrenocortical enzyme defect?",
+  "a": "The defect of the 21-hydroxylase enzyme.",
+  "topicId": "III-5"
+ },
+ {
+  "n": 58,
+  "q": "You experience low blood sugar level in an infant, who has normal temperature and hepatomegaly, what disease do you think of?",
+  "a": "Type I. glycogenosis - von Gierke disease.",
+  "topicId": "III-23"
+ },
+ {
+  "n": 59,
+  "q": "What are the most typical histologic findings in ulcerative colitis?",
+  "a": "Crypt abscesses.",
+  "topicId": "III-43"
+ },
+ {
+  "n": 60,
+  "q": "Name at least 5 extraintestinal abnormalities in celiac disease:",
+  "a": "hepatitis, osteoporosis, arthritis, isolated iron deficiency, Duhring-disease (dermatitis herpetiformis).",
+  "topicId": "III-39"
+ },
+ {
+  "n": 61,
+  "q": "What is the definition of “graft versus leukaemia”?",
+  "a": "Immunologic attack of donor cells against patient’s leukemic cells.",
+  "topicId": "II-47"
+ },
+ {
+  "n": 62,
+  "q": "What is haploidentical transplant?",
+  "a": "A haploidentical transplant is a type of allogeneic transplant. It uses healthy, stem cells from a half- matched donor to replace the unhealthy ones. The donor is typically a family member.",
+  "topicId": "II-47"
+ },
+ {
+  "n": 63,
+  "q": "What does allogeneic stem cell transplant mean?",
+  "a": "The patient (recipient) gets haemopoietic stem cells from another person (donor).",
+  "topicId": "II-47"
+ },
+ {
+  "n": 64,
+  "q": "What are the 3 most important symptoms in Basedow’s disease?",
+  "a": "Weight loss, tachycardia, Graefe symptom.",
+  "topicId": "III-6"
+ },
+ {
+  "n": 65,
+  "q": "Which are the 4 presenting symptoms of diabetes mellitus?",
+  "a": "Polyuria, polydypsia, loss of body weight despite of good appetite, fatigue-weakness.",
+  "topicId": "III-1"
+ },
+ {
+  "n": 66,
+  "q": "What are the most common associated diseases in patients with type 1 diabetes mellitus?",
+  "a": "Celiac disease and Hashimoto thyroiditis.",
+  "topicId": "III-1"
+ },
+ {
+  "n": 67,
+  "q": "What is the most modern therapeutic method of type one diabetes?",
+  "a": "Insulin pump with an integrated glucose sensor.",
+  "topicId": "III-1"
+ },
+ {
+  "n": 68,
+  "q": "How much is the starting insulin dose in diabetic ketoacidosis?",
+  "a": "0.05-0.1 U/kg/h",
+  "topicId": "III-1"
+ },
+ {
+  "n": 69,
+  "q": "Since the introduction of expanded screening, how many congenital metabolic diseases are screened routinely in Hungary?",
+  "a": "26.",
+  "topicId": "II-6"
+ },
+ {
+  "n": 70,
+  "q": "Biliary atresia is the most common cause of childhood liver transplantation. This can be avoided by early diagnosis. What age should this be diagnosed with?",
+  "a": "Earlier, but no later than 6 weeks of infancy.",
+  "topicId": "III-42"
+ },
+ {
+  "n": 71,
+  "q": "How often should be a baby breastfed?",
+  "a": "On-demand.",
+  "topicId": "II-4"
+ },
+ {
+  "n": 72,
+  "q": "When is it suggested to give cow’s milk for children first?",
+  "a": "After 12 months of age.",
+  "topicId": "II-4"
+ },
+ {
+  "n": 73,
+  "q": "How does the breast milk’s protein content relate to the cow’s milk protein content?",
+  "a": "One third.",
+  "topicId": "II-4"
+ },
+ {
+  "n": 74,
+  "q": "For how long do the primitive reflexes exist normally?",
+  "a": "Till 6-12 months of age.",
+  "topicId": "II-2"
+ },
+ {
+  "n": 75,
+  "q": "What are the diseases which can be easily diagnosed and followed up by cranial ultrasound?",
+  "a": "Brain haemorrhage and hydrocephalus.",
+  "topicId": "I-55"
+ },
+ {
+  "n": 76,
+  "q": "For how long can we see the shadow of the thymus on the chest X-ray?",
+  "a": "Till 3 years of age.",
+  "topicId": "I-55"
+ },
+ {
+  "n": 77,
+  "q": "How can be the airway foreign body diagnosed?",
+  "a": "(At least two methods!) Expiratory and inspiratory chest radiograph or fluoroscopy (real-time moving images).",
+  "topicId": "I-54"
+ },
+ {
+  "n": 78,
+  "q": "What radiological examinations can be done to diagnose VUR?",
+  "a": "(Name three!). MCU (Micturating cystourethrogram), Sonocystography, Dynamic kidney-scintigraphy.",
+  "topicId": "III-11"
+ },
+ {
+  "n": 79,
+  "q": "How can you diagnose perforation in a critically ill baby suffering from necrotising enterocolitis if you cannot move him/her in the incubator?",
+  "a": "Horizontal X-ray from side position while the baby is lying on the back.",
+  "topicId": "II-42"
+ },
+ {
+  "n": 80,
+  "q": "In which part of the bone does osteomyelitis start?",
+  "a": "In the metaphysis.",
+  "topicId": "II-19"
+ },
+ {
+  "n": 81,
+  "q": "How can be defecation ensured in the case of high (proximal) anus atresia?",
+  "a": "With the creation of a colostoma.",
+  "topicId": "II-44"
+ },
+ {
+  "n": 82,
+  "q": "Purpuric skin and mucous membrane lesions emerged 3 weeks after a viral infection in a patient. Complete blood count showed isolated thrombocytopenia. What is the most likely diagnosis?",
+  "a": "Immune thrombocytopenia (ITP)",
+  "topicId": "II-48"
+ },
+ {
+  "n": 83,
+  "q": "What is the reactivation of chicken pox (varicella)?",
+  "a": "Herpes zoster.",
+  "topicId": "II-15"
+ },
+ {
+  "n": 84,
+  "q": "What is the sixth disease?",
+  "a": "Exanthema subitum, roseola infantum.",
+  "topicId": "I-5"
+ },
+ {
+  "n": 85,
+  "q": "Which is the contagious disease that causes severe foetal injuries in 80 percent of the cases?",
+  "a": "Rubella.",
+  "topicId": "II-12",
+  "caveat": "The ~80% risk applies to maternal infection in the first trimester (first 12 weeks)."
+ },
+ {
+  "n": 86,
+  "q": "Name five examples where pulse oximetry is not informative!",
+  "a": "Carbon monoxide intoxication, methaemoglobinaemia, severe anaemia, cardiac failure, cold extremities.",
+  "topicId": "I-48",
+  "caveat": "The university sheet prints 'Carbon-dioxide intoxication' here. Carbon monoxide is the medically correct one; if the examiner goes by the sheet, say what the sheet says."
+ },
+ {
+  "n": 87,
+  "q": "Define paradoxical breathing!",
+  "a": "The chest moves inward and the abdomen moves outward during inhalation, and vice versa.",
+  "topicId": "I-48"
+ },
+ {
+  "n": 88,
+  "q": "How do we give oxygen to a conscious patient who is breathing spontaneously?",
+  "a": "Through a face mask with reservoir, with high flow oxygen (10-15 l/min).",
+  "topicId": "I-48"
+ },
+ {
+  "n": 89,
+  "q": "In bacterial meningitis, how does the concentration of liquor protein and glucose change?",
+  "a": "Protein concentration is elevated, and the glucose content is decreased",
+  "topicId": "III-53"
+ },
+ {
+  "n": 90,
+  "q": "What are the two most frequent pathogens causing neonatal meningitis?",
+  "a": "Streptococcus agalactiae, E. coli.",
+  "topicId": "III-53"
+ },
+ {
+  "n": 91,
+  "q": "What influences decisively the sensitivity of haemoculture?",
+  "a": "Blood cultures should be obtained prior to initiation of antimicrobial therapy. The number of cultures and volume of blood are the most important factors.",
+  "topicId": "II-8"
+ },
+ {
+  "n": 92,
+  "q": "What is the name of that functional disorders, which is characterised by crying followed by straining for 10 minutes?",
+  "a": "Infantile dyschezia.",
+  "topicId": "III-47"
+ },
+ {
+  "n": 93,
+  "q": "Which common causative agent of neonatal sepsis can be identified by maternal vaginal screening?",
+  "a": "Group B streptococcus, (GBS)",
+  "topicId": "II-39"
+ },
+ {
+  "n": 94,
+  "q": "How much is the quantity of the fluid bolus which is necessary for the management of septic shock?",
+  "a": "20 ml/kg body weight",
+  "topicId": "I-50"
+ },
+ {
+  "n": 95,
+  "q": "What is the most frequently occurring endocrinological disorder causing growth retardation?",
+  "a": "Hypothyroidism",
+  "topicId": "I-39"
+ },
+ {
+  "n": 96,
+  "q": "How can we define the premature puberty in girls?",
+  "a": "If the secondary sex characteristics appear before 8 years of age in girls and before 9 years of age in boys.",
+  "topicId": "I-36"
+ },
+ {
+  "n": 97,
+  "q": "What can be found in the urinary sediment in typical pyelonephritis?",
+  "a": "Leucocytes, white blood cell casts and bacteria",
+  "topicId": "III-11"
+ },
+ {
+  "n": 98,
+  "q": "Which chromosomal abnormality is frequently associated with duodenal atresia?",
+  "a": "21 trisomy",
+  "topicId": "II-44"
+ },
+ {
+  "n": 99,
+  "q": "What is the radiological sign of duodenal atresia?",
+  "a": "Double bubble",
+  "topicId": "II-44"
+ },
+ {
+  "n": 100,
+  "q": "What is the most important question, which we have to ask at functional gastroenterological complaints in infancy?",
+  "a": "How does the infant develop? If the infant’s somatic development is good, organic causes of the complaints are unlikely.",
+  "topicId": "I-31"
+ }
+]

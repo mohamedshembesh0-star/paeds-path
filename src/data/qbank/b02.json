@@ -1,0 +1,2132 @@
+{
+ "I-31": {
+  "summary": "Chronic abdominal pain in a thriving child is usually functional and should be diagnosed positively, not by exclusion; hunt for red flags (pain far from the umbilicus, night waking, poor growth) and always treat constipation, the commonest organic cause.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "How should functional abdominal pain in a well-growing child with no red flags be diagnosed?",
+    "options": [
+     "Only after upper and lower endoscopy are both normal",
+     "Only once an abdominal CT has excluded structural disease",
+     "Positively, from typical clinical features and absent red flags",
+     "Only after a formal psychiatric assessment confirms somatisation"
+    ],
+    "answer": 2,
+    "explain": "Most chronic abdominal pain in children is functional and the diagnosis is made positively on history and examination. Routine endoscopy or CT 'to exclude everything' is unnecessary and reinforces illness behaviour.",
+    "note": "Most chronic abdominal pain in children is functional and should be diagnosed positively."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 7-year-old girl has had intermittent periumbilical pain for 4 months. She opens her bowels every 4-5 days with hard, painful stools, and a firm mass is palpable in the left iliac fossa. Growth is normal. What is the most likely treatable cause of her pain?",
+    "options": [
+     "Coeliac disease",
+     "Functional constipation",
+     "Crohn's disease",
+     "Helicobacter pylori gastritis"
+    ],
+    "answer": 1,
+    "explain": "Infrequent hard stools with a palpable faecal mass in the left iliac fossa indicate constipation, the commonest treatable organic cause. Coeliac and Crohn's usually affect growth; H. pylori gives epigastric pain, not a faecal mass.",
+    "note": "Organic: constipation is the commonest treatable cause; also coeliac, IBD, H. pylori, choledochal cyst, abuse."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Which feature of a child's recurrent abdominal pain most increases the likelihood of an organic cause?",
+    "options": [
+     "Pain clustering on school days",
+     "Pain episodes lasting under an hour",
+     "Pain localised well away from the umbilicus",
+     "Pain with a family history of migraine"
+    ],
+    "answer": 2,
+    "explain": "Classic teaching (Apley): the further the pain is from the umbilicus, the more likely it is organic. Periumbilical, school-day pain is typical of functional pain; a migraine family history points towards abdominal migraine, also functional.",
+    "note": "The further the pain from the umbilicus, the more likely an organic cause."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 10-year-old boy has 6 months of abdominal pain that is worse before exams and eased by defecation. His growth is on the 50th centile. His mother mentions that twice in the last month the pain woke him from sleep. Which feature of this history most warrants further investigation?",
+    "options": [
+     "Relief of the pain after opening his bowels",
+     "Being woken from sleep by the pain",
+     "The six-month duration of the symptoms",
+     "Worsening of the pain before school exams"
+    ],
+    "answer": 1,
+    "explain": "Functional abdominal pain never wakes the child at night, so nocturnal waking is a red flag for organic disease (e.g. IBD, peptic disease). Relief with defecation and stress-related exacerbation are typical of IBS/functional pain.",
+    "note": "Functional abdominal pain never wakes the child at night."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 13-year-old girl has had 3 months of intermittent abdominal pain and loose stools. Examination is normal and her weight has been static. Which non-invasive test best separates inflammatory bowel disease from functional pain?",
+    "options": [
+     "Stool culture",
+     "Plain abdominal radiograph",
+     "Serum anti-tTG IgA",
+     "Faecal calprotectin"
+    ],
+    "answer": 3,
+    "explain": "Faecal calprotectin is a neutrophil protein shed into stool with mucosal inflammation; a normal level makes IBD very unlikely. Anti-tTG screens for coeliac disease, not IBD; a plain film and stool culture do not discriminate.",
+    "note": "Best non-invasive test to separate IBD from functional pain: faecal calprotectin."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which non-invasive test detects active Helicobacter pylori infection by exploiting the organism's urease activity?",
+    "options": [
+     "Urea breath test",
+     "Faecal calprotectin",
+     "Serum H. pylori IgG serology",
+     "Fasting serum gastrin"
+    ],
+    "answer": 0,
+    "explain": "H. pylori is urease-positive: it splits labelled urea into labelled CO2 that is exhaled, so the urea breath test detects active infection. Serology stays positive after eradication and cannot confirm current infection.",
+    "note": "H. pylori is urease-positive: urea breath test."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An 11-year-old boy meets criteria for irritable bowel syndrome. Growth, examination and faecal calprotectin are normal. What is the most appropriate first-line management?",
+    "options": [
+     "Lifestyle modification, low FODMAP diet and fibre",
+     "Oral mesalazine for eight weeks",
+     "A proton pump inhibitor for four weeks",
+     "Referral for diagnostic upper and lower endoscopy"
+    ],
+    "answer": 0,
+    "explain": "IBS is not related to structural abnormalities, so first line is lifestyle change, a low FODMAP diet and fibre. Mesalazine treats ulcerative colitis, PPIs target acid disease, and colonoscopy is not indicated with normal calprotectin and growth.",
+    "note": "IBS first line: lifestyle modification, low FODMAP diet, fiber."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 12-year-old girl with functional abdominal pain continues to miss school despite reassurance, dietary fibre and a low FODMAP trial. Bowel habit is normal. Which intervention has the best evidence for improving her symptoms?",
+    "options": [
+     "Low-dose amitriptyline at night",
+     "Empirical H. pylori eradication",
+     "Hyoscine butylbromide as needed",
+     "Cognitive behavioural therapy"
+    ],
+    "answer": 3,
+    "explain": "Cognitive behavioural therapy has the best evidence in paediatric functional abdominal pain. Amitriptyline and antispasmodics have weak or inconsistent paediatric data, and empirical eradication without a positive test is inappropriate. If constipation were present it should be treated too.",
+    "note": "Best evidence: cognitive behavioural therapy; treat constipation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the red flags that suggest an organic cause of chronic abdominal pain in a child.",
+    "back": "Pain far from umbilicus • wakes child at night • poor growth/weight loss (in infants: ask how growing/developing) • GI bleeding, persistent vomiting, diarrhoea • fever, joint/skin signs • family history of IBD/coeliac."
+   },
+   {
+    "type": "card",
+    "front": "Name the organic causes of chronic abdominal pain you must not miss.",
+    "back": "Constipation (commonest treatable) • coeliac disease • IBD • H. pylori • choledochal cyst • abuse."
+   },
+   {
+    "type": "card",
+    "front": "Which tests help separate organic from functional chronic abdominal pain?",
+    "back": "Faecal calprotectin (IBD vs functional) • urea breath test (H. pylori, urease-positive) • growth chart review • coeliac serology if indicated; functional pain is a positive diagnosis."
+   }
+  ]
+ },
+ "I-32": {
+  "summary": "Classify oedema by Starling mechanism (hydrostatic, oncotic, permeability, lymphatic); in a young child generalised periorbital morning oedema is nephrotic syndrome until proven otherwise, and a low albumin with a clean dipstick sends you to the gut or liver.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which of the following is NOT one of the four Starling mechanisms that produce oedema?",
+    "options": [
+     "Raised interstitial oncotic clearance",
+     "Reduced plasma oncotic pressure",
+     "Raised capillary hydrostatic pressure",
+     "Increased capillary permeability"
+    ],
+    "answer": 0,
+    "explain": "The four mechanisms are raised hydrostatic pressure, low oncotic pressure, increased capillary permeability and lymphatic obstruction. 'Raised interstitial oncotic clearance' is not a mechanism; effective lymphatic clearance actually prevents oedema.",
+    "note": "Four Starling mechanisms: raised hydrostatic pressure, low oncotic pressure, increased capillary permeability, lymphatic obstruction."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old boy presents with 5 days of puffy eyes that are worst on waking, followed by swelling of the ankles and scrotum. He is otherwise well with a normal blood pressure. What is the most likely diagnosis?",
+    "options": [
+     "Acute post-streptococcal glomerulonephritis",
+     "Hereditary angio-oedema",
+     "Protein-losing enteropathy",
+     "Nephrotic syndrome"
+    ],
+    "answer": 3,
+    "explain": "Nephrotic syndrome is the commonest cause of generalised oedema in a young child, typically starting periorbitally in the morning. Post-streptococcal GN usually brings hypertension and haematuria; HAE is non-pitting and episodic.",
+    "note": "Commonest cause of generalised oedema in a young child: nephrotic syndrome."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "Where and when does oedema typically first become noticeable in a child with nephrotic syndrome?",
+    "options": [
+     "In the scrotum, after exercise",
+     "Around the ankles, in the evening",
+     "Periorbitally, in the morning",
+     "Over the sacrum, after lying supine"
+    ],
+    "answer": 2,
+    "explain": "Oedema first appears periorbitally in the morning because of lying flat overnight and the lax periorbital tissue; it then shifts to dependent areas during the day. Parents often mistake it for allergy.",
+    "note": "Oedema first appears periorbitally, in the morning."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 2-year-old from a famine area has generalised oedema, flaky-paint dermatosis, sparse depigmented hair and a fatty liver. Total energy intake has been near-adequate but low in protein. What is the main mechanism of his oedema?",
+    "options": [
+     "Raised capillary hydrostatic pressure",
+     "Lymphatic obstruction",
+     "Decreased plasma oncotic pressure",
+     "Sodium retention from cardiac failure"
+    ],
+    "answer": 2,
+    "explain": "This is kwashiorkor, in which hypoalbuminaemia lowers plasma oncotic pressure (with contributions from oxidative stress and capillary leak). Lymphatic obstruction and cardiac failure are not the primary process.",
+    "note": "Kwashiorkor: oedema from decreased plasma oncotic pressure."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 9-year-old girl has recurrent episodes of swelling of the lips, hands and once the bowel wall with severe abdominal pain. The swelling is non-pitting, not itchy, has no urticaria and does not respond to antihistamines. Her father had similar episodes. What is the most likely diagnosis?",
+    "options": [
+     "IgE-mediated food allergy",
+     "Hereditary angio-oedema",
+     "ACE-inhibitor angio-oedema",
+     "Chronic spontaneous urticaria"
+    ],
+    "answer": 1,
+    "explain": "Recurrent non-pitting, non-itchy swelling without urticaria, with abdominal attacks and an autosomal dominant family history, is hereditary angio-oedema (C1-esterase inhibitor deficiency, bradykinin-mediated). Allergic and urticarial swellings itch and respond to antihistamines.",
+    "note": "Recurrent non-pitting, non-itchy swelling without urticaria suggests hereditary angio-oedema."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which spot urine protein:creatinine ratio, together with hypoalbuminaemia, defines nephrotic-range proteinuria in a child?",
+    "options": [
+     "UPCR >20 mg/mmol",
+     "UPCR >50 mg/mmol",
+     "UPCR >100 mg/mmol",
+     "UPCR >200 mg/mmol"
+    ],
+    "answer": 3,
+    "explain": "Nephrotic syndrome is UPCR >200 mg/mmol with low albumin (and oedema). Values between 20 and 200 mg/mmol indicate non-nephrotic proteinuria.",
+    "note": "Nephrotic: UPCR >200 mg/mmol, low albumin."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 4-year-old has generalised oedema and a serum albumin of 18 g/L. Urine dipstick is negative for protein and liver enzymes and clotting are normal. He has chronic loose, greasy stools. Where should investigation focus next?",
+    "options": [
+     "Gut, for a protein-losing enteropathy",
+     "Renal biopsy for minimal change disease",
+     "Echocardiography for constrictive pericarditis",
+     "Complement C4 for hereditary angio-oedema"
+    ],
+    "answer": 0,
+    "explain": "Low albumin with a negative urine dipstick excludes renal loss and points to the gut (protein-losing enteropathy, e.g. intestinal lymphangiectasia, measured by faecal alpha-1-antitrypsin) or the liver; normal liver tests and diarrhoea favour the gut. HAE does not cause hypoalbuminaemia.",
+    "note": "Low albumin with a negative urine dipstick points to the gut (protein-losing enteropathy) or liver."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 5-year-old with a first episode of nephrotic syndrome has normal blood pressure, renal function and complement, and no haematuria. What is the most appropriate initial management?",
+    "options": [
+     "Renal biopsy before any treatment",
+     "Oral prednisolone without a biopsy",
+     "IV albumin and furosemide alone",
+     "Oral ciclosporin as first-line therapy"
+    ],
+    "answer": 1,
+    "explain": "Childhood nephrotic syndrome is mostly minimal change disease and steroid-responsive, so typical cases receive prednisolone without biopsy; you treat the mechanism. Biopsy is reserved for atypical features or steroid resistance; albumin/diuretic is supportive only.",
+    "note": "Nephrotic syndrome in children: mostly steroid-responsive; HAE is C1-esterase inhibitor deficiency."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify the causes of oedema in children by Starling mechanism.",
+    "back": "Hydrostatic ↑: heart failure, renal failure/fluid overload • Oncotic ↓: nephrotic, kwashiorkor, protein-losing enteropathy, liver disease • Permeability ↑: sepsis, burns, angio-oedema • Lymphatic: obstruction, Turner/Milroy."
+   },
+   {
+    "type": "card",
+    "front": "A child has low albumin and oedema. How do you work out where the protein is going?",
+    "back": "Urine dipstick/UPCR: >200 mg/mmol = nephrotic • dipstick negative → gut (protein-losing enteropathy, faecal α1-antitrypsin) or liver (LFTs, clotting) • also check diet (kwashiorkor)."
+   },
+   {
+    "type": "card",
+    "front": "How do you recognise hereditary angio-oedema and what is the defect?",
+    "back": "Recurrent non-pitting, non-itchy swelling, no urticaria, abdominal attacks, AD family history, no antihistamine response • C1-esterase inhibitor deficiency (bradykinin) • low C4."
+   }
+  ]
+ },
+ "I-33": {
+  "summary": "Estimate the deficit (% × kg × 10), look for shock (hypotension is pre-terminal in children) and always check the sodium: doughy skin means hypernatraemia, which must be corrected no faster than 0.5 mmol/L/h to avoid cerebral oedema.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A 12 kg toddler is assessed as 5% dehydrated. What is his estimated fluid deficit?",
+    "options": [
+     "60 ml",
+     "120 ml",
+     "600 ml",
+     "1200 ml"
+    ],
+    "answer": 2,
+    "explain": "Deficit (ml) = % dehydration × weight (kg) × 10 = 5 × 12 × 10 = 600 ml. 60 and 1200 ml come from misplacing the factor of 10.",
+    "note": "Fluid deficit (ml) = % dehydration × weight (kg) × 10."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 14-month-old unvaccinated child attending nursery in winter develops vomiting followed by profuse watery, non-bloody diarrhoea and becomes moderately dehydrated. Which pathogen is the most likely cause?",
+    "options": [
+     "Campylobacter jejuni",
+     "Shigella sonnei",
+     "Vibrio cholerae",
+     "Rotavirus"
+    ],
+    "answer": 3,
+    "explain": "Acute gastroenteritis is the commonest cause of dehydration and rotavirus is the commonest cause of severe diarrhoea in young unvaccinated children, typically in winter. Shigella and Campylobacter give bloody diarrhoea; cholera is unlikely outside endemic areas.",
+    "note": "Commonest cause: acute gastroenteritis; rotavirus is the commonest cause of severe diarrhoea."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old has high fever, frequent small-volume mucoid bloody stools and has a brief generalised seizure before the diarrhoea worsens. Which organism is most likely?",
+    "options": [
+     "Shigella",
+     "Norovirus",
+     "Rotavirus",
+     "Giardia lamblia"
+    ],
+    "answer": 0,
+    "explain": "Shigella causes high fever, mucoid-bloody dysentery and can cause seizures (neurotoxic/febrile). Rotavirus and norovirus give watery diarrhoea; Giardia gives chronic greasy stools without fever.",
+    "note": "Cholera and Shigella (high fever, mucoid-bloody diarrhoea, seizures) also cause it."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "In a child who is dehydrated from isotonic diarrhoeal losses, which laboratory changes would you expect?",
+    "options": [
+     "Decreased ECF volume with raised haematocrit and plasma protein",
+     "Decreased ECF volume with low haematocrit and plasma protein",
+     "Expanded ECF volume with raised haematocrit and plasma protein",
+     "Normal ECF volume with low haematocrit and raised plasma protein"
+    ],
+    "answer": 0,
+    "explain": "Diarrhoea removes ECF, so the remaining plasma is concentrated: haematocrit and plasma protein rise (haemoconcentration). A falling haematocrit would suggest dilution or blood loss.",
+    "note": "Diarrhoea: ECF volume decreased, haematocrit and plasma protein increased."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-month-old formula-fed infant with 3 days of diarrhoea is irritable with a high-pitched cry. The skin feels thick and doughy, and he appears less dry than expected from the volume of losses. What disturbance is most likely?",
+    "options": [
+     "Hyponatraemic dehydration",
+     "Hypernatraemic dehydration",
+     "Isonatraemic dehydration",
+     "Hypokalaemic metabolic alkalosis"
+    ],
+    "answer": 1,
+    "explain": "Doughy skin in a dehydrated infant suggests hypernatraemic dehydration; water shifts out of cells preserves ECF volume, so clinical signs underestimate the deficit, and irritability reflects brain cell shrinkage.",
+    "note": "Doughy skin in a dehydrated infant suggests hypernatraemic dehydration."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 4-year-old with gastroenteritis has a heart rate of 165/min, capillary refill of 4 seconds, cool peripheries and is drowsy. Blood pressure is 92/58 mmHg. How should his circulatory status be interpreted?",
+    "options": [
+     "Moderate dehydration suitable for oral rehydration",
+     "Compensated shock needing an immediate fluid bolus",
+     "No shock, because blood pressure is normal for age",
+     "Decompensated shock needing inotropes first"
+    ],
+    "answer": 1,
+    "explain": "Tachycardia, prolonged CRT, cool peripheries and altered consciousness define shock even with normal BP; in children hypotension is a late, pre-terminal sign. He needs a 10 ml/kg 0.9% NaCl bolus now. Inotropes come only after fluid-refractory shock.",
+    "note": "In children hypotension is a late, pre-terminal sign of shock."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 9-month-old with hypernatraemic dehydration (Na 162 mmol/L) is rehydrated quickly with hypotonic fluid. Six hours later his sodium is 148 mmol/L and he has a seizure. What is the most likely mechanism?",
+    "options": [
+     "Osmotic demyelination from rapid sodium rise",
+     "Intracranial haemorrhage from bridging-vein tearing",
+     "Cerebral oedema from rapid sodium fall",
+     "Hypocalcaemia from citrate in the infusion"
+    ],
+    "answer": 2,
+    "explain": "Brain cells adapt to hypernatraemia by generating idiogenic osmoles; lowering sodium too fast drives water into them, causing cerebral oedema and seizures. Sodium should fall no faster than 0.5 mmol/L/h. Osmotic demyelination follows rapid correction of hyponatraemia.",
+    "note": "Hypernatraemia corrected rapidly causes cerebral oedema."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10 kg child with gastroenteritis is clinically dehydrated but not shocked, and is tolerating sips. What is the most appropriate rehydration plan?",
+    "options": [
+     "IV 0.45% NaCl at twice maintenance for 24 hours",
+     "IV 0.9% NaCl bolus 20 ml/kg then oral fluids",
+     "ORS 10 ml/kg over 1 hour then normal diet",
+     "ORS 50 ml/kg over 4 hours plus maintenance"
+    ],
+    "answer": 3,
+    "explain": "Without shock, oral rehydration solution 50 ml/kg over 4 hours plus maintenance is first line (NG if not drinking). IV boluses are for shock (10 ml/kg 0.9% NaCl), and hypotonic IV fluids risk hyponatraemia.",
+    "note": "Without shock: ORS 50 ml/kg over 4 hours plus maintenance."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Walk through rehydration of a child with gastroenteritis.",
+    "back": "Assess % dehydration/shock • shock: 10 ml/kg 0.9% NaCl bolus, reassess • no shock: ORS 50 ml/kg over 4 h + maintenance • deficit = % × kg × 10 • check Na • prevent: rotavirus vaccine 2, 4, 6 months."
+   },
+   {
+    "type": "card",
+    "front": "How do you recognise and manage hypernatraemic dehydration?",
+    "back": "Doughy skin, irritability, high-pitched cry, seizures; signs underestimate deficit • check serum Na • correct slowly over 48 h, ≤0.5 mmol/L/h • too fast → cerebral oedema."
+   },
+   {
+    "type": "card",
+    "front": "Name the causes of dehydration in children and the dysentery features of Shigella.",
+    "back": "Gastroenteritis (rotavirus commonest severe), cholera, Shigella (high fever, mucoid-bloody stools, seizures) • also DKA, DI, burns, poor intake, pyloric stenosis."
+   }
+  ]
+ },
+ "I-34": {
+  "summary": "Every fluid plan = resuscitation + deficit + maintenance + ongoing losses; use Holliday-Segar (100/50/20 ml/kg/day, i.e. 4/2/1 ml/kg/h) with isotonic fluid in children, but neonates start at 60 ml/kg/day of 10% glucose without sodium and build up over 5 days.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Using the Holliday-Segar formula, what is the daily maintenance fluid requirement of a 20 kg child?",
+    "options": [
+     "1000 ml/day",
+     "1200 ml/day",
+     "1500 ml/day",
+     "2000 ml/day"
+    ],
+    "answer": 2,
+    "explain": "100 ml/kg for the first 10 kg (1000 ml) + 50 ml/kg for the next 10 kg (500 ml) = 1500 ml/day, about 60 ml/h by the 4/2/1 rule (40 + 20). 2000 ml would wrongly apply 100 ml/kg throughout.",
+    "note": "Holliday-Segar maintenance: 100 ml/kg first 10 kg, 50 ml/kg next 10 kg, 20 ml/kg above."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3 kg term baby on the neonatal unit on day 1 of life cannot feed and needs IV fluids. What volume and rate are most appropriate?",
+    "options": [
+     "About 180 ml/day (7.5 ml/h) of 10% glucose",
+     "About 300 ml/day (12.5 ml/h) of 5% glucose",
+     "About 450 ml/day (19 ml/h) of 10% glucose",
+     "About 180 ml/day (7.5 ml/h) of 0.9% NaCl"
+    ],
+    "answer": 0,
+    "explain": "Term neonates start at 50-60 ml/kg/day of 10% glucose on day 1: 60 × 3 = 180 ml/day = 7.5 ml/h. 300 ml/day is the Holliday-Segar figure, which overestimates neonatal needs, and sodium is withheld until the postnatal diuresis.",
+    "note": "3 kg neonate day 1: about 180 ml/day (7.5 ml/h)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "How should the fluid prescription of the same term neonate change over the first week of life?",
+    "options": [
+     "Increase from 50-60 to 120-150 ml/kg/day by day 5",
+     "Stay at 60 ml/kg/day until full enteral feeds",
+     "Start at 150 ml/kg/day and reduce to 100 by day 5",
+     "Increase from 100 to 200 ml/kg/day by day 3"
+    ],
+    "answer": 0,
+    "explain": "Term neonates start at 50-60 ml/kg/day of 10% glucose and increase to 120-150 ml/kg/day by day 5 as renal function matures and insensible losses are covered. Starting high risks overload and hyponatraemia.",
+    "note": "Term neonate day 1: 50-60 ml/kg/day of 10% glucose, rising to 120-150 ml/kg/day by day 5."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is sodium usually omitted from IV fluids in the first 24-48 hours of life in a term neonate?",
+    "options": [
+     "Neonatal kidneys cannot excrete potassium yet",
+     "Total body water and sodium contract during the postnatal diuresis",
+     "Neonatal plasma sodium is physiologically above 150 mmol/L",
+     "Sodium worsens physiological jaundice by displacing bilirubin from albumin"
+    ],
+    "answer": 1,
+    "explain": "At birth the neonate has expanded ECF that contracts during the postnatal diuresis; adding sodium before this risks hypernatraemia and fluid retention, so sodium is withheld until the diuresis begins (weight loss/falling sodium).",
+    "note": "Sodium is withheld from neonatal fluids until the postnatal diuresis begins."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 6-year-old post-appendicectomy is prescribed 0.18% NaCl/4% glucose at full maintenance. Twelve hours later he has a headache, vomiting and a sodium of 124 mmol/L. Which change in practice would have best prevented this?",
+    "options": [
+     "Increasing the infusion to 150% of maintenance",
+     "Using 10% glucose without sodium, as in neonates",
+     "Using an isotonic fluid such as 0.9% NaCl with 5% glucose",
+     "Adding 20 mmol/L potassium chloride to the fluid"
+    ],
+    "answer": 2,
+    "explain": "Hypotonic fluids in a child with high ADH (post-operative) cause dilutional hyponatraemia and cerebral oedema; isotonic fluids are used beyond the neonatal period, often restricted. (The notes also mention RBC lysis with hypotonic saline; the main clinical danger, however, is hyponatraemia.)",
+    "note": "Hypotonic saline alone can cause RBC lysis; use isotonic fluid beyond the neonatal period."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-year-old with bacterial meningitis is started on IV fluids. Given the likely hormonal response, what maintenance volume is most appropriate?",
+    "options": [
+     "150% of calculated maintenance",
+     "100% of calculated maintenance",
+     "50-80% of calculated maintenance",
+     "25% of calculated maintenance"
+    ],
+    "answer": 2,
+    "explain": "Meningitis, pneumonia, post-operative states and head injury drive high ADH, so maintenance is restricted to 50-80% to avoid hyponatraemia (while ensuring circulating volume is adequate).",
+    "note": "High ADH (meningitis, pneumonia, post-op, head injury): restrict to 50-80%."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 2-year-old has been on IV fluids for pneumonia for 48 hours. He has gained 0.8 kg, has periorbital puffiness and new basal crackles. Which further examination finding would most support fluid overload rather than worsening pneumonia?",
+    "options": [
+     "Hepatomegaly",
+     "Reduced breath sounds at one base",
+     "A temperature of 39 °C",
+     "Bronchial breathing"
+    ],
+    "answer": 0,
+    "explain": "Signs of fluid overload are oedema, hepatomegaly, crackles and weight gain; an enlarging liver reflects raised venous pressure. Fever, focal reduced breath sounds and bronchial breathing point to the pneumonia itself.",
+    "note": "Overload: oedema, hepatomegaly, crackles, weight gain."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which components make up a complete IV fluid plan for a sick child?",
+    "options": [
+     "Deficit, maintenance and insensible losses only",
+     "Resuscitation, deficit, maintenance and ongoing losses",
+     "Resuscitation and maintenance only",
+     "Maintenance, electrolytes and parenteral nutrition"
+    ],
+    "answer": 1,
+    "explain": "A full plan adds resuscitation boluses, the deficit, maintenance and replacement of ongoing losses; in children beyond the neonatal period standard maintenance is isotonic (D5NS, i.e. 0.9% NaCl with 5% glucose).",
+    "note": "Plan = resuscitation + deficit + maintenance + ongoing losses; standard maintenance is D5NS."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Write a maintenance fluid plan for a 20 kg child.",
+    "back": "Holliday-Segar: 100 ml/kg ×10 kg + 50 ml/kg ×10 kg = 1500 ml/day • 4/2/1 rule ≈ 60 ml/h • fluid: 0.9% NaCl + 5% glucose ± KCl • restrict to 50-80% if high ADH • monitor weight, Na."
+   },
+   {
+    "type": "card",
+    "front": "Write a maintenance fluid plan for a 3 kg term neonate.",
+    "back": "Day 1: 60 ml/kg/day of 10% glucose = 180 ml/day (7.5 ml/h), no Na • increase daily to 120-150 ml/kg/day by day 5 • add Na after postnatal diuresis • monitor weight, glucose, Na."
+   },
+   {
+    "type": "card",
+    "front": "List the signs of fluid overload and the conditions requiring fluid restriction.",
+    "back": "Overload: oedema, hepatomegaly, crackles, weight gain • restrict (high ADH) in meningitis, pneumonia, post-op, head injury: 50-80% maintenance."
+   }
+  ]
+ },
+ "I-35": {
+  "summary": "Ambiguous genitalia is a medical emergency: think salt-wasting 21-hydroxylase CAH first (non-palpable gonads in a 'male' = CAH until proven otherwise), get a karyotype and 17-OHP, watch the sodium and potassium, and never assign sex without the MDT.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of ambiguous genitalia in a newborn?",
+    "options": [
+     "Partial androgen insensitivity",
+     "5-alpha-reductase deficiency",
+     "Mixed gonadal dysgenesis",
+     "21-hydroxylase deficiency"
+    ],
+    "answer": 3,
+    "explain": "21-hydroxylase deficiency (CAH) virilising a 46,XX baby is by far the commonest cause. The other options are rarer causes of an under-virilised 46,XY or mixed picture.",
+    "note": "Commonest cause of ambiguous genitalia in a newborn: 21-hydroxylase deficiency (CAH)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-week-old baby, initially thought to be a boy with bilateral undescended testes, presents with vomiting, poor feeding and lethargy. Sodium is 124 mmol/L and potassium 7.1 mmol/L. What is the most likely diagnosis?",
+    "options": [
+     "Hypertrophic pyloric stenosis",
+     "Salt-wasting congenital adrenal hyperplasia",
+     "Late-onset neonatal group B streptococcal sepsis",
+     "Complete androgen insensitivity"
+    ],
+    "answer": 1,
+    "explain": "Salt-wasting CAH presents at 1-3 weeks with low sodium and high potassium; a virilised 46,XX infant may be mistaken for a boy with impalpable testes. Pyloric stenosis causes hypokalaemic alkalosis, not hyperkalaemia.",
+    "note": "Salt-wasting CAH presents at 1-3 weeks with low sodium and high potassium."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A term newborn appears to be male with a micropenis-like phallus and no palpable gonads in the scrotum or inguinal canals. Which condition must be assumed until proven otherwise?",
+    "options": [
+     "Congenital adrenal hyperplasia in a 46,XX baby",
+     "Bilateral cryptorchidism in a 46,XY boy",
+     "Anorchia with normal male karyotype",
+     "Persistent Müllerian duct syndrome"
+    ],
+    "answer": 0,
+    "explain": "Non-palpable gonads in a 'male' infant = CAH until proven otherwise; this may be a virilised 46,XX girl at risk of salt-wasting crisis. Check karyotype, 17-OHP and electrolytes urgently.",
+    "note": "Non-palpable gonads in a 'male' infant = CAH until proven otherwise."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which hormone is the screening test for 21-hydroxylase deficiency?",
+    "options": [
+     "Low 11-deoxycortisol",
+     "Low anti-Müllerian hormone",
+     "Raised dihydrotestosterone",
+     "Raised 17-hydroxyprogesterone"
+    ],
+    "answer": 3,
+    "explain": "21-hydroxylase converts 17-OHP to 11-deoxycortisol; the block causes 17-OHP to accumulate, so a raised 17-OHP is the screening test (with karyotype). 11-deoxycortisol is raised in 11-beta-hydroxylase deficiency.",
+    "note": "Do karyotype; screening test for CAH: raised 17-hydroxyprogesterone."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "A term baby is born at night with clitoromegaly/micropenis, fused labioscrotal folds and no palpable gonads. Why is this managed as a medical emergency rather than an elective outpatient referral?",
+    "options": [
+     "Urinary tract obstruction is present in most such babies",
+     "Dysgenetic gonads become malignant within the first weeks",
+     "Salt-wasting CAH may cause a life-threatening adrenal crisis",
+     "Birth registration law requires sex assignment within 24 hours"
+    ],
+    "answer": 2,
+    "explain": "Ambiguous genitalia is an emergency mainly because the commonest cause, 21-hydroxylase CAH, can produce a salt-wasting adrenal crisis (low Na, high K, hypoglycaemia, shock) in the first weeks; electrolytes, glucose and 17-OHP are needed urgently. Gonadal malignancy risk is long-term, and sex should not be hurriedly assigned.",
+    "note": "Mismatch of chromosomal, gonadal or phenotypic sex; ambiguous genitalia is an emergency."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "Two 16-year-old girls both have primary amenorrhoea, normal breasts and an absent uterus on ultrasound. Which single examination finding best distinguishes complete androgen insensitivity from Müllerian agenesis?",
+    "options": [
+     "Height above the 90th centile",
+     "Presence or absence of pubic hair",
+     "Breast development by Tanner staging",
+     "Presence of a blind-ending vagina"
+    ],
+    "answer": 1,
+    "explain": "In androgen insensitivity pubic hair is absent (androgen-dependent), whereas in Müllerian agenesis (46,XX, normal ovaries/androgens) it is present. Both have breasts and a short blind vagina, so those do not discriminate.",
+    "note": "Androgen insensitivity: pubic hair absent; Müllerian agenesis: present."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 46,XY infant has a defect that abolishes AMH production from Sertoli cells, with normal Leydig cell testosterone. What internal anatomy would you expect?",
+    "options": [
+     "Testes with no Wolffian or Müllerian structures",
+     "Ovaries, a uterus and no Wolffian structures",
+     "Testes, Wolffian structures and a uterus with fallopian tubes",
+     "Streak gonads with a uterus and female external genitalia"
+    ],
+    "answer": 2,
+    "explain": "SRY makes the gonad a testis, testosterone maintains the Wolffian ducts and virilises, but without AMH the Müllerian ducts persist, giving a uterus and tubes (persistent Müllerian duct syndrome). Androgen insensitivity is a receptor defect instead.",
+    "note": "SRY makes the gonad a testis; AMH from Sertoli cells regresses the Müllerian ducts."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A newborn has ambiguous genitalia and the parents ask whether their child is a boy or a girl so they can register the birth. What is the most appropriate response?",
+    "options": [
+     "Defer sex assignment until MDT evaluation",
+     "Assign male sex if any gonad is palpable",
+     "Assign sex by the appearance of the phallus today",
+     "Assign female sex because surgery is simpler"
+    ],
+    "answer": 0,
+    "explain": "Ambiguous genitalia is an emergency managed by the MDT (endocrinology, urology, genetics, psychology); sex is not assigned until karyotype, hormones and imaging are reviewed. Likewise, a boy with hypospadias should not be circumcised, as the foreskin may be needed for repair.",
+    "note": "Involve the MDT before assigning sex."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Outline your approach to a newborn with ambiguous genitalia.",
+    "back": "Emergency: don't assign sex • examine gonads (non-palpable = CAH until proven otherwise) • karyotype, 17-OHP, U&E (Na↓ K↑ at 1-3 wk), glucose, pelvic US • MDT before assigning sex."
+   },
+   {
+    "type": "card",
+    "front": "Explain normal male sexual differentiation and where DSDs arise.",
+    "back": "SRY → testis • Sertoli AMH → Müllerian regression • Leydig testosterone → Wolffian ducts, virilisation (DHT → external genitalia) • androgen insensitivity = androgen receptor defect."
+   },
+   {
+    "type": "card",
+    "front": "Compare complete androgen insensitivity with Müllerian agenesis.",
+    "back": "CAIS: 46,XY, testes, no uterus, breasts, pubic hair absent; gonadectomy after puberty • MRKH: 46,XX, ovaries, no uterus, breasts, pubic hair present."
+   }
+  ]
+ },
+ "I-36": {
+  "summary": "Puberty is early before 8 (girls) / 9 (boys) and late if no breasts by 13 or testes by 14; decide central (gonadotrophin-driven, LH rises with GnRH stimulation, needs a brain MRI, especially in boys) versus peripheral (LH/FSH suppressed), and remember that small testes with virilisation means an adrenal source.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which presentation meets the definition of precocious puberty?",
+    "options": [
+     "Breast budding in a girl aged 8 years 6 months",
+     "Pubic hair in a girl aged 9 years",
+     "Testicular enlargement in a boy aged 8 years",
+     "Menarche in a girl aged 10 years"
+    ],
+    "answer": 2,
+    "explain": "Precocious puberty is pubertal signs before 8 years in girls and before 9 years in boys; a boy of 8 with testicular enlargement qualifies. The other examples fall within the normal age range.",
+    "note": "Premature puberty: signs before 8 years in girls, 9 in boys."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "At what point is pubertal delay diagnosed in a boy?",
+    "options": [
+     "No testicular enlargement by age 14",
+     "No testicular enlargement by age 12",
+     "No pubic hair by age 13",
+     "No growth spurt by age 15"
+    ],
+    "answer": 0,
+    "explain": "Delayed puberty is no breast development by 13 in girls and no testicular enlargement (≥4 ml) by 14 in boys. Pubic hair reflects adrenarche and is not the defining marker.",
+    "note": "Delayed puberty: no breasts by 13, testes by 14."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A mother asks which change will signal the start of puberty in her 10-year-old son. What is the first physical sign of puberty in boys?",
+    "options": [
+     "Pubic hair growth",
+     "Testicular volume reaching 4 ml",
+     "Deepening of the voice and laryngeal growth",
+     "Peak height velocity"
+    ],
+    "answer": 1,
+    "explain": "In boys the first sign is testicular enlargement to ≥4 ml (Prader orchidometer); in girls it is thelarche. Pubic hair, voice change and the growth spurt come later in boys.",
+    "note": "First sign: girls thelarche; boys testicular volume ≥4 ml."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 6-year-old boy has pubic hair, penile enlargement, testicular volumes of 8 ml bilaterally and accelerated growth. A GnRH stimulation test shows a pubertal LH rise. What is the most important concern?",
+    "options": [
+     "Idiopathic central precocious puberty",
+     "Premature adrenarche",
+     "An intracranial lesion such as a hamartoma",
+     "Testosterone-secreting adrenal tumour"
+    ],
+    "answer": 2,
+    "explain": "This is central (gonadotrophin-dependent) puberty with bilateral testicular enlargement; in boys it is often organic (CNS lesion such as hypothalamic hamartoma), unlike girls in whom it is mostly idiopathic. An adrenal tumour would leave testes small.",
+    "note": "Central precocious puberty: girls mostly idiopathic; boys often organic (CNS lesion)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 5-year-old boy has a deep voice, pubic hair, a large penis and tall stature, but both testes measure 2 ml. What is the most likely source of the androgens?",
+    "options": [
+     "Hypothalamic hamartoma",
+     "Pituitary gonadotroph adenoma",
+     "Bilateral Leydig cell hyperplasia",
+     "Adrenal gland (CAH or tumour)"
+    ],
+    "answer": 3,
+    "explain": "Virilisation with small (prepubertal) testes means the androgen is not testicular/gonadotrophin-driven: think adrenal (non-classic CAH or tumour). Central causes enlarge both testes; a Leydig cell tumour enlarges one testis.",
+    "note": "Boy with small testes suggests CAH/adrenal cause."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 7-year-old girl has breast development, rapid growth and advanced bone age. Basal LH is low. What result on a leuprolide (GnRH agonist) stimulation test would confirm central precocious puberty?",
+    "options": [
+     "A pubertal rise in LH",
+     "Suppressed LH and FSH",
+     "A rise in FSH but not LH",
+     "A rise in 17-hydroxyprogesterone"
+    ],
+    "answer": 0,
+    "explain": "In central puberty the axis is activated, so GnRH/leuprolide stimulation increases LH into the pubertal range. In peripheral puberty, sex steroids from elsewhere suppress LH/FSH and there is no rise.",
+    "note": "Central: leuprolide stimulation increases LH; peripheral: LH/FSH suppressed."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old girl is confirmed to have central precocious puberty on GnRH stimulation. Neurological examination is normal. What should be done before starting a GnRH agonist?",
+    "options": [
+     "No further tests are needed in girls",
+     "Pelvic ultrasound only",
+     "Karyotype",
+     "MRI of the brain"
+    ],
+    "answer": 3,
+    "explain": "Central precocious puberty needs brain MRI before treatment to exclude a CNS lesion, even though most girls are idiopathic; a normal neurological examination does not exclude a hamartoma or tumour.",
+    "note": "Central precocious puberty needs MRI of the brain before treatment."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-month-old girl has bilateral palpable breast tissue with no other pubertal signs and normal growth. A 6-year-old boy has isolated body odour and mild pubic hair with normal height velocity and bone age. What is the most appropriate management for both?",
+    "options": [
+     "GnRH agonist depot injections",
+     "Reassurance and observation",
+     "Brain MRI for both",
+     "Oral cyproterone acetate"
+    ],
+    "answer": 1,
+    "explain": "Newborn breast enlargement (maternal oestrogen/mini-puberty) and premature adrenarche are benign variants needing only reassurance and follow-up. GnRH agonists treat confirmed central precocious puberty.",
+    "note": "Treat the cause; premature adrenarche and newborn breast enlargement need reassurance."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Define precocious and delayed puberty and give the first signs.",
+    "back": "Precocious: signs <8 y girls, <9 y boys • delayed: no breasts by 13, no testes (≥4 ml) by 14 • first sign: girls thelarche, boys testicular volume ≥4 ml."
+   },
+   {
+    "type": "card",
+    "front": "How do you distinguish central from peripheral precocious puberty?",
+    "back": "Central: LH rises on GnRH (leuprolide) stimulation, bilateral testicular enlargement → MRI brain → GnRH agonist depot • peripheral: LH/FSH suppressed; small testes + virilisation = adrenal (CAH/tumour)."
+   },
+   {
+    "type": "card",
+    "front": "List the causes of delayed puberty.",
+    "back": "Constitutional delay (commonest) • hypogonadotrophic: Kallmann (anosmia), chronic illness, anorexia • hypergonadotrophic: Turner, primary ovarian insufficiency, Klinefelter."
+   }
+  ]
+ },
+ "I-37": {
+  "summary": "SVT is the commonest symptomatic paediatric tachyarrhythmia: infants present with heart failure, not palpitations; treat stable SVT with vagal manoeuvres then rapid IV adenosine (never verapamil in infants) and unstable SVT with synchronised cardioversion; sudden syncope without prodrome is an arrhythmia until proven otherwise.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What is the commonest symptomatic tachyarrhythmia in children?",
+    "options": [
+     "Sinus tachycardia",
+     "Ventricular tachycardia",
+     "Atrial fibrillation",
+     "Supraventricular tachycardia"
+    ],
+    "answer": 3,
+    "explain": "SVT (usually AV re-entry) is the commonest symptomatic tachyarrhythmia, with abrupt onset and offset. Sinus tachycardia is physiological, and AF/VT are rare in structurally normal paediatric hearts.",
+    "note": "Commonest symptomatic tachyarrhythmia in children: SVT; presents with abrupt onset tachycardia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-week-old infant presents with 24 hours of poor feeding, sweating, tachypnoea and hepatomegaly. Heart rate is 270/min with narrow QRS complexes and no beat-to-beat variation. What is the most likely diagnosis?",
+    "options": [
+     "Sinus tachycardia due to sepsis",
+     "Dilated cardiomyopathy",
+     "Supraventricular tachycardia",
+     "Large ventricular septal defect"
+    ],
+    "answer": 2,
+    "explain": "Infants with SVT (rate >220/min, fixed rate) cannot report palpitations and present with heart failure after hours of tachycardia. Sinus tachycardia rarely exceeds 220/min in infants and varies with activity.",
+    "note": "Infants with SVT (rate >220) present with heart failure, not palpitations."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 9-year-old boy has a narrow-complex tachycardia at 230/min. He is alert with normal blood pressure and good perfusion. What is the first step in management?",
+    "options": [
+     "Rapid IV adenosine bolus",
+     "Synchronised DC cardioversion",
+     "Vagal manoeuvres",
+     "IV verapamil"
+    ],
+    "answer": 2,
+    "explain": "For stable SVT, vagal manoeuvres (e.g. modified Valsalva, ice to the face in infants) come first, then rapid IV adenosine if they fail. Cardioversion is reserved for haemodynamic instability.",
+    "note": "Stable SVT: vagal manoeuvres first, then rapid IV adenosine; verapamil contraindicated in infants."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-month-old in SVT has failed vagal manoeuvres and two doses of adenosine. She remains alert and well perfused. A junior suggests IV verapamil. What is the main reason to reject this?",
+    "options": [
+     "It can cause severe hypotension and cardiovascular collapse in infants",
+     "It is ineffective in AV re-entrant tachycardia",
+     "It accelerates conduction over an accessory pathway in all children",
+     "It must be given only after failed synchronised DC cardioversion"
+    ],
+    "answer": 0,
+    "explain": "Verapamil is contraindicated in infants because it can cause profound hypotension, bradycardia and asystole. Seek cardiology advice; options include synchronised cardioversion under sedation or other agents such as amiodarone.",
+    "note": "Stable SVT: vagal manoeuvres first, then rapid IV adenosine; verapamil contraindicated in infants."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why does rapid IV adenosine terminate re-entrant SVT?",
+    "options": [
+     "It blocks fast sodium channels in the ventricle",
+     "It transiently inhibits the AV node, causing heart block",
+     "It prolongs the atrial refractory period via potassium channel blockade",
+     "It slows the sinus node via beta-receptor blockade"
+    ],
+    "answer": 1,
+    "explain": "Adenosine acts on A1 receptors to inhibit the AV node, causing transient heart block that interrupts an AV-node-dependent re-entry circuit. Its half-life is seconds, hence the rapid bolus and flush.",
+    "note": "Adenosine inhibits the AV node, causing transient heart block."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 12-year-old with recurrent palpitations has a resting ECG with a PR interval of 0.08 s, QRS of 0.12 s and a slurred upstroke of the QRS. What is the diagnosis?",
+    "options": [
+     "Brugada syndrome",
+     "Long QT syndrome",
+     "First-degree heart block",
+     "Wolff-Parkinson-White syndrome"
+    ],
+    "answer": 3,
+    "explain": "Short PR, widened QRS and a delta wave indicate ventricular pre-excitation via an accessory pathway: WPW. Brugada shows pseudo-RBBB with ST elevation in V1-V3; first-degree block has a long PR.",
+    "note": "WPW resting ECG: short PR, widened QRS, delta wave."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 7-year-old with congenital sensorineural deafness collapses suddenly while being startled by an alarm clock. ECG shows a QTc of 520 ms. Both parents have normal hearing and normal ECGs. Which condition and inheritance pattern are most likely?",
+    "options": [
+     "Romano-Ward syndrome, autosomal dominant",
+     "Jervell and Lange-Nielsen syndrome, autosomal recessive",
+     "Brugada syndrome with SCN5A mutation, autosomal dominant",
+     "Timothy syndrome, X-linked"
+    ],
+    "answer": 1,
+    "explain": "Long QT with congenital deafness and unaffected parents fits Jervell and Lange-Nielsen (AR). Romano-Ward is AD with normal hearing. Long QT predisposes to torsades de pointes, and treatment is with beta-blockers.",
+    "note": "WPW: ventricular pre-excitation; long QT: Romano-Ward (AD), Jervell and Lange-Nielsen (AR, deafness)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A newborn has a persistent heart rate of 55/min with AV dissociation on ECG and a structurally normal heart. The mother has Sjögren syndrome. What is the cause and the definitive treatment if the infant is symptomatic?",
+    "options": [
+     "Maternal anti-Ro/La antibodies; pacemaker",
+     "Maternal anti-dsDNA antibodies; atropine",
+     "Maternal hypothyroidism; levothyroxine",
+     "Congenital Brugada syndrome; ICD"
+    ],
+    "answer": 0,
+    "explain": "Congenital complete heart block is caused by transplacental anti-Ro/La antibodies damaging the conduction system; symptomatic or very slow cases need a pacemaker.",
+    "note": "Congenital complete heart block: maternal anti-Ro/La antibodies; Brugada: AD."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Walk through management of SVT in a child.",
+    "back": "Stable: vagal manoeuvres (ice to face in infants, modified Valsalva) → rapid IV adenosine with flush, increase dose • no verapamil in infants • unstable: synchronised cardioversion • long term: ablation/prophylaxis."
+   },
+   {
+    "type": "card",
+    "front": "Describe the ECG features of WPW, long QT, Brugada and complete heart block.",
+    "back": "WPW: short PR, wide QRS, delta wave • long QT: QTc prolonged → torsades • Brugada: pseudo-RBBB + ST↑ V1-V3 • CHB: AV dissociation (maternal anti-Ro/La)."
+   },
+   {
+    "type": "card",
+    "front": "What features of syncope suggest an arrhythmia?",
+    "back": "Sudden, no prodrome • during exercise or startle (long QT) • family history of sudden death/deafness • palpitations, abnormal ECG → ECG, Holter, echo, cardiology."
+   }
+  ]
+ },
+ "I-38": {
+  "summary": "Most childhood obesity is exogenous: these children are tall with advanced bone age, whereas a short, slowly growing obese child needs an endocrine work-up; look for insulin-resistance complications (acanthosis, PCOS, NAFLD), SCFE and OSA, and start with family-based lifestyle change.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "An 11-year-old boy has a BMI above the 98th centile. He is on the 91st centile for height, his bone age is advanced by 1.5 years and development is normal. What is the most likely cause?",
+    "options": [
+     "Exogenous (simple) obesity",
+     "Cushing syndrome",
+     "Hypothyroidism",
+     "Growth hormone deficiency"
+    ],
+    "answer": 0,
+    "explain": "Exogenous obesity produces a tall child with advanced bone age, because excess nutrition accelerates growth and maturation. Endocrine causes (Cushing, hypothyroidism, GH deficiency) make children short with slow height velocity.",
+    "note": "Exogenous: child is tall with advanced bone age."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 9-year-old girl has gained weight over 2 years. Her height has fallen from the 50th to the 9th centile and height velocity has slowed. Which interpretation is most appropriate?",
+    "options": [
+     "Endocrine cause likely; test for Cushing and hypothyroidism",
+     "Typical exogenous obesity; lifestyle advice only",
+     "Constitutional delay; reassure and review height in twelve months",
+     "Familial short stature with coincidental obesity"
+    ],
+    "answer": 0,
+    "explain": "Obesity with short stature and slowing height velocity suggests an endocrine cause (Cushing, hypothyroidism, GH deficiency) and needs investigation. Exogenous obesity makes children taller, not shorter.",
+    "note": "Endocrine: child is short with slowing height velocity; commonest monogenic cause MC4R; Prader-Willi."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A child with hypotonia and feeding difficulty in infancy develops insatiable hyperphagia and obesity from age 3, with small hands and hypogonadism. Which hormonal change contributes to her hyperphagia?",
+    "options": [
+     "High growth hormone",
+     "Raised leptin receptor sensitivity",
+     "Low cortisol",
+     "Raised ghrelin"
+    ],
+    "answer": 3,
+    "explain": "This is Prader-Willi syndrome (paternal 15q11-13 deletion or maternal UPD). Ghrelin is markedly raised and contributes to hyperphagia; GH is low (they benefit from GH therapy).",
+    "note": "Prader-Willi: gene deletion, raised ghrelin."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 13-year-old obese girl has velvety, dark, thickened skin in her neck folds and axillae, irregular periods and hirsutism. What is the common underlying mechanism?",
+    "options": [
+     "Adrenal androgen-secreting tumour",
+     "Excess cortisol production",
+     "Primary hypothyroidism",
+     "Insulin resistance"
+    ],
+    "answer": 3,
+    "explain": "Acanthosis nigricans, PCOS and fatty liver all reflect insulin resistance; hyperinsulinaemia stimulates keratinocytes and ovarian androgen production. Check glucose/HbA1c and lipids.",
+    "note": "Insulin resistance underlies acanthosis nigricans, PCOS and fatty liver."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 13-year-old obese boy has had 3 weeks of left knee pain and an externally rotated, limping gait. Knee examination is normal. What is the most likely diagnosis?",
+    "options": [
+     "Osgood-Schlatter disease",
+     "Perthes disease",
+     "Slipped capital femoral epiphysis",
+     "Patellofemoral pain syndrome"
+    ],
+    "answer": 2,
+    "explain": "Knee pain with limp in an obese teenager is SCFE until proven otherwise (referred pain via the obturator nerve); examine the hip and get AP and frog-leg lateral X-rays. Perthes occurs in younger children (4-8 years).",
+    "note": "Knee pain and limp in an obese teenager: SCFE; also obstructive sleep apnea."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Which child with obesity most warrants genetic testing (e.g. for MC4R or Prader-Willi)?",
+    "options": [
+     "A 14-year-old with obesity since age 10 and obese parents",
+     "A 3-year-old with severe hyperphagia and developmental delay",
+     "A 12-year-old with acanthosis nigricans and tall stature",
+     "A 10-year-old with a BMI on the 99th centile and normal development"
+    ],
+    "answer": 1,
+    "explain": "Genetic red flags are onset before 5 years, severe hyperphagia, developmental delay or dysmorphism. The other children have typical exogenous features (later onset, tall stature, obese parents).",
+    "note": "Genetic red flags: onset before 5 years, severe hyperphagia, developmental delay or dysmorphism."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "How is obesity assessed and defined in a 10-year-old child?",
+    "options": [
+     "Using an adult BMI cut-off of 30 kg/m²",
+     "Using BMI plotted on age- and sex-specific centiles",
+     "Using weight-for-age centile alone",
+     "Using a fixed waist circumference cut-off above 80 cm"
+    ],
+    "answer": 1,
+    "explain": "In children BMI changes with age and sex, so excess weight is judged by BMI centiles (UK clinical: ≥91st overweight, ≥98th obese). Adult cut-offs and weight-for-age ignore height and growth; most childhood obesity is exogenous.",
+    "note": "Excess weight judged by BMI centiles; mostly exogenous obesity."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "What is the first-line management of exogenous obesity in a 10-year-old?",
+    "options": [
+     "Orlistat with meals",
+     "Semaglutide weekly injections",
+     "Family-based lifestyle change",
+     "Referral for bariatric surgery"
+    ],
+    "answer": 2,
+    "explain": "Family-based lifestyle change (diet, activity, screen time, sleep) is first line. GLP-1 receptor agonists such as semaglutide are licensed only from age 12, and surgery is reserved for severe adolescent obesity.",
+    "note": "Family-based lifestyle change first."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish exogenous from endocrine obesity?",
+    "back": "Exogenous: tall, advanced bone age, normal development • endocrine (Cushing, hypothyroid, GHD): short, slowing height velocity • genetic red flags: onset <5 y, severe hyperphagia, delay, dysmorphism (MC4R, Prader-Willi)."
+   },
+   {
+    "type": "card",
+    "front": "List the complications of childhood obesity.",
+    "back": "Insulin resistance: acanthosis nigricans, T2DM, PCOS, NAFLD • metabolic syndrome (≥3 of 5) • SCFE • OSA • hypertension, dyslipidaemia • IIH • psychological."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of childhood obesity.",
+    "back": "Family-based lifestyle change first (diet, activity, sleep, screens) • treat complications • GLP-1 RA (semaglutide) from 12 y • bariatric surgery for severe adolescent cases."
+   }
+  ]
+ },
+ "I-39": {
+  "summary": "Short stature (< -2 SD) is pathological when height velocity is low and the child crosses centiles downwards; bone age separates familial (bone age = chronological) from constitutional delay (bone age delayed, normal final height), and every unexplained short girl needs a karyotype for Turner.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which threshold defines short stature?",
+    "options": [
+     "Height below -1 SD for age and sex",
+     "Height below -2 SD for age and sex",
+     "Height below -3 SD for age and sex",
+     "Height below the 25th centile for age"
+    ],
+    "answer": 1,
+    "explain": "Short stature is height below -2 SD (about the 2nd centile). More important clinically is height velocity and whether the child is crossing centiles.",
+    "note": "Short stature = height below -2 SD."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-year-old boy is on the 2nd centile for height and has always tracked along it. Both parents are short (mid-parental target on the 3rd centile), height velocity is normal and bone age equals chronological age. What is the most likely diagnosis?",
+    "options": [
+     "Hypothyroidism",
+     "Constitutional delay of growth",
+     "Growth hormone deficiency",
+     "Familial short stature"
+    ],
+    "answer": 3,
+    "explain": "Familial short stature: short parents, normal velocity and bone age equal to chronological age; final height matches the genetic target. In constitutional delay the bone age is delayed.",
+    "note": "Familial: bone age equal to chronological age."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 14-year-old boy is short with no signs of puberty. His father was a 'late bloomer'. Height velocity is normal for prepubertal age and bone age is 11.5 years. What is his expected final height?",
+    "options": [
+     "Unpredictable without a GH stimulation test",
+     "Reduced by 10-15 cm because of delayed puberty",
+     "Increased above his genetic target",
+     "Normal, within his genetic target range"
+    ],
+    "answer": 3,
+    "explain": "Constitutional delay: delayed bone age with late puberty and a family history; growth continues longer so final height is normal. Management is reassurance (occasionally short-course sex steroids).",
+    "note": "Constitutional delay: bone age delayed, final height normal."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 6-year-old girl was on the 50th centile for height at age 3 and is now on the 9th centile. Her current height is still above -2 SD. How should this be interpreted?",
+    "options": [
+     "Pathological, because she is crossing centiles downwards",
+     "Normal because height is above -2 SD",
+     "Constitutional delay; reassess growth when puberty starts",
+     "Familial short stature; check parental heights only"
+    ],
+    "answer": 0,
+    "explain": "Pathological short stature is defined by a low height velocity and downward crossing of centiles, even if absolute height is not yet below -2 SD. She needs investigation (thyroid, coeliac, karyotype, GH).",
+    "note": "Pathological short stature = low height velocity, crossing centiles downward."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 10-year-old girl's height velocity has slowed over 2 years. She has gained weight, is constipated and tired, and has dry skin. Her bone age is delayed. Which is the most likely cause?",
+    "options": [
+     "Growth hormone deficiency",
+     "Acquired hypothyroidism",
+     "Coeliac disease",
+     "Turner syndrome"
+    ],
+    "answer": 1,
+    "explain": "Hypothyroidism is the most frequent endocrine cause of growth failure; weight gain, constipation, fatigue and dry skin with delayed bone age fit. GH deficiency lacks the hypothyroid symptoms; coeliac usually causes weight loss.",
+    "note": "Most frequent endocrine cause: hypothyroidism; also growth hormone deficiency, Turner, Prader-Willi, Fanconi anaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An 8-year-old girl is below the 0.4th centile for height with no dysmorphic features, normal thyroid function and negative coeliac serology. What is the most important next investigation?",
+    "options": [
+     "Karyotype",
+     "Brain MRI",
+     "Bone age only and review in 6 months",
+     "Skeletal survey"
+    ],
+    "answer": 0,
+    "explain": "Every unexplained short girl needs a karyotype to exclude Turner syndrome, as dysmorphic features may be subtle or absent. Diagnosis enables GH treatment and screening for cardiac and renal anomalies.",
+    "note": "Every unexplained short girl needs a karyotype to exclude Turner syndrome."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old with poor height velocity has a single GH stimulation test showing a subnormal peak. Thyroid function and karyotype are normal. What is required before diagnosing GH deficiency?",
+    "options": [
+     "A random serum GH level",
+     "A second GH stimulation test",
+     "A single IGF-1 level alone",
+     "No further testing is needed"
+    ],
+    "answer": 1,
+    "explain": "GH is secreted in pulses and a single stimulation test has a high false-positive rate, so GH deficiency needs two GH stimulation tests (with low IGF-1 supporting); then MRI of the pituitary. Random GH is useless.",
+    "note": "GH deficiency needs two GH stimulation tests."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "In which condition is growth hormone therapy NOT an established indication?",
+    "options": [
+     "Growth hormone deficiency",
+     "Turner syndrome",
+     "Constitutional delay of growth",
+     "Prader-Willi syndrome"
+    ],
+    "answer": 2,
+    "explain": "GH is used for deficiency, Turner and Prader-Willi syndromes (also CKD, SGA). Constitutional delay needs reassurance because final height is normal.",
+    "note": "Growth hormone for deficiency, Turner and Prader-Willi; constitutional delay: reassurance."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish familial short stature from constitutional delay?",
+    "back": "Familial: short parents, normal velocity, bone age = chronological age, final height short-normal • constitutional: late bloomer family, delayed puberty, bone age delayed, final height normal → reassure."
+   },
+   {
+    "type": "card",
+    "front": "List the pathological causes of short stature.",
+    "back": "Endocrine: hypothyroidism (commonest), GHD, Cushing • genetic: Turner (karyotype every short girl), Prader-Willi, Fanconi anaemia • chronic disease: coeliac, IBD, CKD • psychosocial deprivation, skeletal dysplasia."
+   },
+   {
+    "type": "card",
+    "front": "Outline the investigation of short stature.",
+    "back": "Plot height/velocity, mid-parental height • bone age • TFTs, coeliac serology, FBC, U&E • karyotype in girls • IGF-1, two GH stimulation tests → pituitary MRI if GHD."
+   }
+  ]
+ },
+ "I-40": {
+  "summary": "Localise weakness first (anterior horn cell, nerve, neuromuscular junction, muscle): tongue fasciculations and areflexia = SMA, constipation then descending paralysis = infant botulism, ascending areflexic weakness with albuminocytological dissociation = GBS, Gowers sign with huge CK = Duchenne, fatigable ptosis = myasthenia.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-month-old girl is profoundly floppy with a frog-leg posture, paradoxical breathing, absent reflexes and fasciculations of the tongue. She is alert and socially smiling. What is the most likely diagnosis?",
+    "options": [
+     "Prader-Willi syndrome",
+     "Infant botulism",
+     "Congenital myotonic dystrophy",
+     "Spinal muscular atrophy"
+    ],
+    "answer": 3,
+    "explain": "Tongue fasciculations and areflexia in an alert floppy infant localise to the anterior horn cell: SMA (SMN1 deletion). Botulism starts with constipation and bulbar signs; central causes such as Prader-Willi keep reflexes.",
+    "note": "Tongue fasciculations and areflexia in a floppy infant: SMA; infant botulism begins with constipation."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Two siblings both have homozygous SMN1 deletions, but one has severe infantile SMA and the other walks independently. What best explains the difference?",
+    "options": [
+     "Maternal versus paternal inheritance",
+     "Different dystrophin isoforms",
+     "Anticipation from CTG repeat expansion",
+     "Different SMN2 copy numbers"
+    ],
+    "answer": 3,
+    "explain": "SMA is caused by SMN1 deletion; severity depends on the number of SMN2 copies, which produce a small amount of functional SMN protein. More copies = milder phenotype. CTG expansion is myotonic dystrophy.",
+    "note": "SMA severity depends on SMN2 copy number."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 4-month-old was well until 3 days of constipation, followed by poor suck, a weak cry, ptosis and descending floppy weakness. He was given honey on a dummy. What is the mechanism?",
+    "options": [
+     "Antibodies to postsynaptic acetylcholine receptors",
+     "Ingested C. botulinum spores producing toxin in the gut",
+     "Post-infectious autoimmune demyelination of peripheral nerves",
+     "Deletion of the SMN1 gene"
+    ],
+    "answer": 1,
+    "explain": "Infant botulism results from ingested spores (honey) colonising the gut and producing toxin that blocks presynaptic ACh release; constipation is the first sign. Treat with human-derived botulism immune globulin.",
+    "note": "Myasthenia: antibodies to postsynaptic ACh receptors; infant botulism: honey spores; GBS."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "A 4-year-old boy is clumsy, falls frequently and has large calves. To stand up from the floor he walks his hands up his thighs. Reflexes are present, there are no fasciculations and sensation is normal. Serum CK is 15,000 U/L. Where is the lesion?",
+    "options": [
+     "Anterior horn cell",
+     "Muscle",
+     "Peripheral nerve",
+     "Neuromuscular junction"
+    ],
+    "answer": 1,
+    "explain": "Proximal weakness with Gowers sign, calf pseudohypertrophy, preserved reflexes and CK raised 10-100x localises to muscle: Duchenne muscular dystrophy (X-linked absence of dystrophin). Anterior horn cell disease gives fasciculations and areflexia; NMJ disease is fatigable with normal CK.",
+    "note": "Localise the weakness: horn cell, nerve, neuromuscular junction or muscle."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 15-year-old has proximal leg weakness and dry mouth. Strength transiently improves with repeated effort, and reflexes return after brief exercise. Which mechanism is most likely?",
+    "options": [
+     "Anterior horn cell degeneration",
+     "Antibodies to postsynaptic acetylcholine receptors",
+     "Antibodies to presynaptic voltage-gated calcium channels",
+     "Absent dystrophin in muscle membranes"
+    ],
+    "answer": 2,
+    "explain": "Lambert-Eaton syndrome (presynaptic calcium channel antibodies) improves with repeated use, as calcium accumulates and increases ACh release. Myasthenia (postsynaptic AChR antibodies) worsens with use.",
+    "note": "Myasthenia: weakness worsens with muscle use; Lambert-Eaton (presynaptic calcium channels) improves."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-year-old has 4 days of progressive, symmetrical ascending leg weakness, absent reflexes and back pain, two weeks after a diarrhoeal illness. What CSF finding and monitoring are expected?",
+    "options": [
+     "Normal protein, high lymphocytes; daily EMG",
+     "High white cells, low glucose; daily CT head",
+     "High protein, normal cell count; serial spirometry",
+     "Oligoclonal bands; serial MRI spine"
+    ],
+    "answer": 2,
+    "explain": "GBS (often post-Campylobacter) gives albuminocytological dissociation (high protein, normal cells). Monitor vital capacity with serial spirometry to anticipate respiratory failure.",
+    "note": "GBS: CSF high protein with normal cell count; serial spirometry."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-year-old with GBS has falling forced vital capacity and can no longer walk. What is the most appropriate disease-modifying treatment?",
+    "options": [
+     "IV immunoglobulin or plasmapheresis",
+     "High-dose IV methylprednisolone",
+     "Oral pyridostigmine",
+     "Human-derived botulism immune globulin"
+    ],
+    "answer": 0,
+    "explain": "IVIG (or plasmapheresis) is the disease-modifying treatment for GBS; steroids are ineffective. Pyridostigmine treats myasthenia; botulism immune globulin treats infant botulism.",
+    "note": "GBS: IVIG or plasmapheresis; infant botulism: human-derived botulism immune globulin."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A 13-year-old girl with known myasthenia gravis develops worsening bulbar weakness and a falling vital capacity during a chest infection. What is the immediate priority?",
+    "options": [
+     "Intubation and ventilatory support",
+     "Doubling the pyridostigmine dose",
+     "Starting high-dose prednisone alone",
+     "Urgent thymectomy"
+    ],
+    "answer": 0,
+    "explain": "Myasthenic crisis is respiratory failure; secure the airway first with intubation, then treat with IVIG (or plasma exchange) plus steroids. Increasing pyridostigmine risks cholinergic crisis; thymectomy is elective.",
+    "note": "Duchenne: steroids; myasthenic crisis: intubation, then prednisone plus IVIG."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you localise weakness in a child?",
+    "back": "Anterior horn cell: fasciculations, areflexia (SMA) • nerve: distal, areflexia (GBS) • NMJ: fatigable, ptosis (myasthenia, botulism) • muscle: proximal, Gowers, CK↑ (Duchenne)."
+   },
+   {
+    "type": "card",
+    "front": "Compare myasthenia gravis with Lambert-Eaton syndrome.",
+    "back": "MG: postsynaptic AChR antibodies, worsens with use, ptosis/diplopia • LEMS: presynaptic Ca²⁺ channel antibodies, improves with use, autonomic signs, reflexes return after exercise."
+   },
+   {
+    "type": "card",
+    "front": "List the key investigations and treatments for GBS, Duchenne and infant botulism.",
+    "back": "GBS: CSF ↑protein normal cells, spirometry; IVIG/plasmapheresis • Duchenne: CK 10-100x, genetics; steroids • botulism: constipation first; human botulism immune globulin."
+   }
+  ]
+ },
+ "I-41": {
+  "summary": "Pattern of bleeding localises the defect: mucocutaneous bleeding = platelets/VWF, joint and muscle bleeds = clotting factors (isolated prolonged APTT = haemophilia); in a haemophiliac any head injury means factor concentrate first, and ITP with only skin bleeding is watched, not treated.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A child presents with recurrent epistaxis, gum bleeding and easy bruising, but no joint bleeds. Where is the haemostatic defect most likely to lie?",
+    "options": [
+     "Factor VIII or factor IX",
+     "Platelets or von Willebrand factor",
+     "Fibrinolytic pathway",
+     "Vitamin K-dependent factors"
+    ],
+    "answer": 1,
+    "explain": "Mucocutaneous bleeding (epistaxis, gums, menorrhagia, bruising) suggests a primary haemostasis defect: platelets or VWF. Haemarthroses and muscle haematomas suggest clotting factor deficiency (haemophilia).",
+    "note": "Mucocutaneous bleeding suggests platelets/VWF; joint and muscle bleeds suggest clotting factors."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest inherited bleeding disorder?",
+    "options": [
+     "Haemophilia A",
+     "Haemophilia B",
+     "Von Willebrand disease",
+     "Glanzmann thrombasthenia"
+    ],
+    "answer": 2,
+    "explain": "Von Willebrand disease (up to 1% of the population, mostly mild type 1) is the commonest inherited bleeding disorder. Haemophilia A (factor VIII) is the commonest severe inherited coagulopathy.",
+    "note": "Commonest inherited bleeding disorder: von Willebrand disease; ITP: IgG against GPIIb/IIIa."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 14-month-old boy who has just started walking develops a hot, swollen, painful knee without trauma. His maternal uncle had similar problems. Coagulation shows APTT 78 s (normal <40) and PT normal. Factor VIII level is 0.5%. What is the most likely diagnosis?",
+    "options": [
+     "Immune thrombocytopenia",
+     "Severe haemophilia B",
+     "Von Willebrand disease type 1",
+     "Severe haemophilia A"
+    ],
+    "answer": 3,
+    "explain": "Spontaneous joint bleeds occur in severe haemophilia (<1% factor). X-linked inheritance via the maternal uncle and a low factor VIII give haemophilia A; haemophilia B would have low factor IX. VWD and ITP cause mucocutaneous bleeding.",
+    "note": "Haemophilia A = factor VIII; haemophilia B = factor IX."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "Which coagulation screen pattern is expected in a boy with haemophilia B?",
+    "options": [
+     "APTT prolonged, PT normal",
+     "APTT normal, PT prolonged",
+     "APTT and PT both prolonged",
+     "APTT and PT normal, bleeding time prolonged"
+    ],
+    "answer": 0,
+    "explain": "Factors VIII and IX are in the intrinsic pathway, so the haemophilia screen shows prolonged APTT with normal PT (and normal platelets and bleeding time). PT prolongation suggests factor VII/vitamin K deficiency.",
+    "note": "Haemophilia screen: APTT prolonged, PT normal."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A previously well 4-year-old develops widespread petechiae and bruises 2 weeks after a viral illness. He is well, with no hepatosplenomegaly or lymphadenopathy. FBC shows platelets 12 × 10⁹/L with normal haemoglobin and white cells. What is the most likely diagnosis?",
+    "options": [
+     "Acute lymphoblastic leukaemia",
+     "Henoch-Schönlein purpura",
+     "Haemolytic uraemic syndrome",
+     "Immune thrombocytopenia"
+    ],
+    "answer": 3,
+    "explain": "A well child with scattered petechiae, isolated thrombocytopenia and no organomegaly after a viral illness has ITP (IgG against GPIIb/IIIa). Leukaemia usually affects other cell lines or causes organomegaly; HSP has a normal platelet count.",
+    "note": "ITP: scattered petechiae, isolated thrombocytopenia, increased bleeding time."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "The same 4-year-old with ITP (platelets 12 × 10⁹/L) has only skin petechiae and bruising, no mucosal bleeding, and the family lives close to the hospital. What is the most appropriate management?",
+    "options": [
+     "Observation with advice",
+     "IV immunoglobulin",
+     "Platelet transfusion",
+     "Oral prednisolone for 4 weeks"
+    ],
+    "answer": 0,
+    "explain": "Most childhood ITP resolves spontaneously; with only skin bleeding, observation is recommended regardless of platelet count. IVIG or steroids are used for significant mucosal bleeding; platelet transfusion is for life-threatening bleeds only, as transfused platelets are rapidly destroyed.",
+    "note": "Inhibitors: bypassing agent; prophylaxis emicizumab; ITP with only petechiae: observation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 7-year-old with severe haemophilia A falls off his scooter and bumps his head. He did not lose consciousness, has no vomiting and is neurologically normal. What is the next best step?",
+    "options": [
+     "Observe at home and return if he vomits",
+     "Immediate factor VIII, then the haemophilia centre",
+     "Urgent CT head first, giving factor only if a bleed is shown",
+     "Oral tranexamic acid and review the next day"
+    ],
+    "answer": 1,
+    "explain": "In haemophilia any head trauma, even without symptoms, warrants immediate factor concentrate (before imaging) and management at the nearest haemophilia centre, because intracranial bleeding may be delayed.",
+    "note": "Haemophilia with head trauma, even without fainting: immediate factor concentrate and nearest haemophilia centre."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 12-year-old girl with type 1 von Willebrand disease needs a dental extraction. Desmopressin is given beforehand. How does it improve haemostasis?",
+    "options": [
+     "It increases hepatic synthesis of vitamin K-dependent factors",
+     "It inhibits plasminogen activation at the wound",
+     "It releases vWF (and factor VIII) from Weibel-Palade bodies",
+     "It blocks antibody binding to platelet GPIIb/IIIa"
+    ],
+    "answer": 2,
+    "explain": "Desmopressin (a V2 agonist) releases stored vWF from endothelial Weibel-Palade bodies, raising vWF and factor VIII. Tranexamic acid is the antifibrinolytic often added for dental work.",
+    "note": "Desmopressin increases release of vWF from Weibel-Palade bodies."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you differentiate bleeding disorders clinically and on the coagulation screen?",
+    "back": "Mucocutaneous → platelets/VWF (count, bleeding time, VWF studies) • joints/muscles → factors • APTT↑ PT normal = haemophilia A (VIII)/B (IX) or VWD • isolated low platelets in well child = ITP."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of haemophilia.",
+    "back": "Factor VIII/IX concentrate on demand and prophylaxis • emicizumab prophylaxis • inhibitors → bypassing agent • head trauma: immediate factor + haemophilia centre • no IM injections, NSAIDs."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of childhood ITP.",
+    "back": "Mostly self-limiting • skin bleeding only → observation • significant mucosal bleeding → IVIG or steroids • life-threatening → platelets + IVIG/steroids • chronic = low platelets >1 year."
+   }
+  ]
+ },
+ "I-42": {
+  "summary": "ADHD needs symptoms in two or more settings, onset before 12 and duration of at least 6 months; exclude hearing, vision, absences and OSA; methylphenidate is first line from age 5 with growth and cardiovascular monitoring. Autism is social-communication deficit plus restricted, repetitive behaviour: screen with M-CHAT-R/F, always test hearing, and treat with early intensive therapy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which criterion is required for a diagnosis of ADHD?",
+    "options": [
+     "Symptoms present in at least two settings",
+     "Symptoms present only at school",
+     "Onset after the age of 12 years",
+     "Symptoms lasting at least 1 month"
+    ],
+    "answer": 0,
+    "explain": "ADHD requires hyperactivity, impulsivity and/or inattention in ≥2 settings (e.g. home and school), onset before 12 and persistence for at least 6 months.",
+    "note": "ADHD: hyperactivity, impulsivity, and/or inattention in ≥ 2 settings."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 9-year-old boy's teacher reports that for the past 3 months he has been fidgety and inattentive in class since his parents separated. At home and at football he behaves normally. Why is ADHD not the correct diagnosis at this point?",
+    "options": [
+     "He is older than the usual age of onset for ADHD",
+     "A family stressor automatically excludes ADHD",
+     "Inattention without hyperactivity excludes the diagnosis",
+     "Symptoms are in one setting only and under 6 months"
+    ],
+    "answer": 3,
+    "explain": "ADHD requires onset before 12, symptoms in two or more settings and duration of at least 6 months; this boy's symptoms are confined to school, brief and linked to a stressor (adjustment reaction). Inattentive-type ADHD exists without hyperactivity.",
+    "note": "ADHD: onset before 12, in two or more settings, for at least 6 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old girl is referred for 'daydreaming' and poor attention in class, with brief episodes of staring several times a day during which she does not respond. She snores at night. Hearing has not been tested. Which step is most appropriate before diagnosing ADHD?",
+    "options": [
+     "Start methylphenidate as a diagnostic trial",
+     "Exclude hearing loss, absences and sleep apnoea",
+     "Request a brain MRI",
+     "Diagnose inattentive ADHD on teacher reports alone"
+    ],
+    "answer": 1,
+    "explain": "ADHD is a clinical diagnosis, but hearing, vision, absences (EEG with hyperventilation) and OSA must be excluded first. Her frequent staring spells suggest childhood absence epilepsy, and snoring suggests OSA.",
+    "note": "ADHD: clinical; exclude hearing, vision, absences, OSA."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-year-old boy has confirmed combined-type ADHD affecting school and home despite a parent-training programme. What is the first-line medication?",
+    "options": [
+     "Atomoxetine",
+     "Guanfacine",
+     "Risperidone",
+     "Methylphenidate"
+    ],
+    "answer": 3,
+    "explain": "From age 5, methylphenidate (a stimulant) is first line, ± CBT/behavioural support; atomoxetine and then guanfacine follow if it fails or is not tolerated. Risperidone is used for severe irritability in autism.",
+    "note": "ADHD from age 5: stimulants ± CBT; methylphenidate first-line, then atomoxetine, guanfacine."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10-year-old has been well controlled on methylphenidate for a year. What monitoring is most important at follow-up?",
+    "options": [
+     "ECG and serum electrolytes every month",
+     "Liver function tests and full blood count every 3 months",
+     "Heart rate, blood pressure, height and weight",
+     "Thyroid function and fasting glucose"
+    ],
+    "answer": 2,
+    "explain": "Stimulants can raise heart rate and blood pressure and suppress appetite, so monitor HR, BP, height and weight (plot on growth charts). Routine bloods or ECG are not needed without a cardiac history.",
+    "note": "Monitor heart rate, blood pressure, height and weight on stimulants."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "Parents of a 3-year-old newly diagnosed with autism ask what caused it, worried about his MMR vaccine. Which statement is correct?",
+    "options": [
+     "The MMR vaccine is a recognised trigger",
+     "Autism is largely genetic and is more common in boys",
+     "Autism is caused mainly by cold, distant parenting",
+     "Autism is more common in girls than boys"
+    ],
+    "answer": 1,
+    "explain": "Autism is largely genetic (associated with fragile X, Rett syndrome and fetal valproate), is about four times more common in males, and is not caused by MMR, which large studies have refuted.",
+    "note": "Autism: genetic; fragile X, Rett, fetal valproate; not MMR; more common in males."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old boy has no words, poor eye contact, lines up his toys and becomes distressed when routines change. M-CHAT-R/F is positive. What should be done before confirming autism?",
+    "options": [
+     "Formal audiology assessment",
+     "Brain MRI",
+     "EEG",
+     "Trial of speech therapy for 6 months first"
+    ],
+    "answer": 0,
+    "explain": "A hearing test is required before diagnosing autism in a non-verbal child, because deafness can mimic social-communication delay. Diagnosis is then made with a structured assessment such as ADOS; screening uses M-CHAT-R/F at 18 months and 2 years.",
+    "note": "Hearing test before diagnosing autism in non-verbal child; ADOS."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 6-year-old with autism becomes very distressed when his route to school changes but calms when allowed to complete his usual sequence. Which model best explains this behaviour?",
+    "options": [
+     "Excess noradrenaline causes hypervigilance to threat",
+     "Weak dopamine and noradrenaline signalling causes impulsive reward-seeking",
+     "Altered connectivity makes social cues unrewarding, so predictable routines calm",
+     "Primary sensory deafness causes withdrawal from novelty"
+    ],
+    "answer": 2,
+    "explain": "In autism, altered brain connectivity means social cues are not rewarding and unpredictability is distressing, so routines calm. Weak dopamine/noradrenaline signalling with impulsivity is the model for ADHD.",
+    "note": "Autism: altered connectivity → social cues not rewarding → routines calm."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "State the diagnostic criteria for ADHD and the conditions to exclude.",
+    "back": "Hyperactivity/impulsivity and/or inattention • ≥2 settings • onset <12 y • ≥6 months • exclude hearing, vision, absences, OSA • causes: ~70-80% heritable, prematurity, fetal alcohol/tobacco."
+   },
+   {
+    "type": "card",
+    "front": "Outline the treatment of ADHD.",
+    "back": "From 5 y: methylphenidate first line → atomoxetine → guanfacine, ± CBT/parent training • monitor HR, BP, height, weight."
+   },
+   {
+    "type": "card",
+    "front": "How is autism screened for, diagnosed and treated?",
+    "back": "Signs: poor eye contact, sameness, stereotypies • M-CHAT-R/F at 18 m and 2 y • hearing test first, then ADOS • early intensive developmental therapy; risperidone for severe irritability."
+   }
+  ]
+ },
+ "I-43": {
+  "summary": "Read a gas in order: pH, then SMORE (pH and pCO2 moving in the Same direction = Metabolic, Opposite = RESpiratory), then the anion gap (Na - [Cl + HCO3], normal 8-12) and Winter's formula for compensation; pyloric stenosis is the classic hypochloraemic hypokalaemic alkalosis, fixed with chloride and volume before surgery.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A blood gas shows pH 7.29 and pCO2 3.1 kPa. According to SMORE, what is the primary disturbance?",
+    "options": [
+     "Metabolic acidosis",
+     "Respiratory acidosis",
+     "Metabolic alkalosis",
+     "Respiratory alkalosis"
+    ],
+    "answer": 0,
+    "explain": "pH and pCO2 are both low (moving in the Same direction), so the primary process is Metabolic: a metabolic acidosis with respiratory compensation. Opposite directions would indicate a respiratory disorder.",
+    "note": "SMORE: Same direction (pH and pCO2) → Metabolic; Opposite → RESpiratory."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A child has Na 138, Cl 106 and HCO3 12 mmol/L. What is the anion gap and how is it interpreted?",
+    "options": [
+     "20 mmol/L, raised",
+     "8 mmol/L, normal",
+     "32 mmol/L, raised",
+     "14 mmol/L, normal"
+    ],
+    "answer": 0,
+    "explain": "Anion gap = Na - (Cl + HCO3) = 138 - (106 + 12) = 20 mmol/L, above the normal 8-12, so this is a high anion gap acidosis (acid added: DKA, lactate, renal failure, toxins).",
+    "note": "Anion gap = Na - (Cl + HCO3), normal about 8-12."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 2-year-old has had 5 days of profuse watery diarrhoea. Gas: pH 7.28, HCO3 13 mmol/L, Na 136, Cl 114 mmol/L. What is the most likely mechanism of the acidosis?",
+    "options": [
+     "Accumulation of ketoacids",
+     "Loss of bicarbonate in stool",
+     "Lactic acid from tissue hypoperfusion",
+     "Retention of acid from renal failure"
+    ],
+    "answer": 1,
+    "explain": "Anion gap = 136 - (114 + 13) = 9: a normal anion gap (hyperchloraemic) acidosis, as in diarrhoea, which loses bicarbonate. Ketoacids, lactate and renal failure add unmeasured anions and raise the gap.",
+    "note": "Normal anion gap: diarrhoea, RTA (HARDASS); alkalosis: vomiting, diuretics."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 10-year-old with DKA has pH 7.12, HCO3 8 mmol/L and pCO2 4.8 kPa (36 mmHg). Using Winter's formula, how should the respiratory status be interpreted?",
+    "options": [
+     "Appropriate respiratory compensation",
+     "Primary respiratory acidosis",
+     "Additional respiratory alkalosis from over-ventilation",
+     "Additional respiratory acidosis from inadequate ventilation"
+    ],
+    "answer": 3,
+    "explain": "Expected pCO2 = 1.5 × 8 + 8 = 20 ± 2 mmHg (about 2.7 kPa). A pCO2 of 36 mmHg is far higher, so there is a concomitant respiratory acidosis: he is tiring or has reduced consciousness and needs urgent review.",
+    "note": "Winter's: expected pCO2 = 1.5 × HCO3 + 8 (±2)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 7-year-old with acute severe asthma has been tachypnoeic for 6 hours. He is now quieter and drowsy, and his pCO2 has risen from 3.8 to 5.6 kPa. How should this be interpreted?",
+    "options": [
+     "Improvement, because pCO2 is now normal",
+     "Metabolic compensation for respiratory alkalosis",
+     "Exhaustion with impending respiratory failure",
+     "Hyperventilation due to anxiety resolving"
+    ],
+    "answer": 2,
+    "explain": "In acute severe asthma pCO2 should be low from hyperventilation; a normal or rising pCO2 signals exhaustion and impending respiratory failure, needing escalation (PICU). Renal compensation does not occur within hours.",
+    "note": "A normal or rising pCO2 in acute severe asthma signals exhaustion."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 5-week-old boy with projectile non-bilious vomiting has a hypochloraemic, hypokalaemic metabolic alkalosis, yet his urine is acidic. What explains the paradoxical aciduria?",
+    "options": [
+     "Aldosterone-driven sodium retention exchanged for H⁺ and K⁺",
+     "Renal tubular acidosis caused by dehydration",
+     "Ketone excretion from starvation",
+     "Primary failure of proximal tubular bicarbonate reabsorption"
+    ],
+    "answer": 0,
+    "explain": "Loss of HCl causes alkalosis and volume depletion; aldosterone retains sodium in exchange for K⁺ and H⁺, and with low chloride the kidney secretes H⁺, producing acidic urine despite systemic alkalosis.",
+    "note": "Pyloric stenosis: HCl loss + aldosterone → paradoxical aciduria."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "The same infant has Cl 85 mmol/L and HCO3 34 mmol/L. When should pyloromyotomy be performed?",
+    "options": [
+     "Immediately, as pyloric stenosis is a surgical emergency",
+     "After 48 hours of IV bicarbonate",
+     "Once IV fluids have normalised Cl⁻ and HCO3",
+     "Once oral feeds are tolerated"
+    ],
+    "answer": 2,
+    "explain": "Pyloric stenosis is a medical, not surgical, emergency: correct volume and chloride (0.9% NaCl + glucose + KCl) first and operate once Cl⁻ and HCO3 are normal, because alkalosis risks post-operative apnoea. Bicarbonate would worsen the alkalosis.",
+    "note": "Pyloric: chloride + volume first."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 12-year-old with DKA has pH 7.05 and HCO3 5 mmol/L. A junior suggests IV sodium bicarbonate. What is the most appropriate approach?",
+    "options": [
+     "Give IV bicarbonate to bring the pH above 7.2 quickly",
+     "Hyperventilate to lower pCO2 further",
+     "Give bicarbonate before starting insulin",
+     "Fluids and insulin; bicarbonate is not routine"
+    ],
+    "answer": 3,
+    "explain": "Treat the cause: fluids and insulin correct ketoacidosis; bicarbonate is not routine because it worsens intracellular acidosis, hypokalaemia and the risk of cerebral oedema in DKA.",
+    "note": "Treat the cause: fluids, insulin for DKA, dialysis; bicarbonate not routine."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you interpret a paediatric blood gas step by step?",
+    "back": "pH (acidaemia/alkalaemia) • SMORE: pH and pCO2 same direction = metabolic, opposite = respiratory • anion gap = Na - (Cl + HCO3), normal 8-12 • Winter's: pCO2 = 1.5 × HCO3 + 8 ± 2 • alkalosis → urine chloride."
+   },
+   {
+    "type": "card",
+    "front": "List causes of high and normal anion gap metabolic acidosis.",
+    "back": "High AG (acid added): DKA, lactate, renal failure, toxins (salicylate, methanol) • normal AG (HARDASS): hyperalimentation, Addison's, RTA, diarrhoea, acetazolamide, spironolactone, saline."
+   },
+   {
+    "type": "card",
+    "front": "Describe the acid-base disturbance of pyloric stenosis and its correction.",
+    "back": "Hypochloraemic hypokalaemic metabolic alkalosis • HCl loss + aldosterone → paradoxical aciduria • 0.9% NaCl + glucose + KCl, chloride + volume first • operate when Cl⁻ and HCO3 normal."
+   }
+  ]
+ },
+ "I-44": {
+  "summary": "Sodium disorders are water disorders of the brain: low Na swells brain cells (headache, vomiting, seizures; give 3% saline for seizures), high Na shrinks them (doughy skin, high-pitched cry, bridging-vein bleeds); correct chronic changes slowly (≤8-10 mmol/L/24 h up, ≤0.5 mmol/L/h down) and use isotonic maintenance fluids.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Why does acute hyponatraemia cause seizures?",
+    "options": [
+     "Low sodium directly blocks GABA receptors",
+     "Water moves out of brain cells, causing brain shrinkage",
+     "Water moves into brain cells, causing cerebral oedema",
+     "Bridging veins tear as the brain shrinks"
+    ],
+    "answer": 2,
+    "explain": "Abnormal sodium shifts water across brain cell membranes: in hyponatraemia plasma is hypotonic, so water moves into brain cells causing cerebral oedema, raised ICP and seizures. Brain shrinkage with bridging-vein tearing occurs in hypernatraemia.",
+    "note": "Abnormal plasma sodium → water shifts into (low) or out of (high) brain cells."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-year-old admitted with pneumonia is given 0.18% NaCl/4% glucose at full maintenance. On day 2 he has a headache and vomiting, Na 126 mmol/L, plasma osmolality 262 mOsm/kg, urine osmolality 480 mOsm/kg and urine Na 45 mmol/L. He is clinically euvolaemic. What is the most likely cause?",
+    "options": [
+     "SIADH with hypotonic fluids",
+     "Hypovolaemic sodium loss from vomiting",
+     "Salt-wasting congenital adrenal hyperplasia",
+     "Psychogenic polydipsia"
+    ],
+    "answer": 0,
+    "explain": "SIADH (pneumonia) plus hypotonic fluids causes dilutional hyponatraemia: low plasma osmolality, inappropriately concentrated urine, euvolaemia and urine Na >30. Polydipsia would give dilute urine; hypovolaemic losses give low urine Na.",
+    "note": "SIADH: low plasma osmolality, inappropriately concentrated urine, euvolaemia, urine Na >30."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "The same child develops a generalised tonic-clonic seizure with Na 121 mmol/L. What is the most appropriate immediate treatment?",
+    "options": [
+     "Fluid restriction to 50% maintenance",
+     "IV furosemide",
+     "Bolus of 3% hypertonic saline",
+     "0.9% NaCl at twice maintenance"
+    ],
+    "answer": 2,
+    "explain": "Hyponatraemic seizures need a bolus of 3% saline (e.g. 2 ml/kg, repeated if needed) to raise sodium by a few mmol/L and stop the seizure. Fluid restriction is for stable SIADH; 0.9% saline at a high rate is too slow and adds water.",
+    "note": "Hyponatraemic seizures: bolus of 3% saline; SIADH → fluid restriction; isotonic maintenance fluids."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 14-year-old with anorexia nervosa has chronic hyponatraemia (Na 118 mmol/L) without symptoms. What is the maximum safe rise in sodium over 24 hours and why?",
+    "options": [
+     "20 mmol/L, to avoid cerebral oedema",
+     "8-10 mmol/L, to avoid osmotic demyelination",
+     "0.5 mmol/L, to avoid bridging-vein tears",
+     "No limit while she is asymptomatic"
+    ],
+    "answer": 1,
+    "explain": "In chronic hyponatraemia the brain has adapted by losing osmolytes; correcting too fast causes osmotic demyelination, so raise sodium by ≤8-10 mmol/L per 24 h. Cerebral oedema is the risk of over-rapid correction of hypernatraemia.",
+    "note": "Too-rapid correction of chronic hyponatraemia causes osmotic demyelination; raise ≤ 8-10 mmol/L/24 h."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 6-day-old exclusively breastfed baby is lethargic and has lost 14% of birth weight. The mother reports her milk 'has not come in'. Na is 158 mmol/L. What is the most likely cause?",
+    "options": [
+     "Nephrogenic diabetes insipidus",
+     "Poor breastfeeding with inadequate intake",
+     "Incorrectly concentrated formula",
+     "Salt-wasting congenital adrenal hyperplasia"
+    ],
+    "answer": 1,
+    "explain": "Hypernatraemic dehydration in week 1 in an exclusively breastfed baby with excessive weight loss is due to poor breastfeeding (and high breast-milk sodium when supply is low). CAH causes low sodium; DI is rare and has polyuria.",
+    "note": "High: gastroenteritis, poor breastfeeding in week 1, diabetes insipidus, bad formula."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-week-old presents with vomiting and poor weight gain. Na is 122 mmol/L and K 7.4 mmol/L on a free-flowing venous sample. Which diagnosis must be considered first?",
+    "options": [
+     "Diabetes insipidus",
+     "Pyloric stenosis",
+     "SIADH",
+     "Congenital adrenal hyperplasia"
+    ],
+    "answer": 3,
+    "explain": "A neonate with low sodium and high potassium has CAH (salt-wasting) until proven otherwise. Pyloric stenosis gives hypokalaemic alkalosis; SIADH gives low Na with normal K.",
+    "note": "Low: headache, vomiting, seizures; neonate low Na⁺ + high K⁺ → CAH."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 7-month-old with severe hypernatraemia (Na 172 mmol/L) develops a subdural haemorrhage without trauma. What is the mechanism?",
+    "options": [
+     "Brain cells shrink, stretching and tearing bridging veins",
+     "Cerebral oedema raises ICP and ruptures arteries",
+     "Hypernatraemia causes thrombocytopenia",
+     "Rapid sodium rise causes osmotic demyelination"
+    ],
+    "answer": 0,
+    "explain": "High sodium draws water out of brain cells; the brain shrinks away from the dura, tearing bridging veins and causing subdural/intracerebral haemorrhage. Safeguarding must still be considered.",
+    "note": "High Na⁺ → brain shrinks → bridging veins tear → haemorrhage."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which set of investigations is most useful to establish the cause of hyponatraemia in a child?",
+    "options": [
+     "Full blood count and CRP",
+     "Serum calcium, magnesium, phosphate and albumin",
+     "Arterial blood gas, lactate and serum glucose only",
+     "Plasma and urine osmolality, urine Na, volume status"
+    ],
+    "answer": 3,
+    "explain": "Classify hyponatraemia with plasma and urine osmolality, urine Na and clinical volume status (hypo-, eu- or hypervolaemic), which separates losses, SIADH and oedematous states.",
+    "note": "Plasma and urine osmolality, urine Na, volume status."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of hyponatraemia and hypernatraemia in children.",
+    "back": "Low: SIADH + hypotonic fluids, D&V, salt-wasting CAH, nephrotic, heart failure • High: gastroenteritis, poor breastfeeding week 1, diabetes insipidus, bad formula."
+   },
+   {
+    "type": "card",
+    "front": "What are the diagnostic features of SIADH?",
+    "back": "Low plasma osmolality • inappropriately concentrated urine • euvolaemia • urine Na >30 • normal renal, adrenal, thyroid function • causes: meningitis, pneumonia, post-op, head injury."
+   },
+   {
+    "type": "card",
+    "front": "Give the rules for correcting sodium disorders.",
+    "back": "Hypo + seizures: 3% saline bolus • SIADH: fluid restriction • chronic hypo: ≤8-10 mmol/L/24 h (osmotic demyelination) • hyper: over 48 h, ≤0.5 mmol/L/h (cerebral oedema); 0.9% saline for shock."
+   }
+  ]
+ },
+ "I-45": {
+  "summary": "High potassium in a well infant is a haemolysed heel-prick until a free-flowing venous sample proves otherwise; real hyperkalaemia with ECG changes (peaked T → wide QRS → sine wave) needs calcium gluconate first to protect the heart, then shift (salbutamol, insulin-glucose) and remove. Low potassium: replace magnesium and never bolus KCl.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest cause of a high potassium result in a well infant?",
+    "options": [
+     "Acute kidney injury",
+     "Congenital adrenal hyperplasia",
+     "A haemolysed sample",
+     "Tumour lysis syndrome"
+    ],
+    "answer": 2,
+    "explain": "The commonest cause of high K in a well infant is a haemolysed (squeezed heel-prick) sample releasing intracellular potassium. Repeat with a free-flowing venous sample before acting, unless the child is unwell or has ECG changes.",
+    "note": "Commonest cause of high K in a well infant: a haemolysed sample."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A well, feeding 3-week-old has a routine heel-prick potassium of 7.2 mmol/L. Sodium is normal and he is clinically well. What is the next best step?",
+    "options": [
+     "Give IV calcium gluconate immediately",
+     "Repeat on a free-flowing venous sample",
+     "Start nebulised salbutamol",
+     "Request an urgent renal ultrasound"
+    ],
+    "answer": 1,
+    "explain": "First exclude a haemolysed heel-prick by repeating a free-flowing venous sample (with an ECG if any doubt). Treating a spurious result is harmful; calcium is for confirmed hyperkalaemia with ECG changes.",
+    "note": "First exclude haemolysed heel-prick; repeat free-flowing venous sample."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "What is the earliest ECG change of hyperkalaemia?",
+    "options": [
+     "Peaked T waves",
+     "Widened QRS complexes",
+     "Prominent U waves",
+     "Loss of P waves with a sine-wave pattern"
+    ],
+    "answer": 0,
+    "explain": "The progression is peaked T waves → loss of P waves/wide QRS → sine wave → VF/asystole. U waves and flat T waves are features of hypokalaemia.",
+    "note": "Earliest ECG sign of hyperkalaemia: peaked T waves → wide QRS → sine wave."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old with acute kidney injury has K 7.8 mmol/L on a venous sample and the ECG shows broad QRS complexes. What should be given first?",
+    "options": [
+     "IV calcium gluconate 10%",
+     "Nebulised salbutamol",
+     "IV insulin with glucose",
+     "Calcium resonium enema"
+    ],
+    "answer": 0,
+    "explain": "With ECG changes, IV calcium gluconate 10% is given first to stabilise (protect) the myocardium within minutes; it does not lower K. Then shift with salbutamol/insulin-glucose and remove with resin, loop diuretic or dialysis.",
+    "note": "High with ECG changes: IV calcium gluconate 10% first (protect)."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "A child with AKI has K 7.6 mmol/L, and another child with pyloric stenosis has K 2.4 mmol/L. Both are at risk of arrhythmia. Which cardiac property, set chiefly by the potassium gradient, explains this?",
+    "options": [
+     "AV nodal conduction via adenosine receptors",
+     "The plateau phase driven by calcium influx",
+     "Sinus node automaticity via the funny current",
+     "The resting membrane potential"
+    ],
+    "answer": 3,
+    "explain": "K⁺ sets the resting membrane potential; both high and low K⁺ alter it, disturbing excitability and repolarisation. In hyperkalaemia, partial depolarisation inactivates fast Na⁺ channels (slow conduction, wide QRS); salbutamol and insulin then shift K⁺ into cells via Na/K-ATPase.",
+    "note": "Abnormal K⁺; K⁺ sets the resting membrane potential."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 12-year-old on long-term furosemide has K 2.6 mmol/L that does not rise despite 48 hours of adequate KCl replacement. Which deficiency is most likely preventing correction?",
+    "options": [
+     "Vitamin D deficiency",
+     "Hypocalcaemia",
+     "Hypophosphataemia",
+     "Hypomagnesaemia"
+    ],
+    "answer": 3,
+    "explain": "Low magnesium increases renal potassium wasting (via ROMK channels), so low K may not correct until magnesium is replaced. Loop diuretics cause both.",
+    "note": "Low K may not correct until magnesium is replaced."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 9-year-old with newly diagnosed DKA has K 5.1 mmol/L at presentation. Six hours after starting an insulin infusion he develops muscle weakness and his ECG shows flat T waves and U waves. What explains this?",
+    "options": [
+     "Over-correction with sodium bicarbonate only",
+     "Development of renal tubular acidosis",
+     "Insulin driving potassium into cells",
+     "Haemolysis of the sample"
+    ],
+    "answer": 2,
+    "explain": "Insulin in DKA shifts K into cells and unmasks the total-body K deficit, causing hypokalaemia (weakness, flat T waves, U waves). This is why potassium is added to DKA fluids once urine output is confirmed.",
+    "note": "Low: diarrhoea and vomiting, pyloric stenosis, diuretics, insulin in DKA, refeeding."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old with K 2.8 mmol/L after severe gastroenteritis is vomiting and cannot take oral fluids. The ECG shows U waves but no arrhythmia. What is the most appropriate way to replace potassium?",
+    "options": [
+     "IV KCl as a rapid undiluted bolus",
+     "IV KCl diluted in maintenance fluids",
+     "IM potassium injection",
+     "Oral KCl only, repeating doses if vomited"
+    ],
+    "answer": 1,
+    "explain": "Low K is replaced with oral KCl when possible; otherwise IV potassium is added to fluids at a controlled concentration and rate, never as a bolus (risk of cardiac arrest). Check and replace magnesium as well.",
+    "note": "Low: oral KCl; IV in fluids, never bolus; replace Mg."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Walk through the management of hyperkalaemia in a child.",
+    "back": "Exclude haemolysed sample; ECG • ECG changes: IV calcium gluconate 10% (protect) • shift: salbutamol, insulin-glucose, sodium bicarbonate • remove: resin, loop diuretic, dialysis • stop K-raising drugs."
+   },
+   {
+    "type": "card",
+    "front": "List the causes of hyperkalaemia and hypokalaemia in children.",
+    "back": "High: haemolysed sample, AKI, CAH, DKA, tumour lysis, ACE inhibitors, heparin, trimethoprim • Low: D&V, pyloric stenosis, diuretics, insulin in DKA, refeeding."
+   },
+   {
+    "type": "card",
+    "front": "Compare the ECG and clinical features of high and low potassium.",
+    "back": "High: peaked T → wide QRS → sine wave → VF • Low: weakness, ileus, flat T, U waves • work-up of low K: urine K (>20 = renal loss), acid-base, Mg."
+   }
+  ]
+ }
+}

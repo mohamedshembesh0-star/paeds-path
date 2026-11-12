@@ -1,0 +1,2132 @@
+{
+ "II-36": {
+  "summary": "PPHN is a term baby whose pulmonary vascular resistance never falls, so blood shunts right-to-left at the duct and foramen ovale: think of it when cyanosis is out of proportion to the lungs, prove it with a pre/post-ductal gap and echo, and break the hypoxia-acidosis-vasoconstriction circle with gentle care, oxygen without hyperoxia and iNO.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "In persistent pulmonary hypertension of the newborn, at which sites does the abnormal shunt occur and in which direction?",
+    "options": [
+     "Left-to-right across the ductus arteriosus and foramen ovale",
+     "Right-to-left across a ventricular septal defect only",
+     "Right-to-left across the ductus arteriosus and foramen ovale",
+     "Left-to-right through intrapulmonary arteriovenous channels"
+    ],
+    "answer": 2,
+    "explain": "Pulmonary vascular resistance stays above systemic, so deoxygenated blood crosses the fetal channels (PDA and PFO) from right to left. A left-to-right ductal shunt is the picture of a preterm PDA once PVR has fallen.",
+    "note": "Right-to-left shunt at the PDA and foramen ovale."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the commonest underlying cause of PPHN in a term neonate?",
+    "options": [
+     "Meconium aspiration syndrome",
+     "Transient tachypnoea of the newborn",
+     "Congenital diaphragmatic hernia",
+     "Maternal SSRI use in pregnancy"
+    ],
+    "answer": 0,
+    "explain": "Meconium aspiration is the commonest trigger. CDH and maternal SSRIs/NSAIDs are recognised but less frequent causes; TTN rarely produces significant PPHN.",
+    "note": "Commonest: meconium aspiration; also sepsis, asphyxia, RDS."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A term baby with PPHN remains at saturations of 78% despite FiO2 being increased from 0.6 to 1.0. What is the main reason the extra oxygen barely helps?",
+    "options": [
+     "Fetal haemoglobin cannot bind oxygen at high partial pressures",
+     "Surfactant is inactivated by high inspired oxygen concentrations",
+     "Hyperoxia causes reflex systemic vasodilatation and worsening hypotension",
+     "Shunted blood bypasses the alveoli and never meets the inspired oxygen"
+    ],
+    "answer": 3,
+    "explain": "The hypoxaemia is due to right-to-left shunting, so raising FiO2 cannot oxygenate blood that skips the lungs. HbF actually has a high oxygen affinity; the other options are not the mechanism.",
+    "note": "Shunted blood bypasses alveoli → FiO₂ barely helps."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 40-week baby born through meconium-stained liquor is deeply cyanosed at 6 hours with saturations swinging between 70% and 90% with handling; the chest X-ray shows only mild changes. Auscultation reveals a loud single second heart sound and a pansystolic murmur at the left lower sternal edge. What is the most likely diagnosis?",
+    "options": [
+     "Transposition of the great arteries",
+     "Persistent pulmonary hypertension of the newborn",
+     "Respiratory distress syndrome from surfactant deficiency",
+     "Transient tachypnoea of the newborn"
+    ],
+    "answer": 1,
+    "explain": "Term baby, cyanosis out of proportion to lung disease, labile saturations, loud single S2 and a tricuspid regurgitation murmur is the PPHN pattern. TGA also gives cyanosis with a single S2 but saturations are not labile with handling and there is a meconium trigger here; echo will separate them.",
+    "note": "Term baby, cyanosis out of proportion to lung disease, labile saturations."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A cyanosed term baby is suspected of having PPHN. Where should the pre-ductal saturation probe be placed, and what gap supports the diagnosis?",
+    "options": [
+     "Left hand; post-ductal higher than pre-ductal by more than 3%",
+     "Right hand; pre-ductal higher than post-ductal by more than 3%",
+     "Right foot; pre-ductal higher than post-ductal by more than 10%",
+     "Left hand; pre-ductal higher than post-ductal by more than 3%"
+    ],
+    "answer": 1,
+    "explain": "The right arm is supplied before the ductus, so right-hand saturation is pre-ductal; a pre- minus post-ductal gap >3% indicates ductal right-to-left shunting. The left arm may be post-ductal and the feet are always post-ductal.",
+    "note": "Pre-post-ductal gap (>3%); pre-ductal = right hand."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A term baby has severe hypoxaemia, no pre/post-ductal saturation gap and a clear chest X-ray apart from a small heart. Before starting inhaled nitric oxide, which investigation is mandatory?",
+    "options": [
+     "Hyperoxia test in 100% oxygen for 10 minutes",
+     "Cranial ultrasound to exclude intraventricular haemorrhage",
+     "Blood culture and CRP to exclude early-onset sepsis",
+     "Echocardiography to exclude cyanotic congenital heart disease"
+    ],
+    "answer": 3,
+    "explain": "Echo confirms the shunt and excludes structural disease such as obstructed TAPVD, where iNO can worsen pulmonary oedema. A hyperoxia test cannot reliably distinguish PPHN from cyanotic heart disease, since both fail to rise.",
+    "note": "Echocardiography confirms the shunt and excludes cyanotic heart disease (TAPVD)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A ventilated term baby with echo-confirmed PPHN has an oxygenation index of 28 despite optimal ventilation and surfactant. What is the most appropriate next treatment?",
+    "options": [
+     "Inhaled nitric oxide at 20 ppm",
+     "Inhaled nitric oxide at 80 ppm",
+     "Intravenous sildenafil as a first-line bolus",
+     "Immediate referral for ECMO"
+    ],
+    "answer": 0,
+    "explain": "iNO 20 ppm is indicated once the OI exceeds 20-25; it relaxes pulmonary vessels via cGMP. Higher doses add methaemoglobinaemia without benefit, and ECMO is reserved for cases refractory to iNO and haemodynamic support.",
+    "note": "Inhaled nitric oxide 20 ppm if OI >20-25 (relaxes vessels via cGMP)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A term baby with PPHN on iNO has a mean arterial pressure of 32 mmHg and worsening ductal shunting. Which approach best addresses the haemodynamic problem?",
+    "options": [
+     "Increase FiO2 to target PaO2 above 15 kPa",
+     "Give a sodium bicarbonate infusion to a pH above 7.6",
+     "Support systemic pressure with milrinone, adrenaline or vasopressin",
+     "Hyperventilate to a PaCO2 of 3 kPa to induce pulmonary vasodilatation"
+    ],
+    "answer": 2,
+    "explain": "Low systemic pressure lets PVR exceed SVR and drives right-to-left shunting, so BP support (milrinone, adrenaline, vasopressin) is key; ECMO if refractory. Hyperoxia should be avoided, and deliberate alkalosis/hyperventilation are outdated and harmful.",
+    "note": "Support BP (milrinone, adrenaline, vasopressin); ECMO if refractory."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Outline the management of PPHN step by step.",
+    "back": "Minimal handling, sedation, normothermia • oxygen but avoid hyperoxia • surfactant (e.g. meconium) • iNO 20 ppm if OI >20-25 • BP support: milrinone, adrenaline, vasopressin • ECMO if refractory."
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose PPHN and what must you exclude?",
+    "back": "Pre/post-ductal saturation gap >3% (pre-ductal = right hand) • echo confirms right-to-left shunt at PDA/PFO and excludes cyanotic CHD, especially TAPVD."
+   },
+   {
+    "type": "card",
+    "front": "List causes of PPHN and explain the vicious circle.",
+    "back": "Meconium aspiration (commonest), sepsis, asphyxia, RDS, CDH, maternal SSRIs/NSAIDs • hypoxia + acidosis → pulmonary vasoconstriction → more shunt → more hypoxia."
+   }
+  ]
+ },
+ "II-37": {
+  "summary": "Sort perinatal infections by route (transplacental, intrapartum, postnatal) and you know the bugs, the timing and the prevention: HBV vaccine plus HBIG within 12 hours, intrapartum penicillin for GBS, aciclovir for HSV, no breastfeeding in HIV.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which of the following infections is typically acquired intrapartum rather than transplacentally?",
+    "options": [
+     "Toxoplasma gondii",
+     "Parvovirus B19",
+     "Rubella virus",
+     "Group B streptococcus (Streptococcus agalactiae)"
+    ],
+    "answer": 3,
+    "explain": "GBS colonises the maternal genital tract and is acquired during passage at birth. Toxoplasma, parvovirus and rubella cross the placenta.",
+    "note": "Intrapartum: GBS, E. coli, HSV, HBV, HIV, gonococcus, chlamydia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-day-old baby develops copious purulent discharge from both eyes with marked lid swelling. What is the most likely organism?",
+    "options": [
+     "Chlamydia trachomatis",
+     "Neisseria gonorrhoeae",
+     "Herpes simplex virus",
+     "Staphylococcus epidermidis"
+    ],
+    "answer": 1,
+    "explain": "Gonococcal ophthalmia presents at 2-5 days and is hyperpurulent; chlamydial conjunctivitis appears later at 5-14 days. Chemical conjunctivitis from silver nitrate appears within the first day.",
+    "note": "Gonococcal conjunctivitis 2-5 days; chlamydial 5-14 days; silver nitrate: chemical conjunctivitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-day-old baby, previously well, develops lethargy, focal seizures and a few clustered vesicles on the scalp; transaminases are raised. What is the most likely diagnosis?",
+    "options": [
+     "Late-onset group B streptococcal meningitis",
+     "Congenital cytomegalovirus infection",
+     "Neonatal herpes simplex infection",
+     "Staphylococcal scalded skin syndrome"
+    ],
+    "answer": 2,
+    "explain": "Seizures, vesicles and hepatitis are the classic triad of neonatal HSV. GBS meningitis lacks vesicles; congenital CMV is present from birth with petechiae and calcification; SSSS gives superficial peeling, not CNS disease.",
+    "note": "Neonatal HSV: seizures, vesicles, hepatitis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A baby is born to a mother who is HBsAg-positive. What is the correct management?",
+    "options": [
+     "Hepatitis B vaccine plus HBIG within 12 hours; breastfeeding allowed",
+     "Hepatitis B vaccine plus HBIG within 12 hours; avoid breastfeeding",
+     "Hepatitis B vaccine alone at the 8-week immunisation visit",
+     "HBIG alone within 72 hours, vaccine after maternal viral load"
+    ],
+    "answer": 0,
+    "explain": "Vaccine plus HBIG within 12 hours (at latest 24 h) prevents most transmission, and breastfeeding is permitted. Delaying protection matters because infants infected at birth become carriers in up to 90%.",
+    "note": "HBV: vaccine + HBIG within 12 hours (at latest 24 h); breastfeeding allowed."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is preventing vertical hepatitis B transmission at birth such a high priority compared with adult infection?",
+    "options": [
+     "Infected infants become chronic carriers in up to 90% of cases",
+     "Neonatal hepatitis B is usually fulminant within the first week",
+     "Infected infants usually develop cirrhosis before school age",
+     "Hepatitis B causes major structural malformations at birth"
+    ],
+    "answer": 0,
+    "explain": "Neonatal immune tolerance means up to 90% of infected infants become chronic carriers, with later cirrhosis and HCC risk. Fulminant neonatal hepatitis is rare and HBV is not teratogenic.",
+    "note": "Parvovirus B19 → fetal anaemia and hydrops; HBV in infants → up to 90% carriers."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A woman has an acute febrile illness with a lacy rash at 20 weeks; two weeks later the fetal scan shows ascites, skin oedema and a raised middle cerebral artery peak velocity. What is the mechanism of the fetal findings?",
+    "options": [
+     "Immune-mediated haemolysis of fetal red cells by maternal anti-D antibodies",
+     "Viral myocarditis causing complete heart block",
+     "Viral destruction of red cell precursors causing fetal anaemia and hydrops",
+     "Viral hepatitis causing hypoalbuminaemic oedema"
+    ],
+    "answer": 2,
+    "explain": "Parvovirus B19 infects erythroid progenitors, causing fetal anaemia (raised MCA velocity) and high-output hydrops; treatment is intrauterine transfusion. Rhesus disease also gives anaemia and hydrops but follows sensitisation, not a febrile rash illness.",
+    "note": "Parvovirus B19 → fetal anaemia and hydrops; HBV in infants → up to 90% carriers."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A mother develops a chickenpox rash 2 days before delivery. Her term baby is well at birth. What is the most appropriate step for the baby?",
+    "options": [
+     "Give live varicella vaccine to the baby",
+     "Give varicella-zoster immunoglobulin to the baby",
+     "Reassure; maternal antibodies will protect the baby",
+     "Separate mother and baby until a VZV PCR is negative"
+    ],
+    "answer": 1,
+    "explain": "Maternal chickenpox from 5 days before to 2 days after delivery gives the baby virus without protective maternal IgG, risking severe neonatal varicella, so VZIG is given. Live vaccine is not used in neonates.",
+    "note": "HIV → ART, no breastfeeding; peripartum chickenpox → VZIG; no fetal scalp electrodes in HIV/HCV."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which infections are part of routine antenatal screening of every pregnant woman according to standard practice?",
+    "options": [
+     "HIV, CMV and toxoplasmosis",
+     "Hepatitis C, CMV and syphilis",
+     "Toxoplasmosis, rubella and HSV",
+     "HIV, hepatitis B and syphilis"
+    ],
+    "answer": 3,
+    "explain": "Routine antenatal screening covers HIV, hepatitis B and syphilis, together with maternal GBS status where screening is practised. CMV and toxoplasmosis are not universally screened.",
+    "note": "Antenatal screening: HIV, hepatitis B, syphilis; maternal GBS status."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify perinatal infections by route of transmission with examples.",
+    "back": "Transplacental: TORCH, parvovirus B19, VZV, Zika • intrapartum: GBS, E. coli, HSV, HBV, HIV, gonococcus, chlamydia • postnatal: NICU lines/hands (CoNS, S. aureus, Candida), breast milk, contacts."
+   },
+   {
+    "type": "card",
+    "front": "Give the treatment/prophylaxis for each key perinatal infection.",
+    "back": "HBV: vaccine + HBIG <12 h, breastfeed OK • HSV: IV aciclovir • gonococcus: ceftriaxone • chlamydia: azithromycin • GBS: penicillin G • HIV: ART, no breastfeeding • peripartum VZV: VZIG."
+   },
+   {
+    "type": "card",
+    "front": "How do you tell neonatal conjunctivitis causes apart by timing?",
+    "back": "Chemical (silver nitrate): first day • gonococcal: 2-5 days, hyperpurulent • chlamydial: 5-14 days."
+   }
+  ]
+ },
+ "II-38": {
+  "summary": "TORCH infections cross the placenta and hit dividing fetal cells, so they share IUGR, CNS and eye damage; the exam lies in the discriminators: periventricular calcification and deafness for CMV, diffuse calcification and chorioretinitis for toxo, the cataract-deafness-PDA triad for rubella, snuffles for syphilis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which congenital infection is the commonest worldwide?",
+    "options": [
+     "Toxoplasmosis",
+     "Rubella",
+     "Cytomegalovirus",
+     "Congenital Zika virus infection syndrome"
+    ],
+    "answer": 2,
+    "explain": "CMV is the commonest congenital infection and a leading non-genetic cause of sensorineural hearing loss. Rubella is now rare where MMR coverage is good.",
+    "note": "Maternal infection crossing the placenta (transplacental); CMV is the commonest; highest risk 1st trimester."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has microcephaly, jaundice, hepatosplenomegaly and purple-blue papules over the skin. Cranial ultrasound shows periventricular calcification and he fails the newborn hearing screen. What is the most likely diagnosis?",
+    "options": [
+     "Congenital cytomegalovirus infection",
+     "Congenital toxoplasmosis",
+     "Congenital rubella syndrome",
+     "Congenital Zika virus infection syndrome"
+    ],
+    "answer": 0,
+    "explain": "Periventricular calcification with sensorineural hearing loss and a blueberry muffin rash points to CMV. Toxoplasmosis gives diffuse calcification with hydrocephalus and chorioretinitis; rubella also gives deafness and blueberry muffin rash but with cataract and PDA.",
+    "note": "CMV: blueberry muffin rash, hepatosplenomegaly, jaundice, periventricular calcification, hearing loss."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has macrocephaly, diffuse intracranial calcification and retinal scarring. The mother kept cats during pregnancy. Which additional feature is most typical of this infection?",
+    "options": [
+     "Cataract",
+     "Patent ductus arteriosus",
+     "Limb hypoplasia",
+     "Chorioretinitis"
+    ],
+    "answer": 3,
+    "explain": "Congenital toxoplasmosis: chorioretinitis, hydrocephalus and diffuse calcification. Cataract and PDA belong to rubella, limb hypoplasia to congenital varicella.",
+    "note": "Toxo: chorioretinitis, hydrocephalus, diffuse calcification; rubella: cataract, deafness, PDA."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An infant born to an unscreened mother develops persistent blood-stained nasal discharge at 3 weeks, followed by a peeling rash on the palms and soles. What is the most appropriate treatment?",
+    "options": [
+     "Oral azithromycin",
+     "Intravenous penicillin G",
+     "Intravenous aciclovir",
+     "Pyrimethamine plus sulfadiazine"
+    ],
+    "answer": 1,
+    "explain": "Snuffles and a desquamating palmoplantar rash indicate early congenital syphilis, treated with penicillin G. Late signs include saber shins.",
+    "note": "Syphilis: penicillin G; VZV: VZIG; rubella prevented by MMR."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-week-old baby failed the newborn hearing screen and congenital CMV is now suspected. Why will a urine CMV PCR taken today not confirm congenital infection?",
+    "options": [
+     "Urine PCR is insensitive for CMV after the first week of life",
+     "Only samples taken within 21 days of birth distinguish congenital from postnatal infection",
+     "Maternal IgG antibodies transferred across the placenta interfere with PCR testing in infancy",
+     "CMV is only shed in saliva, never in urine, after 2 weeks"
+    ],
+    "answer": 1,
+    "explain": "CMV can be acquired postnatally (e.g. breast milk), so a positive sample after 21 days cannot prove congenital infection; retrospective testing of the dried blood spot can help. PCR is not affected by maternal antibody.",
+    "note": "CMV: urine/saliva PCR within 21 days; 80-90% asymptomatic at birth → hearing and eye follow-up."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-day-old baby has confirmed congenital CMV with microcephaly and hearing loss. What is the most appropriate treatment?",
+    "options": [
+     "Oral valganciclovir for 6 weeks",
+     "Intravenous aciclovir for 21 days",
+     "No antiviral; audiology follow-up only",
+     "Oral valganciclovir for 6 months"
+    ],
+    "answer": 3,
+    "explain": "Symptomatic congenital CMV is treated with valganciclovir for 6 months, which improves hearing and developmental outcome. Aciclovir is for HSV; observation alone is for asymptomatic infants (with hearing/eye follow-up).",
+    "note": "Symptomatic CMV: valganciclovir 6 months; toxo: pyrimethamine + sulfadiazine + folate."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A woman develops chickenpox at 13 weeks of gestation. If the fetus is affected, which pattern of abnormality is most characteristic?",
+    "options": [
+     "Cicatricial skin scarring with limb hypoplasia",
+     "Hydrops fetalis from severe fetal anaemia",
+     "Cataract, deafness and patent ductus arteriosus",
+     "Periventricular calcification and hearing loss"
+    ],
+    "answer": 0,
+    "explain": "First-half-of-pregnancy VZV causes congenital varicella syndrome: dermatomal scarring, limb hypoplasia, eye and CNS lesions. Hydrops is parvovirus B19; the triad is rubella; periventricular calcification is CMV.",
+    "note": "Parvovirus B19 → hydrops fetalis; VZV → congenital varicella syndrome (limb hypoplasia)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A woman with recurrent genital herpes reaches 36 weeks of gestation. Which plan is most appropriate?",
+    "options": [
+     "Elective caesarean section at 39 weeks regardless of lesions",
+     "Vaginal delivery with neonatal IV aciclovir for every baby",
+     "Start suppressive aciclovir now; caesarean section if lesions are present in labour",
+     "No action now; give aciclovir only if a lesion appears in labour"
+    ],
+    "answer": 2,
+    "explain": "Aciclovir from 36 weeks reduces recurrences and shedding, and caesarean section is offered if active lesions are present in labour. Routine caesarean regardless of lesions or empirical treatment of all babies are not recommended.",
+    "note": "HSV lesions in labour: C-section; acyclovir from 36 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the key discriminating signs of each TORCH infection.",
+    "back": "CMV: periventricular calcification, hearing loss, blueberry muffin • toxo: chorioretinitis, hydrocephalus, diffuse calcification • rubella: cataract, deafness, PDA • syphilis: snuffles, desquamating rash, saber shins • VZV: limb hypoplasia • B19: hydrops."
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose and follow up congenital CMV?",
+    "back": "Urine/saliva PCR within 21 days of birth • 80-90% asymptomatic at birth → hearing and eye follow-up • symptomatic: valganciclovir 6 months."
+   },
+   {
+    "type": "card",
+    "front": "Treatment/prevention of each TORCH infection?",
+    "back": "CMV: valganciclovir 6 mo • toxo: pyrimethamine + sulfadiazine + folate • syphilis: penicillin G • VZV: VZIG • rubella: prevented by MMR • HSV: aciclovir from 36 wk, C-section if lesions."
+   }
+  ]
+ },
+ "II-39": {
+  "summary": "Neonatal sepsis is split at 72 hours: early-onset is vertical (GBS, E. coli, Listeria) and late-onset is nosocomial (CoNS from lines); signs are subtle, so any unwell neonate gets cultures and ampicillin plus gentamicin within an hour, swapping to cefotaxime if meningitis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "According to the conventional definition, what separates early-onset from late-onset neonatal sepsis?",
+    "options": [
+     "Onset before versus after 7 days of life, reflecting term versus preterm birth",
+     "Onset before versus after 24 hours of life, reflecting bacterial versus viral cause",
+     "Onset before versus after 28 days of life, reflecting maternal versus community source",
+     "Onset before versus after 72 hours of life, reflecting vertical versus nosocomial acquisition"
+    ],
+    "answer": 3,
+    "explain": "Early-onset (<72 h) is acquired vertically from the maternal genital tract; late-onset (>72 h) is nosocomial or community-acquired. Some GBS definitions use 7 days, but the 72-hour split reflects the route.",
+    "note": "Early-onset (<72 hours) = vertical; late-onset (>72 h) = nosocomial/community."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 26-week preterm baby on day 12, with a long line for parenteral nutrition, develops apnoeas and temperature instability. What is the most likely organism?",
+    "options": [
+     "Group B streptococcus (Streptococcus agalactiae)",
+     "Coagulase-negative staphylococcus",
+     "Listeria monocytogenes",
+     "Escherichia coli"
+    ],
+    "answer": 1,
+    "explain": "Late-onset sepsis in a baby with a central line is most often CoNS. GBS, Listeria and E. coli are the classic early-onset vertical organisms (GBS can also cause late-onset disease, but not line sepsis).",
+    "note": "Late: coagulase-negative staphylococci (lines), Staph aureus, Gram-negatives, Candida."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A baby born at 35 weeks after membranes ruptured 30 hours before delivery, with maternal fever of 38.6 °C in labour, is grunting at 4 hours. Which group of organisms must empirical treatment cover?",
+    "options": [
+     "CoNS, Staph aureus and Candida",
+     "Pseudomonas, Klebsiella and Enterococcus",
+     "GBS, E. coli and Listeria",
+     "Pneumococcus, Haemophilus and meningococcus"
+    ],
+    "answer": 2,
+    "explain": "Prolonged ROM and chorioamnionitis are early-onset risks; the vertical pathogens are GBS, E. coli and Listeria, covered by ampicillin plus gentamicin. CoNS/Candida are late-onset nosocomial organisms.",
+    "note": "Early: GBS, E. coli, Listeria; risks: prolonged ROM, chorioamnionitis, prematurity."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-day-old term baby is brought in because she has been feeding poorly and \"seems floppy\". Temperature is 35.8 °C, skin is mottled and she had a brief apnoea in triage. What is the best interpretation?",
+    "options": [
+     "Probable sepsis; neonatal sepsis often presents with hypothermia and subtle signs",
+     "Probable environmental hypothermia; rewarm and observe",
+     "Probable hypoglycaemia only; feed and recheck glucose",
+     "Probable gastro-oesophageal reflux with apnoea; thicken feeds, add an alginate and discharge home"
+    ],
+    "answer": 0,
+    "explain": "Neonatal sepsis is subtle: apnoea, temperature instability (often low), poor feeding and mottling. Fever is frequently absent, so these signs mandate a septic screen and antibiotics.",
+    "note": "Subtle: apnoea, temperature instability, grunting, poor feeding, mottling."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which feature of the neonatal immune system most explains why sepsis spreads so rapidly?",
+    "options": [
+     "A small neutrophil storage pool with low complement and immunoglobulin levels",
+     "An excess of maternal IgM antibodies blocking opsonisation",
+     "Overactive T-cell responses causing early cytokine storm",
+     "Absent splenic and lymph node function until the end of the first year of life"
+    ],
+    "answer": 0,
+    "explain": "Neonates have small neutrophil reserves that are quickly exhausted, plus low complement and IgG (especially preterms), and invasive lines breach skin. IgM does not cross the placenta.",
+    "note": "Small neutrophil reserve, low complement/Ig + lines breaching skin → rapid spread."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 1-day-old baby with suspected early-onset sepsis has a normal lumbar puncture. What is the recommended empirical regimen and timing?",
+    "options": [
+     "Ampicillin plus cefotaxime within 1 hour",
+     "Vancomycin plus meropenem within 4 hours",
+     "Ampicillin plus gentamicin within 1 hour",
+     "Flucloxacillin plus gentamicin within 4 hours"
+    ],
+    "answer": 2,
+    "explain": "Without meningitis, ampicillin plus gentamicin within the first hour covers GBS, E. coli and Listeria. Cefotaxime replaces gentamicin when meningitis is present because aminoglycosides penetrate CSF poorly.",
+    "note": "Without meningitis: ampicillin + gentamicin within 1 hour; with meningitis: ampicillin + cefotaxime."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A woman with GBS bacteriuria is in established labour and received the first dose of intrapartum penicillin G 90 minutes before a rapid delivery. Her baby is well. Which statement is correct?",
+    "options": [
+     "Prophylaxis was adequate because any dose before delivery suffices",
+     "Prophylaxis was inadequate because it requires at least 4 hours before delivery",
+     "Prophylaxis was adequate and also prevents late-onset GBS disease",
+     "Prophylaxis was inadequate because only intrapartum vancomycin is effective"
+    ],
+    "answer": 1,
+    "explain": "Intrapartum penicillin G must be given at least 4 hours before delivery to count as adequate; the baby needs closer observation. Even adequate prophylaxis does not prevent late-onset GBS disease.",
+    "note": "Prevention: intrapartum penicillin G at least 4 hours before delivery; not late-onset GBS."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A woman whose first baby had invasive GBS sepsis is now pregnant again and her vaginal-rectal swab at 36 weeks is GBS-negative. What is the correct plan?",
+    "options": [
+     "No prophylaxis because the swab is negative",
+     "Repeat the swab at 38 weeks and decide then",
+     "Treat the mother with oral penicillin at 36 weeks only",
+     "Give intrapartum antibiotic prophylaxis anyway"
+    ],
+    "answer": 3,
+    "explain": "A previous baby with invasive GBS disease is an indication for intrapartum prophylaxis in every subsequent pregnancy regardless of swab result. Antenatal oral treatment does not prevent recolonisation.",
+    "note": "Prior invasive GBS baby → prophylaxis in every subsequent pregnancy."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare early- and late-onset neonatal sepsis.",
+    "back": "Early <72 h, vertical: GBS, E. coli, Listeria; risks prolonged ROM, chorioamnionitis, prematurity • late >72 h, nosocomial/community: CoNS (lines), S. aureus, Gram-negatives, Candida."
+   },
+   {
+    "type": "card",
+    "front": "What is the empirical treatment of neonatal sepsis?",
+    "back": "Blood culture, CRP (serial), LP • no meningitis: ampicillin + gentamicin within 1 h • meningitis: ampicillin + cefotaxime."
+   },
+   {
+    "type": "card",
+    "front": "Describe GBS prevention.",
+    "back": "Maternal vaginal(-rectal) screening • intrapartum penicillin G ≥4 h before delivery • does not prevent late-onset GBS • prior invasive GBS baby → prophylaxis in every later pregnancy."
+   }
+  ]
+ },
+ "II-40": {
+  "summary": "Neonatal brain injury splits by gestation: preterms bleed (germinal matrix IVH in the first 72 hours) and get watershed PVL leading to spastic diplegia, while term babies suffer HIE, stroke and birth trauma; seizures are subtle, so check glucose and calcium first and give phenobarbital.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which pair of brain injuries is characteristic of the preterm rather than the term neonate?",
+    "options": [
+     "Hypoxic-ischaemic encephalopathy and perinatal stroke",
+     "Kernicterus and subgaleal haemorrhage",
+     "Intraventricular haemorrhage and periventricular leukomalacia",
+     "Perinatal arterial stroke and periventricular leukomalacia"
+    ],
+    "answer": 2,
+    "explain": "IVH and PVL are preterm lesions related to the germinal matrix and watershed white matter. HIE, stroke, kernicterus and birth trauma predominate in term babies.",
+    "note": "Preterm: IVH and PVL; term: HIE, stroke, infection, kernicterus, birth trauma."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 27-week preterm baby is being ventilated. When is intraventricular haemorrhage most likely to occur?",
+    "options": [
+     "Within the first 72 hours of life",
+     "Between days 7 and 14 of life",
+     "At around 36 weeks postmenstrual age",
+     "After the first week, once feeds are established"
+    ],
+    "answer": 0,
+    "explain": "IVH occurs in preterms below 32 weeks, mostly within 72 hours, as the fragile germinal matrix is exposed to fluctuating cerebral blood flow. PVL cysts appear later, after weeks.",
+    "note": "IVH: preterm <32 weeks, within 72 hours; HIE = commonest seizure cause."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-day-old baby born by vacuum extraction becomes pale and tachycardic with falling haemoglobin. There is a boggy fluctuant swelling extending from the forehead to the nape that crosses the suture lines. What is the most likely diagnosis?",
+    "options": [
+     "Cephalhaematoma",
+     "Caput succedaneum",
+     "Intraventricular haemorrhage",
+     "Subgaleal haemorrhage"
+    ],
+    "answer": 3,
+    "explain": "A swelling crossing sutures with shock after ventouse indicates subgaleal haemorrhage, a large potential space that can hold much of the blood volume. Cephalhaematoma is limited by sutures; caput is oedema present at birth without shock.",
+    "note": "Scalp swelling crossing sutures + shock → subgaleal haemorrhage; Erb palsy: waiter's tip."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "After a difficult delivery with shoulder dystocia, a baby holds the right arm adducted and internally rotated with the elbow extended and the wrist flexed; the grasp reflex is present. What is the underlying lesion?",
+    "options": [
+     "Lower brachial plexus (C8-T1) injury from arm hyperabduction",
+     "Upper brachial plexus (C5-C6) injury from lateral neck traction",
+     "Fractured clavicle with pseudoparalysis",
+     "Radial nerve injury from humeral shaft fracture"
+    ],
+    "answer": 1,
+    "explain": "The waiter's tip posture with preserved grasp is Erb palsy (C5-C6), from lateral traction on the head at delivery. Klumpke (C8-T1) affects the hand and loses the grasp; clavicle fracture gives pain-related pseudoparalysis without this posture.",
+    "note": "Scalp swelling crossing sutures + shock → subgaleal haemorrhage; Erb palsy: waiter's tip."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A former 28-week preterm develops scissoring of the legs and toe walking at 18 months, with normal arm function. Which neonatal process best explains this?",
+    "options": [
+     "Germinal matrix haemorrhage extending into the ventricles",
+     "Periventricular leukomalacia from watershed white matter ischaemia",
+     "Bilirubin deposition in the basal ganglia",
+     "Hypoxic-ischaemic injury to the cerebral cortex"
+    ],
+    "answer": 1,
+    "explain": "PVL damages periventricular white matter where the leg fibres of the corticospinal tract run closest to the ventricles, causing spastic diplegia. Kernicterus causes dyskinetic CP; cortical HIE gives quadriplegia.",
+    "note": "Watershed white matter ischaemia → PVL → spastic diplegia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A preterm infant's cranial ultrasound shows intraventricular blood with an echodense lesion in the adjacent periventricular parenchyma. How is this classified on the Papile scale?",
+    "options": [
+     "Grade I: germinal matrix haemorrhage only",
+     "Grade II: intraventricular blood without dilatation",
+     "Grade III: intraventricular blood with ventricular dilatation",
+     "Grade IV: periventricular haemorrhagic infarction"
+    ],
+    "answer": 3,
+    "explain": "Parenchymal involvement is grade IV, now understood as periventricular haemorrhagic venous infarction, with the highest risk of hemiplegia. Grades I-III are confined to the germinal matrix and ventricles.",
+    "note": "Cranial ultrasound; Papile I-IV; grade IV = periventricular haemorrhagic infarction."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A term baby has rhythmic lip smacking and cycling leg movements at 14 hours. What should be checked first?",
+    "options": [
+     "Blood glucose and calcium",
+     "MRI of the brain",
+     "Serum magnesium and sodium",
+     "Lumbar puncture"
+    ],
+    "answer": 0,
+    "explain": "Neonatal seizures are subtle; the first step is to exclude rapidly correctable causes: glucose and calcium, then sodium, magnesium and infection, with EEG confirmation. HIE is the commonest cause overall.",
+    "note": "Seizures: check glucose and calcium first, then sodium, magnesium, infection; EEG."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A term baby with HIE has EEG-confirmed seizures; glucose, calcium and electrolytes are normal. What is the first-line anticonvulsant?",
+    "options": [
+     "Intravenous lorazepam infusion",
+     "Levetiracetam",
+     "Phenobarbital",
+     "Phenytoin"
+    ],
+    "answer": 2,
+    "explain": "Phenobarbital remains first line for neonatal seizures; levetiracetam and phenytoin are second-line options. Benzodiazepines are used acutely in older children but are not first line here.",
+    "note": "Seizures: phenobarbital first line."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How can you prevent IVH in a preterm baby?",
+    "back": "Antenatal steroids • magnesium sulphate • delayed cord clamping • avoid swings in BP and CO2 • minimal handling."
+   },
+   {
+    "type": "card",
+    "front": "Work up a neonatal seizure.",
+    "back": "Subtle signs • first: glucose and calcium • then sodium, magnesium, infection (LP) • EEG • commonest cause HIE • treatment: phenobarbital first line."
+   },
+   {
+    "type": "card",
+    "front": "Compare Erb and Klumpke palsy.",
+    "back": "Erb C5-C6: lateral traction, waiter's tip, grasp preserved • Klumpke C8-T1: hand weakness/claw, lost grasp, ± Horner • ~80% resolve spontaneously within 3 months."
+   }
+  ]
+ },
+ "II-41": {
+  "summary": "Most newborn skin findings are benign and need only reassurance; the skill is spotting the few that are not (SSSS, HSV, omphalitis, a problem haemangioma) and reading the umbilicus: what leaks out tells you the remnant, and a cord still attached after 3 weeks with neutrophilia means leukocyte adhesion deficiency.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A healthy 2-day-old term baby has blotchy erythematous macules with central yellow-white papules and pustules on the trunk, sparing the palms and soles. A smear of a pustule would most likely show what?",
+    "options": [
+     "Numerous neutrophils with Gram-positive cocci",
+     "Multinucleated giant cells",
+     "Budding yeasts and pseudohyphae",
+     "Numerous eosinophils with no organisms"
+    ],
+    "answer": 3,
+    "explain": "Erythema toxicum neonatorum consists of sterile pustules full of eosinophils and needs only reassurance. Neutrophils with cocci suggest impetigo; giant cells suggest HSV; yeasts suggest candida.",
+    "note": "Erythema toxicum: sterile pustules full of eosinophils; miliaria: sweat-duct blockage with heat."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 10-day-old baby is irritable, febrile and has widespread tender erythema with large flaccid bullae; gentle rubbing shears off the epidermis, but the mouth and conjunctivae are normal. Why are the mucous membranes spared?",
+    "options": [
+     "The exfoliative toxin cleaves desmoglein-3, which is scarce in mucosa",
+     "The exfoliative toxin cleaves desmoglein-1, which is scarce in mucosa",
+     "The causative streptococcal toxin cannot reach the mucosal surface",
+     "IgG autoantibodies target only keratinised epithelium"
+    ],
+    "answer": 1,
+    "explain": "SSSS toxin cleaves desmoglein-1 in the granular layer; mucosa relies on desmoglein-3, so it is spared (unlike TEN). It is staphylococcal, not streptococcal, and not autoimmune.",
+    "note": "SSSS: exfoliative toxin cleaves desmoglein-1 → mucosa spared."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the most appropriate treatment for the baby with staphylococcal scalded skin syndrome described above?",
+    "options": [
+     "Topical fusidic acid alone",
+     "Intravenous aciclovir",
+     "Intravenous flucloxacillin",
+     "High-dose oral prednisolone"
+    ],
+    "answer": 2,
+    "explain": "SSSS requires IV anti-staphylococcal antibiotics (flucloxacillin) plus fluids and skin care. Topical treatment is insufficient; steroids are not indicated.",
+    "note": "SSSS → IV flucloxacillin; omphalitis → IV antibiotics; HSV → aciclovir."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-week-old has a clear fluid leak from the umbilicus that smells of urine and increases when he cries. What is the most likely diagnosis?",
+    "options": [
+     "Patent urachus",
+     "Patent vitelline duct",
+     "Umbilical granuloma",
+     "Omphalitis"
+    ],
+    "answer": 0,
+    "explain": "Urine from the navel indicates a patent urachus (bladder-umbilicus remnant). Faeces would indicate a vitelline (omphalomesenteric) duct; a granuloma is a soft moist pink nodule.",
+    "note": "Urine at navel = patent urachus; faeces = vitelline duct; granuloma: soft, moist, pink."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 4-week-old still has the umbilical cord attached. He had an omphalitis that did not form pus, and his WBC is 45 × 10⁹/L with neutrophilia. Which test is most likely to confirm the diagnosis?",
+    "options": [
+     "Flow cytometry for CD18 expression on leukocytes",
+     "Dihydrorhodamine test of neutrophil oxidative burst",
+     "Serum immunoglobulin levels",
+     "Bone marrow aspirate for neutrophil precursors"
+    ],
+    "answer": 0,
+    "explain": "Delayed cord separation (normally 5-15 days) with neutrophilia and pus-free infections indicates leukocyte adhesion deficiency type 1, a CD18 integrin defect. DHR testing is for chronic granulomatous disease, where cord separation is normal.",
+    "note": "Cord separates at 5-15 days; delayed + neutrophilia → leukocyte adhesion deficiency (CD18)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-week-old has a rapidly growing bright red raised haemangioma on the upper eyelid that is starting to close the eye. What is the best management?",
+    "options": [
+     "Reassure; it will involute by school age",
+     "Surgical excision as soon as possible",
+     "Start oral propranolol",
+     "Pulsed-dye laser once growth has stopped"
+    ],
+    "answer": 2,
+    "explain": "Infantile haemangiomas grow then regress, but periocular lesions threaten amblyopia, so propranolol is indicated (also for airway or ulcerated lesions). Reassurance is for uncomplicated lesions.",
+    "note": "Benign rashes → reassurance; hemangioma → propranolol if eye, airway, ulcer."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A 2-year-old has a soft umbilical hernia 1 cm in diameter that reduces easily and has never been tender. What is the appropriate plan?",
+    "options": [
+     "Elective surgical repair now",
+     "Monitor; most close spontaneously by age 5",
+     "Strapping the umbilicus with a coin",
+     "Urgent ultrasound to exclude bowel ischaemia"
+    ],
+    "answer": 1,
+    "explain": "Soft reducible umbilical hernias are monitored because they usually close by around age 5; surgery is for persistence beyond that or very large defects. Strapping is ineffective.",
+    "note": "Granuloma → silver nitrate; umbilical hernia: monitor, resolves by age 5."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "A newborn has a flat pink patch on the nape of the neck that blanches and becomes more prominent when crying. Which of the following best describes it?",
+    "options": [
+     "A port-wine stain needing laser therapy",
+     "An infantile haemangioma needing propranolol",
+     "Dermal melanocytosis requiring safeguarding documentation",
+     "A benign naevus simplex needing no treatment"
+    ],
+    "answer": 3,
+    "explain": "Naevus simplex (stork bite / salmon patch) is a benign capillary malformation that needs only reassurance. Dermal melanocytosis is a blue-grey lesion over the sacrum and should be documented, but it is not pink and is not abuse.",
+    "note": "Benign: erythema toxicum, milia, miliaria, nevus simplex, dermal melanocytosis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Name the umbilical discharges/lesions and their meaning.",
+    "back": "Urine → patent urachus • faeces → vitelline duct • soft, moist, pink nodule → granuloma (silver nitrate) • red, spreading periumbilical cellulitis → omphalitis (IV antibiotics; risk sepsis, portal vein thrombosis)."
+   },
+   {
+    "type": "card",
+    "front": "What does delayed cord separation suggest?",
+    "back": "Normal separation 5-15 days • delayed + neutrophilia + infections without pus → leukocyte adhesion deficiency (CD18)."
+   },
+   {
+    "type": "card",
+    "front": "List benign neonatal skin findings and those needing treatment.",
+    "back": "Benign: erythema toxicum, milia, miliaria, naevus simplex, dermal melanocytosis → reassure • treat: SSSS (IV flucloxacillin), HSV (aciclovir), omphalitis (IV antibiotics), haemangioma on eye/airway/ulcer (propranolol)."
+   }
+  ]
+ },
+ "II-42": {
+  "summary": "NEC is the preterm on feeds whose belly distends, stools turn bloody and platelets fall; the X-ray shows pneumatosis and portal gas, and management is bowel rest, decompression and broad antibiotics with surgery for perforation. Meconium ileus is the term-baby obstruction that means cystic fibrosis until proven otherwise.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "What is the single biggest risk factor for necrotising enterocolitis?",
+    "options": [
+     "Formula feeding",
+     "Maternal chorioamnionitis",
+     "Prematurity",
+     "Umbilical arterial catheterisation"
+    ],
+    "answer": 2,
+    "explain": "Prematurity is the biggest risk factor; formula feeding and poor mucosal perfusion add risk, and breast milk is protective.",
+    "note": "NEC: prematurity (biggest risk factor), formula feeding, abnormal flora, poor mucosal perfusion; breast milk protective."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 28-week preterm baby on day 10, recently increased to full formula feeds, develops abdominal distension, large bilious gastric aspirates and fresh blood in the stool. Platelets have fallen to 60 × 10⁹/L with a metabolic acidosis. What is the most likely diagnosis?",
+    "options": [
+     "Necrotising enterocolitis",
+     "Late-onset sepsis with ileus",
+     "Malrotation with midgut volvulus",
+     "Cow's milk protein allergy"
+    ],
+    "answer": 0,
+    "explain": "Preterm, feeds established, distension, feed intolerance, bloody stool plus thrombocytopenia and acidosis is NEC. Volvulus is possible but less likely in this setting; sepsis with ileus does not usually cause bloody stools.",
+    "note": "NEC: abdominal distension, nutritional intolerance, bloody stool; instability, low platelets, acidosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "In the baby above, which abdominal X-ray finding is pathognomonic of the diagnosis?",
+    "options": [
+     "A double-bubble with no distal gas",
+     "Soap-bubble appearance in the right iliac fossa",
+     "Multiple air-fluid levels with a gasless rectum",
+     "Intramural gas (pneumatosis intestinalis)"
+    ],
+    "answer": 3,
+    "explain": "Pneumatosis intestinalis (bubbles of gas in the bowel wall), with or without portal venous gas, is diagnostic of NEC. Double bubble is duodenal atresia; soap bubble is meconium ileus.",
+    "note": "NEC X-ray: pneumatosis intestinalis, portal venous gas; Rigler sign = perforation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A ventilated 26-week baby with NEC deteriorates and cannot safely be moved upright. Which radiograph is best for detecting a perforation, and what sign confirms it?",
+    "options": [
+     "Erect chest film; air under the diaphragm",
+     "Supine horizontal-beam lateral film; gas outlining both sides of the bowel wall",
+     "Supine AP film only; branching gas in the portal venous system over the liver",
+     "Contrast enema; leak of contrast into the peritoneum"
+    ],
+    "answer": 1,
+    "explain": "A horizontal (cross-table) beam with the baby lying on its back shows free air rising anteriorly; Rigler sign (gas on both sides of the bowel wall) indicates perforation. An erect film is impractical, portal gas does not mean perforation, and contrast enema is contraindicated in NEC.",
+    "note": "Baby cannot be moved: horizontal X-ray from side position, lying on back."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the initial management of stage II NEC without perforation?",
+    "options": [
+     "Continue feeds with lactase-treated formula and oral metronidazole",
+     "Nil by mouth, NG decompression, IV fluids, TPN and IV broad-spectrum antibiotics",
+     "Urgent laparotomy with resection of affected bowel",
+     "Nil by mouth and IV fluids only for 24 hours, then re-feed"
+    ],
+    "answer": 1,
+    "explain": "NEC is managed medically with bowel rest, decompression, TPN and antibiotics covering Gram-negatives and anaerobes, typically for 7-14 days. Surgery is for perforation, peritonitis or deterioration despite therapy.",
+    "note": "NEC: NPO (bowel rest), NG decompression, IV fluids, TPN, IV antibiotics (gram-negative, anaerobes)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A preterm baby has been on full medical treatment for NEC for 36 hours. Which finding is an indication for surgery?",
+    "options": [
+     "Persistent pneumatosis intestinalis on the repeat abdominal radiograph",
+     "Bilious aspirates still present at 36 hours",
+     "Platelet count of 90 × 10⁹/L on day 2",
+     "Progressive clinical deterioration despite maximal medical therapy"
+    ],
+    "answer": 3,
+    "explain": "Surgery is indicated for perforation, peritonitis or worsening despite medical therapy. Persistent pneumatosis or aspirates alone are expected during medical management.",
+    "note": "Surgery for perforation, peritonitis, or worsening despite medical therapy."
+   },
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "A term newborn has abdominal distension and bilious vomiting and has not passed meconium at 36 hours. The X-ray shows dilated loops with a granular soap-bubble appearance in the right lower quadrant, and a contrast enema reveals a microcolon. What is the most likely underlying condition?",
+    "options": [
+     "Cystic fibrosis",
+     "Hirschsprung disease",
+     "Hypothyroidism",
+     "Jejunal atresia"
+    ],
+    "answer": 0,
+    "explain": "Meconium ileus (sticky meconium obstructing the terminal ileum) is almost always due to CF and is its earliest manifestation in about 15% of patients; confirm later with a sweat test. Hirschsprung gives a transition zone rather than microcolon with soap bubbles.",
+    "note": "Meconium ileus: terminal ileum blocked by sticky meconium = cystic fibrosis (~15%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the first-line treatment of uncomplicated meconium ileus?",
+    "options": [
+     "Immediate laparotomy with enterotomy and irrigation",
+     "Rectal suction biopsy followed by colostomy",
+     "Gastrografin (hyperosmolar contrast) enema, proceeding to surgery if it fails",
+     "Oral pancreatic enzyme replacement and osmotic laxatives for 48 hours, then review"
+    ],
+    "answer": 2,
+    "explain": "A Gastrografin enema draws fluid into the bowel and loosens meconium; surgery follows if it fails or if there is perforation/volvulus. Rectal biopsy is for Hirschsprung disease.",
+    "note": "Meconium ileus: Gastrografin enema → surgery if it fails."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the X-ray signs of NEC and perforation.",
+    "back": "Pneumatosis intestinalis (diagnostic) • portal venous gas • perforation: Rigler sign (double-wall), free air on horizontal-beam film with baby supine."
+   },
+   {
+    "type": "card",
+    "front": "How do you manage NEC?",
+    "back": "NPO (bowel rest) • NG decompression • IV fluids, TPN • IV antibiotics for Gram-negatives and anaerobes • surgery for perforation, peritonitis or worsening despite medical therapy."
+   },
+   {
+    "type": "card",
+    "front": "Describe meconium ileus: features, X-ray and management.",
+    "back": "CF ~15% present this way • distension, bilious vomiting, no meconium • X-ray soap-bubble, microcolon on enema • Gastrografin enema → surgery if fails • later sweat test."
+   }
+  ]
+ },
+ "II-43": {
+  "summary": "CDH and oesophageal atresia are both diagnosed in the delivery room: a scaphoid abdomen with heart sounds on the right means intubate, never bag-mask; drooling and choking at the first feed mean pass an NG tube and watch it coil. CDH is a physiological emergency (pulmonary hypoplasia and hypertension), not a surgical one.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Where is the defect in a typical congenital diaphragmatic hernia?",
+    "options": [
+     "Right anteromedial (Morgagni) defect",
+     "Left anteromedial (Morgagni) defect",
+     "Central tendon eventration",
+     "Left posterolateral (Bochdalek) defect"
+    ],
+    "answer": 3,
+    "explain": "Most CDHs are left-sided posterolateral Bochdalek hernias. Morgagni hernias are anterior, usually right-sided, and present later.",
+    "note": "CDH: usually left-sided posterolateral Bochdalek hernia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A term baby has severe respiratory distress immediately after birth. The abdomen is scaphoid, breath sounds are reduced on the left and the heart sounds are loudest on the right of the chest. What is the most appropriate immediate step?",
+    "options": [
+     "Bag-and-mask ventilation with 100% oxygen, then a chest X-ray",
+     "Intubate and pass an NG tube; avoid bag-and-mask ventilation",
+     "Insert a left-sided chest drain",
+     "Start CPAP via nasal prongs"
+    ],
+    "answer": 1,
+    "explain": "This is CDH. Bag-mask ventilation inflates the herniated stomach and bowel, worsening lung compression, so intubate early and decompress with an NG tube. A chest drain risks perforating bowel in the chest.",
+    "note": "CDH: intubate, no bag-mask, NG tube, gentle ventilation, treat pulmonary hypertension."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "In congenital diaphragmatic hernia, which factors primarily determine survival?",
+    "options": [
+     "Size of the diaphragmatic defect and timing of surgery",
+     "Associated VACTERL anomalies and prematurity",
+     "Pulmonary hypoplasia and pulmonary hypertension",
+     "Volvulus and ischaemia of herniated bowel"
+    ],
+    "answer": 2,
+    "explain": "Survival depends on how hypoplastic the lungs are and the severity of pulmonary hypertension, not on the hernia repair itself, which is why surgery is deferred until stable.",
+    "note": "CDH: pulmonary hypoplasia + pulmonary hypertension determine survival."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A baby with CDH is intubated at birth and remains hypoxic with pre/post-ductal gap of 15%. The parents ask when the surgeon will operate. What is the correct answer?",
+    "options": [
+     "After cardiorespiratory stabilisation, as CDH is a physiological rather than surgical emergency",
+     "Immediately, because reducing the bowel will relieve the lung compression",
+     "Within 6 hours, before the bowel becomes ischaemic in the chest",
+     "Only after the baby has been extubated and established on feeds"
+    ],
+    "answer": 0,
+    "explain": "Early surgery does not improve survival; it is performed once pulmonary hypertension and ventilation are stabilised. Waiting for extubation is not required since repair usually happens while ventilated.",
+    "note": "CDH surgery after stabilisation: physiological, not surgical, emergency."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn born after a pregnancy complicated by polyhydramnios has frothy saliva bubbling from the mouth and coughs and turns blue during the first feed. What is the most appropriate next step?",
+    "options": [
+     "Pass a firm wide-bore NG tube and take an X-ray",
+     "Perform a contrast swallow with barium",
+     "Arrange urgent upper gastrointestinal endoscopy",
+     "Thicken feeds and observe for 24 hours"
+    ],
+    "answer": 0,
+    "explain": "Drooling and choking at first feed with polyhydramnios suggests oesophageal atresia; a firm tube will coil in the blind pouch on X-ray. Barium risks aspiration and is not needed for diagnosis.",
+    "note": "OA: excess drooling, choking at first feeding; distal fistula: abdominal distension."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby with oesophageal atresia has an X-ray showing the NG tube coiled in the upper chest and a gasless abdomen. What does this indicate?",
+    "options": [
+     "Oesophageal atresia with a distal tracheo-oesophageal fistula",
+     "An H-type fistula without atresia",
+     "Pure oesophageal atresia with no distal tracheo-oesophageal fistula",
+     "Oesophageal atresia with both proximal and distal fistulae"
+    ],
+    "answer": 2,
+    "explain": "Gastric gas means air reaches the stomach via a distal fistula (the commonest, 85% type); a gasless abdomen means no distal connection, i.e. pure OA (or proximal fistula only).",
+    "note": "Pure OA: gasless abdomen; VACTERL screen, echo."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 4-month-old has had coughing and choking with every feed since birth and three episodes of right upper lobe pneumonia. An NG tube passes easily into the stomach. What is the most likely diagnosis?",
+    "options": [
+     "Gastro-oesophageal reflux disease",
+     "H-type tracheo-oesophageal fistula",
+     "Vascular ring compressing the oesophagus",
+     "Laryngomalacia"
+    ],
+    "answer": 1,
+    "explain": "Cough since birth, always during feeds, with recurrent aspiration and a patent oesophagus suggests an H-type TEF without atresia; diagnose with prone tube oesophagogram or bronchoscopy. GORD and laryngomalacia are not specifically tied to every feed from birth.",
+    "note": "Cough since birth, always during feeding → H-type TEF."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A baby is confirmed to have oesophageal atresia with distal TEF. Before surgery, which investigations are most important given the associated anomalies?",
+    "options": [
+     "Sweat test, faecal elastase and genetic testing for cystic fibrosis",
+     "Karyotype for trisomy 21 and thyroid function only",
+     "Cranial ultrasound, ophthalmology review and TORCH serology for congenital infection",
+     "Echocardiogram, renal ultrasound and spinal/limb assessment for VACTERL anomalies"
+    ],
+    "answer": 3,
+    "explain": "OA/TEF is associated with VACTERL (vertebral, anorectal, cardiac, TE, renal, limb) mesodermal defects; echo is also essential to locate the aortic arch before thoracotomy. A Replogle tube keeps the pouch clear meanwhile.",
+    "note": "CDH: abdominal viscera herniate into chest; OA/TEF: associated VACTERL anomalies (mesodermal defects)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Delivery-room management of CDH?",
+    "back": "Intubate, no bag-mask • NG tube decompression • gentle ventilation • treat pulmonary hypertension • surgery only after stabilisation (physiological, not surgical, emergency)."
+   },
+   {
+    "type": "card",
+    "front": "How do you diagnose oesophageal atresia and its type?",
+    "back": "Polyhydramnios, drooling, choking at first feed • firm NG tube coils in pouch on X-ray • gastric gas = distal TEF (85%) • gasless abdomen = pure OA • H-type: cough with every feed since birth."
+   },
+   {
+    "type": "card",
+    "front": "What does VACTERL stand for and why screen?",
+    "back": "Vertebral, Anorectal, Cardiac, Tracheo-oEsophageal, Renal, Limb • mesodermal defects associated with OA/TEF • echo, renal US, spine/limb X-rays before surgery."
+   }
+  ]
+ },
+ "II-44": {
+  "summary": "Bilious vomiting in a newborn is obstruction below the ampulla until proven otherwise: a flat abdomen with a double bubble is duodenal atresia (think Down syndrome, exclude malrotation), many distended loops is jejunoileal atresia. For wall defects: a membrane-covered midline sac (omphalocele) brings syndromes; bare bowel right of the cord (gastroschisis) brings young mothers and is otherwise isolated.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which condition is most strongly associated with duodenal atresia?",
+    "options": [
+     "Trisomy 18",
+     "Beckwith-Wiedemann syndrome",
+     "Trisomy 21",
+     "Cystic fibrosis"
+    ],
+    "answer": 2,
+    "explain": "Duodenal atresia results from failed recanalisation and is classically associated with Down syndrome (about 30%). Trisomy 18 and Beckwith-Wiedemann are associated with omphalocele; CF with meconium ileus.",
+    "note": "Duodenal: failed recanalisation, trisomy 21; jejunoileal: in-utero vascular accident."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A newborn with upslanting palpebral fissures and a single palmar crease has bilious vomiting from the first feed. The abdomen is flat and soft. What would the abdominal X-ray most likely show?",
+    "options": [
+     "A double bubble with no distal bowel gas",
+     "Multiple dilated loops with air-fluid levels",
+     "Pneumatosis intestinalis",
+     "A soap-bubble appearance with microcolon"
+    ],
+    "answer": 0,
+    "explain": "Down syndrome, bilious vomiting from the first feed and a flat abdomen suggest duodenal atresia: gas in stomach and duodenum (double bubble) with nothing beyond. Many dilated loops would indicate a lower (jejunoileal) atresia.",
+    "note": "Duodenal atresia: double bubble on abdominal X-ray; exclude malrotation."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why does duodenal atresia usually cause bilious rather than non-bilious vomiting, and which antenatal finding often accompanies it?",
+    "options": [
+     "The obstruction lies proximal to the ampulla of Vater; oligohydramnios",
+     "Bile refluxes through a patent pylorus; oligohydramnios",
+     "The obstruction lies distal to the ampulla of Vater; oligohydramnios",
+     "The obstruction lies distal to the ampulla of Vater; polyhydramnios"
+    ],
+    "answer": 3,
+    "explain": "Most duodenal atresias are below the ampulla, so vomit contains bile from the first feed; the fetus cannot absorb swallowed amniotic fluid, causing polyhydramnios.",
+    "note": "Obstruction below ampulla → bilious vomiting from first feed, polyhydramnios."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has bilious vomiting on day 1 and a progressively distended abdomen; the X-ray shows many dilated small-bowel loops with air-fluid levels. Which mechanism is most likely responsible?",
+    "options": [
+     "Failure of recanalisation of the bowel lumen",
+     "An in-utero mesenteric vascular accident",
+     "Absent ganglion cells in the distal colon",
+     "Sticky meconium obstructing the terminal ileum"
+    ],
+    "answer": 1,
+    "explain": "Jejunoileal atresia follows an in-utero vascular accident and causes distension with many loops. Failed recanalisation is the mechanism of duodenal atresia (flat abdomen).",
+    "note": "Duodenal: bilious vomiting, flat abdomen; jejunoileal: distension, many loops."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has a full-thickness abdominal wall defect to the right of a normally inserted umbilical cord with uncovered, thickened bowel loops. Which statement is most accurate?",
+    "options": [
+     "It is usually associated with trisomy 13 or 18",
+     "It is usually isolated and is associated with young maternal age",
+     "It is typically part of Beckwith-Wiedemann syndrome",
+     "It is usually accompanied by major cardiac malformations"
+    ],
+    "answer": 1,
+    "explain": "This is gastroschisis: right of the cord, no membrane, associated with young mothers and rarely with other anomalies (apart from bowel atresia). Omphalocele is midline, sac-covered and associated with trisomies, BWS and cardiac/GU/neural tube defects.",
+    "note": "Omphalocele: midline, covered by sac; gastroschisis: right of cord, no membrane."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A newborn with a midline membrane-covered abdominal wall defect containing liver and bowel also has macroglossia and hypoglycaemia. What is the most likely underlying syndrome?",
+    "options": [
+     "Trisomy 21",
+     "Prader-Willi syndrome",
+     "Congenital hypothyroidism",
+     "Beckwith-Wiedemann syndrome"
+    ],
+    "answer": 3,
+    "explain": "Omphalocele plus macroglossia and neonatal hypoglycaemia (from hyperinsulinism) is Beckwith-Wiedemann syndrome; trisomies 13 and 18 are the other classic associations. Hypothyroidism gives macroglossia and umbilical hernia but not omphalocele.",
+    "note": "Omphalocele: Beckwith-Wiedemann, trisomies 13, 18; gastroschisis: young mothers."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A baby with gastroschisis is born in your unit. What is the most appropriate immediate management?",
+    "options": [
+     "Cover bowel in sterile saline dressings or a bag, insert an NG tube, give IV fluids",
+     "Reduce the bowel manually into the abdomen at the bedside",
+     "Leave the bowel exposed to the air and start early oral feeds to promote gut motility",
+     "Apply a dry compression bandage and arrange elective repair at 6 weeks"
+    ],
+    "answer": 0,
+    "explain": "Exposed bowel loses heat and fluid, so it is covered with sterile saline dressings/cling bag, decompressed with an NG tube and the baby given fluids; then primary closure or a staged silo repair. Forceful bedside reduction risks abdominal compartment syndrome.",
+    "note": "Wrap bowel in sterile saline dressings, NG tube; primary closure, else staged silo repair."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A newborn boy has no anal opening; the invertogram/perineal ultrasound shows the rectal pouch ending high above the levator ani with no perineal fistula. What is the initial surgical management?",
+    "options": [
+     "Primary perineal anoplasty within the first 24 hours of life, no stoma",
+     "Serial anal dilatation from day 2",
+     "Diverting colostomy, then posterior sagittal anorectoplasty later",
+     "Gastrografin enema to clear the obstruction"
+    ],
+    "answer": 2,
+    "explain": "High anal atresia is managed with an initial colostomy followed by PSARP; low lesions (e.g. perineal fistula) can have a primary anoplasty. Dilatation and enemas have no role in an atretic anus.",
+    "note": "High anal atresia: colostomy → PSARP; low → anoplasty."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare omphalocele and gastroschisis.",
+    "back": "Omphalocele: midline, sac-covered, cord inserts into sac; BWS, trisomy 13/18; cardiac, GU, neural tube defects • gastroschisis: right of cord, no membrane, young mothers, usually isolated."
+   },
+   {
+    "type": "card",
+    "front": "Duodenal vs jejunoileal atresia.",
+    "back": "Duodenal: failed recanalisation, trisomy 21, bilious vomiting, flat abdomen, double bubble, exclude malrotation → duodenoduodenostomy • jejunoileal: in-utero vascular accident, distension, many loops."
+   },
+   {
+    "type": "card",
+    "front": "Management of abdominal wall defects and anal atresia.",
+    "back": "Sterile saline dressings, NG tube, IV fluids → primary closure or staged silo • high anal atresia: colostomy → PSARP • low: anoplasty."
+   }
+  ]
+ },
+ "II-45": {
+  "summary": "Following up a preterm means BPD (still needing oxygen or support at 36 weeks PMA), ROP screening (<31 weeks or <1501 g), corrected age for growth and development but chronological age for vaccines, plus iron, vitamin D and RSV prophylaxis.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "How is bronchopulmonary dysplasia defined?",
+    "options": [
+     "Need for oxygen at 28 days of life regardless of gestation",
+     "Need for mechanical ventilation beyond 7 days of life",
+     "Need for oxygen at discharge home at any gestation",
+     "Need for oxygen or respiratory support at 36 weeks postmenstrual age"
+    ],
+    "answer": 3,
+    "explain": "BPD is defined by oxygen or respiratory support at 36 weeks PMA; oxygen need at 28 days was the older definition and is still part of severity grading.",
+    "note": "BPD = oxygen or respiratory support at 36 weeks PMA."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 25-week baby was ventilated for 3 weeks with high oxygen requirements and had an episode of sepsis. Which combination of factors best explains his development of BPD?",
+    "options": [
+     "Surfactant therapy with caffeine and antenatal steroids",
+     "Prematurity with oxygen toxicity, ventilator trauma and infection",
+     "Meconium aspiration with persistent pulmonary hypertension",
+     "Congenital surfactant protein B deficiency"
+    ],
+    "answer": 1,
+    "explain": "BPD results from prematurity plus oxygen toxicity, volutrauma/barotrauma and infection. Surfactant, caffeine and antenatal steroids are preventive.",
+    "note": "Prematurity plus oxygen toxicity (RIB), ventilator trauma, infection."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An ex-24-week infant with BPD has rising oxygen requirements at 4 months. What is the underlying lung pathology of modern ('new') BPD, and which complication should be sought?",
+    "options": [
+     "Recurrent aspiration pneumonitis; bronchiectasis",
+     "Hyaline membrane formation; pneumothorax",
+     "Arrested alveolar and vascular development; pulmonary hypertension",
+     "Excess surfactant production; alveolar proteinosis"
+    ],
+    "answer": 2,
+    "explain": "Modern BPD is arrested alveolarisation and vascular growth giving fewer, simplified alveoli, with a risk of pulmonary hypertension; rising oxygen needs should prompt an echo.",
+    "note": "BPD: arrested alveolar/vascular growth + injury → simplified alveoli, pulmonary hypertension."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby born at 30 weeks weighing 1650 g is now 4 weeks old. Does he meet ROP screening criteria?",
+    "options": [
+     "Yes, because he was born before 31 weeks",
+     "No, because his birthweight is above 1500 g",
+     "No, because screening is only for babies under 28 weeks",
+     "Yes, but only if he received supplemental oxygen"
+    ],
+    "answer": 0,
+    "explain": "ROP screening is offered to babies born <31 weeks OR <1501 g; meeting either criterion qualifies. Oxygen exposure is not a requirement.",
+    "note": "ROP screen: <31 weeks or <1501 g; BPD with rising O2 → echo."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Which sequence best describes the pathogenesis of retinopathy of prematurity?",
+    "options": [
+     "Hyperoxia halts vessel growth; the avascular retina turns hypoxic, VEGF surges and neovessels grow",
+     "Low oxygen causes recurrent retinal haemorrhages, which organise into fibrous scar tissue and detach the retina",
+     "High oxygen directly damages photoreceptors, causing retinal detachment",
+     "Infection of the retina by maternal organisms causes vasculitis and scarring"
+    ],
+    "answer": 0,
+    "explain": "Relative hyperoxia suppresses VEGF and halts vascularisation; the peripheral avascular retina then becomes hypoxic, VEGF surges, and abnormal neovessels grow, which may lead to detachment.",
+    "note": "ROP: high oxygen → hypoxic retina → VEGF surge → neovascularisation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A baby born at 28 weeks is now 6 months old. At what corrected age should his development be assessed, and how should his vaccines be timed?",
+    "options": [
+     "Development at 6 months; vaccines delayed to corrected age",
+     "Development at 3 months corrected; vaccines delayed to corrected age",
+     "Development at 3 months corrected; vaccines at chronological age",
+     "Development at 6 months; vaccines at chronological age"
+    ],
+    "answer": 2,
+    "explain": "Born 12 weeks early, he is 3 months corrected; correct for prematurity until about 2 years for growth and development. Vaccines are given by chronological age, without delay.",
+    "note": "Corrected age for growth/development (~2 years); chronological for vaccines."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A former 27-week infant is being discharged in October. Which supplements and preventive measure are recommended?",
+    "options": [
+     "Vitamin K and folic acid supplements plus BCG vaccination",
+     "Iron and vitamin D supplements plus RSV prophylaxis with nirsevimab or palivizumab",
+     "Iron and calcium supplements plus influenza vaccination at birth",
+     "Vitamin D alone plus oral azithromycin prophylaxis throughout the winter RSV season"
+    ],
+    "answer": 1,
+    "explain": "Preterm infants have low iron stores and vitamin D needs, and are at high risk of severe RSV; nirsevimab (or palivizumab) is given for the RSV season.",
+    "note": "Supplement iron, vitamin D; RSV prevention: nirsevimab or palivizumab."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "ROP screening of a 34-week-PMA infant shows stage 3 disease with plus disease in zone II (treatment-requiring ROP). What is the appropriate management?",
+    "options": [
+     "Increase oxygen saturation targets to above 98%",
+     "Repeat screening in 2 weeks and treat if progressing",
+     "Topical corticosteroid eye drops",
+     "Laser photocoagulation or intravitreal anti-VEGF injection"
+    ],
+    "answer": 3,
+    "explain": "Treatment-requiring ROP is treated with laser ablation of avascular retina or anti-VEGF (e.g. bevacizumab/ranibizumab). Waiting risks retinal detachment; high oxygen is not therapeutic.",
+    "note": "ROP: laser photocoagulation or anti-VEGF."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Define BPD and list prevention strategies.",
+    "back": "O2 or respiratory support at 36 weeks PMA • prevention: maternal glucocorticoids, surfactant, caffeine, gentle ventilation, avoid hyperoxia, nutrition."
+   },
+   {
+    "type": "card",
+    "front": "What should follow-up of a preterm baby include?",
+    "back": "Growth and neurodevelopment by corrected age (~2 y) • PVL → spastic diplegia • hearing • vision/ROP • vaccines by chronological age • iron, vitamin D • RSV prophylaxis (nirsevimab/palivizumab)."
+   },
+   {
+    "type": "card",
+    "front": "ROP: screening criteria, mechanism and treatment.",
+    "back": "Screen <31 weeks or <1501 g • high O2 → hypoxic retina → VEGF surge → neovascularisation • laser photocoagulation or anti-VEGF."
+   }
+  ]
+ },
+ "II-46": {
+  "summary": "Hodgkin is the adolescent with painless rubbery neck nodes, B symptoms and Reed-Sternberg cells (CD15/CD30), cured in more than 90%; childhood NHL is high grade and fast, meaning tumour lysis (Burkitt) and mediastinal airway compromise (lymphoblastic). Biopsy before steroids and never lie a mediastinal mass flat under GA.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 15-year-old girl has a 3-month history of a painless, rubbery 3 cm left supraclavicular node, night sweats that soak her sheets and 12% weight loss. What is the most appropriate next investigation?",
+    "options": [
+     "Fine-needle aspiration cytology",
+     "Trial of antibiotics and review in 2 weeks",
+     "Excision biopsy of the lymph node",
+     "Epstein-Barr virus serology only"
+    ],
+    "answer": 2,
+    "explain": "A persistent, >2 cm supraclavicular node with B symptoms is suspicious for Hodgkin lymphoma; excision biopsy is needed to see nodal architecture and Reed-Sternberg cells. FNA is inadequate for lymphoma diagnosis.",
+    "note": "Suspicious node: >2 cm, hard, supraclavicular, persistent."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which immunophenotype is characteristic of Reed-Sternberg cells in classical Hodgkin lymphoma?",
+    "options": [
+     "CD15 and CD30 positive",
+     "CD19 and CD20 positive",
+     "CD3 and CD7 positive",
+     "CD10 and TdT positive"
+    ],
+    "answer": 0,
+    "explain": "Classical RS cells express CD15 and CD30 (and usually lack CD45). TdT/CD10 are lymphoblastic markers; CD3/CD7 are T-cell markers.",
+    "note": "Excision biopsy: RS cells CD15, CD30; CXR, PET-CT; staging predicts prognosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which subtype of Hodgkin lymphoma is commonest in adolescents?",
+    "options": [
+     "Mixed cellularity",
+     "Lymphocyte-depleted",
+     "Nodular lymphocyte-predominant",
+     "Nodular sclerosis"
+    ],
+    "answer": 3,
+    "explain": "Nodular sclerosis accounts for about 70% of cases and typically involves the mediastinum and neck in adolescents. Mixed cellularity is more common in younger children and in low-income settings.",
+    "note": "Hodgkin: nodular sclerosis commonest (70%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "An 8-year-old boy has a rapidly enlarging right iliac fossa mass over 2 weeks. Biopsy shows a 'starry sky' pattern with a very high proliferation index. Which genetic abnormality is most likely?",
+    "options": [
+     "t(9;22) BCR-ABL1",
+     "t(8;14) involving MYC",
+     "t(12;21) ETV6-RUNX1",
+     "t(2;5) NPM-ALK"
+    ],
+    "answer": 1,
+    "explain": "Burkitt lymphoma presents as an abdominal mass with a starry-sky pattern and t(8;14) MYC translocation. ETV6-RUNX1 is a favourable ALL marker; NPM-ALK is anaplastic large cell lymphoma.",
+    "note": "NHL: Burkitt t(8;14) MYC, lymphoblastic, DLBCL, ALCL."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Twelve hours after starting chemotherapy for Burkitt lymphoma, a boy has reduced urine output and develops muscle cramps. Which biochemical pattern is expected?",
+    "options": [
+     "Low potassium, low phosphate, high urate and high calcium",
+     "High potassium, high phosphate, high urate and low calcium",
+     "High potassium, low phosphate, low urate and high calcium",
+     "Low sodium, high phosphate, low urate and low calcium"
+    ],
+    "answer": 1,
+    "explain": "Tumour lysis releases intracellular K, phosphate and nucleic acids (urate); phosphate precipitates calcium, causing hypocalcaemia (cramps, tetany). Burkitt is the classic high-risk tumour.",
+    "note": "Burkitt lysis → TLS: high K, phosphate, urate, low calcium."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A boy with Burkitt lymphoma at high risk of tumour lysis is found to have G6PD deficiency. Which plan is most appropriate?",
+    "options": [
+     "Hyperhydration with rasburicase at standard dose",
+     "Rasburicase with urinary alkalinisation",
+     "Fluid restriction with oral phosphate binders only",
+     "Hyperhydration with allopurinol rather than rasburicase"
+    ],
+    "answer": 3,
+    "explain": "Rasburicase produces hydrogen peroxide and can cause severe haemolysis and methaemoglobinaemia in G6PD deficiency, so allopurinol is used instead with hyperhydration. Fluid restriction would worsen TLS.",
+    "note": "TLS: hyperhydrate, rasburicase (contraindicated in G6PD deficiency)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old with a large anterior mediastinal mass, orthopnoea and stridor is booked for a biopsy. What is the key safety consideration?",
+    "options": [
+     "Avoid general anaesthesia and lying flat; biopsy under local anaesthesia if possible",
+     "Give high-dose dexamethasone first to shrink the mass before attempting any tissue biopsy",
+     "Perform the biopsy under general anaesthesia with muscle relaxation",
+     "Insert a central line under general anaesthesia before staging"
+    ],
+    "answer": 0,
+    "explain": "Lying flat or GA with relaxation can cause complete airway or cardiovascular collapse from a mediastinal mass. Steroids before biopsy can destroy the diagnosis (lymphoblastic lymphoma/ALL), so they are avoided unless life-threatening.",
+    "note": "Mediastinal mass → avoid general anaesthesia and lying flat."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 7-year-old with cervical lymphadenopathy and a mediastinal mass on CXR is seen by a GP who suspects asthma and wants to start oral prednisolone for wheeze. Why is this dangerous?",
+    "options": [
+     "Steroids precipitate Pneumocystis pneumonia in mediastinal disease",
+     "Steroids worsen superior vena cava obstruction by fluid retention",
+     "Steroids can lyse lymphoma cells and obscure the diagnosis before biopsy",
+     "Steroids cause rapid regrowth of Hodgkin disease once stopped"
+    ],
+    "answer": 2,
+    "explain": "Lymphoblastic lymphoma/leukaemia is exquisitely steroid-sensitive; pre-biopsy steroids can make histology uninterpretable and trigger TLS. Hence 'no steroids before biopsy'.",
+    "note": "No steroids before biopsy."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Hodgkin vs childhood NHL.",
+    "back": "Hodgkin: adolescents, RS cells CD15/CD30, contiguous nodal spread, B symptoms, nodular sclerosis 70%, cure >90% • NHL: high grade (Burkitt t(8;14), lymphoblastic, DLBCL, ALCL), abdominal or mediastinal mass, TLS risk."
+   },
+   {
+    "type": "card",
+    "front": "Which lymph node features are suspicious?",
+    "back": "Node >2 cm, hard/rubbery, painless, supraclavicular, persistent/enlarging, B symptoms (fever, night sweats, weight loss >10%) → excision biopsy, no steroids before."
+   },
+   {
+    "type": "card",
+    "front": "Tumour lysis syndrome: labs and management.",
+    "back": "High K, phosphate, urate; low calcium • hyperhydrate • rasburicase (contraindicated in G6PD deficiency → allopurinol) • monitor electrolytes, dialysis if needed."
+   }
+  ]
+ },
+ "II-47": {
+  "summary": "ALL is the commonest childhood cancer (peak 2-5 years): blasts crowding the marrow give pallor, bruising, infection and bone pain. Diagnose with marrow, flow cytometry and genetics, risk-stratify by age, WBC, genetics and above all MRD, and remember the CNS is a sanctuary that needs intrathecal therapy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "What is the commonest childhood malignancy and its peak age?",
+    "options": [
+     "Acute myeloid leukaemia, peak in infancy",
+     "Acute lymphoblastic leukaemia, peak in adolescence",
+     "Neuroblastoma, peak 2-5 years",
+     "Acute lymphoblastic leukaemia, peak 2-5 years"
+    ],
+    "answer": 3,
+    "explain": "ALL makes up about 80% of childhood leukaemia, the commonest childhood cancer, with a peak at 2-5 years. Neuroblastoma is the commonest extracranial solid tumour, mostly under 2.",
+    "note": "Commonest childhood cancer; ALL ~80%, peak 2-5 years."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-year-old has 3 weeks of pallor, bruising and limping with night-time leg pain. Examination shows hepatosplenomegaly and generalised lymphadenopathy; FBC shows Hb 72 g/L, platelets 25 × 10⁹/L and WBC 3.1 × 10⁹/L. What is the most likely diagnosis?",
+    "options": [
+     "Immune thrombocytopenic purpura",
+     "Acute lymphoblastic leukaemia",
+     "Juvenile idiopathic arthritis",
+     "Aplastic anaemia"
+    ],
+    "answer": 1,
+    "explain": "Pancytopenia with bone pain, organomegaly and lymphadenopathy indicates marrow infiltration by blasts. ITP has isolated thrombocytopenia and no organomegaly; aplastic anaemia lacks organomegaly; JIA does not cause pancytopenia.",
+    "note": "Pallor, bleeding, infection, bone pain, HSM, lymphadenopathy; mediastinal mass in T-ALL."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why is intrathecal chemotherapy an essential part of ALL treatment even when the initial CSF is clear?",
+    "options": [
+     "Intrathecal drugs are needed to prevent chemotherapy-induced neuropathy",
+     "The CNS is the site where leukaemic stem cells originate",
+     "The CNS is a sanctuary site that systemic chemotherapy penetrates poorly",
+     "Systemic chemotherapy is neurotoxic and must be avoided"
+    ],
+    "answer": 2,
+    "explain": "The blood-brain barrier shields leukaemic cells from most systemic drugs, so CNS-directed therapy (intrathecal methotrexate) prevents CNS relapse.",
+    "note": "Blasts fill marrow → anaemia, bleeding, infection; infiltration → bone pain, organomegaly; CNS a sanctuary."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which congenital condition most increases the risk of childhood leukaemia?",
+    "options": [
+     "Down syndrome",
+     "Turner syndrome",
+     "Marfan syndrome",
+     "Cystic fibrosis"
+    ],
+    "answer": 0,
+    "explain": "Down syndrome carries a markedly increased risk of both ALL and AML (especially AMKL), and transient abnormal myelopoiesis in neonates.",
+    "note": "Risk factor: Down syndrome."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Which child with newly diagnosed B-ALL has the most favourable prognosis?",
+    "options": [
+     "A 4-year-old, WBC 12 × 10⁹/L, ETV6-RUNX1 positive, MRD negative at end of induction",
+     "An 8-month-old, WBC 12 × 10⁹/L, KMT2A rearranged, MRD negative at end of induction",
+     "A 4-year-old, WBC 80 × 10⁹/L, hyperdiploid, MRD positive at end of induction",
+     "A 14-year-old, WBC 12 × 10⁹/L, ETV6-RUNX1 positive, MRD positive at end of induction"
+    ],
+    "answer": 0,
+    "explain": "Good features are age 1-10, WBC <50, hyperdiploidy or ETV6-RUNX1, and above all MRD negativity, the strongest prognostic factor. Infancy (with KMT2A), age >10, high WBC and positive MRD are adverse.",
+    "note": "Good: age 1-10, WBC <50, hyperdiploidy/ETV6-RUNX1; minimal residual disease strongest."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A child with suspected leukaemia has blasts on the blood film. Which investigation set is required to confirm and classify the disease?",
+    "options": [
+     "Peripheral blood film and CT chest, abdomen and pelvis",
+     "Lymph node excision biopsy with immunohistochemistry and whole-body PET-CT staging",
+     "Bone marrow examination with flow cytometry and cytogenetics, plus lumbar puncture",
+     "Bone marrow trephine alone and serum LDH"
+    ],
+    "answer": 2,
+    "explain": "Marrow morphology, flow cytometry (lineage) and genetics (risk) are needed, with LP to assess CNS involvement. Excision biopsy and PET-CT are the work-up of lymphoma.",
+    "note": "Bone marrow examination + flow cytometry, genetics; LP."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-year-old in ALL maintenance therapy presents with a temperature of 38.6 °C; neutrophils are 0.3 × 10⁹/L. He looks well. What is the most appropriate management?",
+    "options": [
+     "Oral amoxicillin and review in 24 hours",
+     "Take cultures and give IV broad-spectrum antibiotics within 1 hour",
+     "Wait for the blood culture result before starting antibiotics",
+     "Paracetamol and repeat the neutrophil count tomorrow"
+    ],
+    "answer": 1,
+    "explain": "Febrile neutropenia is an emergency regardless of how well the child looks; IV broad-spectrum antibiotics (e.g. piperacillin-tazobactam) within 1 hour. Children also receive co-trimoxazole prophylaxis against Pneumocystis.",
+    "note": "Febrile neutropenia → IV antibiotics within 1 hour; co-trimoxazole vs Pneumocystis."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A child with early bone marrow relapse of ALL undergoes an allogeneic stem cell transplant from a matched sibling. What is the main immunological mechanism by which the transplant reduces relapse beyond the conditioning chemotherapy?",
+    "options": [
+     "Host T cells reject the donor graft and release cytokines that kill blasts",
+     "Donor stem cells produce antibodies that block blast proliferation",
+     "Conditioning radiotherapy permanently sterilises the CNS sanctuary",
+     "Donor T cells recognise and kill residual leukaemic cells (graft versus leukaemia)"
+    ],
+    "answer": 3,
+    "explain": "Graft versus leukaemia means donor immune cells attack leukaemic cells, the basis of SCT benefit in high-risk/relapsed ALL (and linked to GvHD). Host-versus-graft is rejection, which is harmful.",
+    "note": "High-risk/relapse: allogeneic SCT; graft versus leukaemia = donor cells attack leukaemic cells."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the phases of ALL treatment.",
+    "back": "Induction → consolidation + intrathecal methotrexate (CNS) → intensification → maintenance (~2 years) • cure ~90% • high-risk/relapse: allogeneic SCT."
+   },
+   {
+    "type": "card",
+    "front": "Give the prognostic factors in childhood ALL.",
+    "back": "Good: age 1-10, WBC <50, hyperdiploidy or ETV6-RUNX1 • strongest: MRD after induction • poor: infant/adolescent, high WBC, T-ALL with mediastinal mass, MRD positive."
+   },
+   {
+    "type": "card",
+    "front": "Supportive care in leukaemia.",
+    "back": "Febrile neutropenia → IV antibiotics within 1 h • co-trimoxazole vs Pneumocystis • TLS prevention (hydration, rasburicase/allopurinol) • blood products."
+   }
+  ]
+ },
+ "II-48": {
+  "summary": "Platelet bleeding is skin and mucosa, not joints. A well child with isolated thrombocytopenia weeks after a virus is ITP: no marrow, observe if only skin signs; but anything else abnormal (other cell lines, organomegaly, bone pain) means marrow to exclude leukaemia.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which bleeding pattern most suggests a platelet disorder rather than a coagulation factor deficiency?",
+    "options": [
+     "Haemarthroses and deep muscle haematomas",
+     "Delayed bleeding hours after circumcision",
+     "Petechiae, purpura and epistaxis",
+     "Retroperitoneal haematoma after minor trauma"
+    ],
+    "answer": 2,
+    "explain": "Platelet disorders bleed into skin and mucosa (petechiae, purpura, epistaxis). Joint and muscle bleeds and delayed bleeding are typical of haemophilia.",
+    "note": "Low, dysfunctional or high platelets; bleed into skin and mucosa, not joints."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old had a cold 3 weeks ago and now has widespread petechiae and bruises. She is well and active, with no lymphadenopathy or hepatosplenomegaly. FBC shows platelets 12 × 10⁹/L, normal Hb and WBC; the film shows large platelets. What is the most likely diagnosis?",
+    "options": [
+     "Immune thrombocytopenic purpura",
+     "Acute lymphoblastic leukaemia",
+     "Haemolytic uraemic syndrome",
+     "Henoch-Schönlein purpura"
+    ],
+    "answer": 0,
+    "explain": "Well child, purpura weeks after a viral illness, isolated thrombocytopenia with large platelets and no organomegaly is ITP. Leukaemia usually affects other lines or causes organomegaly; HSP has a normal platelet count.",
+    "note": "ITP: well child, purpura 3 weeks after viral illness, no organomegaly."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "What is the mechanism of thrombocytopenia in childhood ITP?",
+    "options": [
+     "IgM antibodies against GPIb-IX cause complement lysis of platelets in the liver",
+     "Deficient ADAMTS13 causes platelet consumption in microthrombi",
+     "Viral infection of megakaryocytes suppresses marrow production",
+     "IgG antibodies against GPIIb/IIIa cause splenic macrophage clearance of platelets"
+    ],
+    "answer": 3,
+    "explain": "Autoantibodies (IgG) against GPIIb/IIIa opsonise platelets, which are removed by splenic macrophages; the marrow responds with increased megakaryocytes. ADAMTS13 deficiency is TTP.",
+    "note": "ITP: IgG against GPIIb/IIIa → platelets consumed by splenic macrophages."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "The child with ITP above has only cutaneous bruising and petechiae with no mucosal bleeding. What is the best management?",
+    "options": [
+     "Oral prednisolone 2 mg/kg/day for 2 weeks, then taper",
+     "Observation only; most resolve within 6 months",
+     "Intravenous immunoglobulin 0.8-1 g/kg as a single dose",
+     "Platelet transfusion"
+    ],
+    "answer": 1,
+    "explain": "With cutaneous bleeding only, observation is recommended as 75-80% resolve within 6 months. Steroids are for mucosal bleeding, IVIG for significant bleeding; platelet transfusion is for life-threatening haemorrhage only.",
+    "note": "ITP: cutaneous only → observation (75-80% resolve in 6 months); mucosal bleeding → corticosteroids."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 5-year-old presents with petechiae and platelets of 20 × 10⁹/L. Which additional finding is the strongest indication for a bone marrow examination?",
+    "options": [
+     "Large platelets on the blood film",
+     "Neutrophils of 0.6 × 10⁹/L and bone pain",
+     "A viral illness 3 weeks earlier",
+     "Wet purpura in the mouth"
+    ],
+    "answer": 1,
+    "explain": "Another cell line low, hepatosplenomegaly or bone pain suggests leukaemia or aplasia and requires marrow examination. Large platelets and a preceding virus support ITP; mucosal bleeding changes treatment, not the diagnosis.",
+    "note": "Other cell line low, HSM or bone pain → bone marrow; TTP: raised LDH."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 10-year-old has lifelong mucocutaneous bleeding. Platelet count and size are normal, but platelets fail to aggregate with ADP, collagen and adrenaline while ristocetin agglutination is normal. What is the diagnosis?",
+    "options": [
+     "Bernard-Soulier syndrome",
+     "Von Willebrand disease",
+     "Immune thrombocytopenic purpura",
+     "Glanzmann thrombasthenia"
+    ],
+    "answer": 3,
+    "explain": "Glanzmann (GPIIb/IIIa deficiency) is an aggregation defect with normal count and normal ristocetin response. Bernard-Soulier (GPIb deficiency) is an adhesion defect with giant platelets, low count and absent ristocetin agglutination; vWD also gives abnormal ristocetin response.",
+    "note": "TTP: ADAMTS13 deficiency → uncleaved vWF → microthrombi; Glanzmann: aggregation defect; Bernard-Soulier: adhesion."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 7-year-old has had ITP for 14 months with platelets persistently 15-25 × 10⁹/L and recurrent epistaxis despite courses of steroids and IVIG. What is the most appropriate next therapy?",
+    "options": [
+     "A thrombopoietin receptor agonist such as eltrombopag or romiplostim",
+     "Elective splenectomy",
+     "Long-term daily prednisolone",
+     "Regular prophylactic platelet transfusions to keep platelets above 50"
+    ],
+    "answer": 0,
+    "explain": "Chronic ITP (>12 months) with troublesome bleeding is treated with TPO receptor agonists (romiplostim/eltrombopag). Splenectomy is now deferred due to infection risk, and long-term steroids are avoided due to toxicity.",
+    "note": "Significant bleeding → IVIG; chronic ITP (>12 months): romiplostim/eltrombopag."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old recovering from pneumonia has a platelet count of 850 × 10⁹/L. What is the appropriate management?",
+    "options": [
+     "Low-dose aspirin to prevent thrombosis",
+     "Bone marrow aspirate to exclude essential thrombocythaemia",
+     "No treatment; reactive thrombocytosis resolves with the underlying illness",
+     "Hydroxycarbamide until the count normalises"
+    ],
+    "answer": 2,
+    "explain": "Thrombocytosis in children is almost always reactive (infection, inflammation, iron deficiency) and needs no treatment or aspirin; it does not carry thrombotic risk.",
+    "note": "TTP: plasma exchange; thrombocytosis is reactive → no treatment, no aspirin."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify causes of thrombocytopenia and platelet dysfunction.",
+    "back": "Destruction: ITP, NAIT, TTP/HUS, DIC, hypersplenism • underproduction: leukaemia, aplasia • dysfunction with normal count: Glanzmann (aggregation), Bernard-Soulier (adhesion), vWD, aspirin."
+   },
+   {
+    "type": "card",
+    "front": "Stepwise management of childhood ITP.",
+    "back": "Cutaneous only → observe (75-80% resolve in 6 months) • mucosal bleeding → corticosteroids • significant bleeding → IVIG • chronic >12 months → romiplostim/eltrombopag."
+   },
+   {
+    "type": "card",
+    "front": "When does suspected ITP need a bone marrow?",
+    "back": "Another cell line low • hepatosplenomegaly or lymphadenopathy • bone pain • unwell child or atypical film • (no steroids before excluding leukaemia)."
+   }
+  ]
+ },
+ "II-49": {
+  "summary": "DIC, HUS and TTP all consume platelets and fragment red cells; the clotting screen splits them: prolonged PT/APTT, low fibrinogen and high D-dimer mean DIC, while HUS and TTP have normal clotting. Typical HUS follows bloody diarrhoea from STEC and is supportive only; atypical HUS gets eculizumab; TTP gets plasma exchange.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which triad defines haemolytic uraemic syndrome?",
+    "options": [
+     "Autoimmune haemolytic anaemia, thrombocytopenia and hypertension",
+     "Microangiopathic haemolytic anaemia, fever and neurological signs",
+     "Iron-deficiency anaemia, thrombocytosis and haematuria",
+     "Microangiopathic haemolytic anaemia, thrombocytopenia and acute kidney injury"
+    ],
+    "answer": 3,
+    "explain": "HUS is MAHA plus thrombocytopenia plus AKI. Fever and neurological signs added to MAHA and thrombocytopenia make up the classic TTP pentad.",
+    "note": "DIC: consumptive coagulation. HUS triad: microangiopathic haemolytic anaemia, thrombocytopenia, acute kidney injury."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old who had bloody diarrhoea after a farm visit 6 days ago now looks pale and has had little urine for 24 hours. Blood tests show Hb 68 g/L with schistocytes, platelets 40 × 10⁹/L and creatinine 280 µmol/L. Which organism is most likely responsible?",
+    "options": [
+     "Enterotoxigenic Escherichia coli (ETEC)",
+     "Shiga toxin-producing E. coli O157:H7",
+     "Salmonella enteritidis",
+     "Rotavirus"
+    ],
+    "answer": 1,
+    "explain": "Typical HUS follows bloody diarrhoea from STEC (O157:H7), often from farm animals or undercooked beef. Shigella dysenteriae can also produce Shiga toxin, but the classic answer is STEC.",
+    "note": "Typical HUS follows bloody diarrhoea from Shiga toxin-producing E. coli (O157:H7)."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "What is the main mechanism of renal injury in typical HUS?",
+    "options": [
+     "Immune complexes deposit in the glomerular basement membrane and activate complement",
+     "Bacteria directly invade renal tubules causing pyelonephritis",
+     "Shiga toxin binds Gb3 receptors on glomerular endothelium, causing microthrombi and RBC fragmentation",
+     "Hypovolaemia from diarrhoea causes acute tubular necrosis only"
+    ],
+    "answer": 2,
+    "explain": "Shiga toxin binds Gb3 on glomerular endothelial cells, damaging them and producing platelet-fibrin microthrombi that fragment red cells and obstruct glomeruli. Immune-complex disease describes post-infectious GN.",
+    "note": "Shiga toxin binds Gb3 receptors on glomerular endothelium → microthrombi → RBC fragmentation, AKI."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "In the child with typical STEC-HUS described above, which management is most appropriate?",
+    "options": [
+     "Supportive care: fluids, electrolytes, transfusion and dialysis if needed",
+     "Intravenous ciprofloxacin to eradicate the organism and stop further toxin production",
+     "Loperamide to reduce ongoing diarrhoeal losses",
+     "Eculizumab infusion as first-line therapy"
+    ],
+    "answer": 0,
+    "explain": "Typical HUS is managed supportively, with dialysis for AKI. Antibiotics and antimotility drugs are avoided because they may increase toxin release/absorption and HUS risk. Eculizumab is for atypical (complement-mediated) HUS.",
+    "note": "Typical HUS: supportive care, dialysis; avoid antibiotics and antimotility drugs."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A child in septic shock is oozing from cannula sites and has purpura. Which set of results confirms disseminated intravascular coagulation?",
+    "options": [
+     "Low platelets, prolonged PT and APTT, low fibrinogen and high D-dimer",
+     "Low platelets, normal PT and APTT, normal fibrinogen and raised LDH",
+     "Normal platelets, prolonged APTT only, normal fibrinogen and normal D-dimer",
+     "High platelets, short PT and APTT, high fibrinogen and normal D-dimer"
+    ],
+    "answer": 0,
+    "explain": "DIC consumes platelets and clotting factors (prolonged PT/APTT, low fibrinogen) with fibrinolysis (high D-dimer). Normal clotting with low platelets and high LDH suggests HUS/TTP; isolated prolonged APTT suggests haemophilia or vWD.",
+    "note": "DIC labs: low platelets, prolonged PT and APTT, low fibrinogen, high D-dimer."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "Two children have schistocytes, thrombocytopenia and AKI. Child A has a prolonged PT and APTT; Child B has normal clotting times. What is the most useful interpretation?",
+    "options": [
+     "Child A favours HUS; Child B favours DIC",
+     "Both favour DIC, as clotting times vary with disease stage",
+     "Child A favours DIC; Child B favours HUS or TTP",
+     "Child A favours TTP; Child B favours DIC"
+    ],
+    "answer": 2,
+    "explain": "Clotting times are normal in HUS and TTP (platelet-driven microthrombi) but prolonged in DIC (factor consumption). TTP additionally has markedly raised LDH and low ADAMTS13.",
+    "note": "Clotting times are normal in HUS but prolonged in DIC; TTP has raised LDH."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 4-year-old develops MAHA, thrombocytopenia and AKI without any preceding diarrhoea; her uncle had a similar illness. Stool STEC testing is negative and C3 is low. What is the most likely mechanism and treatment?",
+    "options": [
+     "ADAMTS13 deficiency; plasma exchange",
+     "Dysregulated alternative complement pathway; eculizumab",
+     "Shiga toxin-mediated endothelial injury; supportive care",
+     "Factor consumption from sepsis; FFP and cryoprecipitate"
+    ],
+    "answer": 1,
+    "explain": "Atypical HUS is due to alternative complement pathway dysregulation (often familial, low C3) and responds to the C5 inhibitor eculizumab. ADAMTS13 deficiency is TTP, treated with plasma exchange.",
+    "note": "Atypical HUS: alternative complement pathway dysregulation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A child with meningococcal sepsis has DIC with platelets 30 × 10⁹/L and fibrinogen 0.8 g/L but no bleeding. What is the most important management principle?",
+    "options": [
+     "Transfuse platelets, FFP and cryoprecipitate to normalise the numbers",
+     "Start a heparin infusion to stop microthrombus formation",
+     "Give tranexamic acid to inhibit fibrinolysis",
+     "Treat the underlying sepsis; give blood products only if bleeding or before procedures"
+    ],
+    "answer": 3,
+    "explain": "DIC is treated by treating the cause; platelets, FFP and cryoprecipitate are given only for bleeding (or high-risk procedures). Routine heparin or antifibrinolytics are not recommended.",
+    "note": "DIC: treat the cause; platelets, FFP, cryo only if bleeding."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you distinguish DIC, HUS and TTP in the lab?",
+    "back": "DIC: low platelets, prolonged PT/APTT, low fibrinogen, high D-dimer • HUS: MAHA, low platelets, AKI, normal clotting • TTP: normal clotting, very raised LDH, low ADAMTS13."
+   },
+   {
+    "type": "card",
+    "front": "Classify HUS and give the treatment of each.",
+    "back": "Typical: STEC O157:H7 after bloody diarrhoea → supportive, dialysis, no antibiotics/antimotility • atypical: alternative complement dysregulation → eculizumab • (TTP: ADAMTS13 → plasma exchange, steroids, rituximab)."
+   },
+   {
+    "type": "card",
+    "front": "Causes and management of DIC.",
+    "back": "Sepsis, shock, trauma, malignancy • tissue factor → microthrombi + consumption + fibrinolysis • treat the cause; platelets, FFP, cryo only if bleeding."
+   }
+  ]
+ },
+ "II-50": {
+  "summary": "Porphyrias are haem-synthesis blocks: early precursors (ALA, PBG) are neurotoxic and give acute attacks (AIP: abdominal pain, neuropathy, psychiatric change, dark urine, no photosensitivity), while late porphyrins give photosensitivity (PCT, EPP). Screen an attack with urinary PBG and treat with haem arginate and glucose; avoid P450 inducers.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which enzyme is deficient in acute intermittent porphyria, and how is it inherited?",
+    "options": [
+     "Uroporphyrinogen decarboxylase; autosomal dominant",
+     "Ferrochelatase; autosomal recessive",
+     "Porphobilinogen deaminase (HMBS); autosomal dominant",
+     "ALA dehydratase; autosomal recessive"
+    ],
+    "answer": 2,
+    "explain": "AIP is an autosomal dominant deficiency of PBG deaminase (HMBS). UROD deficiency causes PCT; ferrochelatase deficiency causes EPP.",
+    "note": "Acute intermittent porphyria (AIP): autosomal dominant, deficiency of porphobilinogen deaminase (HMBS)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 16-year-old girl has severe colicky abdominal pain with a soft abdomen, vomiting, tachycardia, anxiety and hallucinations, and proximal limb weakness 3 days after starting carbamazepine. Her urine darkens on standing. Her skin is normal. What is the most likely diagnosis?",
+    "options": [
+     "Acute intermittent porphyria",
+     "Porphyria cutanea tarda",
+     "Erythropoietic protoporphyria",
+     "Lead poisoning"
+    ],
+    "answer": 0,
+    "explain": "Wine-coloured urine, an inducer, psychological disturbance, abdominal pain and neuropathy without photosensitivity is AIP (Wine In PAIN). PCT and EPP are cutaneous porphyrias; lead poisoning causes anaemia with basophilic stippling.",
+    "note": "AIP mnemonic Wine In PAIN: wine-coloured urine, inducers, psychological disturbance, abdominal pain, neuropathy; no photosensitivity."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "In the girl above, which is the best initial screening test during the attack?",
+    "options": [
+     "Faecal protoporphyrin",
+     "Plasma ferritin",
+     "Erythrocyte free protoporphyrin",
+     "Urinary porphobilinogen"
+    ],
+    "answer": 3,
+    "explain": "During an acute attack urinary PBG (and ALA) is markedly raised; this is the key screening test. Erythrocyte protoporphyrin is raised in EPP, faecal porphyrins help with variegate/hereditary coproporphyria.",
+    "note": "Screening test in an acute attack: urinary porphobilinogen; also raised ALA."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "During the acute porphyric attack, her sodium falls to 121 mmol/L with concentrated urine and euvolaemia. What is the most likely cause?",
+    "options": [
+     "Primary adrenal insufficiency with mineralocorticoid deficiency",
+     "Syndrome of inappropriate antidiuretic hormone secretion",
+     "Cerebral salt wasting",
+     "Gastrointestinal losses from vomiting"
+    ],
+    "answer": 1,
+    "explain": "Hyponatraemia in an acute porphyric attack is due to SIADH (hypothalamic involvement): euvolaemic with concentrated urine. Vomiting losses cause hypovolaemia; cerebral salt wasting is hypovolaemic.",
+    "note": "Hyponatraemia in an attack is due to SIADH."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the specific treatment of a severe acute attack of AIP?",
+    "options": [
+     "Intravenous phenobarbital and fluids",
+     "Intravenous haem arginate (haemin) and glucose",
+     "Oral hydroxychloroquine and phlebotomy",
+     "Beta-carotene and sun avoidance"
+    ],
+    "answer": 1,
+    "explain": "Haem and glucose suppress ALA synthase, reducing production of neurotoxic precursors. Barbiturates are contraindicated as they induce ALA synthase; hydroxychloroquine/phlebotomy treat PCT; beta-carotene is for EPP.",
+    "note": "Acute attack: IV haem arginate (haemin) and glucose, which inhibit ALA synthesis."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "Why do patients with AIP have neurovisceral attacks but no photosensitivity, unlike PCT?",
+    "options": [
+     "The block is late, so photoactive porphyrins accumulate only in the liver",
+     "ALA and PBG are photoactive but are excreted too fast to reach the skin",
+     "Haem excess in AIP protects the skin from ultraviolet damage",
+     "The block is early, so neurotoxic ALA and PBG accumulate, not photoactive porphyrins"
+    ],
+    "answer": 3,
+    "explain": "Precursors before the block accumulate: in AIP these are ALA and PBG (neurotoxic, not photosensitising). In PCT and EPP the block is later, so porphyrins accumulate and react with light.",
+    "note": "Early haem precursors (ALA, PBG) are neurotoxic → acute attacks."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 5-year-old cries and scratches within minutes of sun exposure, with burning pain, redness and swelling of the hands but no blisters. Which porphyria is most likely, and which enzyme is deficient?",
+    "options": [
+     "Erythropoietic protoporphyria; ferrochelatase",
+     "Porphyria cutanea tarda; uroporphyrinogen decarboxylase",
+     "Acute intermittent porphyria; porphobilinogen deaminase",
+     "Congenital erythropoietic porphyria; ALA synthase"
+    ],
+    "answer": 0,
+    "explain": "EPP is the commonest porphyria in children: immediate painful non-blistering photosensitivity due to ferrochelatase deficiency. PCT (UROD) is the commonest overall but gives delayed blistering in adults; AIP has no photosensitivity.",
+    "note": "Commonest in children: erythropoietic protoporphyria, ferrochelatase deficiency. Triggers: P-450 inducers, barbiturates contraindicated."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 17-year-old with fragile skin, blisters on the backs of the hands and hyperpigmentation is diagnosed with porphyria cutanea tarda. Which treatment is appropriate?",
+    "options": [
+     "Intravenous haem arginate and glucose",
+     "High-dose hydroxychloroquine daily",
+     "Low-dose hydroxychloroquine or regular phlebotomy",
+     "Oral iron supplementation with vitamin C to aid absorption"
+    ],
+    "answer": 2,
+    "explain": "PCT (UROD deficiency) responds to phlebotomy (iron depletion) or low-dose hydroxychloroquine; high doses can cause hepatotoxicity. Iron worsens PCT; haem is for acute porphyrias.",
+    "note": "PCT: low-dose hydroxychloroquine or phlebotomy."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare acute and cutaneous porphyrias.",
+    "back": "Acute (AIP, PBG deaminase, AD): early precursors ALA/PBG → neurovisceral attacks, no photosensitivity • cutaneous: PCT (UROD, commonest overall), EPP (ferrochelatase, commonest in children) → porphyrins → photosensitivity."
+   },
+   {
+    "type": "card",
+    "front": "What are the features of an acute AIP attack (Wine In PAIN)?",
+    "back": "Wine-coloured urine • Inducers (P450 inducers, barbiturates) • Psychological disturbance • Abdominal pain • Neuropathy • plus hyponatraemia (SIADH) • screen: urinary PBG."
+   },
+   {
+    "type": "card",
+    "front": "Management of porphyrias.",
+    "back": "Acute attack: IV haem arginate + glucose (inhibit ALA synthase), avoid P450 inducers/barbiturates • PCT: low-dose hydroxychloroquine or phlebotomy • EPP: sun protection."
+   }
+  ]
+ }
+}

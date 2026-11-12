@@ -1,0 +1,2132 @@
+{
+ "I-46": {
+  "summary": "Amniotic fluid after 20 weeks is fetal urine in, fetal swallowing out: too much means the baby cannot swallow (atresia) or pees too much (maternal diabetes, TTTS recipient); too little means no urine, blocked urine or leak - and early oligohydramnios kills through pulmonary hypoplasia.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "An ultrasound at 30 weeks reports an amniotic fluid index (AFI) of 3 cm. How is this amniotic fluid volume classified?",
+    "options": [
+     "Oligohydramnios",
+     "Normal for gestation",
+     "Borderline polyhydramnios",
+     "Polyhydramnios"
+    ],
+    "answer": 0,
+    "explain": "AFI under 5 cm defines oligohydramnios; polyhydramnios is AFI >24-25 cm. 3 cm is clearly below the oligo threshold, not a normal variant.",
+    "note": "Abnormal amniotic fluid: poly AFI >24-25 cm; oligo AFI under 5 cm."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which process is the main source of amniotic fluid after 20 weeks of gestation, explaining why fetal renal agenesis causes anhydramnios?",
+    "options": [
+     "Fetal lung fluid secretion",
+     "Fetal urine production",
+     "Transudation across fetal skin",
+     "Maternal plasma filtration via membranes"
+    ],
+    "answer": 1,
+    "explain": "After 20 weeks amniotic fluid is mainly fetal urine and is removed by fetal swallowing. Skin transudation matters only before keratinisation (~20 weeks); lung fluid is a minor contributor.",
+    "note": "After 20 weeks fluid comes mainly from fetal urine, removed by fetal swallowing."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 32-week ultrasound shows an AFI of 32 cm and a 'double bubble' sign with no gas beyond the duodenum. What is the mechanism of the excess fluid?",
+    "options": [
+     "Fetal osmotic diuresis from hyperglycaemia",
+     "Excess transudation from an open neural tube defect",
+     "Increased fetal urine from high-output cardiac failure",
+     "Impaired fetal swallowing and absorption of fluid"
+    ],
+    "answer": 3,
+    "explain": "Double bubble = duodenal atresia; the fetus cannot pass swallowed fluid on for intestinal absorption, so polyhydramnios develops. Osmotic diuresis is the mechanism in maternal diabetes, not atresia.",
+    "note": "Poly: oesophageal and duodenal atresia, maternal diabetes (fetal osmotic diuresis), TTTS recipient."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 34-year-old woman with chronic hypertension continued her usual antihypertensive throughout pregnancy. At 28 weeks severe oligohydramnios is found with structurally normal fetal kidneys. Which drug class is most likely responsible?",
+    "options": [
+     "Calcium-channel blockers such as nifedipine",
+     "Centrally acting agents such as methyldopa",
+     "ACE inhibitors such as ramipril",
+     "Beta-blockers such as labetalol"
+    ],
+    "answer": 2,
+    "explain": "ACE inhibitors/ARBs reduce fetal renal perfusion and urine output in the 2nd-3rd trimester, causing oligohydramnios. Nifedipine, methyldopa and labetalol are the standard safe pregnancy antihypertensives.",
+    "note": "ACE inhibitors / ARBs in utero may cause oligohydramnios."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn has flattened nose, low-set ears, receding chin, bilateral clubfeet and severe respiratory failure despite ventilation. Prenatal scans showed anhydramnios from 18 weeks. What is the most likely underlying fetal problem?",
+    "options": [
+     "Duodenal atresia",
+     "Bilateral renal agenesis",
+     "Congenital diaphragmatic hernia",
+     "Twin-twin transfusion recipient"
+    ],
+    "answer": 1,
+    "explain": "This is Potter sequence: absent fetal urine → anhydramnios → compression facies, limb deformities and lethal pulmonary hypoplasia. Duodenal atresia and TTTS recipient cause polyhydramnios; CDH causes unilateral hypoplasia without Potter facies.",
+    "note": "Oligo: Potter sequence (pulmonary hypoplasia, twisted facies, extremity deformities, renal agenesis)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A male fetus at 22 weeks has oligohydramnios, bilateral hydronephrosis and a thick-walled, dilated bladder with a dilated proximal urethra. What is the most likely diagnosis?",
+    "options": [
+     "Autosomal recessive polycystic kidney disease",
+     "Bilateral renal agenesis",
+     "Posterior urethral valves",
+     "Pelviureteric junction obstruction"
+    ],
+    "answer": 2,
+    "explain": "The 'keyhole' bladder (dilated bladder + proximal urethra) in a male fetus is the hallmark of posterior urethral valves - the 'blocked' cause of oligohydramnios. ARPKD gives large echogenic kidneys; renal agenesis has no bladder; PUJ obstruction is usually unilateral with a normal bladder.",
+    "note": "Ultrasound AFI; double bubble (duodenal atresia), keyhole bladder (PUV)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A term baby born after pregnancy complicated by unexplained polyhydramnios is pink and vigorous. The mother wants to breastfeed immediately. What is the most appropriate next step before the first feed?",
+    "options": [
+     "Pass a nasogastric tube to check oesophageal patency",
+     "Obtain an abdominal X-ray to look for a double bubble",
+     "Give a small trial feed of sterile water",
+     "Perform an urgent echocardiogram"
+    ],
+    "answer": 0,
+    "explain": "Polyhydramnios raises suspicion of oesophageal atresia; an NG tube must be passed before the first feed to avoid aspiration (it coils in the pouch if atresia is present). A trial feed is exactly what risks aspiration; X-ray is done only if the tube does not pass.",
+    "note": "Polyhydramnios newborn: NG tube before first feed to exclude oesophageal atresia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A woman at 33 weeks with severe symptomatic polyhydramnios (AFI 40 cm) undergoes rapid large-volume amnioreduction. One hour later she develops abdominal pain, a tense uterus and vaginal bleeding. What complication is most likely?",
+    "options": [
+     "Cord prolapse",
+     "Uterine rupture",
+     "Amniotic fluid embolism",
+     "Placental abruption"
+    ],
+    "answer": 3,
+    "explain": "Rapid decompression of an overdistended uterus shears the placenta off - abruption (pain, tense uterus, bleeding). Cord prolapse is a polyhydramnios risk at membrane rupture but presents with fetal bradycardia, not a painful tense uterus.",
+    "note": "Poly: preterm labour, cord prolapse, placental abruption after rapid decompression."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of polyhydramnios and oligohydramnios, with mechanism.",
+    "back": "Poly (can't swallow/too much urine): oesophageal/duodenal atresia • maternal diabetes (osmotic diuresis) • TTTS recipient. Oligo: no urine (renal agenesis, ARPKD) • blocked (PUV) • leak (PPROM, commonest) • FGR • ACEi/ARB."
+   },
+   {
+    "type": "card",
+    "front": "What is Potter sequence and why is it lethal?",
+    "back": "Early oligo/anhydramnios (e.g. renal agenesis) → compression: twisted facies, limb deformities + pulmonary hypoplasia (no lung distension). Onset before ~24 weeks → most severe hypoplasia; the lungs are the killer."
+   },
+   {
+    "type": "card",
+    "front": "How do you manage polyhydramnios (mother and newborn)?",
+    "back": "Severe: amnioreduction or indomethacin; term, mild, asymptomatic: expectant. Watch preterm labour, cord prolapse, abruption after rapid decompression. Newborn: NG tube before first feed to exclude oesophageal atresia."
+   }
+  ]
+ },
+ "I-47": {
+  "summary": "Newborn arrest is respiratory: dry, warm, open the airway and aerate the lungs with 5 long inflation breaths - the heart rate is your monitor, and compressions (3:1) only start if HR stays under 60 after 30 s of effective ventilation.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "During newborn resuscitation, which single parameter is the best indicator that your interventions are succeeding?",
+    "options": [
+     "Improvement in skin colour",
+     "Onset of crying",
+     "Return of muscle tone",
+     "Rising heart rate"
+    ],
+    "answer": 3,
+    "explain": "A rising heart rate is the best indicator of effective lung aeration and resuscitation. Colour is unreliable (acrocyanosis, SpO₂ rises slowly), and tone/crying follow later.",
+    "note": "Best indicator of success: the heart rate."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "How should the initial inflation breaths be delivered to an apnoeic term newborn?",
+    "options": [
+     "5 breaths of 2-3 s each in 21% oxygen",
+     "2 breaths of 1 s each in 100% oxygen",
+     "5 breaths of 1 s each in 100% oxygen",
+     "15 breaths at 60/min in 30% oxygen"
+    ],
+    "answer": 0,
+    "explain": "Give 5 inflation breaths, each held 2-3 s to clear lung fluid and establish FRC; term babies start in air (21%). Short 1-s breaths and 100% oxygen are the paediatric/older-protocol traps.",
+    "note": "Dry, warm; 5 inflation breaths, each 2-3 seconds; term babies start in air (21%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A term baby is born floppy and not breathing. After drying and stimulation the heart rate is 80/min with only occasional gasps. What is the most appropriate next step?",
+    "options": [
+     "Start chest compressions at 3:1",
+     "Give IV adrenaline via the umbilical vein",
+     "Open the airway and give inflation breaths",
+     "Continue tactile stimulation and reassess in 1 minute"
+    ],
+    "answer": 2,
+    "explain": "HR under 100 or not breathing → act by ventilating; newborn arrest is respiratory. Compressions are only for HR under 60 after 30 s of effective ventilation, and prolonged stimulation wastes time.",
+    "note": "Assess tone, breathing, heart rate; HR under 100 or not breathing → act."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A newborn has received 30 seconds of effective ventilation with good chest rise, yet the heart rate remains 50/min. What is the next step?",
+    "options": [
+     "Increase inflation pressure and continue ventilation alone",
+     "Give adrenaline 20 µg/kg via the umbilical venous catheter",
+     "Begin chest compressions at a ratio of 3:1 with ventilation",
+     "Begin chest compressions at a ratio of 15:2 with ventilation"
+    ],
+    "answer": 2,
+    "explain": "HR under 60 after 30 s effective ventilation → start compressions at 3 compressions : 1 breath. 15:2 is the paediatric ratio; adrenaline comes only if HR stays under 60 despite compressions + ventilation.",
+    "note": "Compressions 3:1 if HR under 60/min after 30 s effective ventilation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A term baby receives PPV after a difficult delivery. Pre-ductal SpO₂ measured on the right hand at 5 minutes of life is 82%. How should this be interpreted?",
+    "options": [
+     "Below target, start chest compressions",
+     "Below target, increase oxygen to 100%",
+     "Above target, reduce inspired oxygen",
+     "Within target range, continue current management"
+    ],
+    "answer": 3,
+    "explain": "Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min. 82% at 5 minutes is on target; adjusting oxygen or compressing would be inappropriate. (These are the US/NRP targets in your notes; European ERC 2021 uses ~65% at 2 min, 85% at 5 min, 90% at 10 min. 82% at 5 min is acceptable under both.)",
+    "note": "Targets: 70-75% at 3 min, 80-85% at 5 min, 85-95% at 10 min."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A ventilated newborn suddenly desaturates and becomes bradycardic during PPV. Breath sounds are reduced on the left, and cold-light transillumination shows the left hemithorax glowing much brighter than the right. What is the most likely cause?",
+    "options": [
+     "Left tension pneumothorax",
+     "Right main bronchus intubation",
+     "Blocked endotracheal tube",
+     "Left-sided diaphragmatic hernia"
+    ],
+    "answer": 0,
+    "explain": "Brighter transillumination on one side = free air in that pleural space; PPV is a classic cause of pneumothorax. Right main bronchus intubation would reduce left breath sounds but not make the left side transilluminate.",
+    "note": "PPV with brighter left chest transillumination → left pneumothorax."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 39-week baby needed 10 minutes of resuscitation; cord pH 6.85, and at 2 hours of age he is lethargic with hypotonia and weak suck. What is the most appropriate treatment?",
+    "options": [
+     "Therapeutic hypothermia at 33-34 °C for 72 hours, started within 6 hours",
+     "Therapeutic hypothermia at 35-36 °C for 24 hours, started within 12 hours",
+     "Prophylactic phenobarbital and keep normothermic",
+     "Sodium bicarbonate infusion to correct the acidosis"
+    ],
+    "answer": 0,
+    "explain": "Moderate HIE after perinatal asphyxia → whole-body cooling to 33-34 °C for 72 h, started within 6 h. Bicarbonate and prophylactic anticonvulsants do not improve outcome.",
+    "note": "Adrenaline 20 µg/kg via UVC; HIE: 33-34 °C for 72 h, within 6 h."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Why does successful lung aeration at birth increase pulmonary blood flow?",
+    "options": [
+     "Rising PaCO₂ dilates the ductus arteriosus",
+     "Clearing lung fluid and creating FRC lowers pulmonary vascular resistance",
+     "Cord clamping raises right atrial pressure above left atrial pressure",
+     "Lung expansion releases prostaglandins that close the foramen ovale"
+    ],
+    "answer": 1,
+    "explain": "First breaths clear lung fluid and create FRC; oxygen and lung expansion drop pulmonary vascular resistance so blood flows through the lungs. Cord clamping raises systemic (left-sided) pressure, closing the foramen ovale; prostaglandins keep the duct open, not closed.",
+    "note": "First breaths clear lung fluid, create FRC → pulmonary vascular resistance falls."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Walk through the newborn life support algorithm.",
+    "back": "Dry, warm, assess tone/breathing/HR • open airway • 5 inflation breaths 2-3 s (air for term) • reassess HR • ventilate 30 s • HR <60 → compressions 3:1 • adrenaline 20 µg/kg via UVC • consider volume/glucose."
+   },
+   {
+    "type": "card",
+    "front": "What are the target pre-ductal SpO₂ values after birth?",
+    "back": "3 min 70-75% • 5 min 80-85% • 10 min 85-95%. Measure on the right hand (pre-ductal); stethoscope first, then ECG/SpO₂ for heart rate. • ERC 2021 (Europe): 2 min 65%, 5 min 85%, 10 min 90%."
+   },
+   {
+    "type": "card",
+    "front": "What does the Apgar score assess, and when?",
+    "back": "At 1 and 5 minutes: Appearance (colour), Pulse, Grimace (reflex irritability), Activity (tone), Respiration - each 0-2. Do not wait for it to start resuscitation."
+   }
+  ]
+ },
+ "I-48": {
+  "summary": "Children rarely arrest from the heart: arrest is the end of progressive hypoxia or shock, so recognise respiratory failure and shock early with ABCDE - and once arrested, the rhythm is usually non-shockable (asystole/PEA) and needs CPR 15:2 plus adrenaline 10 µg/kg every 3-5 min.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which cardiac rhythms are most common at the time of paediatric cardiac arrest?",
+    "options": [
+     "Ventricular fibrillation and pulseless VT",
+     "Supraventricular tachycardia and atrial flutter",
+     "Asystole and pulseless electrical activity",
+     "Complete heart block and torsades de pointes"
+    ],
+    "answer": 2,
+    "explain": "Paediatric arrest is usually hypoxic → bradycardia → asystole, so non-shockable rhythms (asystole, PEA) predominate. VF/pVT is the typical adult (cardiac) pattern.",
+    "note": "Non-shockable rhythms (asystole, PEA) are commonest."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 1,
+    "stem": "A lay rescuer trained in paediatric BLS finds an unresponsive 4-year-old who is not breathing normally. After opening the airway, what sequence should follow?",
+    "options": [
+     "30 compressions then 2 breaths",
+     "5 rescue breaths, then 15 compressions : 2 breaths",
+     "2 rescue breaths, then 30 compressions : 2 breaths",
+     "5 rescue breaths, then 3 compressions : 1 breath"
+    ],
+    "answer": 1,
+    "explain": "Paediatric BLS: 5 rescue breaths, then 15:2 - because arrest is hypoxic. 30:2 without initial breaths is adult BLS; 3:1 is newborn resuscitation.",
+    "note": "BLS: 5 rescue breaths, then 15:2; asystole/PEA: CPR + adrenaline 10 µg/kg IV/IO every 3-5 min."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 20-kg child in cardiac arrest has a monitor showing asystole; an IO line is in place and CPR is ongoing. What is the correct drug and dose?",
+    "options": [
+     "Adrenaline 20 µg IO, repeated every 3-5 min",
+     "Adrenaline 200 µg IO, repeated every 3-5 min",
+     "Atropine 400 µg IO, single dose",
+     "Amiodarone 100 mg IO after the third cycle"
+    ],
+    "answer": 1,
+    "explain": "Asystole/PEA: CPR + adrenaline 10 µg/kg IV/IO every 3-5 min = 200 µg for 20 kg. 20 µg is a tenfold underdose; amiodarone is only for shockable rhythms; atropine is not used in arrest.",
+    "note": "BLS: 5 rescue breaths, then 15:2; asystole/PEA: CPR + adrenaline 10 µg/kg IV/IO every 3-5 min."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10-year-old (30 kg) collapses on the football pitch; the monitor shows ventricular fibrillation. After the third shock he remains in VF. Which intervention is now indicated alongside adrenaline?",
+    "options": [
+     "Synchronised cardioversion at 1 J/kg",
+     "Lidocaine infusion 50 µg/kg/min",
+     "Amiodarone 5 mg/kg IV/IO",
+     "Atropine 20 µg/kg IV/IO"
+    ],
+    "answer": 2,
+    "explain": "VF/pVT: unsynchronised shocks at 4 J/kg; amiodarone (5 mg/kg) after the 3rd and 5th shocks. Synchronised cardioversion is for tachyarrhythmias with a pulse, not VF.",
+    "note": "VF / pulseless VT: unsynchronized shock 4 J/kg; amiodarone after 3rd and 5th shock."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-month-old with bronchiolitis has a respiratory rate of 70/min. On inspiration the chest wall sinks inward while the abdomen rises. What does this sign indicate?",
+    "options": [
+     "Paradoxical breathing from severe distress and fatigue",
+     "Normal infant diaphragmatic breathing",
+     "Unilateral diaphragmatic paralysis",
+     "Upper airway obstruction that excludes lower airway disease"
+    ],
+    "answer": 0,
+    "explain": "Paradoxical (see-saw) breathing - chest in, abdomen out on inspiration - signals severe distress with a compliant chest wall and impending fatigue. Normal infant abdominal breathing moves chest and abdomen together.",
+    "note": "Paradoxical breathing: chest moves inward, abdomen outward during inhalation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 12-year-old is rescued from a house fire. He is confused with a headache; pulse oximetry reads 99% on room air. What is the most appropriate next step to assess oxygenation?",
+    "options": [
+     "Reassure, as oxygenation is adequate",
+     "Chest X-ray to look for inhalation injury",
+     "Repeat pulse oximetry on a warm, well-perfused finger",
+     "Blood gas with co-oximetry (carboxyhaemoglobin)"
+    ],
+    "answer": 3,
+    "explain": "Standard pulse oximetry reads COHb as oxyhaemoglobin and is not informative in CO poisoning; co-oximetry on a blood gas is required (and give 100% O₂). Re-siting the probe will give the same falsely normal value.",
+    "note": "Pulse oximetry not informative in carbon monoxide intoxication, methaemoglobinaemia, severe anaemia, cardiac failure, cold extremities."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old with pneumonia is alert and breathing spontaneously, but SpO₂ is 86% with marked recession. What is the most appropriate initial oxygen delivery?",
+    "options": [
+     "Nasal cannula at 1 l/min",
+     "Face mask with reservoir bag at 10-15 l/min",
+     "Bag-valve-mask ventilation at 20 breaths/min",
+     "Immediate intubation"
+    ],
+    "answer": 1,
+    "explain": "A conscious, breathing hypoxic child gets high-flow oxygen via a non-rebreather (reservoir) mask at 10-15 l/min. BVM and intubation are for inadequate breathing; 1 l/min nasal cannula is insufficient.",
+    "note": "Conscious, breathing: face mask with reservoir, high flow 10-15 l/min."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 7-year-old in status asthmaticus on 15 l/min oxygen has SpO₂ 95%, but is now drowsy with a quiet chest. What is the best next investigation to assess her respiratory status?",
+    "options": [
+     "Peak expiratory flow measurement at the bedside",
+     "Continuous pulse oximetry alone",
+     "Repeat chest X-ray",
+     "Blood gas or capnography to assess CO₂"
+    ],
+    "answer": 3,
+    "explain": "SpO₂ reflects oxygenation, not ventilation; a drowsy child with a silent chest may be retaining CO₂ despite good saturations on oxygen - check a blood gas or capnography. PEF is not feasible/reliable in a drowsy child.",
+    "note": "SpO₂ ignores ventilation → capnography or blood gas."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the pathway to cardiac arrest in children and why it matters.",
+    "back": "Respiratory failure or shock → tiring → hypoxia → bradycardia → asystole. So arrests are mostly non-shockable (asystole/PEA); early recognition by ABCDE is key - survival depends on time to effective resuscitation."
+   },
+   {
+    "type": "card",
+    "front": "Outline paediatric ALS for non-shockable vs shockable rhythms.",
+    "back": "Asystole/PEA: CPR 15:2 + adrenaline 10 µg/kg IV/IO every 3-5 min. VF/pVT: unsynchronised shock 4 J/kg, CPR 2 min; adrenaline + amiodarone (5 mg/kg) after 3rd and 5th shocks."
+   },
+   {
+    "type": "card",
+    "front": "When is pulse oximetry unreliable?",
+    "back": "CO intoxication • methaemoglobinaemia • severe anaemia • cardiac failure • cold extremities. And it ignores ventilation → capnography or blood gas for CO₂."
+   }
+  ]
+ },
+ "I-49": {
+  "summary": "Fever is a regulated rise in the hypothalamic set point (cytokines → PGE₂), not a disease: treat the distressed child rather than the number, and use the NICE traffic light to find the few febrile children - especially under 3 months - who are septic.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the immediate mediator in the hypothalamus that raises the thermoregulatory set point during fever?",
+    "options": [
+     "Histamine",
+     "Bradykinin",
+     "Prostaglandin E₂",
+     "Leukotriene B₄"
+    ],
+    "answer": 2,
+    "explain": "IL-1, IL-6 and TNF-α induce COX-dependent PGE₂ in the hypothalamus, raising the set point; antipyretics work by blocking COX. Histamine and bradykinin mediate local inflammation, not set-point change.",
+    "note": "Cytokines induce PGE₂ in the hypothalamus, raising the set point → shivering, vasoconstriction."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-week-old girl has a temperature of 38.2 °C measured at home. She is feeding well and looks pink and alert. According to NICE, how should she be categorised?",
+    "options": [
+     "Red - high risk, full septic work-up",
+     "Amber - intermediate risk, consider tests",
+     "Green - low risk, safety-net advice",
+     "Not febrile in this age group"
+    ],
+    "answer": 0,
+    "explain": "Any child under 3 months with temperature ≥38 °C is a NICE red feature regardless of how well they look. Amber applies to 3-6 months with ≥39 °C.",
+    "note": "NICE red: child under 3 months with temperature ≥ 38 °C, mottled, grunting, neck stiffness."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old has had a temperature of 39.3 °C for 2 days. He is alert, CRT is 2 s, and there is no rash or respiratory distress. Which NICE traffic-light category applies?",
+    "options": [
+     "Green",
+     "Red",
+     "Amber",
+     "Red only if fever lasts ≥5 days"
+    ],
+    "answer": 2,
+    "explain": "Age 3-6 months with temperature ≥39 °C is an amber feature. Red would require age under 3 months with ≥38 °C or features like mottling, grunting, neck stiffness.",
+    "note": "Amber: 3-6 months with ≥ 39 °C, fever ≥ 5 days, CRT ≥ 3 s."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-year-old (12 kg) with otitis media has a temperature of 38.9 °C and is miserable and not drinking. Which antipyretic regimen is appropriate?",
+    "options": [
+     "Aspirin 120 mg every 6 hours",
+     "Paracetamol 60 mg every 4-6 hours",
+     "Ibuprofen 360 mg three times daily",
+     "Paracetamol 180 mg every 4-6 hours"
+    ],
+    "answer": 3,
+    "explain": "Treat only if distressed: paracetamol 15 mg/kg = 180 mg every 4-6 h (or ibuprofen 10 mg/kg = 120 mg three times daily). 360 mg ibuprofen is a threefold overdose; aspirin is avoided under 16 (Reye).",
+    "note": "Only if distressed: paracetamol 15 mg/kg every 4-6 h, ibuprofen 10 mg/kg three times daily."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "The mother of an 18-month-old who had a simple febrile seizure last month asks whether giving regular paracetamol at the first sign of fever will prevent another seizure. What is the correct advice?",
+    "options": [
+     "No - antipyretics do not prevent febrile seizures",
+     "Yes - regular antipyretics given early prevent recurrence",
+     "Alternate paracetamol and ibuprofen to prevent recurrence",
+     "Use aspirin instead, which better prevents seizures"
+    ],
+    "answer": 0,
+    "explain": "Antipyretics do not prevent febrile seizures; give them only for comfort. Alternating regimens add no seizure protection and raise dosing errors; aspirin is contraindicated under 16.",
+    "note": "Antipyretics do not prevent febrile seizures; aspirin avoided under 16 (Reye syndrome)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 36-hour-old baby born after prolonged rupture of membranes becomes lethargic and tachypnoeic with temperature instability. Which management is most appropriate?",
+    "options": [
+     "Wait for a 24-hour CRP result before deciding whether to start antibiotics",
+     "Blood culture, CRP ± LP, then IV ampicillin + gentamicin within 1 h",
+     "Oral amoxicillin and review in 24 hours",
+     "IV ceftriaxone alone after urine culture"
+    ],
+    "answer": 1,
+    "explain": "Early-onset (<72 h) neonatal sepsis: blood culture, serial CRP, lumbar puncture, and antibiotics within 1 hour - ampicillin + gentamicin (covers GBS, E. coli, Listeria). Ceftriaxone misses Listeria and displaces bilirubin in neonates; waiting is dangerous.",
+    "note": "Neonatal sepsis: blood culture, serial CRP, lumbar puncture; antibiotics within 1 hour."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "You need to assess post-operative pain in a 2-year-old after a hernia repair. Which tool is most appropriate?",
+    "options": [
+     "Numeric rating scale 0-10",
+     "FLACC behavioural scale",
+     "Wong-Baker FACES scale",
+     "Visual analogue scale"
+    ],
+    "answer": 1,
+    "explain": "FLACC (Face, Legs, Activity, Cry, Consolability) is used in preverbal children. Wong-Baker needs age 4+, numeric scale age 8+; VAS needs abstract reasoning.",
+    "note": "Pain scales: FLACC (preverbal), Wong-Baker (4+), numeric (8+)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 8-year-old needs analgesia after tonsillectomy for obstructive sleep apnoea. The surgical junior suggests codeine. Why is codeine contraindicated?",
+    "options": [
+     "It causes Reye syndrome in children with viral illness",
+     "It is hepatotoxic at standard doses through NAPQI formation",
+     "It irreversibly inhibits platelet COX, increasing post-tonsillectomy bleeding",
+     "CYP2D6 ultra-rapid metabolism can produce fatal morphine levels"
+    ],
+    "answer": 3,
+    "explain": "Codeine is a prodrug converted to morphine by CYP2D6; ultra-rapid metabolisers can get respiratory depression and death, so it is contraindicated under 12 (and after adenotonsillectomy for OSA). Reye and platelet COX inhibition apply to aspirin; NAPQI to paracetamol.",
+    "note": "Neonatal sepsis: ampicillin + gentamicin; codeine contraindicated under 12 (CYP2D6)."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the NICE red and amber features in a febrile child under 5?",
+    "back": "Red: under 3 months with ≥38 °C • mottled/pale • grunting • neck stiffness → septic work-up. Amber: 3-6 months with ≥39 °C • fever ≥5 days • CRT ≥3 s."
+   },
+   {
+    "type": "card",
+    "front": "How do you treat fever in children, and what do you avoid?",
+    "back": "Only if distressed: paracetamol 15 mg/kg every 4-6 h or ibuprofen 10 mg/kg three times daily. Antipyretics don't prevent febrile seizures. Avoid aspirin under 16 (Reye) and codeine under 12 (CYP2D6)."
+   },
+   {
+    "type": "card",
+    "front": "Outline the management of suspected neonatal sepsis.",
+    "back": "Early-onset = within 72 h. Blood culture, serial CRP, lumbar puncture; IV ampicillin + gentamicin within 1 hour."
+   }
+  ]
+ },
+ "I-50": {
+  "summary": "Children hold their blood pressure until 30-40% of volume is lost, so tachycardia and CRT >2 s are your early warning and hypotension means you are late - give 20 ml/kg boluses with reassessment for fluid overload after each, and remember the obstructive/duct-dependent neonate.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which finding is the earliest sign of shock in a child?",
+    "options": [
+     "Hypotension",
+     "Bradycardia",
+     "Decreased conscious level",
+     "Tachycardia"
+    ],
+    "answer": 3,
+    "explain": "Children compensate with tachycardia and vasoconstriction; hypotension appears late (after 30-40% volume loss) and bradycardia signals decompensation.",
+    "note": "Hypotension is a late sign of shock; tachycardia is early."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "What is the lower limit of acceptable systolic blood pressure for a 6-year-old child?",
+    "options": [
+     "70 mmHg",
+     "76 mmHg",
+     "82 mmHg",
+     "90 mmHg"
+    ],
+    "answer": 2,
+    "explain": "For ages 1-10, hypotension = systolic below 70 + (2 × age) mmHg = 70 + 12 = 82 mmHg. 90 mmHg is the adolescent/adult threshold.",
+    "note": "Hypotension in children 1-10 y: systolic below 70 + 2 × age mmHg."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old (16 kg) with meningococcal rash has HR 170, CRT 5 s and cold peripheries. Oxygen is applied and IO access obtained. What is the most appropriate fluid prescription?",
+    "options": [
+     "160 ml crystalloid bolus, then reassess",
+     "320 ml crystalloid bolus, then reassess",
+     "800 ml crystalloid over 1 hour",
+     "Maintenance fluids only to avoid cerebral oedema"
+    ],
+    "answer": 1,
+    "explain": "Septic shock: fluid bolus 20 ml/kg = 320 ml, then reassess (HR, CRT, BP, liver edge, crackles), plus antibiotics within 1 hour. 10 ml/kg boluses are reserved for cardiogenic/DKA/trauma contexts.",
+    "note": "Septic shock: O2, IV/IO, fluid bolus 20 ml/kg body weight; antibiotics within 1 hour."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 10-day-old boy presents with poor feeding, grey colour, tachypnoea and hepatomegaly. Femoral pulses are barely palpable while brachial pulses are present. Which immediate treatment is most important?",
+    "options": [
+     "IV broad-spectrum antibiotics alone",
+     "IV furosemide",
+     "Prostaglandin E infusion",
+     "Adenosine bolus"
+    ],
+    "answer": 2,
+    "explain": "A neonate aged 1-2 weeks with shock and weak femoral pulses has a duct-dependent systemic lesion (e.g. coarctation) as the duct closes; prostaglandin E reopens the duct. Antibiotics should be given too, but do not fix the obstruction.",
+    "note": "Neonate 1-2 weeks with weak femoral pulses: duct-dependent lesion."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old who is stung by a bee develops widespread urticaria, stridor and a weak, rapid pulse. What is the first drug to give?",
+    "options": [
+     "IM adrenaline 150 µg",
+     "IV chlorphenamine",
+     "IV hydrocortisone",
+     "IV adrenaline 10 µg/kg bolus"
+    ],
+    "answer": 0,
+    "explain": "Anaphylaxis: IM adrenaline first - 150 µg for under 6 years. Antihistamines and steroids are adjuncts; IV bolus adrenaline is for cardiac arrest/specialist use.",
+    "note": "Anaphylaxis: IM adrenaline first (150 µg under 6); duct-dependent: prostaglandin E."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 2-year-old with gastroenteritis-related shock has received three 20 ml/kg boluses. HR has fallen slightly but the liver edge is now 4 cm below the costal margin and there are basal crackles. What is the most appropriate next step?",
+    "options": [
+     "Stop boluses and start vasoactive support",
+     "Give a fourth 20 ml/kg bolus",
+     "Switch to 4.5% albumin boluses",
+     "Give IV furosemide and then repeat the 20 ml/kg bolus"
+    ],
+    "answer": 0,
+    "explain": "After each bolus reassess HR, CRT, BP, liver edge and crackles; new hepatomegaly and crackles signal fluid overload. Fluid-refractory shock needs adrenaline or noradrenaline, not more fluid (colloid is still fluid).",
+    "note": "Reassess HR, CRT, BP, liver edge, crackles after each bolus."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old girl using tampons presents with fever 40 °C, diffuse erythroderma, vomiting and hypotension. Along with fluids and an anti-staphylococcal beta-lactam, which antibiotic should be added and why?",
+    "options": [
+     "Metronidazole, to cover vaginal anaerobes",
+     "Gentamicin, for synergistic bactericidal killing",
+     "Vancomycin, because the organism is always MRSA",
+     "Clindamycin, to suppress bacterial toxin synthesis"
+    ],
+    "answer": 3,
+    "explain": "Toxic shock syndrome: clindamycin inhibits ribosomal protein synthesis and so suppresses toxin (TSST-1) production. Gentamicin synergy is for endocarditis; vancomycin is added only if MRSA suspected.",
+    "note": "Fluid-refractory: start adrenaline or noradrenaline; TSS: clindamycin suppresses toxin synthesis."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old in septic shock had HR 190 on arrival. After 40 minutes, despite fluids, his HR is 70/min and BP 55/30 mmHg, and he is barely responsive. How should this change be interpreted?",
+    "options": [
+     "Improvement - the tachycardia has resolved",
+     "Decompensated shock and impending arrest",
+     "Vagal response to IO insertion",
+     "Expected effect of antipyretics"
+    ],
+    "answer": 1,
+    "explain": "Bradycardia + hypotension in a shocked child = decompensation / pre-arrest; prepare for CPR. Falling HR here is ominous, not a sign of improvement.",
+    "note": "Bradycardia + hypotension = decompensation / pre-arrest."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Classify shock in children with examples.",
+    "back": "Hypovolaemic (gastroenteritis, haemorrhage) • distributive (sepsis, anaphylaxis) • cardiogenic (myocarditis, SVT) • obstructive (tamponade, duct-dependent lesion) • dissociative (CO, methaemoglobin, severe anaemia)."
+   },
+   {
+    "type": "card",
+    "front": "Outline initial septic shock management.",
+    "back": "O2, IV/IO, cultures, gas, lactate, glucose • 20 ml/kg bolus, reassess HR/CRT/BP/liver/crackles after each • antibiotics within 1 h • fluid-refractory → adrenaline/noradrenaline • TSS: add clindamycin."
+   },
+   {
+    "type": "card",
+    "front": "What are the early vs late signs of shock in children?",
+    "back": "Early: tachycardia, CRT >2 s, cool mottled peripheries, oliguria, lactic acidosis. Late: hypotension (SBP <70 + 2×age), bradycardia - decompensation/pre-arrest. Compensation lasts until 30-40% volume loss."
+   }
+  ]
+ },
+ "I-51": {
+  "summary": "Birth injuries map to anatomy: scalp swellings are sorted by layer (caput crosses sutures, cephalhaematoma stops at them, subgaleal can bleed a baby into shock), and plexus palsies by root (Erb C5-6 waiter's tip, Klumpke C8-T1 claw ± Horner).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which feature best distinguishes a cephalhaematoma from caput succedaneum?",
+    "options": [
+     "Cephalhaematoma is subperiosteal, so it stops at suture lines",
+     "Cephalhaematoma is present at birth while caput appears after 2 days",
+     "Cephalhaematoma pits on pressure and resolves within 48 hours",
+     "Cephalhaematoma crosses the midline over the sagittal suture"
+    ],
+    "answer": 0,
+    "explain": "Cephalhaematoma is subperiosteal so it stops at sutures; caput succedaneum is oedema of the scalp that crosses sutures, is present at birth, pits and resolves within days.",
+    "note": "Caput succedaneum crosses suture lines; cephalhaematoma is subperiosteal and does not."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-hour-old baby born by vacuum extraction develops a boggy, fluctuant swelling extending from the forehead to the nape and across both ears. He is pale with HR 185. What is the most likely diagnosis?",
+    "options": [
+     "Caput succedaneum",
+     "Cephalhaematoma",
+     "Subgaleal haemorrhage",
+     "Chignon from the vacuum cup"
+    ],
+    "answer": 2,
+    "explain": "Subgaleal haemorrhage (emissary vein injury, between aponeurosis and periosteum) is not limited by sutures, can hold a large blood volume and causes hypovolaemic shock, typically after vacuum. Cephalhaematoma is confined to one bone; caput/chignon do not cause shock.",
+    "note": "Subgaleal haemorrhage: hypovolaemic shock, typically after vacuum delivery."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4.6-kg baby delivered after shoulder dystocia holds the right arm adducted and internally rotated with the forearm pronated and wrist flexed. The grasp reflex is intact. Which roots are injured?",
+    "options": [
+     "C8-T1",
+     "C5-C6",
+     "C3-C5",
+     "C7 alone"
+    ],
+    "answer": 1,
+    "explain": "The 'waiter's tip' posture with preserved grasp is Erb palsy (C5-C6). Klumpke (C8-T1) affects hand intrinsics - claw hand, absent grasp ± Horner.",
+    "note": "Erb C5-C6 waiter's tip; Klumpke C8-T1 claw hand ± Horner; clavicle: crepitus, asymmetric Moro."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A newborn with a right Erb palsy develops persistent tachypnoea with reduced breath sounds at the right base and no infection markers. What is the most likely explanation?",
+    "options": [
+     "Associated right pneumothorax from rib fracture",
+     "Transient tachypnoea of the newborn",
+     "Ipsilateral phrenic nerve palsy",
+     "Aspiration pneumonia from poor feeding"
+    ],
+    "answer": 2,
+    "explain": "Erb palsy with tachypnoea suggests phrenic nerve palsy (C3-C5, adjacent roots) causing hemidiaphragm paralysis - confirm with US/fluoroscopy. TTN does not explain the unilateral findings tied to plexus injury.",
+    "note": "Erb palsy with tachypnoea suggests phrenic nerve palsy (C3-C5)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A day-old macrosomic baby has an asymmetric Moro reflex, with reduced movement of the left arm, and crepitus over the left clavicle. What is the most likely diagnosis?",
+    "options": [
+     "Left Klumpke palsy",
+     "Left Erb palsy with Horner syndrome",
+     "Left humeral shaft fracture",
+     "Fractured left clavicle"
+    ],
+    "answer": 3,
+    "explain": "Clavicle fracture - the commonest birth fracture - presents with crepitus and asymmetric Moro (pseudoparalysis). Palsies don't produce crepitus; check the brachial plexus and subclavian artery as associated injuries.",
+    "note": "Erb C5-C6 waiter's tip; Klumpke C8-T1 claw hand ± Horner; clavicle: crepitus, asymmetric Moro."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A mother with poorly controlled gestational diabetes delivers a 4.8-kg baby. During delivery the anterior shoulder becomes impacted. What is the most appropriate first manoeuvre?",
+    "options": [
+     "Fundal pressure",
+     "McRoberts manoeuvre plus suprapubic pressure",
+     "Strong lateral traction on the fetal head",
+     "Immediate Zavanelli manoeuvre"
+    ],
+    "answer": 1,
+    "explain": "Shoulder dystocia: McRoberts (hyperflex maternal hips) + suprapubic pressure first. Fundal pressure worsens impaction and lateral neck traction causes Erb palsy. Maternal hyperglycaemia → macrosomia is the key risk factor.",
+    "note": "Shoulder dystocia: McRoberts (flex hips) + suprapubic pressure."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-month-old with an Erb palsy since birth still has no active elbow flexion against gravity (no biceps recovery). What is the most appropriate management?",
+    "options": [
+     "Referral for brachial plexus surgery",
+     "Continue physiotherapy and review at 2 years",
+     "Reassure, as 80% recover by 12 months",
+     "Splint the arm across the abdomen for 3 more months"
+    ],
+    "answer": 0,
+    "explain": "Most plexus palsies (80%) resolve within 3 months; no biceps recovery by 3-6 months → surgery. Waiting until 2 years misses the window for nerve repair.",
+    "note": "No biceps recovery by 3-6 months → surgery; subgaleal: volume and blood replacement."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 4-day-old breastfed baby has jaundice with a total bilirubin higher than expected. On examination there is a firm swelling over the right parietal bone that does not cross the sutures. What is the most likely reason for the excess jaundice?",
+    "options": [
+     "Biliary atresia",
+     "Breast milk jaundice due to β-glucuronidase",
+     "Haemolysis from ABO incompatibility",
+     "Resorption of the cephalhaematoma blood"
+    ],
+    "answer": 3,
+    "explain": "Cephalhaematoma is limited to one cranial bone; breakdown of the extravascular blood increases the bilirubin load. Breast milk jaundice appears later (after the first week) and biliary atresia gives conjugated jaundice.",
+    "note": "Cephalhaematoma: swelling limited to one cranial bone; resorption can cause jaundice."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare caput succedaneum, cephalhaematoma and subgaleal haemorrhage.",
+    "back": "Caput: scalp oedema, crosses sutures, resolves in days. Cephalhaematoma: subperiosteal, limited to one bone, jaundice. Subgaleal: emissary veins, between aponeurosis and periosteum, crosses sutures, shock after vacuum."
+   },
+   {
+    "type": "card",
+    "front": "Compare Erb and Klumpke palsy.",
+    "back": "Erb C5-C6: lateral neck traction, waiter's tip, grasp intact; check phrenic (C3-5) if tachypnoeic. Klumpke C8-T1: claw hand, absent grasp ± Horner. 80% resolve in 3 months; no biceps by 3-6 months → surgery."
+   },
+   {
+    "type": "card",
+    "front": "What are the risk factors and commonest birth injury?",
+    "back": "Difficult delivery, shoulder dystocia, macrosomia (maternal hyperglycaemia), vacuum, forceps. Commonest fracture: clavicle - crepitus, asymmetric Moro; heals rapidly; check subclavian artery and plexus."
+   }
+  ]
+ },
+ "I-52": {
+  "summary": "Poisoning is accidental in toddlers and deliberate in teenagers: stabilise ABCDE and glucose, calculate mg/kg assuming the worst, and know which ingestions bypass charcoal (iron, lithium, alcohols) and which have antidotes (NAC, desferrioxamine, bicarbonate, naloxone).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does paracetamol overdose cause hepatocellular necrosis?",
+    "options": [
+     "Direct mitochondrial toxicity of the parent drug",
+     "Inhibition of hepatic COX with ischaemia",
+     "Accumulation of NAPQI once hepatic glutathione is exhausted",
+     "Immune-mediated hepatitis against drug-protein adducts only"
+    ],
+    "answer": 2,
+    "explain": "NAPQI, the toxic metabolite, is normally detoxified by glutathione; once glutathione stores are depleted it binds hepatocyte proteins causing necrosis. NAC works by replenishing glutathione.",
+    "note": "Paracetamol: toxic metabolite NAPQI, detoxified by glutathione until exhausted."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 15-year-old girl took an unknown number of paracetamol tablets 2 hours ago and is asymptomatic. When should the paracetamol level be taken to plot on the treatment nomogram?",
+    "options": [
+     "At 4 hours after ingestion",
+     "Immediately, and treat if above the line",
+     "At 12 hours after ingestion",
+     "Only if liver enzymes become abnormal"
+    ],
+    "answer": 0,
+    "explain": "Levels before 4 hours are uninterpretable (absorption incomplete); plot from 4 hours on the nomogram. Paracetamol poisoning is near asymptomatic on day 1, so normal LFTs early are falsely reassuring.",
+    "note": "Paracetamol level on nomogram from 4 hours; iron X-ray + serum iron; battery CXR halo."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old ingested several of his mother's iron tablets 30 minutes ago and has vomited twice. Abdominal X-ray shows multiple radio-opaque tablets. Which statement about management is correct?",
+    "options": [
+     "Give activated charcoal now, as he is still within 1 hour",
+     "Induce vomiting with ipecac syrup to empty the stomach of tablets",
+     "Give oral N-acetylcysteine as the specific antidote for iron",
+     "No charcoal; consider IV desferrioxamine guided by serum iron"
+    ],
+    "answer": 3,
+    "explain": "Charcoal does not bind iron, lithium or alcohols; never induce vomiting. The iron antidote is desferrioxamine, guided by serum iron and clinical severity; NAC is for paracetamol.",
+    "note": "Never induce vomiting; charcoal only within 1 hour, does not bind iron, lithium, alcohols."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 14-year-old is found drowsy with RR 6/min and pinpoint pupils. What is the most appropriate antidote?",
+    "options": [
+     "Flumazenil",
+     "Naloxone",
+     "Atropine",
+     "Physostigmine"
+    ],
+    "answer": 1,
+    "explain": "Pinpoint pupils + respiratory depression = opioid toxidrome → naloxone. Flumazenil reverses benzodiazepines (and risks seizures); atropine treats cholinergic poisoning, which also causes miosis but with secretions, bradycardia and fasciculations.",
+    "note": "Toxidromes: anticholinergic, cholinergic, opioid (pinpoint pupils), sympathomimetic."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 16-year-old took her mother's amitriptyline. She has dilated pupils, HR 140, a seizure, and an ECG showing QRS 140 ms. What is the most important specific treatment?",
+    "options": [
+     "IV flumazenil",
+     "IV sodium bicarbonate",
+     "IV physostigmine",
+     "IV amiodarone"
+    ],
+    "answer": 1,
+    "explain": "TCAs block fast Na⁺ channels → wide QRS and arrhythmias; sodium bicarbonate (sodium load + alkalinisation) narrows the QRS. Physostigmine and flumazenil can precipitate seizures/arrhythmia in TCA overdose; amiodarone prolongs QT.",
+    "note": "Iron: corrosive, then mitochondrial poison; TCA: Na⁺ channel block → wide QRS."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 13-year-old took a large aspirin overdose. Which blood gas pattern would you expect 1 hour after ingestion, compared with 12 hours later?",
+    "options": [
+     "Early pure respiratory alkalosis; late mixed with metabolic acidosis",
+     "Early metabolic acidosis; late respiratory alkalosis",
+     "Early respiratory acidosis from CNS depression; late metabolic alkalosis",
+     "Early metabolic alkalosis; late mixed respiratory and metabolic acidosis"
+    ],
+    "answer": 0,
+    "explain": "Salicylates first stimulate the respiratory centre (pure respiratory alkalosis); later uncoupling of oxidative phosphorylation adds a high anion-gap metabolic acidosis (mixed picture). Young children may present directly with acidosis.",
+    "note": "Aspirin: early pure respiratory alkalosis; late mixed with metabolic acidosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old is drooling and refusing food after possibly swallowing a small round object 1 hour ago. Chest X-ray shows a round radio-opaque object in the oesophagus with a double-ring 'halo' on the AP view. What is the most appropriate next step?",
+    "options": [
+     "Repeat X-ray in 24 hours to see if it passes",
+     "Induce vomiting to expel the object",
+     "Give honey and await spontaneous passage",
+     "Urgent endoscopic removal"
+    ],
+    "answer": 3,
+    "explain": "The halo/double-ring sign identifies a button battery; in the oesophagus it causes liquefactive necrosis within hours, so urgent endoscopy is needed. Watchful waiting is only for coins/batteries already beyond the stomach in an asymptomatic child.",
+    "note": "Oesophageal battery or coin: urgent endoscopy; lead moderate DMSA, severe dimercaprol + EDTA."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 2-year-old living in a house built in 1965 that is being renovated has abdominal pain, constipation, irritability and microcytic anaemia with basophilic stippling. A capillary lead level is raised. What is the next diagnostic step?",
+    "options": [
+     "Start dimercaprol immediately",
+     "Bone marrow biopsy for ring sideroblasts",
+     "Measure a venous lead level",
+     "Abdominal X-ray only and repeat capillary level in 6 months"
+    ],
+    "answer": 2,
+    "explain": "Capillary samples can be contaminated by lead on the skin, so a raised capillary level must be confirmed with a venous level before chelation. Homes built before 1978 (lead paint) are the classic source.",
+    "note": "Lead: capillary level raised → measure venous lead level."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Name the antidotes for common paediatric poisonings.",
+    "back": "Paracetamol → N-acetylcysteine • iron → desferrioxamine • TCA → sodium bicarbonate • opioid → naloxone • lead: moderate DMSA, severe dimercaprol + EDTA."
+   },
+   {
+    "type": "card",
+    "front": "When can you use activated charcoal, and what doesn't it bind?",
+    "back": "Only within 1 hour of ingestion, airway protected. Doesn't bind iron, lithium, alcohols (also caustics, hydrocarbons). Never induce vomiting."
+   },
+   {
+    "type": "card",
+    "front": "Describe the key toxidromes.",
+    "back": "Opioid: pinpoint pupils, resp. depression • cholinergic: miosis, secretions, bradycardia • anticholinergic: dilated pupils, dry hot skin, delirium, retention • sympathomimetic: mydriasis, tachycardia, sweating, hyperthermia."
+   }
+  ]
+ },
+ "I-53": {
+  "summary": "Suspect abuse when the story does not fit the child's development or keeps changing: any bruise in a non-mobile baby, posterior rib or metaphyseal corner fractures, or the triad of subdural + retinal haemorrhages + encephalopathy - document, keep the child safe and involve child protection; welfare overrides confidentiality.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which is the most common form of child maltreatment?",
+    "options": [
+     "Neglect",
+     "Sexual abuse",
+     "Emotional abuse",
+     "Physical abuse"
+    ],
+    "answer": 0,
+    "explain": "Neglect is the commonest form of maltreatment, though physical abuse is the most commonly recognised in emergency settings.",
+    "note": "Physical, sexual, emotional abuse or neglect; neglect is the commonest form of maltreatment."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 3-month-old is brought in limp after 'choking on milk'. CT shows thin bilateral subdural haematomas of different ages. What is the mechanism of the subdural bleeding?",
+    "options": [
+     "Rupture of the middle meningeal artery",
+     "Tearing of bridging veins during acceleration-deceleration",
+     "Rupture of a berry aneurysm",
+     "Germinal matrix haemorrhage extending into the subdural space"
+    ],
+    "answer": 1,
+    "explain": "Violent shaking causes rotational acceleration-deceleration that tears bridging veins → subdural haemorrhage. Middle meningeal artery injury gives extradural haematoma with a skull fracture; germinal matrix bleeds are a preterm phenomenon.",
+    "note": "Shaking tears the bridging veins, causing subdural haemorrhage."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which skeletal findings are most specific for non-accidental injury in infants?",
+    "options": [
+     "Midshaft clavicle fractures and linear parietal skull fractures",
+     "Supracondylar humeral fractures and greenstick forearm fractures",
+     "Spiral tibial fractures in a walking toddler and buckle fractures of the radius",
+     "Posterior rib fractures and classic metaphyseal (corner) fractures"
+    ],
+    "answer": 3,
+    "explain": "Posterior rib fractures (grip and squeezing) and classic metaphyseal lesions (shaking/twisting of limbs) are the most specific. A toddler's spiral tibial fracture and clavicle fractures are common accidental/birth injuries.",
+    "note": "Most specific: posterior rib and classic metaphyseal (corner) fractures."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-month-old is brought in by his father, who says the baby 'rolled off the sofa' yesterday. There are bruises on both cheeks and the upper arm. Which feature of this presentation is most concerning for abuse?",
+    "options": [
+     "Delay of a day before presentation alone",
+     "The father rather than the mother bringing him",
+     "Bruising in a non-mobile infant",
+     "Falling from a sofa height"
+    ],
+    "answer": 2,
+    "explain": "Any bruise in a non-mobile infant ('those who don't cruise rarely bruise') demands safeguarding assessment. Delay is a red flag too, but the bruising pattern in a pre-mobile baby is the strongest clue; which parent attends is irrelevant.",
+    "note": "Any bruise in a non-mobile infant; scalds with sharp lines of demarcation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 5-month-old has suspected abusive head trauma with subdural haemorrhage on CT. Which investigation set is most appropriate in the work-up?",
+    "options": [
+     "Lumbar puncture, EEG, urine organic acids and metabolic screen",
+     "Skull X-ray only, as CT has already shown the haemorrhage",
+     "MRI, skeletal survey repeated at 11-14 days, eye exam, coagulation",
+     "Single bone scan only, to avoid repeated radiation exposure"
+    ],
+    "answer": 2,
+    "explain": "Work-up: CT then MRI, skeletal survey (repeated at 11-14 days to reveal healing fractures not visible initially), ophthalmology for retinal haemorrhages, and coagulation to exclude bleeding disorders.",
+    "note": "CT then MRI, skeletal survey repeated at 11-14 days, ophthalmology, coagulation."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old has a scald on both feet and buttocks with sharp, symmetrical 'stocking' demarcation and sparing of the soles' flexural creases. The mother says he pulled a cup of tea over himself. What is the most likely mechanism?",
+    "options": [
+     "Accidental spill from above",
+     "Chemical burn from a cleaning product",
+     "Contact with a hot radiator",
+     "Forced immersion in hot water"
+    ],
+    "answer": 3,
+    "explain": "Scalds with sharp lines of demarcation and symmetric glove/stocking distribution indicate forced immersion. A spill gives irregular splash marks with an arrowhead pattern on the upper body.",
+    "note": "Any bruise in a non-mobile infant; scalds with sharp lines of demarcation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-year-old has unexplained fractures of different ages. The parents demand to take her home immediately and refuse consent for further investigations. What is the most appropriate action?",
+    "options": [
+     "Discharge, as parents have the right to refuse",
+     "Keep her safe in hospital and involve child protective services",
+     "Discharge with a GP follow-up letter only",
+     "Confront the parents with an accusation of abuse and call security"
+    ],
+    "answer": 1,
+    "explain": "Suspected abuse: contact child protective services, document exactly and keep the child safe - admit if needed; the child's welfare overrides confidentiality and parental refusal. Accusatory confrontation is unhelpful.",
+    "note": "Document exactly, keep child safe - admit if needed; welfare overrides confidentiality."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "When assessing risk in a family where an infant has an unexplained fracture, which parental factor is most strongly associated with perpetrating abuse?",
+    "options": [
+     "Having been abused themselves as a child",
+     "Young maternal age",
+     "Low household income",
+     "Being a single parent"
+    ],
+    "answer": 0,
+    "explain": "The most significant parental risk factor is the parent having been abused themselves; the abuser is usually the primary caregiver. Poverty, single parenthood and young age are contributory but weaker.",
+    "note": "Most significant parental risk factor: being abused themselves; abuser usually primary caregiver."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the red flags for non-accidental injury in the history and examination?",
+    "back": "History: delay, changing story, injury not fitting development. Exam: any bruise in a non-mobile infant • sharply demarcated scalds • posterior rib and metaphyseal fractures • subdural + retinal haemorrhages + encephalopathy."
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate suspected abusive head trauma?",
+    "back": "CT then MRI • skeletal survey, repeated at 11-14 days • ophthalmology (retinal haemorrhages) • coagulation screen. Mechanism: shaking tears bridging veins (subdural), vitreous pulls retina, grip → posterior rib fractures."
+   },
+   {
+    "type": "card",
+    "front": "What do you do when you suspect child abuse?",
+    "back": "Keep child safe - admit if needed • contact child protective services • document exactly (verbatim, body maps) • report both abuse and neglect • welfare overrides confidentiality."
+   }
+  ]
+ },
+ "I-54": {
+  "summary": "A toddler with sudden choking then a symptom-free interval and unilateral wheeze has an inhaled foreign body (often a radiolucent nut, usually right-sided) until rigid bronchoscopy proves otherwise - a normal X-ray never excludes it.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Why do inhaled foreign bodies most often lodge in the right main bronchus?",
+    "options": [
+     "It is narrower and more horizontal",
+     "It has a lower airway pressure",
+     "It is wider and more vertical",
+     "It branches before the carina"
+    ],
+    "answer": 2,
+    "explain": "The right main bronchus is wider, shorter and more vertical than the left, so aspirated objects fall into it more easily.",
+    "note": "Right lung commonest: its bronchus is wider and more vertical."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old had a choking episode while eating peanuts and running in the garden 5 days ago, after which he was well. He now has a persistent cough and wheeze heard only on the right. What is the most likely diagnosis?",
+    "options": [
+     "Inhaled foreign body",
+     "Acute asthma",
+     "Viral-induced wheeze",
+     "Right lower lobe pneumonia from aspiration of saliva"
+    ],
+    "answer": 0,
+    "explain": "Choking → symptom-free interval → cough and unilateral wheeze is the classic course of a bronchial foreign body; toddlers 1-3 y with nuts are typical. Asthma and viral wheeze are bilateral.",
+    "note": "Choking → symptom-free interval → cough, unilateral wheeze, recurrent pneumonia."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "In a child with a partially obstructing bronchial foreign body, an expiratory chest X-ray shows the affected lung remains hyperlucent and the mediastinum shifts away from it. What is the mechanism?",
+    "options": [
+     "Complete obstruction with distal atelectasis",
+     "Tension pneumothorax from airway perforation",
+     "Compensatory emphysema of the contralateral lung",
+     "Check-valve effect trapping air during expiration"
+    ],
+    "answer": 3,
+    "explain": "A partial block acts as a check valve: air enters on inspiration but is trapped on expiration, so the affected side stays inflated. Complete block causes atelectasis with shift towards the affected side.",
+    "note": "Partial block = check valve → air trapped on expiration."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "On fluoroscopy of a toddler with suspected aspiration, the mediastinum swings to and fro with each breath. What is this sign called?",
+    "options": [
+     "Westermark sign",
+     "Holzknecht sign",
+     "Golden S sign",
+     "Silhouette sign"
+    ],
+    "answer": 1,
+    "explain": "Holzknecht sign = pendulum movement of the mediastinum with respiration, indicating an airway foreign body with air trapping. Westermark is PE oligaemia; Golden S is lobar collapse with a central mass.",
+    "note": "Holzknecht sign = pendulum movement of the mediastinum = airway foreign body."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 20-month-old with a history of choking on a nut and new right-sided wheeze has a normal inspiratory chest X-ray. What is the most appropriate next step?",
+    "options": [
+     "Reassure and discharge as the X-ray is normal",
+     "Trial of inhaled salbutamol and review in a week",
+     "CT chest in 3 months if symptoms persist",
+     "Rigid bronchoscopy"
+    ],
+    "answer": 3,
+    "explain": "Nuts are radiolucent and a normal X-ray never excludes a foreign body; with a convincing history, proceed to rigid bronchoscopy (diagnostic and therapeutic). Delay risks pneumonia and bronchiectasis.",
+    "note": "Expiratory and inspiratory chest radiograph or fluoroscopy; normal X-ray never excludes."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 9-month-old is choking on a piece of apple; she is conscious but cannot cry or cough effectively. What is the correct first-aid sequence?",
+    "options": [
+     "5 back blows then 5 abdominal thrusts",
+     "Blind finger sweep then 5 back blows",
+     "5 back blows then 5 chest thrusts",
+     "5 abdominal thrusts then 5 chest thrusts"
+    ],
+    "answer": 2,
+    "explain": "Choking infant under 1 year: 5 back blows then 5 chest thrusts - abdominal thrusts risk liver injury in infants. Blind finger sweeps can push the object deeper.",
+    "note": "Choking infant under 1 year: 5 back blows then 5 chest thrusts (not abdominal)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old chokes on a sweet. She is conscious, cannot speak, and back blows have failed. What is the next manoeuvre?",
+    "options": [
+     "Abdominal thrusts",
+     "Chest thrusts",
+     "Start CPR 15:2",
+     "Blind finger sweep"
+    ],
+    "answer": 0,
+    "explain": "Over 1 year: back blows then abdominal thrusts (Heimlich). Chest thrusts are the infant alternative; CPR starts only if the child becomes unconscious.",
+    "note": "Over 1 y: abdominal thrusts."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 3-year-old suddenly develops inspiratory stridor, cyanosis and inability to vocalise while playing with small toys. Where is the foreign body most likely lodged?",
+    "options": [
+     "Right main bronchus",
+     "Larynx or trachea",
+     "Left lower lobe bronchus",
+     "Oesophagus at the cricopharyngeus"
+    ],
+    "answer": 1,
+    "explain": "Stridor and cyanosis indicate laryngotracheal obstruction - immediately life-threatening. Bronchial foreign bodies give unilateral wheeze and cough; oesophageal ones give drooling and dysphagia (though large ones can compress the trachea).",
+    "note": "Laryngotracheal: stridor, cyanosis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Describe the typical history and findings of bronchial foreign body aspiration.",
+    "back": "Toddler 1-3 y (no molars, eats while running, nuts) • choking → symptom-free interval → cough, unilateral (right) wheeze, recurrent pneumonia • laryngotracheal: stridor, cyanosis."
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate a suspected airway foreign body?",
+    "back": "Inspiratory + expiratory CXR or fluoroscopy: air trapping (check valve), Holzknecht sign (mediastinal pendulum); complete block → atelectasis. Nuts radiolucent; normal X-ray never excludes → rigid bronchoscopy."
+   },
+   {
+    "type": "card",
+    "front": "Outline choking first aid by age.",
+    "back": "Infant <1 y: 5 back blows → 5 chest thrusts (no abdominal). Over 1 y: 5 back blows → 5 abdominal thrusts. Unconscious → CPR. Definitive: rigid bronchoscopy; symptomatic swallowed coin → endoscopy."
+   }
+  ]
+ },
+ "I-55": {
+  "summary": "In children the imaging ladder is ALARA: justify, optimise, and go non-ionising first - ultrasound, then MRI - keeping CT for polytrauma, significant head injury and emergencies; know the paediatric specifics like the thymus shadow and cranial US through the fontanelle.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Why are children more vulnerable to ionising radiation than adults?",
+    "options": [
+     "Their bones absorb less radiation",
+     "Their skin is thicker, increasing scatter",
+     "They have more dividing cells and more years for cancer to arise",
+     "They metabolise iodinated contrast agents more slowly"
+    ],
+    "answer": 2,
+    "explain": "Children are radiosensitive: rapidly dividing cells, longer remaining life for stochastic effects to appear, and organs close to the beam. This underlies ALARA.",
+    "note": "Children radiosensitive: dividing cells, longer remaining life, organs close to beam."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-day-old baby born at 27 weeks has a sudden drop in haemoglobin, bulging fontanelle and apnoeas. What is the most appropriate first imaging?",
+    "options": [
+     "Cranial ultrasound through the anterior fontanelle",
+     "CT head without contrast",
+     "MRI brain under general anaesthesia",
+     "Skull X-ray"
+    ],
+    "answer": 0,
+    "explain": "Cranial US via the anterior fontanelle is the first-line, bedside, non-ionising test for brain haemorrhage and hydrocephalus in neonates (blood is echogenic, CSF anechoic). Preterm IVH arises in the germinal matrix.",
+    "note": "Ultrasound first, MRI next; cranial US: brain haemorrhage and hydrocephalus."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A chest X-ray of a 6-month-old with recurrent severe infections shows no thymic shadow. Which conditions does this finding suggest?",
+    "options": [
+     "Cystic fibrosis or primary ciliary dyskinesia",
+     "Chronic granulomatous disease or leucocyte adhesion defect",
+     "Bruton agammaglobulinaemia or IgA deficiency",
+     "DiGeorge syndrome or severe combined immunodeficiency"
+    ],
+    "answer": 3,
+    "explain": "The thymus shadow is normally visible until about 3 years; its absence in an infant suggests thymic aplasia (DiGeorge) or SCID. B-cell and phagocyte defects have a normal thymus.",
+    "note": "Thymus shadow visible till 3 years of age; absent → DiGeorge or SCID."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 7-year-old has a cough and orthopnoea. Chest X-ray shows a widened anterior mediastinal shadow with tracheal narrowing. The registrar says it is probably a normal thymus. What is the correct interpretation?",
+    "options": [
+     "Agree, a prominent thymus is normal at this age",
+     "This is a thymic rebound after infection and can be ignored",
+     "A mediastinal mass such as lymphoma until proven otherwise",
+     "This is a congenital lobar emphysema"
+    ],
+    "answer": 2,
+    "explain": "A normal thymus is soft and does not compress the trachea, and is rarely prominent after 3 years; a mediastinal shadow narrowing the trachea is a mass (lymphoma, T-ALL) - beware sedation/GA.",
+    "note": "Mediastinal shadow narrowing trachea → mass, not thymus."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old had an acute febrile UTI with pyelonephritis 5 months ago. Which investigation best demonstrates renal cortical scarring now?",
+    "options": [
+     "Micturating cystourethrogram (MCUG)",
+     "DMSA scan",
+     "MAG3 renogram",
+     "Renal ultrasound"
+    ],
+    "answer": 1,
+    "explain": "DMSA performed 4-6 months after infection shows permanent scars (acute defects may resolve). MCUG shows reflux; MAG3 assesses drainage/obstruction; US shows anatomy but is insensitive for scars.",
+    "note": "Urinary: US, MCUG, DMSA 4-6 months after infection shows scars, MAG3."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 6-week-old boy has projectile non-bilious vomiting after every feed and a palpable olive in the epigastrium. What is the investigation of choice?",
+    "options": [
+     "Upper GI contrast study",
+     "Abdominal ultrasound",
+     "Abdominal X-ray",
+     "CT abdomen"
+    ],
+    "answer": 1,
+    "explain": "Ultrasound is the first-line test for pyloric stenosis (and intussusception), showing pyloric muscle thickening and elongation. Upper GI contrast is reserved for bilious vomiting (malrotation).",
+    "note": "US for pyloric stenosis, intussusception; upper GI contrast for bilious vomiting."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 3-week-old who was feeding well develops sudden bilious vomiting. He looks well, the abdomen is soft, and an abdominal X-ray is non-specific. What is the most appropriate next imaging?",
+    "options": [
+     "Abdominal ultrasound for pyloric stenosis",
+     "Repeat abdominal X-ray in 6 hours",
+     "Contrast enema",
+     "Upper GI contrast study"
+    ],
+    "answer": 3,
+    "explain": "Bilious vomiting in a neonate is malrotation with volvulus until proven otherwise; upper GI contrast shows the position of the duodenojejunal flexure. Pyloric stenosis is non-bilious; waiting risks midgut infarction.",
+    "note": "US for pyloric stenosis, intussusception; upper GI contrast for bilious vomiting."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old fell from a climbing frame. He has a GCS of 14 and a palpable depression over the parietal bone. What is the appropriate imaging?",
+    "options": [
+     "Non-contrast CT head",
+     "Skull X-ray and observe",
+     "MRI brain within 24 hours",
+     "Cranial ultrasound"
+    ],
+    "answer": 0,
+    "explain": "Head trauma with GCS ≤14 or suspected skull fracture → non-contrast CT (fast, shows blood and fracture). Skull X-ray misses intracranial injury; MRI is too slow in the acute setting; US needs an open fontanelle.",
+    "note": "Polytrauma → acute CT; head trauma: non-contrast CT if GCS ≤ 14 or skull fracture."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What is ALARA and how do you apply it in paediatric imaging?",
+    "back": "As low as reasonably achievable: justification, optimisation, non-ionising first (US → MRI). CT for polytrauma, head injury with GCS ≤14/skull fracture; MRI/MRA if stroke suspected with normal CT."
+   },
+   {
+    "type": "card",
+    "front": "Which imaging for which paediatric urinary question?",
+    "back": "US: anatomy, hydronephrosis • MCUG: vesicoureteric reflux, PUV • DMSA (4-6 months after infection): cortical scars • MAG3: drainage/obstruction and split function."
+   },
+   {
+    "type": "card",
+    "front": "Choose the first imaging: pyloric stenosis, intussusception, bilious vomiting, neonatal IVH.",
+    "back": "Pyloric stenosis: US • intussusception: US • bilious vomiting: upper GI contrast (malrotation) • neonatal IVH/hydrocephalus: cranial US via anterior fontanelle."
+   }
+  ]
+ },
+ "II-1": {
+  "summary": "Vaccinate on schedule and do not invent contraindications: the only universal one is anaphylaxis to a previous dose or component; live vaccines are avoided in severe immunodeficiency and pregnancy, MMR waits until after 12 months for maternal antibodies to wane, and preterms go by chronological age.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why is the first MMR dose given after 12 months of age rather than in early infancy?",
+    "options": [
+     "The infant thymus is too immature to respond to live vaccines",
+     "Persisting maternal antibodies neutralise the vaccine virus",
+     "The risk of febrile seizures is unacceptably high before 12 months",
+     "Measles is rare before 1 year in vaccinated populations"
+    ],
+    "answer": 1,
+    "explain": "Transplacental maternal IgG neutralises the live attenuated MMR viruses, reducing seroconversion if given earlier. The thymus is functional; febrile seizure risk exists but is not the reason for timing.",
+    "note": "Maternal antibodies neutralise MMR earlier → given after 12 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Plain polysaccharide Hib and pneumococcal vaccines fail in infants, whereas conjugate versions work well from 2 months. What is the mechanism of this difference?",
+    "options": [
+     "Conjugation makes the vaccine a live attenuated organism",
+     "Infant B cells respond to polysaccharide only when given with an adjuvant",
+     "Conjugation allows IgA secretion at mucosal surfaces only",
+     "The protein carrier recruits T-helper cells, giving T-dependent memory"
+    ],
+    "answer": 3,
+    "explain": "Polysaccharides are T-independent antigens that infants under 2 respond poorly to; coupling to a protein carrier recruits T-helper cells → class switching, high-affinity IgG and memory.",
+    "note": "Conjugate vaccines work in infants because the protein carrier recruits T-helper cells."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-month-old due for routine vaccines has a runny nose, mild cough and temperature of 37.8 °C. He is playful and feeding well. What is the most appropriate action?",
+    "options": [
+     "Give the scheduled vaccines today",
+     "Postpone all vaccines for 4 weeks",
+     "Give only inactivated vaccines and defer rotavirus",
+     "Check full blood count before vaccinating"
+    ],
+    "answer": 0,
+    "explain": "Mild illness (with or without low-grade fever) is not a contraindication; delaying only leaves the child unprotected. Postponement is for moderate-severe acute illness.",
+    "note": "Not contraindications: mild illness; preterms use chronological age."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby born at 28 weeks is now 8 weeks old (chronological age) and still on the neonatal unit. When should his first routine immunisations be given?",
+    "options": [
+     "Only after discharge from hospital",
+     "At 8 weeks corrected age (about 20 weeks chronological)",
+     "Now, at 8 weeks chronological age",
+     "When he reaches 2.5 kg"
+    ],
+    "answer": 2,
+    "explain": "Preterm infants are immunised according to chronological age, without correction, regardless of weight or inpatient status, as they are at higher risk of infection.",
+    "note": "Not contraindications: mild illness; preterms use chronological age."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 4-month-old developed generalised urticaria, wheeze and hypotension within 10 minutes of her 2-month DTaP-IPV-Hib-HepB dose. What is the correct advice about future doses of this vaccine?",
+    "options": [
+     "Give future doses with antihistamine premedication",
+     "Withhold pertussis only and continue DT",
+     "No further doses of that vaccine or its components",
+     "Give future doses as separate single-antigen injections"
+    ],
+    "answer": 2,
+    "explain": "Anaphylaxis to a previous dose or component is the only universal contraindication - no further doses of that vaccine. Withholding pertussis alone applies to encephalopathy within 7 days of DTaP.",
+    "note": "DTaP: anaphylaxis → no future doses; encephalopathy → hold pertussis."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 6-month-old with recurrent infections and failure to thrive is found to have severe combined immunodeficiency. Which routine vaccine poses the greatest immediate risk?",
+    "options": [
+     "Rotavirus",
+     "Inactivated poliovirus",
+     "Pneumococcal conjugate",
+     "Hepatitis B"
+    ],
+    "answer": 0,
+    "explain": "Live vaccines (MMR, varicella, rotavirus, BCG) are contraindicated in SCID; rotavirus is given in early infancy and can cause chronic diarrhoea in SCID. The others are inactivated/subunit and safe (if less effective).",
+    "note": "Live: MMR, varicella, rotavirus, BCG; avoid in SCID, pregnancy."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 13-month-old develops fever of 39 °C and a faint maculopapular rash 9 days after her MMR vaccine. She is otherwise well. What is the most likely explanation?",
+    "options": [
+     "Anaphylactoid delayed reaction to gelatin",
+     "Expected reaction due to vaccine-virus replication",
+     "Wild-type measles infection acquired before vaccination",
+     "Vaccine contamination requiring a report and revaccination"
+    ],
+    "answer": 1,
+    "explain": "MMR fever and rash appear 7-12 days after vaccination as the attenuated virus replicates; it is benign and not contagious. Allergic reactions occur within minutes to hours.",
+    "note": "MMR fever and rash appear 7-12 days after vaccination."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 11-year-old girl attends for her routine school-age vaccinations. Which combination is recommended at this age according to the schedule?",
+    "options": [
+     "MMR booster, varicella and hepatitis A",
+     "BCG, influenza and PCV15",
+     "DTaP, IPV and rotavirus",
+     "Tdap, meningococcal conjugate and HPV"
+    ],
+    "answer": 3,
+    "explain": "Age 11: Tdap booster, meningococcal (MenACWY) and HPV (HPV can be given through age 26). Rotavirus is infant-only; MMR/varicella are at 1 and 4 years.",
+    "note": "Age 11: Tdap, meningococcal, HPV through 26."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Outline the routine childhood schedule in your notes.",
+    "back": "Birth: hep B (+ BCG in Hungary) • 2, 4, 6 months: DTaP, IPV, PCV15, rotavirus; hep B at 2 and 6 months • 1 and 4 years: MMR, varicella • annual influenza from 6 months • 11 years: Tdap, meningococcal, HPV (through 26)."
+   },
+   {
+    "type": "card",
+    "front": "What are the true and false contraindications to vaccination?",
+    "back": "True: anaphylaxis to previous dose/component (universal); live vaccines in SCID/pregnancy; encephalopathy after DTaP → hold pertussis. False: mild illness, prematurity (use chronological age)."
+   },
+   {
+    "type": "card",
+    "front": "Why do conjugate vaccines work in infants, and why is MMR given after 12 months?",
+    "back": "Conjugates: protein carrier recruits T-helper cells → T-dependent IgG and memory. MMR: maternal antibodies neutralise the live vaccine earlier. MMR fever/rash at 7-12 days is expected."
+   }
+  ]
+ },
+ "II-2": {
+  "summary": "Development runs cephalocaudal and proximal-to-distal across four domains - judge the trajectory, not a single point: loss of skills, early hand preference, persisting primitive reflexes, not walking by 18 months, or crossing two centile lines are the red flags.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "By what age should a typically developing infant first show a social smile?",
+    "options": [
+     "2 weeks",
+     "6 weeks",
+     "4 months",
+     "6 months"
+    ],
+    "answer": 1,
+    "explain": "Social smile appears at about 6 weeks; absence by 8-10 weeks warrants assessment (vision/social concerns).",
+    "note": "Social smile 6 weeks; lifts head 2 months; rolls over 6 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A healthy infant sits steadily without support, shows stranger anxiety and has started pulling to stand. What is the most likely age?",
+    "options": [
+     "4 months",
+     "6 months",
+     "9 months",
+     "15 months"
+    ],
+    "answer": 2,
+    "explain": "Sitting alone with stranger anxiety at 9 months and pulling to stand at 9-12 months. At 6 months infants roll over and sit with support; by 15 months they walk.",
+    "note": "Sits alone, stranger anxiety 9 months; pulls to stand 9-12 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 10-month-old consistently reaches with the left hand and ignores the right. She was born at term after a difficult delivery. What is the most appropriate interpretation?",
+    "options": [
+     "Normal early left-handedness",
+     "Red flag for right-sided weakness, e.g. hemiplegic CP",
+     "Normal variant of early handedness that resolves by 18 months",
+     "Sign of autism spectrum disorder"
+    ],
+    "answer": 1,
+    "explain": "Hand preference before 12 months is a red flag - it suggests weakness of the other side (e.g. hemiplegic CP). True handedness develops around 18-24 months or later.",
+    "note": "Hand preference before 12 months is a red flag."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 2.5-year-old who previously spoke 20 words and fed himself with a spoon has stopped talking and using his hands purposefully over 3 months. What is the most appropriate response?",
+    "options": [
+     "Urgent neurodevelopmental referral",
+     "Review in 6 months to see if skills return",
+     "Reassure, as regression is common after a new sibling",
+     "Refer for speech therapy only"
+    ],
+    "answer": 0,
+    "explain": "Any loss of skills is an urgent red flag, suggesting neurodegenerative, metabolic, epileptic (e.g. Landau-Kleffner) or Rett-type conditions; it needs urgent assessment, not watchful waiting.",
+    "note": "Any loss of skills is an urgent red flag."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 10-month-old with prematurity-related periventricular leukomalacia still has an obligatory asymmetric tonic neck reflex and a brisk Moro reflex. What does this indicate?",
+    "options": [
+     "Normal persistence at this age",
+     "Peripheral neuropathy",
+     "Lower motor neuron lesion such as spinal muscular atrophy",
+     "Upper motor neuron lesion such as cerebral palsy"
+    ],
+    "answer": 3,
+    "explain": "Primitive reflexes are normal until 6-12 months; obligatory persistence beyond this suggests an upper motor neuron lesion (e.g. CP). LMN disease gives absent reflexes and hypotonia.",
+    "note": "Primitive reflexes normal till 6-12 months; persistence suggests upper motor neuron lesion (e.g. CP)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 17-month-old boy is not yet walking independently. He cruises around furniture, sits well, has 3 words and normal tone. What is the most appropriate response?",
+    "options": [
+     "Urgent referral now, as walking should occur by 12 months",
+     "Reassure and review; refer if not walking by 18 months",
+     "Order creatine kinase immediately",
+     "Refer to orthopaedics for flat feet"
+    ],
+    "answer": 1,
+    "explain": "Walking occurs at 12-18 months, with 18 months as the limit; a cruising 17-month-old with normal tone can be reviewed. Not walking by 18 months (especially in boys) → check CK for Duchenne and assess.",
+    "note": "Walks 12-18 months (limit 18 months); kicks ball 2 years."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 14-month-old's weight has fallen from the 50th to below the 9th centile over 6 months, while length remains on the 50th and head circumference on the 50th. What does this pattern most suggest?",
+    "options": [
+     "Constitutional growth delay with familial short stature",
+     "Primary microcephaly",
+     "Inadequate intake or absorption of calories",
+     "Growth hormone deficiency"
+    ],
+    "answer": 2,
+    "explain": "In failure to thrive, weight falls first, then height, then head circumference - so isolated weight faltering crossing two major lines points to inadequate intake/absorption. Endocrine causes affect height first with preserved weight.",
+    "note": "Failure to thrive: weight → height → head circumference."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A baby weighed 3.5 kg at birth. At her 12-month check she weighs 7.2 kg and her length has increased from 50 cm to 76 cm. How should her growth be interpreted?",
+    "options": [
+     "Normal weight and length gain",
+     "Weight gain normal; length gain inadequate",
+     "Both weight and length gain inadequate",
+     "Weight gain inadequate; length gain normal"
+    ],
+    "answer": 3,
+    "explain": "Birth weight should triple by 12 months (~10.5 kg); 7.2 kg is only double - inadequate. Length should rise by 50% (50 → 75 cm), so 76 cm is normal.",
+    "note": "Birth weight regained by 2 weeks, doubles by 4-5 months, triples by 12 months."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the key gross motor and social milestones with limits.",
+    "back": "Social smile 6 wk • lifts head 2 mo • rolls 6 mo • sits alone, stranger anxiety 9 mo • pulls to stand 9-12 mo • walks 12-18 mo (limit 18 mo) • kicks ball 2 y."
+   },
+   {
+    "type": "card",
+    "front": "What are the developmental red flags?",
+    "back": "Any loss of skills (urgent) • hand preference before 12 months • persistent primitive reflexes beyond 6-12 months (UMN, e.g. CP) • not walking by 18 months."
+   },
+   {
+    "type": "card",
+    "front": "Describe normal growth rules and the definition of growth failure.",
+    "back": "Birth weight regained by 2 wk, doubles by 4-5 mo, triples by 12 mo; length +50% by 1 y. Growth failure: weight <5th centile or crossing two major lines; FTT affects weight → height → head. Velocity most sensitive."
+   }
+  ]
+ },
+ "II-3": {
+  "summary": "Classify every newborn by weight (LBW <2500 g, VLBW <1500, ELBW <1000) and by weight for gestation (SGA <10th centile): asymmetric late placental FGR spares the head and brings hypoglycaemia, hypothermia and polycythaemia, while prematurity brings RDS, IVH, PDA, NEC and ROP.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "A baby born at 39 weeks weighs 2350 g, which is below the 10th centile for gestation. How should she be classified?",
+    "options": [
+     "Term, small for gestational age, low birth weight",
+     "Preterm, appropriate for gestational age",
+     "Term, very low birth weight",
+     "Term, appropriate for gestational age, normal birth weight"
+    ],
+    "answer": 0,
+    "explain": "Term (≥37 weeks), SGA (<10th centile for gestation), and low birth weight (<2500 g). VLBW is under 1500 g.",
+    "note": "SGA = birth weight below the 10th centile for gestation."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A baby born at 27 weeks weighs 950 g. Which birth weight category applies?",
+    "options": [
+     "Low birth weight",
+     "Extremely low birth weight",
+     "Very low birth weight",
+     "Small for gestational age by definition"
+    ],
+    "answer": 1,
+    "explain": "ELBW is under 1000 g (VLBW under 1500 g, LBW under 2500 g). SGA depends on the weight centile for gestation, not absolute weight - 950 g may be appropriate at 27 weeks.",
+    "note": "Low birth weight under 2500 g; VLBW under 1500; ELBW under 1000 g."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A term baby of a mother with pre-eclampsia weighs 2200 g; head circumference is on the 50th centile while abdominal circumference is below the 3rd. What is the most likely mechanism?",
+    "options": [
+     "First-trimester congenital CMV infection",
+     "Trisomy 18",
+     "Constitutional small size",
+     "Late placental insufficiency with brain-sparing"
+    ],
+    "answer": 3,
+    "explain": "Asymmetric FGR (head spared) reflects late placental insufficiency, with blood redistributed to the brain. Early insults (1st-trimester infection, aneuploidy) cause symmetric growth lag including the head.",
+    "note": "Asymmetric (late, placental): head spared; symmetric (1st trimester infection): global growth lag."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-hour-old growth-restricted term baby is jittery and plethoric. Venous haematocrit is 70%. What is the underlying mechanism of the haematocrit finding?",
+    "options": [
+     "Delayed cord clamping alone",
+     "Maternal iron supplementation",
+     "Twin-to-twin transfusion donor physiology",
+     "Chronic intrauterine hypoxia stimulating erythropoietin"
+    ],
+    "answer": 3,
+    "explain": "Chronic hypoxia in FGR → raised EPO → polycythaemia (Hct >65%) → hyperviscosity (jitteriness, hypoglycaemia) and jaundice. A TTTS donor is anaemic, not polycythaemic.",
+    "note": "Chronic hypoxia → EPO → polycythaemia (haematocrit over 65%) → hyperviscosity, jaundice."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A growth-restricted 2.1-kg term baby is being cared for on the postnatal ward. Which complications should be actively monitored for in the first hours?",
+    "options": [
+     "Hyperglycaemia, hyperthermia and anaemia",
+     "Hypercalcaemia, hypertension and thrombocytosis",
+     "Hypoglycaemia, hypothermia and polycythaemia",
+     "Hyponatraemia, hyperkalaemia and neutrophilia"
+    ],
+    "answer": 2,
+    "explain": "IUGR babies have low glycogen and fat stores (hypoglycaemia, hypothermia) and polycythaemia from chronic hypoxia. They are not hyperglycaemic or anaemic.",
+    "note": "IUGR: hypoglycaemia, hypothermia, polycythaemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 31-week fetus with known FGR has umbilical artery Doppler showing reversed end-diastolic flow. What is the most appropriate management?",
+    "options": [
+     "Urgent delivery after steroids and MgSO4",
+     "Repeat Doppler in 2 weeks",
+     "Bed rest and maternal oxygen therapy",
+     "Continue expectant management until 37 weeks"
+    ],
+    "answer": 0,
+    "explain": "Absent/reversed end-diastolic flow means severe placental failure and imminent fetal compromise → urgent delivery; give steroids (24-34 wk) and MgSO4 (neuroprotection) if time allows.",
+    "note": "FGR: Doppler of umbilical artery; absent/reversed end-diastolic flow → urgent delivery."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A woman at 29 weeks is in established preterm labour. Which antenatal treatments will most reduce neonatal respiratory distress and neurological morbidity?",
+    "options": [
+     "Maternal antibiotics and tocolysis only",
+     "Maternal glucocorticoids and magnesium sulphate",
+     "Postnatal surfactant only",
+     "Maternal thyroxine and vitamin K"
+    ],
+    "answer": 1,
+    "explain": "Maternal glucocorticoids (24-34 weeks) accelerate surfactant production and reduce RDS/IVH/NEC; MgSO4 gives fetal neuroprotection (reduces CP). Surfactant is given after birth if RDS develops.",
+    "note": "Before birth: maternal glucocorticoids (24-34 wk) + MgSO4; after birth: artificial surfactant."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-day-old baby born at 28 weeks develops abdominal distension, bilious aspirates and bloody stools. X-ray shows pneumatosis intestinalis without free air. What is the most appropriate management?",
+    "options": [
+     "Immediate laparotomy",
+     "Continue small feeds using an extensively hydrolysed formula",
+     "Nil by mouth, NG tube, IV fluids and antibiotics",
+     "Rectal washouts and oral antibiotics"
+    ],
+    "answer": 2,
+    "explain": "NEC without perforation: nil by mouth, NG tube, IV fluids and antibiotics. Surgery is reserved for perforation (free air) or clinical deterioration.",
+    "note": "NEC: NPO, NG tube, IV fluids, antibiotics; surgery for perforation."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Define birth-weight and gestational categories.",
+    "back": "Preterm <37 weeks • term BW 2500-4000 g, HC ~35 cm • LBW <2500 g, VLBW <1500 g, ELBW <1000 g • SGA <10th centile for gestation. Gestation: dating US, New Ballard."
+   },
+   {
+    "type": "card",
+    "front": "Compare symmetric and asymmetric FGR.",
+    "back": "Asymmetric: late, placental insufficiency, head spared. Symmetric: early insult (1st-trimester TORCH, trisomies), global lag. Complications: hypoglycaemia, hypothermia, polycythaemia (EPO) → hyperviscosity, jaundice."
+   },
+   {
+    "type": "card",
+    "front": "List the complications of prematurity and their key treatments.",
+    "back": "RDS (surfactant deficiency) → antenatal steroids, surfactant • IVH • PDA • NEC → NPO, NG, IV fluids, antibiotics, surgery if perforated • ROP → laser. Antenatal MgSO4 for neuroprotection."
+   }
+  ]
+ },
+ "II-4": {
+  "summary": "Breast is best and works on supply-and-demand (prolactin makes, oxytocin lets down): exclusive for 6 months, solids around 6 months (never before 17 weeks), no cow's milk or honey before 12 months, vitamin D and K for all - and very few maternal conditions truly contraindicate breastfeeding.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which infant condition is an absolute contraindication to breastfeeding?",
+    "options": [
+     "Phenylketonuria",
+     "Classic galactosaemia",
+     "Cystic fibrosis",
+     "Down syndrome"
+    ],
+    "answer": 1,
+    "explain": "In classic galactosaemia the infant cannot metabolise galactose from lactose, so breast milk is contraindicated. PKU infants can partially breastfeed with phenylalanine-free formula and monitoring.",
+    "note": "Contraindications: infant galactosaemia; maternal HIV, untreated tuberculosis, varicella."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A mother who is a chronic hepatitis B carrier (HBsAg positive) gives birth. Her baby receives HBIG and the hepatitis B vaccine at birth. She asks whether she may breastfeed. What is the correct advice?",
+    "options": [
+     "Breastfeeding is contraindicated",
+     "She may breastfeed",
+     "She may breastfeed only after the third vaccine dose",
+     "She should express and pasteurise the milk"
+    ],
+    "answer": 1,
+    "explain": "Hepatitis B is not a contraindication to breastfeeding, especially once the infant has had HBIG and vaccine. Mastitis is also not a contraindication. In high-income settings maternal HIV is a contraindication.",
+    "note": "Hepatitis B and mastitis are not."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A breastfeeding mother notices milk spurting from her breasts when her baby starts to cry. Which hormone mediates this reflex?",
+    "options": [
+     "Prolactin",
+     "Oestrogen",
+     "Oxytocin",
+     "Progesterone"
+    ],
+    "answer": 2,
+    "explain": "Oxytocin from the posterior pituitary contracts myoepithelial cells (let-down); prolactin drives milk synthesis. Oestrogen and progesterone inhibit lactation during pregnancy.",
+    "note": "Suckling → prolactin (synthesis) + oxytocin (let-down); supply follows demand."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "On day 5 a breastfed term baby has lost 8% of birth weight, passes 6 wet nappies per day and has yellow stools. What is the most appropriate interpretation?",
+    "options": [
+     "Inadequate intake - start formula top-ups",
+     "Possible hypothyroidism - check TSH",
+     "Dehydration - admit for IV fluids",
+     "Adequate breastfeeding - continue and review weight"
+    ],
+    "answer": 3,
+    "explain": "≥5 wet nappies per day at day 5 indicates adequate intake; losing up to 10% of birth weight is normal, with birth weight regained by 2 weeks. Top-ups would undermine supply.",
+    "note": "Adequacy: ≥ 5 wet diapers per day at 5 days; loses up to 10% of birth weight."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-day-old breastfed baby is jaundiced, feeding only every 4-5 hours, and has lost 11% of birth weight. What is the most appropriate management of the jaundice?",
+    "options": [
+     "Stop breastfeeding and switch to formula",
+     "Continue current pattern - this is breast milk jaundice",
+     "Give water supplements between feeds",
+     "Feed more often, about every 2 hours, with support"
+    ],
+    "answer": 3,
+    "explain": "This is breastfeeding (suboptimal intake) jaundice in the first week: feed more often (q2h). Breast milk jaundice appears later (from the end of week 1, β-glucuronidase in milk) in a thriving baby and breastfeeding continues. Water supplements worsen it.",
+    "note": "Breastfeeding jaundice: feed more often (q2h); milk jaundice: continue."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 13-month-old has been drinking 1.2 litres of cow's milk per day since 9 months of age and eats little else. He is pale and irritable. What is the most likely finding?",
+    "options": [
+     "Macrocytic anaemia from folate deficiency",
+     "Hypercalcaemia from excess calcium",
+     "Microcytic iron-deficiency anaemia",
+     "Scurvy from vitamin C excess"
+    ],
+    "answer": 2,
+    "explain": "Early and excessive cow's milk causes iron deficiency (low iron, inhibits absorption, occult GI loss, displaces solids) and gives a high renal solute load - hence cow's milk only after 12 months, ≤500 ml/day.",
+    "note": "Cow's milk first given after 12 months → else iron deficiency, renal solute load."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "The parents of a 7-month-old want to sweeten his porridge with honey and ask when to start solids for his younger sibling. What is the correct advice?",
+    "options": [
+     "No honey under 12 months; solids ~6 months, never before 17 weeks",
+     "Honey is fine after 6 months; solids from 3 months",
+     "No honey under 6 months; solids from 4 months at the very latest",
+     "Honey is fine if pasteurised; solids at 9 months"
+    ],
+    "answer": 0,
+    "explain": "Honey can carry Clostridium botulinum spores → infant botulism, so none under 12 months (pasteurisation doesn't kill spores). Solids are introduced around 6 months and not before 17 weeks.",
+    "note": "Solids not before 17 weeks, ~6 months; no honey under 12 months (infant botulism)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 5-kg, 2-month-old infant is being assessed for fluid and energy intake. Approximately how much milk should he take per day?",
+    "options": [
+     "About 750 ml/day, 500-550 kcal/day",
+     "About 500 ml/day, 250 kcal/day",
+     "About 1200 ml/day, 900 kcal/day",
+     "About 300 ml/day, 200 kcal/day"
+    ],
+    "answer": 0,
+    "explain": "Fluid ~150 ml/kg/day (5 × 150 = 750 ml) and energy ~100-110 kcal/kg/day (500-550 kcal) in early infancy.",
+    "note": "Energy ~100-110 kcal/kg/day early; fluid ~150 ml/kg/day."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What are the contraindications to breastfeeding (and false ones)?",
+    "back": "True: infant galactosaemia • maternal HIV (high-income settings), untreated TB, varicella (around delivery/active lesions). NOT contraindications: hepatitis B, mastitis."
+   },
+   {
+    "type": "card",
+    "front": "Outline weaning and supplement recommendations for infants.",
+    "back": "Exclusive breastfeeding 6 months, continue to 2 years • solids ~6 months, never before 17 weeks • no honey under 12 months (botulism) • cow's milk after 12 months • vitamin D 400 IU daily + vitamin K 1 mg IM at birth."
+   },
+   {
+    "type": "card",
+    "front": "How does breast milk differ from cow's milk, and how is lactation controlled?",
+    "back": "Breast milk: protein one third of cow's (lower renal solute load), colostrum rich in IgA. Suckling → prolactin (synthesis) + oxytocin (let-down); supply follows demand."
+   }
+  ]
+ },
+ "II-5": {
+  "summary": "Psychosomatic symptoms are real, stress-driven (HPA and brain-gut axis) and should be managed by excluding red flags without endless tests; in eating disorders, the danger is physiological - know the admission criteria for anorexia, the hypokalaemic alkalosis of bulimia and the hypophosphataemia of refeeding.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "According to DSM-5, which minimum frequency and duration of binge eating with compensatory behaviour is required for bulimia nervosa?",
+    "options": [
+     "Daily for 1 month",
+     "At least weekly for 3 months",
+     "Twice weekly for 6 months",
+     "At least monthly for 1 year"
+    ],
+    "answer": 1,
+    "explain": "Bulimia nervosa requires binge eating plus inappropriate compensation at least once weekly for 3 months (older DSM-IV used twice weekly). Unlike anorexia, weight is usually normal.",
+    "note": "Anorexia: restriction, low weight; bulimia: binge + compensation weekly for 3 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 15-year-old with anorexia nervosa has had no periods for 8 months. What is the mechanism of her amenorrhoea?",
+    "options": [
+     "Primary ovarian failure from autoimmune oophoritis",
+     "Excess androgen production from the adrenal glands",
+     "Hyperprolactinaemia from a pituitary adenoma",
+     "Loss of pulsatile GnRH → low LH, FSH and oestrogen"
+    ],
+    "answer": 3,
+    "explain": "Starvation suppresses pulsatile hypothalamic GnRH → low LH/FSH → low oestrogen → hypothalamic amenorrhoea. Ovarian failure would show high FSH/LH.",
+    "note": "Anorexia: loss of pulsatile GnRH → low LH/FSH/estrogen → amenorrhea."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 16-year-old girl of normal weight has bilateral painless swelling at the angles of the jaw, eroded dental enamel and calluses over the dorsum of the hand. What is the most likely diagnosis?",
+    "options": [
+     "Anorexia nervosa, restrictive type",
+     "Mumps parotitis",
+     "Bulimia nervosa",
+     "Sjögren syndrome"
+    ],
+    "answer": 2,
+    "explain": "Parotid hypertrophy, enamel erosion and Russell sign (knuckle calluses from inducing vomiting) indicate bulimia; weight is usually normal. Restrictive anorexia shows low weight, lanugo and bradycardia.",
+    "note": "BN: parotid hypertrophy, enamel erosion, Russell sign (knuckle calluses)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "In the patient with recurrent self-induced vomiting, which blood result pattern is expected?",
+    "options": [
+     "Hyperkalaemic hyperchloraemic metabolic acidosis",
+     "Hypokalaemic hyperchloraemic metabolic acidosis",
+     "Hypokalaemic hypochloraemic metabolic alkalosis",
+     "Normokalaemic respiratory alkalosis"
+    ],
+    "answer": 2,
+    "explain": "Vomiting loses HCl; volume depletion triggers aldosterone, wasting K⁺ and H⁺ → hypokalaemic hypochloraemic metabolic alkalosis. Laxative abuse instead tends to give a normal anion-gap (hyperchloraemic) acidosis.",
+    "note": "BN: hypokalaemic hypochloraemic metabolic alkalosis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 15-year-old with anorexia nervosa is seen in clinic. Which finding is an indication for hospital admission according to the criteria in your notes?",
+    "options": [
+     "Heart rate 38/min",
+     "Systolic BP 92 mmHg",
+     "Temperature 36.0 °C",
+     "Median BMI 78%"
+    ],
+    "answer": 0,
+    "explain": "Admit AN with HR under 40, SBP under 80, temperature under 35.5 °C, %mBMI under 70%, or syncope. The other values are above these thresholds (though many guidelines, e.g. SAHM, admit at less extreme values such as HR <50).",
+    "note": "Admit AN: HR under 40, SBP under 80, temp under 35.5 °C, %mBMI under 70%, syncope."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A severely malnourished 14-year-old with anorexia is admitted and started on nasogastric feeding. On day 3 she develops weakness, confusion and heart failure. Which electrolyte abnormality is the key cause?",
+    "options": [
+     "Hypernatraemia",
+     "Hypophosphataemia",
+     "Hypercalcaemia",
+     "Hyperkalaemia"
+    ],
+    "answer": 1,
+    "explain": "Refeeding syndrome: insulin surge drives phosphate (with K⁺ and Mg²⁺) into cells; hypophosphataemia depletes ATP and 2,3-DPG → weakness, confusion, heart failure. Potassium falls rather than rises.",
+    "note": "Refeeding: key electrolyte disturbance hypophosphataemia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "What is the first-line treatment for a 14-year-old with anorexia nervosa who is medically stable for outpatient care?",
+    "options": [
+     "Fluoxetine monotherapy",
+     "Olanzapine to promote weight gain",
+     "Individual psychodynamic therapy alone",
+     "Family-based therapy"
+    ],
+    "answer": 3,
+    "explain": "Family-based therapy (Maudsley) is first-line for adolescent AN. SSRIs (fluoxetine) plus psychotherapy are used in bulimia; medication has little role in AN weight restoration.",
+    "note": "Family-based therapy first-line for adolescent AN; bulimia: psychotherapy ± SSRIs (fluoxetine)."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "An 8-year-old has had periumbilical pain most school-day mornings for 4 months, never at weekends or holidays. Growth, examination and screening bloods are normal; the pain started after her parents separated. What is the most appropriate management?",
+    "options": [
+     "Explain brain-gut link, avoid more tests, see one doctor regularly",
+     "Upper GI endoscopy and colonoscopy to exclude IBD",
+     "Abdominal CT to exclude malrotation and intussusception",
+     "Refer to paediatric surgery for a diagnostic laparoscopy"
+    ],
+    "answer": 0,
+    "explain": "This is functional abdominal pain (commonest psychosomatic complaint), linked to stress and possibly separation anxiety/school avoidance. Without red flags, avoid endless tests; regular visits with a single physician, address stressors and screen for self-harm.",
+    "note": "Somatic symptoms: monthly visits with a single physician; screen self-harm."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Compare the clinical signs of anorexia and bulimia nervosa.",
+    "back": "AN: low weight, bradycardia, hypotension, lanugo, amenorrhoea (low GnRH), mitral valve prolapse. BN: normal weight, parotid hypertrophy, enamel erosion, Russell sign, hypokalaemic hypochloraemic metabolic alkalosis."
+   },
+   {
+    "type": "card",
+    "front": "What are the admission criteria for anorexia nervosa (per your notes)?",
+    "back": "HR under 40 • SBP under 80 • temperature under 35.5 °C • %mBMI under 70% • syncope. On refeeding watch hypophosphataemia (refeeding syndrome)."
+   },
+   {
+    "type": "card",
+    "front": "How do you manage psychosomatic (functional) symptoms in children?",
+    "back": "Exclude red flags but avoid endless tests • explain stress → HPA/brain-gut axis → visceral hypersensitivity • address school, bullying, family conflict, abuse • monthly visits with one physician • screen for self-harm."
+   }
+  ]
+ }
+}

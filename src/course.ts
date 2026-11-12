@@ -1,196 +1,250 @@
-import type { BlockName, ChoiceStep, Course, Step, Topic } from "./types";
+import courseData from "./data/course.json";
+import screeningData from "./data/screening.json";
+import type { BlockName, Card, Chunk, Course, Mcq, Teach, Topic, TopicBank } from "./types";
 
-const BLOCKS: BlockName[] = ["Def", "Cause", "Patho", "Signs", "Dx", "Rx"];
+export const BLOCKS: BlockName[] = ["Def", "Cause", "Patho", "Signs", "Dx", "Rx"];
 
-const BLOCK_LABEL: Record<BlockName, string> = {
+export const BLOCK_LABEL: Record<BlockName, string> = {
   Def: "Definition",
-  Cause: "Cause",
-  Patho: "What happens",
-  Signs: "What you see",
-  Dx: "How you diagnose it",
-  Rx: "What you do",
+  Cause: "Causes",
+  Patho: "Pathophysiology",
+  Signs: "Clinical picture",
+  Dx: "Diagnosis",
+  Rx: "Treatment",
 };
 
-export const DAY_LABEL: Record<NonNullable<Topic["day"]>, string> = {
-  sun: "Tonight",
-  mon: "Monday",
-  tue: "Tuesday",
-  wed: "Wednesday",
+export const SECTION_NAME: Record<Topic["section"], string> = {
+  I: "Symptoms, differentials & acute care",
+  II: "Prevention, infection, neonatology & oncology",
+  III: "Organ systems",
 };
 
-type Fact = { source: BlockName; text: string };
-type Cut = { source: BlockName; text: string; setup: string; answer: string; score: number };
+const JUNK = /(all 165 topics|in the words of your anki|thesis line)/i;
 
-function hash(value: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < value.length; i += 1) h = Math.imul(h ^ value.charCodeAt(i), 16777619);
-  return h >>> 0;
+/** The PDF parser split a few sentences after "S." or "e.g."; stitch them back together. */
+function stitch(lines: string[]): string[] {
+  const out: string[] = [];
+  for (const line of lines) {
+    const prev = out[out.length - 1];
+    if (prev && /(\b[A-Z]\.|e\.g\.)$/.test(prev) && /^[a-z(]/.test(line)) out[out.length - 1] = `${prev} ${line}`;
+    else out.push(line);
+  }
+  return out;
 }
 
-function randomOf(seed: number): () => number {
-  let state = seed || 1;
-  return () => {
-    state = (state + 0x6d2b79f5) | 0;
-    let t = Math.imul(state ^ (state >>> 15), 1 | state);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+function clean(topic: Topic): Topic {
+  const blocks = {} as Record<BlockName, string[]>;
+  for (const block of BLOCKS) {
+    blocks[block] = stitch((topic.blocks[block] ?? []).map((line) => line.replace(/O,₂/g, "O₂").trim()).filter((line) => line.length > 2 && !JUNK.test(line)));
+  }
+  return { ...topic, blocks };
+}
+
+export const course: Course = { topics: (courseData as Course).topics.map(clean) };
+export const topicById = new Map(course.topics.map((topic) => [topic.id, topic]));
+
+type RawQuestion = Omit<Mcq, "id" | "topicId"> & { id?: string };
+type RawCard = Omit<Card, "id" | "topicId"> & { id?: string };
+type RawBank = { summary?: string; questions?: RawQuestion[]; cards?: RawCard[] };
+
+const files = import.meta.glob("./data/qbank/*.json", { eager: true, import: "default" }) as Record<string, Record<string, RawBank>>;
+
+function validQuestion(q: RawQuestion): boolean {
+  return (
+    !!q &&
+    typeof q.stem === "string" &&
+    Array.isArray(q.options) &&
+    q.options.length >= 3 &&
+    Number.isInteger(q.answer) &&
+    q.answer >= 0 &&
+    q.answer < q.options.length
+  );
+}
+
+/** Fallback when a topic has no authored bank: recall cards straight from the notes. */
+function fallbackBank(topic: Topic): TopicBank {
+  const prompts: Record<BlockName, string> = {
+    Def: `Define: ${topic.title}.`,
+    Cause: `What causes / differentials belong to "${topic.title}"?`,
+    Patho: `Explain the pathophysiology behind "${topic.title}".`,
+    Signs: `What is the clinical picture of "${topic.title}"?`,
+    Dx: `How do you diagnose "${topic.title}"?`,
+    Rx: `How do you treat "${topic.title}"?`,
   };
+  const cards: Card[] = BLOCKS.filter((block) => topic.blocks[block].length).map((block, i) => ({
+    type: "card",
+    id: `${topic.id}-c${i}`,
+    topicId: topic.id,
+    front: prompts[block],
+    back: topic.blocks[block].join(" • "),
+  }));
+  return { summary: topic.blocks.Def[0] ?? topic.title, questions: [], cards };
 }
 
-function shuffle<T>(items: T[], random: () => number): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
+const banks = new Map<string, TopicBank>();
+for (const file of Object.values(files)) {
+  for (const [topicId, raw] of Object.entries(file)) {
+    if (!topicById.has(topicId)) continue;
+    const questions: Mcq[] = (raw.questions ?? []).filter(validQuestion).map((q, i) => ({
+      type: "mcq",
+      id: `${topicId}-q${i}`,
+      topicId,
+      block: BLOCKS.includes(q.block) ? q.block : "Def",
+      level: q.level === 1 || q.level === 3 ? q.level : 2,
+      stem: q.stem,
+      options: q.options,
+      answer: q.answer,
+      explain: q.explain ?? "",
+      note: q.note ?? "",
+    }));
+    const cards: Card[] = (raw.cards ?? [])
+      .filter((c) => c && c.front && c.back)
+      .map((c, i) => ({ type: "card", id: `${topicId}-c${i}`, topicId, front: c.front, back: c.back }));
+    banks.set(topicId, { summary: raw.summary ?? "", questions, cards });
   }
-  return copy;
 }
 
-function usable(text: string): boolean {
-  const line = text.trim();
-  if (line.length < 24 || line.length > 170) return false;
-  if (/[,;:]\s*$/.test(line) || line.includes("· Thesis")) return false;
-  return true;
+export function bankFor(topicId: string): TopicBank {
+  const bank = banks.get(topicId);
+  if (bank && (bank.questions.length || bank.cards.length)) return bank;
+  const topic = topicById.get(topicId);
+  return topic ? fallbackBank(topic) : { summary: "", questions: [], cards: [] };
 }
 
-function cutFact(source: BlockName, text: string): Cut | null {
-  if (!usable(text)) return null;
-  const line = text.trim();
-  const seps = [
-    { token: "→", bonus: 40 },
-    { token: "=", bonus: 30 },
-    { token: ": ", bonus: 20 },
-    { token: "; ", bonus: 8 },
-  ];
-  let best: Cut | null = null;
-  for (const sep of seps) {
-    let from = 0;
-    while (from < line.length) {
-      const at = line.indexOf(sep.token, from);
-      if (at < 0) break;
-      const setup = line.slice(0, at).trim().replace(/[;:,]\s*$/, "");
-      const answer = line.slice(at + sep.token.length).trim();
-      const tidy = setup.length >= 12 && setup.length <= 85 && answer.length >= 12 && answer.length <= 72 && !setup.startsWith("→");
-      if (tidy) {
-        let score = sep.bonus + Math.min(setup.length, 36) - Math.floor(at / 12);
-        if (!answer.includes(":") && !answer.includes("→") && !answer.includes("=")) score += 30;
-        if (answer.length <= 48) score += 8;
-        if (/[,;]\s*$/.test(answer)) score -= 20;
-        const cut = { source, text: line, setup, answer, score };
-        if (!best || cut.score > best.score) best = cut;
-      }
-      from = at + sep.token.length;
-    }
+type RawScreening = { n: number; q: string; a: string; topicId: string; caveat?: string };
+
+/** The university's 100 official screening questions, as oral-drill cards. */
+export const screening: Card[] = (screeningData as RawScreening[]).map((s) => ({
+  type: "card",
+  id: `S-${s.n}`,
+  topicId: s.topicId,
+  front: s.q.replace(/:\s*$/, "?"),
+  back: s.a,
+  university: true,
+  caveat: s.caveat,
+}));
+
+export function screeningFor(topicId: string): Card[] {
+  return screening.filter((card) => card.topicId === topicId);
+}
+
+/* ---------- bite-size chunks: one per notes block, quick single-fact checks ---------- */
+
+type RawCheck = { q: string; options: string[]; answer: number; why: string };
+type RawChunk = { block: BlockName; explain?: string; hook?: string; checks?: RawCheck[] };
+const chunkFiles = import.meta.glob("./data/chunks/*.json", { eager: true, import: "default" }) as Record<string, Record<string, RawChunk[]>>;
+
+const chunkMap = new Map<string, Chunk[]>();
+for (const file of Object.values(chunkFiles)) {
+  for (const [topicId, raw] of Object.entries(file)) {
+    const topic = topicById.get(topicId);
+    if (!topic || !Array.isArray(raw)) continue;
+    const chunks: Chunk[] = raw
+      .filter((c) => BLOCKS.includes(c.block))
+      .map((c, ci) => {
+        const lines = topic.blocks[c.block] ?? [];
+        const checks: Mcq[] = (c.checks ?? [])
+          .filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length)
+          .map((q, i) => ({
+            type: "mcq",
+            id: `${topicId}-f${ci}-${i}`,
+            topicId,
+            block: c.block,
+            level: 1,
+            stem: q.q,
+            options: q.options,
+            answer: q.answer,
+            explain: q.why ?? "",
+            note: lines[i] ?? "",
+            quick: true,
+          }));
+        return { block: c.block, lines, explain: c.explain ?? "", hook: c.hook ?? "", checks };
+      })
+      .filter((c) => c.lines.length || c.checks.length);
+    if (chunks.length) chunkMap.set(topicId, chunks);
   }
-  return best && best.score >= 30 ? best : null;
 }
 
-function cutsOf(topic: Topic): Cut[] {
-  const cuts: Cut[] = [];
-  for (const source of BLOCKS) {
-    for (const text of topic.blocks[source]) {
-      const cut = cutFact(source, text);
-      if (cut) cuts.push(cut);
-    }
-  }
-  return cuts;
+export function chunksFor(topicId: string): Chunk[] {
+  return chunkMap.get(topicId) ?? [];
 }
 
-function factsOf(topic: Topic): Fact[] {
-  const facts: Fact[] = [];
-  for (const source of BLOCKS) {
-    for (const text of topic.blocks[source]) {
-      if (usable(text)) facts.push({ source, text: text.trim() });
-    }
-  }
-  return facts;
+export function hasChunks(topicId: string): boolean {
+  return chunkMap.has(topicId);
 }
 
-function pickLessonCuts(cuts: Cut[]): Cut[] {
-  const picked: Cut[] = [];
-  const used = new Set<string>();
-  for (const source of BLOCKS) {
-    const next = cuts
-      .filter((cut) => cut.source === source && !used.has(cut.text))
-      .sort((a, b) => b.score - a.score)[0];
-    if (!next) continue;
-    picked.push(next);
-    used.add(next.text);
-    if (picked.length === 4) break;
-  }
-  return picked;
+/** The vignettes used to "put it together" at the end of a chunked lesson. */
+export function capstoneFor(topicId: string): Mcq[] {
+  const qs = bankFor(topicId).questions;
+  const l2 = qs.filter((q) => q.level === 2);
+  const l3 = qs.filter((q) => q.level === 3);
+  return [...l2.slice(0, 2), ...l3.slice(0, 1), ...qs].filter((q, i, all) => all.indexOf(q) === i).slice(0, 3);
 }
 
-function distractorsFor(answer: string, own: Cut[], random: () => number): string[] {
-  return shuffle(
-    own.map((cut) => cut.answer).filter((item, index, all) => item !== answer && all.indexOf(item) === index),
-    random,
-  ).slice(0, 3);
+/** Lesson steps: teach a block → quick checks on it → next block … → 3 vignettes. */
+/** Test-first lesson: quick checks block by block (the notes line + hook appear on a miss), then 1 vignette. */
+export function fastLessonSteps(topicId: string): Mcq[] {
+  const checks = chunksFor(topicId).flatMap((c) => c.checks);
+  const cap = capstoneFor(topicId);
+  const hard = cap.find((q) => q.level === 3) ?? cap[0];
+  return hard ? [...checks, hard] : checks;
 }
 
-export function buildLesson(topic: Topic, _course: Course, attempt = 0): Step[] {
-  const random = randomOf(hash(`${topic.id}:${attempt}`));
-  const ownCuts = cutsOf(topic);
-  const taught = pickLessonCuts(ownCuts);
-  const steps: Step[] = [];
-
-  taught.forEach((cut, index) => {
-    steps.push({
-      kind: "read",
-      id: `${topic.id}-teach${index}`,
-      prompt: topic.title,
-      lines: [{ source: cut.source, text: cut.text }],
-    });
-    const wrong = distractorsFor(cut.answer, ownCuts, random);
-    if (wrong.length >= 2) {
-      const step: ChoiceStep = {
-        kind: "choice",
-        id: `${topic.id}-do${index}`,
-        prompt: topic.title,
-        stem: `${cut.setup} …`,
-        options: shuffle([cut.answer, ...wrong], random),
-        answer: cut.answer,
-        explain: cut.text,
-        source: cut.source,
-      };
-      steps.push(step);
-    }
+/** Blitz: several topics back to back; a one-card intro per topic, then its quick checks. */
+export function blitzSteps(topicIds: string[]): (Teach | Mcq)[] {
+  const steps: (Teach | Mcq)[] = [];
+  topicIds.forEach((id, i) => {
+    const topic = topicById.get(id);
+    if (!topic) return;
+    const summary = bankFor(id).summary;
+    steps.push({ type: "teach", id: `${id}-intro`, topicId: id, block: "Def", lines: summary ? [summary] : [], explain: "", hook: "", step: i + 1, steps: topicIds.length, title: topic.title });
+    steps.push(...chunksFor(id).flatMap((c) => c.checks));
   });
-
-  const review = taught.filter((cut) => steps.some((step) => step.kind === "choice" && step.explain === cut.text));
-  review.slice(0, 2).forEach((cut, index) => {
-    const wrong = distractorsFor(cut.answer, ownCuts, random);
-    if (wrong.length < 2) return;
-    steps.push({
-      kind: "choice",
-      id: `${topic.id}-recall${index}`,
-      prompt: topic.title,
-      stem: `${cut.setup} …`,
-      options: shuffle([cut.answer, ...wrong], random),
-      answer: cut.answer,
-      explain: cut.text,
-      source: cut.source,
-    });
-  });
-
-  const trueFact = shuffle(factsOf(topic).filter((fact) => fact.source === "Rx" || fact.source === "Signs"), random)[0]
-    ?? factsOf(topic)[0];
-  if (trueFact) {
-    steps.push({
-      kind: "bool",
-      id: `${topic.id}-true`,
-      prompt: topic.title,
-      statement: trueFact.text,
-      answer: true,
-      explain: trueFact.text,
-    });
-  }
-
   return steps;
 }
 
-export function nextTopic(topics: Topic[], completed: Record<string, unknown>): Topic | undefined {
-  return topics.find((topic) => !completed[topic.id]);
+export function hookFor(topicId: string, block: BlockName): string {
+  return chunksFor(topicId).find((c) => c.block === block)?.hook ?? "";
 }
 
-export { BLOCK_LABEL };
+export function lessonSteps(topicId: string): (Teach | Mcq)[] {
+  const chunks = chunksFor(topicId);
+  const steps: (Teach | Mcq)[] = [];
+  chunks.forEach((c, i) => {
+    steps.push({ type: "teach", id: `${topicId}-t${i}`, topicId, block: c.block, lines: c.lines, explain: c.explain, hook: c.hook, step: i + 1, steps: chunks.length });
+    steps.push(...c.checks);
+  });
+  return [...steps, ...capstoneFor(topicId)];
+}
+
+export const allChecks: Mcq[] = course.topics.flatMap((t) => chunksFor(t.id).flatMap((c) => c.checks));
+export const checkCount = allChecks.length;
+
+export const allItems: (Mcq | Card)[] = [
+  ...allChecks,
+  ...course.topics.flatMap((topic) => {
+    const bank = bankFor(topic.id);
+    return [...bank.questions, ...bank.cards];
+  }),
+];
+export const itemById = new Map(allItems.map((item) => [item.id, item]));
+
+export const questionCount = allItems.filter((item) => item.type === "mcq").length;
+export const authoredTopics = course.topics.filter((topic) => (banks.get(topic.id)?.questions.length ?? 0) > 0).length;
+
+const DAY_ORDER: Record<string, number> = { sun: 0, mon: 1, tue: 2, wed: 3 };
+
+/**
+ * Study order: the topics never reviewed in Anki (tagged with a day) come first,
+ * in the order they were scheduled, then everything else in syllabus order.
+ */
+export const studyOrder: Topic[] = [...course.topics].sort((a, b) => {
+  const da = a.day ? DAY_ORDER[a.day] : 9;
+  const db = b.day ? DAY_ORDER[b.day] : 9;
+  if (da !== db) return da - db;
+  return course.topics.indexOf(a) - course.topics.indexOf(b);
+});
+
+export function topicLabel(topic: Topic): string {
+  return `${topic.section}-${topic.n}`;
+}

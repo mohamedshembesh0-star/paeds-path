@@ -1,0 +1,2632 @@
+{
+ "III-11": [
+  {
+   "block": "Def",
+   "explain": "Cystitis stays in the bladder lining; pyelonephritis reaches kidney tissue, so it brings fever and systemic illness.",
+   "hook": "Bladder = burning; kidney = fever.",
+   "checks": [
+    {
+     "q": "Which UTI involves the renal parenchyma?",
+     "options": [
+      "Cystitis",
+      "Urethritis",
+      "Pyelonephritis"
+     ],
+     "answer": 2,
+     "why": "Pyelonephritis is parenchymal infection; cystitis is limited to bladder mucosa."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Gut bacteria ascend the urethra; P fimbriae let E. coli stick to uroepithelium. Anything causing stasis or reflux raises risk.",
+   "hook": "E. coli: P for Pyelo-fimbriae.",
+   "checks": [
+    {
+     "q": "Most frequent pathogen in childhood UTI?",
+     "options": [
+      "E. coli",
+      "Klebsiella",
+      "Proteus"
+     ],
+     "answer": 0,
+     "why": "E. coli (P fimbriae) is commonest; Klebsiella and Proteus are less frequent."
+    },
+    {
+     "q": "Which is a recognised UTI risk factor in children?",
+     "options": [
+      "Breastfeeding",
+      "Constipation",
+      "Circumcision"
+     ],
+     "answer": 1,
+     "why": "Constipation, VUR, PUV and dysfunctional voiding cause stasis and raise UTI risk."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Primary VUR comes from a short ureteric tunnel in the bladder wall, so the valve fails. Kidney infection scars tissue, leading to HTN and CKD.",
+   "hook": "Short tunnel = leaky valve.",
+   "checks": [
+    {
+     "q": "What causes primary VUR?",
+     "options": [
+      "Posterior urethral valves in boys",
+      "Neurogenic bladder dysfunction",
+      "Short intramural ureteric tunnel"
+     ],
+     "answer": 2,
+     "why": "Primary VUR is a short intramural tunnel; PUV and neurogenic bladder cause secondary VUR."
+    },
+    {
+     "q": "Long-term risk of renal scarring after pyelonephritis?",
+     "options": [
+      "Hypertension",
+      "Nephrotic syndrome",
+      "Renal stones"
+     ],
+     "answer": 0,
+     "why": "Scarring leads to hypertension and CKD."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Infants cannot localise symptoms, so UTI looks like sepsis. Older children show bladder (dysuria) or kidney (loin pain, fever) features.",
+   "hook": "Febrile infant, no focus: check the urine.",
+   "checks": [
+    {
+     "q": "Typical infant UTI presentation?",
+     "options": [
+      "Dysuria and urinary frequency",
+      "Non-specific fever and poor feeding",
+      "Unilateral loin pain and tenderness"
+     ],
+     "answer": 1,
+     "why": "Infants present non-specifically: fever, vomiting, poor feeding, jaundice, sepsis."
+    },
+    {
+     "q": "Which feature suggests pyelonephritis over cystitis?",
+     "options": [
+      "Frequency",
+      "Dysuria",
+      "Loin pain"
+     ],
+     "answer": 2,
+     "why": "Fever and loin pain point to the kidney; dysuria/frequency to the bladder."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Dipstick screens, culture confirms. WBC casts prove renal origin. MCU shows reflux; DMSA later shows permanent scars.",
+   "hook": "Casts = kidney; DMSA = scars.",
+   "checks": [
+    {
+     "q": "Dipstick markers for UTI?",
+     "options": [
+      "Nitrite and leucocyte esterase",
+      "Protein and blood with ketones",
+      "Glucose and ketones with bilirubin"
+     ],
+     "answer": 0,
+     "why": "Nitrite + leucocyte esterase on a clean/catheter sample, confirmed by culture."
+    },
+    {
+     "q": "Typical urine sediment in pyelonephritis?",
+     "options": [
+      "RBC casts with heavy proteinuria",
+      "WBC casts, leucocytes, bacteria",
+      "Hyaline casts and oval fat bodies"
+     ],
+     "answer": 1,
+     "why": "Leucocytes, WBC casts and bacteria; RBC casts suggest glomerulonephritis."
+    },
+    {
+     "q": "Which test is used to diagnose VUR?",
+     "options": [
+      "DMSA scintigraphy scan",
+      "Intravenous urogram",
+      "Micturating cystourethrogram"
+     ],
+     "answer": 2,
+     "why": "MCU, sonocystography or dynamic scintigraphy show reflux; DMSA shows scars at 4-6 months."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Young infants risk bacteraemia so need IV therapy. Pyelonephritis needs longer courses than cystitis. VUR: prevent infection, operate if breakthrough.",
+   "hook": "Under 3 months = IV; pyelo 7-10, cystitis 3.",
+   "checks": [
+    {
+     "q": "UTI management in an infant under 3 months?",
+     "options": [
+      "Admit, IV cefotaxime/ceftriaxone",
+      "Oral cefalexin at home for 3 days",
+      "Observe and repeat urine in 48 h"
+     ],
+     "answer": 0,
+     "why": "Under 3 months: admit and give IV third-generation cephalosporin."
+    },
+    {
+     "q": "Oral antibiotic duration for pyelonephritis?",
+     "options": [
+      "3 days",
+      "7-10 days",
+      "21 days"
+     ],
+     "answer": 1,
+     "why": "Pyelonephritis 7-10 days (cefalexin/co-amoxiclav); cystitis only 3 days."
+    },
+    {
+     "q": "VUR indication for surgery?",
+     "options": [
+      "Any grade I reflux on MCU",
+      "Single febrile UTI in infancy",
+      "Breakthrough infections"
+     ],
+     "answer": 2,
+     "why": "Surgery is for breakthrough infections despite prophylaxis and bowel/bladder care."
+    }
+   ]
+  }
+ ],
+ "III-12": [
+  {
+   "block": "Def",
+   "explain": "Unlike adults, children's stones usually reflect an underlying metabolic disorder, so every child needs a work-up.",
+   "hook": "Child stone = look for metabolism.",
+   "checks": [
+    {
+     "q": "Most childhood urinary stones are mainly what?",
+     "options": [
+      "Metabolic",
+      "Idiopathic",
+      "Traumatic"
+     ],
+     "answer": 0,
+     "why": "Paediatric stones are mostly metabolic, so all children get a metabolic work-up."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Too much calcium in urine is the top cause; low citrate, oxalate, cystine and RTA follow. Proteus, stasis and some drugs add risk.",
+   "hook": "Calcium tops the list.",
+   "checks": [
+    {
+     "q": "Commonest metabolic abnormality in paediatric stones?",
+     "options": [
+      "Hyperoxaluria",
+      "Hypercalciuria",
+      "Cystinuria"
+     ],
+     "answer": 1,
+     "why": "Hypercalciuria is commonest; hypocitraturia, hyperoxaluria, cystinuria follow."
+    },
+    {
+     "q": "Which drug causes stones in preterm infants?",
+     "options": [
+      "Spironolactone",
+      "Caffeine",
+      "Furosemide"
+     ],
+     "answer": 2,
+     "why": "Loop diuretic furosemide raises urinary calcium in preterms; topiramate also causes stones."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Stones form when urine is supersaturated. Citrate binds calcium and inhibits crystals. Urease splits urea to ammonia, alkalinising urine for struvite.",
+   "hook": "Citrate is the stone's enemy.",
+   "checks": [
+    {
+     "q": "Main urinary inhibitor of stone formation?",
+     "options": [
+      "Citrate",
+      "Oxalate",
+      "Urate"
+     ],
+     "answer": 0,
+     "why": "Citrate chelates calcium; low citrate promotes supersaturation."
+    },
+    {
+     "q": "Struvite stones form in which urine?",
+     "options": [
+      "Acidic urine",
+      "Alkaline urine",
+      "Dilute urine"
+     ],
+     "answer": 1,
+     "why": "Urease (e.g. Proteus) makes ammonia, alkalinising urine for struvite."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Teenagers present like adults with colic. Young children cannot describe pain, so present vaguely or with UTI/haematuria. Cystine crystals are hexagonal.",
+   "hook": "Hexagon = cystine.",
+   "checks": [
+    {
+     "q": "Classic stone pain in adolescents radiates where?",
+     "options": [
+      "Epigastrium to back",
+      "Umbilicus to RIF",
+      "Flank to groin"
+     ],
+     "answer": 2,
+     "why": "Renal colic: flank to groin with nausea and haematuria."
+    },
+    {
+     "q": "How do young children with stones often present?",
+     "options": [
+      "Atypically, e.g. painless haematuria",
+      "Classic colicky flank-to-groin pain",
+      "Acute urinary retention with anuria"
+     ],
+     "answer": 0,
+     "why": "Young children are atypical: vague pain, irritability, UTI, painless haematuria."
+    },
+    {
+     "q": "Hexagonal urinary crystals indicate which disorder?",
+     "options": [
+      "Hyperoxaluria",
+      "Cystinuria",
+      "Hypercalciuria"
+     ],
+     "answer": 1,
+     "why": "Hexagonal crystals are cystine; oxalate crystals are envelope-shaped."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Ultrasound avoids radiation and is first. CT only if unclear. Metabolic work-up is mandatory in every child.",
+   "hook": "US first, CT last.",
+   "checks": [
+    {
+     "q": "First-line imaging for suspected stones in children?",
+     "options": [
+      "Low-dose CT",
+      "KUB X-ray",
+      "Ultrasound"
+     ],
+     "answer": 2,
+     "why": "Ultrasound first; KUB for calcium stones; low-dose CT only if unclear."
+    },
+    {
+     "q": "Who needs metabolic stone work-up?",
+     "options": [
+      "Every child with a stone",
+      "Only recurrent stones",
+      "Only those with family history"
+     ],
+     "answer": 0,
+     "why": "Every child: blood/urine calcium, oxalate, citrate, cystine, plus stone analysis."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Small stones pass with analgesia and fluids. Infected obstructed kidney is an emergency. Prevention targets cause: thiazides cut urine calcium.",
+   "hook": "Obstructed + infected = drain now.",
+   "checks": [
+    {
+     "q": "Obstructed infected kidney needs what?",
+     "options": [
+      "Oral antibiotics only",
+      "Urgent drainage",
+      "Elective ESWL"
+     ],
+     "answer": 1,
+     "why": "An obstructed infected kidney needs urgent drainage plus antibiotics."
+    },
+    {
+     "q": "Stones below which size usually pass?",
+     "options": [
+      "10 mm",
+      "15 mm",
+      "5 mm"
+     ],
+     "answer": 2,
+     "why": "Stones <5 mm usually pass (tamsulosin helps); larger ones need ESWL/ureteroscopy/PCNL."
+    },
+    {
+     "q": "Which drug reduces urinary calcium in stone prevention?",
+     "options": [
+      "Thiazide",
+      "Furosemide",
+      "Acetazolamide"
+     ],
+     "answer": 0,
+     "why": "Thiazides reduce urinary calcium; furosemide increases it."
+    }
+   ]
+  }
+ ],
+ "III-13": [
+  {
+   "block": "Def",
+   "explain": "Inflamed glomeruli leak red cells (and some protein), giving the nephritic picture of haematuria, HTN and oedema.",
+   "hook": "Nephritic = blood; nephrotic = protein.",
+   "checks": [
+    {
+     "q": "Hallmark urine finding in glomerulonephritis?",
+     "options": [
+      "Glycosuria",
+      "Haematuria",
+      "Ketonuria"
+     ],
+     "answer": 1,
+     "why": "GN causes haematuria ± proteinuria: the nephritic syndrome."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "IgA nephropathy is the most frequent GN; PSGN follows streptococcal infection. Alport is a collagen IV defect affecting kidney and ear.",
+   "hook": "Alport: can't pee, can't see, can't hear.",
+   "checks": [
+    {
+     "q": "Most frequent glomerulonephritis type?",
+     "options": [
+      "PSGN",
+      "Membranous",
+      "IgA nephropathy"
+     ],
+     "answer": 2,
+     "why": "IgA nephropathy is commonest; PSGN follows group A strep."
+    },
+    {
+     "q": "Which is an ANCA-negative cause of GN here?",
+     "options": [
+      "Anti-GBM disease",
+      "Granulomatosis with polyangiitis",
+      "Microscopic polyangiitis"
+     ],
+     "answer": 0,
+     "why": "Anti-GBM is antibody-mediated, not ANCA; the notes list lupus, MPGN, HSP, ANCA, anti-GBM."
+    },
+    {
+     "q": "Haematuria with sensorineural deafness suggests?",
+     "options": [
+      "IgA nephropathy",
+      "Alport syndrome",
+      "Thin basement membrane"
+     ],
+     "answer": 1,
+     "why": "Alport (collagen IV) causes haematuria plus deafness and eye changes."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Immune complexes damage the filter, letting RBCs and casts through. Low GFR with ongoing sodium retention causes oedema and HTN.",
+   "hook": "Leaky filter + salt retention.",
+   "checks": [
+    {
+     "q": "What damages the GBM in most GN?",
+     "options": [
+      "Crystal deposition",
+      "Ischaemia",
+      "Immune complexes"
+     ],
+     "answer": 2,
+     "why": "Immune complexes break the GBM, releasing RBCs and casts."
+    },
+    {
+     "q": "Why does GN cause oedema and hypertension?",
+     "options": [
+      "↓GFR with Na⁺ retention",
+      "Heavy urinary albumin loss",
+      "Deficient ADH secretion"
+     ],
+     "answer": 0,
+     "why": "Falling GFR plus continued sodium reabsorption expands volume."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Classic nephritic child: cola urine, puffy eyes, high BP. Timing after infection separates IgA (days) from PSGN (weeks).",
+   "hook": "IgA = days; PSGN = weeks.",
+   "checks": [
+    {
+     "q": "Classic urine colour in acute nephritis?",
+     "options": [
+      "Frothy white",
+      "Cola-coloured",
+      "Bright green"
+     ],
+     "answer": 1,
+     "why": "Cola urine, periorbital oedema, hypertension, oliguria."
+    },
+    {
+     "q": "PSGN appears how long after pharyngitis?",
+     "options": [
+      "1-2 days",
+      "3-6 months",
+      "1-3 weeks"
+     ],
+     "answer": 2,
+     "why": "PSGN: 1-3 weeks after pharyngitis, 3-6 after impetigo; IgA: 1-2 days after URTI."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "RBC casts prove glomerular bleeding. Complement separates PSGN (low C3, recovers by 6-8 weeks) from IgA (normal C3).",
+   "hook": "Low C3 = PSGN; normal C3 = IgA.",
+   "checks": [
+    {
+     "q": "Typical urine in glomerulonephritis?",
+     "options": [
+      "RBCs with RBC casts, proteinuria",
+      "WBC casts with bacteria",
+      "Hyaline casts and fat bodies"
+     ],
+     "answer": 0,
+     "why": "RBCs with RBC casts, usually with proteinuria; WBC casts suggest pyelonephritis."
+    },
+    {
+     "q": "By when does C3 normalise in PSGN?",
+     "options": [
+      "2 weeks",
+      "6-8 weeks",
+      "6 months"
+     ],
+     "answer": 1,
+     "why": "C3 is low in PSGN and recovers by 6-8 weeks; persistent low C3 suggests MPGN/lupus."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "PSGN is self-limiting: manage fluid and BP. IgA: ACE inhibitor cuts proteinuria. RPGN is urgent immunosuppression.",
+   "hook": "PSGN supportive; RPGN pulse.",
+   "checks": [
+    {
+     "q": "Core PSGN treatment?",
+     "options": [
+      "High-dose IV steroids and cyclophosphamide",
+      "Plasma exchange and rituximab",
+      "Supportive: fluid restriction, furosemide"
+     ],
+     "answer": 2,
+     "why": "PSGN is supportive: salt/fluid restriction, diuretic, antihypertensives, penicillin."
+    },
+    {
+     "q": "First-line therapy for IgA nephropathy?",
+     "options": [
+      "ACE inhibitor",
+      "Cyclophosphamide",
+      "Rituximab"
+     ],
+     "answer": 0,
+     "why": "ACE inhibitor reduces proteinuria; steroids for heavier disease."
+    },
+    {
+     "q": "Extra treatment for anti-GBM RPGN?",
+     "options": [
+      "Eculizumab",
+      "Plasma exchange",
+      "IVIG"
+     ],
+     "answer": 1,
+     "why": "Pulse methylprednisolone, immunosuppression, plus plasma exchange for anti-GBM."
+    }
+   ]
+  }
+ ],
+ "III-14": [
+  {
+   "block": "Def",
+   "explain": "Massive protein leak lowers albumin, causing oedema; the liver compensates by making more lipoproteins.",
+   "hook": "Protein out, albumin down, fat up, swelling.",
+   "checks": [
+    {
+     "q": "Serum albumin threshold in nephrotic syndrome?",
+     "options": [
+      "<35 g/L",
+      "<20 g/L",
+      "<30 g/L"
+     ],
+     "answer": 2,
+     "why": "Albumin <30 g/L with UPCR ≥200 mg/mmol, oedema and hyperlipidaemia."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Most young children have steroid-sensitive minimal change disease. Atypical features suggest another lesion and prompt biopsy.",
+   "hook": "Small boy, 2-6 = minimal change.",
+   "checks": [
+    {
+     "q": "Commonest cause of nephrotic syndrome in young children?",
+     "options": [
+      "Minimal change disease",
+      "FSGS",
+      "Membranous"
+     ],
+     "answer": 0,
+     "why": "Minimal change, age 2-6, boys, ~80-90%."
+    },
+    {
+     "q": "Which feature makes nephrotic syndrome atypical?",
+     "options": [
+      "Age 4 years",
+      "Low C3",
+      "Periorbital oedema"
+     ],
+     "answer": 1,
+     "why": "Atypical: <1 or >12 y, HTN, macroscopic haematuria, low C3, renal impairment."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Podocyte effacement lets albumin leak, dropping oncotic pressure. Losing antithrombin causes clots; losing IgG causes infections.",
+   "hook": "Lose AT-III = clot; lose IgG = infect.",
+   "checks": [
+    {
+     "q": "What structural change underlies minimal change disease?",
+     "options": [
+      "Podocyte effacement",
+      "GBM splitting",
+      "Mesangial IgA"
+     ],
+     "answer": 0,
+     "why": "A circulating factor causes podocyte foot-process effacement."
+    },
+    {
+     "q": "Which urinary loss predisposes to thrombosis?",
+     "options": [
+      "Transferrin",
+      "Fibrinogen",
+      "Antithrombin III"
+     ],
+     "answer": 2,
+     "why": "Urinary loss of antithrombin III makes children hypercoagulable."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Gravity spreads oedema: eyes in the morning, legs later. Lost IgG and ascites set up pneumococcal peritonitis.",
+   "hook": "Morning puffy eyes.",
+   "checks": [
+    {
+     "q": "Where is oedema typically first noticed?",
+     "options": [
+      "Ankles, worse in the evening",
+      "Periorbital in the morning",
+      "Hands and fingers at night"
+     ],
+     "answer": 1,
+     "why": "Periorbital oedema in the morning, then legs, scrotum, ascites."
+    },
+    {
+     "q": "Classic organism of peritonitis in nephrotic syndrome?",
+     "options": [
+      "E. coli",
+      "Staph aureus",
+      "Streptococcus pneumoniae"
+     ],
+     "answer": 2,
+     "why": "Spontaneous peritonitis is classically pneumococcal."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Confirm with UPCR, albumin, lipids. Failing 4 weeks of steroids means a different disease, so biopsy and genetics.",
+   "hook": "4 weeks no remission = biopsy.",
+   "checks": [
+    {
+     "q": "Key urine test for nephrotic syndrome?",
+     "options": [
+      "Urine protein-creatinine ratio",
+      "24-hour urine sodium excretion",
+      "Urine osmolality and specific gravity"
+     ],
+     "answer": 0,
+     "why": "UPCR quantifies proteinuria, with serum albumin and lipids."
+    },
+    {
+     "q": "Steroid resistance is defined after how long?",
+     "options": [
+      "1 week",
+      "4 weeks",
+      "12 weeks"
+     ],
+     "answer": 1,
+     "why": "No remission after 4 weeks daily prednisolone = steroid-resistant → biopsy, genetics."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Steroids induce remission in minimal change. Albumin only for symptomatic hypovolaemia. Relapsers need steroid-sparing agents.",
+   "hook": "4 weeks daily, 4 weeks alternate.",
+   "checks": [
+    {
+     "q": "First-episode prednisolone regimen?",
+     "options": [
+      "2 weeks daily, then stop abruptly",
+      "12 weeks daily, then taper",
+      "4 weeks daily, 4 alternate"
+     ],
+     "answer": 2,
+     "why": "Daily prednisolone 4 weeks then alternate days 4 weeks."
+    },
+    {
+     "q": "Indication for 20% albumin?",
+     "options": [
+      "Symptomatic hypovolaemia",
+      "Any oedema",
+      "Hyperlipidaemia"
+     ],
+     "answer": 0,
+     "why": "Albumin is reserved for symptomatic hypovolaemia; plus pneumococcal vaccine, no added salt."
+    },
+    {
+     "q": "Treatment for steroid-resistant nephrotic syndrome?",
+     "options": [
+      "Rituximab alone",
+      "CNI + ACE inhibitor",
+      "Higher-dose steroids"
+     ],
+     "answer": 1,
+     "why": "Resistant: calcineurin inhibitor + ACE inhibitor; relapsing: CNI, MMF, rituximab."
+    }
+   ]
+  }
+ ],
+ "III-15": [
+  {
+   "block": "Def",
+   "explain": "AKI is defined by a quick creatinine rise; CKD by damage lasting over 3 months, staged by GFR.",
+   "hook": "AKI = 48 h/7 days; CKD = 3 months.",
+   "checks": [
+    {
+     "q": "KDIGO AKI: creatinine rise within 48 h?",
+     "options": [
+      "≥ 50 µmol/L",
+      "≥ 100 µmol/L",
+      "≥ 26.5 µmol/L"
+     ],
+     "answer": 2,
+     "why": "≥26.5 µmol/L (0.3 mg/dL) in 48 h or ≥1.5× in 7 days."
+    },
+    {
+     "q": "CKD G5 corresponds to GFR below?",
+     "options": [
+      "15 mL/min/1.73 m²",
+      "30 mL/min/1.73 m²",
+      "60 mL/min/1.73 m²"
+     ],
+     "answer": 0,
+     "why": "G5 (kidney failure) is GFR <15; CKD requires >3 months abnormality."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Most paediatric AKI is from poor perfusion (dehydration). Boys' outflow obstruction is PUV. HUS follows bloody diarrhoea; CAKUT dominates CKD.",
+   "hook": "Bloody diarrhoea then AKI = HUS.",
+   "checks": [
+    {
+     "q": "Commonest post-renal AKI cause in boys?",
+     "options": [
+      "Renal stones",
+      "Posterior urethral valves",
+      "Tumour"
+     ],
+     "answer": 1,
+     "why": "PUV is the classic post-renal cause; pre-renal is commonest overall."
+    },
+    {
+     "q": "Intrinsic AKI after bloody diarrhoea suggests?",
+     "options": [
+      "PSGN",
+      "Acute tubular necrosis from NSAIDs",
+      "Haemolytic uraemic syndrome"
+     ],
+     "answer": 2,
+     "why": "STEC HUS follows bloody diarrhoea; CAKUT is the commonest CKD cause."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Hypoperfused kidneys hold on to sodium and water (FENa<1%). Failing kidneys can't excrete K⁺. CKD loses EPO and vitamin D activation.",
+   "hook": "Pre-renal: kidney is thirsty, keeps salt.",
+   "checks": [
+    {
+     "q": "FENa in pre-renal AKI?",
+     "options": [
+      "<1%",
+      "2-3%",
+      ">5%"
+     ],
+     "answer": 0,
+     "why": "Pre-renal kidneys retain Na: FENa <1%; intrinsic AKI usually >2%."
+    },
+    {
+     "q": "Most dangerous electrolyte effect of AKI?",
+     "options": [
+      "Hypernatraemia",
+      "Hyperkalaemia",
+      "Hypercalcaemia"
+     ],
+     "answer": 1,
+     "why": "Lost K⁺ excretion causes hyperkalaemia and arrhythmia."
+    },
+    {
+     "q": "Why is CKD associated with anaemia?",
+     "options": [
+      "Iron overload from transfusions",
+      "Haemolysis from uraemic toxins",
+      "Reduced erythropoietin"
+     ],
+     "answer": 2,
+     "why": "Kidneys make erythropoietin; CKD also brings high PTH and phosphate, low calcium."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "AKI = fluid and toxin retention. CKD in children adds bone disease and growth failure. HUS has a classic triad.",
+   "hook": "HUS: anaemia, low platelets, AKI.",
+   "checks": [
+    {
+     "q": "Typical urine output in AKI?",
+     "options": [
+      "Oliguria",
+      "Polyuria",
+      "Normal"
+     ],
+     "answer": 0,
+     "why": "Oliguria, fluid overload, hypertension, uraemia."
+    },
+    {
+     "q": "CKD-specific feature in children?",
+     "options": [
+      "Hypotension",
+      "Growth failure",
+      "Polycythaemia"
+     ],
+     "answer": 1,
+     "why": "CKD: anaemia, bone disease, HTN, growth failure."
+    },
+    {
+     "q": "HUS triad includes which?",
+     "options": [
+      "Neutrophilia",
+      "Eosinophilia",
+      "Thrombocytopenia"
+     ],
+     "answer": 2,
+     "why": "MAHA, thrombocytopenia and AKI."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Creatinine and urine sodium separate pre-renal from intrinsic; US excludes obstruction. ECG shows the danger of high K⁺.",
+   "hook": "Peaked T = potassium.",
+   "checks": [
+    {
+     "q": "Earliest ECG sign of hyperkalaemia?",
+     "options": [
+      "Peaked T waves",
+      "U waves",
+      "ST depression"
+     ],
+     "answer": 0,
+     "why": "Peaked T, then wide QRS; U waves suggest hypokalaemia."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Replace insensible losses plus urine output. Hyperkalaemia: stabilise membrane, shift K⁺, remove it. CKD: replace EPO, bind phosphate, transplant early.",
+   "hook": "Calcium protects, insulin shifts, resin removes.",
+   "checks": [
+    {
+     "q": "Insensible fluid losses in AKI fluid plan?",
+     "options": [
+      "100-150 mL/m²/day",
+      "300-400 mL/m²/day",
+      "800-1000 mL/m²/day"
+     ],
+     "answer": 1,
+     "why": "Give insensible 300-400 mL/m²/day plus urine output."
+    },
+    {
+     "q": "First drug in hyperkalaemia with ECG changes?",
+     "options": [
+      "Nebulised salbutamol",
+      "Oral calcium resonium",
+      "IV calcium gluconate"
+     ],
+     "answer": 2,
+     "why": "Calcium gluconate stabilises myocardium first, then shift (salbutamol/insulin), then remove."
+    },
+    {
+     "q": "Treatment for atypical HUS?",
+     "options": [
+      "Eculizumab",
+      "Plasma exchange only",
+      "Rituximab"
+     ],
+     "answer": 0,
+     "why": "Atypical (complement-mediated) HUS responds to eculizumab."
+    }
+   ]
+  }
+ ],
+ "III-16": [
+  {
+   "block": "Def",
+   "explain": "CAKUT covers all structural kidney/tract malformations and causes most childhood CKD.",
+   "hook": "CAKUT = commonest CKD cause.",
+   "checks": [
+    {
+     "q": "Commonest cause of childhood CKD?",
+     "options": [
+      "Glomerulonephritis",
+      "CAKUT",
+      "HUS"
+     ],
+     "answer": 1,
+     "why": "CAKUT is the leading cause of paediatric CKD."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Kidney forms when ureteric bud meets mesenchyme; failure gives agenesis or dysplasia. Duplex upper ureter obstructs, lower refluxes.",
+   "hook": "Duplex: upper obstructs, lower refluxes (Weigert-Meyer).",
+   "checks": [
+    {
+     "q": "Horseshoe kidney results from what?",
+     "options": [
+      "Failed bud induction",
+      "Ureteric duplication",
+      "Abnormal ascent/fusion"
+     ],
+     "answer": 2,
+     "why": "Fused lower poles get stuck during ascent; failed induction gives agenesis/dysplasia."
+    },
+    {
+     "q": "In a duplex kidney, which ureter refluxes?",
+     "options": [
+      "Lower-pole",
+      "Upper-pole",
+      "Both equally"
+     ],
+     "answer": 0,
+     "why": "Lower-pole ureter refluxes; the upper-pole ureter (often ectopic/ureterocele) obstructs."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "No kidneys means no fetal urine, oligohydramnios, and lungs that can't develop. Obstruction damages the developing kidney.",
+   "hook": "No urine, no fluid, no lungs.",
+   "checks": [
+    {
+     "q": "Bilateral renal agenesis leads to which sequence?",
+     "options": [
+      "Pierre Robin",
+      "Potter",
+      "VACTERL"
+     ],
+     "answer": 1,
+     "why": "Oligohydramnios → pulmonary hypoplasia and compression features: Potter sequence."
+    },
+    {
+     "q": "PUV causes renal damage by what?",
+     "options": [
+      "Reflux nephropathy only",
+      "Immune complex deposition",
+      "Back-pressure → dysplasia"
+     ],
+     "answer": 2,
+     "why": "Outflow obstruction raises pressure, causing dysplasia and CKD."
+    },
+    {
+     "q": "VUR leads to CKD mainly via?",
+     "options": [
+      "Pyelonephritic scarring",
+      "Stone formation",
+      "Glomerular immune deposits"
+     ],
+     "answer": 0,
+     "why": "Reflux → pyelonephritis → focal scars → HTN, CKD."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Dilated pelvis with normal ureter points to PUJ. Boys with poor stream and big bladder: PUV. VUR runs in families.",
+   "hook": "Normal ureter + big pelvis = PUJ.",
+   "checks": [
+    {
+     "q": "Commonest cause of antenatal hydronephrosis (normal ureter)?",
+     "options": [
+      "VUR",
+      "PUJ obstruction",
+      "PUV"
+     ],
+     "answer": 1,
+     "why": "PUJ obstruction dilates the pelvis but not the ureter."
+    },
+    {
+     "q": "Classic sign of PUV in a boy?",
+     "options": [
+      "Constant dribbling with normal voids",
+      "Painless haematuria",
+      "Poor stream, palpable bladder"
+     ],
+     "answer": 2,
+     "why": "Poor stream, palpable bladder, UTI; commonest lower tract obstruction in boys."
+    },
+    {
+     "q": "Sibling risk of VUR?",
+     "options": [
+      "~30%",
+      "~5%",
+      "~75%"
+     ],
+     "answer": 0,
+     "why": "Siblings of VUR children have ~30% risk."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Newborns are relatively dehydrated so early US underestimates dilatation. MCUG grades reflux; MAG3 assesses drainage; DMSA scars.",
+   "hook": "MCUG grades, MAG3 drains, DMSA scars.",
+   "checks": [
+    {
+     "q": "Why delay postnatal US beyond first days?",
+     "options": [
+      "Kidneys are too small to image",
+      "Early scans underestimate dilatation",
+      "Bowel gas obscures the kidneys"
+     ],
+     "answer": 1,
+     "why": "Neonatal low urine output underestimates dilatation in the first days."
+    },
+    {
+     "q": "Test to diagnose and grade VUR?",
+     "options": [
+      "DMSA",
+      "MAG3",
+      "MCUG"
+     ],
+     "answer": 2,
+     "why": "MCUG grades VUR I-V; MAG3 for drainage; DMSA for scars."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "PUJ: operate only if function falls. PUV is an emergency needing drainage then valve ablation. VUR: prevent infection, reimplant if breakthrough.",
+   "hook": "PUV: catheter first, ablate next.",
+   "checks": [
+    {
+     "q": "PUJ obstruction operation indication?",
+     "options": [
+      "Falling renal function",
+      "Any degree of pelvic dilatation",
+      "Age over 1 year regardless"
+     ],
+     "answer": 0,
+     "why": "Pyeloplasty if split function falls."
+    },
+    {
+     "q": "Immediate management of PUV?",
+     "options": [
+      "Pyeloplasty",
+      "Urgent bladder catheter",
+      "Antibiotic prophylaxis alone"
+     ],
+     "answer": 1,
+     "why": "Urgent catheter drainage, then endoscopic valve ablation."
+    },
+    {
+     "q": "VUR indication for ureteric reimplantation?",
+     "options": [
+      "Grade I reflux",
+      "Any single UTI",
+      "Breakthrough infection"
+     ],
+     "answer": 2,
+     "why": "Reimplantation for breakthrough infection; prophylaxis if high grade."
+    }
+   ]
+  }
+ ],
+ "III-17": [
+  {
+   "block": "Def",
+   "explain": "Each tubulopathy maps to the segment whose transporter fails, which predicts its electrolyte pattern.",
+   "hook": "Know the segment, know the syndrome.",
+   "checks": [
+    {
+     "q": "Renal tubulopathies are classically classified by what?",
+     "options": [
+      "Nephron segment",
+      "Glomerular lesion",
+      "Age of onset"
+     ],
+     "answer": 0,
+     "why": "Inherited transporter defects are mapped to nephron segments."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Proximal = Fanconi (cystinosis), loop = Bartter, DCT = Gitelman, collecting duct = RTA and nephrogenic DI.",
+   "hook": "Bartter = loop (B before G, loop before DCT).",
+   "checks": [
+    {
+     "q": "Commonest cause of Fanconi syndrome in children?",
+     "options": [
+      "Wilson disease",
+      "Cystinosis",
+      "Galactosaemia"
+     ],
+     "answer": 1,
+     "why": "Cystinosis is the commonest paediatric cause of Fanconi syndrome."
+    },
+    {
+     "q": "Gene in X-linked nephrogenic DI?",
+     "options": [
+      "AQP2",
+      "CLCNKB",
+      "AVPR2"
+     ],
+     "answer": 2,
+     "why": "X-linked nephrogenic DI is AVPR2 (vasopressin receptor 2); AQP2 is AR."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Salt wasting triggers renin-aldosterone, which dumps K⁺ and H⁺. Distal RTA can't secrete acid, so urine pH stays high and calcium deposits.",
+   "hook": "Distal RTA: urine pH >5.5 despite acidosis.",
+   "checks": [
+    {
+     "q": "Acid-base disturbance in Bartter/Gitelman?",
+     "options": [
+      "Hypokalaemic alkalosis",
+      "Hyperkalaemic acidosis",
+      "Normal-gap acidosis"
+     ],
+     "answer": 0,
+     "why": "Salt wasting raises aldosterone → hypokalaemic metabolic alkalosis."
+    },
+    {
+     "q": "Urine pH in distal RTA during acidosis?",
+     "options": [
+      "<5.5",
+      ">5.5",
+      "Exactly 7.0"
+     ],
+     "answer": 1,
+     "why": "No H⁺ secretion: urine pH stays >5.5 despite normal-gap acidosis."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Fanconi wastes glucose and phosphate. Bartter acts like furosemide (high urine Ca); Gitelman like thiazides (low urine Ca, low Mg).",
+   "hook": "Bartter = loop diuretic; Gitelman = thiazide.",
+   "checks": [
+    {
+     "q": "Glycosuria with normal blood glucose suggests?",
+     "options": [
+      "Diabetes mellitus",
+      "Distal RTA",
+      "Proximal tubulopathy"
+     ],
+     "answer": 2,
+     "why": "Fanconi (proximal) wastes glucose and phosphate → rickets, FTT."
+    },
+    {
+     "q": "Which tubulopathy causes polyhydramnios and nephrocalcinosis?",
+     "options": [
+      "Bartter",
+      "Gitelman",
+      "Liddle"
+     ],
+     "answer": 0,
+     "why": "Bartter mimics furosemide: hypercalciuria, nephrocalcinosis, polyhydramnios."
+    },
+    {
+     "q": "Gitelman is characterised by which?",
+     "options": [
+      "Hypercalciuria",
+      "Hypomagnesaemia",
+      "Hyperkalaemia"
+     ],
+     "answer": 1,
+     "why": "Gitelman mimics thiazides: low Mg, low urinary Ca, cramps, tetany."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Gas, K, Mg, urine pH and calcium sort the syndromes. Cystinosis deposits crystals in the cornea. Nephrogenic DI ignores desmopressin.",
+   "hook": "DDAVP fails = nephrogenic.",
+   "checks": [
+    {
+     "q": "Eye finding in cystinosis?",
+     "options": [
+      "Lens dislocation",
+      "Cherry-red spot",
+      "Corneal crystals"
+     ],
+     "answer": 2,
+     "why": "Cystine crystals deposit in the cornea."
+    },
+    {
+     "q": "Desmopressin response in nephrogenic DI?",
+     "options": [
+      "No response",
+      "Urine concentrates",
+      "Hyponatraemia"
+     ],
+     "answer": 0,
+     "why": "Nephrogenic DI: dilute urine, hypernatraemia, no response to desmopressin."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Cysteamine depletes cystine. Replace what is lost. Indometacin blocks prostaglandin excess in Bartter. Thiazide paradoxically cuts urine volume in DI.",
+   "hook": "Thiazide treats DI (paradox).",
+   "checks": [
+    {
+     "q": "Specific treatment for cystinosis?",
+     "options": [
+      "Penicillamine",
+      "Cysteamine",
+      "Tiopronin"
+     ],
+     "answer": 1,
+     "why": "Cysteamine depletes lysosomal cystine; tiopronin is for cystinuria stones."
+    },
+    {
+     "q": "Specific drug used in Bartter syndrome?",
+     "options": [
+      "Spironolactone only",
+      "Desmopressin",
+      "Indometacin"
+     ],
+     "answer": 2,
+     "why": "Indometacin + K for Bartter; Gitelman needs Mg + K."
+    },
+    {
+     "q": "Distal RTA treatment?",
+     "options": [
+      "Alkali (citrate)",
+      "Thiazide",
+      "Desmopressin"
+     ],
+     "answer": 0,
+     "why": "Alkali (citrate) for distal RTA; free water + thiazide for nephrogenic DI."
+    }
+   ]
+  }
+ ],
+ "III-18": [
+  {
+   "block": "Def",
+   "explain": "Chromosome disorders are either wrong number (trisomy, monosomy) or wrong structure (deletions, translocations).",
+   "hook": "Number or structure.",
+   "checks": [
+    {
+     "q": "Turner 45,X is which type of error?",
+     "options": [
+      "Interstitial microdeletion",
+      "Sex chromosome aneuploidy",
+      "Balanced reciprocal translocation"
+     ],
+     "answer": 1,
+     "why": "Turner is a numerical sex chromosome aneuploidy."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Most Down syndrome is maternal non-disjunction; translocation cases may be inherited, so karyotype parents. Know the named deletions.",
+   "hook": "Translocation Down = test the parents.",
+   "checks": [
+    {
+     "q": "Commonest mechanism of Down syndrome?",
+     "options": [
+      "Robertsonian translocation",
+      "Mosaicism",
+      "Non-disjunction"
+     ],
+     "answer": 2,
+     "why": "~95% non-disjunction (maternal age); ~4% translocation; ~1% mosaic."
+    },
+    {
+     "q": "Williams syndrome deletion?",
+     "options": [
+      "7q11.23",
+      "22q11",
+      "15q11-13"
+     ],
+     "answer": 0,
+     "why": "Williams = 7q11.23; DiGeorge = 22q11; Prader-Willi/Angelman = 15q11-13."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Chromosome 21 carries APP, so extra copies cause early Alzheimer. Third/fourth pharyngeal pouch loss in 22q11 removes thymus and parathyroids.",
+   "hook": "CATCH-22.",
+   "checks": [
+    {
+     "q": "Classic Down syndrome heart defect?",
+     "options": [
+      "Tetralogy of Fallot",
+      "AVSD",
+      "Coarctation"
+     ],
+     "answer": 1,
+     "why": "Endocardial cushion defect → AVSD."
+    },
+    {
+     "q": "Hypocalcaemia in 22q11 deletion is due to?",
+     "options": [
+      "Vitamin D deficiency",
+      "Renal calcium wasting",
+      "Parathyroid hypoplasia"
+     ],
+     "answer": 2,
+     "why": "Parathyroid hypoplasia; thymic hypoplasia causes infections."
+    },
+    {
+     "q": "Gene causing short stature in Turner?",
+     "options": [
+      "SHOX",
+      "FGFR3",
+      "GH1"
+     ],
+     "answer": 0,
+     "why": "SHOX haploinsufficiency; FGFR3 is achondroplasia."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Down: hypotonia plus GI, blood and thyroid problems. Edwards = clenched fists; Patau = midline defects. Turner = coarctation; Klinefelter = tall, small testes.",
+   "hook": "Edwards = 18 = Election age; Patau = 13 = Puberty.",
+   "checks": [
+    {
+     "q": "GI atresia classically linked to trisomy 21?",
+     "options": [
+      "Oesophageal atresia",
+      "Duodenal atresia",
+      "Jejunal atresia"
+     ],
+     "answer": 1,
+     "why": "Duodenal atresia (double bubble) is the classic Down association."
+    },
+    {
+     "q": "Clenched fists with overlapping fingers suggest?",
+     "options": [
+      "Patau syndrome",
+      "Turner syndrome",
+      "Edwards syndrome"
+     ],
+     "answer": 2,
+     "why": "Edwards (T18); Patau has holoprosencephaly, cleft lip, polydactyly."
+    },
+    {
+     "q": "Cardiac lesion typical of Turner syndrome?",
+     "options": [
+      "Coarctation of aorta",
+      "AVSD",
+      "Transposition"
+     ],
+     "answer": 0,
+     "why": "Turner: coarctation, bicuspid valve; 22q11: conotruncal defects."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Screening (combined test, NIPT) gives risk; invasive tests (CVS/amnio) diagnose. Microdeletions are too small for karyotype, so microarray/FISH.",
+   "hook": "Screen then confirm invasively.",
+   "checks": [
+    {
+     "q": "Diagnostic follow-up after high-risk NIPT?",
+     "options": [
+      "Repeat NIPT",
+      "CVS/amniocentesis",
+      "Anomaly scan only"
+     ],
+     "answer": 1,
+     "why": "NIPT is screening; CVS/amniocentesis with QF-PCR/karyotype confirms."
+    },
+    {
+     "q": "Best test for microdeletions?",
+     "options": [
+      "Standard karyotype",
+      "Newborn blood spot",
+      "Microarray or FISH"
+     ],
+     "answer": 2,
+     "why": "Microdeletions need microarray or FISH; karyotype parents in translocation Down."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Down care is lifelong screening for predictable problems. Turner: GH and oestrogen; Y material risks gonadoblastoma. Klinefelter: testosterone at puberty.",
+   "hook": "Turner with Y = remove gonads.",
+   "checks": [
+    {
+     "q": "Which is routinely screened in Down syndrome?",
+     "options": [
+      "Thyroid function",
+      "Bone density",
+      "Lipids"
+     ],
+     "answer": 0,
+     "why": "Heart, thyroid, hearing, eyes, coeliac."
+    },
+    {
+     "q": "Why check for Y material in Turner?",
+     "options": [
+      "Predicts infertility severity",
+      "Gonadoblastoma risk",
+      "Predicts aortic dissection"
+     ],
+     "answer": 1,
+     "why": "Y material raises gonadoblastoma risk; GH + oestrogen are standard treatment."
+    },
+    {
+     "q": "Treatment for Klinefelter at puberty?",
+     "options": [
+      "Oestrogen",
+      "Growth hormone",
+      "Testosterone"
+     ],
+     "answer": 2,
+     "why": "Testosterone replacement from puberty."
+    }
+   ]
+  }
+ ],
+ "III-19": [
+  {
+   "block": "Def",
+   "explain": "Dominant disease shows with one faulty copy; recessive needs both copies faulty, so carriers are well.",
+   "hook": "Dominant = one; recessive = two.",
+   "checks": [
+    {
+     "q": "How many mutant alleles cause AR disease?",
+     "options": [
+      "Two",
+      "One",
+      "Either"
+     ],
+     "answer": 0,
+     "why": "AR needs both alleles mutated; AD needs one."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Structural proteins and receptors (fibrillin, FGFR3) tend to be AD; enzymes and channels (CF, PKU) tend to be AR.",
+   "hook": "Structural = dominant; enzyme = recessive.",
+   "checks": [
+    {
+     "q": "Achondroplasia mechanism?",
+     "options": [
+      "Fibrillin-1 loss",
+      "FGFR3 gain-of-function",
+      "COL1A1 deletion"
+     ],
+     "answer": 1,
+     "why": "Achondroplasia is AD FGFR3 gain-of-function; Marfan is fibrillin-1."
+    },
+    {
+     "q": "SMA is caused by deletion of which gene?",
+     "options": [
+      "SMN2",
+      "DMD",
+      "SMN1"
+     ],
+     "answer": 2,
+     "why": "SMA is AR SMN1 deletion; SMN2 copies modify severity."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "AD works via haploinsufficiency, dominant negative or gain of function, often de novo with older fathers. Half enzyme activity suffices, so enzyme defects are AR.",
+   "hook": "50% enzyme is enough.",
+   "checks": [
+    {
+     "q": "De novo AD mutations are linked to what?",
+     "options": [
+      "Advanced paternal age",
+      "Advanced maternal age",
+      "Consanguinity"
+     ],
+     "answer": 0,
+     "why": "Advanced paternal age increases de novo AD point mutations."
+    },
+    {
+     "q": "Why are most enzyme deficiencies AR?",
+     "options": [
+      "Enzyme genes are mostly X-linked",
+      "50% activity is sufficient",
+      "Enzymes are encoded by mtDNA"
+     ],
+     "answer": 1,
+     "why": "Carriers with 50% activity are healthy, so disease needs both alleles."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "AD pedigrees are vertical with male-to-male transmission; AR horizontal with 25% risk. Healthy siblings of AR child: 2/3 carriers.",
+   "hook": "Unaffected sib of AR = 2/3 carrier.",
+   "checks": [
+    {
+     "q": "Which pedigree feature excludes X-linked inheritance?",
+     "options": [
+      "Affected females in each generation",
+      "Skipped generations in the family",
+      "Male-to-male transmission"
+     ],
+     "answer": 2,
+     "why": "Male-to-male transmission occurs in AD but not X-linked."
+    },
+    {
+     "q": "Recurrence risk for AR when both parents carry?",
+     "options": [
+      "25%",
+      "50%",
+      "10%"
+     ],
+     "answer": 0,
+     "why": "Two carriers: 25% per pregnancy."
+    },
+    {
+     "q": "Carrier probability of healthy sibling of AR child?",
+     "options": [
+      "1/2",
+      "2/3",
+      "1/4"
+     ],
+     "answer": 1,
+     "why": "Excluding the affected genotype leaves 2 of 3 carriers."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Sequencing identifies the mutation; prenatal and newborn screening catch treatable AR diseases early.",
+   "hook": "Screen what you can treat.",
+   "checks": [
+    {
+     "q": "Broadest genetic test for undiagnosed Mendelian disease?",
+     "options": [
+      "Standard G-banded karyotype",
+      "Targeted FISH probe",
+      "Exome/genome sequencing"
+     ],
+     "answer": 2,
+     "why": "Exome/genome sequencing covers single-gene disorders broadly."
+    },
+    {
+     "q": "Which is on newborn screening?",
+     "options": [
+      "PKU",
+      "Marfan",
+      "NF1"
+     ],
+     "answer": 0,
+     "why": "Newborn screening includes PKU, CAH, galactosaemia, CF, SMA."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Counselling is non-directive: give risks, let families decide. Test relatives once a mutation is known; some diseases now have targeted therapy.",
+   "hook": "Non-directive counselling.",
+   "checks": [
+    {
+     "q": "Genetic counselling style should be?",
+     "options": [
+      "Directive, advising the best choice",
+      "Non-directive",
+      "Left to the family doctor"
+     ],
+     "answer": 1,
+     "why": "Non-directive counselling with risk calculation."
+    },
+    {
+     "q": "Disease-specific therapy for SMA?",
+     "options": [
+      "Ataluren",
+      "Eculizumab",
+      "Nusinersen"
+     ],
+     "answer": 2,
+     "why": "Nusinersen (antisense to SMN2); cascade testing of relatives follows."
+    }
+   ]
+  }
+ ],
+ "III-20": [
+  {
+   "block": "Def",
+   "explain": "XLR shows in boys via carrier mothers; fathers can't pass X to sons. XLD affected fathers give X to every daughter.",
+   "hook": "No male-to-male in X-linked.",
+   "checks": [
+    {
+     "q": "Which is excluded in X-linked recessive inheritance?",
+     "options": [
+      "Male-to-male transmission",
+      "Affected boys via carrier mothers",
+      "Carrier mothers of affected sons"
+     ],
+     "answer": 0,
+     "why": "Fathers give Y to sons, so no male-to-male transmission."
+    },
+    {
+     "q": "In XLD, an affected father's daughters are?",
+     "options": [
+      "Half affected",
+      "All affected",
+      "All unaffected"
+     ],
+     "answer": 1,
+     "why": "He passes his X to all daughters, so all are affected."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Carrier mother gives each son 50% risk. Affected father makes all daughters carriers. Duchenne has many new mutations (~1/3).",
+   "hook": "Carrier mum: half her sons.",
+   "checks": [
+    {
+     "q": "Risk each son of a carrier mother is affected?",
+     "options": [
+      "25%",
+      "100%",
+      "50%"
+     ],
+     "answer": 2,
+     "why": "Each son has 50% chance of inheriting the mutant X."
+    },
+    {
+     "q": "Proportion of Duchenne cases from new mutations?",
+     "options": [
+      "~1/3",
+      "~1/10",
+      "~2/3"
+     ],
+     "answer": 0,
+     "why": "About one-third of DMD cases are de novo."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Males have one X so show disease. Random X-inactivation protects carriers. Frame-shift kills dystrophin (Duchenne); in-frame keeps some (Becker).",
+   "hook": "Out of frame = Duchenne; in frame = Becker.",
+   "checks": [
+    {
+     "q": "What usually protects female carriers?",
+     "options": [
+      "Imprinting",
+      "Lyonisation",
+      "Anticipation"
+     ],
+     "answer": 1,
+     "why": "Random X-inactivation leaves most carriers with enough normal protein."
+    },
+    {
+     "q": "Duchenne dystrophin deletion is typically?",
+     "options": [
+      "In-frame",
+      "Point gain-of-function",
+      "Out-of-frame"
+     ],
+     "answer": 2,
+     "why": "Out-of-frame deletion → no dystrophin; Becker is in-frame."
+    },
+    {
+     "q": "Gene mutated in X-linked agammaglobulinaemia?",
+     "options": [
+      "BTK",
+      "FMR1",
+      "WAS"
+     ],
+     "answer": 0,
+     "why": "XLA = BTK; fragile X = FMR1 CGG repeat."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "DMD: proximal weakness by 2-5 with Gowers sign. XLA infections start once maternal IgG wanes (~6 months). WAS triad: eczema, small platelets, infections.",
+   "hook": "WAS: eczema + tiny platelets.",
+   "checks": [
+    {
+     "q": "Typical age of DMD presentation?",
+     "options": [
+      "Neonatal",
+      "2-5 years",
+      "10-12 years"
+     ],
+     "answer": 1,
+     "why": "Age 2-5: Gowers sign, calf pseudohypertrophy, falls."
+    },
+    {
+     "q": "When do XLA infections typically start?",
+     "options": [
+      "First week",
+      "~5 years",
+      "~6 months"
+     ],
+     "answer": 2,
+     "why": "Maternal IgG protects until ~6 months."
+    },
+    {
+     "q": "Platelets in Wiskott-Aldrich syndrome are?",
+     "options": [
+      "Small",
+      "Large",
+      "Normal size"
+     ],
+     "answer": 0,
+     "why": "WAS: thrombocytopenia with small platelets, eczema, infections."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Muscle breakdown makes CK huge in DMD. Haemophilia affects intrinsic pathway: isolated long APTT.",
+   "hook": "DMD CK >10 000.",
+   "checks": [
+    {
+     "q": "First test in suspected Duchenne?",
+     "options": [
+      "Muscle biopsy with dystrophin staining",
+      "Serum creatine kinase",
+      "Electromyography and nerve conduction"
+     ],
+     "answer": 1,
+     "why": "CK (>10 000 U/L), then genetic testing."
+    },
+    {
+     "q": "Coagulation profile in haemophilia?",
+     "options": [
+      "Long PT with normal APTT",
+      "Low platelets with long PT",
+      "Isolated long APTT"
+     ],
+     "answer": 2,
+     "why": "Isolated prolonged APTT with normal PT and platelets."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Steroids slow DMD. Suxamethonium can cause hyperkalaemia/rhabdo in myopathy. Haemophilia: no IM or NSAIDs. XLA: no live vaccines.",
+   "hook": "XLA: no live vaccines.",
+   "checks": [
+    {
+     "q": "Disease-slowing drug class in DMD?",
+     "options": [
+      "Corticosteroids",
+      "Bisphosphonates",
+      "Beta-blockers"
+     ],
+     "answer": 0,
+     "why": "Prednisolone or deflazacort plus physio and cardiorespiratory surveillance."
+    },
+    {
+     "q": "Which anaesthetic drug is avoided in DMD?",
+     "options": [
+      "Propofol",
+      "Suxamethonium",
+      "Rocuronium"
+     ],
+     "answer": 1,
+     "why": "Suxamethonium risks hyperkalaemia and rhabdomyolysis in DMD."
+    },
+    {
+     "q": "Which vaccines are contraindicated in XLA?",
+     "options": [
+      "Inactivated",
+      "Toxoid",
+      "Live"
+     ],
+     "answer": 2,
+     "why": "No B cells: live vaccines can cause disease."
+    }
+   ]
+  }
+ ],
+ "III-21": [
+  {
+   "block": "Def",
+   "explain": "Many small genetic effects plus environment add up; disease appears only once total liability crosses a threshold.",
+   "hook": "Liability threshold.",
+   "checks": [
+    {
+     "q": "Multifactorial disease appears when liability does what?",
+     "options": [
+      "Crosses a threshold",
+      "Doubles in each generation",
+      "Halves with each meiosis"
+     ],
+     "answer": 0,
+     "why": "Combined genetic + environmental liability must exceed a threshold."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Some conditions favour boys (pyloric stenosis, cleft lip), others girls (DDH, cleft palate, NTDs).",
+   "hook": "Pyloric boys; DDH girls.",
+   "checks": [
+    {
+     "q": "Pyloric stenosis is how much commoner in boys?",
+     "options": [
+      "~2 times",
+      "~4-5 times",
+      "~10 times"
+     ],
+     "answer": 1,
+     "why": "About 4-5 times commoner in boys."
+    },
+    {
+     "q": "Which multifactorial disorder is commoner in girls?",
+     "options": [
+      "Pyloric stenosis",
+      "Hirschsprung",
+      "DDH"
+     ],
+     "answer": 2,
+     "why": "DDH, isolated cleft palate and NTDs favour girls."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Relatives share genes, so their liability curve sits nearer the threshold. An affected rarer sex carries more liability (Carter effect).",
+   "hook": "Rare sex affected = more genes.",
+   "checks": [
+    {
+     "q": "Recurrence risks in multifactorial disease are?",
+     "options": [
+      "Mendelian",
+      "Empiric",
+      "Zero"
+     ],
+     "answer": 1,
+     "why": "Recurrence is empiric, derived from population data."
+    },
+    {
+     "q": "Carter effect: higher risk when affected proband is?",
+     "options": [
+      "The less common sex",
+      "The commoner sex for that disorder",
+      "An only child of healthy parents"
+     ],
+     "answer": 0,
+     "why": "Affected less common sex implies higher liability, so relatives have more risk."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Risk to first-degree relatives is a few percent and drops fast with distance. Severity, multiple affected and rare sex raise it.",
+   "hook": "2-5% first-degree.",
+   "checks": [
+    {
+     "q": "First-degree recurrence risk for an isolated malformation?",
+     "options": [
+      "10-15%",
+      "25%",
+      "2-5%"
+     ],
+     "answer": 2,
+     "why": "About 2-5%, falling sharply in second-degree relatives."
+    },
+    {
+     "q": "Which increases multifactorial recurrence risk?",
+     "options": [
+      "≥2 affected relatives",
+      "Milder proband severity",
+      "Proband of commoner sex"
+     ],
+     "answer": 0,
+     "why": "Severity, ≥2 affected relatives and affected rarer sex raise risk."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Extra anomalies suggest a syndrome with different (often higher) risk. Open NTDs leak AFP into maternal blood.",
+   "hook": "Raised AFP = open NTD.",
+   "checks": [
+    {
+     "q": "Malformation plus dysmorphism: first step?",
+     "options": [
+      "Give the empiric recurrence risk",
+      "Look for a syndrome",
+      "Reassure and discharge"
+     ],
+     "answer": 1,
+     "why": "Exclude syndromes (22q11, trisomy 13) first."
+    },
+    {
+     "q": "Maternal serum marker for NTD screening?",
+     "options": [
+      "hCG",
+      "PAPP-A",
+      "AFP"
+     ],
+     "answer": 2,
+     "why": "Raised AFP plus anomaly ultrasound."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Folic acid preconception sharply cuts NTDs. Higher dose for high-risk women; the US uses 4 mg after a previous NTD.",
+   "hook": "400 µg all; 5 mg high risk.",
+   "checks": [
+    {
+     "q": "NTD recurrence risk without folate?",
+     "options": [
+      "~3-5%",
+      "~1%",
+      "~25%"
+     ],
+     "answer": 0,
+     "why": "About 3-5% after an affected pregnancy without folate."
+    },
+    {
+     "q": "Folic acid dose for a high-risk woman?",
+     "options": [
+      "400 µg daily",
+      "5 mg daily",
+      "1 mg weekly"
+     ],
+     "answer": 1,
+     "why": "High-risk: 5 mg daily; everyone else: 400 µg, preconception to 12 weeks."
+    },
+    {
+     "q": "US folic acid dose after a previous NTD pregnancy?",
+     "options": [
+      "400 µg",
+      "10 mg",
+      "4 mg"
+     ],
+     "answer": 2,
+     "why": "US guidance: 4 mg daily after a prior NTD pregnancy."
+    }
+   ]
+  }
+ ],
+ "III-22": [
+  {
+   "block": "Def",
+   "explain": "Enzyme defects are mostly AR because carriers' 50% enzyme activity suffices.",
+   "hook": "Enzymes = recessive.",
+   "checks": [
+    {
+     "q": "Typical inheritance of amino acid disorders?",
+     "options": [
+      "Autosomal recessive",
+      "Autosomal dominant",
+      "X-linked dominant"
+     ],
+     "answer": 0,
+     "why": "Mostly AR enzyme defects."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Each disorder blocks one enzyme: PKU (phenylalanine hydroxylase), MSUD (BCKD), tyrosinaemia 1 (FAH), homocystinuria (CBS).",
+   "hook": "PKU = PAH.",
+   "checks": [
+    {
+     "q": "Enzyme deficient in classic PKU?",
+     "options": [
+      "Tyrosine hydroxylase",
+      "Phenylalanine hydroxylase",
+      "BCKD complex"
+     ],
+     "answer": 1,
+     "why": "PKU = phenylalanine hydroxylase; MSUD = branched-chain ketoacid dehydrogenase."
+    },
+    {
+     "q": "Enzyme deficient in homocystinuria?",
+     "options": [
+      "Fumarylacetoacetate hydrolase",
+      "Homogentisate oxidase",
+      "Cystathionine β-synthase"
+     ],
+     "answer": 2,
+     "why": "Homocystinuria = CBS; tyrosinaemia 1 = FAH."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "The placenta clears toxins in utero, so babies are well until protein feeds. PKU lowers tyrosine and thus melanin; leucine in MSUD swells the brain.",
+   "hook": "Well at birth, sick after milk.",
+   "checks": [
+    {
+     "q": "Why are newborns with aminoacidopathies well at birth?",
+     "options": [
+      "Placenta clears metabolites",
+      "Maternal enzyme crosses the placenta",
+      "Newborns need no protein initially"
+     ],
+     "answer": 0,
+     "why": "The placenta removes toxic metabolites before birth."
+    },
+    {
+     "q": "Why do PKU children have fair hair?",
+     "options": [
+      "Excess phenylalanine bleaches",
+      "Low tyrosine → less melanin",
+      "Copper deficiency"
+     ],
+     "answer": 1,
+     "why": "Tyrosine is the melanin precursor and is low in PKU."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Metabolic crises mimic sepsis. Smells help: musty (PKU), maple syrup (MSUD). Homocystinuria lens dislocates down, Marfan up.",
+   "hook": "Homocystinuria: lens down; Marfan: up.",
+   "checks": [
+    {
+     "q": "Neonatal metabolic crisis typically mimics?",
+     "options": [
+      "Heart failure",
+      "Pyloric stenosis",
+      "Sepsis"
+     ],
+     "answer": 2,
+     "why": "Poor feeding, vomiting, lethargy, seizures, coma: sepsis-like."
+    },
+    {
+     "q": "Sweet-smelling urine with neonatal encephalopathy?",
+     "options": [
+      "Maple syrup urine disease",
+      "PKU",
+      "Tyrosinaemia"
+     ],
+     "answer": 0,
+     "why": "MSUD smells sweet; untreated PKU smells musty."
+    },
+    {
+     "q": "Lens dislocation direction in homocystinuria?",
+     "options": [
+      "Upwards",
+      "Downwards",
+      "Laterally"
+     ],
+     "answer": 1,
+     "why": "Downwards (inferonasal) in homocystinuria; upwards in Marfan."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "PKU is caught on newborn heel prick. In crisis, a basic metabolic screen includes ammonia and urine organic acids.",
+   "hook": "Crisis bloods: glucose, gas, lactate, ammonia.",
+   "checks": [
+    {
+     "q": "How is PKU diagnosed?",
+     "options": [
+      "Urine ferric chloride test in infancy",
+      "Liver biopsy enzyme assay",
+      "Newborn heel-prick phenylalanine"
+     ],
+     "answer": 2,
+     "why": "Newborn blood-spot phenylalanine screening."
+    },
+    {
+     "q": "Which is a key crisis investigation?",
+     "options": [
+      "Ammonia",
+      "Serum amylase",
+      "Troponin"
+     ],
+     "answer": 0,
+     "why": "Glucose, gas, lactate, ammonia, amino acids, urine organic acids."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Stop protein and give glucose to halt catabolism. Remove ammonia; then disease-specific diets/drugs.",
+   "hook": "Stop protein, start glucose.",
+   "checks": [
+    {
+     "q": "First step in acute metabolic crisis?",
+     "options": [
+      "Give high-protein feeds urgently",
+      "Stop protein, IV 10% glucose",
+      "Give insulin infusion alone"
+     ],
+     "answer": 1,
+     "why": "Stop protein and give high-energy IV glucose to stop catabolism."
+    },
+    {
+     "q": "PKU long-term management?",
+     "options": [
+      "Low-fat diet",
+      "Nitisinone",
+      "Lifelong low-Phe diet"
+     ],
+     "answer": 2,
+     "why": "Lifelong low-phenylalanine diet ± sapropterin."
+    },
+    {
+     "q": "Specific drug for tyrosinaemia type 1?",
+     "options": [
+      "Nitisinone",
+      "Pyridoxine",
+      "Sapropterin"
+     ],
+     "answer": 0,
+     "why": "Nitisinone; pyridoxine for homocystinuria."
+    }
+   ]
+  }
+ ],
+ "III-23": [
+  {
+   "block": "Def",
+   "explain": "These are inherited blocks in handling glycogen, galactose or fructose, causing hypoglycaemia, liver or muscle disease.",
+   "hook": "Glycogen, galactose, fructose.",
+   "checks": [
+    {
+     "q": "Galactosaemia belongs to which group?",
+     "options": [
+      "Disorders of amino acid metabolism",
+      "Carbohydrate metabolism disorders",
+      "Lysosomal storage disorders"
+     ],
+     "answer": 1,
+     "why": "Glycogen, galactose and fructose defects form this group."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Von Gierke lacks glucose-6-phosphatase, so the liver can't release glucose. Each named disease has a classic enzyme.",
+   "hook": "Von Gierke = G6Pase.",
+   "checks": [
+    {
+     "q": "Enzyme deficient in von Gierke disease?",
+     "options": [
+      "Acid maltase",
+      "Myophosphorylase",
+      "Glucose-6-phosphatase"
+     ],
+     "answer": 2,
+     "why": "GSD I = glucose-6-phosphatase; Pompe = acid maltase; McArdle = myophosphorylase."
+    },
+    {
+     "q": "Enzyme deficient in hereditary fructose intolerance?",
+     "options": [
+      "Aldolase B",
+      "GALT",
+      "Fructokinase"
+     ],
+     "answer": 0,
+     "why": "Aldolase B; galactosaemia = GALT."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Trapped G6P is shunted to lactate, urate and fat. MCAD can't burn fat, so fasting gives hypoglycaemia without ketones.",
+   "hook": "MCAD: no ketones.",
+   "checks": [
+    {
+     "q": "Which rises in von Gierke disease?",
+     "options": [
+      "Ketones",
+      "Lactate",
+      "HDL"
+     ],
+     "answer": 1,
+     "why": "G6P is diverted: lactate, uric acid and triglycerides rise."
+    },
+    {
+     "q": "Hypoglycaemia type in MCAD deficiency?",
+     "options": [
+      "Ketotic",
+      "Hyperinsulinaemic",
+      "Hypoketotic"
+     ],
+     "answer": 2,
+     "why": "Fat oxidation fails, so no ketones: hypoketotic hypoglycaemia."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Hepatomegaly + hypoglycaemia (afebrile) = von Gierke. Pompe affects heart; McArdle muscle. Galactosaemia appears on milk; HFI at weaning.",
+   "hook": "Milk = galactose; weaning fruit = fructose.",
+   "checks": [
+    {
+     "q": "Afebrile infant, hypoglycaemia and hepatomegaly suggests?",
+     "options": [
+      "Von Gierke disease",
+      "Pompe disease",
+      "McArdle disease"
+     ],
+     "answer": 0,
+     "why": "Classic GSD type I (von Gierke)."
+    },
+    {
+     "q": "Pompe disease classically causes which?",
+     "options": [
+      "Dilated aorta",
+      "Hypertrophic cardiomyopathy",
+      "Exercise cramps only"
+     ],
+     "answer": 1,
+     "why": "Pompe: hypertrophic cardiomyopathy and hypotonia; McArdle: cramps, second wind."
+    },
+    {
+     "q": "Classic sepsis organism in galactosaemia?",
+     "options": [
+      "Group B strep",
+      "Listeria",
+      "E. coli"
+     ],
+     "answer": 2,
+     "why": "Galactosaemic neonates are prone to E. coli sepsis."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Von Gierke hypoglycaemia comes quickly after feeds. Galactosaemia: low GALT and urine reducing substances. McArdle muscle breakdown raises CK.",
+   "hook": "Hypo 2-4 h after feed = GSD I.",
+   "checks": [
+    {
+     "q": "Fasting tolerance in GSD I?",
+     "options": [
+      "2-4 hours",
+      "12 hours",
+      "24 hours"
+     ],
+     "answer": 0,
+     "why": "Hypoglycaemia 2-4 h after feeds, with lactic acidosis and high urate."
+    },
+    {
+     "q": "Diagnostic test for galactosaemia?",
+     "options": [
+      "Serum CK",
+      "Red-cell GALT activity",
+      "Muscle biopsy"
+     ],
+     "answer": 1,
+     "why": "Red-cell GALT plus urine reducing substances; CK is for McArdle."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "GSD I needs constant glucose supply (cornstarch). Pompe gets ERT. Galactosaemia: stop lactose immediately. Avoid fasting in MCAD.",
+   "hook": "Cornstarch keeps GSD I going overnight.",
+   "checks": [
+    {
+     "q": "Overnight treatment in GSD I?",
+     "options": [
+      "High-protein snack",
+      "Fructose drink",
+      "Uncooked cornstarch"
+     ],
+     "answer": 2,
+     "why": "Frequent feeds and uncooked cornstarch; allopurinol for urate."
+    },
+    {
+     "q": "Immediate action in suspected galactosaemia?",
+     "options": [
+      "Stop lactose, soy formula",
+      "Start enzyme replacement therapy",
+      "Give IV fructose infusion"
+     ],
+     "answer": 0,
+     "why": "Stop lactose now, switch to soy formula."
+    },
+    {
+     "q": "Key rule in MCAD deficiency?",
+     "options": [
+      "Avoid protein",
+      "Avoid fasting",
+      "Avoid exercise"
+     ],
+     "answer": 1,
+     "why": "Avoid fasting; HFI needs fructose, sucrose, sorbitol exclusion."
+    }
+   ]
+  }
+ ],
+ "III-24": [
+  {
+   "block": "Def",
+   "explain": "Missing lysosomal enzymes let substrate build up, hitting cells with high turnover such as macrophages.",
+   "hook": "Full lysosomes, swollen organs.",
+   "checks": [
+    {
+     "q": "Lysosomal storage diseases are caused by?",
+     "options": [
+      "Cell-surface receptor defects",
+      "Mitochondrial DNA depletion",
+      "Lysosomal enzyme deficiency"
+     ],
+     "answer": 2,
+     "why": "Enzyme deficiency → substrate accumulates in cells."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Almost all are AR except Fabry and Hunter (X-linked). Each named disease has a classic enzyme.",
+   "hook": "Fabry and Hunter hunt X.",
+   "checks": [
+    {
+     "q": "Which lysosomal disease is X-linked?",
+     "options": [
+      "Hunter",
+      "Hurler",
+      "Gaucher"
+     ],
+     "answer": 0,
+     "why": "Hunter and Fabry are X-linked; the rest are mostly AR."
+    },
+    {
+     "q": "Enzyme deficient in Gaucher disease?",
+     "options": [
+      "Hexosaminidase A",
+      "β-glucocerebrosidase",
+      "α-L-iduronidase"
+     ],
+     "answer": 1,
+     "why": "Gaucher = β-glucocerebrosidase; Tay-Sachs = hex A; Hurler = α-L-iduronidase."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Storage in macrophages enlarges liver/spleen; in neurons causes regression and cherry-red spot; in connective tissue (GAGs) coarsens the face.",
+   "hook": "Macrophage, neuron, matrix.",
+   "checks": [
+    {
+     "q": "Macrophage storage typically causes?",
+     "options": [
+      "Corneal clouding",
+      "Cherry-red spot",
+      "Hepatosplenomegaly"
+     ],
+     "answer": 2,
+     "why": "Macrophage storage → hepatosplenomegaly and cytopenias."
+    },
+    {
+     "q": "GAG storage (MPS) typically causes which?",
+     "options": [
+      "Coarse facies",
+      "Neutropenia only",
+      "Hypoglycaemia"
+     ],
+     "answer": 0,
+     "why": "GAGs: coarse face, dysostosis multiplex, valve disease, corneal clouding."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Babies seem normal, then regress. Cherry-red spot: Tay-Sachs (no organomegaly) vs Niemann-Pick (organomegaly). Hurler clouds corneas, Hunter doesn't.",
+   "hook": "Hunter sees clearly (no clouding).",
+   "checks": [
+    {
+     "q": "Key alarm feature of lysosomal disease?",
+     "options": [
+      "Severe abnormality at birth",
+      "Loss of acquired skills",
+      "Precocious puberty in infancy"
+     ],
+     "answer": 1,
+     "why": "Normal at birth then regression."
+    },
+    {
+     "q": "Cherry-red spot without hepatosplenomegaly?",
+     "options": [
+      "Niemann-Pick",
+      "Gaucher",
+      "Tay-Sachs"
+     ],
+     "answer": 2,
+     "why": "Tay-Sachs; with hepatosplenomegaly think Niemann-Pick."
+    },
+    {
+     "q": "Burning pain in hands/feet suggests?",
+     "options": [
+      "Fabry",
+      "Gaucher",
+      "Hurler"
+     ],
+     "answer": 0,
+     "why": "Fabry causes acroparaesthesia; Gaucher bone crises; Hurler corneal clouding."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Enzyme assay in leucocytes or dried blood spots confirms. Urine GAGs screen MPS; some are on newborn screening.",
+   "hook": "Measure the missing enzyme.",
+   "checks": [
+    {
+     "q": "Confirmatory test for lysosomal disease?",
+     "options": [
+      "Muscle biopsy",
+      "Enzyme activity in leucocytes",
+      "Serum ammonia"
+     ],
+     "answer": 1,
+     "why": "Enzyme activity in leucocytes or dried blood spots."
+    },
+    {
+     "q": "Which lysosomal disease is newborn screened?",
+     "options": [
+      "Tay-Sachs",
+      "Niemann-Pick C",
+      "Pompe"
+     ],
+     "answer": 2,
+     "why": "Newborn screening covers Pompe and MPS I."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "ERT is a large protein that can't cross the blood-brain barrier. HSCT in Hurler before ~2 years provides enzyme to the brain.",
+   "hook": "ERT can't get into the brain.",
+   "checks": [
+    {
+     "q": "Why does ERT not treat CNS disease?",
+     "options": [
+      "Cannot cross blood-brain barrier",
+      "Rapid renal clearance of enzyme",
+      "Neutralising antibodies in brain"
+     ],
+     "answer": 0,
+     "why": "ERT does not cross the BBB."
+    },
+    {
+     "q": "Which disease is treated with ERT?",
+     "options": [
+      "Tay-Sachs",
+      "Gaucher",
+      "Niemann-Pick C"
+     ],
+     "answer": 1,
+     "why": "Gaucher, Fabry, Hunter: ERT or substrate reduction."
+    },
+    {
+     "q": "HSCT preserves cognition in Hurler if done before?",
+     "options": [
+      "~6 months",
+      "~10 years",
+      "~2 years"
+     ],
+     "answer": 2,
+     "why": "HSCT before ~2 years preserves cognition."
+    }
+   ]
+  }
+ ],
+ "III-25": [
+  {
+   "block": "Def",
+   "explain": "Upper airway inflammation spans the nose (rhinitis), adenoids and tonsils, all lymphoid-rich in childhood.",
+   "hook": "Nose, adenoids, tonsils.",
+   "checks": [
+    {
+     "q": "Adenoid enlargement is best described as?",
+     "options": [
+      "Hypertrophy",
+      "Abscess",
+      "Neoplasia"
+     ],
+     "answer": 0,
+     "why": "Adenoid hypertrophy, alongside rhinitis and tonsillitis."
+    }
+   ]
+  },
+  {
+   "block": "Cause",
+   "explain": "Rhinitis is viral or IgE-allergic. Most sore throats are viral; GAS is the leading bacterial cause in school-age children.",
+   "hook": "GAS age 5-15.",
+   "checks": [
+    {
+     "q": "Mechanism of allergic rhinitis?",
+     "options": [
+      "IgA-mediated",
+      "IgE-mediated",
+      "T-cell cytotoxic"
+     ],
+     "answer": 1,
+     "why": "Allergic rhinitis is IgE-mediated; otherwise viral."
+    },
+    {
+     "q": "Peak age for group A strep tonsillitis?",
+     "options": [
+      "Under 2 years",
+      "Over 20 years",
+      "5-15 years"
+     ],
+     "answer": 2,
+     "why": "GAS is the commonest bacterial cause at 5-15 years."
+    }
+   ]
+  },
+  {
+   "block": "Patho",
+   "explain": "Big adenoids block the nose and Eustachian tubes, causing snoring, OSA and otitis. GAS can trigger rheumatic fever and PSGN.",
+   "hook": "Adenoids peak 3-7.",
+   "checks": [
+    {
+     "q": "Peak age of adenoid hypertrophy?",
+     "options": [
+      "3-7 years",
+      "0-1 years",
+      "12-16 years"
+     ],
+     "answer": 0,
+     "why": "Adenoids peak at 3-7 years, blocking nose and Eustachian tubes."
+    },
+    {
+     "q": "PSGN follows pharyngitis by how long?",
+     "options": [
+      "1-2 days",
+      "1-2 weeks",
+      "3 months"
+     ],
+     "answer": 1,
+     "why": "About 1-2 weeks after streptococcal pharyngitis (notes; elsewhere quoted 1-3 weeks)."
+    }
+   ]
+  },
+  {
+   "block": "Signs",
+   "explain": "Itch and sneeze = allergy. Unilateral smelly discharge in a toddler = foreign body. Centor-type features suggest GAS; quinsy shows trismus and uvular deviation.",
+   "hook": "One-sided smelly nose = foreign body.",
+   "checks": [
+    {
+     "q": "Unilateral foul nasal discharge in a toddler suggests?",
+     "options": [
+      "Allergic rhinitis",
+      "Adenoiditis",
+      "Foreign body"
+     ],
+     "answer": 2,
+     "why": "Unilateral foul discharge = foreign body until proven otherwise."
+    },
+    {
+     "q": "Which favours GAS over viral pharyngitis?",
+     "options": [
+      "Tender anterior nodes",
+      "Prominent cough",
+      "Coryza and hoarseness"
+     ],
+     "answer": 0,
+     "why": "Fever, exudate, tender anterior nodes, no cough."
+    },
+    {
+     "q": "Trismus, hot-potato voice, deviated uvula suggest?",
+     "options": [
+      "Epiglottitis",
+      "Peritonsillar abscess",
+      "Retropharyngeal abscess"
+     ],
+     "answer": 1,
+     "why": "Quinsy (peritonsillar abscess)."
+    }
+   ]
+  },
+  {
+   "block": "Dx",
+   "explain": "Rapid antigen tests miss some GAS, so a negative test is backed by culture. Adenoids are seen on nasendoscopy or lateral X-ray.",
+   "hook": "Negative RADT? Culture it.",
+   "checks": [
+    {
+     "q": "Next step after negative rapid strep test?",
+     "options": [
+      "Treat with antibiotics anyway",
+      "Send ASO titre",
+      "Throat culture"
+     ],
+     "answer": 2,
+     "why": "Low sensitivity, so a negative antigen test is backed by throat culture."
+    },
+    {
+     "q": "Imaging for adenoid size?",
+     "options": [
+      "Lateral neck X-ray",
+      "CT head with contrast",
+      "Neck ultrasound"
+     ],
+     "answer": 0,
+     "why": "Nasendoscopy or lateral neck X-ray; sleep study if OSA uncertain."
+    }
+   ]
+  },
+  {
+   "block": "Rx",
+   "explain": "Intranasal steroids are best for allergic rhinitis. Penicillin for 10 days prevents rheumatic fever (not PSGN); amoxicillin in EBV causes rash.",
+   "hook": "Amoxicillin + EBV = rash.",
+   "checks": [
+    {
+     "q": "Most effective treatment for allergic rhinitis?",
+     "options": [
+      "Oral antihistamine",
+      "Intranasal steroid",
+      "Decongestant"
+     ],
+     "answer": 1,
+     "why": "Intranasal steroids are the most effective."
+    },
+    {
+     "q": "Duration of penicillin V for GAS tonsillitis?",
+     "options": [
+      "5 days",
+      "3 days",
+      "10 days"
+     ],
+     "answer": 2,
+     "why": "10 days prevents rheumatic fever (not PSGN)."
+    },
+    {
+     "q": "Indication for adenectomy?",
+     "options": [
+      "Obstructive sleep apnoea",
+      "Single sore throat",
+      "Allergic rhinitis"
+     ],
+     "answer": 0,
+     "why": "Recurrent URTIs, otitis media, blocked nasal breathing, OSA."
+    }
+   ]
+  }
+ ]
+}

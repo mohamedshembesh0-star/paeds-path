@@ -1,0 +1,2132 @@
+{
+ "I-1": {
+  "summary": "The unconscious child is an airway problem before a neurology problem: ABCDE and a bedside glucose first, then decide structural (focal, asymmetric) versus metabolic/toxic (global, symmetric) - and never LP into raised ICP or shock.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 2,
+    "stem": "A 6-year-old boy is found unresponsive at home. He has snoring respirations, SpO₂ 88% on air and GCS 7. Which action takes priority?",
+    "options": [
+     "Urgent non-contrast CT head to look for a mass lesion",
+     "Lumbar puncture to exclude bacterial meningitis",
+     "Airway opening manoeuvres and preparation for intubation",
+     "Full neurological examination including fundoscopy"
+    ],
+    "answer": 2,
+    "explain": "He is an airway problem before a neurology problem: snoring and hypoxia with GCS ≤8 mandate securing the airway (ABCDE). Imaging, LP and detailed neuro examination come only after A and B are safe.",
+    "note": "Unconscious child: an airway problem before a neurology problem."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Which cause of coma is most likely to produce a focal, asymmetric neurological examination?",
+    "options": [
+     "Space-occupying lesion",
+     "Opiate overdose",
+     "Uraemia",
+     "Insulin-induced hypoglycaemia"
+    ],
+    "answer": 0,
+    "explain": "Structural lesions (tumour, haematoma, abscess) give focal, asymmetric signs. Toxic and metabolic causes such as opiates, uraemia and hypoglycaemia depress the brain globally and symmetrically (hypoglycaemia can rarely mimic focality, but classically it is global).",
+    "note": "Structural causes: focal and asymmetric; metabolic/toxic: global and symmetric."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 14-year-old girl is brought from a party with GCS 9, respiratory rate 6/min and bilateral 1 mm pupils. Glucose is 5.8 mmol/L. What is the most appropriate drug to give after airway support?",
+    "options": [
+     "Flumazenil",
+     "Atropine",
+     "Physostigmine",
+     "Naloxone"
+    ],
+    "answer": 3,
+    "explain": "Respiratory and CNS depression with pinpoint pupils is the opioid toxidrome; naloxone reverses it. Flumazenil is for benzodiazepines (pupils not pinpoint, risk of seizures); atropine and physostigmine treat cholinergic and anticholinergic toxidromes.",
+    "note": "Opioids: respiratory and CNS depression, pinpoint pupils."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "An 8-year-old with a head injury becomes drowsier. BP 150/95 mmHg, heart rate 48/min, and breathing is irregular. What does this combination indicate?",
+    "options": [
+     "Spinal shock from a high cervical cord injury",
+     "Raised intracranial pressure with impending herniation",
+     "Hypovolaemic shock from occult abdominal bleeding",
+     "Opioid toxicity from pre-hospital analgesia"
+    ],
+    "answer": 1,
+    "explain": "Hypertension, bradycardia and irregular breathing are the Cushing triad of raised ICP: BP rises to maintain CPP (= MAP - ICP). Spinal shock gives hypotension with bradycardia; hypovolaemia gives tachycardia and hypotension.",
+    "note": "CPP = MAP - ICP; raised ICP → Cushing triad (hypertension, bradycardia, irregular breathing)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A comatose 10-year-old responds to a painful stimulus by extending and internally rotating both arms with extended legs. What does this indicate?",
+    "options": [
+     "Decorticate posturing, suggesting a brainstem-level lesion",
+     "Decerebrate posturing, suggesting a brainstem-level lesion",
+     "Decorticate posturing, suggesting a hemispheric lesion only",
+     "Localising to pain, suggesting intact cortical function"
+    ],
+    "answer": 1,
+    "explain": "Extended arms = decerebrate posturing, implying damage at or below the midbrain - a worse sign than decorticate (flexed arms), which implies a lesion above the red nucleus.",
+    "note": "Decorticate: flexed arms; decerebrate: extended arms."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 10-year-old falls from a bike. On assessment GCS is 14, with no focal signs and no palpable skull fracture. What is the most appropriate imaging decision?",
+    "options": [
+     "Skull X-ray only",
+     "Observe; CT only if GCS falls to 8 or below",
+     "Elective MRI brain within a week",
+     "CT head now"
+    ],
+    "answer": 3,
+    "explain": "Per the notes, GCS ≤ 14 alone justifies head CT (as do skull fracture or focal signs). Skull X-ray misses intracranial bleeds, and waiting for GCS 8 is far too late. (NICE uses GCS <14 on initial assessment, or <15 at 2 hours.)",
+    "note": "Head CT if GCS ≤ 14, skull fracture or focal signs."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-year-old has fever, drowsiness (GCS 11), a spreading purpuric rash, CRT 5 s and BP 70/40 mmHg. Bacterial meningitis is possible. What is the next best step after fluid resuscitation is started?",
+    "options": [
+     "IV ceftriaxone now; defer lumbar puncture",
+     "Lumbar puncture first so CSF cultures are not sterilised, then ceftriaxone",
+     "CT head, then lumbar puncture if normal, then IV antibiotics",
+     "Await blood culture and PCR results before choosing an antibiotic"
+    ],
+    "answer": 0,
+    "explain": "Never delay antibiotics for LP when meningitis is possible, and never perform LP in shock (or with raised ICP). Ceftriaxone immediately; PCR on blood and later CSF can still give the organism.",
+    "note": "Meningitis possible: ceftriaxone immediately, don't wait for lumbar puncture."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An intubated 7-year-old with a large traumatic contusion develops a rising ICP and new bradycardia. Which set of measures is appropriate while neurosurgery is contacted?",
+    "options": [
+     "Head-down tilt to improve cerebral perfusion and hypotonic fluids",
+     "Diagnostic lumbar puncture to measure and relieve the pressure",
+     "Head up 30°, brief hyperventilation and IV mannitol",
+     "Permissive hypercapnia and fluid restriction to below maintenance"
+    ],
+    "answer": 2,
+    "explain": "Raised ICP: elevate the head, hyperventilate, give mannitol (or hypertonic saline). Hyperventilation should be brief/targeted (PaCO₂ ~4-4.5 kPa) because prolonged hypocapnia causes cerebral ischaemia. LP risks herniation; hypercapnia dilates cerebral vessels and raises ICP.",
+    "note": "Raised ICP: elevate head, hyperventilate, mannitol."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the AEIOU-TIPS causes of coma.",
+    "back": "Alcohol • Epilepsy • Insulin (hypo-/hyperglycaemia) • Opiates • Uraemia • Trauma • Infection • Psychiatric • Shock / Space-occupying lesion."
+   },
+   {
+    "type": "card",
+    "front": "How do you distinguish structural from metabolic/toxic coma at the bedside?",
+    "back": "Structural: focal, asymmetric signs, unequal pupils (uncal herniation → CN III, dilated pupil). Metabolic/toxic: global, symmetric depression; pupils usually reactive (pinpoint in opioids)."
+   },
+   {
+    "type": "card",
+    "front": "Unconscious child: give the key 'never' rules and the CT indications.",
+    "back": "Never skip a bedside glucose • Never LP with raised ICP or shock • Never delay ceftriaxone for LP • GCS ≤8 → intubate • CT head if GCS ≤14, skull fracture or focal signs."
+   }
+  ]
+ },
+ "I-2": {
+  "summary": "A seizure lasting ≥5 minutes is status epilepticus: check glucose at 0 min and climb the 5-5-5 ladder (benzo, benzo, second-line, RSI at 25 min); in neonates every seizure is pathological until a cause is found.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "At what seizure duration should a convulsing child be treated as status epilepticus and receive the first benzodiazepine?",
+    "options": [
+     "2 minutes",
+     "5 minutes",
+     "15 minutes",
+     "30 minutes"
+    ],
+    "answer": 1,
+    "explain": "Operationally, status epilepticus = seizure ≥ 5 min; treatment starts then. The old 30-minute definition reflects when neuronal injury becomes likely, not when to treat.",
+    "note": "Status epilepticus: seizure lasting ≥ 5 min → treat on the 5-5-5 ladder."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-year-old has been seizing for 15 minutes despite buccal midazolam at 5 min and IV lorazepam at 10 min. Glucose is normal. What is the next step?",
+    "options": [
+     "A third dose of IV lorazepam",
+     "Immediate rapid sequence induction",
+     "IV pyridoxine bolus",
+     "IV levetiracetam (or phenytoin/valproate)"
+    ],
+    "answer": 3,
+    "explain": "Ladder: 5 min first benzo, 10 min second benzo, 15 min second-line (levetiracetam, phenytoin or valproate), 25 min RSI. A third benzodiazepine adds respiratory depression without benefit. Pyridoxine is for refractory neonatal seizures.",
+    "note": "5 min first benzodiazepine; 10 min second benzodiazepine; 15 min levetiracetam, phenytoin or valproate; 25 min RSI."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A term baby born after a prolonged second stage with Apgar 2 at 5 minutes and cord pH 6.9 develops seizures at 10 hours of age. Glucose, calcium and sodium are normal. What is the most likely cause?",
+    "options": [
+     "Hypoxic-ischaemic encephalopathy",
+     "Benign familial neonatal seizures",
+     "Febrile seizure",
+     "Pyridoxine-dependent epilepsy"
+    ],
+    "answer": 0,
+    "explain": "Neonatal seizures are always pathological; with perinatal asphyxia and onset in the first 24 h, HIE is the commonest cause. Febrile seizures start at 6 months; familial and pyridoxine-dependent seizures are diagnoses of exclusion.",
+    "note": "A neonatal seizure is always pathological: HIE, hypoglycaemia, low Ca/Na, sepsis, haemorrhage."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-year-old girl has several daily episodes of blank staring lasting 10 seconds with eyelid flutter, no post-ictal state, and teachers report daydreaming. Which bedside manoeuvre is most likely to provoke an episode?",
+    "options": [
+     "Valsalva manoeuvre",
+     "Carotid sinus massage",
+     "Hyperventilation for 3 minutes",
+     "Rapid standing from supine"
+    ],
+    "answer": 2,
+    "explain": "Childhood absence epilepsy: brief blank stare without post-ictal confusion, provoked by hyperventilation (3 Hz spike-wave on EEG). Valsalva, carotid massage and standing provoke reflex/vasovagal syncope rather than absences.",
+    "note": "Absence: blank stare, provoked by hyperventilation."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 6-month-old boy has clusters of sudden bilateral flexion jerks of the trunk and arms on waking, with developmental regression. EEG shows chaotic high-voltage slow waves with multifocal spikes. What is the first-line treatment?",
+    "options": [
+     "Phenobarbital",
+     "ACTH",
+     "Ethosuximide",
+     "Carbamazepine"
+    ],
+    "answer": 1,
+    "explain": "Infantile spasms + hypsarrhythmia + regression = West syndrome, treated with ACTH (or prednisolone; vigabatrin first-line in tuberous sclerosis). Ethosuximide is for absences; carbamazepine can worsen generalised seizures; phenobarbital is the neonatal first-line.",
+    "note": "West syndrome: bilateral jerking, hypsarrhythmia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-year-old is brought in actively convulsing. IV access is being obtained. Which investigation should be performed at time zero?",
+    "options": [
+     "Serum calcium and magnesium",
+     "Non-contrast CT head",
+     "Urgent EEG",
+     "Bedside capillary glucose"
+    ],
+    "answer": 3,
+    "explain": "Glucose is checked at 0 min because hypoglycaemia is immediately treatable and changes management; Ca/Na and infection screen follow. CT and EEG come once the seizure is controlled.",
+    "note": "Bedside glucose at 0 min; check Ca, Na; screen for infection."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-day-old with seizures has normal glucose, calcium, sodium and cultures, and continues to seize despite two loading doses of phenobarbital. What should be tried next?",
+    "options": [
+     "IV pyridoxine",
+     "Oral ethosuximide",
+     "IV ACTH",
+     "IV flumazenil"
+    ],
+    "answer": 0,
+    "explain": "Neonates: phenobarbital first-line; if resistant, give pyridoxine (pyridoxine-dependent epilepsy responds dramatically, ideally under EEG). ACTH is for West syndrome, ethosuximide for absence.",
+    "note": "Neonates: phenobarbital, pyridoxine if resistant; West: ACTH."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does the immature brain of an infant have a lower seizure threshold than an adult brain?",
+    "options": [
+     "Myelination of inhibitory tracts precedes excitatory ones",
+     "GABA becomes inhibitory earlier than glutamate is expressed",
+     "Excitatory synapses mature before inhibitory ones",
+     "The blood-brain barrier is impermeable to glucose in infancy"
+    ],
+    "answer": 2,
+    "explain": "Excitatory (glutamatergic) circuits mature first, while GABAergic inhibition is immature (GABA is even depolarising early on), so the threshold is low; a rapid temperature rise or metabolic insult crosses it.",
+    "note": "Excitatory synapses mature before inhibitory ones → low seizure threshold."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Walk through the status epilepticus ladder with timings.",
+    "back": "0 min: ABC, bedside glucose • 5 min: 1st benzodiazepine (buccal/IV) • 10 min: 2nd benzodiazepine • 15 min: levetiracetam, phenytoin or valproate • 25 min: RSI and anaesthesia."
+   },
+   {
+    "type": "card",
+    "front": "Causes of seizures by age.",
+    "back": "Neonate (always pathological): HIE, hypoglycaemia, low Ca/Na, sepsis, haemorrhage • Toddler: febrile seizure (3-5%), meningitis, NAI, West syndrome • Older: epilepsy, trauma, tumour, AVM."
+   },
+   {
+    "type": "card",
+    "front": "Neonatal and West syndrome treatment, and first-seizure work-up.",
+    "back": "Neonate: phenobarbital, then pyridoxine if resistant • West (spasms + hypsarrhythmia): ACTH • Work-up: glucose, Ca, Na, infection screen; EEG + emergency CT (no contrast) or MRI."
+   }
+  ]
+ },
+ "I-3": {
+  "summary": "Most childhood headache is primary (migraine/tension); your job is to find the few secondary ones with three questions - acute or chronic, progressive or not, red flags - and any red flag means urgent MRI.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 4-year-old has had headaches for 6 weeks that wake him from sleep, with early-morning vomiting and new clumsiness when walking. Examination is otherwise normal. What is the most appropriate next step?",
+    "options": [
+     "Urgent neuroimaging, preferably MRI",
+     "Headache diary and review in 3 months",
+     "Trial of regular paracetamol and ibuprofen",
+     "EEG to look for epileptiform activity"
+    ],
+    "answer": 0,
+    "explain": "Waking from sleep, coordination difficulties and age under 5 are all red flags; any one mandates urgent imaging (MRI preferred). A diary or analgesic trial is for primary headache without red flags.",
+    "note": "Any red flag → urgent neuroimaging, preferably MRI."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 7-year-old with 2 months of morning headache and vomiting is found to have truncal ataxia. MRI shows a midline posterior fossa mass arising from the cerebellar vermis filling the fourth ventricle. What is the most likely tumour?",
+    "options": [
+     "Craniopharyngioma",
+     "Glioblastoma multiforme",
+     "Medulloblastoma",
+     "Meningioma"
+    ],
+    "answer": 2,
+    "explain": "Childhood CNS tumours are usually infratentorial: pilocytic astrocytoma (cerebellar hemisphere, cystic), medulloblastoma (midline vermis) and ependymoma (floor of 4th ventricle). Craniopharyngioma is suprasellar; glioblastoma and meningioma are adult supratentorial tumours.",
+    "note": "Childhood CNS tumors are usually infratentorial: pilocytic astrocytoma, medulloblastoma, ependymoma."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 9-year-old with progressive headache now complains of double vision on looking to the left; the left eye fails to abduct. Imaging later shows a cerebellar tumour with hydrocephalus. What explains the eye finding?",
+    "options": [
+     "Direct tumour invasion of the left oculomotor nucleus",
+     "False localising CN VI palsy from raised ICP",
+     "Uncal herniation compressing the left CN III",
+     "Internuclear ophthalmoplegia from MLF demyelination"
+    ],
+    "answer": 1,
+    "explain": "The long intracranial course of CN VI makes it vulnerable to stretching by raised ICP, so an abducens palsy is a false localising sign. CN III compression causes a dilated pupil and 'down and out' eye, not isolated abduction failure.",
+    "note": "Raised ICP → new CN VI palsy = false localising sign."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An 11-year-old girl has episodic bilateral throbbing headaches lasting about 3 hours with nausea and a preference for a dark room; she is well between episodes and examination is normal. What is the most likely diagnosis?",
+    "options": [
+     "Tension-type headache",
+     "Idiopathic intracranial hypertension",
+     "Medication overuse headache",
+     "Migraine without aura"
+    ],
+    "answer": 3,
+    "explain": "Throbbing pain with nausea and photophobia = migraine; in children it is often bilateral and can last only 2 hours (adults 4-72 h). Tension-type is constant, pressing, without nausea/photophobia.",
+    "note": "Migraine: throbbing, nausea, photophobia; 4 to 72 hours; in children often bilateral, as short as 2 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 14-year-old has bilateral, constant, band-like headaches without aura or nausea. What minimum frequency and duration define the chronic form of this headache?",
+    "options": [
+     "≥8 days/month for more than 1 month",
+     "≥15 days/month for more than 3 months",
+     "≥15 days/month for more than 6 weeks",
+     "≥4 days/week for more than 12 months"
+    ],
+    "answer": 1,
+    "explain": "Chronic tension-type headache = 15 or more days per month for more than 3 months (the same 15/3 rule defines chronic migraine).",
+    "note": "Tension: bilateral, constant, no aura; chronic = 15 days/month for more than 3 months."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "An obese 13-year-old girl has daily headaches, transient visual obscurations and bilateral papilloedema. MRI is normal and lumbar puncture opening pressure is 35 cmH₂O with normal CSF. What is the first-line drug treatment?",
+    "options": [
+     "Acetazolamide",
+     "Sumatriptan",
+     "Dexamethasone",
+     "Propranolol"
+    ],
+    "answer": 0,
+    "explain": "Idiopathic intracranial hypertension (normal imaging and CSF, high opening pressure) is treated with weight loss and acetazolamide (± furosemide) to reduce CSF production; untreated it threatens vision. Triptans and propranolol are migraine drugs.",
+    "note": "Idiopathic intracranial hypertension: acetazolamide (± furosemide)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-year-old with known migraine has an acute attack at school. She has had no medication today and has no contraindications. What is the most appropriate first-line treatment?",
+    "options": [
+     "Oral prednisolone for 3 days",
+     "Codeine phosphate",
+     "Daily propranolol started today",
+     "Ibuprofen at an adequate weight-based dose"
+    ],
+    "answer": 3,
+    "explain": "Acute migraine: NSAIDs (ibuprofen) or paracetamol first-line, triptans (e.g. nasal sumatriptan in adolescents) if these fail. Codeine is contraindicated in children; propranolol is prophylaxis, not acute treatment.",
+    "note": "Acute migraine: NSAIDs or acetaminophen first-line; also triptans."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 12-year-old has had headaches for a year, unchanged in pattern and frequency, with a normal neurological examination and normal growth; he takes ibuprofen about 4 times a month. Which feature would most change your management towards urgent imaging?",
+    "options": [
+     "New headache that wakes him from sleep",
+     "Family history of migraine in his mother",
+     "Headache improving with ibuprofen",
+     "Pain worse during exam weeks at school"
+    ],
+    "answer": 0,
+    "explain": "The three questions: acute or chronic, progressive or not, red flags. A chronic non-progressive pattern with normal exam is reassuring; waking from sleep is a red flag (raised ICP pattern). Family history and stress triggers favour primary headache.",
+    "note": "Red flags: awakening from sleep, coordination difficulties, focal signs, age under 5 years."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "What three questions frame a child's headache, and what are the red flags?",
+    "back": "1) Acute or chronic? 2) Progressive or not? 3) Red flags? • Red flags: wakes from sleep, coordination difficulty, focal signs, age <5 → urgent MRI."
+   },
+   {
+    "type": "card",
+    "front": "Features of raised ICP headache.",
+    "back": "Worse on waking, coughing, lying flat • Vomiting without nausea • New CN VI palsy (false localising) • Papilloedema • Think infratentorial tumour: pilocytic astrocytoma, medulloblastoma, ependymoma."
+   },
+   {
+    "type": "card",
+    "front": "Contrast migraine and tension-type headache in children, with treatment.",
+    "back": "Migraine: throbbing, nausea, photophobia, 2-72 h, often bilateral → NSAID/paracetamol, triptan; prophylaxis if frequent • Tension: bilateral, constant, no aura; chronic ≥15 d/month >3 months • Diary for triggers."
+   }
+  ]
+ },
+ "I-4": {
+  "summary": "A febrile infant under 3 months cannot localise infection and looks deceptively well: under 28 days it is a full septic screen with LP and IV ampicillin plus gentamicin/cefotaxime for everyone; remember UTI is the commonest serious bacterial infection.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 3-week-old has a temperature of 38.2 °C. She is feeding well and looks well. Which investigation plan is appropriate?",
+    "options": [
+     "Urine culture only, as she looks well and is feeding",
+     "FBC and CRP; lumbar puncture only if CRP is raised",
+     "Full septic screen including lumbar puncture",
+     "No tests; safety-net and review in 24 h"
+    ],
+    "answer": 2,
+    "explain": "Under 28 days every febrile infant gets a full septic screen including LP, regardless of appearance, because clinical appearance is unreliable and meningitis may have no localising signs.",
+    "note": "Under 28 days: full septic screen incl. lumbar puncture for all."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-week-old is febrile, lethargic and has a bulging fontanelle. CSF is awaited. Which empirical regimen is most appropriate?",
+    "options": [
+     "IV amoxicillin plus cefotaxime, ± aciclovir",
+     "IV cefotaxime alone",
+     "IV ceftriaxone plus vancomycin",
+     "Oral amoxicillin and review"
+    ],
+    "answer": 0,
+    "explain": "Neonatal sepsis organisms are GBS, E. coli and Listeria. Listeria is resistant to cephalosporins, so amoxicillin/ampicillin must be added; cefotaxime (rather than ceftriaxone) covers Gram-negatives for meningitis; add aciclovir if HSV is possible.",
+    "note": "Under 28 days: admit + IV ampicillin (amoxicillin) + gentamicin/cefotaxime; ± aciclovir."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "In febrile infants under 3 months, which serious bacterial infection is most common?",
+    "options": [
+     "Bacterial meningitis",
+     "Urinary tract infection",
+     "Lobar pneumonia",
+     "Septic arthritis"
+    ],
+    "answer": 1,
+    "explain": "UTI is the commonest serious bacterial infection in febrile infants, which is why urine is tested in everyone. Meningitis and bacteraemia are less common but more dangerous.",
+    "note": "Commonest serious bacterial infection: urinary tract infection."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 10-day-old develops fever and lethargy; the mother had a febrile illness after eating unpasteurised soft cheese in late pregnancy. Which organism is the specific reason amoxicillin must be part of empirical therapy?",
+    "options": [
+     "Group B streptococcus",
+     "Escherichia coli",
+     "Herpes simplex virus",
+     "Listeria monocytogenes"
+    ],
+    "answer": 3,
+    "explain": "Listeria (unpasteurised dairy, maternal flu-like illness) is intrinsically resistant to cephalosporins and requires amoxicillin/ampicillin. GBS and E. coli are covered by cefotaxime/gentamicin; HSV needs aciclovir.",
+    "note": "Listeria is resistant to cephalosporins; non-blanching rash → antibiotics first."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 7-week-old has a temperature of 38.5 °C, is feeding poorly and the mother says he is 'not himself'. There is no neck stiffness. What is the significance of the absent neck stiffness?",
+    "options": [
+     "It effectively excludes meningitis",
+     "It suggests a urinary rather than CNS source",
+     "It does not exclude meningitis at this age",
+     "It means LP can be safely deferred to 48 h"
+    ],
+    "answer": 2,
+    "explain": "Young infants with meningitis present non-specifically - poor feeding, 'not right' - and usually lack neck stiffness. Its absence is not reassuring.",
+    "note": "Meningitis = poor feeding, 'not right'; no neck stiffness."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 2-month-old has a temperature of 38.4 °C, is alert, feeding well and has no focus. What is the appropriate initial work-up?",
+    "options": [
+     "FBC, CRP, blood culture and urine; LP if unwell",
+     "Full septic screen with LP regardless of appearance",
+     "Urine dipstick from a bag sample only",
+     "Traffic-light assessment and home if green"
+    ],
+    "answer": 0,
+    "explain": "Between 1 and 3 months: FBC, CRP, blood culture and urine, adding LP if the infant is unwell (or results are abnormal). LP-for-all applies under 28 days; traffic-light triage is for over 3 months; bag urine is unreliable.",
+    "note": "1-3 months: FBC, CRP, culture, urine; LP if unwell."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 9-month-old with 2 days of fever and coryza is alert, well perfused and feeding; all features are 'green' on the traffic-light system. Which further test is still recommended before discharge?",
+    "options": [
+     "Bag urine sample",
+     "Chest X-ray",
+     "Lumbar puncture",
+     "Clean-catch urine sample"
+    ],
+    "answer": 3,
+    "explain": "Over 3 months the traffic-light system guides management, but urine should be checked in every febrile infant, by clean catch rather than bag (bags are contaminated). CXR and LP are not indicated in a well green child.",
+    "note": "Over 3 months: traffic-light system; urine in everyone: clean catch, not a bag."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-month-old with fever develops a few non-blanching petechiae on the trunk and cool peripheries. IV access is achieved; blood culture is being taken. What should happen next?",
+    "options": [
+     "Perform LP before antibiotics",
+     "Give IV ceftriaxone immediately",
+     "Wait for CRP to decide on antibiotics",
+     "Arrange CT head before any treatment"
+    ],
+    "answer": 1,
+    "explain": "Fever with a non-blanching rash = meningococcal sepsis until proven otherwise: antibiotics first, without waiting for LP, imaging or blood results.",
+    "note": "Listeria is resistant to cephalosporins; non-blanching rash → antibiotics first."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Outline febrile infant work-up by age.",
+    "back": "<28 days: full septic screen incl. LP for all, admit • 1-3 months: FBC, CRP, blood culture, urine; LP if unwell • >3 months: traffic-light system; urine in everyone (clean catch, not bag)."
+   },
+   {
+    "type": "card",
+    "front": "Why is a febrile young infant high risk, and which organisms do you cover?",
+    "back": "Immature immunity, no vaccine cover, no localising signs → appearance unreliable • GBS, E. coli, Listeria (± HSV) → IV amoxicillin + gentamicin/cefotaxime ± aciclovir; Listeria resists cephalosporins."
+   },
+   {
+    "type": "card",
+    "front": "Red flags in a febrile child that change the pathway.",
+    "back": "Non-blanching rash → meningococcal sepsis, antibiotics first • Poor feeding/'not right' = possible meningitis (no neck stiffness) • Fever >5 days → think Kawasaki • Well >3 mo with viral source → home with safety-netting."
+   }
+  ]
+ },
+ "I-5": {
+  "summary": "Fever plus rash: first ask 'does it blanch?' - a non-blanching rash is meningococcal sepsis until proven otherwise - then pattern-match by morphology, site of onset, timing relative to fever and incubation period.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 3-year-old with a fever has a few petechiae on the face and neck only, after a day of forceful vomiting. He is alert, well perfused, with no petechiae below the nipple line. What best explains the rash?",
+    "options": [
+     "Raised venous pressure in the head and neck",
+     "Meningococcal septicaemia",
+     "Immune thrombocytopenic purpura",
+     "Henoch-Schönlein purpura"
+    ],
+    "answer": 0,
+    "explain": "Petechiae confined above the nipple line after coughing or vomiting reflect raised venous pressure. Fever with non-blanching rash still needs careful assessment, but a well child with this distribution is the classic benign exception; HSP favours buttocks and legs.",
+    "note": "Petechiae above the nipple line after coughing or vomiting: raised venous pressure."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "An unvaccinated 4-year-old has 4 days of high fever, cough, coryza and conjunctivitis, followed by a maculopapular rash starting behind the ears and spreading downwards. Which is the most common cause of death from this illness?",
+    "options": [
+     "Encephalitis",
+     "Myocarditis",
+     "Pneumonia",
+     "Dehydration from diarrhoea"
+    ],
+    "answer": 2,
+    "explain": "Measles (3 Cs, Koplik spots, rash behind the ears spreading cephalocaudally). Most deaths are from pneumonia (primary viral or secondary bacterial); encephalitis and SSPE are rarer.",
+    "note": "Measles rash starts behind the ears; Koplik spots; death from pneumonia."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 6-year-old has fever, sore throat and a rough, sandpaper-like erythematous rash with circumoral pallor and a red, bumpy tongue. What is the most likely diagnosis?",
+    "options": [
+     "Kawasaki disease",
+     "Measles",
+     "Parvovirus B19 infection",
+     "Scarlet fever"
+    ],
+    "answer": 3,
+    "explain": "Sandpaper rash + strawberry tongue + pharyngitis = scarlet fever (GAS, 2nd disease). Kawasaki also gives strawberry tongue but needs ≥5 days fever with conjunctivitis and extremity changes; parvovirus gives slapped cheeks.",
+    "note": "Scarlet fever: sandpaper rash, strawberry tongue; parvovirus: slapped cheek."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A child develops chickenpox. What is the incubation period of varicella?",
+    "options": [
+     "2-5 days",
+     "10-21 days",
+     "5-7 days",
+     "28-42 days"
+    ],
+    "answer": 1,
+    "explain": "Varicella 10-21 days (rubella 14-21, measles 10-14, scarlet fever 2-5 days). This is why exposed non-immune contacts are excluded/monitored for about 3 weeks.",
+    "note": "Incubation: varicella 10-21 days; rubella 14-21 days; measles 10-14 d; scarlet 2-5 d."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-year-old has low-grade fever, a fine pink rash starting on the face, and tender lymph nodes at the back of the head below the occiput. Which is the most likely diagnosis?",
+    "options": [
+     "Rubella",
+     "Roseola infantum",
+     "Measles",
+     "Hand, foot and mouth disease"
+    ],
+    "answer": 0,
+    "explain": "Suboccipital (and post-auricular) lymphadenopathy with a mild facial-onset rash is classic rubella (3rd disease). Roseola gives a rash after fever settles; HFMD (Coxsackie A) gives vesicles on palms, soles and mouth.",
+    "note": "Rubella: suboccipital nodes. Coxsackie A: hand, foot and mouth disease."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A 14-month-old had 3 days of fever up to 40 °C while otherwise well; when the fever suddenly settled, a pink maculopapular rash appeared on the trunk. Which numbered exanthem is this?",
+    "options": [
+     "Third disease",
+     "Fifth disease",
+     "Sixth disease",
+     "Second disease"
+    ],
+    "answer": 2,
+    "explain": "Rash appearing as the fever resolves in an infant = roseola infantum (HHV-6/7), the sixth disease. First measles, second scarlet fever, third rubella, fifth parvovirus (slapped cheek).",
+    "note": "First measles, second scarlet fever, third rubella, fifth parvovirus, sixth roseola."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 5-day-old is born to a mother who developed chickenpox 2 days before delivery. The baby is currently well. What is the most appropriate management?",
+    "options": [
+     "Reassure: maternal antibodies will protect the baby",
+     "Give live varicella vaccine now",
+     "Start oral aciclovir only if lesions appear",
+     "Give varicella-zoster immunoglobulin (VZIG)"
+    ],
+    "answer": 3,
+    "explain": "Maternal varicella from 5 days before to 2 days after delivery gives the baby virus without protective maternal IgG; the baby needs VZIG (± prophylactic aciclovir). Live vaccine is not given to neonates; severe disease is treated with IV aciclovir.",
+    "note": "Severe chickenpox: IV acyclovir; newborn of infected mother: VZIG."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 2-year-old has fever and a rapidly spreading non-blanching purpuric rash in a GP surgery; transfer to hospital will take 30 minutes. What is the most appropriate immediate action?",
+    "options": [
+     "Give IM/IV benzylpenicillin before transfer",
+     "Transfer without treatment so cultures are not affected",
+     "Perform a glass test again in 1 hour",
+     "Give oral amoxicillin and arrange review"
+    ],
+    "answer": 0,
+    "explain": "Suspected meningococcal sepsis: benzylpenicillin (pre-hospital) or ceftriaxone immediately - delay kills. Culture yield is a lesser concern (PCR still works).",
+    "note": "Suspected meningococcal sepsis → benzylpenicillin or ceftriaxone immediately."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Name the numbered childhood exanthems and their agents.",
+    "back": "1st measles • 2nd scarlet fever (GAS) • 3rd rubella • 4th 'Dukes' (disputed) • 5th erythema infectiosum (parvovirus B19, slapped cheek) • 6th roseola (HHV-6)."
+   },
+   {
+    "type": "card",
+    "front": "Give the incubation periods of the classic rash illnesses.",
+    "back": "Scarlet fever 2-5 d • Measles 10-14 d • Varicella 10-21 d • Rubella 14-21 d."
+   },
+   {
+    "type": "card",
+    "front": "What are the fever-and-rash emergencies and their first action?",
+    "back": "Meningococcaemia → benzylpenicillin/ceftriaxone now • Kawasaki → IVIG within 10 days • SJS/TEN → stop drug, burns-type care • Toxic shock → resuscitate, antibiotics (incl. clindamycin) • Severe varicella → IV aciclovir."
+   }
+  ]
+ },
+ "I-6": {
+  "summary": "FUO is usually an uncommon presentation of a common infection, found by repeating the history and examination daily; Kawasaki is the FUO-mimic you must not miss - treat with IVIG 2 g/kg plus aspirin within 10 days to protect the coronaries.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which combination fulfils the classic diagnostic criteria for Kawasaki disease?",
+    "options": [
+     "Fever ≥3 days plus 3 of 5 principal features",
+     "Fever ≥5 days plus 4 of 5 principal features",
+     "Fever ≥7 days plus 2 of 5 principal features and raised CRP",
+     "Fever ≥5 days plus coronary dilatation on echocardiography"
+    ],
+    "answer": 1,
+    "explain": "Classic Kawasaki = fever for at least 5 days plus 4 of the 5 principal features (conjunctivitis, oral changes, rash, extremity changes, cervical node). Fewer features with supportive labs/echo = incomplete Kawasaki, a separate pathway.",
+    "note": "Kawasaki: fever ≥ 5 days plus 4 of 5 principal features."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 6-year-old has had daily fevers above 38 °C for 10 days. Initial history, examination, FBC, CRP, urine and chest X-ray have not revealed a cause. Statistically, which category is the most likely cause?",
+    "options": [
+     "Malignancy",
+     "Inflammatory/connective tissue disease",
+     "Factitious fever",
+     "Infection"
+    ],
+    "answer": 3,
+    "explain": "This is FUO (>38 °C for ≥8 days, no cause after initial evaluation). About half of paediatric FUO is infection (often atypical presentations of common infections), ~20% inflammatory disease, ~10% malignancy.",
+    "note": "FUO is most often infection (~50%), then inflammatory disease (~20%), then malignancy (~10%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A well-appearing 4-year-old meets the definition of FUO after 9 days. Basic investigations are normal. What is the highest-yield next step?",
+    "options": [
+     "Repeat a detailed history and full examination daily",
+     "Whole-body PET-CT",
+     "Bone marrow aspirate",
+     "Empirical broad-spectrum IV antibiotics"
+    ],
+    "answer": 0,
+    "explain": "Repeated daily history and examination is the highest-yield investigation in FUO: new signs (rash, nodes, conjunctivitis) appear with time. Empirical antibiotics obscure the diagnosis; marrow and PET are reserved for targeted indications.",
+    "note": "FUO: repeated daily history and examination is the highest-yield investigation."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 3-year-old has had 6 days of fever, cracked red lips, a polymorphous rash and swollen hands. Which description of his eyes is most consistent with the likely diagnosis?",
+    "options": [
+     "Unilateral, purulent, with lid oedema",
+     "Bilateral, purulent, with preauricular nodes",
+     "Bilateral, non-purulent, sparing the limbus",
+     "Bilateral limbal flush with photophobia"
+    ],
+    "answer": 2,
+    "explain": "Kawasaki conjunctivitis is bilateral, non-exudative and limbal-sparing. Purulent discharge suggests bacterial or adenoviral conjunctivitis; limbal flush with photophobia suggests anterior uveitis.",
+    "note": "Kawasaki conjunctivitis: bilateral, non-purulent, limbal sparing."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "Which complication of Kawasaki disease carries the main risk of sudden death in childhood and later life?",
+    "options": [
+     "Coronary artery aneurysm",
+     "Dilated cardiomyopathy",
+     "Aortic root dilatation with regurgitation",
+     "Constrictive pericarditis"
+    ],
+    "answer": 0,
+    "explain": "Kawasaki is a medium-vessel vasculitis with a predilection for coronary arteries; aneurysms can thrombose or rupture → myocardial infarction. That is why IVIG is given early and serial echocardiograms are done.",
+    "note": "Kawasaki hits the coronary arteries → aneurysm → rupture or myocardial infarction."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 7-year-old with systemic JIA (daily spiking fevers, salmon-pink rash) becomes persistently febrile and unwell. ESR has fallen from 95 to 12 mm/h, platelets from 450 to 90 ×10⁹/L, and ferritin is 30,000 μg/L. What is the most likely explanation?",
+    "options": [
+     "Remission of systemic JIA",
+     "Macrophage activation syndrome",
+     "Acute lymphoblastic leukaemia",
+     "Incomplete Kawasaki disease"
+    ],
+    "answer": 1,
+    "explain": "In sJIA a falling ESR (fibrinogen consumption), cytopenias and very high ferritin in a sicker child = macrophage activation syndrome (secondary HLH), a life-threatening emergency. A falling ESR here is not remission.",
+    "note": "sJIA with falling ESR, cytopenias, high ferritin → macrophage activation syndrome."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-year-old with Kawasaki disease received IVIG 2 g/kg and aspirin on day 6 of illness. 48 hours later he is still febrile at 39.5 °C. What is the next step?",
+    "options": [
+     "Stop aspirin because of Reye syndrome risk",
+     "Start infliximab immediately",
+     "Add IV ceftriaxone for presumed sepsis",
+     "A second dose of IVIG"
+    ],
+    "answer": 3,
+    "explain": "No defervescence after the first IVIG → give a second IVIG; steroids or infliximab are for refractory disease after that. Aspirin is the accepted exception to the Reye rule in Kawasaki.",
+    "note": "No defervescence → second IVIG; refractory → steroids/infliximab."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "An 8-month-old has 7 days of fever and irritability with only conjunctival injection and a rash. CRP is 140 mg/L, albumin is low and there is sterile pyuria. What is the most appropriate management?",
+    "options": [
+     "Wait until 4 principal features appear before treating",
+     "Treat as a urinary tract infection with IV antibiotics",
+     "Treat as incomplete Kawasaki with IVIG and aspirin",
+     "Discharge with safety-netting as criteria are not met"
+    ],
+    "answer": 2,
+    "explain": "Infants under 1 year often present incompletely yet have the highest aneurysm risk; with prolonged fever and supportive labs (high CRP, low albumin, sterile pyuria), treat as incomplete Kawasaki. Sterile pyuria is a Kawasaki feature, not UTI.",
+    "note": "Incomplete Kawasaki: under 1 year, highest aneurysm risk; delay vaccines 8 months."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the principal features of Kawasaki disease.",
+    "back": "Fever ≥5 days + 4 of 5: bilateral non-purulent limbal-sparing conjunctivitis • oral changes (strawberry tongue, cracked lips) • polymorphous rash • extremity changes (oedema, later peeling) • cervical node >1.5 cm."
+   },
+   {
+    "type": "card",
+    "front": "Outline Kawasaki investigation and treatment.",
+    "back": "CRP/ESR, FBC (thrombocytosis in week 2), urine (sterile pyuria) • Echo at diagnosis, 1-2 and 4-6 weeks • IVIG 2 g/kg + aspirin within 10 days • No response → second IVIG → steroids/infliximab."
+   },
+   {
+    "type": "card",
+    "front": "Define FUO and give its causes and best investigation.",
+    "back": "Fever >38 °C ≥8 days, no cause after initial evaluation • Infection ~50%, inflammatory ~20%, malignancy ~10% • Best test: repeated daily history and examination • Watch sJIA → MAS (falling ESR, cytopenias, high ferritin)."
+   }
+  ]
+ },
+ "I-7": {
+  "summary": "Neonatal respiratory distress is pattern recognition on gestation and delivery: preterm = RDS, term C-section = TTN, post-term with meconium = MAS/PPHN - but always think sepsis, cardiac, CDH, choanal atresia and TE fistula; CPAP is the default support (CDH: intubate, never bag-mask).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby born at 29 weeks develops grunting, nasal flaring and recession within minutes of birth. Chest X-ray shows diffuse ground-glass lungs with air bronchograms. What is the most likely diagnosis?",
+    "options": [
+     "Respiratory distress syndrome",
+     "Transient tachypnoea of the newborn",
+     "Meconium aspiration syndrome",
+     "Congenital diaphragmatic hernia"
+    ],
+    "answer": 0,
+    "explain": "Prematurity + early distress + ground-glass with air bronchograms = surfactant-deficient RDS. TTN shows fluid in the fissures; MAS shows patchy hyperinflation in term/post-term babies; CDH shows bowel in the chest.",
+    "note": "RDS CXR: ground-glass with air bronchograms; lecithin:sphingomyelin ratio ≥ 2."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A term baby born by elective caesarean section has a respiratory rate of 80/min and mild grunting at 1 hour; chest X-ray shows fluid in the horizontal fissure. Symptoms settle by 36 hours. What is the most likely diagnosis?",
+    "options": [
+     "Respiratory distress syndrome",
+     "Transient tachypnoea of the newborn",
+     "Persistent pulmonary hypertension of the newborn",
+     "Group B streptococcal pneumonia"
+    ],
+    "answer": 1,
+    "explain": "TTN: term C-section baby (no labour → delayed clearance of fetal lung fluid) with grunting that settles in 24-72 hours. It remains a diagnosis of exclusion - sepsis must be considered if not settling.",
+    "note": "TTN: term C-section baby with grunting, settles in 24-72 hours."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "What is the primary mechanism of respiratory distress syndrome in a preterm infant?",
+    "options": [
+     "Delayed clearance of fetal lung fluid",
+     "Failure of pulmonary vascular resistance to fall",
+     "Chemical pneumonitis from aspirated meconium",
+     "Surfactant deficiency causing alveolar collapse"
+    ],
+    "answer": 3,
+    "explain": "Inadequate surfactant (type II pneumocytes mature late) → high surface tension → alveoli fail to open → poor oxygenation. The distractors describe TTN, PPHN and MAS respectively.",
+    "note": "Prematurity → inadequate surfactant → alveoli fail to open → poor oxygenation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A term newborn is cyanosed and in distress at birth with a scaphoid abdomen and heart sounds best heard on the right. What is the most appropriate airway management?",
+    "options": [
+     "Bag-mask ventilate, then obtain a chest X-ray",
+     "Start nasal CPAP and observe",
+     "Intubate and place an NG tube on suction",
+     "Give surfactant via a thin catheter (LISA)"
+    ],
+    "answer": 2,
+    "explain": "Scaphoid abdomen + displaced heart = congenital diaphragmatic hernia. Never bag-mask (gas distends intrathoracic bowel and compresses the lung); intubate immediately and decompress the stomach with an NG tube on suction.",
+    "note": "CDH: never bag-mask; intubate with NG tube on suction."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A newborn becomes cyanosed and distressed while feeding or at rest but turns pink whenever he cries. What is the most likely diagnosis?",
+    "options": [
+     "Bilateral choanal atresia",
+     "Laryngomalacia",
+     "Tetralogy of Fallot",
+     "Tracheo-oesophageal fistula"
+    ],
+    "answer": 0,
+    "explain": "Neonates are obligate nasal breathers; with choanal atresia they can only breathe through the mouth when crying, so they pink up on crying (the opposite of cardiac cyanosis, which worsens). Confirm by failure to pass a nasal catheter.",
+    "note": "CDH: scaphoid abdomen; choanal atresia: pink when crying."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A newborn has excessive frothy saliva and coughs, chokes and turns blue with the first feed. An NG tube is passed and an X-ray is taken. What finding confirms the likely diagnosis?",
+    "options": [
+     "The NG tube lies in the stomach with a double-bubble",
+     "Bowel loops are seen in the left hemithorax",
+     "Ground-glass lungs with air bronchograms",
+     "The NG tube coils in the upper oesophageal pouch"
+    ],
+    "answer": 3,
+    "explain": "Coughing, choking and cyanosis with feeds + frothy saliva = oesophageal atresia ± TE fistula; the tube coils in the blind pouch (gas in the stomach implies a distal fistula). Double-bubble = duodenal atresia.",
+    "note": "NG tube coiling in esophagus → esophageal atresia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 28-week baby with RDS is on CPAP 6 cmH₂O; her mother received a full course of antenatal betamethasone. She now needs FiO₂ 0.40 to maintain target saturations. What is the next best step?",
+    "options": [
+     "Increase CPAP and wait until FiO₂ reaches 0.60",
+     "Give surfactant",
+     "Start inhaled nitric oxide",
+     "Give postnatal dexamethasone"
+    ],
+    "answer": 1,
+    "explain": "CPAP for all; surfactant when FiO₂ exceeds 0.30 on CPAP (European consensus). Inhaled NO is for PPHN, not RDS; postnatal steroids are used later for evolving BPD, not acute RDS.",
+    "note": "CPAP for all; RDS: maternal antenatal glucocorticoids, surfactant when FiO₂ exceeds 0.30."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A post-term baby born through thick meconium becomes severely hypoxaemic despite ventilation and 100% oxygen. Pre-ductal saturation exceeds post-ductal by 15%, and echocardiography shows a structurally normal heart with high pulmonary pressures. Which treatment targets the underlying problem?",
+    "options": [
+     "Prostaglandin E1 infusion",
+     "IV indomethacin",
+     "Inhaled nitric oxide",
+     "Balloon atrial septostomy"
+    ],
+    "answer": 2,
+    "explain": "PPHN (pulmonary vascular resistance fails to fall, often after MAS since meconium inactivates surfactant) is treated with inhaled NO, a selective pulmonary vasodilator. PGE1 keeps the duct open for duct-dependent CHD; septostomy is for transposition.",
+    "note": "Sepsis: ampicillin + gentamicin (cefotaxime if meningitis); PPHN: nitric oxide."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Differential of neonatal respiratory distress by setting.",
+    "back": "Preterm, maternal diabetes, C-section → RDS • Term C-section → TTN • Term/post-term + meconium → MAS ± PPHN • Always: sepsis, cyanotic CHD, CDH, choanal atresia, TE fistula."
+   },
+   {
+    "type": "card",
+    "front": "Give the key bedside/X-ray clue for each structural cause.",
+    "back": "CDH: scaphoid abdomen, bowel in chest → no bag-mask, intubate + NG suction • Choanal atresia: pink when crying, catheter won't pass • OA/TEF: frothy saliva, choking with feeds, NG coils • Duct-dependent CHD: no response to 100% O₂."
+   },
+   {
+    "type": "card",
+    "front": "Outline management of RDS.",
+    "back": "Antenatal maternal glucocorticoids • CPAP for all • Surfactant if FiO₂ >0.30 • Treat possible sepsis: ampicillin + gentamicin • L:S ratio ≥2 = mature lungs."
+   }
+  ]
+ },
+ "I-8": {
+  "summary": "Neonatal jaundice is sorted by onset and by splitting the bilirubin: jaundice in the first 24 hours is always pathological (haemolysis until proven otherwise), and prolonged conjugated jaundice with pale stools is biliary atresia until proven otherwise - Kasai before 60 days.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A baby is visibly jaundiced at 12 hours of age. The mother is O positive and the baby A positive; direct Coombs test is positive. What is the most likely cause?",
+    "options": [
+     "Physiological jaundice",
+     "Breast milk jaundice",
+     "ABO haemolytic disease",
+     "Gilbert syndrome"
+    ],
+    "answer": 2,
+    "explain": "Jaundice in the first 24 hours is always pathological; with an O mother, A baby and positive DAT this is ABO isoimmune haemolysis. Physiological jaundice appears after 24 h; breast milk jaundice is late and prolonged; Gilbert rarely presents this way.",
+    "note": "Jaundice in the first 24 hours is always pathological: Rh/ABO, G6PD, spherocytosis, sepsis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A baby develops jaundice at 18 hours of age. Which set of initial investigations is most appropriate in addition to a serum bilirubin?",
+    "options": [
+     "Blood groups, direct Coombs, FBC and blood film",
+     "Abdominal ultrasound and HIDA scan",
+     "TORCH serology and urine reducing substances",
+     "Liver function tests and coagulation screen only"
+    ],
+    "answer": 0,
+    "explain": "Early jaundice suggests haemolysis: blood group (mother and baby), direct Coombs, FBC and film (spherocytes, G6PD bite cells), plus sepsis screen if unwell. Ultrasound/HIDA and TORCH belong to the conjugated/prolonged pathway.",
+    "note": "Early work-up: blood group, direct Coombs, FBC, film."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-week-old breastfed girl is still jaundiced. Her stools are pale, her urine is dark, and conjugated bilirubin is 90 μmol/L (of total 160). What is the most likely diagnosis?",
+    "options": [
+     "Breast milk jaundice",
+     "Biliary atresia",
+     "Crigler-Najjar syndrome",
+     "Hereditary spherocytosis"
+    ],
+    "answer": 1,
+    "explain": "Prolonged jaundice beyond 2 weeks with pale stools, dark urine and a conjugated picture = biliary atresia until proven otherwise. Breast milk jaundice, Crigler-Najjar and spherocytosis cause unconjugated jaundice with normal stools.",
+    "note": "Prolonged jaundice beyond 2 weeks with pale stools and dark urine = biliary atresia."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-week-old has confirmed biliary atresia. Which intervention is indicated, and what is its critical timing?",
+    "options": [
+     "Liver transplantation, ideally before 1 year of age",
+     "Ursodeoxycholic acid, with review at 3 months of age",
+     "Phototherapy until the stools regain their colour",
+     "Kasai portoenterostomy, ideally before 60 days of age"
+    ],
+    "answer": 3,
+    "explain": "Kasai portoenterostomy restores bile flow; outcomes fall steeply after 60 days. Transplant is for failed Kasai; phototherapy only works on unconjugated bilirubin.",
+    "note": "Anti-D at 28-32 weeks and within 72 hours; Kasai before 60 days."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "At what level is neonatal hyperbilirubinaemia classified as conjugated?",
+    "options": [
+     "Conjugated >5 μmol/L or >5% of total",
+     "Conjugated >85 μmol/L or >50% of total",
+     "Conjugated >25 μmol/L or >20% of total",
+     "Total bilirubin >250 μmol/L at any age"
+    ],
+    "answer": 2,
+    "explain": "Split the bilirubin: conjugated >25 μmol/L or >20% of total is abnormal and always needs investigation (biliary atresia, hepatitis, choledochal cyst, TORCH, galactosaemia).",
+    "note": "Split the bilirubin: conjugated is >25 μmol/L or >20% of total."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "How does phototherapy lower serum bilirubin?",
+    "options": [
+     "It converts bilirubin to water-soluble isomers excreted without conjugation",
+     "It induces hepatic UGT activity, accelerating glucuronidation",
+     "It inhibits haem oxygenase, reducing bilirubin production",
+     "It increases bilirubin binding to albumin, preventing CNS entry"
+    ],
+    "answer": 0,
+    "explain": "Blue-green light photo-isomerises unconjugated bilirubin into water-soluble isomers (lumirubin) excreted in bile and urine without hepatic conjugation. Enzyme induction is the mechanism of phenobarbital.",
+    "note": "Phototherapy makes bilirubin water-soluble, excreted without hepatic conjugation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-day-old with Rh haemolytic disease has a bilirubin of 480 μmol/L despite intensive phototherapy and is now lethargic with a high-pitched cry and arching of the back. What is the next step?",
+    "options": [
+     "Continue phototherapy and recheck in 6 hours",
+     "Exchange transfusion",
+     "Stop breastfeeding and give formula",
+     "Give oral phenobarbital"
+    ],
+    "answer": 1,
+    "explain": "Signs of acute bilirubin encephalopathy (high-pitched cry, opisthotonus) or failure of phototherapy → urgent exchange transfusion to prevent kernicterus.",
+    "note": "Phototherapy above the line; exchange transfusion if it fails or encephalopathy."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A thriving, exclusively breastfed 3-week-old has persistent mild jaundice. Stools are yellow, urine is pale, conjugated bilirubin is normal and examination is normal. What is the most appropriate management?",
+    "options": [
+     "Stop breastfeeding for 48 hours",
+     "Start phototherapy",
+     "Refer for liver biopsy",
+     "Continue breastfeeding and reassure"
+    ],
+    "answer": 3,
+    "explain": "Breast milk jaundice (β-glucuronidase in milk increases enterohepatic recirculation) is benign: continue breastfeeding once conjugated jaundice and hypothyroidism are excluded. Contrast breastfeeding jaundice in week 1, which is treated by increasing feeds.",
+    "note": "Breastfeeding jaundice: increase feeds; breast milk jaundice: continue breastfeeding."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give causes of neonatal jaundice by type and timing.",
+    "back": "<24 h (always pathological): Rh/ABO, G6PD, spherocytosis, sepsis • Unconjugated later: physiological, breast milk, Gilbert, Crigler-Najjar • Conjugated: biliary atresia, hepatitis, choledochal cyst, TORCH, galactosaemia."
+   },
+   {
+    "type": "card",
+    "front": "What is the work-up and management of neonatal jaundice?",
+    "back": "Bilirubin (split), blood groups, direct Coombs, FBC, film • Phototherapy above the line • Exchange transfusion if fails or encephalopathy • Biliary atresia → Kasai <60 days."
+   },
+   {
+    "type": "card",
+    "front": "How is Rh disease prevented?",
+    "back": "Rh- mother, Rh+ fetus; usually affects later pregnancies after sensitisation • Anti-D at 28-32 weeks and within 72 h of delivery or any sensitising event."
+   }
+  ]
+ },
+ "I-9": {
+  "summary": "A comfortably blue baby is cardiac, a distressed blue baby is pulmonary: use the hyperoxia test and pre/post-ductal saturations, get an echo, and if the lesion may be duct-dependent start prostaglandin E1 before the duct closes on day 2-3.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A term baby is noticed to be blue at 6 hours of age. He is feeding, not tachypnoeic or distressed, and saturations are 70% in all limbs with no murmur. What is the most likely diagnosis?",
+    "options": [
+     "Transposition of the great arteries",
+     "Respiratory distress syndrome",
+     "Transient tachypnoea of the newborn",
+     "Ventricular septal defect"
+    ],
+    "answer": 0,
+    "explain": "Comfortably blue = cardiac (respiratory drive responds mainly to CO₂, which is normal). Transposition is the classic day-1 cyanotic lesion; ToF is commonest overall but usually presents later. VSD is acyanotic.",
+    "note": "Five Ts: truncus, transposition (day 1), tricuspid atresia, tetralogy of Fallot (commonest overall), total anomalous pulmonary venous return."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A cyanosed neonate breathes 100% oxygen for 10 minutes; right radial PaO₂ rises only from 4.5 to 6 kPa. How should this result be interpreted?",
+    "options": [
+     "Primary lung disease is likely",
+     "Cyanotic heart disease or PPHN is likely",
+     "Methaemoglobinaemia is confirmed",
+     "The test is invalid without ventilation"
+    ],
+    "answer": 1,
+    "explain": "Hyperoxia test: pulmonary cyanosis improves substantially on 100% O₂ (PaO₂ usually >20 kPa); fixed right-to-left shunting in cyanotic CHD and PPHN does not. Methaemoglobinaemia has a normal PaO₂.",
+    "note": "Hyperoxia test: pulmonary cyanosis improves on 100% O₂; cardiac and PPHN do not."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 2-day-old becomes increasingly cyanosed and mottled with weak femoral pulses. A duct-dependent lesion is suspected and echocardiography is not yet available. What is the most appropriate immediate drug?",
+    "options": [
+     "IV indomethacin",
+     "Inhaled nitric oxide",
+     "Prostaglandin E1 infusion",
+     "IV methylene blue"
+    ],
+    "answer": 2,
+    "explain": "Duct-dependent lesions need prostaglandin E1 to reopen/maintain the duct, avoiding excess oxygen (which promotes duct closure). Indomethacin closes the duct - the opposite of what is needed.",
+    "note": "Duct-dependent lesions: prostaglandin E1, avoiding excess oxygen."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 3-week-old with cyanosis after a dental gel containing benzocaine has SpO₂ 85% that does not improve with oxygen; arterial PaO₂ is normal and the blood looks chocolate-brown. What is the treatment?",
+    "options": [
+     "Prostaglandin E1",
+     "Inhaled nitric oxide",
+     "Hyperbaric oxygen",
+     "Methylene blue"
+    ],
+    "answer": 3,
+    "explain": "Chocolate-brown blood with normal PaO₂ and 'saturation gap' = methaemoglobinaemia (oxidant drugs such as local anaesthetics, nitrates), treated with methylene blue, which reduces Fe³⁺ back to Fe²⁺.",
+    "note": "PPHN: inhaled nitric oxide (cGMP); refractory → ECMO; methaemoglobinaemia: methylene blue."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A cyanosed term neonate has SpO₂ 95% on the right hand and 80% on the foot. Echocardiography shows a structurally normal heart. What best explains the saturation difference?",
+    "options": [
+     "Right-to-left shunting across the duct from PPHN",
+     "Transposition with reversed differential cyanosis",
+     "Left-to-right ductal flow in coarctation",
+     "Probe artefact from peripheral vasoconstriction"
+    ],
+    "answer": 0,
+    "explain": "Pre-ductal (right hand) minus post-ductal saturation >10% with a normal heart = PPHN: high pulmonary vascular resistance drives deoxygenated blood right-to-left through the PDA to the lower body. (Smaller gaps of >3% already prompt review in screening.)",
+    "note": "Pre-ductal saturation on the right hand; difference over 10% suggests PPHN."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "Which maternal medication in late pregnancy is associated with persistent pulmonary hypertension of the newborn?",
+    "options": [
+     "Low-dose aspirin",
+     "Levothyroxine",
+     "Selective serotonin reuptake inhibitors",
+     "Folic acid"
+    ],
+    "answer": 2,
+    "explain": "Late-pregnancy SSRI exposure is associated with PPHN. Other causes of neonatal cyanosis include respiratory disease, cyanotic CHD, methaemoglobinaemia and polycythaemia (haematocrit >65%).",
+    "note": "Respiratory, cardiac, PPHN (SSRIs in pregnancy), methaemoglobinaemia, polycythemia (hematocrit >65%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A newborn with transposition of the great arteries and an intact ventricular septum remains at saturations of 45% despite a prostaglandin E1 infusion. What is the next step?",
+    "options": [
+     "Increase FiO₂ to 1.0 and wait",
+     "Balloon atrial septostomy",
+     "Stop the prostaglandin infusion",
+     "Modified Blalock-Taussig shunt"
+    ],
+    "answer": 1,
+    "explain": "In TGA the circulations run in parallel; mixing depends on the duct and atrial septum. If PGE1 is insufficient, balloon atrial septostomy (Rashkind) improves mixing until the definitive arterial switch.",
+    "note": "Transposition: balloon atrial septostomy before arterial switch."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A baby discharged well at 24 hours of age presents on day 3 grey, profoundly cyanosed and acidotic. A cyanotic heart lesion is later confirmed. What event precipitated the collapse?",
+    "options": [
+     "Fall in pulmonary vascular resistance",
+     "Closure of the foramen ovale",
+     "Rise in systemic vascular resistance after feeding",
+     "Closure of the ductus arteriosus"
+    ],
+    "answer": 3,
+    "explain": "Duct-dependent circulations decompensate when the duct closes on day 2-3. Falling pulmonary vascular resistance over weeks causes heart failure in left-to-right shunts (e.g. VSD at 4-6 weeks), not acute cyanotic collapse.",
+    "note": "Duct closes day 2-3 → collapse."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the causes of neonatal cyanosis, including the five Ts.",
+    "back": "Respiratory • PPHN • Methaemoglobinaemia • Polycythaemia (Hct >65%) • Cardiac: truncus, transposition (day 1), tricuspid atresia, tetralogy (commonest overall), TAPVR."
+   },
+   {
+    "type": "card",
+    "front": "How do you distinguish cardiac from respiratory cyanosis in a neonate?",
+    "back": "Comfortably blue = cardiac; distressed and blue = pulmonary • Hyperoxia test: pulmonary improves on 100% O₂, cardiac/PPHN don't • Pre- vs post-ductal sats (>10% gap → PPHN) • Echo is key."
+   },
+   {
+    "type": "card",
+    "front": "Give the specific treatments in neonatal cyanosis.",
+    "back": "Duct-dependent: PGE1, avoid excess O₂ • TGA: balloon atrial septostomy → arterial switch • PPHN: inhaled NO (cGMP) → ECMO • Methaemoglobinaemia: methylene blue."
+   }
+  ]
+ },
+ "I-10": {
+  "summary": "With hypoglycaemia, take the critical sample before the dextrose and let the ketones decide: high ketones = ketotic/hormonal, low ketones = hyperinsulinism or fat-oxidation defect; in DKA give fluids first and start insulin an hour later without a bolus.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Below which blood glucose concentration is neonatal hypoglycaemia operationally defined?",
+    "options": [
+     "2.6 mmol/L",
+     "1.5 mmol/L",
+     "3.9 mmol/L",
+     "5.5 mmol/L"
+    ],
+    "answer": 0,
+    "explain": "The operational threshold is <2.6 mmol/L (47 mg/dL). 3.9 mmol/L is the adult/diabetes hypoglycaemia alert value.",
+    "note": "Neonatal hypoglycaemia: blood glucose below 2.6 mmol/L."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A macrosomic baby of a mother with poorly controlled gestational diabetes is jittery at 2 hours of age with a glucose of 1.8 mmol/L. What is the mechanism?",
+    "options": [
+     "Maternal insulin crossing the placenta into the fetus",
+     "Depleted glycogen stores from intrauterine growth restriction",
+     "Fetal hyperinsulinism persisting after birth",
+     "Congenital adrenal insufficiency causing cortisol deficiency"
+    ],
+    "answer": 2,
+    "explain": "Maternal glucose (not insulin, which does not cross the placenta) drives fetal β-cell hyperplasia and hyperinsulinism → macrosomia; at birth glucose supply stops but insulin stays high → hypoglycaemia.",
+    "note": "Maternal diabetes → fetal hyperinsulinism → neonatal hypoglycaemia, macrosomia."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An alert 2-year-old has a blood glucose of 2.1 mmol/L in the emergency department with no known cause. He is not seizing and IV access is in place. What should be done immediately before giving glucose?",
+    "options": [
+     "Arrange a supervised diagnostic fast once he is stable",
+     "Draw blood for insulin, C-peptide, cortisol, GH and ketones",
+     "Perform a glucagon stimulation test first",
+     "Send a urine organic acid sample only"
+    ],
+    "answer": 1,
+    "explain": "The critical sample at the time of hypoglycaemia is irreplaceable - after glucose it is uninterpretable. Then treat promptly. A diagnostic fast is a later, controlled investigation.",
+    "note": "Take the critical sample (insulin, C-peptide, cortisol, GH, ketones) before giving glucose."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "A thin, otherwise healthy 3-year-old has a hypoglycaemic episode after missing dinner and breakfast during a viral illness. Critical sample: insulin suppressed, ketones markedly raised, cortisol and GH appropriately high. No hepatomegaly. What is the most likely diagnosis?",
+    "options": [
+     "MCAD deficiency",
+     "Congenital hyperinsulinism",
+     "Glycogen storage disease type I",
+     "Ketotic hypoglycaemia"
+    ],
+    "answer": 3,
+    "explain": "Ketone level at the time of the low sugar is the best discriminator. High ketones with appropriate hormones in a lean 1-5-year-old = ketotic hypoglycaemia. MCAD and hyperinsulinism give low ketones; GSD I gives hepatomegaly and lactic acidosis.",
+    "note": "Ketotic hypoglycaemia of childhood is commonest at 1-5 y; GSD, GH/cortisol deficiency."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 3,
+    "stem": "An 18-month-old becomes drowsy after 24 hours of vomiting. Glucose is 1.6 mmol/L, urine ketones are negative, and an older sibling died suddenly in infancy. Insulin is appropriately suppressed. What is the most likely diagnosis?",
+    "options": [
+     "Medium-chain acyl-CoA dehydrogenase deficiency",
+     "Ketotic hypoglycaemia",
+     "Growth hormone deficiency",
+     "Primary adrenal insufficiency"
+    ],
+    "answer": 0,
+    "explain": "Hypoketotic hypoglycaemia with suppressed insulin = fat-oxidation defect (MCAD), often with a family history of sudden death; managed by avoiding fasting. Ketotic hypoglycaemia, GH and cortisol deficiency are all ketotic.",
+    "note": "No ketones → hyperinsulinism (infant of diabetic mother) or fat-oxidation defect (MCAD)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old is fitting with a capillary glucose of 1.4 mmol/L; IV access is available. What is the correct initial treatment?",
+    "options": [
+     "5 ml/kg of 50% dextrose IV as a rapid bolus",
+     "10 ml/kg of 5% dextrose IV over 1 hour",
+     "Oral glucose gel rubbed into the buccal mucosa",
+     "2 ml/kg of 10% dextrose IV, then an infusion"
+    ],
+    "answer": 3,
+    "explain": "2 ml/kg of 10% dextrose followed by a glucose infusion (glucagon IM if no access). 50% dextrose is hyperosmolar and damages veins in children; buccal gel is unsafe in a fitting child.",
+    "note": "2 ml/kg of 10% dextrose, then infusion; glucagon if no access."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 12-year-old with new type 1 diabetes has glucose 24 mmol/L and blood ketones 4.2 mmol/L. Which additional result is needed to diagnose DKA?",
+    "options": [
+     "pH <7.1 and bicarbonate <5 mmol/L",
+     "pH <7.3 or bicarbonate <18 mmol/L",
+     "Serum osmolality >320 mOsm/kg",
+     "HbA1c >48 mmol/mol"
+    ],
+    "answer": 1,
+    "explain": "DKA = hyperglycaemia + ketosis + acidosis (venous pH <7.3 or bicarbonate <18 mmol/L). pH <7.1/bicarbonate <5 defines severe DKA; osmolality >320 is an HHS criterion.",
+    "note": "DKA = glucose + ketosis + pH <7.3 or bicarbonate <18 mmol/L."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 9-year-old arrives in moderate DKA. A junior doctor plans an IV insulin bolus of 0.1 U/kg followed immediately by an infusion. What is the correct approach?",
+    "options": [
+     "Insulin bolus 0.1 U/kg, then an infusion of 0.1 U/kg/h at once",
+     "Subcutaneous insulin 0.5 U/kg, then start IV fluids",
+     "Fluids first; start insulin 0.05-0.1 U/kg/h an hour later, no bolus",
+     "Insulin infusion 1 U/kg/h until the glucose normalises"
+    ],
+    "answer": 2,
+    "explain": "Insulin bolus and early insulin cause rapid osmotic shifts that predispose to cerebral oedema; give fluids first, then insulin 0.05-0.1 U/kg/h after about an hour, without a bolus.",
+    "note": "DKA: fluids first, then insulin 0.05-0.1 U/kg/h an hour later, no bolus."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "How do you work up hypoglycaemia using ketones?",
+    "back": "Critical sample before glucose: insulin, C-peptide, cortisol, GH, ketones • High ketones: ketotic hypoglycaemia (1-5 y), GSD, GH/cortisol deficiency • Low ketones: hyperinsulinism (IDM), fat-oxidation defect (MCAD)."
+   },
+   {
+    "type": "card",
+    "front": "Give the treatment of hypoglycaemia by cause.",
+    "back": "Acute: 2 ml/kg 10% dextrose → infusion; glucagon if no access • Hyperinsulinism: diazoxide • GSD: cornstarch • MCAD: avoid fasting."
+   },
+   {
+    "type": "card",
+    "front": "Define DKA and HHS and outline DKA treatment.",
+    "back": "DKA: glucose + ketosis + pH <7.3 or HCO₃ <18 • HHS: glucose >600 mg/dL, osmolarity >320 • DKA: fluids first, insulin 0.05-0.1 U/kg/h an hour later, no bolus (cerebral oedema risk)."
+   }
+  ]
+ },
+ "I-11": {
+  "summary": "Most childhood nodes are reactive (soft, tender, <2 cm, gone in 4-6 weeks); worry about nodes over 2 cm and growing, beyond 6 weeks, supraclavicular or painless - start with an FBC and film, and always get a chest X-ray before anyone gives an anaesthetic for biopsy.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Def",
+    "level": 1,
+    "stem": "Which lymph node description is most consistent with a reactive node in a child?",
+    "options": [
+     "Hard, painless 3 cm supraclavicular node",
+     "Rubbery, matted 2.5 cm nodes persisting 8 weeks",
+     "Fixed, non-tender 2.5 cm node enlarging over 6 weeks",
+     "Soft, tender 1.5 cm node that resolves within 4-6 weeks"
+    ],
+    "answer": 3,
+    "explain": "Reactive nodes are soft, tender, under 2 cm and resolve in 4-6 weeks. Size over 2 cm and growing, persistence beyond 6 weeks, supraclavicular site and painlessness are worrying features.",
+    "note": "Reactive nodes (soft, tender, <2 cm, resolve 4-6 wk) vs malignant nodes."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old has fever and a 3 cm hot, red, tender submandibular node a week after impetigo around the mouth. Which organism is most likely?",
+    "options": [
+     "Staphylococcus aureus",
+     "Streptococcus pyogenes",
+     "Bartonella henselae",
+     "Mycobacterium avium complex"
+    ],
+    "answer": 0,
+    "explain": "Acute unilateral suppurative lymphadenitis is most often S. aureus, then S. pyogenes (both cause impetigo, so empirical cover such as co-amoxiclav/flucloxacillin covers both). Bartonella follows a cat scratch; atypical mycobacteria give a cold, non-tender node.",
+    "note": "Localised: Staphylococcus aureus > Streptococcus pyogenes, cat scratch (Bartonella), atypical mycobacteria, TB."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A well 2-year-old has a 3 cm non-tender submandibular node present for 6 weeks with thin, violaceous overlying skin. She is afebrile, chest X-ray is normal and there is no TB contact. What is the most likely diagnosis?",
+    "options": [
+     "Cat-scratch disease",
+     "Staphylococcal lymphadenitis",
+     "Non-tuberculous mycobacterial lymphadenitis",
+     "Hodgkin lymphoma"
+    ],
+    "answer": 2,
+    "explain": "A cold, violaceous, non-tender node in a well toddler is classic atypical (non-tuberculous) mycobacterial infection; treatment is surgical excision. Staphylococcal nodes are hot and tender; Hodgkin is rare at 2 years.",
+    "note": "Cold, violaceous, non-tender node in a toddler: atypical mycobacteria."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 16-year-old has fatigue, fever, exudative pharyngitis, posterior cervical nodes and splenomegaly; the blood film shows atypical lymphocytes. Which part of the lymph node is predominantly expanded?",
+    "options": [
+     "The germinal centres of the cortex",
+     "The paracortex (T-cell zone)",
+     "The medullary sinuses",
+     "The mantle zone around follicles"
+    ],
+    "answer": 1,
+    "explain": "EBV infects B cells, but the nodal enlargement and atypical lymphocytes reflect reactive cytotoxic T-cell proliferation in the paracortex. Follicular (germinal centre) hyperplasia is typical of bacterial/chronic antigenic stimulation.",
+    "note": "EBV: T-cell hyperplasia in the node paracortex."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 3,
+    "stem": "A 14-year-old has a 3 cm painless left supraclavicular node for 7 weeks, night sweats and weight loss. Surgeons plan an excision biopsy under general anaesthesia. What must be done first?",
+    "options": [
+     "Chest X-ray to look for a mediastinal mass",
+     "Fine-needle aspiration of the node in clinic",
+     "Two-week trial of oral antibiotics and review",
+     "Bone marrow aspirate and trephine biopsy"
+    ],
+    "answer": 0,
+    "explain": "Worrying node features suggest lymphoma; a mediastinal mass can cause airway/cardiovascular collapse under general anaesthesia, so a chest X-ray comes before biopsy. Antibiotic trials only delay diagnosis.",
+    "note": "Chest X-ray before biopsy to look for a mediastinal mass."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 5-year-old has generalised lymphadenopathy, pallor, bruising and bone pain. What is the highest-yield first investigation?",
+    "options": [
+     "EBV and CMV serology",
+     "Ultrasound of the cervical nodes",
+     "Excision biopsy of the largest node",
+     "Full blood count and blood film"
+    ],
+    "answer": 3,
+    "explain": "FBC and film is the highest-yield first test: blasts or cytopenias point to leukaemia. CRP, LDH, urate and EBV/CMV serology are useful adjuncts; biopsy comes later and after a chest X-ray.",
+    "note": "Highest-yield first test: full blood count and film; CRP, LDH, urate, EBV/CMV serology."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old has several soft, mobile, non-tender cervical nodes up to 1.5 cm, noticed after a cold 2 weeks ago. He is well with no hepatosplenomegaly. What is the most appropriate management?",
+    "options": [
+     "A 10-day course of co-amoxiclav",
+     "Ultrasound-guided fine-needle aspiration",
+     "Observe and review in 4-6 weeks",
+     "CT of the neck and chest"
+    ],
+    "answer": 2,
+    "explain": "Soft, mobile, non-tender nodes after an URTI are reactive and resolve in 4-6 weeks: observation with safety-netting. Antibiotics are for tender, inflamed nodes; imaging/biopsy are for worrying features.",
+    "note": "Soft, mobile, non-tender nodes: observation; reactive nodes resolve in 4-6 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 13-year-old has a persistent rubbery 3 cm cervical node and a normal chest X-ray; lymphoma is suspected. Which tissue sampling approach is most appropriate?",
+    "options": [
+     "Fine-needle aspiration cytology",
+     "Excisional biopsy of the whole node",
+     "Bone marrow aspirate in place of a node sample",
+     "PET-CT alone and treat empirically"
+    ],
+    "answer": 1,
+    "explain": "Lymphoma diagnosis and subtyping depend on nodal architecture, which FNA cytology cannot show. Excise the whole node (after a chest X-ray).",
+    "note": "Suspected lymphoma: excisional biopsy, not FNA."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "List the worrying features of a lymph node in a child.",
+    "back": "Over 2 cm and growing • Beyond 6 weeks • Supraclavicular • Painless, hard, fixed • Systemic symptoms (night sweats, weight loss), hepatosplenomegaly, abnormal FBC."
+   },
+   {
+    "type": "card",
+    "front": "Give causes of localised vs generalised lymphadenopathy.",
+    "back": "Localised: S. aureus > S. pyogenes, cat scratch (Bartonella), atypical mycobacteria, TB • Generalised: EBV, CMV, toxoplasma, HIV, Kawasaki, JIA, SLE, leukaemia, lymphoma."
+   },
+   {
+    "type": "card",
+    "front": "How do you investigate a suspicious node?",
+    "back": "FBC + film first; CRP, LDH, urate, EBV/CMV serology • Chest X-ray before biopsy (mediastinal mass) • Excisional biopsy, not FNA (architecture)."
+   }
+  ]
+ },
+ "I-12": {
+  "summary": "A child with joint pain has septic arthritis until proven otherwise - aspirate before antibiotics - then classify by age (DDH, Perthes, SUFE) and timing of pain: morning = inflammatory, after activity = mechanical, night = malignant.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 5-year-old boy develops a limp a week after a cold. He is afebrile, looks well and will weight-bear with discomfort; hip internal rotation is mildly reduced. What is the most likely diagnosis?",
+    "options": [
+     "Septic arthritis of the hip",
+     "Transient synovitis",
+     "Perthes disease",
+     "Slipped upper femoral epiphysis"
+    ],
+    "answer": 1,
+    "explain": "Afebrile, well and still weight-bearing after a viral illness = transient synovitis. Septic arthritis: febrile, toxic, refuses to weight-bear. Perthes is insidious; SUFE affects obese adolescents.",
+    "note": "Septic: febrile, toxic, refuses to weight-bear; transient synovitis: afebrile, well, limps."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "Which set correctly lists the Kocher criteria for septic arthritis of the hip?",
+    "options": [
+     "Non-weight-bearing, fever >37.5 °C, ESR >20 mm/h, WBC >10 ×10⁹/L",
+     "Limp, fever >38.5 °C, CRP >100 mg/L, platelets >450 ×10⁹/L",
+     "Night pain, fever >39 °C, ESR >40 mm/h, WBC >15 ×10⁹/L",
+     "Non-weight-bearing, fever >38.5 °C, ESR >40 mm/h, WBC >12 ×10⁹/L"
+    ],
+    "answer": 3,
+    "explain": "Kocher: non-weight-bearing, fever >38.5, ESR >40, WBC >12; the probability of septic arthritis rises steeply with the number present (CRP >20 is a later addition).",
+    "note": "Kocher: non-weight-bearing, fever >38.5, ESR >40, WBC >12."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 6-year-old refuses to weight-bear on the right leg; temperature 39.2 °C, ESR 60 mm/h, WBC 17 ×10⁹/L. Ultrasound shows a hip effusion. What is the most appropriate next step?",
+    "options": [
+     "Joint aspiration and blood cultures, then IV antibiotics and washout",
+     "IV antibiotics now; aspirate only if no response in 48 hours",
+     "MRI of the pelvis under sedation before any intervention",
+     "Oral NSAIDs and rest, with review in 24 hours"
+    ],
+    "answer": 0,
+    "explain": "All four Kocher criteria = septic arthritis very likely. Aspirate the joint (and take blood cultures) before antibiotics, then IV antibiotics and surgical washout - cartilage is destroyed within hours.",
+    "note": "Aspirate the joint before antibiotics → IV antibiotics + surgical washout."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "An obese 13-year-old boy has a 3-week limp and pain in the left knee. On examination, the hip rotates externally when it is passively flexed. What is the most likely diagnosis?",
+    "options": [
+     "Perthes disease",
+     "Osgood-Schlatter disease",
+     "Slipped upper femoral epiphysis",
+     "Developmental dysplasia of the hip"
+    ],
+    "answer": 2,
+    "explain": "Mechanical causes by age: DDH in infancy, Perthes at 4-8 years, SUFE in obese adolescents. Hip pathology is often referred to the knee; obligatory external rotation on flexion is classic SUFE.",
+    "note": "Mechanical by age: DDH infancy, Perthes (4-8 years), SUFE obese adolescent."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does acute haematogenous osteomyelitis in children typically begin in the metaphysis?",
+    "options": [
+     "The epiphyseal growth plate has the richest arterial supply",
+     "Slow-flowing hairpin capillary loops favour bacterial seeding",
+     "The diaphyseal cortex is thinnest in growing bones",
+     "Metaphyseal marrow contains no phagocytic cells"
+    ],
+    "answer": 1,
+    "explain": "In metaphyseal capillary loops blood flow slows and becomes turbulent near the physis, allowing bacteria (usually S. aureus) to settle; MRI is the imaging of choice.",
+    "note": "Osteomyelitis starts in the metaphysis (slow-flowing hairpin capillary loops)."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 4-year-old girl wakes at night crying with leg pain for 3 weeks. She is pale with bruises on her shins and has a low-grade fever. Which diagnosis must be excluded first?",
+    "options": [
+     "Acute lymphoblastic leukaemia",
+     "Growing pains",
+     "Juvenile idiopathic arthritis",
+     "Transient synovitis"
+    ],
+    "answer": 0,
+    "explain": "Night pain = malignant until proven otherwise, and pallor, bruising and fever point to marrow infiltration (ALL). Growing pains do not cause pallor or bruising and the child is well; JIA pain is worse in the morning.",
+    "note": "Morning = inflammatory, after activity = mechanical, night = malignant."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 10-year-old recovering from acute rheumatic fever with carditis needs secondary prophylaxis. She had anaphylaxis to amoxicillin last year. Which prophylaxis is most appropriate?",
+    "options": [
+     "Benzathine penicillin with antihistamine cover",
+     "Oral phenoxymethylpenicillin",
+     "Oral cefalexin",
+     "Oral erythromycin"
+    ],
+    "answer": 3,
+    "explain": "Secondary prophylaxis is with penicillin, but with penicillin anaphylaxis a macrolide (erythromycin/azithromycin) is used. Antihistamine cover does not make penicillin safe after anaphylaxis, and cephalosporins carry cross-reactivity risk.",
+    "note": "Rheumatic fever: penicillin prophylaxis; macrolides if anaphylaxis."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 3-year-old girl has had a swollen, warm, stiff right knee for 8 weeks, worse in the morning. She is afebrile and well, inflammatory markers are mildly raised, and infection and trauma have been excluded. What is the most likely diagnosis?",
+    "options": [
+     "Transient synovitis",
+     "Reactive arthritis",
+     "Oligoarticular juvenile idiopathic arthritis",
+     "Acute rheumatic fever"
+    ],
+    "answer": 2,
+    "explain": "JIA = arthritis with onset before 16 lasting at least 6 weeks with other causes excluded; a young girl with a single large joint fits oligoarticular JIA (screen for uveitis). Transient synovitis and reactive arthritis are self-limiting; rheumatic fever is migratory.",
+    "note": "JIA: onset before 16, lasting at least 6 weeks."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give the causes of arthralgia in children, grouped.",
+    "back": "Septic (S. aureus; Salmonella osteomyelitis in sickle cell) • Reactive: rheumatic fever • Inflammatory: JIA, SLE, HSP • Mechanical by age: DDH, Perthes 4-8 y, SUFE obese adolescent • Malignant: leukaemia."
+   },
+   {
+    "type": "card",
+    "front": "State the Jones major criteria for rheumatic fever and its treatment.",
+    "back": "Carditis • Polyarthritis • Sydenham chorea • Erythema marginatum • Subcutaneous nodules • (+ evidence of GAS) • Penicillin prophylaxis; macrolide if anaphylaxis."
+   },
+   {
+    "type": "card",
+    "front": "How do you separate septic arthritis from transient synovitis?",
+    "back": "Septic: febrile, toxic, refuses to weight-bear • Kocher: NWB, T >38.5, ESR >40, WBC >12 • Aspirate before antibiotics → IV antibiotics + washout • Transient synovitis: afebrile, well, limps → rest, NSAIDs."
+   }
+  ]
+ },
+ "I-13": {
+  "summary": "With blood per rectum, check haemodynamics and do a rectal exam first, then let age and story narrow it: neonate (swallowed blood, NEC, volvulus), toddler (fissure, intussusception, Meckel's), older child (infective colitis, IBD, HSP, HUS).",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A 9-month-old has episodes of inconsolable screaming with drawing up of the legs every 15 minutes, pallor between episodes and a redcurrant-jelly stool. A sausage-shaped mass is felt in the right upper quadrant. What is the investigation of choice?",
+    "options": [
+     "Abdominal ultrasound",
+     "Plain abdominal X-ray",
+     "Technetium-99m pertechnetate scan",
+     "CT abdomen with contrast"
+    ],
+    "answer": 0,
+    "explain": "Paroxysmal pain + sausage mass at 3 months-3 years = intussusception; ultrasound shows the target (doughnut) sign with high sensitivity and no radiation. The pertechnetate scan is for Meckel's.",
+    "note": "Meckel's → technetium-99m pertechnetate scan; intussusception → ultrasound target sign."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 1-year-old with ultrasound-confirmed ileocolic intussusception is haemodynamically stable after fluid resuscitation, with no peritonitis or free air. What is the treatment of choice?",
+    "options": [
+     "Immediate laparotomy and resection",
+     "Nil by mouth and observation for spontaneous reduction",
+     "Colonoscopic reduction",
+     "Air (pneumatic) enema reduction"
+    ],
+    "answer": 3,
+    "explain": "In a stable child without perforation or peritonitis, radiologically guided air or contrast enema reduction succeeds in most cases; surgery is for failure, perforation or peritonitis.",
+    "note": "Intussusception: enema reduction. Volvulus: theatre. NEC: stop feeds, decompress, antibiotics."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 2-year-old boy passes a large volume of dark red blood per rectum and needs a transfusion. He has no abdominal pain, vomiting or diarrhoea. What is the most likely diagnosis?",
+    "options": [
+     "Intussusception",
+     "Meckel's diverticulum",
+     "Juvenile polyp",
+     "Anal fissure"
+    ],
+    "answer": 1,
+    "explain": "Painless, transfusion-requiring bleeding without diarrhoea in a toddler = Meckel's. Intussusception is painful; juvenile polyps and fissures cause small-volume bright red bleeding.",
+    "note": "Painless, transfusion-requiring bleeding without diarrhoea → Meckel's."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 1,
+    "stem": "Why does a Meckel's diverticulum bleed?",
+    "options": [
+     "Ectopic pancreatic tissue releases enzymes that digest the wall",
+     "A vascular malformation in its wall ruptures spontaneously",
+     "Ectopic gastric mucosa secretes acid, ulcerating adjacent ileum",
+     "It acts as a lead point, causing ischaemic necrosis"
+    ],
+    "answer": 2,
+    "explain": "Bleeding is from acid-induced ulceration of neighbouring ileal mucosa by ectopic gastric mucosa - which is also why the pertechnetate scan (taken up by gastric mucosa) detects it. Acting as a lead point causes intussusception, which is painful.",
+    "note": "Meckel's bleeds because it contains ectopic gastric mucosa."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "An 18-month-old with constipation cries when passing hard stools; there are streaks of fresh red blood on the stool surface and the nappy. He is otherwise well. What is the most likely cause?",
+    "options": [
+     "Anal fissure",
+     "Juvenile polyp",
+     "Cow's milk protein allergy",
+     "Meckel's diverticulum"
+    ],
+    "answer": 0,
+    "explain": "Anal fissure is the commonest cause of rectal bleeding in toddlers: pain on defecation, hard stool and blood streaking the stool surface. Inspect the anus; treat the constipation.",
+    "note": "Toddler: fissure (commonest), intussusception, Meckel's, polyp."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "A well, breastfed 2-day-old has a dark bloody stool. He is feeding well, the abdomen is soft, and his mother has cracked, bleeding nipples. Which test best confirms the likely cause?",
+    "options": [
+     "Abdominal X-ray for pneumatosis",
+     "Coagulation screen and vitamin K level",
+     "Upper GI contrast study",
+     "Apt test on the blood"
+    ],
+    "answer": 3,
+    "explain": "Swallowed maternal blood is confirmed by the Apt test (adult HbA is denatured by alkali to brown; fetal HbF stays pink). In a well baby with a soft abdomen, NEC and volvulus are unlikely; check vitamin K was given.",
+    "note": "Apt test for maternal blood."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 4-year-old has bloody diarrhoea 3 days after visiting a petting farm; stool culture grows E. coli O157. He is well hydrated. What is the most appropriate management?",
+    "options": [
+     "Supportive care without antibiotics, monitoring FBC and creatinine",
+     "Oral ciprofloxacin for 5 days",
+     "Oral azithromycin for 3 days",
+     "Loperamide to reduce stool frequency"
+    ],
+    "answer": 0,
+    "explain": "Antibiotics (and antimotility agents) increase Shiga toxin release and HUS risk. Manage supportively and monitor for haemolytic anaemia, thrombocytopenia and acute kidney injury.",
+    "note": "HUS: no antibiotics for E. coli O157."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 3-week-old has sudden bilious vomiting, abdominal distension and a bloody stool. An upper GI contrast study shows a corkscrew duodenojejunal course. What is the next step?",
+    "options": [
+     "Air enema reduction",
+     "Stop feeds and observe for 24 hours",
+     "Emergency laparotomy",
+     "Technetium-99m pertechnetate scan"
+    ],
+    "answer": 2,
+    "explain": "Bilious vomiting + blood = malrotation with midgut volvulus until proven otherwise; this is a surgical emergency (Ladd procedure) because the whole midgut can infarct within hours. Volvulus: theatre.",
+    "note": "Bilious vomiting + blood → volvulus."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give causes of bloody stool by age.",
+    "back": "Neonate: swallowed maternal blood, NEC, CMPA, volvulus, vitamin K deficiency • Toddler: fissure (commonest), intussusception, Meckel's, polyp • Older: infectious colitis, IBD, HSP, HUS."
+   },
+   {
+    "type": "card",
+    "front": "State the Meckel's rule of 2s and how it presents.",
+    "back": "2% of people • 2 feet from ileocaecal valve • 2 inches long • presents under 2 • Painless, large bleed from ectopic gastric mucosa → Tc-99m pertechnetate scan."
+   },
+   {
+    "type": "card",
+    "front": "Give the specific management for each surgical cause of bloody stool.",
+    "back": "Shock → resuscitate first (wide-bore access, fluids, cross-match) • Intussusception: enema reduction • Volvulus: theatre • NEC: stop feeds, NG decompression, antibiotics • HUS: no antibiotics for O157."
+   }
+  ]
+ },
+ "I-14": {
+  "summary": "In a child with haematemesis, first prove the blood is the child's own and from the GI tract, then split variceal from non-variceal - that split decides the treatment; a swallowed button battery is an emergency within hours.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 2,
+    "stem": "An 8-year-old vomits dark blood once in the morning. He had a nosebleed overnight, is haemodynamically normal and has no abdominal symptoms. What is the most appropriate next step?",
+    "options": [
+     "Examine the nose and pharynx for a bleeding source",
+     "Urgent upper GI endoscopy within 12 hours",
+     "Start a high-dose IV proton pump inhibitor infusion",
+     "Abdominal Doppler ultrasound of the portal vein"
+    ],
+    "answer": 0,
+    "explain": "Exclude impostors first: swallowed blood from epistaxis (or a cracked nipple in breastfed neonates, or red foods) mimics haematemesis. Endoscopy and PPIs are for true upper GI bleeding.",
+    "note": "Exclude impostors: epistaxis, cracked nipple (Apt test), red foods."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 2,
+    "stem": "A 6-year-old who had an umbilical venous catheter as a preterm neonate presents with a large haematemesis and splenomegaly. Liver function tests and liver size are normal. What is the mechanism of his bleeding?",
+    "options": [
+     "Intrahepatic portal hypertension from cirrhosis",
+     "Post-hepatic obstruction from hepatic vein thrombosis",
+     "Peptic ulceration from stress gastritis",
+     "Pre-hepatic portal hypertension from portal vein thrombosis"
+    ],
+    "answer": 3,
+    "explain": "Umbilical venous catheterisation predisposes to portal vein thrombosis → pre-hepatic portal hypertension → oesophageal varices with normal liver synthetic function. Budd-Chiari (post-hepatic) causes hepatomegaly and ascites.",
+    "note": "Portal vein thrombosis → pre-hepatic portal hypertension → varices."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 2,
+    "stem": "A 10-year-old presents with haematemesis. Which examination or laboratory finding most strongly suggests a variceal source?",
+    "options": [
+     "Epigastric tenderness",
+     "Splenomegaly with thrombocytopenia",
+     "Recent ibuprofen use for a sprain",
+     "Retching immediately before the bleed"
+    ],
+    "answer": 1,
+    "explain": "Signs of portal hypertension - splenomegaly, ascites, caput medusae and thrombocytopenia (hypersplenism) - point to varices. Epigastric pain/NSAIDs suggest peptic ulcer; retching suggests Mallory-Weiss.",
+    "note": "Splenomegaly, ascites, caput medusae, thrombocytopenia → variceal."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 3,
+    "stem": "A 12-year-old with biliary atresia after Kasai has a large haematemesis; after two large-bore cannulas and transfusion he is stabilising. Which combination of treatment is most appropriate?",
+    "options": [
+     "High-dose IV proton pump inhibitor alone with endoscopy at 48 hours",
+     "Oral propranolol started now with outpatient endoscopy",
+     "Octreotide or terlipressin, IV antibiotics and endoscopic band ligation",
+     "Immediate balloon tamponade as definitive first-line therapy"
+    ],
+    "answer": 2,
+    "explain": "Variceal bleeding: vasoactive drug (octreotide/terlipressin) + prophylactic antibiotics + band ligation. Beta-blockers are for prophylaxis, not acute bleeding; balloon tamponade is a temporary rescue.",
+    "note": "Variceal: terlipressin or octreotide + prophylactic antibiotics + band ligation."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 14-year-old taking regular naproxen for dysmenorrhoea vomits coffee-ground material. She is stable with no stigmata of liver disease. What is the most appropriate management?",
+    "options": [
+     "High-dose IV proton pump inhibitor and endoscopy",
+     "Octreotide infusion and urgent band ligation",
+     "Terlipressin and prophylactic IV ceftriaxone",
+     "Oral sucralfate and discharge with GP follow-up"
+    ],
+    "answer": 0,
+    "explain": "Non-variceal bleeding (NSAID ulcer/gastritis): high-dose PPI plus endoscopy (diagnostic ± therapeutic); stop the NSAID and test for H. pylori. Vasoactive drugs and band ligation are for varices.",
+    "note": "Non-variceal: high-dose proton pump inhibitor + endoscopy; button battery → emergency removal."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "A 2-year-old swallowed a coin-sized lithium button battery 1 hour ago and is drooling. X-ray shows a round object with a double-ring (halo) outline in the upper oesophagus. What is the next step?",
+    "options": [
+     "Repeat X-ray in 24 hours to see if it passes",
+     "Induce vomiting with ipecacuanha",
+     "Proton pump inhibitor and observation",
+     "Emergency endoscopic removal"
+    ],
+    "answer": 3,
+    "explain": "Button batteries cause liquefactive necrosis within hours and can erode into the aorta (aorto-oesophageal fistula) - they must be removed immediately. Waiting is only acceptable for coins or batteries already beyond the stomach in asymptomatic children.",
+    "note": "Button battery → necrosis within hours → can erode into the aorta."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 1,
+    "stem": "A 4-day-old born at home, whose parents declined all injections, has haematemesis, oozing from the umbilical stump and bleeding from heel-prick sites. What is the most likely diagnosis?",
+    "options": [
+     "Haemophilia A",
+     "Vitamin K deficiency bleeding",
+     "Immune thrombocytopenia",
+     "Disseminated intravascular coagulation from sepsis"
+    ],
+    "answer": 1,
+    "explain": "Bleeding from several sites in a neonate who did not receive vitamin K = vitamin K deficiency bleeding; treat with IV vitamin K plus FFP if bleeding significantly. Haemophilia rarely causes umbilical/GI bleeding; DIC occurs in a septic, unwell baby.",
+    "note": "Neonate bleeding from several sites → vitamin K deficiency."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 1,
+    "stem": "A 15-year-old vomits repeatedly after drinking alcohol at a party; the last vomit contains streaks of bright red blood. He is haemodynamically stable. What is the most likely cause?",
+    "options": [
+     "Oesophageal varices",
+     "Duodenal ulcer",
+     "Mallory-Weiss tear",
+     "Boerhaave perforation"
+    ],
+    "answer": 2,
+    "explain": "Bright red streaks after repeated forceful vomiting = Mallory-Weiss mucosal tear, usually self-limiting. Boerhaave is a full-thickness rupture with chest pain and surgical emphysema; varices need portal hypertension.",
+    "note": "Non-variceal: oesophagitis, gastritis, peptic ulcer (H. pylori, NSAIDs), Mallory-Weiss, button battery."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Give causes of upper GI bleeding in children.",
+    "back": "Non-variceal: oesophagitis, gastritis, peptic ulcer (H. pylori, NSAIDs), Mallory-Weiss, button battery • Variceal: portal vein thrombosis (UVC), biliary atresia • Neonate: swallowed maternal blood, vitamin K deficiency."
+   },
+   {
+    "type": "card",
+    "front": "Outline the approach to haematemesis.",
+    "back": "Exclude impostors (epistaxis, cracked nipple - Apt test, red foods) • Resuscitate: 2 large cannulas, cross-match, blood; vitamin K + FFP for coagulopathy • Split variceal vs non-variceal."
+   },
+   {
+    "type": "card",
+    "front": "Compare variceal and non-variceal treatment.",
+    "back": "Variceal: terlipressin/octreotide + prophylactic antibiotics + band ligation • Non-variceal: high-dose PPI + endoscopy • Button battery: emergency removal."
+   }
+  ]
+ },
+ "I-15": {
+  "summary": "For proteinuria ask 'is it real, is it big?' (first-morning urine, protein:creatinine ratio); most is transient or orthostatic, and a typical nephrotic child aged 1-10 gets steroids without biopsy. Leukocyturia is UTI until the culture is negative.",
+  "questions": [
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "An overweight 15-year-old boy has 2+ protein on dipstick at a sports medical. He is normotensive with no oedema or haematuria, and a first-morning urine sample is negative for protein. What is the most likely diagnosis?",
+    "options": [
+     "Minimal change disease",
+     "IgA nephropathy",
+     "Focal segmental glomerulosclerosis",
+     "Orthostatic proteinuria"
+    ],
+    "answer": 3,
+    "explain": "Proteinuria in the upright position only, with a negative first-morning sample, is orthostatic (postural) - benign and common in adolescents. Glomerular disease gives persistent proteinuria including on waking.",
+    "note": "Commonest: transient proteinuria; orthostatic (upright only, overweight adolescents)."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "A 9-year-old has 1+ protein on a random urine dipstick during a GP visit for a cold. What is the most appropriate next step?",
+    "options": [
+     "Repeat on a first-morning urine and quantify with a protein:creatinine ratio",
+     "Renal ultrasound and referral to nephrology",
+     "24-hour urine collection and renal biopsy",
+     "Serum complement and anti-streptococcal antibodies"
+    ],
+    "answer": 0,
+    "explain": "Is it real, is it big? Start with urinalysis, confirm on first-morning urine (excludes orthostatic/transient) and quantify with a protein:creatinine ratio. Febrile illness commonly causes transient proteinuria.",
+    "note": "Start with urinalysis; confirm on first-morning urine; quantify with protein:creatinine ratio."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old boy has periorbital swelling for a week, now with ankle oedema. Urine shows 4+ protein, no blood; albumin is 16 g/L, BP and complement are normal. What is the most likely underlying histology?",
+    "options": [
+     "Focal segmental glomerulosclerosis",
+     "Membranous nephropathy",
+     "Minimal change disease",
+     "Post-streptococcal glomerulonephritis"
+    ],
+    "answer": 2,
+    "explain": "Nephrotic syndrome aged 1-10 without haematuria, hypertension or low complement is minimal change disease in ~90%. Membranous is an adult disease; PSGN is nephritic with low C3.",
+    "note": "Nephrotic age 1-10 → minimal change disease (~90%)."
+   },
+   {
+    "type": "mcq",
+    "block": "Rx",
+    "level": 2,
+    "stem": "A 4-year-old has typical nephrotic syndrome: heavy proteinuria, albumin 18 g/L, oedema, normal BP, normal renal function and normal complement. What is the most appropriate initial management?",
+    "options": [
+     "Renal biopsy before starting any treatment",
+     "Oral prednisolone without renal biopsy",
+     "IV cyclophosphamide",
+     "ACE inhibitor alone"
+    ],
+    "answer": 1,
+    "explain": "Typical nephrotic syndrome aged 1-10 is presumed minimal change and treated with steroids without biopsy; biopsy is for atypical features (age <1 or >10, haematuria, hypertension, low C3, steroid resistance).",
+    "note": "Typical nephrotic 1-10 y → steroids without biopsy."
+   },
+   {
+    "type": "mcq",
+    "block": "Signs",
+    "level": 3,
+    "stem": "A 5-year-old in relapse of nephrotic syndrome with gross ascites develops fever, diffuse abdominal pain, guarding and rebound tenderness. What is the most likely diagnosis?",
+    "options": [
+     "Spontaneous bacterial peritonitis",
+     "Renal vein thrombosis",
+     "Steroid-induced peptic ulcer perforation",
+     "Acute appendicitis"
+    ],
+    "answer": 0,
+    "explain": "Loss of immunoglobulins and complement factors in urine plus ascites predispose to spontaneous bacterial (classically pneumococcal) peritonitis. Renal vein thrombosis presents with flank pain and haematuria.",
+    "note": "Nephrotic complications: spontaneous bacterial peritonitis, renal vein thrombosis, PE."
+   },
+   {
+    "type": "mcq",
+    "block": "Patho",
+    "level": 3,
+    "stem": "An 8-year-old develops cola-coloured urine, hypertension and oedema 2 weeks after a sore throat; C3 is low and C4 normal. Which finding at follow-up would be atypical for the likely diagnosis and prompt renal biopsy?",
+    "options": [
+     "Microscopic haematuria persisting at 6 months",
+     "Hypertension in the first week",
+     "Raised ASOT titre at presentation",
+     "C3 still low at 12 weeks"
+    ],
+    "answer": 3,
+    "explain": "Post-streptococcal GN (1-2 weeks after pharyngitis, 3-6 weeks after skin infection) has low C3 with normal C4 that normalises by 8 weeks; persistent hypocomplementaemia suggests C3 glomerulopathy/MPGN or lupus. Microscopic haematuria may persist for up to 1-2 years.",
+    "note": "PSGN: low C3, normal C4, normal by 8 weeks; follows pharyngitis by 1-2 weeks, skin by 3-6 weeks."
+   },
+   {
+    "type": "mcq",
+    "block": "Dx",
+    "level": 1,
+    "stem": "On urine dipstick testing for UTI, which result is most specific for bacterial infection?",
+    "options": [
+     "Positive leucocyte esterase",
+     "Positive blood",
+     "Positive nitrite",
+     "Positive protein"
+    ],
+    "answer": 2,
+    "explain": "Nitrites (from Gram-negative nitrate reductase) are specific but insensitive (need urine dwell time - often negative in infants); leucocyte esterase is sensitive but not specific. Culture confirms.",
+    "note": "UTI: nitrites specific, leucocyte esterase sensitive; nephritic → complement, ASOT."
+   },
+   {
+    "type": "mcq",
+    "block": "Cause",
+    "level": 2,
+    "stem": "A 3-year-old has had 6 days of fever, red cracked lips and bilateral non-purulent conjunctivitis. He has received no antibiotics. Urine microscopy shows many white cells but the culture is sterile. What is the most likely explanation for the pyuria?",
+    "options": [
+     "Partially treated urinary tract infection",
+     "Kawasaki disease",
+     "Renal tuberculosis",
+     "Acute appendicitis"
+    ],
+    "answer": 1,
+    "explain": "Sterile pyuria has a short differential: partially treated UTI, renal TB, Kawasaki disease and appendicitis. With ≥5 days of fever, oral changes and conjunctivitis, Kawasaki explains it (urethritis-related pyuria).",
+    "note": "Sterile pyuria: partially treated UTI, renal tuberculosis, Kawasaki disease, appendicitis."
+   }
+  ],
+  "cards": [
+   {
+    "type": "card",
+    "front": "Contrast nephrotic and nephritic syndrome.",
+    "back": "Nephrotic: heavy proteinuria, oedema, albumin <30 g/L, hyperlipidaemia; complications SBP, renal vein thrombosis, PE • Nephritic: haematuria with red cell casts, hypertension, milder proteinuria → complement, ASOT, urgent nephrology."
+   },
+   {
+    "type": "card",
+    "front": "How do you work up proteinuria in a child?",
+    "back": "Is it real, is it big? • Urinalysis → first-morning urine (excludes orthostatic) → protein:creatinine ratio • Commonest: transient, orthostatic • Nephrotic 1-10 y = minimal change ~90% → steroids without biopsy."
+   },
+   {
+    "type": "card",
+    "front": "Approach to leukocyturia and imaging after UTI.",
+    "back": "Leukocyturia = UTI until culture negative • Nitrite specific, LE sensitive • Sterile pyuria: partially treated UTI, renal TB, Kawasaki, appendicitis • After UTI: ultrasound → MCUG (VCUG), DMSA."
+   }
+  ]
+ }
+}
