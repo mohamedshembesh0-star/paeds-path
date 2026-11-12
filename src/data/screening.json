@@ -518,7 +518,8 @@
   "n": 86,
   "q": "Name five examples where pulse oximetry is not informative!",
   "a": "Carbon monoxide intoxication, methaemoglobinaemia, severe anaemia, cardiac failure, cold extremities.",
-  "topicId": "I-48"
+  "topicId": "I-48",
+  "caveat": "The university sheet prints 'Carbon-dioxide intoxication' here. Carbon monoxide is the medically correct one; if the examiner goes by the sheet, say what the sheet says."
  },
  {
   "n": 87,

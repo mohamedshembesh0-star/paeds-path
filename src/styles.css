@@ -1002,3 +1002,41 @@ body { background-image: radial-gradient(circle at 1px 1px, rgba(50,107,88,.07) 
   .exam-left { flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .exam-figure .breathe, .bars i, .spot-pulse { animation: none; } }
+
+/* Screening flashcards */
+.flash-wrap { max-width: 760px; }
+.flash-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; justify-content: space-between; margin: 18px 0 12px; }
+.flash-head h2 { margin: 2px 0 0; font: 800 26px var(--app-font-serif); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.flash-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.flash-actions button:disabled { opacity: .45; cursor: default; }
+.flash-bar { height: 8px; border-radius: 99px; background: #e6e3d9; overflow: hidden; }
+.flash-bar span { display: block; height: 100%; border-radius: 99px; background: var(--forest); transition: width .3s ease-out; }
+.flash-meta { margin: 8px 0 14px; color: var(--muted-ink); font-size: 13px; font-variant-numeric: tabular-nums; }
+.flash-card { cursor: pointer; user-select: none; -webkit-user-select: none; touch-action: manipulation; outline: none; }
+.flash-card:focus-visible .flash-face { outline: 3px solid #7daf98; outline-offset: 3px; }
+.flash-inner { display: grid; animation: flash-in .22s ease-out both; }
+@keyframes flash-in { from { opacity: 0; translate: 18px 0; } to { opacity: 1; translate: 0 0; } }
+@keyframes flash-flip { from { transform: scaleY(.08); opacity: .3; } to { transform: scaleY(1); opacity: 1; } }
+.flash-face { grid-area: 1 / 1; min-height: min(46dvh, 380px); display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 30px 28px; border: 1px solid var(--line); border-radius: 22px; background: #fff; box-shadow: 0 10px 30px rgba(32,42,59,.08); }
+.flash-back { background: #f1f7f2; border-color: #cfe0d5; visibility: hidden; }
+.flash-card.flipped .flash-front { visibility: hidden; }
+.flash-card.flipped .flash-back { visibility: visible; animation: flash-flip .2s ease-out both; }
+.flash-face p { margin: 0; font: 600 clamp(19px, 2.6vw, 25px)/1.4 var(--app-font-sans); text-wrap: pretty; }
+.flash-back p { color: #1f4a3b; }
+.flash-face em { font-style: normal; font-size: 13.5px; line-height: 1.45; color: #7a5a12; background: #f8efd6; padding: 8px 11px; border-radius: 10px; }
+.flash-face small { color: #97a09c; font-size: 12.5px; }
+.flash-n { font: 700 11px var(--app-font-mono); letter-spacing: .1em; text-transform: uppercase; color: #8a938f; }
+.flash-buttons { display: flex; gap: 10px; margin-top: 14px; }
+.flash-buttons .button { flex: 1; min-height: 54px; justify-content: center; font-size: 15px; }
+.flash-again { background: #f8e2db; color: #8a3e2c; }
+.flash-again:hover { background: #f3d3c9; }
+.flash-right { background: var(--forest); color: #fff; }
+.flash-right:hover { background: var(--forest-deep); }
+.flash-keys { margin: 10px 0 0; text-align: center; color: #97a09c; font-size: 12px; }
+.flash-done { display: grid; justify-items: center; gap: 8px; padding: 46px 20px; text-align: center; border: 1px solid var(--line); border-radius: 22px; background: #fff; }
+.flash-done h2 { margin: 6px 0 0; font: 800 28px var(--app-font-serif); }
+.flash-done p { margin: 0 0 8px; color: var(--muted-ink); }
+.flash-done .flash-buttons { width: min(100%, 420px); }
+.flash-done-ico { width: 64px; height: 64px; display: grid; place-items: center; border-radius: 50%; background: var(--mint); color: var(--forest-deep); }
+@media (hover: none) { .mouse-only, .flash-keys { display: none; } }
+@media (prefers-reduced-motion: reduce) { .flash-inner, .flash-card.flipped .flash-back { animation: none; } }
